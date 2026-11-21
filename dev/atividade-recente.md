@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 17:55 por scripts\Sincronizar.ps1
+Gerado em 21/11/2026 18:04 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -156,10 +156,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-162-ajustes
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 004f70f SS8-162: ajustes do design das telas gen├®ricas
 - 2026-11-21 2722217 Merge SS8-131: Migra├º├úo Web ÔÇö Faturamento/Fiscal: NF-e (envio SEFAZ, cancelamento, carta de corre├º├úo, inutiliza├º├úo, eventos), DANFE e XML
 - 2026-11-21 7a65810 Merge master (SS8-158/162) na SS8-131
 - 2026-11-21 e2ab007 Merge SS8-162: ERP: atualizar o design das telas (Table, Details e Report) no padr├úo do MES
