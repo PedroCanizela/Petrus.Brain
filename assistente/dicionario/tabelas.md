@@ -1,4 +1,4 @@
-﻿# Dicionario de dados do Petrus (gerado do Dados.cs)
+# Dicionario de dados do Petrus (gerado do Dados.cs)
 
 Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na tela | tipo.
 

@@ -13,7 +13,7 @@ Tudo que a IA do WhatsApp (Zapster + Claude, no Petrus.Suporte) precisa saber so
 
 ## Como o conhecimento chega ao assistente
 Hoje: `Petrus.Suporte\Tools\AtualizarBase.ps1` varre o código do Petrus e grava SS1/SS2 no cnzla (tarefa semanal `atualizar-base-assistente`). O Brain guarda a cópia legível desse material e o que foi curado à mão.
-Próximo passo (decisão pendente do Pedro): fazer o AtualizarBase ler `sistema\*.md` do Brain como fonte de tópicos, para que editar o Brain atualize o assistente.
+Ligado em 21/11/2026 (branch `feature/base-conhecimento` do Petrus.Suporte, ainda não mergeada): `Tools\LerBrain.ps1` converte cada nota de `assistente\sistema\*.md` em tópico (título = descrição, cada linha/linha de tabela = um passo) e o `AtualizarBase.ps1` grava junto com os manuais. Editar uma nota aqui chega ao assistente na próxima varredura (semanal, ou rodando `Tools\AtualizarBase.ps1` na branch).
 
 ## Regras
 - Gerado = não editar; ele é sobrescrito na sincronização diária. Curado (`sistema\`) = a sincronização **não** sobrescreve.

@@ -5,6 +5,7 @@ Cérebro dos sistemas do Pedro, para o Claude e para a IA do WhatsApp. Regras e 
 ## 🛠️ Dev (cérebro do Claude)
 - [[sistemas]] — mapa dos sistemas, repositórios, bancos e projetos
 - [[MEMORY|Índice das memórias]] — um fato por arquivo em `dev/memorias`
+- [[migracao-lacunas]] — o que falta da migração Petrus → Petrus.ERP (21/11/2026)
 - [[GUIA-RESTAURAR]] — como restaurar em outra conta ou PC
 - [[atividade-recente]] — commits e branches dos últimos 14 dias
 
