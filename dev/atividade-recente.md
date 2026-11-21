@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 18:12 por scripts\Sincronizar.ps1
+Gerado em 21/11/2026 18:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -156,11 +156,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-166-abas-telas
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 db5861c Merge SS8-166: ERP: abas de telas e cadastros (navegar entre v├írias telas abertas, como no Petrus desktop)
 - 2026-11-21 e645848 SS8-166: abas de telas e cadastros, como no Petrus desktop
 - 2026-11-21 f19c6ae Merge SS8-162: ajustes do design das telas gen├®ricas (Details, cabe├ºalho do SfGrid, busca e exporta├º├úo)
 - 2026-11-21 004f70f SS8-162: ajustes do design das telas gen├®ricas
