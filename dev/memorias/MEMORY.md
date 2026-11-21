@@ -6,4 +6,6 @@
 - [Usabilidade do desktop no web](usabilidade-desktop-no-web.md) — lista padrão, seleção, duplo clique e funções na barra, como no frmInterface
 - [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
 - [Petrus.Brain](petrus-brain.md) — repo-cérebro (dev + assistente WhatsApp), sync diária, CLAUDE.md de entrada
+- [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
+- [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar

@@ -7,7 +7,7 @@ Levantamento de 21/11/2026. Fontes: `Petrus.ERP/Docs/migracao-inventario.md` (ge
 | Item | Total | Situação |
 |---|---:|---|
 | Telas do catálogo (S6) | 358 | Tem página própria: 59 · Genérica: 252 · "Falta": 47 |
-| Funções S39 | 272 | Migradas: **144** (eram 87 em 20/11 e 118 hoje cedo) · faltam: **128** (~22.318 linhas de código do desktop; inventário regenerado à tarde de 21/11) |
+| Funções S39 | 272 | Migradas: **159** (87 em 20/11, 118 de manhã, 144 à tarde) · faltam: **113** (~20.128 linhas de código do desktop; inventário regenerado à noite de 21/11) |
 | Funções que nem o desktop implementa | 10 | ignorar na conta (ex.: Gerar remessa 100319, Cotar preços 100249) |
 | Forms dedicados do desktop | 137 | a maioria sem equivalente web (ver abaixo) |
 
@@ -66,7 +66,16 @@ Maior pendência de função: FINANCEIRO (99), COMERCIAL (88), FATURAMENTO (98),
 - SS8-156 /Table devolver arquivo para download (pré-requisito das demais) — **Concluída**
 - SS8-150 (Trocar módulo, IDs 71/72) também foi **Concluída**.
 
-Situação em 21/11/2026 à tarde. A SS8-148 e as outras seguem como na seção acima; reconferir com `/demandas`.
+Situação em 21/11/2026 à noite: **148, 147 e 153 saíram da fila aberta (concluídas)**; 131, 133 e 149 subiram para prioridade Alta; 151, 152 e 155 seguem Pendentes. Reconferir com `/demandas`.
+
+### Demandas criadas à noite de 21/11/2026 para as lacunas abaixo
+- SS8-157 SPED fiscal (Média) · SS8-158 resto das funções do pedido de venda (Média) · SS8-159 Importar compra (Baixa) · SS8-160 forms financeiros sem S39 (Baixa) · SS8-161 homologação contra o banco, com correção do script do inventário e auditoria dos marcadores (Alta).
+
+### Ainda sem demanda (após as concluídas) — lista original, agora coberta pelas 157 a 161
+- **SPED fiscal (L6):** gerar e exportar SPED (2 funções, ~400 linhas). Não está na 131.
+- **Pedido de venda sem dono:** minuta de despacho, termo de responsabilidade, feirinha, exportar cópia, enviar solicitação de depósito, enviar cotação de frete, ordem de separação, etiquetas (10 funções que a 148 não levou).
+- **Concluída com resto:** a 147 fechou, mas `Importar compra` (I57, 100330) continua "Falta".
+- Forms financeiros sem S39 (`frmAvaliacaoCredito`, `frmOrcamento`, `frmRecebimento*`, `frmAgendamentoPagFor`, `frmNotasMultaJuros`) e homologação contra o banco.
 
 ## Sugestão de próximos passos
 

@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 16:50 por scripts\Sincronizar.ps1
+Gerado em 21/11/2026 17:52 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -156,12 +156,21 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-147-compras-historico-perfil
-- + feature/ss8-153-cadastros-produto-natureza-tabela
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 2722217 Merge SS8-131: Migração Web — Faturamento/Fiscal: NF-e (envio SEFAZ, cancelamento, carta de correção, inutilização, eventos), DANFE e XML
+- 2026-11-21 7a65810 Merge master (SS8-158/162) na SS8-131
+- 2026-11-21 e2ab007 Merge SS8-162: ERP: atualizar o design das telas (Table, Details e Report) no padrão do MES
+- 2026-11-21 300af14 SS8-131: NF-e no Petrus Web (envio SEFAZ, cancelamento, CC-e, consulta, inutilização, DANFE e XML)
+- 2026-11-21 ba582e5 Merge SS8-158: Migração Web — Vendas: resto das funções do pedido de venda (minuta, termo, feirinha, cópia, depósito, cotação de frete, ordem de separação, etiquetas)
+- 2026-11-21 043d4f7 SS8-158: PDFs, etiquetas e e-mails do pedido de venda no Petrus Web
+- 2026-11-21 62695d8 SS8-162: telas genéricas (Table, Details, Report) na disposição do desktop
+- 2026-11-21 4bb0e70 Merge SS8-151: Migração Web — Financeiro: baixar título, lançar parcelas, conciliar movimento e recibos
+- 2026-11-21 4774a3a SS8-151: baixa de títulos, lançamento de parcelas, conciliação bancária e recibos no Petrus Web
+- 2026-11-21 661f3bf Merge SS8-153: Migração Web — Cadastros: produto, natureza de operação, tabela de preço e catálogo
+- 2026-11-21 4f4ff37 Merge SS8-147: Migração Web — Compras: perfil do fornecedor e histórico de compras
 - 2026-11-21 cf338c5 SS8-147: registra as decisões do Importar compra e do resumo do fornecedor
 - 2026-11-21 10b9adf SS8-153: cadastros de produto, natureza de operação, tabela de preço e catálogo no Petrus Web
 - 2026-11-21 5f21af9 SS8-147: perfil do fornecedor e histórico de compras no Petrus Web (parcial)

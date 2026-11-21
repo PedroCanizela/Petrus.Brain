@@ -17,6 +17,7 @@ Migração WinForms → Petrus.ERP Blazor iniciada em 19/11/2026. O usuário def
 - Demandas: SS8-125 (mãe) a 148, prefixo "Migração Web —".
 - Situação em 20/11/2026: 87 de 272 funções S39 migradas. Concluídas: 126, 127, 128, 129, 134, 135, 136, 138, 139, 143, 144, 145, 146. Abertas: 130, 131, 132, 133, 137, 140, 141, 142, 147 e 148 (resto da 129: faturar sem NF-e, estorno, devolução, forms do pedido, comissões).
 - Ordem combinada: 148 → 130 (decisões de certificado/impressão, do usuário) → 132 → 131 → 133 → 137 → 147 → 140 → 141 → 142. Download de arquivo nas funções S39 feito na SS8-156 (merge 24e97ba, 21/11/2026): usar `AcaoS39.ExecutarComArquivo` (por registro) ou `ArquivoDaSelecao` (um arquivo para a seleção); vários PDFs são juntados num só, tipos mistos viram .zip.
+- SS8-158 (aprovada e na master em 21/11/2026, merge ba582e5): PDFs/etiquetas/e-mails do pedido; 178 de 272 funções. Criou a base de e-mail do ERP (`Petrus.Core/Utils/EnvioEmail.cs`: rotina S65 por tipo, SMTP, R47 "Faturamento"/R51 "Comercial") e `RelatorioPdf.GerarPaginas` (Prepare(true) por página); Petrus.Vendas passou a referenciar Petrus.Fiscal para usar os .frx (minuta, minuta3, etiqueta). "Posição ao vendedor" (100106/107/207/208, relatórios ao vendedor por e-mail) ficou de fora.
 - As entregas foram só compiladas, nenhuma testada contra o banco.
 - Merge: o Docs/migracao-inventario.md conflita entre demandas paralelas; resolve trazendo a master para a branch e rodando o script de inventário de novo.
 
