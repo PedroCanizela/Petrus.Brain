@@ -1,0 +1,5 @@
+conexao.txt
+appsettings*.json
+credentials.xml
+*.pfx
+*.user

@@ -1,0 +1,66 @@
+[
+  {
+    "chave": "assistente-como-usar",
+    "descricao": "Como usar o assistente de suporte do Petrus pelo WhatsApp",
+    "categoria": "Assistente",
+    "tags": "assistente; whatsapp; suporte; ajuda; como usar; bot; robô",
+    "passos": [
+      "Escreva a dúvida em texto, com o máximo de detalhe: tela, número do pedido, da nota ou do título, e a mensagem de erro exatamente como aparece.",
+      "O assistente responde com o passo a passo ou com a causa do problema. Quando precisa conferir um registro, ele consulta o banco da sua empresa só para leitura.",
+      "Áudio, imagem e figurinha ainda não são entendidos. Para erro na tela, copie o texto da mensagem.",
+      "Para falar com uma pessoa da equipe, escreva: atendente.",
+      "Para começar um assunto novo do zero, escreva: nova conversa."
+    ],
+    "fontes": ["Petrus.Suporte.Core/Assistente/AssistenteServico.cs"]
+  },
+  {
+    "chave": "assistente-atendente",
+    "descricao": "Como falar com um atendente humano pelo WhatsApp",
+    "categoria": "Assistente",
+    "tags": "atendente; humano; pessoa; suporte; falar com alguém; transferir; whatsapp",
+    "passos": [
+      "Escreva atendente (ou falar com atendente) na conversa do WhatsApp.",
+      "A conversa vai para a fila da equipe e um atendente responde por ali mesmo.",
+      "Enquanto o atendente estiver na conversa, o assistente automático fica em silêncio.",
+      "Quando o atendimento for encerrado, você recebe um aviso e pode voltar a perguntar ao assistente."
+    ],
+    "fontes": ["Petrus.Suporte.Core/Assistente/AssistenteServico.cs", "Petrus.Suporte/Assistente/EncaminhadorAtendimento.cs"]
+  },
+  {
+    "chave": "assistente-limites",
+    "descricao": "Limite de perguntas por dia no assistente do WhatsApp",
+    "categoria": "Assistente",
+    "tags": "limite; perguntas; dia; bloqueado; assistente; whatsapp",
+    "passos": [
+      "Cada contato tem um limite de perguntas por dia (padrão 30, pode ser diferente por contato).",
+      "Ao chegar no limite, o assistente avisa e só volta a responder no dia seguinte.",
+      "Se for urgente, escreva atendente para falar com a equipe."
+    ],
+    "fontes": ["Petrus.Suporte.Core/Assistente/AssistenteServico.cs"]
+  },
+  {
+    "chave": "assistente-numero-nao-liberado",
+    "descricao": "Número não liberado no suporte do Petrus pelo WhatsApp",
+    "categoria": "Assistente",
+    "tags": "número não liberado; cadastrar telefone; não autorizado; whatsapp; contato",
+    "passos": [
+      "Só telefones cadastrados em Contatos WhatsApp, no Petrus.Suporte, conseguem usar o assistente.",
+      "Peça ao responsável da sua empresa para solicitar o cadastro do seu número à equipe de suporte, informando nome e telefone com DDD.",
+      "A empresa também precisa estar com o assistente liberado no cadastro de clientes do suporte."
+    ],
+    "fontes": ["Petrus.Suporte/Components/Pages/ContatosWhatsapp.razor"]
+  },
+  {
+    "chave": "petrus-navegacao-modulos",
+    "descricao": "Como o menu do Petrus é organizado: módulo, menu e tela",
+    "categoria": "Sistema",
+    "tags": "menu; módulo; navegação; onde fica; tela; organização; cadastros; documentos; parâmetros; relatórios",
+    "passos": [
+      "O Petrus é dividido em módulos (ex.: VENDAS, FATURAMENTO, FINANCEIRO, ESTOQUE, COMPRAS, PCP, RECURSOS HUMANOS).",
+      "Dentro de cada módulo as telas ficam agrupadas em menus como Cadastros, Documentos, Parâmetros e Relatórios.",
+      "A mesma tela pode aparecer em mais de um módulo (ex.: Pedidos de venda em VENDAS, FATURAMENTO, FINANCEIRO, COMERCIAL e LOGÍSTICA).",
+      "Só aparecem os módulos que o usuário tem permissão de acessar. Se faltar um módulo, peça ao administrador para liberar no Customizador > Conta > Usuários."
+    ],
+    "fontes": ["Petrus/Metodos/CriarAmbiente.cs", "Petrus/Margo/Engines/PetrusNavegacaoIAService.cs", "Dados.cs S4/S5/S81"]
+  }
+]

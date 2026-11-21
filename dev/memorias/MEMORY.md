@@ -1,0 +1,7 @@
+﻿- [SQL Server local / migração](sql-server-local.md) — Guarani (nov) → Petrus (novplast), scripts em Desktop\nov
+- [Idioma português](idioma-portugues.md) — tudo em português, inclusive descrições de comandos
+- [Fluxo demandas SS8](fluxo-demandas-ss8.md) — /desenvolver e cia., script ss8.ps1, worktrees, status novos
+- [Assistente WhatsApp](assistente-whatsapp.md) — Zapster + Claude no Petrus.Suporte, base SS1/SS2 gerada do código, branches feature/assistente-whatsapp
+- [Migração Web](migracao-web.md) — WinForms → Blazor por telas dinâmicas, inventário, RegistroAcoes S39, SS8-125 a 142
+- [Usabilidade do desktop no web](usabilidade-desktop-no-web.md) — lista padrão, seleção, duplo clique e funções na barra, como no frmInterface
+- [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
