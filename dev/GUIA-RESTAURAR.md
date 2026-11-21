@@ -28,8 +28,8 @@ Tudo que o Claude criou para você está em **arquivos locais** e uma cópia atu
 powershell -ExecutionPolicy Bypass -File C:\Users\pedro\source\repos\Petrus.Brain\scripts\Restaurar.ps1
 ```
    (use `-SoSimular` para ver o que seria copiado.)
-4. Crie `~\.claude\demandas\conexao.txt` com a connection string do cnzla (do PC antigo ou do portal do Azure). Não cole no chat.
-5. Recrie `Petrus.Suporte\appsettings.Local.json` (gitignored) com as chaves.
+4. **Segredos**: rode você mesmo no terminal `powershell -ExecutionPolicy Bypass -File C:\Users\pedro\source\repos\Petrus.Brain\scripts\Restaurar-Segredos.ps1` e digite a senha do cofre. Ele devolve `conexao.txt` e `appsettings.Local.json` ao lugar. (Para criar/atualizar o cofre no PC antigo: `scripts\Guardar-Segredos.ps1`; para incluir outros arquivos, acrescente em `segredos\lista.txt`.)
+5. Sem a senha do cofre não há como recuperar: guarde-a fora do PC (gerenciador de senhas).
 6. Teste `/demandas`.
 
 ## Frase pronta para um Claude novo

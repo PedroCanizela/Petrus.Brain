@@ -1,0 +1,5 @@
+# Arquivos secretos que entram no cofre criptografado (um caminho por linha, a partir da pasta do usuario).
+# Linhas com # sao ignoradas. Esta lista NAO e secreta: so os caminhos.
+# Para incluir outro arquivo (ex.: credentials.xml do Petrus.ERP), acrescente o caminho e rode Guardar-Segredos.ps1.
+.claude\demandas\conexao.txt
+source\repos\Petrus.Suporte\Petrus.Suporte\appsettings.Local.json

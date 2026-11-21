@@ -24,7 +24,7 @@ Este repositório é o **cérebro** do Pedro: tudo que um Claude (qualquer conta
 
 ## Regras de manutenção
 - O Brain é atualizado por `scripts\Sincronizar.ps1` (tarefa diária `atualizar-petrus-brain`). Ao aprender algo novo e durável sobre os sistemas, grave-o na memória **e** deixe a sincronização levar para cá; só edite `dev\sistemas.md` à mão para o que não é memória.
-- **Nunca** colocar segredos aqui: senhas, chaves de API, connection strings, `conexao.txt`, `appsettings*.json`, `credentials.xml`.
+- **Segredos** (senhas, chaves, connection strings, `conexao.txt`, `appsettings*.json`) só entram no Brain dentro do cofre criptografado `segredos\segredos.enc`, criado pelo Pedro com `scripts\Guardar-Segredos.ps1` (lista em `segredos\lista.txt`) e aberto com `scripts\Restaurar-Segredos.ps1`. Nunca peça a senha do cofre, nunca grave segredo em texto puro no repo nem em chat, e a sincronização/tarefa diária nunca abre o cofre.
 - Sem push automático. Commits locais são feitos pela sincronização; publicar é decisão do Pedro.
 - Não altere outros repositórios nem bancos a partir do Brain.
 
