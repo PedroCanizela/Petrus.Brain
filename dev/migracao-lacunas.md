@@ -7,7 +7,7 @@ Levantamento de 21/11/2026. Fontes: `Petrus.ERP/Docs/migracao-inventario.md` (ge
 | Item | Total | Situação |
 |---|---:|---|
 | Telas do catálogo (S6) | 358 | Tem página própria: 59 · Genérica: 252 · "Falta": 47 |
-| Funções S39 | 272 | Migradas: **118** (eram 87 em 20/11) · faltam: **154** (~25.335 linhas de código do desktop) |
+| Funções S39 | 272 | Migradas: **144** (eram 87 em 20/11 e 118 hoje cedo) · faltam: **128** (~22.318 linhas de código do desktop; inventário regenerado à tarde de 21/11) |
 | Funções que nem o desktop implementa | 10 | ignorar na conta (ex.: Gerar remessa 100319, Cotar preços 100249) |
 | Forms dedicados do desktop | 137 | a maioria sem equivalente web (ver abaixo) |
 
@@ -56,9 +56,21 @@ Maior pendência de função: FINANCEIRO (99), COMERCIAL (88), FATURAMENTO (98),
 4. **Nada foi testado contra o banco**: as entregas foram só compiladas (memória [[migracao-web]]).
 5. A branch/master não foi conferida (git não está no PATH deste terminal): o inventário pode estar adiantado ou atrasado em relação à master.
 
+## Demandas criadas em 21/11/2026 (Média, Petrus.ERP)
+
+- SS8-151 Financeiro: baixas, parcelas, conciliação e recibos — **Pendente**
+- SS8-152 Comissões — **Pendente**
+- SS8-153 Cadastros (produto, natureza, tabela de preço, catálogo, perfil/análise de cliente) — **Em desenvolvimento**
+- SS8-154 CRM (RM3, RM7, RM20) — **Concluída**
+- SS8-155 Expedição, distribuição de XML e recibo da folha — **Pendente**
+- SS8-156 /Table devolver arquivo para download (pré-requisito das demais) — **Concluída**
+- SS8-150 (Trocar módulo, IDs 71/72) também foi **Concluída**.
+
+Situação em 21/11/2026 à tarde. A SS8-148 e as outras seguem como na seção acima; reconferir com `/demandas`.
+
 ## Sugestão de próximos passos
 
 1. Corrigir o script do inventário para tratar Interação como genérica (limpa 47 falsos "Falta").
 2. Auditar 132/134/136 contra o inventário e fechar a divergência.
-3. Abrir demandas para: Comissões, Cadastros (G6/X13/R43/RR8/R2), CRM (RM3/RM7/RM20), expedição restante e download de arquivo.
-4. Seguir a ordem já combinada: 148 → 130 → 132 → 131 → 133 → 137 → 147 → 140 → 141 → 142.
+3. ~~Abrir demandas~~ feito (151 a 156). Ainda sem demanda: perfil do vendedor (100206), forms financeiros sem S39 (`frmAvaliacaoCredito`, `frmOrcamento`, `frmRecebimento*`, `frmAgendamentoPagFor`, `frmNotasMultaJuros`) e homologação contra o banco.
+4. Ordem sugerida agora: aprovar 148 → 131 (Fiscal) → 151 → 133 → 149 → 152 → 153 → 155 → 147 → 140 → 141 → 142.

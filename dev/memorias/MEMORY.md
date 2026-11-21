@@ -6,3 +6,4 @@
 - [Usabilidade do desktop no web](usabilidade-desktop-no-web.md) — lista padrão, seleção, duplo clique e funções na barra, como no frmInterface
 - [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
 - [Petrus.Brain](petrus-brain.md) — repo-cérebro (dev + assistente WhatsApp), sync diária, CLAUDE.md de entrada
+- [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar

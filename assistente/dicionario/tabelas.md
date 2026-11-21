@@ -1,6 +1,6 @@
-# Dicionario de dados do Petrus (gerado do Dados.cs)
+﻿# Dicionario de dados do Petrus (gerado do Dados.cs)
 
-Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na tela | tipo.
+Gerado em 21/11/2026 16:46. Total de tabelas: 416. Formato: campo | rotulo na tela | tipo.
 
 ## A3 - Local de estoque
 - A3_ID | ID | INT
@@ -211,6 +211,13 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - D10_PCD | PCD | BIT
 - DY8_ID | CID | INT
 - D10_OBS_PCD | Obs. PCD | VARCHAR(MAX)
+- D42_ID_1 | Cargo Temporário | INT
+- D10_DATA_INICIO_CARGO_TEMPORARIO | Início Cargo Temporário | DATETIME
+- D10_DATA_FIM_CARGO_TEMPORARIO | Fim Cargo Temporário | DATETIME
+- D10_EXPERIENCIA_1 | Experiência 1 (dias) | INT
+- D10_EXPERIENCIA_2 | Experiência 2 (dias) | INT
+- D10_DATA_VALIDADE_EXAME_PERIODICO | Validade Exame Periódico | DATETIME
+- D10_DATA_AGENDAMENTO_EXAME_PERIODICO | Agendamento Exame Periódico | DATETIME
 
 ## D23 - Responsável
 - D23_ID | ID | INT
@@ -1001,6 +1008,66 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - S1_ID | Empresa | INT
 - H9_NOME | Nome | VARCHAR(300)
 - S2_ID | Usuario | INT
+
+## HB1 - Contas de marketplace
+- HB1_ID | ID | INT
+- S1_ID | Empresa | INT
+- HB1_NOME | Nome | VARCHAR(100)
+- HB1_MARKETPLACE | Marketplace | VARCHAR(30)
+- HB1_ATIVO | Ativa | BIT
+- HB1_LOJA_ID | ID da loja | VARCHAR(100)
+- HB1_CLIENT_ID | Client ID | VARCHAR(200)
+- HB1_CLIENT_SECRET | Client secret | VARCHAR(500)
+- HB1_ACCESS_TOKEN | Access token | VARCHAR(MAX)
+- HB1_REFRESH_TOKEN | Refresh token | VARCHAR(MAX)
+- HB1_TOKEN_EXPIRA | Token expira em | DATETIME
+- A3_ID | Local de estoque | INT
+- X13_ID | Natureza de operação | INT
+- R4_ID | Vendedor | INT
+- N47_ID | Cond. pagto | INT
+- J2_ID | Transportador | INT
+- HB1_ULTIMA_IMPORTACAO | Última importação | DATETIME
+- HB1_OBS | Obs | VARCHAR(MAX)
+
+## HB2 - Anúncios de marketplace
+- HB2_ID | ID | INT
+- S1_ID | Empresa | INT
+- HB1_ID | Conta | INT
+- G6_ID | Produto | INT
+- HB2_ANUNCIO_ID | ID do anúncio | VARCHAR(100)
+- HB2_VARIACAO_ID | ID da variação | VARCHAR(100)
+- HB2_SKU | SKU | VARCHAR(100)
+- HB2_TITULO | Título | VARCHAR(300)
+- HB2_STATUS | Status | VARCHAR(30)
+- HB2_SINCRONIZAR | Sincronizar | BIT
+- HB2_PRECO | Preço no marketplace | NUMERIC(18, 2)
+- HB2_ESTOQUE | Estoque no marketplace | NUMERIC(18, 2)
+- HB2_LINK | Link | VARCHAR(500)
+- HB2_DATA_SINCRONIZACAO | Última sincronização | DATETIME
+
+## HB3 - Fila de sincronização
+- HB3_ID | ID | INT
+- S1_ID | Empresa | INT
+- HB1_ID | Conta | INT
+- HB3_TIPO | Tipo | VARCHAR(30)
+- HB3_STATUS | Status | VARCHAR(20)
+- HB3_REFERENCIA | Referência | VARCHAR(100)
+- HB3_REGISTRO | Registro no Petrus | INT
+- HB3_PAYLOAD | Conteúdo | VARCHAR(MAX)
+- HB3_TENTATIVAS | Tentativas | INT
+- HB3_PROXIMA_TENTATIVA | Próxima tentativa | DATETIME
+- HB3_DATA_PROCESSAMENTO | Data do processamento | DATETIME
+- HB3_ERRO | Erro | VARCHAR(MAX)
+
+## HB4 - Log de sincronização
+- HB4_ID | ID | INT
+- S1_ID | Empresa | INT
+- HB1_ID | Conta | INT
+- HB3_ID | Item da fila | INT
+- HB4_DATA | Data | DATETIME
+- HB4_NIVEL | Nível | VARCHAR(10)
+- HB4_MENSAGEM | Mensagem | VARCHAR(500)
+- HB4_DETALHE | Detalhe | VARCHAR(MAX)
 
 ## HX1 - Motivo de falha
 - HX1_ID | ID | INT
@@ -2806,6 +2873,25 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - L71_ID | ID | INT
 - S1_ID | Empresa | INT
 
+## L72 - Eventos da NF-e
+- L72_ID | ID | INT
+- S1_ID | Empresa | INT
+- R7_ID | Nota de Saída | INT
+- I11_ID | Nota de Entrada | INT
+- L72_CHAVE_NFE | Chave NFe | VARCHAR(50)
+- L72_TIPO_EVENTO | Código do Evento | INT
+- L72_DESCRICAO | Evento | VARCHAR(150)
+- L72_SEQUENCIA | Sequência | INT
+- L72_STATUS | Status | VARCHAR(20)
+- L72_CSTAT | cStat | INT
+- L72_MOTIVO | Motivo | VARCHAR(500)
+- L72_PROTOCOLO | Protocolo | VARCHAR(50)
+- L72_DATA_EVENTO | Data do Evento | DATETIME
+- L72_DETALHE | Detalhe | VARCHAR(MAX)
+- L72_XML | XML | XML
+- L72_EVENTO_CANCELADO | Evento Cancelado | INT
+- L72_PROTOCOLO_CANCELAMENTO | Protocolo Cancelamento | VARCHAR(50)
+
 ## N1 - Bancos
 - N1_ID | ID | INT
 - S1_ID | Empresa | INT
@@ -2926,6 +3012,7 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - N22_PREMIO | Prêmio | NUMERIC(18, 5)
 - N22_PROTESTADO | Protestado | BIT
 - N22_VALOR_PREMIO | Valor Premio | NUMERIC(18, 2)
+- N22_NOTA_MULTA_JUROS | Nota Multa/Juros | INT
 
 ## N3 - Comissão
 - N3_ID | ID | INT
@@ -5655,6 +5742,20 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - G6_ID | Material | INT
 - S77_ORDENACAO | Ordenação | VARCHAR(30)
 - S77_VER_DIFERENTES | Ver diferentes | BIT
+- S77_CNPJ_CREDOR | CNPJ Empresa Credora | VARCHAR(20)
+- S77_CREDOR | Razão Social Empresa Credora | VARCHAR(300)
+- S77_ENDERECO | Endereço Cobrança | VARCHAR(300)
+- S77_BAIRRO | Bairro | VARCHAR(100)
+- S77_CEP | CEP | VARCHAR(20)
+- S77_DDD | DDD1 | VARCHAR(5)
+- S77_ESPECIE | Espécie do Título | VARCHAR(50)
+- S77_PARCELA | Número da Parcela | INT
+- S77_TAXA_PROTESTO | Taxa de Protesto | NUMERIC(18, 2)
+- S77_CODIGO_DEVEDOR | Cód. Identificador Devedor | INT
+- S77_FONE_REPRESENTANTE | DDD e Fone Representante | VARCHAR(20)
+- S77_EMAIL_DEVEDOR | Email do Devedor | VARCHAR(500)
+- S77_DATA_VALIDADE_EXAME | Validade Exame | DATETIME
+- S77_DATA_AGENDAMENTO_EXAME | Agendamento Exame | DATETIME
 
 ## S78 - Rodapés
 - S78_ID | ID | INT
@@ -5759,6 +5860,68 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - SS10_CONFERIDO | Conferido | BIT
 - SS10_OBS | Observação | VARCHAR(500)
 
+## SS11 - Contatos WhatsApp
+- SS11_ID | ID | INT
+- S1_ID | Empresa | INT
+- SS7_ID | Cliente | INT
+- SS11_NOME | Nome | VARCHAR(100)
+- SS11_TELEFONE | Telefone | VARCHAR(20)
+- SS11_ATIVO | Ativo | BIT
+- SS11_LIMITE_DIA | Limite de perguntas por dia | INT
+- SS11_OBS | Observação | VARCHAR(500)
+
+## SS12 - Perguntas do assistente
+- SS12_ID | ID | INT
+- S1_ID | Empresa | INT
+- SS3_ID | Conversa | INT
+- SS7_ID | Cliente | INT
+- SS11_ID | Contato | INT
+- SS12_PERGUNTA | Pergunta | NVARCHAR(MAX)
+- SS12_RESPOSTA | Resposta | NVARCHAR(MAX)
+- SS12_STATUS | Status | VARCHAR(30)
+- SS12_CONHECIMENTOS | Conhecimentos usados | VARCHAR(500)
+- SS8_ID | Demanda | INT
+- SS12_TOKENS_ENTRADA | Tokens de entrada | INT
+- SS12_TOKENS_SAIDA | Tokens de saída | INT
+- SS12_CUSTO | Custo (US$) | NUMERIC(18, 6)
+- SS12_TEMPO_MS | Tempo (ms) | INT
+- SS12_TRATADA | Tratada na base | BIT
+- SS12_OBS | Observação | VARCHAR(MAX)
+- SS12_PONTOS | Pontuação | INT
+- SS12_CORRIGIDA | Corrigida | BIT
+- SS9_ID | Chamado | INT
+- SS12_CLASSIFICADA | Classificada | BIT
+
+## SS13 - Problemas de suporte
+- SS13_ID | ID | INT
+- S1_ID | Empresa | INT
+- SS13_TITULO | Título | VARCHAR(200)
+- SS13_CATEGORIA | Categoria | VARCHAR(50)
+- SS13_STATUS | Status | VARCHAR(30)
+- SS13_DESCRICAO | O que acontece | VARCHAR(MAX)
+- SS13_SOLUCAO | Como resolver | VARCHAR(MAX)
+- SS13_SUGESTAO | Sugestão de melhoria | VARCHAR(MAX)
+- SS13_PALAVRAS | Palavras-chave | VARCHAR(500)
+- SS13_UNIDO_A | Unido ao problema | INT
+- SS1_ID | Conhecimento | INT
+- SS8_ID | Demanda | INT
+- SS13_DATA_CORRECAO | Data da correção | DATETIME
+
+## SS14 - Ocorrências dos problemas
+- SS14_ID | ID | INT
+- S1_ID | Empresa | INT
+- SS13_ID | Problema | INT
+- SS12_ID | Pergunta | INT
+- SS3_ID | Conversa | INT
+- SS7_ID | Cliente | INT
+- SS11_ID | Contato | INT
+- SS14_DATA | Data | DATETIME
+- SS14_RESUMO | Resumo | VARCHAR(500)
+- SS14_RESOLVIDO | Resolvido | VARCHAR(20)
+- SS14_SATISFACAO | Satisfação | INT
+- SS14_SATISFACAO_MOTIVO | Motivo da nota | VARCHAR(300)
+- SS14_DATA_AVALIACAO | Data da avaliação | DATETIME
+
 ## SS2 - Conhecimento x passos
 - SS2_ID | ID | INT
 - S1_ID | Empresa | INT
@@ -5778,6 +5941,10 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - SS3_ATENDENTE | Atendente | VARCHAR(50)
 - SS3_EMPRESA | Empresa | VARCHAR(50)
 - SS3_ORIGEM | ID Origem | INT
+- SS3_CANAL | Canal | VARCHAR(20)
+- SS3_TELEFONE | Telefone | VARCHAR(20)
+- SS7_ID | Cliente | INT
+- SS11_ID | Contato | INT
 
 ## SS5 - Conversa x mensagem
 - SS5_ID | ID | INT
@@ -5786,11 +5953,17 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - SS3_ID | Conversa | INT
 - SS5_ORDEM | Ordem | INT
 - SS5_CONTEUDO | Conteudo | NVARCHAR(MAX)
+- SS5_ENVIADO | Enviado ao WhatsApp | BIT
 
 ## SS7 - Empresas clientes
 - SS7_ID | ID | INT
 - S1_ID | Empresa | INT
 - SS7_NOME | Nome | VARCHAR(300)
+- SS7_SERVIDOR | Servidor SQL | VARCHAR(200)
+- SS7_BANCO | Banco de dados | VARCHAR(100)
+- SS7_USUARIO_BANCO | Usuário do banco | VARCHAR(100)
+- SS7_SENHA_BANCO | Senha do banco | VARCHAR(500)
+- SS7_ASSISTENTE | Assistente WhatsApp | BIT
 
 ## SS8 - Desenvolvimento
 - SS8_ID | ID | INT
@@ -6363,8 +6536,8 @@ Gerado em 21/11/2026 16:11. Total de tabelas: 407. Formato: campo | rotulo na te
 - X13_ALIQUOTA_IBS_MUN_REGULAR | % IBS Mun Regular | NUMERIC(18, 2)
 - X52_ID_1 | Class Trib Regular | INT
 - X13_CPF | CPF | BIT
-- X13_TIPO_CREDITO | Tipo de Crédito | VARCHAR(50)
-- X13_TIPO_DEBITO | Tipo de Débito | VARCHAR(50)
+- X13_TIPO_CREDITO | Tipo de Crédito | VARCHAR(100)
+- X13_TIPO_DEBITO | Tipo de Débito | VARCHAR(100)
 - X13_CREDITO_SN | Crédito SN | BIT
 - X13_ALIQUOTA_DIFERIMENTO_IBS_UF | % Dif. IBS UF | NUMERIC(18, 2)
 - X13_ALIQUOTA_DIFERIMENTO_IBS_MUN | % Dif. IBS Mun | NUMERIC(18, 2)

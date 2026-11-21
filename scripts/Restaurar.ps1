@@ -24,6 +24,13 @@ Restaurar "$raiz\dev\scripts" (Join-Path $claude 'demandas')
 Write-Output 'Memorias:'
 Restaurar "$raiz\dev\memorias" (Join-Path $claude 'projects\C--Users-pedro-source-repos-Petrus\memory')
 
+Write-Output 'Instrucoes globais do Claude (CLAUDE.md):'
+if (-not (Test-Path (Join-Path $claude 'CLAUDE.md'))) {
+    Restaurar "$raiz\dev\claude-global" $claude
+} else {
+    Write-Output '  ja existe um CLAUDE.md global; nao sobrescrevi (compare com dev\claude-global\CLAUDE.md).'
+}
+
 $conexao = Join-Path $claude 'demandas\conexao.txt'
 if (-not (Test-Path $conexao)) {
     Write-Output ''

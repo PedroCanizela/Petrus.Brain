@@ -16,7 +16,7 @@ Migração WinForms → Petrus.ERP Blazor iniciada em 19/11/2026. O usuário def
 - Banco do credentials.xml é o cnzla do Azure, em uso real pela PRATIC: testes que gravam só em pedido TESTE (ex.: R13 204). Navegar no app só por dentro (Blazor.navigateTo); recarregar a página perde o login.
 - Demandas: SS8-125 (mãe) a 148, prefixo "Migração Web —".
 - Situação em 20/11/2026: 87 de 272 funções S39 migradas. Concluídas: 126, 127, 128, 129, 134, 135, 136, 138, 139, 143, 144, 145, 146. Abertas: 130, 131, 132, 133, 137, 140, 141, 142, 147 e 148 (resto da 129: faturar sem NF-e, estorno, devolução, forms do pedido, comissões).
-- Ordem combinada: 148 → 130 (decisões de certificado/impressão, do usuário) → 132 → 131 → 133 → 137 → 147 → 140 → 141 → 142. Falta também uma demanda pequena para a /Table devolver arquivo para download (trava PDFs, relatórios e etiquetas).
+- Ordem combinada: 148 → 130 (decisões de certificado/impressão, do usuário) → 132 → 131 → 133 → 137 → 147 → 140 → 141 → 142. Download de arquivo nas funções S39 feito na SS8-156 (merge 24e97ba, 21/11/2026): usar `AcaoS39.ExecutarComArquivo` (por registro) ou `ArquivoDaSelecao` (um arquivo para a seleção); vários PDFs são juntados num só, tipos mistos viram .zip.
 - As entregas foram só compiladas, nenhuma testada contra o banco.
 - Merge: o Docs/migracao-inventario.md conflita entre demandas paralelas; resolve trazendo a master para a branch e rodando o script de inventário de novo.
 

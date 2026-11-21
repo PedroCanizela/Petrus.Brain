@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 16:11 por scripts\Sincronizar.ps1
+Gerado em 21/11/2026 16:46 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -156,12 +156,20 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-148-faturamento-pedido-venda
-- + feature/ss8-150-modulos-trocar-modulo
+- + feature/ss8-147-compras-historico-perfil
+- + feature/ss8-153-cadastros-produto-natureza-tabela
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 d312e5b Merge SS8-150: Petrus Web — Trocar módulo com os módulos do desktop e IDs próprios para WMS/CMMS
+- 2026-11-21 5f0d1e0 Merge master (SS8-137/148) na SS8-150
+- 2026-11-21 24e97ba Merge SS8-156: Migração Web — /Table devolver arquivo para download
+- 2026-11-21 07ae5f9 Merge SS8-154: Migração Web — CRM: solicitações, tickets e agendamentos
+- 2026-11-21 49dda1c SS8-156: funções S39 da /Table devolvem arquivo para download
+- 2026-11-21 5584b8a SS8-154: funções do CRM no Petrus Web (solicitações, tickets e agendamentos)
+- 2026-11-21 c332a5c Merge SS8-148: Migração Web — Vendas: faturamento do pedido sem NF-e, estorno/devolução e funções restantes do pedido de venda
+- 2026-11-21 17e4b91 Merge master (SS8-137) na SS8-148
 - 2026-11-21 2562f40 SS8-150: Trocar módulo mostra os módulos do desktop e WMS/CMMS deixam de usar os IDs 71/72
 - 2026-11-21 7983506 Merge SS8-137: Migração Web — PCP/MES: funções da OP, requisições de material e MRP
 - 2026-11-21 cb11fc5 Merge master (SS8-132) na SS8-137
@@ -372,9 +380,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/base-conhecimento
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 d2313b4 Merge base-conhecimento: AtualizarBase le as notas do Petrus.Brain
+- 2026-11-21 5ad0d19 Base de conhecimento: AtualizarBase passa a ler as notas do Petrus.Brain (assistente\sistema)
 - 2026-11-18 2fafad5 Merge SS8-100: telas de IA fora do menu e script para remover o que a IA criou
 - 2026-11-18 a77ce37 SS8-100: telas de IA fora do menu e script para remover o que a IA criou
 - 2026-11-18 a47f87b Merge SS8-99: Clara não pergunta o que precisa, só responde o cumprimento

@@ -20,7 +20,32 @@ function Copiar-Pasta($origem, $destino, $filtro) {
 }
 
 # ---------- DEV: cerebro do Claude ----------
-Copiar-Pasta (Join-Path $claude 'projects\C--Users-pedro-source-repos-Petrus\memory') "$raiz\dev\memorias" '*.md'
+# Memorias de TODOS os projetos Petrus* (Petrus, Petrus.ERP, Petrus.Suporte, FV, Hub...) juntas em dev\memorias.
+# MEMORY.md (indice) e remontado juntando as linhas de cada projeto, sem repetir.
+$destMem = "$raiz\dev\memorias"
+New-Item -ItemType Directory -Force $destMem | Out-Null
+$linhasIndice = New-Object System.Collections.Generic.List[string]
+Get-ChildItem (Join-Path $claude 'projects') -Directory -Filter 'C--Users-pedro-source-repos-Petrus*' -ErrorAction SilentlyContinue | ForEach-Object {
+    $mem = Join-Path $_.FullName 'memory'
+    if (-not (Test-Path $mem)) { return }
+    Get-ChildItem $mem -Filter '*.md' -File | ForEach-Object {
+        if ($_.Name -eq 'MEMORY.md') {
+            Get-Content $_.FullName -Encoding UTF8 | Where-Object { $_.Trim() -and -not $linhasIndice.Contains($_) } | ForEach-Object { $linhasIndice.Add($_) }
+        } else {
+            $dest = Join-Path $destMem $_.Name
+            # Em caso de mesmo nome em projetos diferentes, vale o mais recente.
+            if (-not (Test-Path $dest) -or $_.LastWriteTime -gt (Get-Item $dest).LastWriteTime) { Copy-Item $_.FullName $dest -Force }
+        }
+    }
+}
+if ($linhasIndice.Count -gt 0) { Set-Content -Path "$destMem\MEMORY.md" -Value $linhasIndice -Encoding UTF8 }
+
+# Instrucoes globais do Claude (apontam para o Brain em qualquer repositorio)
+$cg = Join-Path $claude 'CLAUDE.md'
+if (Test-Path $cg) {
+    New-Item -ItemType Directory -Force "$raiz\dev\claude-global" | Out-Null
+    Copy-Item $cg "$raiz\dev\claude-global\CLAUDE.md" -Force
+}
 
 Get-ChildItem (Join-Path $claude 'skills') -Directory -ErrorAction SilentlyContinue | ForEach-Object {
     Copiar-Pasta $_.FullName "$raiz\dev\skills\$($_.Name)" '*'
