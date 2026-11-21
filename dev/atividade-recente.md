@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 16:46 por scripts\Sincronizar.ps1
+Gerado em 21/11/2026 16:50 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -162,6 +162,9 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 cf338c5 SS8-147: registra as decisões do Importar compra e do resumo do fornecedor
+- 2026-11-21 10b9adf SS8-153: cadastros de produto, natureza de operação, tabela de preço e catálogo no Petrus Web
+- 2026-11-21 5f21af9 SS8-147: perfil do fornecedor e histórico de compras no Petrus Web (parcial)
 - 2026-11-21 d312e5b Merge SS8-150: Petrus Web — Trocar módulo com os módulos do desktop e IDs próprios para WMS/CMMS
 - 2026-11-21 5f0d1e0 Merge master (SS8-137/148) na SS8-150
 - 2026-11-21 24e97ba Merge SS8-156: Migração Web — /Table devolver arquivo para download
