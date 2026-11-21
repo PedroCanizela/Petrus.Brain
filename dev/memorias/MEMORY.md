@@ -5,3 +5,4 @@
 - [Migração Web](migracao-web.md) — WinForms → Blazor por telas dinâmicas, inventário, RegistroAcoes S39, SS8-125 a 142
 - [Usabilidade do desktop no web](usabilidade-desktop-no-web.md) — lista padrão, seleção, duplo clique e funções na barra, como no frmInterface
 - [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
+- [Petrus.Brain](petrus-brain.md) — repo-cérebro (dev + assistente WhatsApp), sync diária, CLAUDE.md de entrada
