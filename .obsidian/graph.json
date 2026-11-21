@@ -1,0 +1,16 @@
+{
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "colorGroups": [
+    { "query": "path:dev/memorias", "color": { "a": 1, "rgb": 5431378 } },
+    { "query": "path:dev/skills", "color": { "a": 1, "rgb": 14701138 } },
+    { "query": "path:dev/tarefas", "color": { "a": 1, "rgb": 16752762 } },
+    { "query": "path:assistente", "color": { "a": 1, "rgb": 2201331 } },
+    { "query": "path:dev", "color": { "a": 1, "rgb": 10824234 } }
+  ],
+  "nodeSizeMultiplier": 1.2,
+  "linkStrength": 1,
+  "repelStrength": 12
+}

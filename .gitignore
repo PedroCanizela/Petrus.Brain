@@ -3,3 +3,7 @@ appsettings*.json
 credentials.xml
 *.pfx
 *.user
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+.trash/

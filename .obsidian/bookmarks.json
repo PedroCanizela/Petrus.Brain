@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "type": "file", "path": "Home.md", "title": "🧠 Home" },
+    { "type": "file", "path": "dev/sistemas.md", "title": "Sistemas" },
+    { "type": "file", "path": "dev/memorias/MEMORY.md", "title": "Memórias" },
+    { "type": "file", "path": "assistente/README.md", "title": "Assistente WhatsApp" },
+    { "type": "file", "path": "CLAUDE.md", "title": "Regras para IA" }
+  ]
+}

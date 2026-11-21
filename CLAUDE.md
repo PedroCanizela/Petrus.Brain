@@ -1,4 +1,4 @@
-# Petrus.Brain — leia isto primeiro
+﻿# Petrus.Brain — leia isto primeiro
 
 Este repositório é o **cérebro** do Pedro: tudo que um Claude (qualquer conta, qualquer PC) precisa saber para trabalhar nos sistemas dele. Responda sempre em **português do Brasil**, inclusive descrições de comandos.
 
@@ -13,6 +13,7 @@ Este repositório é o **cérebro** do Pedro: tudo que um Claude (qualquer conta
 | `dev\atividade-recente.md` | Commits/branches dos últimos 14 dias (automático). |
 | `dev\GUIA-RESTAURAR.md` | Como restaurar tudo em outra conta/PC. |
 | `assistente\` | Cérebro da IA do WhatsApp: conhecimento do sistema (ver `assistente\README.md`). |
+| `Home.md` + `.obsidian\` | Interface Obsidian: abra esta pasta como vault. Home com links, grafo colorido, favoritos. |
 | `scripts\Sincronizar.ps1` | Atualiza o Brain a partir do PC e do código (roda todo dia). |
 | `scripts\Restaurar.ps1` | Devolve skills, memórias e ss8.ps1 para `~\.claude`. |
 
@@ -26,3 +27,4 @@ Este repositório é o **cérebro** do Pedro: tudo que um Claude (qualquer conta
 - **Nunca** colocar segredos aqui: senhas, chaves de API, connection strings, `conexao.txt`, `appsettings*.json`, `credentials.xml`.
 - Sem push automático. Commits locais são feitos pela sincronização; publicar é decisão do Pedro.
 - Não altere outros repositórios nem bancos a partir do Brain.
+
