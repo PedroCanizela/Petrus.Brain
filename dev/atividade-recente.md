@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 18:09 por scripts\Sincronizar.ps1
+Gerado em 21/11/2026 18:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -161,6 +161,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-21 e645848 SS8-166: abas de telas e cadastros, como no Petrus desktop
 - 2026-11-21 f19c6ae Merge SS8-162: ajustes do design das telas gen├®ricas (Details, cabe├ºalho do SfGrid, busca e exporta├º├úo)
 - 2026-11-21 004f70f SS8-162: ajustes do design das telas gen├®ricas
 - 2026-11-21 2722217 Merge SS8-131: Migra├º├úo Web ÔÇö Faturamento/Fiscal: NF-e (envio SEFAZ, cancelamento, carta de corre├º├úo, inutiliza├º├úo, eventos), DANFE e XML
