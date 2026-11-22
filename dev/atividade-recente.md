@@ -160,11 +160,12 @@ Branches:
 - + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-152-comissoes-web
 - + feature/ss8-155-expedicao-xml-recibo
-- + feature/ss8-157-sped-fiscal
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 446f02e Merge SS8-157: Migra├º├úo Web ÔÇö Fiscal: SPED fiscal EFD ICMS/IPI (gerar e exportar)
+- 2026-11-22 174666b Merge master (SS8-159) na SS8-157; invent├írio gerado de novo
 - 2026-11-22 dbb2837 SS8-155: expedi├º├úo, distribui├º├úo de XML e recibo da folha no Petrus Web
 - 2026-11-22 b5546ef SS8-152: comiss├Áes, relat├│rios do vendedor e premia├º├úo de metas no Petrus Web
 - 2026-11-22 cf91561 SS8-157: Migra├º├úo Web ÔÇö SPED Fiscal EFD ICMS/IPI (gerar e exportar)
