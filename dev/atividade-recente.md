@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 00:36 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 00:38 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -165,6 +165,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 dbb2837 SS8-155: expedi├º├úo, distribui├º├úo de XML e recibo da folha no Petrus Web
+- 2026-11-22 b5546ef SS8-152: comiss├Áes, relat├│rios do vendedor e premia├º├úo de metas no Petrus Web
 - 2026-11-22 cf91561 SS8-157: Migra├º├úo Web ÔÇö SPED Fiscal EFD ICMS/IPI (gerar e exportar)
 - 2026-11-22 79c8208 Merge SS8-159: Migra├º├úo Web ÔÇö Compras: importar compra no documento de entrada (ImportarCompraI57)
 - 2026-11-22 ec5be1d Merge master (SS8-164) na SS8-159; invent├írio gerado de novo
