@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 01:43 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 01:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-118-dashboards-base
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 8b47fc1b Merge SS8-118: estrutura base dos dashboards (indicadores, job, componentes, permiss├Áes e metas)
 - 2026-11-22 61205aab SS8-118: dicion├írio dos dashboards (S88 a S91)
 - 2026-11-22 8a8389ac Merge SS8-171: assistente de IA no Petrus Web
 - 2026-11-22 0bb9c419 Hub de marketplaces no cat├ílogo de m├│dulos
@@ -161,7 +161,6 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-118-dashboards-base
 - + feature/ss8-133-boletos-remessa-retorno
 - + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-155-expedicao-xml-recibo
@@ -169,6 +168,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 f4bcd53 Merge SS8-118: estrutura base dos dashboards (indicadores, job, componentes, permiss├Áes e metas)
 - 2026-11-22 0293781 SS8-118: estrutura base dos dashboards (indicadores, job, componentes, permiss├Áes e metas)
 - 2026-11-22 4e055fe Merge SS8-140: Migra├º├úo Web ÔÇö WhatsApp, ajustes, minha conta, e-mail e Serasa
 - 2026-11-22 7c67775 Merge master (SS8-160, SS8-171) na SS8-140; invent├írio gerado de novo
