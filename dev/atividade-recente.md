@@ -160,6 +160,7 @@ Branches:
 - + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-152-comissoes-web
 - + feature/ss8-155-expedicao-xml-recibo
+- + feature/ss8-157-sped-fiscal
 - + feature/ss8-159-importar-compra
 - + feature/ss8-39-novo-layout-erp
 - * master
