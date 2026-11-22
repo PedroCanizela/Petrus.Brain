@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 12:00 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 12:01 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -161,12 +161,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-133-boletos-remessa-retorno
 - + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 205b141 Merge SS8-133: Migra├º├úo Web ÔÇö Financeiro: boletos, remessa, leitura de retorno banc├írio e envio autom├ítico
 - 2026-11-22 eb86c9d SS8-133: t├¡tulos da remessa no cadastro pelo c├ílculo da SS8-149 (CalculaN50)
 - 2026-11-22 e253763 Merge master (SS8-149, SS8-140, SS8-118) na SS8-133
 - 2026-11-22 649405f Merge master na SS8-155
