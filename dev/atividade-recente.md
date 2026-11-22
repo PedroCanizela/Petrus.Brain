@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 11:50 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 11:52 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -162,12 +162,13 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-133-boletos-remessa-retorno
-- + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 87ceb3b Merge SS8-149: Migra├º├úo Web ÔÇö Vendas: cadastro do pedido de venda com rec├ílculo, Integrar e Recalcular
+- 2026-11-22 2804095 Merge master na SS8-149
 - 2026-11-22 851020a SS8-133: boletos, remessa e retorno banc├írio no Petrus Web
 - 2026-11-22 75f4427 SS8-149: cadastro do pedido de venda no /Details com rec├ílculo ao vivo
 - 2026-11-22 a3e71e8 SS8-149: c├ílculo do pedido de venda no servidor (motor do desktop)

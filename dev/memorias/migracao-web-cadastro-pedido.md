@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-22T14:47:30.647Z
 ---
 
-SS8-149 entregue em 22/11/2026 na branch `feature/ss8-149-cadastro-pedido-venda` (Petrus.ERP), aguardando aprovação, só compilada.
+SS8-149 aprovada e na master do Petrus.ERP em 22/11/2026 (merge 87ceb3b), só compilada (nada testado contra o banco). Inventário: 227 de 272 funções S39. Continuações: SS8-173 (conexões S37 nas buscas do /Details) e SS8-174 (importar pedido por IA com Claude, sem chave no código).
 
 - Motor de impostos do desktop copiado para `Petrus.Fiscal/Calculos` (CalculosImpostos + regras, pacote MotorTributarioNet net8.0) e o repo Petrus.PricingCore copiado em `Petrus.Vendas/PricingCore`: corrigir nos dois lados.
 - `Petrus.Core/Cadastros`: `CadastroEmEdicao` (campos como texto + grades por S9_ID), `ICalculoCadastro`/`RegistroCalculos` (registrado no Program.cs) e `GravacaoCadastro` (abas como Funcoes.NovoGrid, apagando só as linhas carregadas; abrir e salvar pelo servidor).
