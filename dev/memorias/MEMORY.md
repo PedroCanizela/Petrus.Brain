@@ -7,6 +7,7 @@
 - [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
 - [Petrus.Brain](petrus-brain.md) — repo-cérebro (dev + assistente WhatsApp), sync diária, CLAUDE.md de entrada
 - [Brain sincroniza sozinho](brain-sync-automatico.md) — hook Stop roda Sincronizar-Automatico.ps1 (commit+push) a cada tarefa; não perguntar
+- [Forms sem S39 no Web](migracao-web-forms-sem-s39.md) — SS8-160: perguntar antes de portar; RotasDedicadas; MIGRADO/DESCARTADO FORM
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar

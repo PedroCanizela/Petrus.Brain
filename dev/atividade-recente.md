@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 00:52 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 00:59 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-171-assistente-ia
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 5047abc7 SS8-171: tabelas IA1 e IA2 do assistente de IA do Petrus Web
 - 2026-11-19 158416d4 Merge SS8-108: tabelas HB1 a HB4 do Petrus.Hub
 - 2026-11-19 5fa36ba0 SS8-108: tabelas HB1 a HB4 do Petrus.Hub no Dados.cs
 - 2026-11-19 6d8cd8df Update
@@ -162,10 +164,13 @@ Branches:
 - + feature/ss8-152-comissoes-web
 - + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-160-financeiro-orcamento-notas-debito
+- + feature/ss8-171-assistente-ia
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 5d4db2b SS8-160: Migra├º├úo Web ÔÇö Financeiro: Or├ºamento e Notas de d├®bito de multa e juros
+- 2026-11-22 72bf481 SS8-140: WhatsApp (SX5) no web: ligar, desligar, reiniciar e pareamento
 - 2026-11-22 446f02e Merge SS8-157: Migra├º├úo Web ÔÇö Fiscal: SPED fiscal EFD ICMS/IPI (gerar e exportar)
 - 2026-11-22 174666b Merge master (SS8-159) na SS8-157; invent├írio gerado de novo
 - 2026-11-22 dbb2837 SS8-155: expedi├º├úo, distribui├º├úo de XML e recibo da folha no Petrus Web
