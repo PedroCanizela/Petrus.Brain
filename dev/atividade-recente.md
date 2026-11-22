@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 01:08 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 01:09 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -168,6 +168,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 7f60b61 SS8-140: Serasa no web (arquivo semanal de reciprocidade e concilia├º├úo mensal); invent├írio gerado de novo
 - 2026-11-22 9c5fbd1 SS8-171: assistente de IA no Petrus Web (API da Anthropic)
 - 2026-11-22 45ae469 Merge SS8-152: Migra├º├úo Web ÔÇö Comiss├Áes: lan├ºar, pagar, fechar, estornar, extrato e relat├│rios do vendedor, premia├º├úo de metas
 - 2026-11-22 fbc5588 Merge master na SS8-152; invent├írio gerado de novo
