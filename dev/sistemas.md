@@ -1,6 +1,6 @@
 # Contexto dos sistemas do Pedro
 
-> Atualizado pelo Claude (tarefa diária `atualizar-contexto-claude`). Última revisão manual do Claude: 20/11/2026.
+> Atualizado pelo Claude (tarefa diária `atualizar-contexto-claude`). Última revisão manual do Claude: 22/11/2026.
 > Detalhes finos ficam em `memorias\` (um fato por arquivo). Este arquivo é o mapa geral.
 > **Segredos (senhas, chaves, connection strings) NÃO ficam aqui.** Ver "Onde estão os segredos".
 
@@ -44,6 +44,9 @@ Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações
 2. **Assistente de WhatsApp** — aprovado e na master (17/11/2026). Webhook Zapster → `/api/whatsapp/webhook`. Base SS1/SS2 gerada do código por `Tools\AtualizarBase.ps1`; tarefa agendada `atualizar-base-assistente` (segunda 7h; hoje **desativada**).
 3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) a 142. Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
 4. **Migração Guarani → Petrus** (cliente novplast) — scripts SQL em `Desktop\nov`.
+5. **Petrus.Hub** (marketplaces: Mercado Livre, Shopee, TikTok Shop; depois Amazon/Magalu) — SS8-107 a 116; tabelas HB1 a HB4 na master (SS8-108).
+6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124; base (tabelas S88 a S91, indicadores, job, permissões e metas) na master (SS8-118). Memória `dashboards-indicadores-web`.
+7. **Assistente de IA no Petrus Web** — SS8-171, tabelas IA1/IA2 na master (memória `assistente-ia-erp`). Também em andamento: atualização de versão do Web via Azure Blob (SS8-172).
 
 ## Onde estão os segredos (não copiados aqui)
 - `C:\Users\pedro\.claude\demandas\conexao.txt` — conexão do cnzla para o ss8.ps1.
