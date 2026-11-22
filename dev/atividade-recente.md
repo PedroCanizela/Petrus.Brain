@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 00:29 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 00:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -161,11 +161,11 @@ Branches:
 - + feature/ss8-152-comissoes-web
 - + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-159-importar-compra
-- + feature/ss8-164-email-nfe-web
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 b468414 Merge SS8-164: Migra├º├úo Web ÔÇö Faturamento/Fiscal: envio da NF-e por e-mail (manual e autom├ítico depois da autoriza├º├úo)
 - 2026-11-22 1bb91cf SS8-159: importar compra no documento de entrada (Petrus Web)
 - 2026-11-22 677542c SS8-164: envio da NF-e por e-mail no Petrus Web (manual e autom├ítico depois da autoriza├º├úo)
 - 2026-11-21 db5861c Merge SS8-166: ERP: abas de telas e cadastros (navegar entre v├írias telas abertas, como no Petrus desktop)
