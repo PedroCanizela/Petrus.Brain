@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 01:09 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 01:10 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -162,12 +162,13 @@ Branches:
 - + feature/ss8-140-telas-sistema
 - + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-155-expedicao-xml-recibo
-- + feature/ss8-160-financeiro-orcamento-notas-debito
 - + feature/ss8-171-assistente-ia
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 13caa7a Merge SS8-160: Migra├º├úo Web ÔÇö Financeiro: Or├ºamento e Notas de d├®bito de multa e juros
+- 2026-11-22 ed21cd8 Merge master (SS8-152) na SS8-160; invent├írio gerado de novo
 - 2026-11-22 7f60b61 SS8-140: Serasa no web (arquivo semanal de reciprocidade e concilia├º├úo mensal); invent├írio gerado de novo
 - 2026-11-22 9c5fbd1 SS8-171: assistente de IA no Petrus Web (API da Anthropic)
 - 2026-11-22 45ae469 Merge SS8-152: Migra├º├úo Web ÔÇö Comiss├Áes: lan├ºar, pagar, fechar, estornar, extrato e relat├│rios do vendedor, premia├º├úo de metas
