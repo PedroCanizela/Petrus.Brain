@@ -10,3 +10,4 @@
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
+- [Boletos no Petrus Web](boleto-web.md) — SS8-133: Boleto.Net não roda em .NET 9; opções de biblioteca perguntadas
