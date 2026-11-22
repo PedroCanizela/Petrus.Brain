@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 21/11/2026 19:15 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 00:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -156,6 +156,9 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-155-expedicao-xml-recibo
+- + feature/ss8-159-importar-compra
+- + feature/ss8-164-email-nfe-web
 - + feature/ss8-39-novo-layout-erp
 - * master
 
