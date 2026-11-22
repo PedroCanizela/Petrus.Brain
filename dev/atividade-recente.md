@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 11:47 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 11:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -168,6 +168,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 851020a SS8-133: boletos, remessa e retorno banc├írio no Petrus Web
 - 2026-11-22 75f4427 SS8-149: cadastro do pedido de venda no /Details com rec├ílculo ao vivo
 - 2026-11-22 a3e71e8 SS8-149: c├ílculo do pedido de venda no servidor (motor do desktop)
 - 2026-11-22 f4bcd53 Merge SS8-118: estrutura base dos dashboards (indicadores, job, componentes, permiss├Áes e metas)
