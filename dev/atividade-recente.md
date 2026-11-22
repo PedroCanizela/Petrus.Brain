@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 00:34 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 00:35 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -165,6 +165,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 cf91561 SS8-157: Migra├º├úo Web ÔÇö SPED Fiscal EFD ICMS/IPI (gerar e exportar)
 - 2026-11-22 79c8208 Merge SS8-159: Migra├º├úo Web ÔÇö Compras: importar compra no documento de entrada (ImportarCompraI57)
 - 2026-11-22 ec5be1d Merge master (SS8-164) na SS8-159; invent├írio gerado de novo
 - 2026-11-22 b468414 Merge SS8-164: Migra├º├úo Web ÔÇö Faturamento/Fiscal: envio da NF-e por e-mail (manual e autom├ítico depois da autoriza├º├úo)

@@ -11,4 +11,5 @@
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Importar compra no Web](migracao-web-compras-importar.md) — SS8-159: /Details com importarCompra na URL, abas gravadas no Confirmar
+- [SPED Fiscal no Petrus Web](sped-fiscal-web.md) — SS8-157: Petrus.Fiscal/Sped com FiscalBr, só Bloco K/H reais, export invertido no desktop
 - [Boletos no Petrus Web](boleto-web.md) — SS8-133: Boleto.Net não roda em .NET 9; opções de biblioteca perguntadas
