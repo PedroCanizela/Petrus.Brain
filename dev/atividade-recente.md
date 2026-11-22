@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 01:14 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 01:16 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -160,13 +160,14 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-133-boletos-remessa-retorno
-- + feature/ss8-140-telas-sistema
 - + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 4e055fe Merge SS8-140: Migra├º├úo Web ÔÇö WhatsApp, ajustes, minha conta, e-mail e Serasa
+- 2026-11-22 7c67775 Merge master (SS8-160, SS8-171) na SS8-140; invent├írio gerado de novo
 - 2026-11-22 24ee10e Merge SS8-171: assistente de IA no Petrus Web
 - 2026-11-22 13caa7a Merge SS8-160: Migra├º├úo Web ÔÇö Financeiro: Or├ºamento e Notas de d├®bito de multa e juros
 - 2026-11-22 ed21cd8 Merge master (SS8-152) na SS8-160; invent├írio gerado de novo

@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: efa19bf3-9f96-42ea-855d-376576cdb092
-  modified: 2026-11-22T04:09:10.962Z
+  modified: 2026-11-22T04:16:10.251Z
 ---
 
-SS8-140 (entregue em 22/11/2026, branch feature/ss8-140-telas-sistema, aguardando aprovação). Escopo definido pelo Pedro: IA/chatbot/assistente/Margo vão para a SS8-171; Customizador (ambiente e banco de dados) fica no desktop; Dashboard tem demanda própria; ajustes em página própria com abas.
+SS8-140 (aprovada e na master em 22/11/2026, merge 4e055fe; forms marcados com MIGRADO FORM; inventário 225 de 272 funções). Escopo definido pelo Pedro: IA/chatbot/assistente/Margo vão para a SS8-171; Customizador (ambiente e banco de dados) fica no desktop; Dashboard tem demanda própria; ajustes em página própria com abas.
 
 - Ajustes no web: seção "Ajustes" do menu do Customizador (MenuPetrus.Secoes, módulo 10), rotas /Ajustes/Geral, /NotasFiscais, /Boletos, /Usuarios, /MinhaConta. Serviços em `Petrus.Core/Ajustes` (AjustesSistema: S74, S65, S2/S49, buscas; CatalogoGeral: campos do frmGeral; ContaEmpresa: S1) e `Petrus.Fiscal/Ajustes/AjustesNotasFiscais` (S48 + .pfx na S41).
 - Novo parâmetro do frmGeral = uma linha no CatalogoGeral (aba, grupo, S74_CAMPO, rótulo, tipo).
