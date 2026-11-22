@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 00:48 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 00:52 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -157,9 +157,11 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-133-boletos-remessa-retorno
+- + feature/ss8-140-telas-sistema
 - + feature/ss8-149-cadastro-pedido-venda
 - + feature/ss8-152-comissoes-web
 - + feature/ss8-155-expedicao-xml-recibo
+- + feature/ss8-160-financeiro-orcamento-notas-debito
 - + feature/ss8-39-novo-layout-erp
 - * master
 
