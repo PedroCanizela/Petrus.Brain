@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 11:54 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 12:00 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -167,6 +167,9 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 eb86c9d SS8-133: t├¡tulos da remessa no cadastro pelo c├ílculo da SS8-149 (CalculaN50)
+- 2026-11-22 e253763 Merge master (SS8-149, SS8-140, SS8-118) na SS8-133
+- 2026-11-22 649405f Merge master na SS8-155
 - 2026-11-22 f218097 SS8-133: montar os t├¡tulos da remessa no cadastro (CalculaN50)
 - 2026-11-22 87ceb3b Merge SS8-149: Migra├º├úo Web ÔÇö Vendas: cadastro do pedido de venda com rec├ílculo, Integrar e Recalcular
 - 2026-11-22 2804095 Merge master na SS8-149

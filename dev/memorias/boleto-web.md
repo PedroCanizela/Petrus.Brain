@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: d264069e-9cd1-4c77-877f-5c4cc0619c8a
-  modified: 2026-11-22T14:54:31.320Z
+  modified: 2026-11-22T14:59:59.228Z
 ---
 
 SS8-133 entregue em 22/11/2026 (branch `feature/ss8-133-boletos-remessa-retorno`, commit 851020a, aguardando aprovação). Usuário escolheu portar a Boleto.Net (opção A), envio automático só pelo botão, sem PagFor.
@@ -13,7 +13,8 @@ SS8-133 entregue em 22/11/2026 (branch `feature/ss8-133-boletos-remessa-retorno`
 - `Petrus.ERP/Petrus.Boleto`: fonte da Boleto.Net (GitHub, maio/2026) em .NET 9, RootNamespace `BoletoNet` (recursos `BoletoNet.Imagens.xxx.jpg`). BoletoBancario sem System.Web; PDF pelo `Syncfusion.HtmlToPdfConverter.Net.Windows` (Blink) — servidor Windows. Testado fora do banco: PDF no layout do desktop (com a licença do Program.cs não sai marca trial) e CNAB 400.
 - `Petrus.Financeiro/Cobranca`: CriarBoleto, RemessaBancaria, RetornoBancario do desktop + `LegadoBoletos` (engines sobre BaixasTitulos/LancamentosFinanceiros), `ServicoBoletos` (fila única, como o ServicoNFe), `EnvioBoletos` (e-mail S65/SX1, WhatsApp SX3/SX5). Namespace não pode ser `...Boletos` (colide com o tipo `BoletoNet.Boletos`).
 - `Petrus.Core/Utils/EnvioWhatsApp.cs`: Zapster; template sobe PDF no Cloudflare R2 com chaves da seção "CloudflareR2" do appsettings (no desktop estão no código — não copiar).
-- CalculaN50 (títulos da remessa) virou `ServicoBoletos.MontarTitulosRemessaAsync`, chamado no `Salvar()` do Details quando a tabela é N44 (commit f218097) — primeiro gancho "recalcular depois de gravar" do Details; outros cadastros (R13 da SS8-149) podem seguir o mesmo caminho.
+- CalculaN50 (títulos da remessa) é o `Cobranca/CalculoRemessa` (ICalculoCadastro da SS8-149, registrado no Program.cs): roda na aba N50 (S9 100409) da tela ao abrir, a cada alteração, no Recalcular e no Confirmar (commit eb86c9d). Cálculo de cadastro de outras tabelas segue esse mecanismo, não gancho no Salvar().
+- WhatsApp: status/ligar/QR/pareamento são do `WhatsAppZapster` (SS8-140); o `EnvioWhatsApp` (SS8-133) só envia mensagens.
 - Fora: o PagFor (100319/100320, sem código no desktop).
 
 **Why:** reaproveitar a lib e as ~5.000 linhas de regra de cobrança do desktop.
