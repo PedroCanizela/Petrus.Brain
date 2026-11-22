@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 22/11/2026 00:59 por scripts\Sincronizar.ps1
+Gerado em 22/11/2026 01:08 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -161,7 +161,6 @@ Branches:
 - + feature/ss8-133-boletos-remessa-retorno
 - + feature/ss8-140-telas-sistema
 - + feature/ss8-149-cadastro-pedido-venda
-- + feature/ss8-152-comissoes-web
 - + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-160-financeiro-orcamento-notas-debito
 - + feature/ss8-171-assistente-ia
@@ -169,6 +168,10 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-22 9c5fbd1 SS8-171: assistente de IA no Petrus Web (API da Anthropic)
+- 2026-11-22 45ae469 Merge SS8-152: Migra├º├úo Web ÔÇö Comiss├Áes: lan├ºar, pagar, fechar, estornar, extrato e relat├│rios do vendedor, premia├º├úo de metas
+- 2026-11-22 fbc5588 Merge master na SS8-152; invent├írio gerado de novo
+- 2026-11-22 8f55306 SS8-140: ajustes (geral, notas fiscais, boletos, usu├írios), minha conta e e-mail do compartilhar
 - 2026-11-22 5d4db2b SS8-160: Migra├º├úo Web ÔÇö Financeiro: Or├ºamento e Notas de d├®bito de multa e juros
 - 2026-11-22 72bf481 SS8-140: WhatsApp (SX5) no web: ligar, desligar, reiniciar e pareamento
 - 2026-11-22 446f02e Merge SS8-157: Migra├º├úo Web ÔÇö Fiscal: SPED fiscal EFD ICMS/IPI (gerar e exportar)
