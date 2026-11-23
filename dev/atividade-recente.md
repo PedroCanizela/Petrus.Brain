@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 19:05 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 19:09 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 8f98948f SS8-120: prioridade do plano de contas e indicadores financeiros no dicion├írio
 - 2026-11-23 dbc4dd79 Merge SS8-194: parcelas das notas de terceiros comecam em /1
 - 2026-11-23 6d5a59d9 SS8-194: parcelas das notas de terceiros comecam em /1
 - 2026-11-23 d6526c89 Merge SS8-182: Estrutura de dados das gaiolas (status, produtos, historico e etiqueta)
@@ -182,6 +183,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 db09c29 SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
 - 2026-11-23 6b78165 SS8-185: motor de relat├│rios por S7_ID no /Report
 - 2026-11-23 5b226db SS8-175: lupa do SEARCH TEXTBOX abre a tela completa da tabela
 - 2026-11-23 73fdf48 Merge SS8-172: atualiza├º├úo do Petrus Web via Azure Blob

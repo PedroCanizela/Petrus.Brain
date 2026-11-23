@@ -10,6 +10,7 @@
 - [Forms sem S39 no Web](migracao-web-forms-sem-s39.md) — SS8-160: perguntar antes de portar; RotasDedicadas; MIGRADO/DESCARTADO FORM
 - [Ajustes, WhatsApp e Serasa no Web](ajustes-whatsapp-serasa-web.md) — SS8-140: /Ajustes/* com abas, Zapster na SX5, e-mail pelo S2, Serasa; IA na SS8-171
 - [Assistente de IA no ERP](assistente-ia-erp.md) — SS8-171: Petrus.Assistente (Anthropic), IA1/IA2, Perguntar à IA no Snackbar, limite S74
+- [Dashboard Financeiro no Web](dashboard-financeiro-web.md) — SS8-120: 16 indicadores pelos relatórios do desktop, L10_PRIORIDADE, DiasFuturos/SaldoEmAberto, validar SQL com NOEXEC
 - [Dashboards no Web](dashboards-indicadores-web.md) — SS8-118: S88–S91, catálogo de indicadores no código, job 15 min, /Dashboards/{Area}
 - [Relatórios desktop x Web](relatorios-desktop-web.md) — SS8-169: 122 S7 calculados (GetReport) faltam no /Report; InventarioRelatorios.ps1; MIGRADO S7
 - [Status das inclusões no Web](status-inclusao-web.md) — SS8-168: "Funções Novo" = switch do Funcoes.Novo(); StatusInclusao no Core, chamado pelo /Details
