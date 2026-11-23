@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 9bfef5b8-2eb8-40a1-b186-27b1cd6c8033
-  modified: 2026-11-22T15:12:27.315Z
+  modified: 2026-11-23T14:39:03.155Z
 ---
 
-SS8-155 entregue em 22/11/2026 (aguardando aprovação), branch `feature/ss8-155-expedicao-xml-recibo` (commits dbb2837, d7e125b, 8e778fc), só compilada. Inventário: 240 de 272 funções.
+SS8-155 aprovada e na master do Petrus.ERP em 23/11/2026 (merge d0326b8, com push), só compilada. Inventário depois do merge: 251 de 272 funções.
 
 - Expedição: `Petrus.Logistica/Expedicao/DocumentosExpedicao.cs` (Faturar 100173, Ordem 100389, Controle de saída 100388, Emitir manifesto 100226). Petrus.Logistica referencia Petrus.Vendas.
 - `FaturamentoPedido.FaturarAsync(reg, u, motivo, verificarComTransportador)`: false pula a verificação.

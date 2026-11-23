@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 11:38 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 11:39 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -162,11 +162,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-155-expedicao-xml-recibo
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 d0326b8 Merge SS8-155: Migra├º├úo Web ÔÇö Expedi├º├úo, MDF-e, distribui├º├úo e importa├º├úo de XML e recibo da folha
+- 2026-11-23 61a915a Merge master (SS8-133) na SS8-155
 - 2026-11-23 e95b02b Merge SS8-176: cores e quantidades na ordem de produ├º├úo (MES)
 - 2026-11-23 6aff95a SS8-176: cores e quantidades na ordem de produ├º├úo (MES)
 - 2026-11-22 8e778fc SS8-155: importar XML da distribui├º├úo de DF-e direto na nota de entrada
