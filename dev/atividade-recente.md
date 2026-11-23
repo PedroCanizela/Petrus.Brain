@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 14:17 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 14:18 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-179-meta2-performance-vendas
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 49b1ed76 Merge SS8-179: Meta 2 no relatorio Performance de vendas e na tela de Metas por vendedor
 - 2026-11-23 c5adbd6b SS8-179: grade de metas com o mesmo estilo da grade de vendedores
 - 2026-11-23 a40d588c SS8-179: volta coluna TIPO; grade de metas com header em negrito e mais alta
 - 2026-11-23 2557bd43 SS8-179: lancamento de metas em grade (Mes | Meta 1 | Meta 2)
