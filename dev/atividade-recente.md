@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 15:04 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 15:17 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -173,11 +173,11 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-172-atualizador-web
-- + feature/ss8-180-grid-tables-estilo-desktop
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 7404dc5 Merge SS8-180: grid das Tables, cabecalho e cores do Web mais proximos do Petrus desktop
 - 2026-11-23 401c863 SS8-180: cabecalho mais limpo no celular e tablet
 - 2026-11-23 97aa51c SS8-180: lista da Table mais compacta no celular
 - 2026-11-23 15695d5 SS8-180: icone de abrir no botao Visualizar
