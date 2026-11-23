@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 16:23 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 16:24 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -182,6 +182,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 e9f2628 SS8-169: demandas abertas (SS8-185 a 193) no documento dos relat├│rios
 - 2026-11-23 f8effe8 SS8-169: invent├írio dos relat├│rios desktop x Web e recibo.frx que faltava
 - 2026-11-23 7404dc5 Merge SS8-180: grid das Tables, cabecalho e cores do Web mais proximos do Petrus desktop
 - 2026-11-23 401c863 SS8-180: cabecalho mais limpo no celular e tablet
