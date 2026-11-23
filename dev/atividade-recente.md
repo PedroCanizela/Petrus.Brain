@@ -178,6 +178,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 b60e578 SS8-180: tela da Table de borda a borda e cabecalho da grade da cor do rodape
 - 2026-11-23 1f7715a SS8-172: atualiza├º├úo do Petrus Web via Azure Blob
 - 2026-11-23 b8ab7d2 Merge SS8-177: login lembrado por PC
 - 2026-11-23 af2b12e SS8-180: status em bolinha, marca sem linha e seletor de modulo moderno
