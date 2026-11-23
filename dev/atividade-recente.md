@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 18:24 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 18:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -175,13 +175,13 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-172-atualizador-web
-- + feature/ss8-183-migracao-gaiolas
-- + feature/ss8-184-gaiolas-web
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 73fdf48 Merge SS8-172: atualiza├º├úo do Petrus Web via Azure Blob
+- 2026-11-23 c816c53 Merge SS8-184: telas web de movimentacao das gaiolas (WMS)
+- 2026-11-23 b146ead Merge SS8-183: migracao das gaiolas e dos pacotes do sistema antigo (scripts SQL)
 - 2026-11-23 870b793 Merge SS8-168: status e rotinas do Funcoes.Novo()/Editar() no Petrus Web
 - 2026-11-23 36f4335 Merge SS8-195: filtro avan├ºado em Mais a├º├Áes e filtro nativo do SfGrid
 - 2026-11-23 b85cbd9 SS8-195: filtro avan├ºado em Mais a├º├Áes e bot├úo Filtro com filtro nativo do SfGrid
