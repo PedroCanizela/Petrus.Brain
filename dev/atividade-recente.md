@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 16:27 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 16:28 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -180,6 +180,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 4dd0f10 SS8-183: script de migra├º├úo das gaiolas do sistema antigo (A7, A8 e A9)
 - 2026-11-23 50115ef Merge SS8-169: invent├írio dos relat├│rios desktop x Web e recibo.frx
 - 2026-11-23 e9f2628 SS8-169: demandas abertas (SS8-185 a 193) no documento dos relat├│rios
 - 2026-11-23 f8effe8 SS8-169: invent├írio dos relat├│rios desktop x Web e recibo.frx que faltava
