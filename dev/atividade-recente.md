@@ -411,14 +411,14 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-181-log-sucesso
 - * master
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 aa33719 Merge SS8-181: log de sucesso e grava├º├úo do JSON recebido da Pratic
 - 2026-11-23 9cb0ab0 SS8-181: log de sucesso e grava├º├úo do JSON recebido da Pratic
-- 2026-11-23 386a696 Merge SS8-181: conex├úo direta no MySQL da Pratic com log e modo de teste
 - 2026-11-23 4b86b76 On master: SS8-181 WIP PRATIC antes do merge
+- 2026-11-23 386a696 Merge SS8-181: conex├úo direta no MySQL da Pratic com log e modo de teste
 - 2026-11-23 d4b69f7 index on master: ab38d83 Update
 - 2026-11-23 a57875b SS8-181: conex├úo direta no MySQL da Pratic com log e modo de teste
 - 2026-11-10 ab38d83 Update
