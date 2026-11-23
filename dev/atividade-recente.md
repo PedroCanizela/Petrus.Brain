@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 16:34 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 18:18 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-194-parcelas-iniciam-em-1
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 6d5a59d9 SS8-194: parcelas das notas de terceiros comecam em /1
 - 2026-11-23 d6526c89 Merge SS8-182: Estrutura de dados das gaiolas (status, produtos, historico e etiqueta)
 - 2026-11-23 9c9f666d SS8-182: Estrutura de dados das gaiolas (status, produtos, hist├│rico e etiqueta)
 - 2026-11-23 386e9399 Fix - vProdLiq
@@ -181,6 +183,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 3655e6c Fix - vProdLiq
 - 2026-11-23 f6f9c25 SS8-168: status das inclus├Áes (Status<Tabela> do Funcoes.Novo) no Petrus Web
 - 2026-11-23 d930171 SS8-184: telas web de movimenta├º├úo das gaiolas (WMS)
 - 2026-11-23 4dd0f10 SS8-183: script de migra├º├úo das gaiolas do sistema antigo (A7, A8 e A9)
@@ -571,8 +574,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-10 513509f Fix - Chamados e desenvolvimentos
 - 2026-11-10 403deab Fix - NavMenu
 - 2026-11-10 e6dc17a Add - Telas suporte
-- 2026-11-09 ff7716c Update - Credentials
-- 2026-11-09 51e7f5b Add - Suporte
 
 ## ZeusFiscal
 Branch atual: master
