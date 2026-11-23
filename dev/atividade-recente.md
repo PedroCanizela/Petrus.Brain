@@ -178,6 +178,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 1643ae6 SS8-180: Excluir do Mais acoes sem destaque em vermelho
 - 2026-11-23 6535903 SS8-180: menu Mais acoes sem icones, fontes menores e cores mais suaves
 - 2026-11-23 cdf17d8 SS8-180: Details com Cancelar e Confirmar em texto e cabecalho mais baixo
 - 2026-11-23 06a884b SS8-180: ajustes finos da lista e do Details
