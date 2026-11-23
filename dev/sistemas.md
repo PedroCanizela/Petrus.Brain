@@ -1,6 +1,6 @@
 # Contexto dos sistemas do Pedro
 
-> Atualizado pelo Claude (tarefa diária `atualizar-contexto-claude`). Última revisão manual do Claude: 22/11/2026.
+> Atualizado pelo Claude (tarefa diária `atualizar-contexto-claude`). Última revisão manual do Claude: 23/11/2026.
 > Detalhes finos ficam em `memorias\` (um fato por arquivo). Este arquivo é o mapa geral.
 > **Segredos (senhas, chaves, connection strings) NÃO ficam aqui.** Ver "Onde estão os segredos".
 
@@ -42,7 +42,7 @@ Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações
 ## Projetos em andamento
 1. **Fluxo de demandas SS8** — Claude pega demandas, pergunta ou desenvolve em branch/worktree, usuário aprova. Comandos: `/demandas /nova-demanda /desenvolver /responder /aprovar /rejeitar`. Script `C:\Users\pedro\.claude\demandas\ss8.ps1` (+ `conexao.txt` com a conexão). Status: Pendente, Em análise, Aguardando resposta, Em desenvolvimento, Aguardando aprovação, Em testes, Concluído, Cancelado. Seção "Demandas SS8" na barra lateral do app.
 2. **Assistente de WhatsApp** — aprovado e na master (17/11/2026). Webhook Zapster → `/api/whatsapp/webhook`. Base SS1/SS2 gerada do código por `Tools\AtualizarBase.ps1`; tarefa agendada `atualizar-base-assistente` (segunda 7h; hoje **desativada**).
-3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) a 142. Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
+3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) a 142; já na master (22/11): SS8-133 (boletos/remessa/retorno), SS8-140 (WhatsApp, ajustes, Serasa), SS8-149 (pedido de venda com recálculo), SS8-152 (comissões), SS8-155 (MDF-e, DF-e), SS8-157 (SPED fiscal), SS8-159, SS8-160 (orçamento, notas de débito). Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
 4. **Migração Guarani → Petrus** (cliente novplast) — scripts SQL em `Desktop\nov`.
 5. **Petrus.Hub** (marketplaces: Mercado Livre, Shopee, TikTok Shop; depois Amazon/Magalu) — SS8-107 a 116; tabelas HB1 a HB4 na master (SS8-108).
 6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124; base (tabelas S88 a S91, indicadores, job, permissões e metas) na master (SS8-118). Memória `dashboards-indicadores-web`.
