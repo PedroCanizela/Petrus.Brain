@@ -172,12 +172,12 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-172-atualizador-web
-- + feature/ss8-177-login-persistente-pc
 - + feature/ss8-180-grid-tables-estilo-desktop
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 b8ab7d2 Merge SS8-177: login lembrado por PC
 - 2026-11-23 af2b12e SS8-180: status em bolinha, marca sem linha e seletor de modulo moderno
 - 2026-11-23 176b9e2 SS8-180: ajustes de layout apos revisao
 - 2026-11-23 6ffa03c SS8-180: grade das Tables e layout do Web mais parecidos com o Petrus desktop
