@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 19:10 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 19:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 391f31b4 SS8-120: status da N9 no fluxo projetado x or├ºado
 - 2026-11-23 8f98948f SS8-120: prioridade do plano de contas e indicadores financeiros no dicion├írio
 - 2026-11-23 dbc4dd79 Merge SS8-194: parcelas das notas de terceiros comecam em /1
 - 2026-11-23 6d5a59d9 SS8-194: parcelas das notas de terceiros comecam em /1
@@ -177,12 +178,12 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-120-dashboard-financeiro
-- + feature/ss8-175-lupa-pesquisa-completa
 - + feature/ss8-185-motor-relatorios
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 a63f311 Merge SS8-175: lupa do SEARCH TEXTBOX abre a tela completa da tabela
 - 2026-11-23 f4d9355 SS8-175: di├ílogo da lupa com altura fixa, lista sem margem e sem rolagem externa (s├│ a grade rola)
 - 2026-11-23 db09c29 SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
 - 2026-11-23 6b78165 SS8-185: motor de relat├│rios por S7_ID no /Report
