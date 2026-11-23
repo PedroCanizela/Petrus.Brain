@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 14:11 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 14:14 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 c5adbd6b SS8-179: grade de metas com o mesmo estilo da grade de vendedores
 - 2026-11-23 a40d588c SS8-179: volta coluna TIPO; grade de metas com header em negrito e mais alta
 - 2026-11-23 2557bd43 SS8-179: lancamento de metas em grade (Mes | Meta 1 | Meta 2)
 - 2026-11-23 d07bdfd1 Merge SS8-178: relatorios lembram periodo e filtros enquanto a tela esta aberta
