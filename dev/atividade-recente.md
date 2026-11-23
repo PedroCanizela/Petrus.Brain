@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 11:52 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 11:56 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -411,10 +411,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-181-pratic-mysql
 - * master
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 a57875b SS8-181: conex├úo direta no MySQL da Pratic com log e modo de teste
 - 2026-11-10 ab38d83 Update
 - 2026-11-10 654eb14 Fix - Reset Placa
 
