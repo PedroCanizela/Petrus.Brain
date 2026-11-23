@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-179-meta2-performance-vendas
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -162,6 +163,7 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-177-login-persistente-pc
 - + feature/ss8-180-grid-tables-estilo-desktop
 - + feature/ss8-39-novo-layout-erp
 - * master
