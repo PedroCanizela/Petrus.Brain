@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 18:58 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 19:00 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-120-dashboard-financeiro
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -176,6 +177,7 @@ Branch atual: master
 Branches:
 - + feature/ss8-120-dashboard-financeiro
 - + feature/ss8-175-lupa-pesquisa-completa
+- + feature/ss8-185-motor-relatorios
 - + feature/ss8-39-novo-layout-erp
 - * master
 
