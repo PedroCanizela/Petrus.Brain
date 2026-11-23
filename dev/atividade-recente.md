@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 16:18 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 16:20 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-182-gaiolas-estrutura
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 d6526c89 Merge SS8-182: Estrutura de dados das gaiolas (status, produtos, historico e etiqueta)
 - 2026-11-23 9c9f666d SS8-182: Estrutura de dados das gaiolas (status, produtos, hist├│rico e etiqueta)
 - 2026-11-23 386e9399 Fix - vProdLiq
 - 2026-11-23 49b1ed76 Merge SS8-179: Meta 2 no relatorio Performance de vendas e na tela de Metas por vendedor
