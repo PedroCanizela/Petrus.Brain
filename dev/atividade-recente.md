@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 19:14 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 19:16 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -178,10 +178,19 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-185-motor-relatorios
+- + feature/ss8-186-relatorios-vendas
+- + feature/ss8-187-relatorios-financeiro
+- + feature/ss8-188-relatorios-estoque-compras
+- + feature/ss8-189-relatorios-rh
+- + feature/ss8-190-relatorios-fiscal-crm-logistica
+- + feature/ss8-191-relatorios-industriais
+- + feature/ss8-192-report-pdf-periodo-grafico
+- + feature/ss8-193-carta-isencao
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 4a3c317 SS8-193: Carta de isen├º├úo do pedido de venda no Web (S39 100137)
 - 2026-11-23 e477fbd Merge SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
 - 2026-11-23 a63f311 Merge SS8-175: lupa do SEARCH TEXTBOX abre a tela completa da tabela
 - 2026-11-23 f4d9355 SS8-175: di├ílogo da lupa com altura fixa, lista sem margem e sem rolagem externa (s├│ a grade rola)
