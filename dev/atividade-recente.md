@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 13:44 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 13:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,7 +18,6 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-178-filtro-salvo-relatorio
 - + feature/ss8-179-meta2-performance-vendas
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
@@ -26,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 d07bdfd1 Merge SS8-178: relatorios lembram periodo e filtros enquanto a tela esta aberta
 - 2026-11-23 92777a0e SS8-179: tela de metas com meses em coluna unica, scroll e sem coluna Tipo
 - 2026-11-23 1ec7f949 SS8-178: move MemoriaRelatorio para depois do frmPeriodo (corrige recurso do formulario)
 - 2026-11-23 f2191890 SS8-179: Meta 2 na S30 do relatorio e ajuste de layout da tela
