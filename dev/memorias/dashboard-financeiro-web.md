@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 2e2aa4e9-cc1f-41f4-a842-971d4f156119
-  modified: 2026-11-23T22:12:07.734Z
+  modified: 2026-11-23T22:13:24.468Z
 ---
 
-SS8-120 entregue em 23/11/2026, aguardando aprovação, compilada e com as SQLs validadas por NOEXEC no novplast. Branch `feature/ss8-120-dashboard-financeiro` nos **dois** repos: Petrus.ERP (db09c29) e Petrus desktop (8f98948f, Dados.cs).
+SS8-120 aprovada e na master em 23/11/2026: Petrus.ERP (merge e477fbd) e Petrus desktop (merge 7accf873: Dados.cs + correção do FluxoCaixa). Foi compilada e teve as SQLs validadas por NOEXEC no novplast. Os valores não foram conferidos contra os relatórios.
 
 - Decisões do Pedro: receber = N22, pagar = N9, fornecedores = I5; **sem saldo bancário**; fluxo, inadimplência e DRE seguem os relatórios do desktop (`Petrus\Financeiro\Reports\FluxoCaixa.cs`, Cobrança S7 100191 = status de cobrança da N22, `DRE.DreGerencial`); prioridade do plano é numérica; alerta de variação a partir de 20%.
 - `Petrus.Financeiro/Indicadores/IndicadoresFinanceiro.cs` (16 códigos "Financeiro - ...") e `PlanosContasPrioritarios.cs` (pago + a pagar por plano, a partir da dimensão "Plano de contas" da S88; chave = L10_ID; rateio pela L70).
