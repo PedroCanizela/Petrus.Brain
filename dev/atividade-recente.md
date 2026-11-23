@@ -179,11 +179,11 @@ Branches:
 - + feature/ss8-172-atualizador-web
 - + feature/ss8-183-migracao-gaiolas
 - + feature/ss8-184-gaiolas-web
-- + feature/ss8-195-filtro-avancado-mais-acoes
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 36f4335 Merge SS8-195: filtro avan├ºado em Mais a├º├Áes e filtro nativo do SfGrid
 - 2026-11-23 b85cbd9 SS8-195: filtro avan├ºado em Mais a├º├Áes e bot├úo Filtro com filtro nativo do SfGrid
 - 2026-11-23 a02367d SS8-168: demais rotinas do Funcoes.Novo()/Editar() no Petrus Web
 - 2026-11-23 7eab665 SS8-183: script SQL puro da migra├º├úo dos pacotes (GX3)
