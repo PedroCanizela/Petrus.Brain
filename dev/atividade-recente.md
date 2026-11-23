@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 15:19 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 15:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -24,6 +24,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 386e9399 Fix - vProdLiq
 - 2026-11-23 49b1ed76 Merge SS8-179: Meta 2 no relatorio Performance de vendas e na tela de Metas por vendedor
 - 2026-11-23 c5adbd6b SS8-179: grade de metas com o mesmo estilo da grade de vendedores
 - 2026-11-23 a40d588c SS8-179: volta coluna TIPO; grade de metas com header em negrito e mais alta
@@ -445,6 +446,8 @@ Branches:
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 56f1a9c Merge SS8-181: diagn├│stico de InvalidCast em colunas do monitor
+- 2026-11-23 14e3840 SS8-181: diagn├│stico de InvalidCast em colunas do monitor
 - 2026-11-23 ad48ce9 Merge SS8-181: usar a coluna idMod da tabela modulo
 - 2026-11-23 11b4468 SS8-181: usar a coluna idMod da tabela modulo
 - 2026-11-23 aa33719 Merge SS8-181: log de sucesso e grava├º├úo do JSON recebido da Pratic
