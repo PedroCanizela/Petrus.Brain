@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 14:43 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 14:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -178,6 +178,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 cdf17d8 SS8-180: Details com Cancelar e Confirmar em texto e cabecalho mais baixo
 - 2026-11-23 06a884b SS8-180: ajustes finos da lista e do Details
 - 2026-11-23 64c07b7 SS8-180: visual mais clean e filtro de status em lista de selecao
 - 2026-11-23 88dab22 SS8-180: grade e cabecalho ainda mais proximos do Petrus desktop
