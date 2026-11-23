@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 13:39 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 13:41 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 1ec7f949 SS8-178: move MemoriaRelatorio para depois do frmPeriodo (corrige recurso do formulario)
 - 2026-11-23 f2191890 SS8-179: Meta 2 na S30 do relatorio e ajuste de layout da tela
 - 2026-11-23 7e2d3541 SS8-178: relatorios lembram periodo e filtros enquanto a tela esta aberta
 - 2026-11-23 514d556f SS8-179: Meta 2 no relatorio Performance de Vendas e na tela de Metas de Vendas
