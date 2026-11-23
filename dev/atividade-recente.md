@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 18:52 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 18:58 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -174,10 +174,13 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-120-dashboard-financeiro
+- + feature/ss8-175-lupa-pesquisa-completa
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 5b226db SS8-175: lupa do SEARCH TEXTBOX abre a tela completa da tabela
 - 2026-11-23 73fdf48 Merge SS8-172: atualiza├º├úo do Petrus Web via Azure Blob
 - 2026-11-23 c816c53 Merge SS8-184: telas web de movimentacao das gaiolas (WMS)
 - 2026-11-23 b146ead Merge SS8-183: migracao das gaiolas e dos pacotes do sistema antigo (scripts SQL)
