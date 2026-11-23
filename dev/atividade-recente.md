@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 18:18 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 18:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -179,10 +179,12 @@ Branches:
 - + feature/ss8-172-atualizador-web
 - + feature/ss8-183-migracao-gaiolas
 - + feature/ss8-184-gaiolas-web
+- + feature/ss8-195-filtro-avancado-mais-acoes
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 7eab665 SS8-183: script SQL puro da migra├º├úo dos pacotes (GX3)
 - 2026-11-23 3655e6c Fix - vProdLiq
 - 2026-11-23 f6f9c25 SS8-168: status das inclus├Áes (Status<Tabela> do Funcoes.Novo) no Petrus Web
 - 2026-11-23 d930171 SS8-184: telas web de movimenta├º├úo das gaiolas (WMS)
