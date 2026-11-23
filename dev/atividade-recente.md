@@ -176,6 +176,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 176b9e2 SS8-180: ajustes de layout apos revisao
 - 2026-11-23 6ffa03c SS8-180: grade das Tables e layout do Web mais parecidos com o Petrus desktop
 - 2026-11-23 d61bb4a SS8-177: login lembrado por PC
 - 2026-11-23 d0326b8 Merge SS8-155: Migra├º├úo Web ÔÇö Expedi├º├úo, MDF-e, distribui├º├úo e importa├º├úo de XML e recibo da folha
