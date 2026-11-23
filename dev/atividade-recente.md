@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 13:31 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 13:32 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -172,6 +172,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 6ffa03c SS8-180: grade das Tables e layout do Web mais parecidos com o Petrus desktop
 - 2026-11-23 d61bb4a SS8-177: login lembrado por PC
 - 2026-11-23 d0326b8 Merge SS8-155: Migra├º├úo Web ÔÇö Expedi├º├úo, MDF-e, distribui├º├úo e importa├º├úo de XML e recibo da folha
 - 2026-11-23 61a915a Merge master (SS8-133) na SS8-155
