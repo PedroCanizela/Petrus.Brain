@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 18:31 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 18:32 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -180,6 +180,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 7fb6fdf SS8-175: lupa do campo de busca abre a busca completa (lista, pesquisa e cadastro)
 - 2026-11-23 73fdf48 Merge SS8-172: atualiza├º├úo do Petrus Web via Azure Blob
 - 2026-11-23 c816c53 Merge SS8-184: telas web de movimentacao das gaiolas (WMS)
 - 2026-11-23 b146ead Merge SS8-183: migracao das gaiolas e dos pacotes do sistema antigo (scripts SQL)
