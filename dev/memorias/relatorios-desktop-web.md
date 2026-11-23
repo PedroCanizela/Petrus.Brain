@@ -1,0 +1,19 @@
+---
+name: relatorios-desktop-web
+description: SS8-169 (23/11/2026) — inventário dos relatórios S7 desktop x Web; /Report não tem os calculados do Helpers.GetReport; marcador MIGRADO S7
+metadata:
+  node_type: memory
+  type: project
+  originSessionId: 48d22ece-4ee3-4a73-b492-d3d9b2531273
+  modified: 2026-11-23T19:23:03.867Z
+---
+
+SS8-169 entregue em 23/11/2026 na branch `feature/ss8-169-relatorios-desktop-web` (commit f8effe8), aguardando aprovação.
+
+- `Petrus.ERP/Scripts/InventarioRelatorios.ps1` gera `Docs/migracao-relatorios.md` (247 S7: 122 calculados faltam, 28 com página MES/CMMS equivalente, 15 parciais com regra N3/N22, 82 genéricos). `Docs/migracao-relatorios-documentos.md` (à mão) cobre .frx, CriarPDF, diferenças da tela e 9 demandas sugeridas, que ainda não foram abertas.
+- O desktop despacha os relatórios calculados por S7_ID em `Petrus\Core\Utils\Helpers.GetReport` (classes `Petrus\<Módulo>\Reports\*.cs`, tabela virtual S77). O `Report.razor` do Web só faz `SELECT *` na tabela do S8, então esses relatórios abrem vazios.
+- Relatório portado no Web: marcar `// MIGRADO S7:<id>` para o script reconhecer.
+- O `recibo.frx` nunca tinha sido embutido no Petrus.Fiscal (os recibos 100301/100351 falhavam). Foi corrigido nessa branch.
+
+**Why:** as próximas demandas de relatório por módulo saem dessa lista.
+**How to apply:** antes de portar relatório, rodar o script; criar primeiro o despacho por S7_ID no /Report e reusar `RelatorioListaPdf` para o PDF. Ver [[migracao-web]] e [[comissoes-web-relatorio-pdf]].

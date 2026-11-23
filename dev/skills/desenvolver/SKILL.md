@@ -26,7 +26,7 @@ Argumentos: `$ARGUMENTS` (um ou mais IDs; vazio = toda a fila).
 
 Se as ferramentas do app existirem (carregue com ToolSearch
 `select:mcp__ccd_sidebar__move_sessions,mcp__ccd_session_mgmt__set_session_title`):
-- `move_sessions` com `session_ids: ["self"]` e `section_id: "cg-04a7ae70-5cba-4194-b791-3bb42567cf71"`
+- `move_sessions` com `session_ids: ["self"]` e `section_id: "cg-61b0e903-a902-400b-ac97-2bec56dbb074"`
   (seção "Demandas SS8"). Se essa seção não existir mais, use `list_sections` e procure "Demandas SS8";
   se não achar, siga sem mover.
 - Renomeie a sessão: com um ID, `SS8-<id> <descrição curta>`; com vários, `SS8 <ids>`; sem IDs, `SS8 fila`.

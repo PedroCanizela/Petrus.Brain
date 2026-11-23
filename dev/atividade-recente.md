@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 16:20 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 16:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -169,7 +169,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-10 49b0b1a7 Update - Manuten├º├úo Molde Pratic
 - 2026-11-09 8882623b Update
 - 2026-11-09 b26281ae Remove - Personaliza├º├úo Pratic (Tipo faturamento) Pratic
-- 2026-11-09 3df92614 Fix - Numeric (Moeda) Relobraz - Fabiana
 
 ## Petrus.ERP
 Branch atual: master
@@ -177,10 +176,13 @@ Branch atual: master
 Branches:
 - + feature/ss8-169-relatorios-desktop-web
 - + feature/ss8-172-atualizador-web
+- + feature/ss8-183-migracao-gaiolas
+- + feature/ss8-184-gaiolas-web
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 f8effe8 SS8-169: invent├írio dos relat├│rios desktop x Web e recibo.frx que faltava
 - 2026-11-23 7404dc5 Merge SS8-180: grid das Tables, cabecalho e cores do Web mais proximos do Petrus desktop
 - 2026-11-23 401c863 SS8-180: cabecalho mais limpo no celular e tablet
 - 2026-11-23 97aa51c SS8-180: lista da Table mais compacta no celular
