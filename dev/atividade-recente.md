@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 13:27 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 13:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-178-filtro-salvo-relatorio
 - + feature/ss8-179-meta2-performance-vendas
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
@@ -25,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 514d556f SS8-179: Meta 2 no relatorio Performance de Vendas e na tela de Metas de Vendas
 - 2026-11-23 6de43a3d Update
 - 2026-11-22 8b47fc1b Merge SS8-118: estrutura base dos dashboards (indicadores, job, componentes, permiss├Áes e metas)
 - 2026-11-22 61205aab SS8-118: dicion├írio dos dashboards (S88 a S91)
@@ -169,6 +171,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 d61bb4a SS8-177: login lembrado por PC
 - 2026-11-23 d0326b8 Merge SS8-155: Migra├º├úo Web ÔÇö Expedi├º├úo, MDF-e, distribui├º├úo e importa├º├úo de XML e recibo da folha
 - 2026-11-23 61a915a Merge master (SS8-133) na SS8-155
 - 2026-11-23 e95b02b Merge SS8-176: cores e quantidades na ordem de produ├º├úo (MES)
