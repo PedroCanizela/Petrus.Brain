@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 13:30 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 13:31 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 7e2d3541 SS8-178: relatorios lembram periodo e filtros enquanto a tela esta aberta
 - 2026-11-23 514d556f SS8-179: Meta 2 no relatorio Performance de Vendas e na tela de Metas de Vendas
 - 2026-11-23 6de43a3d Update
 - 2026-11-22 8b47fc1b Merge SS8-118: estrutura base dos dashboards (indicadores, job, componentes, permiss├Áes e metas)
