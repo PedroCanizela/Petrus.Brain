@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-194-parcelas-iniciam-em-1
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 dbc4dd79 Merge SS8-194: parcelas das notas de terceiros comecam em /1
 - 2026-11-23 6d5a59d9 SS8-194: parcelas das notas de terceiros comecam em /1
 - 2026-11-23 d6526c89 Merge SS8-182: Estrutura de dados das gaiolas (status, produtos, historico e etiqueta)
 - 2026-11-23 9c9f666d SS8-182: Estrutura de dados das gaiolas (status, produtos, hist├│rico e etiqueta)
