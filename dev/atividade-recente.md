@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 08:21 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 08:29 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -162,10 +162,12 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-155-expedicao-xml-recibo
+- + feature/ss8-176-cores-qtd-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 6aff95a SS8-176: cores e quantidades na ordem de produ├º├úo (MES)
 - 2026-11-22 8e778fc SS8-155: importar XML da distribui├º├úo de DF-e direto na nota de entrada
 - 2026-11-22 d7e125b SS8-155: MDF-e no Petrus Web (emitir manifesto, enviar, cancelar, encerrar, DAMDFE e XML)
 - 2026-11-22 205b141 Merge SS8-133: Migra├º├úo Web ÔÇö Financeiro: boletos, remessa, leitura de retorno banc├írio e envio autom├ítico
