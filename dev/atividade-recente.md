@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 19:09 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 19:10 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -183,6 +183,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 f4d9355 SS8-175: di├ílogo da lupa com altura fixa, lista sem margem e sem rolagem externa (s├│ a grade rola)
 - 2026-11-23 db09c29 SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
 - 2026-11-23 6b78165 SS8-185: motor de relat├│rios por S7_ID no /Report
 - 2026-11-23 5b226db SS8-175: lupa do SEARCH TEXTBOX abre a tela completa da tabela
