@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 18:23 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 18:24 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -175,7 +175,6 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-168-status-inclusao
 - + feature/ss8-172-atualizador-web
 - + feature/ss8-183-migracao-gaiolas
 - + feature/ss8-184-gaiolas-web
@@ -183,6 +182,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 870b793 Merge SS8-168: status e rotinas do Funcoes.Novo()/Editar() no Petrus Web
 - 2026-11-23 36f4335 Merge SS8-195: filtro avan├ºado em Mais a├º├Áes e filtro nativo do SfGrid
 - 2026-11-23 b85cbd9 SS8-195: filtro avan├ºado em Mais a├º├Áes e bot├úo Filtro com filtro nativo do SfGrid
 - 2026-11-23 a02367d SS8-168: demais rotinas do Funcoes.Novo()/Editar() no Petrus Web
