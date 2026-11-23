@@ -1,6 +1,6 @@
 ﻿# Dicionario de dados do Petrus (gerado do Dados.cs)
 
-Gerado em 23/11/2026 12:02. Total de tabelas: 416. Formato: campo | rotulo na tela | tipo.
+Gerado em 23/11/2026 12:03. Total de tabelas: 416. Formato: campo | rotulo na tela | tipo.
 
 ## A3 - Local de estoque
 - A3_ID | ID | INT

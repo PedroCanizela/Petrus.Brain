@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 12:02 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 12:03 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -411,11 +411,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-181-coluna-chave
 - * master
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 ad48ce9 Merge SS8-181: usar a coluna idMod da tabela modulo
 - 2026-11-23 11b4468 SS8-181: usar a coluna idMod da tabela modulo
 - 2026-11-23 aa33719 Merge SS8-181: log de sucesso e grava├º├úo do JSON recebido da Pratic
 - 2026-11-23 9cb0ab0 SS8-181: log de sucesso e grava├º├úo do JSON recebido da Pratic
