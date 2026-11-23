@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 14:57 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 14:58 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -178,6 +178,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 15695d5 SS8-180: icone de abrir no botao Visualizar
+- 2026-11-23 3d59e23 SS8-180: Interacao sem filtro de status e botao de periodo no padrao da barra
 - 2026-11-23 aacf67d SS8-180: pesquisar, atualizar e exportar num grupo so
 - 2026-11-23 1643ae6 SS8-180: Excluir do Mais acoes sem destaque em vermelho
 - 2026-11-23 6535903 SS8-180: menu Mais acoes sem icones, fontes menores e cores mais suaves
