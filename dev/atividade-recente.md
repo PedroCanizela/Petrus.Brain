@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 16:33 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 16:34 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -181,6 +181,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 f6f9c25 SS8-168: status das inclus├Áes (Status<Tabela> do Funcoes.Novo) no Petrus Web
 - 2026-11-23 d930171 SS8-184: telas web de movimenta├º├úo das gaiolas (WMS)
 - 2026-11-23 4dd0f10 SS8-183: script de migra├º├úo das gaiolas do sistema antigo (A7, A8 e A9)
 - 2026-11-23 50115ef Merge SS8-169: invent├írio dos relat├│rios desktop x Web e recibo.frx
