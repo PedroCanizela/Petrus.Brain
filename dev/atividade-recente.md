@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 16:39 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 16:40 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-213-esconder-produto-pedido-compra
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 790af2f1 SS8-213: esconder o campo Produto (I14_PRODUTO) do pedido de compra
 - 2026-11-24 57a6abfd Revert "SS8-191: relat├│rios de manuten├º├úo e ch├úo de f├íbrica com a regra do Petrus Web"
 - 2026-11-24 74d1e5a3 Update
 - 2026-11-24 71143059 Merge SS8-209: Ler XML sem grupo ICMS (s├│ IBS/CBS)
@@ -187,10 +189,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-213-esconder-produto-pedido-compra
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 f6c3f06 SS8-213: esconder o campo Produto (I14_PRODUTO) do pedido de compra
 - 2026-11-24 00cf351 Merge SS8-215: altura minima do cabecalho das grades SfGrid
 - 2026-11-24 7ab82d7 SS8-215: altura minima do cabecalho das grades SfGrid
 - 2026-11-24 08bf48a Merge SS8-206: rodap├® S78, lupa nas colunas de busca e Atualizar = Grid()
