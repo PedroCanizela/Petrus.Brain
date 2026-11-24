@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 16:44 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 16:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,12 +190,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-212-remover-msg-salvar-cadastro
 - + feature/ss8-222-botao-status-details
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 f238aab Merge SS8-212: remover mensagem de sucesso ao salvar cadastro
 - 2026-11-24 037cceb SS8-222: bot├úo de modo do registro alterna Editando e Visualizando
 - 2026-11-24 a6128b2 SS8-212: remover mensagem de sucesso ao salvar cadastro
 - 2026-11-24 9ae5af2 Merge SS8-211: ordem das abas do grid pela S19
