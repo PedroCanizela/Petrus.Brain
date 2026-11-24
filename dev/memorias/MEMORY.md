@@ -15,6 +15,7 @@
 - [Relatórios desktop x Web](relatorios-desktop-web.md) — SS8-169: 122 S7 calculados (GetReport) faltam no /Report; InventarioRelatorios.ps1; MIGRADO S7
 - [Status das inclusões no Web](status-inclusao-web.md) — SS8-168: "Funções Novo" = switch do Funcoes.Novo(); StatusInclusao no Core, chamado pelo /Details
 - [Lupa abre pesquisa completa no Web](pesquisa-completa-lupa-web.md) — SS8-175: PesquisaCompletaDialog, Table ModoSelecao, Details em diálogo
+- [Padrão de código do Pedro](padrao-codigo-pedro.md) — SS8-198: layout do desktop (Classes/Engines/Models), nomes do desktop sem Async; ref. V1Engine (CNZLA)
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar

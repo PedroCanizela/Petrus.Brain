@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:27 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:36 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -193,6 +193,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 fc9544e SS8-198: Petrus.Financeiro no padr├úo do desktop (piloto)
 - 2026-11-23 43cc0d7 SS8-191: paradas, perdas, ciclos, MTBF e MTTR abrem a p├ígina do Web
 - 2026-11-23 b09b948 SS8-188: relat├│rios calculados de Estoque e Compras no /Report
 - 2026-11-23 1036f4f SS8-191: S7 com p├ígina MES/CMMS abrem a p├ígina do Web
