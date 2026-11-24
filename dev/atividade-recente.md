@@ -190,11 +190,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-222-botao-status-details
+- + feature/ss8-217-data-padrao
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 c09cca7 Merge SS8-222: bot├úo de modo do Details alterna Editando e Visualizando
 - 2026-11-24 f238aab Merge SS8-212: remover mensagem de sucesso ao salvar cadastro
 - 2026-11-24 037cceb SS8-222: bot├úo de modo do registro alterna Editando e Visualizando
 - 2026-11-24 a6128b2 SS8-212: remover mensagem de sucesso ao salvar cadastro
