@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:53 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:58 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-191-relatorios-desktop
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 d375fed6 Merge SS8-191: relat├│rios do desktop com a regra do Web (MES/CMMS)
 - 2026-11-23 d5e597ce SS8-191: relat├│rios de manuten├º├úo e ch├úo de f├íbrica com a regra do Petrus Web
 - 2026-11-23 30fa22d6 Update
 - 2026-11-23 7accf873 Merge SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
@@ -180,20 +180,21 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-185-motor-relatorios
-- + feature/ss8-186-relatorios-vendas
-- + feature/ss8-187-relatorios-financeiro
-- + feature/ss8-188-relatorios-estoque-compras
-- + feature/ss8-189-relatorios-rh
-- + feature/ss8-190-relatorios-fiscal-crm-logistica
-- + feature/ss8-191-relatorios-industriais
-- + feature/ss8-192-report-pdf-periodo-grafico
-- + feature/ss8-193-carta-isencao
 - + feature/ss8-196-cores-op-zeradas
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 87c5e7c Docs: invent├írio de relat├│rios regerado depois das SS8-185 a 193
+- 2026-11-23 12c47d8 Merge SS8-193: carta de isen├â┬º├â┬úo (S39 100137)
+- 2026-11-23 bcafd58 Merge SS8-192: tela /Report com PDF, per├â┬¡odo, empresa e gr├â┬ífico
+- 2026-11-23 cf10d78 Merge SS8-191: relat├â┬│rios industriais e p├â┬íginas MES/CMMS
+- 2026-11-23 febe546 Merge SS8-190: relat├â┬│rios Fiscal, CRM e Log├â┬¡stica no /Report
+- 2026-11-23 6435e84 Merge SS8-189: relat├â┬│rios calculados de RH no /Report
+- 2026-11-23 472b7ff Merge SS8-188: relat├â┬│rios calculados de Estoque e Compras no /Report
+- 2026-11-23 d273368 Merge SS8-187: relat├│rios calculados do Financeiro no /Report
+- 2026-11-23 cda790c Merge SS8-186
+- 2026-11-23 9f4b0b8 Merge SS8-185: motor de relat├│rios por S7_ID no /Report
 - 2026-11-23 4ee0443 SS8-187: relat├│rios calculados do Financeiro no /Report
 - 2026-11-23 a128e04 Merge branch 'master' into feature/ss8-187-relatorios-financeiro
 - 2026-11-23 ac69ce2 SS8-191: Paradas por turno (100408) abre /MES/Reports/Downtime
