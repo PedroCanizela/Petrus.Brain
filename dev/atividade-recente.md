@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 00:00 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 00:04 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,15 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-196-cores-op-zeradas
+- + feature/ss8-199-concorrencia-ordem-separacao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 20c64592 SS8-199: ordem de separa├º├úo com produtos de outro pedido
+- 2026-11-24 49880505 Merge SS8-196: cores da OP digitadas s├│ com o nome contam no lan├ºado
 - 2026-11-23 ddaacb9d SS8-196: cores da OP digitadas s├│ com o nome passam a contar no lan├ºado
 - 2026-11-23 d375fed6 Merge SS8-191: relat├│rios do desktop com a regra do Web (MES/CMMS)
 - 2026-11-23 d5e597ce SS8-191: relat├│rios de manuten├º├úo e ch├úo de f├íbrica com a regra do Petrus Web
@@ -182,11 +184,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-196-cores-op-zeradas
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 458af8a Merge SS8-196: cores da OP digitadas s├│ com o nome contam no lan├ºado
 - 2026-11-23 31d9818 SS8-196: cores da OP digitadas s├│ com o nome passam a contar no lan├ºado
 - 2026-11-23 87c5e7c Docs: invent├írio de relat├│rios regerado depois das SS8-185 a 193
 - 2026-11-23 12c47d8 Merge SS8-193: carta de isen├â┬º├â┬úo (S39 100137)
