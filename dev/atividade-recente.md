@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 15:42 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 15:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-209-lerxml-sem-icms
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 71143059 Merge SS8-209: Ler XML sem grupo ICMS (s├│ IBS/CBS)
 - 2026-11-24 e2eab993 SS8-209: Ler XML sem grupo ICMS (s├│ IBS/CBS)
 - 2026-11-24 bfce3373 Merge SS8-199: ordem de separa├º├úo com produtos de outro pedido (bloqueio J7/J20)
 - 2026-11-24 20c64592 SS8-199: ordem de separa├º├úo com produtos de outro pedido
