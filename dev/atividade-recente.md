@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:12 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:14 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -187,10 +187,12 @@ Branches:
 - + feature/ss8-191-relatorios-industriais
 - + feature/ss8-192-report-pdf-periodo-grafico
 - + feature/ss8-193-carta-isencao
+- + feature/ss8-198-normalizar-financeiro
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 af4cf55 SS8-189: relat├│rios calculados de RH no /Report
 - 2026-11-23 c3c4434 Add - Scripts
 - 2026-11-23 4a3c317 SS8-193: Carta de isen├º├úo do pedido de venda no Web (S39 100137)
 - 2026-11-23 e477fbd Merge SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
