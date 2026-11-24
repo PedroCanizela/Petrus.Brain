@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 19:06 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 19:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-199-concorrencia-ordem-separacao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 5aed195e SS8-199: tirar o bloqueio do faturamento, manter s├│ na exporta├º├úo
 - 2026-11-24 b24a7dc1 Merge SS8-210: importa├º├úo Aferi Pratic pelas abas e colunas da planilha
 - 2026-11-24 30f4b0c6 SS8-210: importa├º├úo Aferi Pratic pelas abas e colunas da planilha
 - 2026-11-24 1db5b247 Merge SS8-213: esconder o campo Produto do pedido de compra
@@ -193,6 +195,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 8577673 Update
 - 2026-11-24 ee7e940 SS8-191: paradas no Web com a regra do desktop (revert no desktop)
 - 2026-11-24 bab1557 Merge SS8-226: busca (SEARCH TEXTBOX) sem Exibe Virtual
 - 2026-11-24 b8c41be SS8-226: filtro de relatorio com busca sem Exibe Virtual
