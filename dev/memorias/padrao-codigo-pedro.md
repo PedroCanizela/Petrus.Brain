@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: bac42d5d-bea0-4d09-a7d5-c016d3626c55
-  modified: 2026-11-24T02:40:07.938Z
+  modified: 2026-11-24T14:30:06.494Z
 ---
 
 **Todas as próximas migrações** do Petrus desktop para o Petrus.ERP (e a normalização do que já foi migrado) seguem o padrão do
@@ -28,5 +28,7 @@ Regras:
 - **Correções:** pode corrigir e otimizar, mantendo o comportamento.
 
 **Why:** o Pedro quer reconhecer e manter o código migrado como se fosse dele.
-**How to apply:** em toda demanda de migração (`/desenvolver`), monte as classes nesse layout desde o início. Ver
+**How to apply:** em toda demanda de migração (`/desenvolver`), monte as classes nesse layout desde o início. As regras também
+estão no `Petrus.ERP\CLAUDE.md` (criado em 24/11/2026), que carrega em qualquer sessão no repositório, inclusive worktrees;
+se o padrão mudar, atualize os dois. Ver
 [[migracao-web-forms-sem-s39]] e [[migracao-web-financeiro]].
