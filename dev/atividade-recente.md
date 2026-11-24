@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:44 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:46 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,6 +190,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 79d6cb4 SS8-206: rodap├® sempre vis├¡vel e Atualizar em toda aba
 - 2026-11-24 fae4ca8 SS8-206: barra de fun├º├Áes nas abas do /Details, rodap├®, combos e grade na inclus├úo
 - 2026-11-24 917ecfd SS8-207: consulta de CNPJ e CEP (CNPJ├í) no /Details
 - 2026-11-24 48c8478 Update
