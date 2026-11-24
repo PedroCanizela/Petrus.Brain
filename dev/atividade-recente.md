@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 18:19 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 18:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -189,10 +189,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-226-search-textbox-sem-virtual
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 d25df02 SS8-226: busca (SEARCH TEXTBOX) sem Exibe Virtual no /Details
 - 2026-11-24 c6bcca7 Merge SS8-216: bot├úo Voltar no relat├│rio para a lista de relat├│rios
 - 2026-11-24 549941e SS8-216: bot├úo Voltar no relat├│rio (/Report) para a lista de relat├│rios
 - 2026-11-24 4d27d23 Merge SS8-214: bot├Áes buscar arquivo e visualizar nas abas Anexos
