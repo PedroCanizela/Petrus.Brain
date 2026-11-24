@@ -191,11 +191,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-223-replicar-simples
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 7381b01 Merge SS8-223: Replicar mais simples
 - 2026-11-24 801322d SS8-223: Replicar mais simples
 - 2026-11-24 b60cf60 Merge SS8-217: data padr├úo autom├ítica (S10_VALOR_PADRAO)
 - 2026-11-24 ad620e7 SS8-217: data padr├úo autom├ítica (S10_VALOR_PADRAO) no Novo do /Details
