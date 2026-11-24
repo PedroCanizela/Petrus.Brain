@@ -185,11 +185,11 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-206-ajustar-abas-details
-- + feature/ss8-207-consulta-cnpj-cep
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 8788dac Merge SS8-207: consulta de CNPJ e CEP (CNPJ├í) no /Details
 - 2026-11-24 79d6cb4 SS8-206: rodap├® sempre vis├¡vel e Atualizar em toda aba
 - 2026-11-24 fae4ca8 SS8-206: barra de fun├º├Áes nas abas do /Details, rodap├®, combos e grade na inclus├úo
 - 2026-11-24 917ecfd SS8-207: consulta de CNPJ e CEP (CNPJ├í) no /Details
