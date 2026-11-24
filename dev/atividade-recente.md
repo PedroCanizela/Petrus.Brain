@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 16:46 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 16:47 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,11 +190,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-217-data-padrao
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 b60cf60 Merge SS8-217: data padr├úo autom├ítica (S10_VALOR_PADRAO)
 - 2026-11-24 ad620e7 SS8-217: data padr├úo autom├ítica (S10_VALOR_PADRAO) no Novo do /Details
 - 2026-11-24 c09cca7 Merge SS8-222: bot├úo de modo do Details alterna Editando e Visualizando
 - 2026-11-24 f238aab Merge SS8-212: remover mensagem de sucesso ao salvar cadastro
