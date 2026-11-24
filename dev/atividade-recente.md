@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 16:49 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 17:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -184,17 +184,17 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 01bb314a Fix - Manuten├º├úo de molde Pratic
 - 2026-11-11 5cf1de29 Fix - Status VZ5 (manuten├º├úo de molde) Pratic
 - 2026-11-11 1f5bd726 Add - Pago parcial Relobraz - Guthierre
-- 2026-11-10 453734f0 Fix - Manuten├º├úo Pratic
-- 2026-11-10 3ea022a0 Add - Tabelas Suporte
 
 ## Petrus.ERP
 Branch atual: master
 
 Branches:
+- + feature/ss8-173-conexoes-s37-busca
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 1a4c5f2 SS8-173: conex├Áes S37 ao escolher uma busca no /Details
 - 2026-11-24 7381b01 Merge SS8-223: Replicar mais simples
 - 2026-11-24 801322d SS8-223: Replicar mais simples
 - 2026-11-24 b60cf60 Merge SS8-217: data padr├úo autom├ítica (S10_VALOR_PADRAO)
@@ -659,9 +659,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 42dd805 Add - Replicar, Ordena├º├úo, Datas e Logos
 - 2026-11-11 29ec4a1 Add - Login
 - 2026-11-11 4618e4a Update - Layout
-- 2026-11-10 513509f Fix - Chamados e desenvolvimentos
-- 2026-11-10 403deab Fix - NavMenu
-- 2026-11-10 e6dc17a Add - Telas suporte
 
 ## ZeusFiscal
 Branch atual: master

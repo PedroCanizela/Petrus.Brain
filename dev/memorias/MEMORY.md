@@ -21,6 +21,7 @@
 - [Abas como planilha no Web](planilha-abas-web.md) — SS8-205: PlanilhaAba.razor no /Details (sem SfGrid, editar e ver), tipo Excel, linha em branco, ordenar/redimensionar/arrastar
 - [Consulta CNPJ/CEP no Web](consulta-cnpj-cep-web.md) — SS8-207: ConsultaAPI no Core (CNPJá), S47/S53/S38, chave em Integracao:CnpjaApiKey
 - [Importação Aferi Pratic](importacao-aferi-pratic.md) — SS8-210: abas/células da planilha Pratic (ViaCliente, K23 margem, H10 comissão), Syncfusion pula coluna vazia
+- [Conexões S37 nas buscas do Web](conexoes-s37-busca-web.md) — SS8-173: ramo "Relacao" do GerarConexao no CadastroEmEdicao, BuscaCadastro.SearchTxt_Validated
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
