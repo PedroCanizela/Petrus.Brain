@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:09 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,6 +190,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 ff8b1c3 SS8-205: arrastar colunas pelo mouse e cabe├ºalho em uma linha
 - 2026-11-24 70beab2 SS8-204: ajustes do Pedro no /Report e /ReportList no mesmo desenho
 - 2026-11-24 5fb0741 SS8-205: planilha tamb├®m no visualizar, com ordenar, redimensionar e arrastar colunas
 - 2026-11-24 a4a0c63 SS8-204: tela /Report no mesmo desenho da /Table
