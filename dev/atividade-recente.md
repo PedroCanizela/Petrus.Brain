@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:24 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:25 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -193,6 +193,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 b09b948 SS8-188: relat├│rios calculados de Estoque e Compras no /Report
+- 2026-11-23 1036f4f SS8-191: S7 com p├ígina MES/CMMS abrem a p├ígina do Web
 - 2026-11-23 dda91fd SS8-191: relat├│rios industriais no /Report e confer├¬ncia MES/CMMS
 - 2026-11-23 e234404 SS8-190: relat├│rios calculados do Fiscal, CRM e Log├¡stica no /Report
 - 2026-11-23 459d601 SS8-192: /Report com PDF do desktop, per├¡odo Hoje/M├¬s/Ano/Per├¡odo, empresa e gr├ífico
