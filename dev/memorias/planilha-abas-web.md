@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1589fd76-c51f-49ec-aff7-4aae830be996
-  modified: 2026-11-24T16:48:08.221Z
+  modified: 2026-11-24T17:08:31.790Z
 ---
 
 SS8-205 (aprovada e na master do Petrus.ERP em 24/11/2026, merge bfba0fa; só o JS testado isolado): as abas do /Details são o componente
@@ -21,10 +21,13 @@ célula sem perder o foco.
 
 SS8-206 (aprovada, na master em 24/11/2026, merge edbfec0): barra da aba no /Details com as funções da
 grade do desktop (`Details.Abas.cs`, FuncoesDaAba = guna2ContextMenuStrip4 + PopularAcoesGrid); Recalcular saiu do topo e
-virou "Atualizar", sempre na barra (com cálculo recalcula; senão relê a aba pelo CarregarAba).
-Exportações em `Petrus.Core/Utils/ExportarGrid.cs` (xlsx feito à mão, sem XlsIO). Rodapé sempre visível (pedido do Pedro):
-soma das NUMERIC com S10_RODAPE ou, sem nenhuma marcada no banco do cliente, as de qtd/valor/peso/volume
-(ExportarGrid.ColunasRodape); COMBOBOX usa S10_LISTA; excluir na 1ª coluna. Abas carregam vazias na inclusão (antes a grade sumia).
+virou "Atualizar", sempre na barra, e SÓ chama o Grid() (recálculo) — o Pedro corrigiu: nunca reler do banco.
+Exportações em `Petrus.Core/Utils/ExportarGrid.cs` (xlsx feito à mão, sem XlsIO). COMBOBOX usa S10_LISTA; excluir na 1ª coluna.
+Rodapé da aba = tabela S78 (S8_ID da aba, S10_ID do campo DO REGISTRO, S78_DESCRICAO, S78_ORDEM; pnGroupBottom do
+CriarAmbiente), não soma de colunas: banco + `Petrus.Core/Models/S78.cs` (CriarS78 do Dados.cs), 3 por coluna, "Total"
+negrito, "% Margem" colorida com R13_CALCULO_CUSTO. Lupa nas colunas SEARCH TEXTBOX = sfDataGrid_CellButtonClick
+portado em `Petrus.Core/Cadastros/BuscaGrade.cs` (G6_ID no R49 grava só R49_PRODUTO; o Grid() resolve).
+Retrabalho na branch feature/ss8-206-rodape-busca-grade (aguardando aprovação). Abas carregam vazias na inclusão (antes a grade sumia).
 Não migradas (avisam): Grade de produtos, Incluir feirinha, Pesquisa pedidos J23, Gerar parcelas I59/IX11/I49.
 
 **Why:** pedido do cliente: editar igual Excel e sempre ter linha nova no final, como a SfDataGrid do frmInterface.

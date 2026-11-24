@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:57 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 14:08 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -184,10 +184,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-206-rodape-busca-grade
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 6968463 SS8-206: rodap├® S78, Atualizar = Grid() e lupa nas colunas de busca
 - 2026-11-24 6aa98cd Merge SS8-172: scripts do pacote do cliente
 - 2026-11-24 10cfb67 SS8-172: scripts Gerar-PacoteCliente e Instalar-NoCliente (instala├º├úo do atualizador com um comando)
 - 2026-11-24 edbfec0 Merge SS8-206: barra de fun├º├Áes, rodap├® e combos nas abas do /Details
