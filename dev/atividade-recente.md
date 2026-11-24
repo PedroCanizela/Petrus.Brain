@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:28 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:29 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -185,6 +185,7 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-206-ajustar-abas-details
+- + feature/ss8-207-consulta-cnpj-cep
 - + feature/ss8-39-novo-layout-erp
 - * master
 
