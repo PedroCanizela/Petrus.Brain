@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 3e5a7d7a-949b-433b-8df8-44a22cae2c9e
-  modified: 2026-11-24T20:19:32.420Z
+  modified: 2026-11-24T20:20:51.709Z
 ---
 
-SS8-173 entregue em 24/11/2026 na branch `feature/ss8-173-conexoes-s37-busca` do Petrus.ERP (aguardando aprovação, só compilada).
+SS8-173 aprovada e na master do Petrus.ERP em 24/11/2026 (merge 54ca1c7), só compilada (nada testado contra o banco).
 
 - No desktop, o preenchimento dos campos ao escolher uma busca é o ramo `S37_TIPO = "Relacao"` do `Funcoes.GerarConexao(Controls, ...)`
   (Funcoes.cs ~2354); "Criacao" e "Atualizacao" gravam no banco. O switch por tabela da busca × tabela da tela fica em

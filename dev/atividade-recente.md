@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 17:19 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 17:20 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -189,11 +189,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-173-conexoes-s37-busca
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 54ca1c7 Merge SS8-173: conex├Áes S37 ao escolher uma busca no /Details
 - 2026-11-24 1a4c5f2 SS8-173: conex├Áes S37 ao escolher uma busca no /Details
 - 2026-11-24 7381b01 Merge SS8-223: Replicar mais simples
 - 2026-11-24 801322d SS8-223: Replicar mais simples
