@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:18 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -193,6 +193,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 459d601 SS8-192: /Report com PDF do desktop, per├¡odo Hoje/M├¬s/Ano/Per├¡odo, empresa e gr├ífico
 - 2026-11-23 45876c5 SS8-196: aba Cores da OP mostra os valores gravados ao abrir
 - 2026-11-23 af4cf55 SS8-189: relat├│rios calculados de RH no /Report
 - 2026-11-23 c3c4434 Add - Scripts
