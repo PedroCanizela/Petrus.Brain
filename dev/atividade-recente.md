@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 19:05 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 19:06 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -193,6 +193,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 ee7e940 SS8-191: paradas no Web com a regra do desktop (revert no desktop)
 - 2026-11-24 bab1557 Merge SS8-226: busca (SEARCH TEXTBOX) sem Exibe Virtual
 - 2026-11-24 b8c41be SS8-226: filtro de relatorio com busca sem Exibe Virtual
 - 2026-11-24 d25df02 SS8-226: busca (SEARCH TEXTBOX) sem Exibe Virtual no /Details
