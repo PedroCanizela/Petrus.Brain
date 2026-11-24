@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1589fd76-c51f-49ec-aff7-4aae830be996
-  modified: 2026-11-24T17:08:31.790Z
+  modified: 2026-11-24T17:20:49.013Z
 ---
 
 SS8-205 (aprovada e na master do Petrus.ERP em 24/11/2026, merge bfba0fa; só o JS testado isolado): as abas do /Details são o componente
@@ -27,7 +27,8 @@ Rodapé da aba = tabela S78 (S8_ID da aba, S10_ID do campo DO REGISTRO, S78_DESC
 CriarAmbiente), não soma de colunas: banco + `Petrus.Core/Models/S78.cs` (CriarS78 do Dados.cs), 3 por coluna, "Total"
 negrito, "% Margem" colorida com R13_CALCULO_CUSTO. Lupa nas colunas SEARCH TEXTBOX = sfDataGrid_CellButtonClick
 portado em `Petrus.Core/Cadastros/BuscaGrade.cs` (G6_ID no R49 grava só R49_PRODUTO; o Grid() resolve).
-Retrabalho na branch feature/ss8-206-rodape-busca-grade (aguardando aprovação). Abas carregam vazias na inclusão (antes a grade sumia).
+Coluna de busca oculta (S10_TAMANHO_GRID 0) vira coluna só da lupa. Rodapé fixo embaixo (.pt-aba-grade flex, altura da tela).
+Retrabalho aprovado e na master em 24/11/2026 (merge 08bf48a). Abas carregam vazias na inclusão (antes a grade sumia).
 Não migradas (avisam): Grade de produtos, Incluir feirinha, Pesquisa pedidos J23, Gerar parcelas I59/IX11/I49.
 
 **Why:** pedido do cliente: editar igual Excel e sempre ter linha nova no final, como a SfDataGrid do frmInterface.
