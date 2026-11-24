@@ -192,6 +192,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 7ab82d7 SS8-215: altura minima do cabecalho das grades SfGrid
 - 2026-11-24 08bf48a Merge SS8-206: rodap├® S78, lupa nas colunas de busca e Atualizar = Grid()
 - 2026-11-24 0ca1b12 Merge SS8-172: corrige checagem de administrador
 - 2026-11-24 2dabbab SS8-172: corrige a checagem de administrador do Instalar-NoCliente (PowerShell 5.1)
