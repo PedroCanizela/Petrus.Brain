@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 18:16 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 18:18 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -189,10 +189,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-216-voltar-report
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 549941e SS8-216: bot├úo Voltar no relat├│rio (/Report) para a lista de relat├│rios
 - 2026-11-24 4d27d23 Merge SS8-214: bot├Áes buscar arquivo e visualizar nas abas Anexos
 - 2026-11-24 59df983 Merge SS8-225: tela inicial pelos m├│dulos liberados do usu├írio
 - 2026-11-24 bf3ae56 SS8-214: bot├Áes buscar arquivo e visualizar nas abas Anexos
