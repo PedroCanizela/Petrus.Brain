@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:15 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:17 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -187,6 +187,7 @@ Branches:
 - + feature/ss8-191-relatorios-industriais
 - + feature/ss8-192-report-pdf-periodo-grafico
 - + feature/ss8-193-carta-isencao
+- + feature/ss8-196-cores-op-zeradas
 - + feature/ss8-198-normalizar-financeiro
 - + feature/ss8-39-novo-layout-erp
 - * master
