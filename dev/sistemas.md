@@ -10,6 +10,10 @@
 - Nunca rodar DDL/DML em banco de cliente nem no `cnzla`; mudança de estrutura vai como `.sql` na branch.
 - Nunca fazer push, merge na master, rebase ou reset sem o usuário pedir (`/aprovar` faz o merge local).
 - Perguntar antes de qualquer coisa que altere dados.
+- **Migração desktop → Web (Petrus.ERP): padrão do Pedro, aprovado na SS8-198 (24/11/2026).** Toda migração e normalização
+  segue o layout e os nomes do desktop: pastas `Classes` (namespace raiz do módulo), `Engines` (NxxEngine), `Models`
+  (NxxModel, propriedades = colunas) e `Utils`; nomes de classe e método do desktop **sem sufixo Async**; parâmetros e
+  parâmetros SQL com o nome da coluna. Detalhes na memória `padrao-codigo-pedro`.
 - Git não está no PATH: `C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe`.
 
 ## O Petrus (ERP)
