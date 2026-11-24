@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 18:30 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 18:31 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -194,6 +194,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 b8c41be SS8-226: filtro de relatorio com busca sem Exibe Virtual
 - 2026-11-24 d25df02 SS8-226: busca (SEARCH TEXTBOX) sem Exibe Virtual no /Details
 - 2026-11-24 c6bcca7 Merge SS8-216: bot├úo Voltar no relat├│rio para a lista de relat├│rios
 - 2026-11-24 549941e SS8-216: bot├úo Voltar no relat├│rio (/Report) para a lista de relat├│rios
