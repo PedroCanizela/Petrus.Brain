@@ -191,10 +191,13 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-211-ordem-abas-grid
+- + feature/ss8-212-remover-msg-salvar-cadastro
+- + feature/ss8-222-botao-status-details
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 a915ecb SS8-211: ordem das abas do grid pela S19
 - 2026-11-24 6f37eae Merge SS8-213: esconder o campo Produto do pedido de compra
 - 2026-11-24 f6c3f06 SS8-213: esconder o campo Produto (I14_PRODUTO) do pedido de compra
 - 2026-11-24 00cf351 Merge SS8-215: altura minima do cabecalho das grades SfGrid
