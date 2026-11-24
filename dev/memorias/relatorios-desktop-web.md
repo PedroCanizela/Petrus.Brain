@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 48d22ece-4ee3-4a73-b492-d3d9b2531273
-  modified: 2026-11-24T02:20:57.065Z
+  modified: 2026-11-24T02:46:26.913Z
 ---
 
 SS8-169 aprovada e na master em 23/11/2026 (merge 50115ef).
@@ -17,7 +17,7 @@ SS8-169 aprovada e na master em 23/11/2026 (merge 50115ef).
 
 - SS8-185 (23/11/2026, branch `feature/ss8-185-motor-relatorios`, aguardando aprovação, só compilada): `Petrus.Core/Relatorios/RegistroRelatorios` — `Registrar(gerador, S7_IDs)` para calculados (`ContextoRelatorio`: período, Empresa "(1,0)", EmpresaIn, Parametros), `RegistrarRegra` (AntesDoSelect/DepoisDoSelect/DepoisDosVirtuais) para genéricos, `Agrupamento(S7_ID)`. Report.razor usa isso; S77 sem gerador mostra aviso. Regras N22/N3/R4 dos 15 parciais em `Petrus.Vendas/Relatorios/RegrasRelatoriosGenericos`.
 
-- SS8-191 (23/11/2026, branch `feature/ss8-191-relatorios-industriais` a partir da 185, aguardando resposta): geradores industriais em `Petrus.Industrial/Relatorios/RelatoriosIndustriais.cs` (a pasta `Reports\` do Industrial é excluída do csproj). Conferência dos 28 MES/CMMS em `Docs/conferencia-relatorios-mes-cmms.md`: o OEE/Disp/Prod/Qual do desktop é média dos valores gravados na V1 (não bate com o Web); erros do desktop em 100390 ('Concludo'), 100394 (divisão inteira) e 100396 (sem período). Só a Linha do tempo tem o mesmo SQL.
+- SS8-191 (23/11/2026, branch `feature/ss8-191-relatorios-industriais` a partir da 185, aguardando resposta): geradores industriais em `Petrus.Industrial/Relatorios/RelatoriosIndustriais.cs` (a pasta `Reports\` do Industrial é excluída do csproj). Conferência dos 28 MES/CMMS em `Docs/conferencia-relatorios-mes-cmms.md`: o OEE/Disp/Prod/Qual do desktop é média dos valores gravados na V1 (não bate com o Web); erros do desktop em 100390 ('Concludo'), 100394 (divisão inteira) e 100396 (sem período). Só a Linha do tempo tem o mesmo SQL. Decisão do Pedro: os 28 abrem a página do Web (`RegistroRelatorios.Redirecionar`); no desktop (branch `feature/ss8-191-relatorios-desktop` do Petrus) os erros foram corrigidos e paradas/perdas/ciclos/MTBF/MTTR seguem a regra do Web; o OEE do desktop ficou como está. Aguardando aprovação.
 
 **Why:** as próximas demandas de relatório por módulo saem dessa lista.
 **How to apply:** antes de portar relatório, rodar o script; criar primeiro o despacho por S7_ID no /Report e reusar `RelatorioListaPdf` para o PDF. Ver [[migracao-web]] e [[comissoes-web-relatorio-pdf]].

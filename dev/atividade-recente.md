@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:41 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:46 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-191-relatorios-desktop
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 d5e597ce SS8-191: relat├│rios de manuten├º├úo e ch├úo de f├íbrica com a regra do Petrus Web
 - 2026-11-23 30fa22d6 Update
 - 2026-11-23 7accf873 Merge SS8-120: dashboard Financeiro (fluxo de caixa, contas a pagar/receber, inadimpl├¬ncia, DRE e planos priorit├írios)
 - 2026-11-23 391f31b4 SS8-120: status da N9 no fluxo projetado x or├ºado
@@ -192,6 +194,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 a128e04 Merge branch 'master' into feature/ss8-187-relatorios-financeiro
+- 2026-11-23 ac69ce2 SS8-191: Paradas por turno (100408) abre /MES/Reports/Downtime
 - 2026-11-23 f178ac1 Merge SS8-198: Petrus.Financeiro no padr├úo do desktop (piloto)
 - 2026-11-23 2ed9ea7 SS8-186: relat├│rios calculados de Vendas no /Report
 - 2026-11-23 fc9544e SS8-198: Petrus.Financeiro no padr├úo do desktop (piloto)
