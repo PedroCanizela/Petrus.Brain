@@ -190,12 +190,13 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-214-botoes-aba-anexos
-- + feature/ss8-224-ocultar-s1-id-grid
 - + feature/ss8-225-tela-inicial-por-acesso
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 81923a9 Merge SS8-224: ocultar S1_ID e S1_SIGLA no grid do /Table sem grupo
+- 2026-11-24 84081d7 SS8-225: tela inicial pelos m├│dulos liberados do usu├írio
 - 2026-11-24 750e2f7 SS8-224: esconder S1_ID e S1_SIGLA no grid do /Table quando a empresa n├úo tem grupo
 - 2026-11-24 54ca1c7 Merge SS8-173: conex├Áes S37 ao escolher uma busca no /Details
 - 2026-11-24 1a4c5f2 SS8-173: conex├Áes S37 ao escolher uma busca no /Details
