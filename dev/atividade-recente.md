@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:47 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:48 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -184,11 +184,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-206-ajustar-abas-details
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 edbfec0 Merge SS8-206: barra de fun├º├Áes, rodap├® e combos nas abas do /Details
 - 2026-11-24 8788dac Merge SS8-207: consulta de CNPJ e CEP (CNPJ├í) no /Details
 - 2026-11-24 79d6cb4 SS8-206: rodap├® sempre vis├¡vel e Atualizar em toda aba
 - 2026-11-24 fae4ca8 SS8-206: barra de fun├º├Áes nas abas do /Details, rodap├®, combos e grade na inclus├úo
