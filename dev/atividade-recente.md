@@ -190,6 +190,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 fae4ca8 SS8-206: barra de fun├º├Áes nas abas do /Details, rodap├®, combos e grade na inclus├úo
+- 2026-11-24 917ecfd SS8-207: consulta de CNPJ e CEP (CNPJ├í) no /Details
 - 2026-11-24 48c8478 Update
 - 2026-11-24 bfba0fa Merge SS8-205: abas do cadastro como planilha (editar como Excel, linha em branco no final)
 - 2026-11-24 533208b Merge SS8-204: /Report e /ReportList no desenho da /Table

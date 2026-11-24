@@ -19,6 +19,7 @@
 - [IDs MAX+1 e concorrência no desktop](concorrencia-max-id-petrus.md) — SS8-199: GerarConexao* sem trava; Funcoes.BloquearRecurso (sp_getapplock)
 - [Padrão de código do Pedro](padrao-codigo-pedro.md) — REGRA de toda migração (SS8-198 aprovada): Classes/Engines/Models/Utils, nomes do desktop sem Async
 - [Abas como planilha no Web](planilha-abas-web.md) — SS8-205: PlanilhaAba.razor no /Details (sem SfGrid, editar e ver), tipo Excel, linha em branco, ordenar/redimensionar/arrastar
+- [Consulta CNPJ/CEP no Web](consulta-cnpj-cep-web.md) — SS8-207: ConsultaAPI no Core (CNPJá), S47/S53/S38, chave em Integracao:CnpjaApiKey
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
