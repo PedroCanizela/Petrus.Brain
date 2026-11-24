@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 18:14 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 18:15 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,11 +190,11 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-214-botoes-aba-anexos
-- + feature/ss8-225-tela-inicial-por-acesso
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 59df983 Merge SS8-225: tela inicial pelos m├│dulos liberados do usu├írio
 - 2026-11-24 bf3ae56 SS8-214: bot├Áes buscar arquivo e visualizar nas abas Anexos
 - 2026-11-24 81923a9 Merge SS8-224: ocultar S1_ID e S1_SIGLA no grid do /Table sem grupo
 - 2026-11-24 84081d7 SS8-225: tela inicial pelos m├│dulos liberados do usu├írio
