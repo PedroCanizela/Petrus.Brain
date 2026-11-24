@@ -12,6 +12,7 @@
 - [Assistente de IA no ERP](assistente-ia-erp.md) — SS8-171: Petrus.Assistente (Anthropic), IA1/IA2, Perguntar à IA no Snackbar, limite S74
 - [Dashboard Financeiro no Web](dashboard-financeiro-web.md) — SS8-120: 16 indicadores pelos relatórios do desktop, L10_PRIORIDADE, DiasFuturos/SaldoEmAberto, validar SQL com NOEXEC
 - [Dashboards no Web](dashboards-indicadores-web.md) — SS8-118: S88–S91, catálogo de indicadores no código, job 15 min, /Dashboards/{Area}
+- [Relatórios do Financeiro no Web](relatorios-financeiro-web.md) — SS8-187: 32 S7 em Petrus.Financeiro/Reports (padrão desktop), bugs do desktop anotados
 - [Relatórios desktop x Web](relatorios-desktop-web.md) — SS8-169: 122 S7 calculados (GetReport) faltam no /Report; InventarioRelatorios.ps1; MIGRADO S7
 - [Status das inclusões no Web](status-inclusao-web.md) — SS8-168: "Funções Novo" = switch do Funcoes.Novo(); StatusInclusao no Core, chamado pelo /Details
 - [Lupa abre pesquisa completa no Web](pesquisa-completa-lupa-web.md) — SS8-175: PesquisaCompletaDialog, Table ModoSelecao, Details em diálogo

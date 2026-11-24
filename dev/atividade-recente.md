@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:46 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:53 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -194,6 +194,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 4ee0443 SS8-187: relat├│rios calculados do Financeiro no /Report
 - 2026-11-23 a128e04 Merge branch 'master' into feature/ss8-187-relatorios-financeiro
 - 2026-11-23 ac69ce2 SS8-191: Paradas por turno (100408) abre /MES/Reports/Downtime
 - 2026-11-23 f178ac1 Merge SS8-198: Petrus.Financeiro no padr├úo do desktop (piloto)
