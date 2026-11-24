@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 18:08 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 18:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -189,10 +189,14 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-214-botoes-aba-anexos
+- + feature/ss8-224-ocultar-s1-id-grid
+- + feature/ss8-225-tela-inicial-por-acesso
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 750e2f7 SS8-224: esconder S1_ID e S1_SIGLA no grid do /Table quando a empresa n├úo tem grupo
 - 2026-11-24 54ca1c7 Merge SS8-173: conex├Áes S37 ao escolher uma busca no /Details
 - 2026-11-24 1a4c5f2 SS8-173: conex├Áes S37 ao escolher uma busca no /Details
 - 2026-11-24 7381b01 Merge SS8-223: Replicar mais simples
