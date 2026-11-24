@@ -196,6 +196,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 037cceb SS8-222: bot├úo de modo do registro alterna Editando e Visualizando
+- 2026-11-24 a6128b2 SS8-212: remover mensagem de sucesso ao salvar cadastro
 - 2026-11-24 9ae5af2 Merge SS8-211: ordem das abas do grid pela S19
 - 2026-11-24 a915ecb SS8-211: ordem das abas do grid pela S19
 - 2026-11-24 6f37eae Merge SS8-213: esconder o campo Produto do pedido de compra
