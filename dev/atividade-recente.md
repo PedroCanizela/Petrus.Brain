@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 19:11 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 19:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-199-concorrencia-ordem-separacao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 c7ceb661 Merge SS8-199: bloqueio da ordem de separa├º├úo s├│ na exporta├º├úo (sem o faturamento)
 - 2026-11-24 5aed195e SS8-199: tirar o bloqueio do faturamento, manter s├│ na exporta├º├úo
 - 2026-11-24 b24a7dc1 Merge SS8-210: importa├º├úo Aferi Pratic pelas abas e colunas da planilha
 - 2026-11-24 30f4b0c6 SS8-210: importa├º├úo Aferi Pratic pelas abas e colunas da planilha
