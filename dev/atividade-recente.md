@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:16 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -184,11 +184,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-205-grades-como-excel
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 bfba0fa Merge SS8-205: abas do cadastro como planilha (editar como Excel, linha em branco no final)
 - 2026-11-24 533208b Merge SS8-204: /Report e /ReportList no desenho da /Table
 - 2026-11-24 ff8b1c3 SS8-205: arrastar colunas pelo mouse e cabe├ºalho em uma linha
 - 2026-11-24 70beab2 SS8-204: ajustes do Pedro no /Report e /ReportList no mesmo desenho

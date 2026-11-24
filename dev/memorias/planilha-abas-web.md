@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1589fd76-c51f-49ec-aff7-4aae830be996
-  modified: 2026-11-24T16:02:17.796Z
+  modified: 2026-11-24T16:19:06.311Z
 ---
 
-SS8-205 (24/11/2026, branch feature/ss8-205-grades-como-excel, aguardando aprovação): as abas do /Details são o componente
+SS8-205 (aprovada e na master do Petrus.ERP em 24/11/2026, merge bfba0fa; só o JS testado isolado): as abas do /Details são o componente
 `ERPBlazor/Components/Shared/PlanilhaAba.razor` (tabela HTML, um input por célula), em edição e no visualizar (só leitura).
 O Pedro escolheu sair do Syncfusion nas abas: a SfGrid Blazor (Normal/Batch) não edita direto na célula com recálculo por
 célula sem perder o foco.
