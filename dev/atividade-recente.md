@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:02 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:09 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,6 +190,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 70beab2 SS8-204: ajustes do Pedro no /Report e /ReportList no mesmo desenho
 - 2026-11-24 5fb0741 SS8-205: planilha tamb├®m no visualizar, com ordenar, redimensionar e arrastar colunas
 - 2026-11-24 a4a0c63 SS8-204: tela /Report no mesmo desenho da /Table
 - 2026-11-24 57bda3c SS8-205: abas do cadastro editam como planilha, com linha em branco no final
