@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 16:37 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 16:39 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -187,11 +187,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-215-altura-minima-header-sfgrid
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 00cf351 Merge SS8-215: altura minima do cabecalho das grades SfGrid
 - 2026-11-24 7ab82d7 SS8-215: altura minima do cabecalho das grades SfGrid
 - 2026-11-24 08bf48a Merge SS8-206: rodap├® S78, lupa nas colunas de busca e Atualizar = Grid()
 - 2026-11-24 0ca1b12 Merge SS8-172: corrige checagem de administrador
