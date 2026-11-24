@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 14:08 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 14:15 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -189,6 +189,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 3610a9e SS8-206: coluna da lupa como o desktop e rodap├® fixo embaixo
 - 2026-11-24 6968463 SS8-206: rodap├® S78, Atualizar = Grid() e lupa nas colunas de busca
 - 2026-11-24 6aa98cd Merge SS8-172: scripts do pacote do cliente
 - 2026-11-24 10cfb67 SS8-172: scripts Gerar-PacoteCliente e Instalar-NoCliente (instala├º├úo do atualizador com um comando)
