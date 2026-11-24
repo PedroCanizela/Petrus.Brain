@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 23/11/2026 23:40 por scripts\Sincronizar.ps1
+Gerado em 23/11/2026 23:41 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -188,11 +188,11 @@ Branches:
 - + feature/ss8-192-report-pdf-periodo-grafico
 - + feature/ss8-193-carta-isencao
 - + feature/ss8-196-cores-op-zeradas
-- + feature/ss8-198-normalizar-financeiro
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-23 f178ac1 Merge SS8-198: Petrus.Financeiro no padr├úo do desktop (piloto)
 - 2026-11-23 2ed9ea7 SS8-186: relat├│rios calculados de Vendas no /Report
 - 2026-11-23 fc9544e SS8-198: Petrus.Financeiro no padr├úo do desktop (piloto)
 - 2026-11-23 43cc0d7 SS8-191: paradas, perdas, ciclos, MTBF e MTTR abrem a p├ígina do Web
