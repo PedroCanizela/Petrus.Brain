@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 14:15 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 14:17 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -189,6 +189,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 0ca1b12 Merge SS8-172: corrige checagem de administrador
+- 2026-11-24 2dabbab SS8-172: corrige a checagem de administrador do Instalar-NoCliente (PowerShell 5.1)
 - 2026-11-24 3610a9e SS8-206: coluna da lupa como o desktop e rodap├® fixo embaixo
 - 2026-11-24 6968463 SS8-206: rodap├® S78, Atualizar = Grid() e lupa nas colunas de busca
 - 2026-11-24 6aa98cd Merge SS8-172: scripts do pacote do cliente
