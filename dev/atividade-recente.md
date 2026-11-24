@@ -190,6 +190,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 5fb0741 SS8-205: planilha tamb├®m no visualizar, com ordenar, redimensionar e arrastar colunas
 - 2026-11-24 a4a0c63 SS8-204: tela /Report no mesmo desenho da /Table
 - 2026-11-24 57bda3c SS8-205: abas do cadastro editam como planilha, com linha em branco no final
 - 2026-11-24 458af8a Merge SS8-196: cores da OP digitadas s├│ com o nome contam no lan├ºado
