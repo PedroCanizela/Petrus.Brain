@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 12:44 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 12:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,6 +190,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 57bda3c SS8-205: abas do cadastro editam como planilha, com linha em branco no final
 - 2026-11-24 edf6d27 SS8-204: design do Report igual ao do Table
 - 2026-11-24 458af8a Merge SS8-196: cores da OP digitadas s├│ com o nome contam no lan├ºado
 - 2026-11-23 31d9818 SS8-196: cores da OP digitadas s├│ com o nome passam a contar no lan├ºado
