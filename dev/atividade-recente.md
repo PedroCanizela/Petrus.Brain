@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 13:20 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -184,6 +184,7 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-206-ajustar-abas-details
 - + feature/ss8-39-novo-layout-erp
 - * master
 
