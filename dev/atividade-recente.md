@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 12:56 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 13:02 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -184,11 +184,13 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-204-design-report-igual-table
 - + feature/ss8-205-grades-como-excel
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 a4a0c63 SS8-204: tela /Report no mesmo desenho da /Table
 - 2026-11-24 57bda3c SS8-205: abas do cadastro editam como planilha, com linha em branco no final
 - 2026-11-24 458af8a Merge SS8-196: cores da OP digitadas s├│ com o nome contam no lan├ºado
 - 2026-11-23 31d9818 SS8-196: cores da OP digitadas s├│ com o nome passam a contar no lan├ºado
