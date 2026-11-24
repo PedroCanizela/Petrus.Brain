@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 17:20 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 17:25 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-210-importacao-aferi-pratic
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 b24a7dc1 Merge SS8-210: importa├º├úo Aferi Pratic pelas abas e colunas da planilha
 - 2026-11-24 30f4b0c6 SS8-210: importa├º├úo Aferi Pratic pelas abas e colunas da planilha
 - 2026-11-24 1db5b247 Merge SS8-213: esconder o campo Produto do pedido de compra
 - 2026-11-24 790af2f1 SS8-213: esconder o campo Produto (I14_PRODUTO) do pedido de compra
