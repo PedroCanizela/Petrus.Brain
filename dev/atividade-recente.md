@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 24/11/2026 15:44 por scripts\Sincronizar.ps1
+Gerado em 24/11/2026 16:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -24,6 +24,8 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-24 57a6abfd Revert "SS8-191: relat├│rios de manuten├º├úo e ch├úo de f├íbrica com a regra do Petrus Web"
+- 2026-11-24 74d1e5a3 Update
 - 2026-11-24 71143059 Merge SS8-209: Ler XML sem grupo ICMS (s├│ IBS/CBS)
 - 2026-11-24 e2eab993 SS8-209: Ler XML sem grupo ICMS (s├│ IBS/CBS)
 - 2026-11-24 bfce3373 Merge SS8-199: ordem de separa├º├úo com produtos de outro pedido (bloqueio J7/J20)
@@ -180,7 +182,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 1f5bd726 Add - Pago parcial Relobraz - Guthierre
 - 2026-11-10 453734f0 Fix - Manuten├º├úo Pratic
 - 2026-11-10 3ea022a0 Add - Tabelas Suporte
-- 2026-11-10 49b0b1a7 Update - Manuten├º├úo Molde Pratic
 
 ## Petrus.ERP
 Branch atual: master
