@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:21 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:22 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -218,6 +218,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 42ee89a Merge SS8-124: Dashboards: resumo di├írio/semanal e alertas de meta por e-mail e WhatsApp, com link para o painel filtrado
 - 2026-11-25 5c19262 Merge SS8-123: Dashboards / Manuten├º├úo (CMMS): MTBF, MTTR, preventivas, OMs em aberto e custo por equipamento
 - 2026-11-25 5a5e88c SS8-251: invent├írios regerados (Compras, Estoque e Industrial)
 - 2026-11-25 f6e3c09 Merge SS8-122: Dashboards / Estoque (WMS): valor em estoque, giro, cobertura, ruptura, abaixo do m├¡nimo e itens parados
