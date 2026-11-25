@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 13:32 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 13:33 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-232-horario-troca-molde
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 ab00ab77 Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
 - 2026-11-25 6283a2a5 SS8-232: hor├írio programado da troca de molde (VZ7_HORARIO)
 - 2026-11-24 37424374 Update
 - 2026-11-24 c7ceb661 Merge SS8-199: bloqueio da ordem de separa├º├úo s├│ na exporta├º├úo (sem o faturamento)
@@ -190,11 +190,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-232-horario-troca-molde
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 2f93e7a Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
 - 2026-11-25 91e0456 SS8-232: hor├írio programado da troca de molde (VZ7_HORARIO)
 - 2026-11-25 38d4a15 Merge SS8-237: Border├┤ de cobran├ºa - coluna Valor Saldo
 - 2026-11-25 bbbc524 SS8-237: Border├┤ de cobran├ºa - coluna Valor Saldo
