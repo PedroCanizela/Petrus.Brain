@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 14:11 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 14:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-230-usuarios-modulos-grupos
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 81bbbaea Merge SS8-230: Sistema / Usu├írios: m├│dulos e permiss├Áes autom├íticos na inclus├úo e grupos de permiss├Áes
 - 2026-11-25 2a4dfb96 SS8-230: grupos de permiss├Áes e corre├º├úo do erro na 2┬¬ edi├º├úo do usu├írio
 - 2026-11-25 0a7bf90d Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
 - 2026-11-25 42958ca7 SS8-234: receita de mistura (VM1_ID) na ordem de produ├º├úo
@@ -193,11 +193,12 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-230-usuarios-modulos-grupos
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 7f236d9 Merge SS8-230: Sistema / Usu├írios: m├│dulos e permiss├Áes autom├íticos na inclus├úo e grupos de permiss├Áes
+- 2026-11-25 e11c9a1 Merge master na SS8-230
 - 2026-11-25 ece8309 SS8-230: grupos de permiss├Áes no Petrus Web
 - 2026-11-25 4845b9b Merge SS8-242: Petrus Web: tratamento global de erros, sem derrubar a conex├úo nem travar a tela
 - 2026-11-25 90cfa7f SS8-242: tratamento global de erros no Petrus Web
