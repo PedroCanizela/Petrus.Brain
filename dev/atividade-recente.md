@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 19:02 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 19:06 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -220,6 +220,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 da271b7 SS8-270: Petrus Web / Login: senha definitiva com hash (S2_SENHA_HASH)
 - 2026-11-25 da699ac SS8-246: Gerar MDF-e em conting├¬ncia (100274) igual ao desktop
 - 2026-11-25 79ed1d7 SS8-262: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Compras
 - 2026-11-25 41551a8 SS8-266: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Industrial
