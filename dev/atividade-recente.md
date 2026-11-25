@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:23 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:36 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -208,6 +208,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 8f7bf2e SS8-251: Petrus.Logistica no padr├úo do desktop
+- 2026-11-25 43b5514 Etiqueta do operador: DATA/HORA e impress├úo pelo navegador
 - 2026-11-25 42ee89a Merge SS8-124: Dashboards: resumo di├írio/semanal e alertas de meta por e-mail e WhatsApp, com link para o painel filtrado
 - 2026-11-25 5c19262 Merge SS8-123: Dashboards / Manuten├º├úo (CMMS): MTBF, MTTR, preventivas, OMs em aberto e custo por equipamento
 - 2026-11-25 5a5e88c SS8-251: invent├írios regerados (Compras, Estoque e Industrial)
