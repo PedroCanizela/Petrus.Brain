@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 14:06 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 14:10 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -198,6 +198,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 ece8309 SS8-230: grupos de permiss├Áes no Petrus Web
 - 2026-11-25 4845b9b Merge SS8-242: Petrus Web: tratamento global de erros, sem derrubar a conex├úo nem travar a tela
 - 2026-11-25 90cfa7f SS8-242: tratamento global de erros no Petrus Web
 - 2026-11-25 71d226c Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
