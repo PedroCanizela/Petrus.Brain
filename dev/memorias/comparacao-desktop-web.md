@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-25T20:45:20.240Z
+  modified: 2026-11-25T20:51:37.847Z
 ---
 
 Levantamento de 25/11/2026 em `Petrus.ERP/Docs/comparacao-desktop-web.md` (+ CSVs em `Docs/comparacao-desktop-web/`,
@@ -13,6 +13,9 @@ script `Scripts/CompararDesktopWeb.ps1`, comparação por nome de método — he
 
 Lacunas reais conferidas no código (não aparecem no inventário de S39/S7):
 - O Web **não cria/altera tabelas**: `BancoDados.cs` (CreateTables, AlterColumns, CriarPermissoes, CriarModulos...) não tem porte; só a S92 no `AtualizacaoWeb`. Bloqueia SS8-142.
+  - SS8-243 (branch `feature/ss8-243-estrutura-banco-web`, aguardando aprovação em 25/11/2026): porte em `Petrus.Core/Metodos/BancoDados.cs`,
+    automático ao subir o site e no Atualizador (S61 "Criação de Tabelas Web"), botões em Ajustes > Atualizações. A fila de
+    atualização saiu da S92 (que no catálogo é o Grupo de permissões da SS8-230) e foi para a **S96**, que fica fora do catálogo.
 - `ICalculoCadastro` só registrado para R13 e N44; o `frmInterface.Grid()` do desktop calcula 38 tabelas (R7, I11, X13, I13/I14/I57/I70, N9/N22/N88/N93...).
   SS8-245 fase 1 (branch `feature/ss8-245-calculos-cadastro`, aguardando aprovação): N9/N91/N88/N22 em `CalculoCadastroFinanceiro`;
   CalculaNX7/NX8/NX9 eram só botões de anexo (PlanilhaAba cobre). S9 das abas: L4 100198, L70 101112, N99 101145, NX5 101370.

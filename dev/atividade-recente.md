@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:49 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:51 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -200,7 +200,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 596f9ada Update
 - 2026-11-11 c83c5dd2 Update - Ordem Mistura Pratic
 - 2026-11-11 815c01a8 Add - Ordem de mistura Pratic
-- 2026-11-11 7cfc2173 Fix - Mistura Pratic
 
 ## Petrus.ERP
 Branch atual: master
@@ -215,6 +214,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 8c750a7 Merge master na SS8-251
+- 2026-11-25 8008c1e SS8-243: estrutura do banco no Web (porte do BancoDados.cs)
 - 2026-11-25 d63d0ed SS8-254: fila de atualiza├º├úo do Petrus Web sai da S92 (conflito com grupo de permiss├Áes) para a AW1
 - 2026-11-25 56b5c3e Merge SS8-252: Web / Grades (SfGrid): texto ileg├¡vel no tema escuro
 - 2026-11-25 8b597e3 SS8-251: Petrus.Fiscal no padr├úo do desktop
