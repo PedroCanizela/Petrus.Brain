@@ -66,7 +66,43 @@ Junte todas as dúvidas numa só vez, numeradas, objetivas e com opções quando
 ## 3. Se entendeu → desenvolver
 
 1. `& $ss8 travar -Id <id>`. Se falhar, outra execução pegou a demanda: pule.
-2. Grave o repositório: `& $ss8 atualizar -Id <id> -Repositorio '<repo>'`.
+2. Grave o repositório e **normalize o título e a OBS** (já com o que você entendeu do código), na mesma
+   chamada. Faça isso uma vez só, ao começar; no retrabalho, só reescreva se o entendimento mudou.
+   - **Título (`-Descricao`, até 300 caracteres):** frase curta e clara, começando pelo módulo/tela, no
+     formato `<Módulo/Tela>: <o que será feito>` (ex.: `Financeiro / Contas a Pagar: baixa em lote com
+     juros e desconto`). Português correto, com acentos, primeira letra maiúscula, sem ponto final, sem
+     abreviações soltas, gírias ou "favor", "urgente", nomes de pessoas.
+   - **OBS (`-Obs`):** texto organizado e mais detalhado que o original, nesta estrutura (omita a seção
+     que não se aplicar):
+
+```powershell
+$obs = @'
+OBJETIVO
+<1 a 3 frases: o problema e o que o cliente quer>
+
+CONTEXTO
+- Cliente / chamado: ...
+- Onde: <repositório, tela, módulo, tabelas>
+
+O QUE SERÁ FEITO
+1) ...
+2) ...
+
+REGRAS DE NEGÓCIO
+- ...
+
+CRITÉRIO DE PRONTO
+- ...
+
+PEDIDO ORIGINAL
+<título e OBS antigos, copiados sem alteração>
+'@
+& $ss8 atualizar -Id <id> -Repositorio '<repo>' -Descricao '<título normalizado>' -Obs $obs
+```
+
+   - Nunca perca informação: tudo o que estava no título e na OBS originais continua no texto novo, e o
+     original vai inteiro em **PEDIDO ORIGINAL** (se já existir essa seção, mantenha-a como está). Não
+     invente regra de negócio: o que for dúvida vira pergunta (seção "Se não entendeu"), não texto da OBS.
 3. Branch `feature/ss8-<id>-<slug-curto-sem-acento>`. Use a branch salva, se já existir (retrabalho).
    - Nova: `& $git -C <repo> worktree add -b <branch> <worktree> master`
    - Existente: `& $git -C <repo> worktree add <worktree> <branch>` (ou reutilize o worktree se já existir).
