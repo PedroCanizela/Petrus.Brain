@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:46 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-253-motorista-por-pedido-expedicao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 9f043e86 Merge SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
 - 2026-11-25 14e5d4a8 SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
 - 2026-11-25 d04e6f33 Merge SS8-244: Cat├ílogos Web: sincronizar o Dados.cs do desktop com o Petrus.Core e levar ao desktop o que s├│ o Web tem
 - 2026-11-25 dce9c6e7 SS8-244: S30 - coluna Valor Saldo do Border├┤ de cobran├ºa (vinda do Web)
@@ -210,12 +210,14 @@ Branches:
 - + feature/ss8-243-estrutura-banco-web
 - + feature/ss8-245-calculos-cadastro
 - + feature/ss8-251-normalizar-padrao
-- + feature/ss8-252-grade-tema-escuro
 - + feature/ss8-254-atualizacao-fila-aw1
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 d63d0ed SS8-254: fila de atualiza├º├úo do Petrus Web sai da S92 (conflito com grupo de permiss├Áes) para a AW1
+- 2026-11-25 56b5c3e Merge SS8-252: Web / Grades (SfGrid): texto ileg├¡vel no tema escuro
+- 2026-11-25 8b597e3 SS8-251: Petrus.Fiscal no padr├úo do desktop
 - 2026-11-25 142390d SS8-252: texto das grades leg├¡vel no tema escuro
 - 2026-11-25 06f58ea SS8-245: c├ílculos de cadastro do Financeiro e Cont├íbil no /Details (fase 1)
 - 2026-11-25 d8d34fb SS8-251: Petrus.Custos no padr├úo do desktop
