@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 14:57 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 15:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -194,14 +194,17 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-218-localizar-parametros
-- + feature/ss8-219-filtros-s82-web
-- + feature/ss8-220-pdf-grade
 - + feature/ss8-227-label-versao
-- + feature/ss8-228-acesso-rapido
+- + feature/ss8-251-normalizar-padrao
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 531dd8d Merge SS8-219: Telas din├ómicas: exce├º├Áes de exibi├º├úo do frmInterface e filtros da S82 no Petrus Web
+- 2026-11-25 89bd7b7 Merge SS8-220: Telas gen├®ricas / Table e Report: PDF da grade leg├¡vel com muitas colunas, no padr├úo do desktop
+- 2026-11-25 e1f1b18 Merge SS8-228: In├¡cio: acesso r├ípido ├ás telas escolhidas pelo usu├írio
+- 2026-11-25 4ea1d9f SS8-251: sem Async tamb├®m nos m├®todos de nome comum (por classe)
+- 2026-11-25 16d5dad SS8-251: m├®todos dos m├│dulos sem o sufixo Async (padr├úo do Pedro)
 - 2026-11-25 1944082 SS8-228: In├¡cio: acesso r├ípido ├ás telas escolhidas pelo usu├írio
 - 2026-11-25 5bdb0d6 SS8-220: PDF da grade da /Table e do /Report sem espremer as colunas
 - 2026-11-25 6ea9322 SS8-219: Telas din├ómicas: exce├º├Áes de exibi├º├úo do frmInterface e filtros da S82 no Web
