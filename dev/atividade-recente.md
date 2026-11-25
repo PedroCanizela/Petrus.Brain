@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:22 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -213,6 +213,8 @@ Branches:
 - + feature/ss8-266-calculos-industrial
 - + feature/ss8-268-calculos-rh
 - + feature/ss8-270-login-seguro
+- + feature/ss8-273-po-volume-op
+- + feature/ss8-274-maquina-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
