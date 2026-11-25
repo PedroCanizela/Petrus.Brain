@@ -6,6 +6,7 @@
 - [Usabilidade do desktop no web](usabilidade-desktop-no-web.md) — lista padrão, seleção, duplo clique e funções na barra, como no frmInterface
 - [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
 - [Petrus.Brain](petrus-brain.md) — repo-cérebro (dev + assistente WhatsApp), sync diária, CLAUDE.md de entrada
+- [Pedido manual vira SS8](pedido-manual-vira-ss8.md) — REGRA: /nova-demanda direto + sessão `/desenvolver <id>` na seção Demandas SS8
 - [Brain sincroniza sozinho](brain-sync-automatico.md) — hook Stop roda Sincronizar-Automatico.ps1 (commit+push) a cada tarefa; não perguntar
 - [Forms sem S39 no Web](migracao-web-forms-sem-s39.md) — SS8-160: perguntar antes de portar; RotasDedicadas; MIGRADO/DESCARTADO FORM
 - [Ajustes, WhatsApp e Serasa no Web](ajustes-whatsapp-serasa-web.md) — SS8-140: /Ajustes/* com abas, Zapster na SX5, e-mail pelo S2, Serasa; IA na SS8-171

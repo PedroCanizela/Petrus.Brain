@@ -11,7 +11,7 @@ Cérebro dos sistemas do Pedro, para o Claude e para a IA do WhatsApp. Regras e 
 
 ### Memórias
 <!-- memorias:inicio (gerado por scripts/Sincronizar.ps1, nao editar) -->
-**Regras e preferencias** (6): [[brain-sync-automatico]] · [[idioma-portugues]] · [[nao-testar-ajustes-pequenos]] · [[padrao-codigo-pedro]] · [[perguntar-antes-decisoes-criativas]] · [[usabilidade-desktop-no-web]]
+**Regras e preferencias** (7): [[brain-sync-automatico]] · [[idioma-portugues]] · [[nao-testar-ajustes-pequenos]] · [[padrao-codigo-pedro]] · [[pedido-manual-vira-ss8]] · [[perguntar-antes-decisoes-criativas]] · [[usabilidade-desktop-no-web]]
 
 **Projetos e conhecimento** (35): [[ajustes-whatsapp-serasa-web]] · [[assistente-ia-erp]] · [[assistente-whatsapp]] · [[boleto-web]] · [[comissoes-web-relatorio-pdf]] · [[comparacao-desktop-web]] · [[concorrencia-max-id-petrus]] · [[conexoes-s37-busca-web]] · [[consulta-cnpj-cep-web]] · [[dashboard-financeiro-web]] · [[dashboards-areas-web]] · [[dashboards-indicadores-web]] · [[data-protection-chaves-web]] · [[fila-atualizacao-aw1]] · [[fluxo-demandas-ss8]] · [[grupos-permissoes-usuario]] · [[importacao-aferi-pratic]] · [[migracao-web]] · [[migracao-web-cadastro-pedido]] · [[migracao-web-compras-importar]] · [[migracao-web-expedicao-xml]] · [[migracao-web-financeiro]] · [[migracao-web-forms-sem-s39]] · [[nfe-web]] · [[normalizacao-ss8-251]] · [[parametros-exibicao-s82-web]] · [[pesquisa-completa-lupa-web]] · [[petrus-brain]] · [[planilha-abas-web]] · [[relatorios-desktop-web]] · [[relatorios-financeiro-web]] · [[sped-fiscal-web]] · [[sql-server-local]] · [[status-inclusao-web]] · [[tratamento-erros-web]]
 
