@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:57 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 19:00 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -220,6 +220,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 41551a8 SS8-266: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Industrial
 - 2026-11-25 e3777f2 SS8-247: Perfil do cliente no Web (menu 102031) com juros, data base e a├º├Áes
 - 2026-11-25 6a4107d SS8-263: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Log├¡stica
 - 2026-11-25 5c53f10 SS8-265: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro (Estoque: G6 e GX6)
