@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:34 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:35 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -209,6 +209,7 @@ Branches:
 - + feature/ss8-243-estrutura-banco-web
 - + feature/ss8-245-calculos-cadastro
 - + feature/ss8-254-atualizacao-fila-aw1
+- + feature/ss8-257-qrcode-gaiola-pacote
 - + feature/ss8-39-novo-layout-erp
 - * master
 
