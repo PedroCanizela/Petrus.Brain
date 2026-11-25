@@ -31,7 +31,7 @@
 - [Fila de atualização na AW1](fila-atualizacao-aw1.md) — SS8-254: S92 colidia (fila SS8-172 × grupo de permissões SS8-230); tabela só do Web fora do S8
 - [Chaves do Data Protection no Web](data-protection-chaves-web.md) — SS8-256: C:\Petrus\Chaves, "key not found in the key ring" após reiniciar; Protected*Storage tolerante
 - [Etiquetas QR do WMS Pratic](etiquetas-qr-wms-pratic.md) — SS8-257: pacote GX3_ID_G6_ID, gaiola A7_ID_CÓDIGO, câmera própria no LeitorPacote
-- [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
+- [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx; eventos RTC na SS8-165
 - [Token da sessão assinado no Web](token-sessao-assinado-web.md) — SS8-258: GerarToken com Data Protection, 30 dias, CarimboSenha; LoginDoPc.Validar no banco
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar

@@ -220,7 +220,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
-- 2026-11-25 8808f9d ´╗┐SS8-246: fun├º├Áes S39 restantes no Web (protestar t├¡tulo, desconto amig├úo, importar XML da nota de entrada e portal NF-e)
+- 2026-11-25 5030536 SS8-246: fun├º├Áes S39 restantes no Web (protestar t├¡tulo, desconto amig├úo, importar XML da nota de entrada e portal NF-e)
 - 2026-11-25 9a0e95e SS8-165: Fiscal / Notas fiscais: eventos da NF-e da Reforma Tribut├íria no Petrus Web
 - 2026-11-25 ae79beb SS8-250: marca├º├úo do IncluirProdutosDialog fora do coment├írio de v├írias linhas
 - 2026-11-25 2304697 SS8-270: Petrus Web / Login: consultas da S2 com par├ómetros (fim do SQL injection)
