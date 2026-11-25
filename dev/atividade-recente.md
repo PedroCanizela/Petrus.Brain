@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 13:48 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 13:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-234-receita-mistura-op
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 0a7bf90d Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
 - 2026-11-25 42958ca7 SS8-234: receita de mistura (VM1_ID) na ordem de produ├º├úo
 - 2026-11-25 ab00ab77 Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
 - 2026-11-25 6283a2a5 SS8-232: hor├írio programado da troca de molde (VZ7_HORARIO)
@@ -193,11 +193,11 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-230-usuarios-modulos-grupos
-- + feature/ss8-234-receita-mistura-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 71d226c Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
 - 2026-11-25 e6d0dfb SS8-230: m├│dulos, permiss├Áes e fun├º├Áes autom├íticos na inclus├úo do usu├írio
 - 2026-11-25 cee47c6 SS8-234: receita de mistura (VM1_ID) na ordem de produ├º├úo
 - 2026-11-25 557cd9e Merge SS8-233: MES / Monitoramento: filtrar as ordens pendentes por m├íquina
