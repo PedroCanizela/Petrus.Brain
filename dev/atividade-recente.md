@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:22 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,11 +18,6 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-119-dashboard-comercial
-- + feature/ss8-121-dashboard-producao
-- + feature/ss8-122-dashboard-estoque
-- + feature/ss8-123-dashboard-manutencao
-- + feature/ss8-124-alertas-resumo
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -207,11 +202,6 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-119-dashboard-comercial
-- + feature/ss8-121-dashboard-producao
-- + feature/ss8-122-dashboard-estoque
-- + feature/ss8-123-dashboard-manutencao
-- + feature/ss8-124-alertas-resumo
 - feature/ss8-218-localizar-parametros
 - + feature/ss8-251-normalizar-padrao
 - + feature/ss8-39-novo-layout-erp
