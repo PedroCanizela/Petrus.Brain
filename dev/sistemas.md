@@ -1,6 +1,6 @@
 # Contexto dos sistemas do Pedro
 
-> Atualizado pelo Claude (tarefa diária `atualizar-contexto-claude`). Última revisão manual do Claude: 23/11/2026.
+> Atualizado pelo Claude (tarefa diária `atualizar-petrus-brain` + hook Stop `Sincronizar-Automatico.ps1`). Última revisão manual do Claude: 25/11/2026.
 > Detalhes finos ficam em `memorias\` (um fato por arquivo). Este arquivo é o mapa geral.
 > **Segredos (senhas, chaves, connection strings) NÃO ficam aqui.** Ver "Onde estão os segredos".
 
@@ -46,17 +46,18 @@ Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações
 ## Projetos em andamento
 1. **Fluxo de demandas SS8** — Claude pega demandas, pergunta ou desenvolve em branch/worktree, usuário aprova. Comandos: `/demandas /nova-demanda /desenvolver /responder /aprovar /rejeitar`. Script `C:\Users\pedro\.claude\demandas\ss8.ps1` (+ `conexao.txt` com a conexão). Status: Pendente, Em análise, Aguardando resposta, Em desenvolvimento, Aguardando aprovação, Em testes, Concluído, Cancelado. Seção "Demandas SS8" na barra lateral do app.
 2. **Assistente de WhatsApp** — aprovado e na master (17/11/2026). Webhook Zapster → `/api/whatsapp/webhook`. Base SS1/SS2 gerada do código por `Tools\AtualizarBase.ps1`; tarefa agendada `atualizar-base-assistente` (segunda 7h; hoje **desativada**).
-3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) a 142; já na master (22/11): SS8-133 (boletos/remessa/retorno), SS8-140 (WhatsApp, ajustes, Serasa), SS8-149 (pedido de venda com recálculo), SS8-152 (comissões), SS8-155 (MDF-e, DF-e), SS8-157 (SPED fiscal), SS8-159, SS8-160 (orçamento, notas de débito). Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
+3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) em diante. **Situação 24/11: ~92%** (S39 252/272, relatórios 244/247, telas 318/361); entregas só compiladas. Próximo passo: **homologação contra o banco (SS8-161)**, depois desligamento do desktop por módulo (SS8-142); meta ~19/12/2026. Ainda abertas: SS8-165 (eventos NF-e da Reforma). Recentes na master: SS8-242 (tratamento global de erros, log em `C:\Petrus\Logs`), SS8-230 (grupos de permissões S92–S95, Web e desktop), SS8-210 (importação Aferi Pratic). Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
 4. **Migração Guarani → Petrus** (cliente novplast) — scripts SQL em `Desktop\nov`.
 5. **Petrus.Hub** (marketplaces: Mercado Livre, Shopee, TikTok Shop; depois Amazon/Magalu) — SS8-107 a 116; tabelas HB1 a HB4 na master (SS8-108).
-6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124; base (tabelas S88 a S91, indicadores, job, permissões e metas) na master (SS8-118). Memória `dashboards-indicadores-web`.
+6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124; base (tabelas S88 a S91, indicadores, job, permissões e metas) na master (SS8-118) e painel Financeiro (SS8-120); faltam Comercial, Produção, Estoque, Manutenção e alertas (119, 121–124). Memórias `dashboards-indicadores-web`, `dashboard-financeiro-web`.
+8. **Demandas de clientes** (desktop/Web) — PRATIC (gaiola/semiacabado, recebimento parcial, estoque retroativo, filtro OP), TERRAMADA (Segurança do Trabalho, SS8-208), MES (troca de molde, receita de mistura na OP, SS8-232/234 na master).
 7. **Assistente de IA no Petrus Web** — SS8-171, tabelas IA1/IA2 na master (memória `assistente-ia-erp`). Também em andamento: atualização de versão do Web via Azure Blob (SS8-172).
 
 ## Onde estão os segredos (não copiados aqui)
 - `C:\Users\pedro\.claude\demandas\conexao.txt` — conexão do cnzla para o ss8.ps1.
 - `Petrus.Suporte\appsettings.Local.json` (local, gitignored) e `appsettings.Production.json` (servidor) — chaves Zapster/Claude.
 - `credentials.xml` do Petrus.ERP.
-Ao trocar de PC/conta, estes precisam ser copiados à mão (ver `GUIA-RECRIAR-COMANDOS.md`).
+Ao trocar de PC/conta: abrir o cofre `segredos\segredos.enc` com `scripts\Restaurar-Segredos.ps1` (senha só com o Pedro) ou copiar à mão (ver `GUIA-RESTAURAR.md`).
 
 ## Atividade recente
 Ver `atividade-recente.md` (gerado automaticamente todo dia).
