@@ -193,7 +193,7 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-218-localizar-parametros
+- feature/ss8-218-localizar-parametros
 - + feature/ss8-251-normalizar-padrao
 - + feature/ss8-39-novo-layout-erp
 - * master
