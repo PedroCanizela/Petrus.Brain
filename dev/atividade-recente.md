@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 15:11 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 15:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -199,6 +199,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 4fb5366 SS8-251: scripts de apoio da normaliza├º├úo (tirar Async, mapa S39 x desktop, leitor de membros C#)
 - 2026-11-25 7005f50 Merge SS8-227: Layout / Menu lateral: label com a vers├úo instalada do Petrus Web
 - 2026-11-25 531dd8d Merge SS8-219: Telas din├ómicas: exce├º├Áes de exibi├º├úo do frmInterface e filtros da S82 no Petrus Web
 - 2026-11-25 89bd7b7 Merge SS8-220: Telas gen├®ricas / Table e Report: PDF da grade leg├¡vel com muitas colunas, no padr├úo do desktop
