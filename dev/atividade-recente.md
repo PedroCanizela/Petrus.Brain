@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 13:20 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 13:22 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -188,11 +188,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-237-bordero-valor-saldo
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 38d4a15 Merge SS8-237: Border├┤ de cobran├ºa - coluna Valor Saldo
 - 2026-11-25 bbbc524 SS8-237: Border├┤ de cobran├ºa - coluna Valor Saldo
 - 2026-11-24 8577673 Update
 - 2026-11-24 ee7e940 SS8-191: paradas no Web com a regra do desktop (revert no desktop)
