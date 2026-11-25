@@ -5,15 +5,20 @@ Cérebro dos sistemas do Pedro, para o Claude e para a IA do WhatsApp. Regras e 
 ## 🛠️ Dev (cérebro do Claude)
 - [[sistemas]] — mapa dos sistemas, repositórios, bancos e projetos
 - [[MEMORY|Índice das memórias]] — um fato por arquivo em `dev/memorias`
-- [[migracao-lacunas]] — o que falta da migração Petrus → Petrus.ERP (21/11/2026)
 - [[GUIA-RESTAURAR]] — como restaurar em outra conta ou PC
 - [[atividade-recente]] — commits e branches dos últimos 14 dias
+- [[migracao-lacunas]] — retrato da migração em 21/11/2026 (histórico; números atuais em [[migracao-web]])
 
 ### Memórias
-[[assistente-whatsapp]] · [[fluxo-demandas-ss8]] · [[migracao-web]] · [[usabilidade-desktop-no-web]] · [[sql-server-local]] · [[idioma-portugues]] · [[nao-testar-ajustes-pequenos]] · [[petrus-brain]]
+<!-- memorias:inicio (gerado por scripts/Sincronizar.ps1, nao editar) -->
+**Regras e preferencias** (6): [[brain-sync-automatico]] · [[idioma-portugues]] · [[nao-testar-ajustes-pequenos]] · [[padrao-codigo-pedro]] · [[perguntar-antes-decisoes-criativas]] · [[usabilidade-desktop-no-web]]
+
+**Projetos e conhecimento** (29): [[ajustes-whatsapp-serasa-web]] · [[assistente-ia-erp]] · [[assistente-whatsapp]] · [[boleto-web]] · [[comissoes-web-relatorio-pdf]] · [[concorrencia-max-id-petrus]] · [[conexoes-s37-busca-web]] · [[consulta-cnpj-cep-web]] · [[dashboard-financeiro-web]] · [[dashboards-indicadores-web]] · [[fluxo-demandas-ss8]] · [[grupos-permissoes-usuario]] · [[importacao-aferi-pratic]] · [[migracao-web]] · [[migracao-web-cadastro-pedido]] · [[migracao-web-compras-importar]] · [[migracao-web-expedicao-xml]] · [[migracao-web-financeiro]] · [[migracao-web-forms-sem-s39]] · [[nfe-web]] · [[pesquisa-completa-lupa-web]] · [[petrus-brain]] · [[planilha-abas-web]] · [[relatorios-desktop-web]] · [[relatorios-financeiro-web]] · [[sped-fiscal-web]] · [[sql-server-local]] · [[status-inclusao-web]] · [[tratamento-erros-web]]
+
+<!-- memorias:fim -->
 
 ### Comandos (skills)
-[[demandas]] · [[nova-demanda]] · [[desenvolver]] · [[responder]] · [[aprovar]] · [[rejeitar]] · [[atualizar-planilha]]
+[[dev/skills/demandas/SKILL|demandas]] · [[dev/skills/nova-demanda/SKILL|nova-demanda]] · [[dev/skills/desenvolver/SKILL|desenvolver]] · [[dev/skills/responder/SKILL|responder]] · [[dev/skills/aprovar/SKILL|aprovar]] · [[dev/skills/rejeitar/SKILL|rejeitar]] · [[dev/skills/atualizar-planilha/SKILL|atualizar-planilha]]
 
 ## 💬 Assistente do WhatsApp
 - [[README|Visão do cérebro do assistente]] (`assistente/`)
@@ -22,7 +27,8 @@ Cérebro dos sistemas do Pedro, para o Claude e para a IA do WhatsApp. Regras e 
 - [[ASSISTENTE-WHATSAPP]] — como o assistente funciona
 
 ## ⚙️ Automação
-- Tarefa diária `atualizar-petrus-brain` (7h): roda `scripts/Sincronizar.ps1`
-- `scripts/Restaurar.ps1`: devolve skills, memórias e ss8.ps1 ao `.claude`
+- **Hook Stop** (fim de cada tarefa do Claude): `scripts/Sincronizar-Automatico.ps1` → sincroniza, commita e dá push. Só commita quando algo mudou de verdade (o horário "Gerado em" não conta) e a mensagem diz o que mudou.
+- **Tarefa diária** `atualizar-petrus-brain` (7h): sincroniza e revisa os textos curados (`sistemas`, `assistente/sistema`).
+- `scripts/Restaurar.ps1`: devolve skills, memórias e ss8.ps1 ao `.claude`. Segredos: `Guardar-Segredos.ps1` / `Restaurar-Segredos.ps1`.
 
-> Arquivos **gerados** (não editar): `dev/memorias`, `dev/skills`, `dev/atividade-recente`, `assistente/dicionario`. **Curados** (editar à vontade): `Home`, `dev/sistemas`, `assistente/sistema/*`.
+> Arquivos **gerados** (não editar): `dev/memorias`, `dev/skills`, `dev/tarefas`, `dev/atividade-recente`, `assistente/dicionario` e o bloco de memórias acima. **Curados** (editar à vontade): o resto da `Home`, `CLAUDE`, `dev/sistemas`, `assistente/sistema/*`.

@@ -36,6 +36,7 @@ Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações
 | Petrus.Site | Site |
 | Petrus.PricingCore | Biblioteca de precificação (netstandard2.0) usada pelo Petrus |
 | boletonet, ZeusFiscal | Bibliotecas de boleto / fiscal |
+| Petrus.Brain | Este cérebro (vault Obsidian). Push automático autorizado só para ele. |
 | `_worktrees\<Repo>\ss8-<id>` | Worktrees das demandas em desenvolvimento |
 
 ## Bancos
@@ -50,8 +51,8 @@ Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações
 4. **Migração Guarani → Petrus** (cliente novplast) — scripts SQL em `Desktop\nov`.
 5. **Petrus.Hub** (marketplaces: Mercado Livre, Shopee, TikTok Shop; depois Amazon/Magalu) — SS8-107 a 116; tabelas HB1 a HB4 na master (SS8-108).
 6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124; base (tabelas S88 a S91, indicadores, job, permissões e metas) na master (SS8-118) e painel Financeiro (SS8-120); faltam Comercial, Produção, Estoque, Manutenção e alertas (119, 121–124). Memórias `dashboards-indicadores-web`, `dashboard-financeiro-web`.
-8. **Demandas de clientes** (desktop/Web) — PRATIC (gaiola/semiacabado, recebimento parcial, estoque retroativo, filtro OP), TERRAMADA (Segurança do Trabalho, SS8-208), MES (troca de molde, receita de mistura na OP, SS8-232/234 na master).
 7. **Assistente de IA no Petrus Web** — SS8-171, tabelas IA1/IA2 na master (memória `assistente-ia-erp`). Também em andamento: atualização de versão do Web via Azure Blob (SS8-172).
+8. **Demandas de clientes** (desktop/Web) — PRATIC (gaiola/semiacabado, recebimento parcial, estoque retroativo, filtro OP), TERRAMADA (Segurança do Trabalho, SS8-208), MES (troca de molde, receita de mistura na OP, SS8-232/234 na master).
 
 ## Onde estão os segredos (não copiados aqui)
 - `C:\Users\pedro\.claude\demandas\conexao.txt` — conexão do cnzla para o ss8.ps1.

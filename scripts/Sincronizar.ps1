@@ -19,6 +19,18 @@ function Copiar-Pasta($origem, $destino, $filtro) {
     Get-ChildItem $origem -Filter $filtro -File | ForEach-Object { Copy-Item $_.FullName (Join-Path $destino $_.Name) -Force }
 }
 
+# Grava o arquivo so se o conteudo mudou de verdade (ignora a linha "Gerado em ...").
+# Evita um commit por execucao do hook so porque o horario mudou.
+function Salvar-SeMudou($caminho, $linhas) {
+    $limpar = { param($t) (($t -split "`r?`n") | Where-Object { $_ -notmatch '^Gerado em ' }) -join "`n" }
+    $novo = ($linhas | ForEach-Object { "$_" }) -join "`n"
+    if (Test-Path $caminho) {
+        $atual = (Get-Content $caminho -Encoding UTF8) -join "`n"
+        if ((& $limpar $atual).Trim() -eq (& $limpar $novo).Trim()) { return }
+    }
+    Set-Content -Path $caminho -Value $linhas -Encoding UTF8
+}
+
 # ---------- DEV: cerebro do Claude ----------
 # Memorias de TODOS os projetos Petrus* (Petrus, Petrus.ERP, Petrus.Suporte, FV, Hub...) juntas em dev\memorias.
 # MEMORY.md (indice) e remontado juntando as linhas de cada projeto, sem repetir.
@@ -38,7 +50,32 @@ Get-ChildItem (Join-Path $claude 'projects') -Directory -Filter 'C--Users-pedro-
         }
     }
 }
-if ($linhasIndice.Count -gt 0) { Set-Content -Path "$destMem\MEMORY.md" -Value $linhasIndice -Encoding UTF8 }
+if ($linhasIndice.Count -gt 0) { Salvar-SeMudou "$destMem\MEMORY.md" $linhasIndice }
+
+# Home.md: bloco de memorias gerado (entre os marcadores), agrupado pelo "type" do frontmatter.
+$arqHome = "$raiz\Home.md"
+if (Test-Path $arqHome) {
+    $grupos = [ordered]@{ 'feedback' = 'Regras e preferencias'; 'user' = 'Sobre o Pedro'; 'project' = 'Projetos e conhecimento'; 'reference' = 'Referencias' }
+    $porTipo = @{}
+    Get-ChildItem $destMem -Filter '*.md' -File | Where-Object { $_.Name -ne 'MEMORY.md' } | Sort-Object Name | ForEach-Object {
+        $txt = Get-Content $_.FullName -Raw -Encoding UTF8
+        $tipo = 'project'
+        if ($txt -match '(?m)^\s*type:\s*(\w+)') { $tipo = $Matches[1] }
+        if (-not $porTipo.ContainsKey($tipo)) { $porTipo[$tipo] = @() }
+        $porTipo[$tipo] += "[[$($_.BaseName)]]"
+    }
+    $bloco = @('<!-- memorias:inicio (gerado por scripts/Sincronizar.ps1, nao editar) -->')
+    foreach ($t in $grupos.Keys) {
+        if ($porTipo.ContainsKey($t)) { $bloco += "**$($grupos[$t])** ($($porTipo[$t].Count)): " + ($porTipo[$t] -join " $([char]0x00B7) ") ; $bloco += '' }
+    }
+    $bloco += '<!-- memorias:fim -->'
+    $conteudo = [IO.File]::ReadAllText($arqHome, [Text.Encoding]::UTF8)
+    $padrao = '(?s)<!-- memorias:inicio.*?<!-- memorias:fim -->'
+    if ($conteudo -match $padrao) {
+        $novoHome = [regex]::Replace($conteudo, $padrao, [System.Text.RegularExpressions.MatchEvaluator]{ param($m) $bloco -join "`r`n" })
+        if ($novoHome -ne $conteudo) { [IO.File]::WriteAllText($arqHome, $novoHome, (New-Object Text.UTF8Encoding($false))) }
+    }
+}
 
 # Instrucoes globais do Claude (apontam para o Brain em qualquer repositorio)
 $cg = Join-Path $claude 'CLAUDE.md'
@@ -76,7 +113,7 @@ Get-ChildItem $repos -Directory | Where-Object { $_.Name -notin '_worktrees','Pe
     } catch { $saida += "(erro ao ler o git: $($_.Exception.Message))" }
     $saida += ""
 }
-Set-Content -Path "$raiz\dev\atividade-recente.md" -Value $saida -Encoding UTF8
+Salvar-SeMudou "$raiz\dev\atividade-recente.md" $saida
 
 # ---------- ASSISTENTE: cerebro da IA do WhatsApp ----------
 $ass = "$raiz\assistente"
@@ -101,7 +138,7 @@ if (Test-Path $suporte) {
             foreach ($c in $t.campos) { $md.Add("- $($c.n) | $($c.r) | $($c.t)") }
             $md.Add('')
         }
-        Set-Content -Path "$ass\dicionario\tabelas.md" -Value $md -Encoding UTF8
+        Salvar-SeMudou "$ass\dicionario\tabelas.md" $md
     }
 }
 
@@ -111,7 +148,17 @@ if ($Commit) {
     & $git -C $raiz add -A
     $alt = & $git -C $raiz status --porcelain
     if ($alt) {
-        & $git -C $raiz commit -m "Sincronizacao de $(Get-Date -Format 'dd/MM/yyyy')" | Out-Null
+        # Mensagem diz o que mudou (ex.: "memorias: nfe-web, boleto-web | atividade")
+        $partes = @()
+        $mems = @($alt | Where-Object { $_ -match 'dev/memorias/(.+)\.md' -and $_ -notmatch 'MEMORY\.md' } | ForEach-Object { [regex]::Match($_, 'dev/memorias/(.+)\.md').Groups[1].Value })
+        if ($mems.Count) { $partes += 'memorias: ' + (($mems | Select-Object -First 5) -join ', ') + $(if ($mems.Count -gt 5) { " (+$($mems.Count - 5))" } else { '' }) }
+        if ($alt -match 'dev/skills/')              { $partes += 'skills' }
+        if ($alt -match 'dev/tarefas/')             { $partes += 'tarefas' }
+        if ($alt -match 'dev/atividade-recente')    { $partes += 'atividade' }
+        if ($alt -match 'assistente/')              { $partes += 'assistente' }
+        if ($alt -match 'dev/sistemas\.md|Home\.md|CLAUDE\.md') { $partes += 'textos curados' }
+        if (-not $partes) { $partes += 'outros' }
+        & $git -C $raiz commit -m "Sincronizacao $(Get-Date -Format 'dd/MM/yyyy HH:mm'): $($partes -join ' | ')" | Out-Null
         Write-Output 'Commit local criado (sem push).'
     } else { Write-Output 'Sem mudancas para commitar.' }
 }
