@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 19:06 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:18 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -198,8 +198,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 b10df23d Update - Dados
 - 2026-11-11 407baecd Fix - Troca de Molde e Ordem Mistura Pratic
 - 2026-11-11 596f9ada Update
-- 2026-11-11 c83c5dd2 Update - Ordem Mistura Pratic
-- 2026-11-11 815c01a8 Add - Ordem de mistura Pratic
 
 ## Petrus.ERP
 Branch atual: master
