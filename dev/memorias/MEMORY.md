@@ -32,4 +32,5 @@
 - [Importar compra no Web](migracao-web-compras-importar.md) — SS8-159: /Details com importarCompra na URL, abas gravadas no Confirmar
 - [SPED Fiscal no Petrus Web](sped-fiscal-web.md) — SS8-157: Petrus.Fiscal/Sped com FiscalBr, só Bloco K/H reais, export invertido no desktop
 - [Cadastro do pedido no Web](migracao-web-cadastro-pedido.md) — SS8-149: motor de impostos no Petrus.Fiscal, abas editáveis no /Details, ICalculoCadastro
+- [Exceções de exibição e S82 no Web](parametros-exibicao-s82-web.md) — SS8-219: LocalizaParametros do frmInterface em Petrus.Core/Utils/ParametrosExibicao
 - [Boletos no Petrus Web](boleto-web.md) — SS8-133: Boleto.Net portada (Petrus.Boleto), cobrança em Financeiro/Cobranca, WhatsApp no Core

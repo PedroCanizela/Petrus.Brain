@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 14:53 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 14:55 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -195,12 +195,14 @@ Branch atual: master
 Branches:
 - + feature/ss8-218-localizar-parametros
 - + feature/ss8-219-filtros-s82-web
+- + feature/ss8-220-pdf-grade
 - + feature/ss8-227-label-versao
 - + feature/ss8-228-acesso-rapido
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 6ea9322 SS8-219: Telas din├ómicas: exce├º├Áes de exibi├º├úo do frmInterface e filtros da S82 no Web
 - 2026-11-25 9607c46 SS8-227: Layout / Menu lateral: label com a vers├úo instalada do Petrus Web
 - 2026-11-25 267d66a SS8-218: Telas din├ómicas: LocalizaParametros do frmInterface no Petrus Web
 - 2026-11-25 7f236d9 Merge SS8-230: Sistema / Usu├írios: m├│dulos e permiss├Áes autom├íticos na inclus├úo e grupos de permiss├Áes
