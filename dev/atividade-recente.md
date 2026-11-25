@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:51 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:54 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -220,6 +220,10 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 8808f9d ´╗┐SS8-246: fun├º├Áes S39 restantes no Web (protestar t├¡tulo, desconto amig├úo, importar XML da nota de entrada e portal NF-e)
+- 2026-11-25 9a0e95e SS8-165: Fiscal / Notas fiscais: eventos da NF-e da Reforma Tribut├íria no Petrus Web
+- 2026-11-25 ae79beb SS8-250: marca├º├úo do IncluirProdutosDialog fora do coment├írio de v├írias linhas
+- 2026-11-25 2304697 SS8-270: Petrus Web / Login: consultas da S2 com par├ómetros (fim do SQL injection)
 - 2026-11-25 281cd48 Merge SS8-257: WMS Web / Leitura de QR Code: reconhecer as etiquetas de gaiola (<id>_<c├│digo>) e de pacote (<GX3_ID>_<G6_ID>)
 - 2026-11-25 66a7d31 SS8-250: Invent├írio da migra├º├úo trata Intera├º├úo como gen├®rica e marca os forms j├í cobertos no Web
 - 2026-11-25 da0c8f5 Merge SS8-258: Petrus Web / Login: assinar o Token da sess├úo e o login lembrado do PC
