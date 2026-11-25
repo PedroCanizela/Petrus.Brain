@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-25T21:36:30.940Z
+  modified: 2026-11-25T21:46:28.477Z
 ---
 
 Levantamento de 25/11/2026 em `Petrus.ERP/Docs/comparacao-desktop-web.md` (+ CSVs em `Docs/comparacao-desktop-web/`,
@@ -19,7 +19,9 @@ Lacunas reais conferidas no código (não aparecem no inventário de S39/S7):
 - `ICalculoCadastro` só registrado para R13 e N44; o `frmInterface.Grid()` do desktop calcula 38 tabelas (R7, I11, X13, I13/I14/I57/I70, N9/N22/N88/N93...).
   SS8-245 fase 1 (branch `feature/ss8-245-calculos-cadastro`, aguardando aprovação): N9/N91/N88/N22 em `CalculoCadastroFinanceiro`;
   CalculaNX7/NX8/NX9 eram só botões de anexo (PlanilhaAba cobre). S9 das abas: L4 100198, L70 101112, N99 101145, NX5 101370.
-  Pesados que faltam: R57 1349 linhas, I46 1405, I43 865, I58 871 (impostos) — sugerido uma demanda por tabela.
+  Pesados que faltam: R57 1349 linhas, I46 1405, I43 865, I58 871 (impostos).
+  SS8-245 na master (2fd778a). Restante virou 1 demanda por módulo (25/11): 261 Fiscal, 262 Compras (Alta), 263 Logística,
+  264 Vendas, 265 Estoque, 266 Industrial, 267 Manutenção, 268 RH, 269 CRM (Média).
 - Sem importação de planilha (`Funcoes.Importar`, `ImportarSemIdentificador`, `GerarConexaoMassa`).
 - PDV inteiro (Petrus.PDV só tem Class1.cs) e Customizador/dicionário (frmTabelas etc.) não existem no Web.
 - Catálogos do Web defasados (IA1/IA2 em S8/S9/S10, S77_VALOR_META_2, S79): sincronizados na SS8-244 (branch nos dois repos). Regra: mudança de catálogo feita só no Web vai antes para o Dados.cs, com ID livre do desktop (a SS8-237 usou o 103884 da S30, que era da Meta 2). S4/S14/S15/S72/S82/SS1/SS2 o Web lê do banco, sem cópia no Core.
