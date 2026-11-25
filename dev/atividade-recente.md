@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:42 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:43 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -215,6 +215,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 f9ae1f7 SS8-271: Petrus Web / Login: primeiro login com a senha provis├│ria cria a senha nova (hash) e tela Mudar senha
 - 2026-11-25 0f4c0cf SS8-267: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Manuten├º├úo
 - 2026-11-25 87bb85e SS8-264: c├ílculos do Grid() de Vendas no ICalculoCadastro (tabela de pre├ºo e cliente)
 - 2026-11-25 38087c6 SS8-269: C├ílculos do Grid() do CRM no ICalculoCadastro (Cat├ílogo e Feirinha)
