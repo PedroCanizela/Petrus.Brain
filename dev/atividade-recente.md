@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 14:55 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 14:57 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -202,6 +202,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 1944082 SS8-228: In├¡cio: acesso r├ípido ├ás telas escolhidas pelo usu├írio
+- 2026-11-25 5bdb0d6 SS8-220: PDF da grade da /Table e do /Report sem espremer as colunas
 - 2026-11-25 6ea9322 SS8-219: Telas din├ómicas: exce├º├Áes de exibi├º├úo do frmInterface e filtros da S82 no Web
 - 2026-11-25 9607c46 SS8-227: Layout / Menu lateral: label com a vers├úo instalada do Petrus Web
 - 2026-11-25 267d66a SS8-218: Telas din├ómicas: LocalizaParametros do frmInterface no Petrus Web
