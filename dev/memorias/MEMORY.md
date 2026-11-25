@@ -37,6 +37,7 @@
 - [Cálculos do Grid() no Web](calculos-cadastro-grid-web.md) — SS8-245/268: CalculoCadastro<Modulo> por módulo, aba pelo S9_ID, S10_ATIVO=false é Enabled e não ReadOnly
 - [Perfil do cliente no Web](perfil-cliente-web.md) — SS8-247: /Vendas/PerfilCliente (102031), PerfilClienteView no diálogo, juros/data base, ações no Financeiro.PerfilCliente, ArquivosAcao.Compactar
 - [Cálculos do Industrial no /Details](calculos-cadastro-industrial.md) — SS8-266: Grid() de V1/VX1/VX11/VZ1/C3/VM1/VM3 no ICalculoCadastro, S9 das abas, Substituir só se mudar
+- [Cálculos de Compras no Web](calculos-cadastro-compras-web.md) — SS8-262: Grid() de I13/I14/I57/I70 no CalculoCadastroCompras, Compras→Fiscal, CadastroEmEdicao.S2_USUARIO, sem cálculo na importação
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
