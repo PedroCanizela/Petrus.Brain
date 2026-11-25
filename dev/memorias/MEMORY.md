@@ -33,7 +33,7 @@
 - [Etiquetas QR do WMS Pratic](etiquetas-qr-wms-pratic.md) — SS8-257: pacote GX3_ID_G6_ID, gaiola A7_ID_CÓDIGO, câmera própria no LeitorPacote
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx; eventos RTC na SS8-165
 - [Token da sessão assinado no Web](token-sessao-assinado-web.md) — SS8-258: GerarToken com Data Protection, 30 dias, CarimboSenha; LoginDoPc.Validar no banco
-- [Funções S39 restantes SS8-246](funcoes-s39-restantes-ss8-246.md) — protesto, amigão, XML I11, portal (AcaoS39.Endereco); MDF-e contingência perguntado
+- [Funções S39 restantes SS8-246](funcoes-s39-restantes-ss8-246.md) — protesto, amigão, XML I11, portal (AcaoS39.Endereco), MDF-e contingência igual ao desktop; aguardando aprovação
 - [Cálculos do Grid() no Web](calculos-cadastro-grid-web.md) — SS8-245/268: CalculoCadastro<Modulo> por módulo, aba pelo S9_ID, S10_ATIVO=false é Enabled e não ReadOnly
 - [Perfil do cliente no Web](perfil-cliente-web.md) — SS8-247: /Vendas/PerfilCliente (102031), PerfilClienteView no diálogo, juros/data base, ações no Financeiro.PerfilCliente, ArquivosAcao.Compactar
 - [Cálculos do Industrial no /Details](calculos-cadastro-industrial.md) — SS8-266: Grid() de V1/VX1/VX11/VZ1/C3/VM1/VM3 no ICalculoCadastro, S9 das abas, Substituir só se mudar
