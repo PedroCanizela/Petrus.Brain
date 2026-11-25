@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:11 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -29,6 +29,11 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 6e13d8fa Merge SS8-124: Dashboards: resumo di├írio/semanal e alertas de meta por e-mail e WhatsApp, com link para o painel filtrado
+- 2026-11-25 caab53ea Merge SS8-123: Dashboards / Manuten├º├úo (CMMS): MTBF, MTTR, preventivas, OMs em aberto e custo por equipamento
+- 2026-11-25 123ca17f Merge SS8-122: Dashboards / Estoque (WMS): valor em estoque, giro, cobertura, ruptura, abaixo do m├¡nimo e itens parados
+- 2026-11-25 ef87bafc Merge SS8-121: Dashboards / Produ├º├úo (MES): OEE por m├íquina, centro e turno, OPs, perdas e paradas
+- 2026-11-25 80a08e9f Merge SS8-119: Dashboards / Comercial: margem, carteira, clientes novos e inativos e aberturas por produto, UF, grupo e canal
 - 2026-11-25 ebf80a75 SS8-124: Dados.cs: campos do resumo e dos alertas dos dashboards
 - 2026-11-25 bc734f42 SS8-123: Dados.cs: indicadores do dashboard Manuten├º├úo na lista de S89_INDICADOR
 - 2026-11-25 0c1a2c8c SS8-122: Dados.cs: indicadores do dashboard Estoque na lista de S89_INDICADOR
@@ -213,6 +218,13 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 5c19262 Merge SS8-123: Dashboards / Manuten├º├úo (CMMS): MTBF, MTTR, preventivas, OMs em aberto e custo por equipamento
+- 2026-11-25 5a5e88c SS8-251: invent├írios regerados (Compras, Estoque e Industrial)
+- 2026-11-25 f6e3c09 Merge SS8-122: Dashboards / Estoque (WMS): valor em estoque, giro, cobertura, ruptura, abaixo do m├¡nimo e itens parados
+- 2026-11-25 7c1d649 Merge SS8-121: Dashboards / Produ├º├úo (MES): OEE por m├íquina, centro e turno, OPs, perdas e paradas
+- 2026-11-25 3bc5de7 SS8-251: Petrus.Industrial no padr├úo do desktop
+- 2026-11-25 c7919f0 Merge SS8-119: Dashboards / Comercial: margem, carteira, clientes novos e inativos e aberturas por produto, UF, grupo e canal
+- 2026-11-25 9a9a9b6 SS8-251: Petrus.Estoque no padr├úo do desktop
 - 2026-11-25 b2e9ea0 SS8-124: Dashboards: resumo di├írio/semanal e alertas de meta por e-mail e WhatsApp
 - 2026-11-25 dd97df7 SS8-251: coment├írio das classes novas do Compras
 - 2026-11-25 7c3e517 SS8-251: Petrus.Compras no padr├úo do desktop
