@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:42 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-253-motorista-por-pedido-expedicao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 14e5d4a8 SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
 - 2026-11-25 d04e6f33 Merge SS8-244: Cat├ílogos Web: sincronizar o Dados.cs do desktop com o Petrus.Core e levar ao desktop o que s├│ o Web tem
 - 2026-11-25 dce9c6e7 SS8-244: S30 - coluna Valor Saldo do Border├┤ de cobran├ºa (vinda do Web)
 - 2026-11-25 6e13d8fa Merge SS8-124: Dashboards: resumo di├írio/semanal e alertas de meta por e-mail e WhatsApp, com link para o painel filtrado
@@ -208,10 +210,13 @@ Branches:
 - + feature/ss8-243-estrutura-banco-web
 - + feature/ss8-245-calculos-cadastro
 - + feature/ss8-251-normalizar-padrao
+- + feature/ss8-252-grade-tema-escuro
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 06f58ea SS8-245: c├ílculos de cadastro do Financeiro e Cont├íbil no /Details (fase 1)
+- 2026-11-25 d8d34fb SS8-251: Petrus.Custos no padr├úo do desktop
 - 2026-11-25 652c7ba SS8-251: Petrus.RH no padr├úo do desktop
 - 2026-11-25 2ab8275 Merge SS8-244: Cat├ílogos Web: sincronizar o Dados.cs do desktop com o Petrus.Core e levar ao desktop o que s├│ o Web tem
 - 2026-11-25 a2a5d21 SS8-244: cat├ílogos do Petrus.Core sincronizados com o Dados.cs do desktop
