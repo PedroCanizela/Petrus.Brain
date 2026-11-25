@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 11:52 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 12:31 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -185,8 +185,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 40ef1e47 Fix - Msg Aviso Pedido Nota Pratic - Luana
 - 2026-11-11 eb43ec3e Fix - Troca de Molde Pratic
 - 2026-11-11 01bb314a Fix - Manuten├º├úo de molde Pratic
-- 2026-11-11 5cf1de29 Fix - Status VZ5 (manuten├º├úo de molde) Pratic
-- 2026-11-11 1f5bd726 Add - Pago parcial Relobraz - Guthierre
 
 ## Petrus.ERP
 Branch atual: master
