@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:32 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:42 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-272-login-hash
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -203,12 +204,20 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
+- + feature/ss8-261-calculos-fiscal
+- + feature/ss8-264-calculos-vendas
+- + feature/ss8-267-calculos-manutencao
+- + feature/ss8-269-calculos-crm
+- + feature/ss8-271-criar-mudar-senha
 - + feature/ss8-273-po-volume-op
 - + feature/ss8-274-maquina-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 0f4c0cf SS8-267: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Manuten├º├úo
+- 2026-11-25 87bb85e SS8-264: c├ílculos do Grid() de Vendas no ICalculoCadastro (tabela de pre├ºo e cliente)
+- 2026-11-25 38087c6 SS8-269: C├ílculos do Grid() do CRM no ICalculoCadastro (Cat├ílogo e Feirinha)
 - 2026-11-25 f17348b SS8-274: campo M├íquina da OP aceita digitar o c├│digo ou o nome
 - 2026-11-25 44b4a1c Regenera o invent├írio da migra├º├úo ap├│s os merges de 165, 246, 247 e 250
 - 2026-11-25 850e83c Merge SS8-250: Migra├º├úo Web / Invent├írio: tratar telas de Intera├º├úo como gen├®ricas e marcar os forms j├í cobertos no Web (MIGRADO FORM)
@@ -628,7 +637,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 68a8ef4 SS8-35: Monitor de TV da expedi├º├úo (Profiable)
 - 2026-11-12 681859f SS8-34: Monitor de produ├º├úo por c├®lula (MonitorCelula)
 - 2026-11-12 f3232ef Update - Leitura QrCode
-- 2026-11-11 1df3af5 Update - Login
 
 ## Petrus.FV
 Branch atual: master

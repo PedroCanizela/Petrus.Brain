@@ -5,14 +5,17 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4ec7e20d-0d4e-446f-9108-6d2afcbe0897
-  modified: 2026-11-25T21:57:43.655Z
+  modified: 2026-11-25T23:42:39.243Z
 ---
 
 O Grid() do desktop vira uma classe `CalculoCadastro<Modulo>` (ICalculoCadastro) no projeto do módulo, registrada no
 `ERPBlazor/Program.cs`. SS8-245: Financeiro (N9, N91, N88, N22). SS8-268 (25/11/2026): RH em `Petrus.RH/Classes/CalculoCadastroRH.cs`
 (D10 CalculaD46, DX1 ObterDX1..DX4, DS2 CalculaDS7). SS8-265: Estoque em `Petrus.Estoque/Classes/CalculoCadastroEstoque.cs` (G6: ObterG6/G32/G36/G45/G48/G50
 em `Produtos.Calculos.cs`, S9 100754/100813/101138/101193/101232; GX6: RequisicoesMaterial.CalculaGX7, S9 101761); o Calculo()
-do desktop (ao sair dos campos, ex.: ObterG6 cubagem/pesos) pode entrar no mesmo CalcularAsync. Fases 262/263/265/266 (Compras, Logística, Estoque, Industrial) em paralelo.
+do desktop (ao sair dos campos, ex.: ObterG6 cubagem/pesos) pode entrar no mesmo CalcularAsync. SS8-264: Vendas em
+`Petrus.Vendas/Classes/CalculoCadastroVendas.cs` (R43 TabelasPreco.CalculaR61 aba S9 100481; R2 Clientes.CalculaR2, que era
+Calculo()). Cálculos do desktop que só criam colunas de botão de anexo (btn..._CAMINHO/_VISUALIZAR, ex.: CalculaR93,
+CalculaRR11) são descartados: a PlanilhaAba já tem os botões nas colunas FILE PICKER. Fases 262/263/265/266 (Compras, Logística, Estoque, Industrial) em paralelo.
 
 - O desktop acha a grade pelo S8_ID da tabela filha do grupo; no Web use o S9_ID do grupo (catálogo `Petrus.Core/Models/S9.cs`,
   `Rows.Add(S9_ID, Empresa, S8_ID_da_filha, ...)`), via `c.Aba(S9_ID)` + `Valores.Alterar` + `c.AbasAlteradas.Add`.
