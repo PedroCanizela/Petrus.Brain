@@ -33,6 +33,7 @@
 - [Etiquetas QR do WMS Pratic](etiquetas-qr-wms-pratic.md) — SS8-257: pacote GX3_ID_G6_ID, gaiola A7_ID_CÓDIGO, câmera própria no LeitorPacote
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx; eventos RTC na SS8-165
 - [Token da sessão assinado no Web](token-sessao-assinado-web.md) — SS8-258: GerarToken com Data Protection, 30 dias, CarimboSenha; LoginDoPc.Validar no banco
+- [Funções S39 restantes SS8-246](funcoes-s39-restantes-ss8-246.md) — protesto, amigão, XML I11, portal (AcaoS39.Endereco); MDF-e contingência perguntado
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
