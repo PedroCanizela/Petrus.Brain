@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 13:46 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 13:48 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 42958ca7 SS8-234: receita de mistura (VM1_ID) na ordem de produ├º├úo
 - 2026-11-25 ab00ab77 Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
 - 2026-11-25 6283a2a5 SS8-232: hor├írio programado da troca de molde (VZ7_HORARIO)
 - 2026-11-24 37424374 Update
@@ -197,6 +198,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 e6d0dfb SS8-230: m├│dulos, permiss├Áes e fun├º├Áes autom├íticos na inclus├úo do usu├írio
+- 2026-11-25 cee47c6 SS8-234: receita de mistura (VM1_ID) na ordem de produ├º├úo
 - 2026-11-25 557cd9e Merge SS8-233: MES / Monitoramento: filtrar as ordens pendentes por m├íquina
 - 2026-11-25 a47de8e SS8-233: MES / Monitoramento: filtrar as ordens pendentes por m├íquina
 - 2026-11-25 b054169 Merge SS8-231: MES / Manuten├º├úo de molde: status Enviado com bot├Áes para enviar e estornar o envio
