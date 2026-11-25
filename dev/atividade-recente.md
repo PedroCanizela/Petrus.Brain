@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:42 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -206,7 +206,7 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
-- + feature/ss8-245-calculos-cadastro
+- + feature/ss8-165-eventos-nfe-rtc
 - + feature/ss8-246-funcoes-s39-restantes
 - + feature/ss8-250-inventario-interacao
 - + feature/ss8-257-qrcode-gaiola-pacote
@@ -215,6 +215,9 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 2fd778a Merge SS8-245: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro, por fases (fase 1: Financeiro e Cont├íbil)
+- 2026-11-25 2078f3b Merge branch 'master' into feature/ss8-245-calculos-cadastro
+- 2026-11-25 77f41ea SS8-258: Petrus Web / Login: assinar o Token da sess├úo e o login lembrado do PC
 - 2026-11-25 091ae35 SS8-257: WMS Web reconhece as etiquetas de gaiola e pacote da Pratic
 - 2026-11-25 c9c3ba0 Merge SS8-243: Migra├º├úo Web / Estrutura do banco: aplicar o cat├ílogo do Dados.cs (tabelas, colunas, chaves e permiss├Áes padr├úo) pelo Petrus Web
 - 2026-11-25 f7895c5 Merge SS8-254: Petrus Web / Atualiza├º├Áes: corrigir a queda a cada 30 segundos (conflito da S92) e simplificar a atualiza├º├úo
