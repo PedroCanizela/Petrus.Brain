@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4ec7e20d-0d4e-446f-9108-6d2afcbe0897
-  modified: 2026-11-25T23:42:39.243Z
+  modified: 2026-11-25T23:49:51.627Z
 ---
 
 O Grid() do desktop vira uma classe `CalculoCadastro<Modulo>` (ICalculoCadastro) no projeto do módulo, registrada no
@@ -15,7 +15,11 @@ em `Produtos.Calculos.cs`, S9 100754/100813/101138/101193/101232; GX6: Requisico
 do desktop (ao sair dos campos, ex.: ObterG6 cubagem/pesos) pode entrar no mesmo CalcularAsync. SS8-264: Vendas em
 `Petrus.Vendas/Classes/CalculoCadastroVendas.cs` (R43 TabelasPreco.CalculaR61 aba S9 100481; R2 Clientes.CalculaR2, que era
 Calculo()). Cálculos do desktop que só criam colunas de botão de anexo (btn..._CAMINHO/_VISUALIZAR, ex.: CalculaR93,
-CalculaRR11) são descartados: a PlanilhaAba já tem os botões nas colunas FILE PICKER. Fases 262/263/265/266 (Compras, Logística, Estoque, Industrial) em paralelo.
+CalculaRR11) são descartados: a PlanilhaAba já tem os botões nas colunas FILE PICKER. SS8-261 (25/11/2026): Fiscal em
+`Petrus.Fiscal/CalculoCadastroFiscal.cs` (R7 NotasSaida.CalculaR57/R58 S9 100436/100438; I11 NotasEntrada.CalculaI46/I49 S9
+100555/100596; X13 NaturezasOperacao.CalculaX17..X20/X53 S9 100487-100490/101589); os SetValue de impostos comuns R57/I46 em
+`Utils/ImpostosItem.cs`. No desktop o CalculaR58 regerava as duplicatas a cada Grid() com N22_ID = 1 (no Web: não refaz
+se há título ou sem condição). Fases 262/263/265/266 (Compras, Logística, Estoque, Industrial) em paralelo.
 
 - O desktop acha a grade pelo S8_ID da tabela filha do grupo; no Web use o S9_ID do grupo (catálogo `Petrus.Core/Models/S9.cs`,
   `Rows.Add(S9_ID, Empresa, S8_ID_da_filha, ...)`), via `c.Aba(S9_ID)` + `Valores.Alterar` + `c.AbasAlteradas.Add`.
