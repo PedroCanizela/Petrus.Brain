@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 16:40 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -22,12 +22,14 @@ Branches:
 - + feature/ss8-121-dashboard-producao
 - + feature/ss8-122-dashboard-estoque
 - + feature/ss8-123-dashboard-manutencao
+- + feature/ss8-124-alertas-resumo
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 ebf80a75 SS8-124: Dados.cs: campos do resumo e dos alertas dos dashboards
 - 2026-11-25 bc734f42 SS8-123: Dados.cs: indicadores do dashboard Manuten├º├úo na lista de S89_INDICADOR
 - 2026-11-25 0c1a2c8c SS8-122: Dados.cs: indicadores do dashboard Estoque na lista de S89_INDICADOR
 - 2026-11-25 65e6c4f1 SS8-121: Dados.cs: indicadores do dashboard Produ├º├úo na lista de S89_INDICADOR
@@ -204,12 +206,16 @@ Branches:
 - + feature/ss8-121-dashboard-producao
 - + feature/ss8-122-dashboard-estoque
 - + feature/ss8-123-dashboard-manutencao
+- + feature/ss8-124-alertas-resumo
 - feature/ss8-218-localizar-parametros
 - + feature/ss8-251-normalizar-padrao
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b2e9ea0 SS8-124: Dashboards: resumo di├írio/semanal e alertas de meta por e-mail e WhatsApp
+- 2026-11-25 dd97df7 SS8-251: coment├írio das classes novas do Compras
+- 2026-11-25 7c3e517 SS8-251: Petrus.Compras no padr├úo do desktop
 - 2026-11-25 27c624f SS8-123: Dashboards / Manuten├º├úo (CMMS): MTBF, MTTR, preventivas, OMs em aberto e custo
 - 2026-11-25 5a4c1c1 SS8-122: Dashboards / Estoque (WMS): valor em estoque, giro, cobertura, ruptura e parados
 - 2026-11-25 79573ea SS8-121: Dashboards / Produ├º├úo (MES): OEE, OPs, perdas e paradas

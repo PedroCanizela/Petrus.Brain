@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 07211bf5-30ec-42d8-a0f2-87f89e1249c5
-  modified: 2026-11-25T19:40:02.726Z
+  modified: 2026-11-25T20:11:43.338Z
 ---
 
-Entregues em 25/11/2026, aguardando aprovação, cada uma na sua branch `feature/ss8-<id>-dashboard-<area>` nos dois repos (Petrus.ERP + Petrus desktop, só a lista de S89_INDICADOR no Dados.cs). SS8-124 (alertas/resumo) ficou em "Aguardando resposta" (6 perguntas: tabela de alertas, destinatários, horário, canal, link, repetição).
+Entregues em 25/11/2026, aguardando aprovação, cada uma na sua branch `feature/ss8-<id>-dashboard-<area>` nos dois repos (Petrus.ERP + Petrus desktop, só a lista de S89_INDICADOR no Dados.cs). SS8-124 (alertas/resumo) entregue em `feature/ss8-124-alertas-resumo` com decisões do Claude (Pedro: "decida vc"): alerta = meta S89 com S89_ALERTA; destinatários S90 (S90_RESUMO/ALERTAS/EMAIL/WHATSAPP, S10 123452–456); envio por rotina S65 e SX3 do tipo "Dashboards"; 07:00 seg–sex (semanal às segundas); `Indicadores:UrlBase` e `?periodo&indicador&empresa` no /Dashboards; controle na S91 ("Envio de resumo e alertas"). Próximo S10 livre: 123457.
 
 - Pastas: `Petrus.Vendas/Indicadores/IndicadoresComercial`, `Petrus.Industrial/Indicadores/IndicadoresProducao`, `Petrus.Estoque/Indicadores/IndicadoresEstoque`, `Petrus.Manutencao/Indicadores/IndicadoresManutencao`; registro no Program.cs.
 - Base nova (só na branch que usa): **121** `Indicador.Calculo` (C#, OEE via `RelatoriosMES.ProducaoPorOrdemDiaAsync` + `FiltroMES.SomenteEmpresa`); **122** `AgregacaoIndicador.Posicao` (último dia do período; meta = média dos dias, soma das empresas) e `Indicador.SomenteDiaAtual` (foto do dia, job não apaga o passado).
