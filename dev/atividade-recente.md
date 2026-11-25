@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:46 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:47 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -215,6 +215,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 66a7d31 SS8-250: Invent├írio da migra├º├úo trata Intera├º├úo como gen├®rica e marca os forms j├í cobertos no Web
 - 2026-11-25 da0c8f5 Merge SS8-258: Petrus Web / Login: assinar o Token da sess├úo e o login lembrado do PC
 - 2026-11-25 2fd778a Merge SS8-245: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro, por fases (fase 1: Financeiro e Cont├íbil)
 - 2026-11-25 2078f3b Merge branch 'master' into feature/ss8-245-calculos-cadastro
