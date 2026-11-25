@@ -213,8 +213,6 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
-- 2026-11-25 31b48aa teste
-- 2026-11-25 dd420b2 teste
 - 2026-11-25 7106b8d SS8-243: fila de atualiza├º├úo fica com a AW1 da SS8-254
 - 2026-11-25 acbc7b5 Merge SS8-251: Migra├º├úo Web ÔÇö Normalizar no padr├úo do Pedro os m├│dulos j├í migrados (Vendas, Compras, Estoque, Fiscal, Industrial, Log├¡stica, Manuten├º├úo, RH, Custos)
 - 2026-11-25 d145468 Merge branch 'master' into feature/ss8-251-normalizar-padrao
