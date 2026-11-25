@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:35 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:36 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -206,14 +206,14 @@ Branch atual: master
 
 Branches:
 - feature/ss8-218-localizar-parametros
-- + feature/ss8-243-estrutura-banco-web
 - + feature/ss8-245-calculos-cadastro
-- + feature/ss8-254-atualizacao-fila-aw1
 - + feature/ss8-257-qrcode-gaiola-pacote
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 c9c3ba0 Merge SS8-243: Migra├º├úo Web / Estrutura do banco: aplicar o cat├ílogo do Dados.cs (tabelas, colunas, chaves e permiss├Áes padr├úo) pelo Petrus Web
+- 2026-11-25 f7895c5 Merge SS8-254: Petrus Web / Atualiza├º├Áes: corrigir a queda a cada 30 segundos (conflito da S92) e simplificar a atualiza├º├úo
 - 2026-11-25 7106b8d SS8-243: fila de atualiza├º├úo fica com a AW1 da SS8-254
 - 2026-11-25 acbc7b5 Merge SS8-251: Migra├º├úo Web ÔÇö Normalizar no padr├úo do Pedro os m├│dulos j├í migrados (Vendas, Compras, Estoque, Fiscal, Industrial, Log├¡stica, Manuten├º├úo, RH, Custos)
 - 2026-11-25 d145468 Merge branch 'master' into feature/ss8-251-normalizar-padrao

@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-25T21:34:27.578Z
+  modified: 2026-11-25T21:36:30.940Z
 ---
 
 Levantamento de 25/11/2026 em `Petrus.ERP/Docs/comparacao-desktop-web.md` (+ CSVs em `Docs/comparacao-desktop-web/`,
@@ -13,7 +13,7 @@ script `Scripts/CompararDesktopWeb.ps1`, comparação por nome de método — he
 
 Lacunas reais conferidas no código (não aparecem no inventário de S39/S7):
 - O Web **não cria/altera tabelas**: `BancoDados.cs` (CreateTables, AlterColumns, CriarPermissoes, CriarModulos...) não tem porte; só a S92 no `AtualizacaoWeb`. Bloqueia SS8-142.
-  - SS8-243 (branch `feature/ss8-243-estrutura-banco-web`, aguardando aprovação em 25/11/2026): porte em `Petrus.Core/Metodos/BancoDados.cs`,
+  - SS8-243 (na master, merge c9c3ba0 em 26/11/2026, junto com a SS8-254): porte em `Petrus.Core/Metodos/BancoDados.cs`,
     automático ao subir o site e no Atualizador (S61 "Criação de Tabelas Web"), botões em Ajustes > Atualizações. A fila de
     atualização fica na **AW1** da SS8-254 (Pedro escolheu em 26/11; a S96 foi descartada): aprovar a 254 antes da 243.
 - `ICalculoCadastro` só registrado para R13 e N44; o `frmInterface.Grid()` do desktop calcula 38 tabelas (R7, I11, X13, I13/I14/I57/I70, N9/N22/N88/N93...).

@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: bef16256-846d-4b26-985a-45fc279b0c0c
-  modified: 2026-11-25T20:49:28.723Z
+  modified: 2026-11-25T21:36:32.564Z
 ---
 
 A fila do Petrus.Atualizador (SS8-172) foi criada na S92 em 23/11/2026; a SS8-230 (25/11) usou S92–S95 para grupos de
-permissões no Dados.cs do desktop. Na SS8-254 (branch `feature/ss8-254-atualizacao-fila-aw1`, aguardando resposta) a fila foi
+permissões no Dados.cs do desktop. Na SS8-254 (na master desde 26/11/2026, merge f7895c5; perguntas sobre "atualização mais fácil" foram para a SS8-259) a fila foi
 para a **AW1** (tabela só do Web, fora do dicionário S8, criada por `RepositorioAtualizacao.GarantirEstruturaAsync`, que copia os
 pedidos antigos da S92). `Scripts/SS8-254.sql` limpa a S92 nos bancos.
 
