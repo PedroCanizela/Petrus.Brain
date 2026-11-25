@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 14:01 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 14:06 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 2a4dfb96 SS8-230: grupos de permiss├Áes e corre├º├úo do erro na 2┬¬ edi├º├úo do usu├írio
 - 2026-11-25 0a7bf90d Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
 - 2026-11-25 42958ca7 SS8-234: receita de mistura (VM1_ID) na ordem de produ├º├úo
 - 2026-11-25 ab00ab77 Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
@@ -193,11 +194,11 @@ Branch atual: master
 
 Branches:
 - + feature/ss8-230-usuarios-modulos-grupos
-- + feature/ss8-242-tratamento-global-erros
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 4845b9b Merge SS8-242: Petrus Web: tratamento global de erros, sem derrubar a conex├úo nem travar a tela
 - 2026-11-25 90cfa7f SS8-242: tratamento global de erros no Petrus Web
 - 2026-11-25 71d226c Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
 - 2026-11-25 e6d0dfb SS8-230: m├│dulos, permiss├Áes e fun├º├Áes autom├íticos na inclus├úo do usu├írio
