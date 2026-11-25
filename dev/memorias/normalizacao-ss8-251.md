@@ -5,10 +5,12 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-25T20:52:44.046Z
+  modified: 2026-11-25T21:30:45.561Z
 ---
 
-SS8-251 **Aguardando aprovação** (25/11/2026). Worktree `_worktrees\Petrus.ERP\ss8-251`, branch
+SS8-251 **Concluída e na master** (merge acbc7b5, 25/11/2026; worktree e branch removidas). As branches abertas antes disso
+(ss8-243, 245, 254, 39) usam os nomes antigos: ao trazer a master para elas, rodar `Scripts/Normalizacao/consertar.ps1` nos
+arquivos que a branch mudou e compilar. Histórico: Worktree `_worktrees\Petrus.ERP\ss8-251`, branch
 `feature/ss8-251-normalizar-padrao`, ~20 commits, master trazida para a branch (merge 8c750a7). Compila do zero; inventários
 iguais à master (S39 253, S7 162). Só pastas/namespaces/nomes — não portou cálculo nenhum (isso é a SS8-245). Não testado no banco.
 

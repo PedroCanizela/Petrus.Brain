@@ -208,7 +208,6 @@ Branches:
 - feature/ss8-218-localizar-parametros
 - + feature/ss8-243-estrutura-banco-web
 - + feature/ss8-245-calculos-cadastro
-- + feature/ss8-251-normalizar-padrao
 - + feature/ss8-254-atualizacao-fila-aw1
 - + feature/ss8-39-novo-layout-erp
 - * master
