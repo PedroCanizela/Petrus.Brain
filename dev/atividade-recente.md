@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:39 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:42 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -205,13 +205,15 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + claude/jolly-wiles-b6bda3
+- claude/jolly-wiles-b6bda3
 - + feature/ss8-245-calculos-cadastro
 - + feature/ss8-257-qrcode-gaiola-pacote
+- + feature/ss8-258-assinar-token
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 091ae35 SS8-257: WMS Web reconhece as etiquetas de gaiola e pacote da Pratic
 - 2026-11-25 c9c3ba0 Merge SS8-243: Migra├º├úo Web / Estrutura do banco: aplicar o cat├ílogo do Dados.cs (tabelas, colunas, chaves e permiss├Áes padr├úo) pelo Petrus Web
 - 2026-11-25 f7895c5 Merge SS8-254: Petrus Web / Atualiza├º├Áes: corrigir a queda a cada 30 segundos (conflito da S92) e simplificar a atualiza├º├úo
 - 2026-11-25 7106b8d SS8-243: fila de atualiza├º├úo fica com a AW1 da SS8-254
