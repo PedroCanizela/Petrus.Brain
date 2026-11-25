@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 18:47 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 18:51 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -210,11 +210,17 @@ Branches:
 - + feature/ss8-246-funcoes-s39-restantes
 - + feature/ss8-247-perfil-cliente
 - + feature/ss8-250-inventario-interacao
-- + feature/ss8-257-qrcode-gaiola-pacote
+- + feature/ss8-262-calculos-compras
+- + feature/ss8-263-calculos-logistica
+- + feature/ss8-265-calculos-estoque
+- + feature/ss8-266-calculos-industrial
+- + feature/ss8-268-calculos-rh
+- + feature/ss8-270-login-seguro
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 281cd48 Merge SS8-257: WMS Web / Leitura de QR Code: reconhecer as etiquetas de gaiola (<id>_<c├│digo>) e de pacote (<GX3_ID>_<G6_ID>)
 - 2026-11-25 66a7d31 SS8-250: Invent├írio da migra├º├úo trata Intera├º├úo como gen├®rica e marca os forms j├í cobertos no Web
 - 2026-11-25 da0c8f5 Merge SS8-258: Petrus Web / Login: assinar o Token da sess├úo e o login lembrado do PC
 - 2026-11-25 2fd778a Merge SS8-245: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro, por fases (fase 1: Financeiro e Cont├íbil)
