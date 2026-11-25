@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:31 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:32 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -209,6 +209,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 f17348b SS8-274: campo M├íquina da OP aceita digitar o c├│digo ou o nome
 - 2026-11-25 44b4a1c Regenera o invent├írio da migra├º├úo ap├│s os merges de 165, 246, 247 e 250
 - 2026-11-25 850e83c Merge SS8-250: Migra├º├úo Web / Invent├írio: tratar telas de Intera├º├úo como gen├®ricas e marcar os forms j├í cobertos no Web (MIGRADO FORM)
 - 2026-11-25 d0698fe Merge SS8-247: Vendas / Perfil do cliente: p├ígina do menu no Web com busca do cliente, juros e data base e a├º├Áes sobre t├¡tulos e pedidos
