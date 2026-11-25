@@ -40,6 +40,7 @@
 - [Cálculos de Compras no Web](calculos-cadastro-compras-web.md) — SS8-262: Grid() de I13/I14/I57/I70 no CalculoCadastroCompras, Compras→Fiscal, CadastroEmEdicao.S2_USUARIO, sem cálculo na importação
 - [Parâmetros do usuário (S84) no Web](parametros-usuario-s84-web.md) — SS8-273: ParametrosUsuario no Core.Sistema, preferência por usuário; pó por volume na OP (OPCoresPorVolume)
 - [Cálculos da Manutenção no /Details](calculos-cadastro-manutencao.md) — SS8-267: Grid() de H5/H3 (buscas G6/H9/HX8), S9 das abas, bug HX8_DESCRICAO no HX9
+- [Senha com hash no desktop](senha-hash-desktop.md) — SS8-272: Funcoes.ConferirLogin/GravarSenhaS2 no Petrus, S2_SENHA_HASH igual ao Web; backdoor 1709 no esqueci a senha
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:43 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 33e48666 SS8-272: Petrus / Login: consultas com par├ómetros no frmLogin (SQL injection) e senha com o mesmo hash do Petrus Web
 - 2026-11-25 9f043e86 Merge SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
 - 2026-11-25 14e5d4a8 SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
 - 2026-11-25 d04e6f33 Merge SS8-244: Cat├ílogos Web: sincronizar o Dados.cs do desktop com o Petrus.Core e levar ao desktop o que s├│ o Web tem
@@ -794,7 +795,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 018ce02 SS8-24: Controle di├írio de confer├¬ncia de backup por cliente
 - 2026-11-11 6a795d3 Desenvolvimento: campos de reposit├│rio, branch e intera├º├úo com o Claude (SS8)
 - 2026-11-11 42dd805 Add - Replicar, Ordena├º├úo, Datas e Logos
-- 2026-11-11 29ec4a1 Add - Login
 
 ## ZeusFiscal
 Branch atual: master
