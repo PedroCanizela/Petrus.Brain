@@ -22,6 +22,7 @@
 - [Consulta CNPJ/CEP no Web](consulta-cnpj-cep-web.md) — SS8-207: ConsultaAPI no Core (CNPJá), S47/S53/S38, chave em Integracao:CnpjaApiKey
 - [Importação Aferi Pratic](importacao-aferi-pratic.md) — SS8-210: abas/células da planilha Pratic (ViaCliente, K23 margem, H10 comissão), Syncfusion pula coluna vazia
 - [Conexões S37 nas buscas do Web](conexoes-s37-busca-web.md) — SS8-173: ramo "Relacao" do GerarConexao no CadastroEmEdicao, BuscaCadastro.SearchTxt_Validated
+- [Tratamento de erros no Web](tratamento-erros-web.md) — SS8-242: LimiteErro por aba/diálogo, ErrosWeb + log diário C:\Petrus\Logs, sem async void
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
