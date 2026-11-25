@@ -26,7 +26,7 @@
 - [Tratamento de erros no Web](tratamento-erros-web.md) — SS8-242: LimiteErro por aba/diálogo, ErrosWeb + log diário C:\Petrus\Logs, sem async void
 - [Grupos de permissões do usuário](grupos-permissoes-usuario.md) — SS8-230: S92–S95 copiados para S14/S15/S72, S39 100500, erro DESCRICAO na grade do S2 no desktop
 - [Comparação desktop × Web](comparacao-desktop-web.md) — 25/11: Web não cria tabelas, cálculos só R13/N44, sem importar planilha, PDV/Customizador faltam
-- [Normalização SS8-251](normalizacao-ss8-251.md) — em andamento: Async tirado, Vendas, Compras, Estoque e Industrial no padrão; faltam Fiscal, Logística, Manutenção, RH, Custos
+- [Normalização SS8-251](normalizacao-ss8-251.md) — 9 módulos no padrão do desktop, aguardando aprovação; consertar.ps1 para código novo com nomes antigos
 - [Fila de atualização na AW1](fila-atualizacao-aw1.md) — SS8-254: S92 colidia (fila SS8-172 × grupo de permissões SS8-230); tabela só do Web fora do S8
 - [NF-e no Petrus Web](nfe-web.md) — SS8-131: CriarNFe portado no Petrus.Fiscal, fila única no ServicoNFe, A1 da S41, DANFE pelos .frx
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar

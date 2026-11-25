@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:51 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:53 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -214,6 +214,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 16af6cd SS8-251: invent├írios regerados
 - 2026-11-25 8c750a7 Merge master na SS8-251
 - 2026-11-25 8008c1e SS8-243: estrutura do banco no Web (porte do BancoDados.cs)
 - 2026-11-25 d63d0ed SS8-254: fila de atualiza├º├úo do Petrus Web sai da S92 (conflito com grupo de permiss├Áes) para a AW1
