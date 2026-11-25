@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:29 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -207,18 +207,17 @@ Branches:
 - + feature/ss8-246-funcoes-s39-restantes
 - + feature/ss8-247-perfil-cliente
 - + feature/ss8-250-inventario-interacao
-- + feature/ss8-262-calculos-compras
-- + feature/ss8-263-calculos-logistica
-- + feature/ss8-265-calculos-estoque
-- + feature/ss8-266-calculos-industrial
 - + feature/ss8-268-calculos-rh
-- + feature/ss8-270-login-seguro
 - + feature/ss8-273-po-volume-op
 - + feature/ss8-274-maquina-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 44b4a1c Regenera o invent├írio da migra├º├úo ap├│s os merges de 165, 246, 247 e 250
+- 2026-11-25 850e83c Merge SS8-250: Migra├º├úo Web / Invent├írio: tratar telas de Intera├º├úo como gen├®ricas e marcar os forms j├í cobertos no Web (MIGRADO FORM)
+- 2026-11-25 d0698fe Merge SS8-247: Vendas / Perfil do cliente: p├ígina do menu no Web com busca do cliente, juros e data base e a├º├Áes sobre t├¡tulos e pedidos
+- 2026-11-25 bb86e5a Merge SS8-246: Migra├º├úo Web ÔÇö Fun├º├Áes S39 restantes: protestar t├¡tulo, desconto amig├úo, MDF-e em conting├¬ncia, importar XML da nota de entrada e portal NF-e
 - 2026-11-25 2d9be76 Merge SS8-165: Fiscal / Notas fiscais: eventos da NF-e da Reforma Tribut├íria no Petrus Web (nota de sa├¡da e de entrada)
 - 2026-11-25 9674180 Merge SS8-268: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö RH
 - 2026-11-25 34e8f66 Merge SS8-266: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Industrial
