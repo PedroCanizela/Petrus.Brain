@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:50 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:56 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,15 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-272-login-hash
+- + feature/ss8-275-recuperar-senha
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 198770bf SS8-275: Petrus / Login: recupera├º├úo de senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
+- 2026-11-25 38b4a4a6 Merge SS8-272: Petrus / Login: consultas com par├ómetros no frmLogin (SQL injection) e senha com o mesmo hash do Petrus Web
 - 2026-11-25 33e48666 SS8-272: Petrus / Login: consultas com par├ómetros no frmLogin (SQL injection) e senha com o mesmo hash do Petrus Web
 - 2026-11-25 9f043e86 Merge SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
 - 2026-11-25 14e5d4a8 SS8-253: Log├¡stica / Expedi├º├úo: motorista por pedido na aba de pedidos da expedi├º├úo
@@ -205,17 +207,18 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
-- + feature/ss8-261-calculos-fiscal
-- + feature/ss8-264-calculos-vendas
-- + feature/ss8-267-calculos-manutencao
-- + feature/ss8-269-calculos-crm
-- + feature/ss8-271-criar-mudar-senha
-- + feature/ss8-273-po-volume-op
-- + feature/ss8-274-maquina-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 081d16e Regenera o invent├írio da migra├º├úo ap├│s os merges de 271, 261, 264, 267, 269, 273 e 274
+- 2026-11-25 89eba5a Merge SS8-274: MES Web / OP: gravar na ordem a m├íquina escolhida no campo M├íquina
+- 2026-11-25 190aca3 Merge SS8-273: MES / Ordem de produ├º├úo: digitar o p├│ (cores) por volume e lembrar a prefer├¬ncia do usu├írio
+- 2026-11-25 c6541e6 Merge SS8-269: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö CRM
+- 2026-11-25 6724e98 Merge SS8-267: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Manuten├º├úo
+- 2026-11-25 7bedad4 Merge SS8-264: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Vendas
+- 2026-11-25 b0f5d99 Merge SS8-261: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Fiscal
+- 2026-11-25 0ff0a65 Merge SS8-271: Petrus Web / Login: primeiro login com a senha provis├│ria pede para criar a senha nova (hash) e tela Mudar senha
 - 2026-11-25 ee77fa6 SS8-261: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Fiscal
 - 2026-11-25 f9ae1f7 SS8-271: Petrus Web / Login: primeiro login com a senha provis├│ria cria a senha nova (hash) e tela Mudar senha
 - 2026-11-25 0f4c0cf SS8-267: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Manuten├º├úo
@@ -795,7 +798,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 0f203ac SS8-24: SS10_DATA como DATETIME, igual ao Dados.cs do Petrus
 - 2026-11-12 018ce02 SS8-24: Controle di├írio de confer├¬ncia de backup por cliente
 - 2026-11-11 6a795d3 Desenvolvimento: campos de reposit├│rio, branch e intera├º├úo com o Claude (SS8)
-- 2026-11-11 42dd805 Add - Replicar, Ordena├º├úo, Datas e Logos
 
 ## ZeusFiscal
 Branch atual: master
