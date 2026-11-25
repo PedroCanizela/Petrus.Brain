@@ -35,6 +35,7 @@
 - [Token da sessão assinado no Web](token-sessao-assinado-web.md) — SS8-258: GerarToken com Data Protection, 30 dias, CarimboSenha; LoginDoPc.Validar no banco
 - [Funções S39 restantes SS8-246](funcoes-s39-restantes-ss8-246.md) — protesto, amigão, XML I11, portal (AcaoS39.Endereco); MDF-e contingência perguntado
 - [Cálculos do Grid() no Web](calculos-cadastro-grid-web.md) — SS8-245/268: CalculoCadastro<Modulo> por módulo, aba pelo S9_ID, S10_ATIVO=false é Enabled e não ReadOnly
+- [Cálculos de cadastro no Web](calculos-cadastro-web.md) — Grid() por módulo no ICalculoCadastro (245 Financeiro, 265 Estoque), S9 da aba pela tabela filha no S9.cs
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
