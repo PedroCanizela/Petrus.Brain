@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 13:37 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 13:42 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -190,11 +190,11 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-231-status-enviado-manutencao-molde
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b054169 Merge SS8-231: MES / Manuten├º├úo de molde: status Enviado com bot├Áes para enviar e estornar o envio
 - 2026-11-25 dd69225 SS8-231: MES / Manuten├º├úo de molde: status Enviado com bot├Áes para enviar e estornar o envio
 - 2026-11-25 2f93e7a Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
 - 2026-11-25 91e0456 SS8-232: hor├írio programado da troca de molde (VZ7_HORARIO)
