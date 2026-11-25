@@ -1,27 +1,30 @@
 ---
 name: normalizacao-ss8-251
-description: SS8-251 em andamento (25/11/2026) — normalização dos módulos no padrão do Pedro; onde parou e plano do Vendas
+description: "SS8-251 em andamento — normalização no padrão do Pedro; Vendas pronto (25/11/2026), faltam 8 módulos; scripts e como repetir"
 metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-25T18:13:27.792Z
+  modified: 2026-11-25T19:27:30.216Z
 ---
 
-Worktree `_worktrees\Petrus.ERP\ss8-251`, branch `feature/ss8-251-normalizar-padrao` (status SS8 "Em desenvolvimento").
-Feito e compilando (solução inteira, 0 erros): levantamento desktop×Web; ~386 métodos sem `Async` em Vendas, Compras,
-Estoque, Fiscal, Industrial, Logística, Manutenção, RH e Custos (+ chamadas no ERPBlazor). Ficam com Async de propósito:
-interface ICalculoCadastro do Core e wrappers de banco (BancoMES, CustosPrecificacao) que seguem o `Banco` do Core.
-Sobram por conflito de nome: VendedorAsync, MetaAsync, GerarR50Async, ProdutoAsync, ObterAsync (CadastrosMES).
-Scripts de apoio em `Scripts/Normalizacao/` (tirar-async, mapa S39→método do frmInterface, Membros.cs = leitor de membros C#).
+Worktree `_worktrees\Petrus.ERP\ss8-251`, branch `feature/ss8-251-normalizar-padrao` (SS8 "Em desenvolvimento"), 8 commits,
+solução compila do zero. Nada testado contra o banco; inventários iguais (S39 253, S7 162).
 
-Próximo (camada 3, módulo a módulo, começando pelo Vendas): pastas Classes/Engines/Reports/Utils; juntar
-AcoesPedidoVenda, FaturamentoPedido, EdicoesPedido, DocumentosPedido, EmailsPedido, EtiquetasPedidoPdf, NFePedido,
-DevolucaoPedido, VerificacaoFaturamento, CadastroPedido e ItensPedido em `partial class PedidosVenda`; EnginePedido→R13Engine;
-ComissoesVendedor/RelatoriosVendedor/VinculoFornecedor→Vendedores; TabelaPrecoPdf→TabelasPreco; CatalogoPrecos→Catalogo;
-S39 com os nomes do frmInterface (LiberarR13, FaturarPedidoR13, FaturarR13, EnviarNFeSefazR13, FechamentoComissaoR4...);
-RelatoriosVendas dividido nas classes do desktop (RankingVendas, Vendas, Faturamento, ListagemPedidos, PerformanceVendas,
-ClientesAtivos, ClientesInativos) com `using static` dos helpers. Assinaturas dos relatórios (ContextoRelatorio) ficam.
+Feito: sem `Async` nos 9 módulos (ficam: interface ICalculoCadastro do Core e wrappers de banco BancoMES/CustosPrecificacao).
+**Petrus.Vendas completo**: Classes/PedidosVenda (partial: .Faturamento, .Edicoes, .Documentos, .Emails, .Etiquetas, .NFe,
+.Devolucao, .Verificacao, .Cadastro, .Itens), Vendedores (.Comissoes, .Relatorios), MetasVenda, TabelasPreco, Catalogo,
+PerfisVendas, CalculoPedidoVenda; Engines/R13Engine; Reports/ RankingVendas, Vendas, Faturamento, ListagemPedidos,
+PerformanceVendas, ClientesAtivos, ClientesInativos, ProdutosEmLinha, ProdutoXCliente, ProdutoXVendedor, FeirinhasVendidas;
+Utils/ApoioVendas; Acoes* na raiz. Métodos com nomes do frmInterface (LiberarR13, FaturarR13 = fatura+NF-e,
+FaturarPedidoR13, FaturarContigenciaR13 com a grafia do desktop...).
 
-**Why:** o Pedro pediu para pausar no meio (25/11/2026).
-**How to apply:** retomar na worktree, compilar `Petrus.ERP.sln` a cada módulo e commitar por módulo. Ver [[padrao-codigo-pedro]] e [[comparacao-desktop-web]].
+Como repetir num módulo (scripts em `Scripts/Normalizacao/`, rodar com `-Raiz` explícito; PS 5.1 não preenche $PSScriptRoot no param):
+1. `plano-<mod>.psd1` + `reorganizar.ps1` (git mv, namespace, partial, usings) — tirar o `Compile Remove` de Engines/Models/Reports do csproj.
+2. Compilar e resolver conflitos da junção (constantes repetidas, Registrar duplicado → RegistrarX, membro com nome da classe).
+3. `nomes-<mod>.psd1` + `renomear.ps1`; conferir no diff que só método mudou (pegou parâmetro de record uma vez).
+4. `dividir.ps1` para relatórios (mapa S7 → classe pelo Helpers.GetReport do desktop) + wrappers com o nome do desktop.
+Cuidado: o reorganizar acrescenta using quando o nome aparece em comentário (foi o caso do ArquivoSerasa).
+
+**Why:** pedido do Pedro (padrão SS8-198 em todo o Web).
+**How to apply:** próximo módulo: Fiscal ou Industrial; um commit por etapa. Ver [[padrao-codigo-pedro]] e [[comparacao-desktop-web]].

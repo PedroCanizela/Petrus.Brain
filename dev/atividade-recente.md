@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 15:13 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 16:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,16 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-119-dashboard-comercial
+- + feature/ss8-121-dashboard-producao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 65e6c4f1 SS8-121: Dados.cs: indicadores do dashboard Produ├º├úo na lista de S89_INDICADOR
+- 2026-11-25 bcd98ce0 SS8-119: Dados.cs: indicadores novos do dashboard Comercial na lista de S89_INDICADOR
 - 2026-11-25 81bbbaea Merge SS8-230: Sistema / Usu├írios: m├│dulos e permiss├Áes autom├íticos na inclus├úo e grupos de permiss├Áes
 - 2026-11-25 2a4dfb96 SS8-230: grupos de permiss├Áes e corre├º├úo do erro na 2┬¬ edi├º├úo do usu├írio
 - 2026-11-25 0a7bf90d Merge SS8-234: MES / Ordem de produ├º├úo: campo receita de mistura
@@ -193,12 +197,21 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-119-dashboard-comercial
+- + feature/ss8-121-dashboard-producao
 - feature/ss8-218-localizar-parametros
 - + feature/ss8-251-normalizar-padrao
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 79573ea SS8-121: Dashboards / Produ├º├úo (MES): OEE, OPs, perdas e paradas
+- 2026-11-25 bc63888 SS8-251: invent├írios regerados
+- 2026-11-25 3592b4f SS8-251: GerarR50 (sobrecarga com conex├úo) e MetasVenda.ObterR92 sem Async
+- 2026-11-25 2998048 SS8-251: relat├│rios do Vendas nas classes do desktop
+- 2026-11-25 30f0ee6 SS8-119: Dashboards / Comercial: margem, carteira, clientes e novas aberturas
+- 2026-11-25 67f8b46 SS8-251: Vendas com os nomes de m├®todo do desktop
+- 2026-11-25 53b95a7 SS8-251: Petrus.Vendas nas pastas e classes do desktop
 - 2026-11-25 4fb5366 SS8-251: scripts de apoio da normaliza├º├úo (tirar Async, mapa S39 x desktop, leitor de membros C#)
 - 2026-11-25 7005f50 Merge SS8-227: Layout / Menu lateral: label com a vers├úo instalada do Petrus Web
 - 2026-11-25 531dd8d Merge SS8-219: Telas din├ómicas: exce├º├Áes de exibi├º├úo do frmInterface e filtros da S82 no Petrus Web
