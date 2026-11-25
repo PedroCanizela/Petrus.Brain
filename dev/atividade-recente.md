@@ -207,6 +207,8 @@ Branch atual: master
 Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-245-calculos-cadastro
+- + feature/ss8-246-funcoes-s39-restantes
+- + feature/ss8-250-inventario-interacao
 - + feature/ss8-257-qrcode-gaiola-pacote
 - + feature/ss8-258-assinar-token
 - + feature/ss8-39-novo-layout-erp
