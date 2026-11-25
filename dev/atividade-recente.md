@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 17:45 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 17:46 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -211,10 +211,12 @@ Branches:
 - + feature/ss8-245-calculos-cadastro
 - + feature/ss8-251-normalizar-padrao
 - + feature/ss8-252-grade-tema-escuro
+- + feature/ss8-254-atualizacao-fila-aw1
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 142390d SS8-252: texto das grades leg├¡vel no tema escuro
 - 2026-11-25 06f58ea SS8-245: c├ílculos de cadastro do Financeiro e Cont├íbil no /Details (fase 1)
 - 2026-11-25 d8d34fb SS8-251: Petrus.Custos no padr├úo do desktop
 - 2026-11-25 652c7ba SS8-251: Petrus.RH no padr├úo do desktop
