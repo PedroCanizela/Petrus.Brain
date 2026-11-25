@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 13:42 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 13:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-234-receita-mistura-op
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -190,10 +191,13 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-233-ordens-pendentes-por-maquina
+- + feature/ss8-234-receita-mistura-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 a47de8e SS8-233: MES / Monitoramento: filtrar as ordens pendentes por m├íquina
 - 2026-11-25 b054169 Merge SS8-231: MES / Manuten├º├úo de molde: status Enviado com bot├Áes para enviar e estornar o envio
 - 2026-11-25 dd69225 SS8-231: MES / Manuten├º├úo de molde: status Enviado com bot├Áes para enviar e estornar o envio
 - 2026-11-25 2f93e7a Merge SS8-232: MES / Troca de molde: campo de hor├írio programado da troca
