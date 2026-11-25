@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:28 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 20:29 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -219,6 +219,14 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 2d9be76 Merge SS8-165: Fiscal / Notas fiscais: eventos da NF-e da Reforma Tribut├íria no Petrus Web (nota de sa├¡da e de entrada)
+- 2026-11-25 9674180 Merge SS8-268: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö RH
+- 2026-11-25 34e8f66 Merge SS8-266: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Industrial
+- 2026-11-25 3ebc247 Merge SS8-265: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Estoque
+- 2026-11-25 b300d29 Merge SS8-263: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Log├¡stica
+- 2026-11-25 3dea94b Merge SS8-262: Migra├º├úo Web / Cadastros: c├ílculos do frmInterface.Grid() no ICalculoCadastro ÔÇö Compras
+- 2026-11-25 b7d7e9f Merge SS8-270: Petrus Web / Login: consultas com par├ómetros (SQL injection) e senha da S2 com hash combinado com o desktop
+- 2026-11-25 773c287 SS8-273: MES / Ordem de produ├º├úo: digitar o p├│ (cores) por volume e lembrar a prefer├¬ncia do usu├írio
 - 2026-11-25 7cfd5ed SS8-274: MES Web / OP: gravar na ordem a m├íquina escolhida no campo M├íquina
 - 2026-11-25 da271b7 SS8-270: Petrus Web / Login: senha definitiva com hash (S2_SENHA_HASH)
 - 2026-11-25 da699ac SS8-246: Gerar MDF-e em conting├¬ncia (100274) igual ao desktop
