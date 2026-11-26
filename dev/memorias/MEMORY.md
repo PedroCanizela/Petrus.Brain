@@ -68,6 +68,7 @@
 - [PCP por operação no Web](pcp-operacoes-web.md) — SS8-288: operação = V10, etapas = linhas VZ1 do produto, apontamento VX1+VX9+VX7, /PCP/Planejamento; tela "Apontamento" /MES/Apontamento (SS8-298)
 - [Monitoramento MES: linha colorida](monitoramento-visual-mes.md) — SS8-301: Pedro quer a linha colorida pelo status, não etiqueta; tons por color-mix no tema
 - [Mapa da fábrica 3D estilo CNE](mapa-fabrica-3d-cne.md) — SS8-300: injetora em blocos (sem .glb), operador sempre visível, Mover máquinas/Andar, C4_MAPA_* no S10 (2 branches); corLinear, OrbitControls preso no arraste
+- [Etiqueta Zebra pelo navegador](etiqueta-zebra-navegador-pdf.md) — GX4 sem endereço = PDF do ZplPdf, uma página por ^XA (^PW x ^LL), QR ^BQ; pacote e operador
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
