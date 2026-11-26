@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:19 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -200,7 +200,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 64d1a50f Update - Dicionario
 - 2026-11-11 9e3043a1 Update - Dicionario
 - 2026-11-11 4f750f3d Add - Dicionario Petrus
-- 2026-11-11 b10df23d Update - Dados
 
 ## Petrus.ERP
 Branch atual: master
@@ -208,6 +207,7 @@ Branch atual: master
 Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
+- + feature/ss8-260-login-parametros
 - + feature/ss8-39-novo-layout-erp
 - * master
 
