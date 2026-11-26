@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 11:13 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 11:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,16 +18,16 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-109-conector-mercado-livre
 - + feature/ss8-203-contas-pagar-sem-plano
 - + feature/ss8-249-g6-url-foto
-- + feature/ss8-289-agentes-ia
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 b071f6c0 Merge SS8-109: Hub / conector Mercado Livre (OAuth, anúncios, publicação) (Dados.cs)
+- 2026-11-26 a6087ccb Merge SS8-289: agentes de IA no Petrus Web (base) (Dados.cs)
 - 2026-11-26 1fec030d SS8-289: tabelas dos agentes de IA do Petrus Web no Dados.cs
 - 2026-11-26 c9e9ca77 SS8-109: campos, telas e funções do Hub / Mercado Livre no Dados.cs
 - 2026-11-26 f856e034 SS8-249: coluna G6_URL_FOTO e PublicarFotosG6 lendo o caminho do G6_FOTO
@@ -201,8 +201,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 a2d637d7 SS8-10: grupo Valores e cores de status na Ordem de mistura
 - 2026-11-12 d6610e8b SS8-10: sempre recarregar as matérias-primas da receita
 - 2026-11-12 96c12d93 SS8-10: Ordem de mistura - cálculo das matérias-primas (CalculaVM5)
-- 2026-11-12 5ba9b385 Merge SS8-5: utilizar valor saldo ao invés do valor título na remessa e no boleto
-- 2026-11-12 ae060156 SS8-5: trazer master e mover N50_PARCIAL para o ID 122741
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -226,7 +224,6 @@ Branches:
 - claude/magical-bartik-17f3b7
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
-- + feature/ss8-109-conector-mercado-livre
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-241-op-embalagem
 - + feature/ss8-249-etiqueta-zebra-fotos-r2
@@ -238,12 +235,13 @@ Branches:
 - + feature/ss8-285-exportar-celular
 - + feature/ss8-286-abas-piscando
 - + feature/ss8-287-mais-acoes-table
-- + feature/ss8-288-pcp-operacoes
-- + feature/ss8-289-agentes-ia
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 c51fb37 Merge SS8-109: Hub / conector Mercado Livre (OAuth, anúncios, publicação)
+- 2026-11-26 a477585 Merge SS8-288: PCP por operação, apontamento por etapas e produção por operação
+- 2026-11-26 772769b Merge SS8-289: agentes de IA no Petrus Web (base)
 - 2026-11-26 cc7f6a2 SS8-289: agentes de IA no Petrus Web (base)
 - 2026-11-26 19c9628 SS8-288: PCP por operação, apontamento por etapas e produção por operação
 - 2026-11-26 0e329bf SS8-109: Hub / conector Mercado Livre (OAuth, importação e vínculo de anúncios, publicação)

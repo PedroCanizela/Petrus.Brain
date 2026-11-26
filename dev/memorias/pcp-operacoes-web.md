@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 955801ae-f642-4964-82ad-493b3e4fcade
-  modified: 2026-11-26T14:03:41.084Z
+  modified: 2026-11-26T14:27:28.040Z
 ---
 
-SS8-288 entregue em 26/11/2026 na branch `feature/ss8-288-pcp-operacoes` (aguardando aprovação). O Pedro pediu
+SS8-288 aprovada e na master em 26/11/2026 (merge a477585, sem push). O Pedro pediu
 "o que muda menos o código" e o lançamento e os relatórios iguais ao vídeo do PCP de cerâmica, no layout do Petrus.
 
 - **Operação = centro de trabalho V10.** Etapas do produto = **linhas do roteiro VZ1 do mesmo produto**, na ordem do

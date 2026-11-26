@@ -5,11 +5,11 @@ metadata:
   node_type: memory
   type: project
   originSessionId: ba9563bc-c428-42c7-9353-4e5e6e145607
-  modified: 2026-11-26T13:42:55.416Z
+  modified: 2026-11-26T14:27:30.196Z
 ---
 
-SS8-109 (26/11/2026, Aguardando aprovação, só compilada + teste de console; sem app no ML ainda). Duas branches com o mesmo nome,
-que vão juntas: `feature/ss8-109-conector-mercado-livre` no Petrus.ERP (0e329bf) e no Petrus (c9e9ca77, Dados.cs).
+SS8-109 (aprovada e na master em 26/11/2026, sem push; só compilada + teste de console; sem app no ML ainda):
+merge c51fb37 no Petrus.ERP e b071f6c0 no Petrus (Dados.cs).
 
 - O Hub é módulo do ERP (SS8-107): `Petrus.Hub` (biblioteca) + `ERPBlazor/Hub` e `Pages/Hub`. Não é o repo Petrus.Hub antigo.
 - `MercadoLivreConnector` (HttpClient estático), `AutorizacaoHub` (ContaPronta/renova token/ConcluirAutorizacao),

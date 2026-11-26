@@ -5,12 +5,12 @@ metadata:
   node_type: memory
   type: project
   originSessionId: eee7c911-c53c-4d63-85d4-2c07c934353d
-  modified: 2026-11-26T14:12:55.806Z
+  modified: 2026-11-26T14:27:26.653Z
 ---
 
 Cadastradas em 26/11/2026 no Petrus.ERP: **289 base**, 290 notificações (sino, push, WhatsApp, e-mail, resumo do dia, aviso de cota), 291 Financeiro, 292 Comercial, 293 MES, 294 Estoque/Compras, 295 Fiscal.
 
-**289 entregue em 26/11/2026 (Aguardando aprovação, sem merge):** branch `feature/ss8-289-agentes-ia` no Petrus.ERP (cc7f6a2) e no Petrus (1fec030d, só Dados.cs). Doc: `Docs/SS8-289-agentes-ia.md`.
+**289 aprovada e na master em 26/11/2026 (sem push):** merge 772769b no Petrus.ERP e a6087ccb no Petrus (só Dados.cs); branches apagadas. Doc: `Docs/SS8-289-agentes-ia.md`.
 - Tabelas IA3 tarefas (S8 101155), IA4 execuções (101156), IA5 ações (101157); S9 101905-101907; S10 123600-123680. Próximos livres para 290-295: S8 101158, S9 101908, S10 123690. IA1_ORIGEM ganhou "Agente" (o /Assistente esconde essas conversas).
 - S74 `AGENTES_IA_HABILITADO`, `AGENTES_IA_AREAS` (vazio = todos), `AGENTES_IA_COTA_USUARIO_USD`; S84 `AGENTES_IA_COTA_MENSAL_USD`. Cota conta só o uso dos agentes (padrão US$ 10, escolha minha); limite da empresa do assistente vale para tudo.
 - Código em `Petrus.Assistente/Agentes` (Models/Engines IA3-IA5, AgendaAgentes, ConfiguracaoAgentes, PermissoesAgente S14/S15/S72, FerramentaAgente, FerramentasAgentes, ServicoAgentes). Motor `ERPBlazor/Services/AgentesService.cs`; tela `/Agentes` (Ajustes > Agentes de IA, atalho no topo com aprovações pendentes).
