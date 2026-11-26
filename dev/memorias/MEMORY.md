@@ -47,6 +47,7 @@
 - [Atualização simples do Web](atualizacao-simples-web.md) — SS8-259: Publicar.cmd sem az, automática 20:00 (AW2), painel /atualizacoes no Suporte (AW3, token HMAC), Instalar.cmd
 - [Gaiola de embalagem (A10)](gaiola-embalagem-a10.md) — SS8-235: A10/A11/A12 com qtd que movimenta a G17, A10Engine no Petrus.Estoque, telas WMS com Embalagem=true
 - [Datas pelo S10_TIPO no Web](datetime-s10-tipo-web.md) — SS8-280: DATE/DATETIME/TIME como no desktop (HH:mm:ss), Details com datetime-local, PlanilhaAba e Table
+- [Pesquisa com Enter na /Table](pesquisa-enter-table-web.md) — SS8-279: busca no banco só no Enter/lupa (PesquisaInterface no Core, CarregaPesquisa do desktop), não filtra a grade carregada
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
