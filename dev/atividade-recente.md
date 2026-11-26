@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 20:19 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 20:24 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -22,12 +22,14 @@ Branches:
 - + feature/ss8-302-bloquear-edicao-pedido-compra
 - + feature/ss8-303-faltas-qrcode-expedicao
 - + feature/ss8-304-expedicao-nro-documento
+- + feature/ss8-307-baixa-manual-pacote
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 552c80cc SS8-307: função S39 100536 "Baixa manual de pacote" (GX3) no Dados.cs
 - 2026-11-26 f5b5997e SS8-302: bloquear edição do pedido de compra Aprovado, Efetivado ou Concluido
 - 2026-11-26 1440911b SS8-303: Expedição: faltas e resumo dos itens pelo estoque de QR Code quando a empresa usa gaiolas
 - 2026-11-26 4102800d SS8-304: Expedição: puxar o pedido pelo número (R13_NRO_DOCUMENTO)
@@ -223,8 +225,11 @@ Branches:
 - claude/determined-dewdney-22c5ee
 - claude/determined-feistel-6e7623
 - claude/dreamy-driscoll-ea3cff
+- + claude/ecstatic-meitner-0d4feb
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
+- claude/nice-curie-216004
+- + claude/peaceful-ardinghelli-9cc6a3
 - + claude/ss8-299-2f9c3e
 - + claude/ss8-303-d4426e
 - + claude/ss8-304-1e89b6
@@ -235,10 +240,12 @@ Branches:
 - + feature/ss8-302-bloquear-edicao-pedido-compra
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-306-login-modulos
+- + feature/ss8-309-titulo-abas-sem-area
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 d2c5fc2 SS8-307: baixa manual de pacote na consulta de pacote do WMS
 - 2026-11-26 c2dc222 SS8-305: arte do MES no estilo do Supervisório CNE (fábrica digital)
 - 2026-11-26 d03bd06 SS8-305: arte do MES refeita com mais acabamento e sem animação
 - 2026-11-26 dfdcf0c SS8-306: slogan escolhido pelo Pedro no login
