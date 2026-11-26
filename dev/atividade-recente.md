@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:46 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:55 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -201,7 +201,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 85b6e3ed SS8-2: n├úo perguntar exporta├º├úo da ordem de separa├º├úo ao recalcular pedidos
 - 2026-11-11 64d1a50f Update - Dicionario
 - 2026-11-11 9e3043a1 Update - Dicionario
-- 2026-11-11 4f750f3d Add - Dicionario Petrus
 
 ## Petrus.ERP
 Branch atual: master
@@ -212,12 +211,12 @@ Branches:
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-238-estoque-retroativo
 - + feature/ss8-240-filtro-referencia-op
-- + feature/ss8-255-fornecedor-padrao-frete
 - + feature/ss8-259-atualizacao-simples
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b6a5721 Merge SS8-255: fornecedor padr├úo do frete (J10_FORNECEDOR_PADRAO) no embarque da expedi├º├úo
 - 2026-11-25 b93fcee SS8-235: WMS / Gaiolas de embalagem com produtos e quantidade, movimentando o estoque
 - 2026-11-25 a889b46 SS8-259: Atualiza├º├Áes: publicar num passo, atualiza├º├úo autom├ítica ├ás 20:00 e painel no Suporte
 - 2026-11-25 0dc4916 SS8-238: Estoque / Saldos de Estoque: saldo retroativo em uma data

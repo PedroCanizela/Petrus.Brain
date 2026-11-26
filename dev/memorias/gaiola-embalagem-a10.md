@@ -18,7 +18,7 @@ SS8-235 (PRATIC, 25/11/2026, aguardando aprovação; branch `feature/ss8-235-gai
 - Telas: `/WMS/GaiolasEmbalagem` nova; Mapa/Consultas/Etiquetas da A7 ganharam `[Parameter] Embalagem` e páginas
   finas `/WMS/GaiolasEmbalagem/{Mapa,Consultas,Etiquetas}`. GX4_TIPO "Gaiola de embalagem".
 
-**Why:** a pergunta 6 (prefixo/etiqueta) ficou sem resposta e a semântica "colocar = entrada" pode dobrar o saldo se
-a produção já der entrada; ficou como ponto de atenção.
+**Why:** a pergunta 6 (prefixo/etiqueta) ficou sem resposta (usei E00001 e GX4_TIPO novo). A regra de estoque foi
+confirmada pelo Pedro em 25/11: colocar = entrada e retirar = saída na G17 (não é transferência de local).
 **How to apply:** ajustes na gaiola de embalagem mexem na A10Engine; editar A11 pelo /Details não movimenta estoque.
 Ver [[etiquetas-qr-wms-pratic]] e [[padrao-codigo-pedro]].
