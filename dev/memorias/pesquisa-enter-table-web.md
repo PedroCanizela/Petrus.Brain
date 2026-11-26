@@ -14,4 +14,6 @@ SS8-279 (25/11/2026, branch feature/ss8-279-pesquisa-enter, aguardando aprovaç�
 - Teste fora do Web: `S8.CriarS8`/`S10.CriarS10` estouram a pilha numa thread comum (rodar em Thread com pilha grande) e falham com MaxLength se o DataTable vier do `Banco.TabelaAsync` (zerar MaxLength).
 
 **Why:** o Pedro quer a busca igual ao txtPesquisa do frmInterface (Enter), sem buscar a cada tecla.
-**How to apply:** autocompletes de diálogos e do Details continuam buscando ao digitar (ficaram fora). Ver [[pesquisa-completa-lupa-web]].
+- Retrabalho 26/11 (branch feature/ss8-279-pesquisa-enter-ajustes): `Shared/CampoPesquisa.razor` (Enter/lupa/X, `@bind-Valor`) nas telas Report, ReportList, CMMS, MES e na lista simples da lupa; Pesquisar por com NUMERIC (V1_VOLUME), escolher campo com texto já pesquisa.
+
+**How to apply:** campo de pesquisa novo no Web = `<CampoPesquisa>`, nunca `@oninput` filtrando. Autocompletes de diálogos e do Details continuam buscando ao digitar (ficaram fora). Ver [[pesquisa-completa-lupa-web]].
