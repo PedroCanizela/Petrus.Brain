@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 20:29 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 20:36 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -247,6 +247,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 9b9ca5c SS8-309: abas do Web sem o prefixo da área no título
 - 2026-11-26 69e3951 SS8-308: grade da aba Reimprimir das Etiquetas de pacote com estilo e grades do Web em português
 - 2026-11-26 a353fa3 SS8-310: WMS - item Início do menu abre o Painel separação
 - 2026-11-26 d2c5fc2 SS8-307: baixa manual de pacote na consulta de pacote do WMS
