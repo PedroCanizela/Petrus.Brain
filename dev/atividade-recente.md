@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 85909fae SS8-237: Borderô de cobrança (desktop) - SELECT traz o Valor Saldo
 - 2026-11-25 978c0b46 Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
 - 2026-11-25 0634276a SS8-235: Estrutura das gaiolas de embalagem (A10, A11 e A12)
 - 2026-11-25 d650c195 Etiquetas da OP: variáveis DATA e HORA no ZPL
