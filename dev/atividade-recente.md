@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:37 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:39 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -217,6 +217,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 0dc4916 SS8-238: Estoque / Saldos de Estoque: saldo retroativo em uma data
 - 2026-11-25 ec588ab SS8-255: fornecedor padr├úo do frete (J10_FORNECEDOR_PADRAO) no embarque da expedi├º├úo
 - 2026-11-25 5e2866b SS8-240: MES / Ordens de produ├º├úo: pesquisa por produto com a refer├¬ncia exata
 - 2026-11-25 0ae7b9c Merge SS8-255: Log├¡stica / Expedi├º├úo: contas a pagar do frete para o fornecedor do transportador (J2) ao embarcar
