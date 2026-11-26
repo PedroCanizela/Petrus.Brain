@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:32 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:33 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -213,6 +213,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 aeaca3b SS8-255: Log├¡stica / Expedi├º├úo: contas a pagar do frete para o fornecedor do transportador (J2) ao embarcar
 - 2026-11-25 f4f3578 Merge SS8-260: Petrus Web / Login: corrigir SQL injection na consulta de usu├írio e senha e avaliar senha com hash na S2
 - 2026-11-25 0452a1b SS8-260: Petrus Web / Login: consultas da S1 e S2 do MainLayout com par├ómetros
 - 2026-11-25 14c778f Merge SS8-276: Petrus Web / Details: atalho de teclado com a letra inicial para ir direto ├á aba (V = Valores, D = Dados Gerais)
