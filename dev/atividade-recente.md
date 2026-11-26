@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 00:18 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 00:28 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -24,6 +24,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 765196f2 Update
 - 2026-11-25 dc65042a Merge SS8-253: Logística / Expedição: motorista por pedido na aba de pedidos da expedição
 - 2026-11-25 e2dbd6cd Merge SS8-237: Bordero cobrança: add campo
 - 2026-11-25 a4676fd0 SS8-253: Logística / Expedição: motorista do pedido fora do PDF da expedição
