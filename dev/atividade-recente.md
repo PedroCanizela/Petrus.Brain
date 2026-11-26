@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:21 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:22 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -210,6 +210,7 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
+- + feature/ss8-174-importar-pedido-ia
 - + feature/ss8-221-importar-excel-table
 - + feature/ss8-281-canhoto
 - + feature/ss8-39-novo-layout-erp
@@ -686,7 +687,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
-- (nenhum)
+- 2026-11-25 b6dea8e SS8-282: Petrus.FV / Layout: design novo do Petrus.ERP (tema, menu, login e telas)
 
 ## Petrus.Hub
 Branch atual: master
