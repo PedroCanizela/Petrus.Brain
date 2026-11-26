@@ -61,6 +61,7 @@
 - [Catálogo S10 estourava a pilha](catalogo-s10-pilha.md) — SS8-235: CriarS10 > 1,5 MB de pilha derrubava o Web; CriarS10Parte1..14, campo novo no fim da última parte
 - [Mais ações da /Table](mais-acoes-table-web.md) — SS8-287: ordem do PopularAcoes (strip1), Customizar, PDF/Imprimir/Excluir dos marcados, "Outras ações"
 - [Comando SQL no Web](comando-sql-web.md) — SS8-248: Customizador fica no desktop; /Ajustes/Comando só admin, simula antes de gravar, bloqueios e log
+- [Contexto do usuário sem pisca nas abas](contexto-cascata-web.md) — SS8-286: FonteContexto (CascadingValueSource) no lugar do CascadingValue de record; 25 abas de 180px
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
