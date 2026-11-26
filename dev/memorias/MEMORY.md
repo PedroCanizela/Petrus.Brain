@@ -53,6 +53,7 @@
 - [Petrus PDV (frente de caixa Web)](petrus-pdv-web.md) — SS8-46: repo Petrus.PDV, Blazor WASM/PWA + API, Petrus.Core via PetrusErpDir, caixa RX1/RX2, módulo S4 52
 - [Desenvolvimento e erros no Suporte](desenvolvimento-suporte-erros.md) — SS8-278: Dashboard, aba Erros (AW4, POST /api/erros pelo Petrus.Atualizador), SS8_VALOR, prints AW5, documento para assinatura
 - [Importar Excel na /Table](importar-excel-table-web.md) — SS8-221: LeituraExcel (xlsx sem XlsIO) e ImportacaoExcel no Core, com/sem ID, S15_INCLUIR; telefones/e-mails R2/R4/J2/I5/D10 pendentes
+- [OP de embalagem no Web](op-embalagem-web.md) — SS8-241: V1 com V1_TIPO Embalagem, /MES/OrdemEmbalagem, gravada Iniciado para gerar pacotes GX3
 - [Tema escuro no Web](tema-escuro-web.md) — SS8-283: paleta grafite, .pt-escuro no <html> (diálogos/popovers), campo inativo por variável, EstadoTema nos SfChart
 - [Contas a pagar sem plano (SS8-203)](contas-pagar-sem-plano-ss8-203.md) — S7 100492 (N9 sem L70) no desktop e Web; receita S7+S29+S30+GetReport/Registrar
 - [Fotos R2 e etiqueta Zebra no Web](fotos-r2-etiqueta-zebra-web.md) — SS8-249: ExportarEtiquetaZebra no Core (rede ou .zpl), G6_URL_FOTO (S10 123535) + botão Publicar fotos; 2 branches juntas

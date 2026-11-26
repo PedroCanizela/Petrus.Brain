@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:54 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:57 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -237,6 +237,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 5d7c3f6 SS8-241: MES / OP de embalagem com produto, quantidade por pacote e quantidade de pacotes
 - 2026-11-26 f83a362 SS8-248: Customizador fica no desktop e o Comando SQL vai para o Web
 - 2026-11-26 4eea362 SS8-249: fotos públicas do produto no Cloudflare R2 (PublicarFotosG6) no Petrus Web
 - 2026-11-26 e747bc8 SS8-203: relatório de contas à pagar sem plano de contas
