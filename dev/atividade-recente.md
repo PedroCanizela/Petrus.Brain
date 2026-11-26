@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 20:24 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 20:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -225,11 +225,11 @@ Branches:
 - claude/determined-dewdney-22c5ee
 - claude/determined-feistel-6e7623
 - claude/dreamy-driscoll-ea3cff
-- + claude/ecstatic-meitner-0d4feb
+- claude/ecstatic-meitner-0d4feb
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
 - claude/nice-curie-216004
-- + claude/peaceful-ardinghelli-9cc6a3
+- claude/peaceful-ardinghelli-9cc6a3
 - + claude/ss8-299-2f9c3e
 - + claude/ss8-303-d4426e
 - + claude/ss8-304-1e89b6
@@ -240,11 +240,14 @@ Branches:
 - + feature/ss8-302-bloquear-edicao-pedido-compra
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-306-login-modulos
+- + feature/ss8-308-grade-reimprimir-etiquetas
 - + feature/ss8-309-titulo-abas-sem-area
+- + feature/ss8-310-inicio-wms
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 a353fa3 SS8-310: WMS - item Início do menu abre o Painel separação
 - 2026-11-26 d2c5fc2 SS8-307: baixa manual de pacote na consulta de pacote do WMS
 - 2026-11-26 c2dc222 SS8-305: arte do MES no estilo do Supervisório CNE (fábrica digital)
 - 2026-11-26 d03bd06 SS8-305: arte do MES refeita com mais acabamento e sem animação
