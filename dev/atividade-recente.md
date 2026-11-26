@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:49 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 11:04 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -21,6 +21,7 @@ Branches:
 - + feature/ss8-109-conector-mercado-livre
 - + feature/ss8-203-contas-pagar-sem-plano
 - + feature/ss8-249-g6-url-foto
+- + feature/ss8-289-agentes-ia
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -201,8 +202,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 96c12d93 SS8-10: Ordem de mistura - cálculo das matérias-primas (CalculaVM5)
 - 2026-11-12 5ba9b385 Merge SS8-5: utilizar valor saldo ao invés do valor título na remessa e no boleto
 - 2026-11-12 ae060156 SS8-5: trazer master e mover N50_PARCIAL para o ID 122741
-- 2026-11-12 a2384997 Add - Comandos
-- 2026-11-12 e378e9c1 Merge SS8-23: Corte de itens do pedido de venda
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -244,6 +243,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 19c9628 SS8-288: PCP por operação, apontamento por etapas e produção por operação
 - 2026-11-26 0e329bf SS8-109: Hub / conector Mercado Livre (OAuth, importação e vínculo de anúncios, publicação)
 - 2026-11-26 14a2530 SS8-248: botões avulsos do frmComando no Comando SQL do Web
 - 2026-11-26 299c4ac SS8-241: OP de embalagem gravada "Concluido" e etiquetas da série Embalagem só com ela
