@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:40 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:46 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 0634276a SS8-235: Estrutura das gaiolas de embalagem (A10, A11 e A12)
 - 2026-11-25 d650c195 Etiquetas da OP: vari├íveis DATA e HORA no ZPL
 - 2026-11-25 fd299428 Merge SS8-275: Petrus / Login: esqueci a senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
 - 2026-11-25 198770bf SS8-275: Petrus / Login: recupera├º├úo de senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
@@ -217,6 +218,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b93fcee SS8-235: WMS / Gaiolas de embalagem com produtos e quantidade, movimentando o estoque
 - 2026-11-25 a889b46 SS8-259: Atualiza├º├Áes: publicar num passo, atualiza├º├úo autom├ítica ├ás 20:00 e painel no Suporte
 - 2026-11-25 0dc4916 SS8-238: Estoque / Saldos de Estoque: saldo retroativo em uma data
 - 2026-11-25 ec588ab SS8-255: fornecedor padr├úo do frete (J10_FORNECEDOR_PADRAO) no embarque da expedi├º├úo
