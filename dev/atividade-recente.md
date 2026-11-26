@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:13 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:15 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -213,6 +213,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 4becec4 SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
 - 2026-11-25 bf7e9e5 Merge SS8-240: MES / Ordens de produção: pesquisa por produto com a referência exata
 - 2026-11-25 4dc6534 Merge SS8-279: Petrus Web / Pesquisa: buscar no banco somente ao pressionar Enter, como o desktop
 - 2026-11-25 cdacc3f SS8-279: Petrus Web / Pesquisa: buscar no banco somente ao pressionar Enter
@@ -757,6 +758,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 722be2d SS8-278: Desenvolvimento com dashboard, aba Erros dos clientes, replicar para clientes, documento para assinatura e colar
 - 2026-11-25 b66ebd3 Merge SS8-259: painel das atualizações do Petrus Web nos clientes
 - 2026-11-25 b4932eb SS8-259: painel das atualizações do Petrus Web nos clientes (/atualizacoes)
 - 2026-11-21 d2313b4 Merge base-conhecimento: AtualizarBase le as notas do Petrus.Brain
