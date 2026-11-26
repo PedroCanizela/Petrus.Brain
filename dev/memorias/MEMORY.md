@@ -72,6 +72,7 @@
 - [UF no Performance de vendas](uf-performance-vendas-ss8-299.md) — SS8-299: S77_UF = X12_SIGLA pela R4.X12_ID, S30 103896 (Dados.cs + S30.cs do Web), R4_PREMIACAO não existe
 - [Login com todos os módulos](login-vitrine-modulos-web.md) — SS8-306: vitrine por área no Login.razor (MenuPetrus.ModulosWeb), slogan novo, fundo escuro mantido
 - [Trava de edição por status no Web](verifica-alteracao-web.md) — SS8-302: Validacoes.VerificaAlteracao no Core/Utils, /Details + edição em massa; I14 Aprovado/Efetivado/Concluido
+- [Expedição pelo número do pedido](expedicao-pedido-nro-documento.md) — SS8-304: J23 digitado vira R13_ID pelo R13_NRO_DOCUMENTO (S74 > 0); Web com coluna auxiliar R13_ID_RESOLVIDO, desktop no CurrentCellEndEdit
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
