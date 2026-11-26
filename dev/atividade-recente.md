@@ -231,6 +231,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 3c29fdc SS8-297: Details no celular: rodapé de totais recolhível e em 2 colunas, sem esconder a grade
 - 2026-11-26 35d8e77 SS8-296: pesquisa do Web só vai ao servidor no Enter ou na lupa
 - 2026-11-26 b6886c3 SS8-298: MES / Apontamento: renomeia "Apontamento por etapas" para "Apontamento"
 - 2026-11-26 505f7ec Merge SS8-249: Migração Web — Produto e Pedido de venda: fotos públicas no Cloudflare R2 e etiqueta Zebra pelos parâmetros

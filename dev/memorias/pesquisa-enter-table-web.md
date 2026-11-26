@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: ee634191-e57b-4394-86ef-c666e66c6586
-  modified: 2026-11-26T01:10:26.268Z
+  modified: 2026-11-26T16:23:36.025Z
 ---
 
 **SS8-279 aprovada e na master em 26/11/2026** (merge 38d00a3 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
@@ -18,4 +18,6 @@ SS8-279 (25/11/2026, branch feature/ss8-279-pesquisa-enter, aguardando aprovaç�
 **Why:** o Pedro quer a busca igual ao txtPesquisa do frmInterface (Enter), sem buscar a cada tecla.
 - Retrabalho 26/11 (branch feature/ss8-279-pesquisa-enter-ajustes): `Shared/CampoPesquisa.razor` (Enter/lupa/X, `@bind-Valor`) nas telas Report, ReportList, CMMS, MES e na lista simples da lupa; Pesquisar por com NUMERIC (V1_VOLUME), escolher campo com texto já pesquisa.
 
-**How to apply:** campo de pesquisa novo no Web = `<CampoPesquisa>`, nunca `@oninput` filtrando. Autocompletes de diálogos e do Details continuam buscando ao digitar (ficaram fora). Ver [[pesquisa-completa-lupa-web]].
+- SS8-296 (26/11, branch feature/ss8-296-pesquisa-so-enter, aguardando aprovação): continuava lento porque `@oninput`/`@onkeydown` mandavam CADA tecla ao servidor e redesenhavam a /Table inteira. Agora o campo fica num `<form class="ui-busca-form" @onsubmit>` (display:contents) com `@bind` (change): o navegador dispara change+submit no Enter e na lupa (type=submit), e nada ao digitar. OP de embalagem e Conferência de pedidos passaram para o CampoPesquisa. Autocomplete do SEARCH TEXTBOX do /Details continua buscando ao digitar (ponto em aberto).
+
+**How to apply:** campo de pesquisa novo no Web = `<CampoPesquisa>`, nunca `@oninput`/`@onkeydown` (mesmo só guardando o texto, cada tecla vira evento no Blazor Server e redesenha a tela). Autocompletes de diálogos e do Details continuam buscando ao digitar (ficaram fora). Ver [[pesquisa-completa-lupa-web]].
