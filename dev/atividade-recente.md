@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:28 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:29 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -217,6 +217,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 796f20f SS8-174: importar pedido do cliente por IA (Claude) no Incluir produtos do Petrus Web
 - 2026-11-25 669a3bf SS8-221: importar Excel e exportar modelo de importação na /Table
 - 2026-11-25 f1f9358 Merge SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
 - 2026-11-25 3c04ef2 Merge SS8-161: Migração Web / Homologação: auditar e testar contra o banco as funções S39 migradas, por módulo
@@ -737,6 +738,16 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-23 386a696 Merge SS8-181: conexão direta no MySQL da Pratic com log e modo de teste
 - 2026-11-23 d4b69f7 index on master: ab38d83 Update
 - 2026-11-23 a57875b SS8-181: conexão direta no MySQL da Pratic com log e modo de teste
+
+## Petrus.PDV
+Branch atual: master
+
+Branches:
+- + feature/ss8-46-pdv-web-caixa
+- * master
+
+Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 74d0b6a Repositório do Petrus PDV
 
 ## Petrus.PricingCore
 Branch atual: master
