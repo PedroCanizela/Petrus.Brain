@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:05 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -24,6 +24,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 d650c195 Etiquetas da OP: vari├íveis DATA e HORA no ZPL
 - 2026-11-25 fd299428 Merge SS8-275: Petrus / Login: esqueci a senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
 - 2026-11-25 198770bf SS8-275: Petrus / Login: recupera├º├úo de senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
 - 2026-11-25 38b4a4a6 Merge SS8-272: Petrus / Login: consultas com par├ómetros no frmLogin (SQL injection) e senha com o mesmo hash do Petrus Web
@@ -206,10 +207,15 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
+- + feature/ss8-161-homologacao-migracao
+- + feature/ss8-276-atalho-letra-abas
+- + feature/ss8-277-details-horizontal-vertical
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 0b9fc8d Pacotes: hist├│rico da cadastro_pacote para a GX5 na migra├º├úo e etiquetas em PDF numa p├ígina s├│
+- 2026-11-25 84fe92a SS8-277: Details com modo horizontal (sub-abas por grupo) e vertical, pelos par├ómetros do usu├írio
 - 2026-11-25 081d16e Regenera o invent├írio da migra├º├úo ap├│s os merges de 271, 261, 264, 267, 269, 273 e 274
 - 2026-11-25 89eba5a Merge SS8-274: MES Web / OP: gravar na ordem a m├íquina escolhida no campo M├íquina
 - 2026-11-25 190aca3 Merge SS8-273: MES / Ordem de produ├º├úo: digitar o p├│ (cores) por volume e lembrar a prefer├¬ncia do usu├írio
