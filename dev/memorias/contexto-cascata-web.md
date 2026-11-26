@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T13:06:39.972Z
 ---
 
+**SS8-286 aprovada e na master em 26/11/2026** (merge 38ec532 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-286 (branch `feature/ss8-286-abas-piscando`, aguardando aprovação em 26/11/2026): o pisca das abas do Web vinha do
 MainLayout repassar `ContextoPetrus` num `<CascadingValue>` com um record novo a cada render. O `CascadingValue` do Blazor
 considera "mudado" qualquer valor de tipo não primitivo, **mesmo a mesma referência**, e redesenhava todos os assinantes:

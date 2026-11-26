@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T12:53:35.079Z
 ---
 
+**SS8-249 aprovada e na master em 26/11/2026** (merge 505f7ec no Petrus.ERP e 67b03e82 no Petrus (Dados.cs), sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-249 (26/11/2026, Aguardando aprovação, só compilada). Duas branches que vão juntas (mesmo S10_ID 123535):
 Petrus.ERP `feature/ss8-249-etiqueta-zebra-fotos-r2` e Petrus `feature/ss8-249-g6-url-foto`.
 - Etiquetas: `Petrus.Core/Utils/GerarEtiquetas.cs` (ExportarEtiquetaZebra) reusa "Volume do pedido" do

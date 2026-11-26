@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T12:44:29.587Z
 ---
 
+**SS8-203 aprovada e na master em 26/11/2026** (merge 201a6d6 no Petrus.ERP e 43103f5b no Petrus (Dados.cs), sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-203 entregue em 26/11/2026 (aguardando aprovação), nas duas pontas:
 - Desktop: branch `feature/ss8-203-contas-pagar-sem-plano` do Petrus (worktree `_worktrees\Petrus\ss8-203`).
 - Web: branch `claude/ss8-203-ca49c2` do Petrus.ERP.

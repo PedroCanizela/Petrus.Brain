@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T12:38:49.124Z
 ---
 
+**SS8-256 aprovada e na master em 26/11/2026** (merge 65ce7c9 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-256 (25/11/2026): o Petrus Web não persistia as chaves do ASP.NET Data Protection. Ao reiniciar/atualizar o servidor, o que o navegador guardava via ProtectedSessionStorage/ProtectedLocalStorage (Token, Modulo, abas) dava "The key {...} was not found in the key ring".
 
 Correção: `ERPBlazor\Services\ChavesProtecao.cs` — chaves em `{Petrus:PastaChaves}` (padrão `C:\Petrus\Chaves`, fora da pasta do site), SetApplicationName("Petrus.ERP"), DPAPI da máquina. `ProvedorProtecaoNavegador` envolve o provedor dos Protected*Storage: valor com chave antiga vira JSON "null" (leitura vazia → login lembrado do PC). Leituras `GetAsync<int>` precisam de try (o "null" não vira int).

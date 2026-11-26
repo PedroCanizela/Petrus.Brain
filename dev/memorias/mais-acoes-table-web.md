@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T13:05:02.897Z
 ---
 
+**SS8-287 aprovada e na master em 26/11/2026** (merge afdffb7 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-287 (26/11/2026, branch feature/ss8-287-mais-acoes-table): o "Mais ações" da /Table segue o `PopularAcoes` do frmInterface
 (menu da tabela = `guna2ContextMenuStrip1`; o do registro é o `guna2ContextMenuStrip8`, já feito no /Details na SS8-145).
 

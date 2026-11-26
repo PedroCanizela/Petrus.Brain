@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T12:49:37.878Z
 ---
 
+**SS8-285 aprovada e na master em 26/11/2026** (merge 0fb22ed no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-285 (branch `feature/ss8-285-exportar-celular`, aguardando aprovação em 26/11/2026): no app do Petrus Web instalado
 no celular (PWA standalone, principalmente no iPhone), o download por blob + `<a download>` não funciona, nem o do
 Syncfusion (`ExportToExcelAsync`/`ExportToPdfAsync` sem memory stream). "Exportação não exporta no celular" = o aparelho, não o campo.

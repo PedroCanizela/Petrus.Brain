@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T13:08:16.431Z
 ---
 
+**SS8-241 aprovada e na master em 26/11/2026** (merge e81fcec no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-241 (PRATIC, entregue em 26/11/2026 na branch `feature/ss8-241-op-embalagem`, aguardando aprovação):
 - OP de embalagem = **V1 com V1_TIPO = "Embalagem"**, sem máquina/molde/roteiro/estrutura/apontamento. Campos: G6_ID,
   V1_REFERENCIA, V1_QTD_EMB (qtd por pacote), V1_VOLUME (qtd de pacotes), V1_QTD, V1_OBS. Telas /MES/OrdemEmbalagem(+Detalhes).

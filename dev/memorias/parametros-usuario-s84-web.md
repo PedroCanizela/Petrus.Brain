@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T12:37:55.457Z
 ---
 
+**SS8-273 aprovada e na master em 26/11/2026** (merge ebe0dc7 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 Preferências por usuário ficam na **S84 ("Usuário x parâmetros")**: S84_CAMPO/S84_VALOR por S1_ID + S2_ID, como o
 `ParametrosUsuario` do desktop (`Sistema\Classes\ParametrosUsuario.cs`; campos como `SomMargo`, `CaixaPadrao`,
 `TemplateZebraProduto`, `ModoVertical`). A S80 é só dos filtros de relatório; não confundir.

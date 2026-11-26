@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T13:23:43.780Z
 ---
 
+**SS8-248 aprovada e na master em 26/11/2026** (merge 3480296 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 Decisão do Pedro (26/11/2026, SS8-248): **o Customizador e o dicionário não vão para o Web** (ele não usa). Os 12 forms
 (frmCustomizador, frmTabelas, frmInterfaces, frmInteracoes, frmRelatorios, frmCategorias, frmGraficos, frmIndicadores,
 frmConexoes, frmDicionario, frmIntegracoes, frmDataBase) estão marcados `DESCARTADO FORM` em `Petrus.Core/Sistema/Comando.cs`.

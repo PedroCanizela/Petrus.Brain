@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T01:10:26.268Z
 ---
 
+**SS8-279 aprovada e na master em 26/11/2026** (merge 38d00a3 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 SS8-279 (25/11/2026, branch feature/ss8-279-pesquisa-enter, aguardando aprovação): a pesquisa da /Table filtrava só os registros já carregados (TOP MAXIMO_REGISTROS mais recentes) a cada tecla, então "não buscava" o resto. Agora Enter ou a lupa aplicam `pesquisaAplicada` e recarregam pelo banco com TOP MAXIMO_REGISTROS_PESQUISA (`Limite`).
 - `Petrus.Core/Acoes/PesquisaInterface.Condicoes(S8_NOME, Select, campos, Busca)` → " AND (...)" + @PQn; lê as colunas virtuais (", alias.col AS nome") do SELECT do `Helpers.GetDataTableVirtual`.
 - Regras do desktop: VARCHAR LIKE, INT igual, CNPJ sem pontuação, R2_EMAIL/R2_FONE/R2_CNPJ_MAPEAMENTO/I14_PRODUTO por subconsulta. "Todos os campos" (só do Web) = OU.

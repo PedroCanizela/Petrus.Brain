@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 11:27 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 11:43 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,14 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-203-contas-pagar-sem-plano
-- + feature/ss8-249-g6-url-foto
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 67b03e82 Merge SS8-249: Migração Web — Produto e Pedido de venda: fotos públicas no Cloudflare R2 e etiqueta Zebra pelos parâmetros (Dados.cs)
+- 2026-11-26 43103f5b Merge SS8-203 (Dados.cs)
 - 2026-11-26 b071f6c0 Merge SS8-109: Hub / conector Mercado Livre (OAuth, anúncios, publicação) (Dados.cs)
 - 2026-11-26 a6087ccb Merge SS8-289: agentes de IA no Petrus Web (base) (Dados.cs)
 - 2026-11-26 1fec030d SS8-289: tabelas dos agentes de IA do Petrus Web no Dados.cs
@@ -222,23 +222,23 @@ Branches:
 - claude/determined-dewdney-22c5ee
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
-- + claude/ss8-203-ca49c2
-- + claude/ss8-248-b6b934
 - + feature/ss8-235-gaiola-embalagem
-- + feature/ss8-241-op-embalagem
-- + feature/ss8-249-etiqueta-zebra-fotos-r2
-- + feature/ss8-256-diagnostico-chaves
-- + feature/ss8-273-qtd-op-volume
-- + feature/ss8-279-pesquisa-enter-ajustes
-- + feature/ss8-283-tema-escuro
-- + feature/ss8-284-responsividade-celular
-- + feature/ss8-285-exportar-celular
-- + feature/ss8-286-abas-piscando
-- + feature/ss8-287-mais-acoes-table
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 505f7ec Merge SS8-249: Migração Web — Produto e Pedido de venda: fotos públicas no Cloudflare R2 e etiqueta Zebra pelos parâmetros
+- 2026-11-26 8366b23 Merge SS8-284: Petrus Web / Layout geral: responsividade no celular e no tablet (Table, Details, Report, Dashboards e diálogos)
+- 2026-11-26 7d980d4 Merge SS8-283: Petrus Web / Tema escuro: paleta mais clara e controles sem fundo branco (campos desabilitados, diálogos, gráficos)
+- 2026-11-26 201a6d6 Merge SS8-203: Financeiro / Contas a Pagar: relatório de títulos sem plano de contas
+- 2026-11-26 3480296 Merge SS8-248: Customizador / Comando SQL: Customizador fica no desktop e o console de SQL vai para o Web com segurança
+- 2026-11-26 e81fcec Merge SS8-241: MES / Ordem de produção: OP de embalagem com produto, quantidade por pacote e quantidade de pacotes
+- 2026-11-26 afdffb7 Merge SS8-287: Tabela (/Table): menu Mais ações igual ao do desktop, com Outras ações, Customizar, PDF, Imprimir e Excluir
+- 2026-11-26 0fb22ed Merge SS8-285: Web / Table e Report: exportar Excel e PDF no app do celular
+- 2026-11-26 ebe0dc7 Merge SS8-273: MES / Ordem de produção: digitar o pó (cores) por volume e lembrar a preferência do usuário
+- 2026-11-26 38ec532 Merge SS8-286: Web / Abas: corrigir o pisca das abas, até 25 abas e abas mais estreitas
+- 2026-11-26 38d00a3 Merge SS8-279: Petrus Web / Pesquisa: buscar no banco somente ao pressionar Enter, como o desktop
+- 2026-11-26 65ce7c9 Merge SS8-256: Web: erro "key not found in the key ring" (Data Protection) após atualizar/reiniciar o servidor
 - 2026-11-26 c51fb37 Merge SS8-109: Hub / conector Mercado Livre (OAuth, anúncios, publicação)
 - 2026-11-26 a477585 Merge SS8-288: PCP por operação, apontamento por etapas e produção por operação
 - 2026-11-26 772769b Merge SS8-289: agentes de IA no Petrus Web (base)

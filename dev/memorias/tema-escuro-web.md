@@ -8,6 +8,8 @@ metadata:
   modified: 2026-11-26T12:40:12.483Z
 ---
 
+**SS8-283 aprovada e na master em 26/11/2026** (merge 7d980d4 no Petrus.ERP, sem push; branch e worktree removidos). O que estiver escrito abaixo como "aguardando aprovação" ou branch já não vale.
+
 Tema escuro do ERPBlazor (SS8-283, branch feature/ss8-283-tema-escuro, 26/11/2026):
 - Paleta em `Components/Services/TemaPetrus.cs` (PaletteDark cinza-grafite #1e1f23/#2a2b31; TextDisabled 50%).
 - `petrusLayout.aplicarTema(escuro)` põe `.pt-escuro` + `color-scheme` no `<html>`: diálogos/popovers do MudBlazor ficam FORA do MudLayout e do CascadingValue "TemaEscuro", então regras `.pt-escuro ...` só valem para eles por causa disso. O LoginLayout chama com false.
