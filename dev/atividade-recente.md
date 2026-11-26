@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:03 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:05 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -240,6 +240,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 ab33548 SS8-287: Mais ações da /Table igual ao do desktop
+- 2026-11-26 70318a6 Revert "SS8-241: OP de embalagem fora das telas do chão de fábrica"
 - 2026-11-26 2919a3d SS8-241: OP de embalagem fora das telas do chão de fábrica
 - 2026-11-26 5d7c3f6 SS8-241: MES / OP de embalagem com produto, quantidade por pacote e quantidade de pacotes
 - 2026-11-26 f83a362 SS8-248: Customizador fica no desktop e o Comando SQL vai para o Web
