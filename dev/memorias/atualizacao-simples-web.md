@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-26T00:40:32.129Z
 ---
 
-SS8-259 (25/11/2026, aguardando aprovação; branches `feature/ss8-259-atualizacao-simples` no Petrus.ERP e `feature/ss8-259-painel-atualizacoes` no Petrus.Suporte):
+SS8-259 (na master desde 25/11/2026: merge 79e5382 no Petrus.ERP e b66ebd3 no Petrus.Suporte, sem push):
 - **Publicar:** `Scripts\Publicar.cmd`. Não usa o az CLI: `Scripts\PetrusAzure.psm1` gera a SAS (assinatura conferida igual à do az, sv 2026-04-06) e guarda a cadeia de conexão uma vez em `%APPDATA%\Petrus\Publicacao` (DPAPI).
 - **Automática:** tabela AW2 (uma linha, padrão ligada às 20:00, janela de 4 h). O serviço grava o pedido na AW1 com solicitante "Automática". Configurada no card da tela /Ajustes/Atualizacoes.
 - **Painel:** Suporte `/atualizacoes` + `POST /api/atualizacoes/contato`, tabela AW3 no cnzla. O serviço chama o painel a cada 5 min. Token = HMAC-SHA256(Atualizacoes:ChaveClientes, nome do cliente em minúsculas) em hex. A chave fica no appsettings.Production do Suporte e no `%APPDATA%` do Pedro.

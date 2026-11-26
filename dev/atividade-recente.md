@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:57 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:00 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -209,11 +209,11 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
 - + feature/ss8-240-filtro-referencia-op
-- + feature/ss8-259-atualizacao-simples
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 79e5382 Merge SS8-259: Petrus Web / Atualiza├º├Áes: simplificar a publica├º├úo e a atualiza├º├úo dos clientes
 - 2026-11-25 0f3eadb Merge SS8-238: Estoque / Saldos de Estoque: consultar o saldo retroativo em uma data
 - 2026-11-25 2d386ee Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
 - 2026-11-25 b6a5721 Merge SS8-255: fornecedor padr├úo do frete (J10_FORNECEDOR_PADRAO) no embarque da expedi├º├úo
@@ -748,10 +748,11 @@ Branch atual: master
 
 Branches:
 - + feature/base-conhecimento
-- + feature/ss8-259-painel-atualizacoes
+- + feature/ss8-278-dashboard-erros-pdf
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b66ebd3 Merge SS8-259: painel das atualiza├º├Áes do Petrus Web nos clientes
 - 2026-11-25 b4932eb SS8-259: painel das atualiza├º├Áes do Petrus Web nos clientes (/atualizacoes)
 - 2026-11-21 d2313b4 Merge base-conhecimento: AtualizarBase le as notas do Petrus.Brain
 - 2026-11-21 5ad0d19 Base de conhecimento: AtualizarBase passa a ler as notas do Petrus.Brain (assistente\sistema)
