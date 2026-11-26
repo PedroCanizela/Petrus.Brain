@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 14:04 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 14:08 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-300-campos-mapa-c4
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 8b6b6d54 Merge SS8-300: Mapa da fábrica 3D do Petrus Web: campos C4_MAPA_* na C4 (Dados.cs)
 - 2026-11-26 9120ae1a SS8-300: campos do Mapa da fábrica 3D na C4 (Dados.cs)
 - 2026-11-26 67b03e82 Merge SS8-249: Migração Web — Produto e Pedido de venda: fotos públicas no Cloudflare R2 e etiqueta Zebra pelos parâmetros (Dados.cs)
 - 2026-11-26 43103f5b Merge SS8-203 (Dados.cs)
@@ -224,12 +224,12 @@ Branches:
 - claude/magical-bartik-17f3b7
 - claude/vibrant-heisenberg-962b6b
 - + feature/ss8-235-gaiola-embalagem
-- + feature/ss8-300-mapa-fabrica-3d-cne
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 b53399e Merge SS8-300: Petrus Web / MES / Mapa da fábrica: mapa 3D no estilo da CNE (injetora em blocos, operador, mover máquinas e andar pela fábrica)
 - 2026-11-26 3620924 SS8-300: campos C4_MAPA_* no dicionário S10 do Petrus Web
 - 2026-11-26 f6980f2 SS8-300: mapa 3D com injetora no visual da CNE, operador sempre visível e modo andar
 - 2026-11-26 c04d73b SS8-300: Mapa da fábrica 3D no estilo da CNE
