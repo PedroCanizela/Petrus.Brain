@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:35 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:56 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -199,19 +199,18 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 f9dff5ca SS8-5: remessa e boleto usam o valor saldo do título
 - 2026-11-12 a8fe0776 Merge SS8-2: remover mensagem de exportar ordem de separação no recálculo de pedidos
 - 2026-11-12 85b6e3ed SS8-2: não perguntar exportação da ordem de separação ao recalcular pedidos
-- 2026-11-11 64d1a50f Update - Dicionario
 
 ## Petrus.ERP
 Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
-- + feature/ss8-161-homologacao-migracao
 - + feature/ss8-278-envio-erros
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 3c04ef2 Merge SS8-161: Migração Web / Homologação: auditar e testar contra o banco as funções S39 migradas, por módulo
 - 2026-11-25 d826751 SS8-161: bateria de homologação numa cópia local do banco e correções achadas
 - 2026-11-25 4becec4 SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
 - 2026-11-25 bf7e9e5 Merge SS8-240: MES / Ordens de produção: pesquisa por produto com a referência exata
