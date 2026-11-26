@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:17 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,6 +19,7 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-237-bordero-valor-saldo
+- + feature/ss8-253-motorista-combobox-expedicao
 - + feature/ss8-281-canhoto
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
@@ -26,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 72527c48 SS8-253: Logística / Expedição: motorista do pedido escolhido em lista suspensa
 - 2026-11-25 85909fae SS8-237: Borderô de cobrança (desktop) - SELECT traz o Valor Saldo
 - 2026-11-25 978c0b46 Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
 - 2026-11-25 0634276a SS8-235: Estrutura das gaiolas de embalagem (A10, A11 e A12)
@@ -208,6 +210,7 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
+- + feature/ss8-221-importar-excel-table
 - + feature/ss8-281-canhoto
 - + feature/ss8-39-novo-layout-erp
 - * master
