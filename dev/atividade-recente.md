@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:41 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:42 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -20,13 +20,13 @@ Branches:
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-237-bordero-valor-saldo
 - + feature/ss8-253-motorista-combobox-expedicao
-- + feature/ss8-281-canhoto
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 48677e45 Merge SS8-281: Logística / Petrus.Canhoto: app de canhoto de entrega digital com assinatura, fotos e localização do recebedor
 - 2026-11-25 9a4e6082 SS8-281: Estrutura do canhoto de entrega digital (J60 e J61) para o Petrus.Canhoto
 - 2026-11-25 72527c48 SS8-253: Logística / Expedição: motorista do pedido escolhido em lista suspensa
 - 2026-11-25 85909fae SS8-237: Borderô de cobrança (desktop) - SELECT traz o Valor Saldo
@@ -207,13 +207,13 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 85b6e3ed SS8-2: não perguntar exportação da ordem de separação ao recalcular pedidos
 
 ## Petrus.Canhoto
-Branch atual: feature/ss8-281-canhoto
+Branch atual: master
 
 Branches:
-- * feature/ss8-281-canhoto
-- master
+- * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 d49c37b Merge SS8-281: Logística / Petrus.Canhoto: app de canhoto de entrega digital com assinatura, fotos e localização do recebedor
 - 2026-11-25 474dae6 SS8-281: Petrus.Canhoto - app do motorista para o canhoto de entrega digital
 - 2026-11-25 09ace2e Repositório Petrus.Canhoto
 
@@ -224,11 +224,11 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-174-importar-pedido-ia
 - + feature/ss8-221-importar-excel-table
-- + feature/ss8-281-canhoto
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 49e33ef Merge SS8-281: Logística / Petrus.Canhoto: app de canhoto de entrega digital com assinatura, fotos e localização do recebedor
 - 2026-11-25 b57603d SS8-281: Petrus.Canhoto - API, canhoto em PDF e catálogo do canhoto de entrega (J60/J61)
 - 2026-11-25 796f20f SS8-174: importar pedido do cliente por IA (Claude) no Incluir produtos do Petrus Web
 - 2026-11-25 669a3bf SS8-221: importar Excel e exportar modelo de importação na /Table
