@@ -11,7 +11,7 @@ metadata:
 O formato de data vem do **S10_TIPO** (o S10_TIPO_DADOS é DATETIME nos três), como no `CriarAmbiente` do desktop:
 DATE = dd/MM/yyyy, DATETIME = dd/MM/yyyy HH:mm:ss, TIME = HH:mm:ss (controle sempre "DATE TIME PICKER").
 
-SS8-280 (branch `feature/ss8-280-datetime-data-hora`, aguardando aprovação em 25/11/2026):
+SS8-280 (aprovada e mergeada na master em d5cc70d, 26/11/2026):
 - Details: DATETIME/TIME usam MudTextField com InputType DateTimeLocal/Time (`step=1` para segundos);
   `valores` guarda "yyyy-MM-dd HH:mm:ss". Antes o `OnDateChanged` gravava só yyyy-MM-dd e a hora se perdia.
 - PlanilhaAba: DATETIME com `input type=datetime-local`; TIME não é exibido nas abas (TiposExibidos).

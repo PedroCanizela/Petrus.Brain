@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:06 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:09 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -210,11 +210,11 @@ Branches:
 - + feature/ss8-161-homologacao-migracao
 - + feature/ss8-240-filtro-referencia-op
 - + feature/ss8-279-pesquisa-enter
-- + feature/ss8-280-datetime-data-hora
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 d5cc70d Merge SS8-280: Petrus Web / Details: colunas datetime nas abas e grades mostrarem data e hora, não só a data
 - 2026-11-25 7fb8b62 SS8-280: Petrus Web / Details: colunas datetime com data e hora
 - 2026-11-25 79e5382 Merge SS8-259: Petrus Web / Atualizações: simplificar a publicação e a atualização dos clientes
 - 2026-11-25 0f3eadb Merge SS8-238: Estoque / Saldos de Estoque: consultar o saldo retroativo em uma data
