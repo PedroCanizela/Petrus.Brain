@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:51 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:53 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -227,6 +227,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 03c06d4 Regenera o inventário da migração após os merges de 174 e 221
 - 2026-11-25 e38ec34 Merge SS8-174: Vendas / Pedido de venda: importar pedido do cliente por IA (Claude) no Incluir produtos do Petrus Web
 - 2026-11-25 4dbe870 On master: SS8-174: linha do Importar pedido via IA no comparacao-desktop-web (duplicada da branch)
 - 2026-11-25 f14f185 index on master: 8fb712e Merge SS8-221: Migração Web / Tela de tabela: importar Excel e exportar modelo de importação
