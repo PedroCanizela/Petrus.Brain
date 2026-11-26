@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:39 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:40 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -217,6 +217,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 a889b46 SS8-259: Atualiza├º├Áes: publicar num passo, atualiza├º├úo autom├ítica ├ás 20:00 e painel no Suporte
 - 2026-11-25 0dc4916 SS8-238: Estoque / Saldos de Estoque: saldo retroativo em uma data
 - 2026-11-25 ec588ab SS8-255: fornecedor padr├úo do frete (J10_FORNECEDOR_PADRAO) no embarque da expedi├º├úo
 - 2026-11-25 5e2866b SS8-240: MES / Ordens de produ├º├úo: pesquisa por produto com a refer├¬ncia exata
@@ -750,6 +751,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b4932eb SS8-259: painel das atualiza├º├Áes do Petrus Web nos clientes (/atualizacoes)
 - 2026-11-21 d2313b4 Merge base-conhecimento: AtualizarBase le as notas do Petrus.Brain
 - 2026-11-21 5ad0d19 Base de conhecimento: AtualizarBase passa a ler as notas do Petrus.Brain (assistente\sistema)
 - 2026-11-18 2fafad5 Merge SS8-100: telas de IA fora do menu e script para remover o que a IA criou
