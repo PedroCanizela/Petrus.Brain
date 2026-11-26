@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:14 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -209,11 +209,12 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
 - + feature/ss8-276-atalho-letra-abas
-- + feature/ss8-277-details-horizontal-vertical
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 14c778f Merge SS8-276: Petrus Web / Details: atalho de teclado com a letra inicial para ir direto ├á aba (V = Valores, D = Dados Gerais)
+- 2026-11-25 912e924 Merge SS8-277: Petrus Web / Details: modo horizontal (sub-abas por grupo na Principal, como no desktop) e vertical, escolhido nos par├ómetros do usu├írio com toggle na tela
 - 2026-11-25 4e15ccb SS8-276: atalho tamb├®m nas sub-abas de grupos da SS8-277
 - 2026-11-25 b3bd20e SS8-161: ferramenta de homologa├º├úo da migra├º├úo Web (auditoria S39 e roteiro por m├│dulo)
 - 2026-11-25 63a972c SS8-276: Details: atalho com a letra inicial para ir direto ├á aba
