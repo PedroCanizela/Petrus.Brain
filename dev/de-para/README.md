@@ -1,6 +1,6 @@
 # De → para: Petrus desktop → Petrus.ERP (Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com arquivo:linha dos dois lados.
 
@@ -19,52 +19,52 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 
 | Situação | Métodos | Linhas |
 |---|---:|---:|
-| Via form | 867 | 38613 |
-| Mesmo nome | 823 | 110811 |
-| Descartado | 483 | 15088 |
+| Via form | 871 | 38816 |
+| Mesmo nome | 781 | 105835 |
+| Descartado | 486 | 15293 |
+| Equivalente | 385 | 21035 |
+| Não se aplica | 238 | 10938 |
 | Via S39 | 226 | 27076 |
-| Equivalente | 222 | 9911 |
-| Não se aplica | 222 | 10736 |
 | Substituído | 175 | 9004 |
-| Falta (form) | 148 | 3896 |
 | Outro repositório | 125 | 3130 |
-| Falta | 116 | 8616 |
-| Citado (conferir) | 82 | 6518 |
-| Citado | 76 | 6271 |
-| Em branch | 66 | 2875 |
-| Sem uso no desktop | 32 | 2582 |
-| Nome+Async | 20 | 1193 |
+| Falta | 101 | 7891 |
+| Em branch | 89 | 3657 |
+| Citado | 72 | 5862 |
+| Citado (conferir) | 60 | 2997 |
+| Sem uso no desktop | 29 | 2550 |
+| Parcial | 20 | 3514 |
+| Nome+Async | 14 | 791 |
+| Conferir | 14 | 181 |
 | Via S7 | 6 | 686 |
 | Nome sem Con | 5 | 527 |
-| Parcial | 3 | 2250 |
 | Nome+Con | 1 | 121 |
 
 ## Métodos por módulo
 
 | Módulo | Métodos | Com destino | Faltam (sem eventos) | Linhas que faltam |
 |---|---:|---:|---:|---:|
-| [[de-para/metodos/Compras|Compras]] | 122 | 111 | 6 | 1286 |
-| [[de-para/metodos/Contabilidade|Contabilidade]] | 13 | 8 | 5 | 236 |
-| [[de-para/metodos/Core|Core]] | 74 | 72 | 2 | 21 |
+| [[de-para/metodos/Compras|Compras]] | 122 | 108 | 9 | 1398 |
+| [[de-para/metodos/Contabilidade|Contabilidade]] | 13 | 13 | 0 | 0 |
+| [[de-para/metodos/Core|Core]] | 74 | 74 | 0 | 0 |
 | [[de-para/metodos/CRM|CRM]] | 30 | 30 | 0 | 0 |
-| [[de-para/metodos/Custos|Custos]] | 42 | 37 | 5 | 77 |
-| [[de-para/metodos/Estoque|Estoque]] | 103 | 100 | 3 | 48 |
-| [[de-para/metodos/Financeiro|Financeiro]] | 455 | 440 | 7 | 292 |
-| [[de-para/metodos/Fiscal|Fiscal]] | 182 | 160 | 8 | 201 |
-| [[de-para/metodos/Industrial|Industrial]] | 220 | 214 | 6 | 115 |
+| [[de-para/metodos/Custos|Custos]] | 42 | 42 | 0 | 0 |
+| [[de-para/metodos/Estoque|Estoque]] | 103 | 103 | 0 | 0 |
+| [[de-para/metodos/Financeiro|Financeiro]] | 455 | 454 | 1 | 79 |
+| [[de-para/metodos/Fiscal|Fiscal]] | 182 | 179 | 3 | 166 |
+| [[de-para/metodos/Industrial|Industrial]] | 220 | 220 | 0 | 0 |
 | [[de-para/metodos/Integracao|Integracao]] | 24 | 20 | 4 | 328 |
-| [[de-para/metodos/Logistica|Logistica]] | 80 | 61 | 6 | 857 |
+| [[de-para/metodos/Logistica|Logistica]] | 80 | 63 | 4 | 789 |
 | [[de-para/metodos/Manutencao|Manutencao]] | 35 | 35 | 0 | 0 |
 | [[de-para/metodos/Margo|Margo]] | 115 | 115 | 0 | 0 |
-| [[de-para/metodos/Metodos|Metodos]] | 125 | 113 | 8 | 387 |
+| [[de-para/metodos/Metodos|Metodos]] | 125 | 124 | 0 | 0 |
 | [[de-para/metodos/PDV|PDV]] | 125 | 125 | 0 | 0 |
 | [[de-para/metodos/Program|Program]] | 1 | 1 | 0 | 0 |
 | [[de-para/metodos/Qualidade|Qualidade]] | 4 | 4 | 0 | 0 |
-| [[de-para/metodos/RH|RH]] | 90 | 87 | 3 | 604 |
+| [[de-para/metodos/RH|RH]] | 90 | 88 | 2 | 600 |
 | [[de-para/metodos/Settings|Settings]] | 2 | 2 | 0 | 0 |
-| [[de-para/metodos/Sistema|Sistema]] | 1521 | 1426 | 19 | 1733 |
-| [[de-para/metodos/Utils|Utils]] | 85 | 76 | 9 | 321 |
-| [[de-para/metodos/Vendas|Vendas]] | 250 | 197 | 17 | 2324 |
+| [[de-para/metodos/Sistema|Sistema]] | 1521 | 1513 | 8 | 1299 |
+| [[de-para/metodos/Utils|Utils]] | 85 | 83 | 2 | 156 |
+| [[de-para/metodos/Vendas|Vendas]] | 250 | 201 | 18 | 2359 |
 
 ## Situações
 

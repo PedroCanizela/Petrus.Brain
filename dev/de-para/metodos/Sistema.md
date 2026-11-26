@@ -1,10 +1,10 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Descartado: 446 · Via form: 323 · Não se aplica: 162 · Mesmo nome: 151 · Via S39: 137 · Equivalente: 97 · Falta (form): 82 · Substituído: 60 · Em branch: 43 · Falta: 13 · Citado (conferir): 6 · Nome sem Con: 1
+**Situação:** Descartado: 446 · Via form: 327 · Não se aplica: 166 · Equivalente: 165 · Mesmo nome: 149 · Via S39: 137 · Substituído: 60 · Em branch: 43 · Parcial: 17 · Falta: 8 · Citado (conferir): 2 · Nome sem Con: 1
 
 ## `Sistema/Classes/Auditoria.cs`
 
@@ -22,19 +22,19 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 26 | ParametrosSistema.EmailS1 | 48 | **Falta** |  |  |
+| 26 | ParametrosSistema.EmailS1 | 48 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:52` |  |
 | 75 | ParametrosSistema.TelefonesS1 | 58 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
-| 134 | ParametrosSistema.SalvaPreferencias | 119 | **Falta** |  |  |
+| 134 | ParametrosSistema.SalvaPreferencias | 119 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | Web guarda só o período (SessionStorage) |
 | 253 | ParametrosSistema.SalvaParametrosCon | 113 | Nome sem Con | `Petrus.Core/Sistema/ParametrosUsuario.cs:14` | classe ParametrosUsuario |
 | 367 | ParametrosSistema.SalvaParametros | 114 | Mesmo nome | `Petrus.Core/Sistema/ParametrosUsuario.cs:14` | classe ParametrosUsuario |
 | 482 | ParametrosSistema.LocalizaParametros | 22 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:114` |  |
 | 504 | ParametrosSistema.Parametros | 14 | Mesmo nome | `Petrus.Financeiro/Classes/EnvioBoletos.cs:67` | classe EnvioBoletos |
 | 518 | ParametrosSistema.LocalizaParametrosBoolean | 22 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:156` |  |
 | 540 | ParametrosSistema.LocalizaParametrosInt | 32 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:119` |  |
-| 572 | ParametrosSistema.LocalizaParametrosDecimal | 32 | **Falta** |  |  |
+| 572 | ParametrosSistema.LocalizaParametrosDecimal | 32 | Equivalente | `Petrus.Core/Ajustes/CatalogoGeral.cs:84` | parâmetros (N3_VALOR_MINIMO, JurosPerfil) lidos pelo Web |
 | 605 | ParametrosSistema.ParametrosBoolean | 14 | Citado (conferir) | `Petrus.Core/Ajustes/CatalogoGeral.cs:128` |  |
 | 621 | ParametrosSistema.ParametrosInt | 23 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:132` |  |
-| 644 | ParametrosSistema.ParametrosDecimal | 23 | **Falta** |  |  |
+| 644 | ParametrosSistema.ParametrosDecimal | 23 | Equivalente | `Petrus.Core/Ajustes/CatalogoGeral.cs:84` |  |
 | 669 | ParametrosSistema.HistoricoStatus | 98 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:56` | classe EventosNFe |
 | 768 | ParametrosSistema.HistoricoStatusConnected | 101 | Equivalente | `Petrus.Core/Acoes/Banco.cs:86` | GravarHistoricoStatusAsync |
 
@@ -46,7 +46,7 @@ Voltar: [[de-para/README|De → para]]
 | 143 | ParametrosUsuario.LocalizaParametros | 22 | Mesmo nome | `Petrus.Core/Sistema/ParametrosUsuario.cs:56` |  |
 | 165 | ParametrosUsuario.LocalizaParametrosBoolean | 22 | Mesmo nome | `Petrus.Core/Sistema/ParametrosUsuario.cs:66` |  |
 | 187 | ParametrosUsuario.LocalizaParametrosInt | 32 | Mesmo nome | `Petrus.Core/Sistema/ParametrosUsuario.cs:73` |  |
-| 219 | ParametrosUsuario.LocalizaParametrosDecimal | 32 | **Falta** |  |  |
+| 219 | ParametrosUsuario.LocalizaParametrosDecimal | 32 | Equivalente | `Petrus.Core/Ajustes/CatalogoGeral.cs:84` |  |
 
 ## `Sistema/Classes/UsuariosSistema.cs`
 
@@ -687,19 +687,19 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 31 | frmAcessoRapido.btnOK_Click | 103 | **Falta (form)** |  | frmAcessoRapido; evento de tela |
-| 135 | frmAcessoRapido.btnCancelar_Click | 4 | **Falta (form)** |  | frmAcessoRapido; evento de tela |
-| 140 | frmAcessoRapido.frmAcessoRapido_Load | 53 | **Falta (form)** |  | frmAcessoRapido; evento de tela |
-| 194 | frmAcessoRapido.cbbInterface_SelectedIndexChanged | 43 | **Falta (form)** |  | frmAcessoRapido; evento de tela |
+| 31 | frmAcessoRapido.btnOK_Click | 103 | Via form | `ERPBlazor/Components/Pages/Home.razor:60` | frmAcessoRapido |
+| 135 | frmAcessoRapido.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Home.razor:60` | frmAcessoRapido |
+| 140 | frmAcessoRapido.frmAcessoRapido_Load | 53 | Via form | `ERPBlazor/Components/Pages/Home.razor:60` | frmAcessoRapido |
+| 194 | frmAcessoRapido.cbbInterface_SelectedIndexChanged | 43 | Via form | `ERPBlazor/Components/Pages/Home.razor:60` | frmAcessoRapido |
 
 ## `Sistema/Interfaces/frmAssistente.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 28 | frmAssistente.frmLog_Load | 33 | **Falta (form)** |  | frmAssistente; evento de tela |
-| 63 | frmAssistente.btnOK_Click | 4 | **Falta (form)** |  | frmAssistente; evento de tela |
-| 68 | frmAssistente.btnSuporte_Click | 4 | **Falta (form)** |  | frmAssistente; evento de tela |
-| 73 | frmAssistente.btnOK_KeyDown | 7 | **Falta (form)** |  | frmAssistente; evento de tela |
+| 28 | frmAssistente.frmLog_Load | 33 | Não se aplica | `ERPBlazor/Components/Pages/ProgressBar.razor:1` | assistente de progresso das funções |
+| 63 | frmAssistente.btnOK_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/ProgressBar.razor:1` | assistente de progresso das funções |
+| 68 | frmAssistente.btnSuporte_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/ProgressBar.razor:1` | assistente de progresso das funções |
+| 73 | frmAssistente.btnOK_KeyDown | 7 | Não se aplica | `ERPBlazor/Components/Pages/ProgressBar.razor:1` | assistente de progresso das funções |
 
 ## `Sistema/Interfaces/frmAuditoria.cs`
 
@@ -877,37 +877,37 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 107 | frmDashboard.CreateControls | 807 | Citado (conferir) | `Petrus.Core/Sistema/AcessoRapido.cs:12` |  |
-| 915 | frmDashboard.BtnLink_Click | 4 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 922 | frmDashboard.BtnMargo_Click | 31 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 954 | frmDashboard.BtnFiltro_Click | 57 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1015 | frmDashboard.BtnPeriodo_Click | 86 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1103 | frmDashboard.frmInicio_Load | 11 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1115 | frmDashboard.BtnNothing_Click | 6 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1153 | frmDashboard.CarregaGrafico | 393 | Citado (conferir) | `ERPBlazor/Components/Pages/Report.razor:153` |  |
-| 1548 | frmDashboard.backgroundWorker1_DoWork | 4 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1557 | frmDashboard.diaToolStripMenuItem_Click | 20 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1578 | frmDashboard.semanaToolStripMenuItem_Click | 20 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1599 | frmDashboard.mêsToolStripMenuItem_Click | 21 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1621 | frmDashboard.anoToolStripMenuItem_Click | 20 | **Falta (form)** |  | frmDashboard; evento de tela |
-| 1642 | frmDashboard.frmDashboard_FormClosing | 19 | **Falta (form)** |  | frmDashboard; evento de tela |
+| 107 | frmDashboard.CreateControls | 807 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 915 | frmDashboard.BtnLink_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 922 | frmDashboard.BtnMargo_Click | 31 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 954 | frmDashboard.BtnFiltro_Click | 57 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1015 | frmDashboard.BtnPeriodo_Click | 86 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1103 | frmDashboard.frmInicio_Load | 11 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1115 | frmDashboard.BtnNothing_Click | 6 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1153 | frmDashboard.CarregaGrafico | 393 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1548 | frmDashboard.backgroundWorker1_DoWork | 4 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1557 | frmDashboard.diaToolStripMenuItem_Click | 20 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1578 | frmDashboard.semanaToolStripMenuItem_Click | 20 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1599 | frmDashboard.mêsToolStripMenuItem_Click | 21 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1621 | frmDashboard.anoToolStripMenuItem_Click | 20 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
+| 1642 | frmDashboard.frmDashboard_FormClosing | 19 | Equivalente | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1` | dashboards do Web (S88–S91), outro desenho |
 
 ## `Sistema/Interfaces/frmEdicaoMassa.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 41 | frmEdicaoMassa.frmEdicaoMassa_Load | 29 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 76 | frmEdicaoMassa.Editar | 118 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:203` | classe MisturaReceitas |
-| 194 | frmEdicaoMassa.btnOK_Click | 5 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 199 | frmEdicaoMassa.Txt_ValidatingRight | 8 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 207 | frmEdicaoMassa.SearchTxt_IconRightClick | 35 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 242 | frmEdicaoMassa.SearchTxt_Validated | 129 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 372 | frmEdicaoMassa.CriarControles | 421 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:141` | classe ReportList |
-| 796 | frmEdicaoMassa.Cbb_Validated | 5 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 804 | frmEdicaoMassa.TxtValidating | 64 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 869 | frmEdicaoMassa.cbbCampo_TextChanged | 3 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 873 | frmEdicaoMassa.cbbCampo_SelectedIndexChanged | 20 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
-| 894 | frmEdicaoMassa.btnCancelar_Click | 4 | **Falta (form)** |  | frmEdicaoMassa; evento de tela |
+| 41 | frmEdicaoMassa.frmEdicaoMassa_Load | 29 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 76 | frmEdicaoMassa.Editar | 118 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 194 | frmEdicaoMassa.btnOK_Click | 5 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 199 | frmEdicaoMassa.Txt_ValidatingRight | 8 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 207 | frmEdicaoMassa.SearchTxt_IconRightClick | 35 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 242 | frmEdicaoMassa.SearchTxt_Validated | 129 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 372 | frmEdicaoMassa.CriarControles | 421 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 796 | frmEdicaoMassa.Cbb_Validated | 5 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 804 | frmEdicaoMassa.TxtValidating | 64 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 869 | frmEdicaoMassa.cbbCampo_TextChanged | 3 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 873 | frmEdicaoMassa.cbbCampo_SelectedIndexChanged | 20 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
+| 894 | frmEdicaoMassa.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` | SS8-143 (sem marca MIGRADO FORM) |
 
 ## `Sistema/Interfaces/frmEmail.cs`
 
@@ -939,65 +939,65 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 34 | frmExportar.frmExportar_Load | 38 | **Falta (form)** |  | frmExportar; evento de tela |
-| 78 | frmExportar.btnEmail_Click | 22 | **Falta (form)** |  | frmExportar; evento de tela |
-| 101 | frmExportar.btnExportar_Click | 24 | **Falta (form)** |  | frmExportar; evento de tela |
-| 126 | frmExportar.btnPDF_Click | 5 | **Falta (form)** |  | frmExportar; evento de tela |
-| 132 | frmExportar.btnImprimir_Click | 6 | **Falta (form)** |  | frmExportar; evento de tela |
-| 139 | frmExportar.btnExcel_Click | 6 | **Falta (form)** |  | frmExportar; evento de tela |
-| 146 | frmExportar.btnRetrato_CheckedChanged | 4 | **Falta (form)** |  | frmExportar; evento de tela |
-| 151 | frmExportar.btnPaisagem_CheckedChanged | 5 | **Falta (form)** |  | frmExportar; evento de tela |
+| 34 | frmExportar.frmExportar_Load | 38 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 78 | frmExportar.btnEmail_Click | 22 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 101 | frmExportar.btnExportar_Click | 24 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 126 | frmExportar.btnPDF_Click | 5 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 132 | frmExportar.btnImprimir_Click | 6 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 139 | frmExportar.btnExcel_Click | 6 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 146 | frmExportar.btnRetrato_CheckedChanged | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
+| 151 | frmExportar.btnPaisagem_CheckedChanged | 5 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1932` | exportar PDF/Excel do Web |
 
 ## `Sistema/Interfaces/frmExportarRelatorio.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 34 | frmExportarRelatorio.frmExportarRelatorio_Load | 145 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 182 | frmExportarRelatorio.btnFechar_Click | 4 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 187 | frmExportarRelatorio.cbbAgrupar_SelectedIndexChanged | 16 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 204 | frmExportarRelatorio.cbbSubagrupar_SelectedIndexChanged | 4 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 209 | frmExportarRelatorio.cbbOrdenar_SelectedIndexChanged | 4 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 214 | frmExportarRelatorio.cbbFiltrarPeriodo_SelectedIndexChanged | 16 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 231 | frmExportarRelatorio.txtTitulo_TextChanged | 4 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 236 | frmExportarRelatorio.btnEnviarEmail_Click | 5 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 242 | frmExportarRelatorio.frmExportarRelatorio_FormClosing | 4 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 247 | frmExportarRelatorio.cbbX_SelectedIndexChanged | 14 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 262 | frmExportarRelatorio.cbbY_SelectedIndexChanged | 14 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 277 | frmExportarRelatorio.cbbTipo_SelectedIndexChanged | 6 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
-| 284 | frmExportarRelatorio.btnCancelar_Click | 4 | **Falta (form)** |  | frmExportarRelatorio; evento de tela |
+| 34 | frmExportarRelatorio.frmExportarRelatorio_Load | 145 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 182 | frmExportarRelatorio.btnFechar_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 187 | frmExportarRelatorio.cbbAgrupar_SelectedIndexChanged | 16 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 204 | frmExportarRelatorio.cbbSubagrupar_SelectedIndexChanged | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 209 | frmExportarRelatorio.cbbOrdenar_SelectedIndexChanged | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 214 | frmExportarRelatorio.cbbFiltrarPeriodo_SelectedIndexChanged | 16 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 231 | frmExportarRelatorio.txtTitulo_TextChanged | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 236 | frmExportarRelatorio.btnEnviarEmail_Click | 5 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 242 | frmExportarRelatorio.frmExportarRelatorio_FormClosing | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 247 | frmExportarRelatorio.cbbX_SelectedIndexChanged | 14 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 262 | frmExportarRelatorio.cbbY_SelectedIndexChanged | 14 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 277 | frmExportarRelatorio.cbbTipo_SelectedIndexChanged | 6 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
+| 284 | frmExportarRelatorio.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` | exportar do /Report |
 
 ## `Sistema/Interfaces/frmFiltroAvancado.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 31 | frmFiltroAvancado.SearchTxt_IconRightClick | 29 | **Falta (form)** |  | frmFiltroAvancado; evento de tela |
-| 62 | frmFiltroAvancado.SearchTxt_Validated | 121 | **Falta (form)** |  | frmFiltroAvancado; evento de tela |
-| 185 | frmFiltroAvancado.CreateFields | 388 | Citado (conferir) | `Petrus.Core/Acoes/FiltroAvancado.cs:34` |  |
-| 574 | frmFiltroAvancado.Btn_Click | 33 | **Falta (form)** |  | frmFiltroAvancado; evento de tela |
-| 610 | frmFiltroAvancado.frmFiltroAvancado_Load | 9 | **Falta (form)** |  | frmFiltroAvancado; evento de tela |
-| 621 | frmFiltroAvancado.btnOK_Click | 237 | **Falta (form)** |  | frmFiltroAvancado; evento de tela |
-| 859 | frmFiltroAvancado.btnCancelar_Click | 4 | **Falta (form)** |  | frmFiltroAvancado; evento de tela |
+| 31 | frmFiltroAvancado.SearchTxt_IconRightClick | 29 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
+| 62 | frmFiltroAvancado.SearchTxt_Validated | 121 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
+| 185 | frmFiltroAvancado.CreateFields | 388 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
+| 574 | frmFiltroAvancado.Btn_Click | 33 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
+| 610 | frmFiltroAvancado.frmFiltroAvancado_Load | 9 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
+| 621 | frmFiltroAvancado.btnOK_Click | 237 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
+| 859 | frmFiltroAvancado.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1` | sem marca MIGRADO FORM |
 
 ## `Sistema/Interfaces/frmFiltroRelatorio.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 40 | frmFiltroRelatorio.CreateFields | 492 | Citado (conferir) | `Petrus.Core/Acoes/FiltroAvancado.cs:34` |  |
-| 532 | frmFiltroRelatorio.Txt_ValidatingRight | 5 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 537 | frmFiltroRelatorio.SearchTxt_IconRightClick | 29 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 566 | frmFiltroRelatorio.SearchTxt_Validated | 123 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 690 | frmFiltroRelatorio.frmFiltroRelatorio_Load | 90 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 787 | frmFiltroRelatorio.RestauraMemoria | 10 | **Falta (form)** |  | frmFiltroRelatorio |
-| 798 | frmFiltroRelatorio.AplicaMemoria | 67 | **Falta (form)** |  | frmFiltroRelatorio |
-| 866 | frmFiltroRelatorio.SalvaMemoria | 11 | **Falta (form)** |  | frmFiltroRelatorio |
-| 878 | frmFiltroRelatorio.ColetaMemoria | 36 | **Falta (form)** |  | frmFiltroRelatorio |
-| 926 | Parametro.btnOK_Click | 236 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 1163 | Parametro.btnCancelar_Click | 4 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 1168 | Parametro.RolarParaBaixo | 25 | **Falta (form)** |  | frmFiltroRelatorio |
-| 1194 | Parametro.pnControls_Resize | 4 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 1198 | Parametro.frmFiltroRelatorio_Shown | 4 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 1203 | Parametro.pnControls_ControlAdded | 5 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
-| 1209 | Parametro.Controle_Resize | 4 | **Falta (form)** |  | frmFiltroRelatorio; evento de tela |
+| 40 | frmFiltroRelatorio.CreateFields | 492 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 532 | frmFiltroRelatorio.Txt_ValidatingRight | 5 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 537 | frmFiltroRelatorio.SearchTxt_IconRightClick | 29 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 566 | frmFiltroRelatorio.SearchTxt_Validated | 123 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 690 | frmFiltroRelatorio.frmFiltroRelatorio_Load | 90 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 787 | frmFiltroRelatorio.RestauraMemoria | 10 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 798 | frmFiltroRelatorio.AplicaMemoria | 67 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 866 | frmFiltroRelatorio.SalvaMemoria | 11 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 878 | frmFiltroRelatorio.ColetaMemoria | 36 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 926 | Parametro.btnOK_Click | 236 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 1163 | Parametro.btnCancelar_Click | 4 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 1168 | Parametro.RolarParaBaixo | 25 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 1194 | Parametro.pnControls_Resize | 4 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 1198 | Parametro.frmFiltroRelatorio_Shown | 4 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 1203 | Parametro.pnControls_ControlAdded | 5 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
+| 1209 | Parametro.Controle_Resize | 4 | Parcial | `ERPBlazor/Components/Pages/Report.razor:360` | filtros do relatório |
 
 ## `Sistema/Interfaces/frmInicio.cs`
 
@@ -1756,16 +1756,16 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 34 | frmPeriodo.btnConfirmar_Click | 70 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 105 | frmPeriodo.btnCancelar_Click | 4 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 112 | frmPeriodo.frmPeriodo_Load | 41 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 154 | frmPeriodo.RestauraPeriodoSalvo | 31 | **Falta (form)** |  | frmPeriodo |
-| 186 | frmPeriodo.btnPeriodo_CheckedChanged | 21 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 208 | frmPeriodo.btnMes_CheckedChanged | 13 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 222 | frmPeriodo.btnAno_CheckedChanged | 13 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 236 | frmPeriodo.btnTodoPeriodo_CheckedChanged | 19 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 256 | frmPeriodo.guna2Panel1_Paint | 4 | **Falta (form)** |  | frmPeriodo; evento de tela |
-| 261 | frmPeriodo.btnHoje_CheckedChanged | 18 | **Falta (form)** |  | frmPeriodo; evento de tela |
+| 34 | frmPeriodo.btnConfirmar_Click | 70 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 105 | frmPeriodo.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 112 | frmPeriodo.frmPeriodo_Load | 41 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 154 | frmPeriodo.RestauraPeriodoSalvo | 31 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 186 | frmPeriodo.btnPeriodo_CheckedChanged | 21 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 208 | frmPeriodo.btnMes_CheckedChanged | 13 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 222 | frmPeriodo.btnAno_CheckedChanged | 13 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 236 | frmPeriodo.btnTodoPeriodo_CheckedChanged | 19 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 256 | frmPeriodo.guna2Panel1_Paint | 4 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
+| 261 | frmPeriodo.btnHoje_CheckedChanged | 18 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:360` | período do relatório |
 
 ## `Sistema/Interfaces/frmPetrusIA.cs`
 

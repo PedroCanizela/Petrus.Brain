@@ -1,10 +1,10 @@
 # Métodos: RH (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 41 · Via form: 37 · Citado: 4 · Falta: 3 · Citado (conferir): 2 · Equivalente: 2 · Nome sem Con: 1
+**Situação:** Mesmo nome: 41 · Via form: 37 · Citado: 4 · Equivalente: 3 · Falta: 2 · Citado (conferir): 2 · Nome sem Con: 1
 
 ## `RH/Classes/EntregaEPI.cs`
 
@@ -36,7 +36,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 17 | D10Engine.StatusD10 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:46` |  |
 | 32 | D10Engine.EfetivarD10 | 24 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:117` | classe Funcionarios |
-| 79 | D10Engine.DataAteHoje | 4 | **Falta** |  |  |
+| 79 | D10Engine.DataAteHoje | 4 | Equivalente | `Petrus.RH/Classes/Funcionarios.cs:318` |  |
 | 84 | D10Engine.StatusCalculadoD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:339` | classe Funcionarios |
 | 128 | D10Engine.AtualizaStatusD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:315` | classe Funcionarios |
 | 173 | D10Engine.ExperienciaD10 | 33 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:296` | classe Funcionarios |

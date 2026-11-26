@@ -1,10 +1,10 @@
 # Métodos: Contabilidade (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Falta: 5 · Mesmo nome: 4 · Nome sem Con: 1 · Sem uso no desktop: 1 · Citado: 1 · Nome+Async: 1
+**Situação:** Mesmo nome: 4 · Descartado: 3 · Equivalente: 2 · Nome sem Con: 1 · Sem uso no desktop: 1 · Citado: 1 · Nome+Async: 1
 
 ## `Contabilidade/Classes/Contabil.cs`
 
@@ -17,8 +17,8 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 29 | SPEDFiscal.GerarSPEDFiscal | 1 | **Falta** |  |  |
-| 976 | C190.ExportarSPEDFiscal | 30 | **Falta** |  |  |
+| 29 | SPEDFiscal.GerarSPEDFiscal | 1 | Equivalente | `Petrus.Fiscal/AcoesSped.cs:25` | SpedFiscal.Gerar/Exportar |
+| 976 | C190.ExportarSPEDFiscal | 30 | Equivalente | `Petrus.Fiscal/AcoesSped.cs:25` | SpedFiscal.Gerar/Exportar |
 
 ## `Contabilidade/Engines/L4Engine.cs`
 
@@ -30,9 +30,9 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | L56Engine.ArquivoSuframaR7 | 170 | **Falta** |  |  |
-| 187 | L56Engine.ValidarXmlSuframa | 11 | **Falta** |  |  |
-| 198 | L56Engine.ExportarArquivoL56 | 24 | **Falta** |  |  |
+| 17 | L56Engine.ArquivoSuframaR7 | 170 | Descartado |  | XML Suframa (S39 100177/100225 descartadas) |
+| 187 | L56Engine.ValidarXmlSuframa | 11 | Descartado |  | XML Suframa (S39 100177/100225 descartadas) |
+| 198 | L56Engine.ExportarArquivoL56 | 24 | Descartado |  | XML Suframa (S39 100177/100225 descartadas) |
 
 ## `Contabilidade/Engines/L59Engine.cs`
 

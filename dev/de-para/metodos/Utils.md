@@ -1,10 +1,10 @@
 # Métodos: Utils (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 37 · Não se aplica: 20 · Falta: 9 · Equivalente: 5 · Sem uso no desktop: 5 · Citado: 4 · Citado (conferir): 2 · Parcial: 2 · Nome sem Con: 1
+**Situação:** Mesmo nome: 37 · Não se aplica: 24 · Equivalente: 6 · Sem uso no desktop: 5 · Citado: 4 · Citado (conferir): 2 · Em branch: 2 · Falta: 2 · Parcial: 2 · Nome sem Con: 1
 
 ## `Utils/AppSetting.cs`
 
@@ -37,7 +37,7 @@ Voltar: [[de-para/README|De → para]]
 | 146 | Funcoes.SenhaSomenteHash | 6 | Citado (conferir) | `Petrus.Core/Sistema/Senha.cs:15` |  |
 | 157 | Funcoes.ConferirLogin | 22 | Equivalente | `ERPBlazor/Components/Pages/Login.razor:1` | S2_SENHA_HASH igual ao Web (SS8-272) |
 | 185 | Funcoes.GravarSenhaS2 | 23 | Equivalente | `ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1` | SS8-272 |
-| 229 | Funcoes.UTF8_to_ISO | 11 | **Falta** |  |  |
+| 229 | Funcoes.UTF8_to_ISO | 11 | Não se aplica |  |  |
 | 241 | Funcoes.ParametroDataGrid | 9 | Citado | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:640` |  |
 | 251 | Funcoes.RolagemSfDataGrid | 27 | Não se aplica |  |  |
 | 298 | Funcoes.RetornaConnection | 10 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:197` | classe TokenSessao |
@@ -52,7 +52,7 @@ Voltar: [[de-para/README|De → para]]
 | 435 | Funcoes.GetDataTable | 5 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:39` |  |
 | 443 | Funcoes.BloquearRecurso | 23 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` | Web gera ID com UPDLOCK/HOLDLOCK (SS8-199) |
 | 467 | Funcoes.LiberarRecurso | 26 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` | SS8-199 |
-| 493 | Funcoes.GetParametrizedDataTable | 25 | **Falta** |  |  |
+| 493 | Funcoes.GetParametrizedDataTable | 25 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` |  |
 | 521 | Funcoes.CarregaDados | 377 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
 | 903 | Funcoes.LimpaCampos | 78 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1087` | classe StatusCadastro |
 | 981 | Funcoes.FormataCampos | 80 | Mesmo nome | `Petrus.Boleto/Boleto/Boleto.cs:685` | classe Boleto |
@@ -69,17 +69,17 @@ Voltar: [[de-para/README|De → para]]
 | 5470 | Funcoes.GerarConexaoTabelaMassa | 870 | Parcial | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | SS8-221 |
 | 6340 | Funcoes.VerificaIDCon | 75 | Nome sem Con | `Petrus.Core/Utils/Funcoes.cs:233` | classe TokenSessao |
 | 6416 | Funcoes.VerificaID | 76 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:233` | classe TokenSessao |
-| 6492 | Funcoes.GerarNroPersonalizado | 78 | **Falta** |  |  |
-| 6571 | Funcoes.GerarNroPersonalizadoCon | 78 | **Falta** |  |  |
+| 6492 | Funcoes.GerarNroPersonalizado | 78 | **Falta** |  | número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*) |
+| 6571 | Funcoes.GerarNroPersonalizadoCon | 78 | **Falta** |  | idem |
 | 6651 | Funcoes.GerarID | 103 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:260` | classe TokenSessao |
-| 6755 | Funcoes.GerarPreID | 20 | **Falta** |  |  |
+| 6755 | Funcoes.GerarPreID | 20 | Não se aplica |  | pré-registro do Novo do WinForms |
 | 6775 | Funcoes.GetEmpresa | 51 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:408` | classe Helpers |
 | 6827 | Funcoes.VirtualDataTable | 156 | Não se aplica |  | grade virtual do WinForms |
 | 6983 | Funcoes.GetVirtualDataTable | 160 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:98` | classe Helpers |
 | 7144 | Funcoes.CarregaGrid | 533 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:823` | classe CampoPesquisa |
 | 7678 | Funcoes.GetDataTableVirtual | 313 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:263` | classe Helpers |
 | 7992 | Funcoes.CarregaPesquisa | 489 | Citado | `ERPBlazor/Components/Pages/Table.razor:859` |  |
-| 8486 | Funcoes.FiltroProdutoPedidoCompra | 8 | **Falta** |  |  |
+| 8486 | Funcoes.FiltroProdutoPedidoCompra | 8 | Equivalente | `Petrus.Core/Acoes/PesquisaInterface.cs:69` | I14_PRODUTO |
 | 8495 | Funcoes.Novo | 670 | Mesmo nome | `ERPBlazor/Components/Pages/MES/Roteiros.razor:238` | classe Roteiros |
 | 9165 | Funcoes.Importar | 315 | Mesmo nome | `Petrus.Core/Acoes/ImportacaoExcel.cs:171` | classe ImportacaoExcel |
 | 9481 | Funcoes.ImportarSemIdentificador | 329 | Mesmo nome | `Petrus.Core/Acoes/ImportacaoExcel.cs:175` | classe ImportacaoExcel |
@@ -99,7 +99,7 @@ Voltar: [[de-para/README|De → para]]
 | 10986 | Funcoes.RandomString | 6 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:177` |  |
 | 10992 | Funcoes.RandomNumber | 6 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 10999 | Funcoes.FormatNumber | 6 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:134` | classe TokenSessao |
-| 11005 | Funcoes.FormatDouble | 6 | **Falta** |  |  |
+| 11005 | Funcoes.FormatDouble | 6 | Não se aplica |  |  |
 
 ## `Utils/Mensagens.cs`
 
@@ -116,8 +116,8 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 44 | DOCINFOA.SendStringToPrinter | 17 | **Falta** |  |  |
-| 62 | DOCINFOA.SendBytesToPrinter | 78 | **Falta** |  |  |
+| 44 | DOCINFOA.SendStringToPrinter | 17 | Em branch |  | impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada |
+| 62 | DOCINFOA.SendBytesToPrinter | 78 | Em branch |  | impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada |
 
 ## `Utils/TotalMinutesAggregate.cs`
 

@@ -122,3 +122,73 @@ Financeiro/Engines/N9Engine.cs;*;AgendarN9;Descartado;;só o frmAgendamentoPagFo
 Metodos/CloudflareR2.cs;*;*;Em branch;;feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada
 Metodos/GerarEtiquetas.cs;*;*;Em branch;;feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada
 Sistema/Interfaces/frmComando.cs;*;*;Em branch;;claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada
+Custos/Engines/CalculoFolha.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Custos/MaoObra.razor:27;INSS/FGTS/provisões na mão de obra (conferir fórmulas)
+Estoque/Engines/G36Engine.cs;*;CalculaG36;Equivalente;Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13;Grid() do G6 (SS8-265)
+Estoque/Engines/G48Engine.cs;*;CalculaG48;Equivalente;Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13;Grid() do G6 (SS8-265)
+Estoque/Engines/G50Engine.cs;*;CalculaG50;Equivalente;Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13;Grid() do G6 (SS8-265)
+Financeiro/Classes/ContasPagar.cs;*;EstornarContasN13;Equivalente;Petrus.Financeiro/AcoesFinanceiro.cs:199;EstornarPagamentoN13
+Financeiro/Classes/ContasReceber.cs;*;EstornarContasN43;Equivalente;Petrus.Financeiro/AcoesFinanceiro.cs:256;EstornarRecebimentoN43
+Financeiro/Classes/ContasReceber.cs;*;WhatsAppEnviadoN22;Equivalente;Petrus.Financeiro/Classes/EnvioBoletos.cs:31;N22_ENVIADO_WHATSAPP depois do envio
+Financeiro/Classes/ContasReceber.cs;*;EmailEnviadoN22;Equivalente;Petrus.Financeiro/Classes/EnvioBoletos.cs:31;N22_ENVIADO depois do envio
+Financeiro/Engines/N98Engine.cs;*;ConcluirN98;Equivalente;Petrus.Financeiro/Engines/N98Engine.cs:15;status do cheque na compensação
+Financeiro/Engines/N9Engine.cs;*;CalculaAtrasoN9;Conferir;ERPBlazor/Components/Pages/Report.razor:1037;desktop calcula N9_DIAS_ATRASO ao listar; Web tem a regra do N22 no /Report
+Financeiro/Engines/N47Engine.cs;*;CriarN47;Falta;;só o Importar Easy e o frmCondPagto usam
+Vendas/Engines/R2Engine.cs;*;CriarR2;Falta;;Importar Easy (importação de outro sistema) e LerXML do frmInterface
+Vendas/Engines/R47Engine.cs;*;CriarR47;Falta;;Importar Easy e LerXML
+Vendas/Engines/R48Engine.cs;*;CriarR48;Falta;;Importar Easy
+Vendas/Engines/R2Engine.cs;*;EmailR2;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:38;
+Vendas/Engines/R4Engine.cs;*;EmailR4;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:46;
+Logistica/Engines/J2Engine.cs;*;EmailJ2;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:41;
+Sistema/Classes/ParametrosSistema.cs;*;EmailS1;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:52;
+Sistema/Classes/ParametrosSistema.cs;*;LocalizaParametrosDecimal;Equivalente;Petrus.Core/Ajustes/CatalogoGeral.cs:84;parâmetros (N3_VALOR_MINIMO, JurosPerfil) lidos pelo Web
+Sistema/Classes/ParametrosSistema.cs;*;ParametrosDecimal;Equivalente;Petrus.Core/Ajustes/CatalogoGeral.cs:84;
+Sistema/Classes/ParametrosUsuario.cs;*;LocalizaParametrosDecimal;Equivalente;Petrus.Core/Ajustes/CatalogoGeral.cs:84;
+Sistema/Classes/ParametrosSistema.cs;*;SalvaPreferencias;Parcial;ERPBlazor/Components/Pages/Report.razor:360;Web guarda só o período (SessionStorage); o desktop guarda os filtros do relatório no S84
+Sistema/Interfaces/frmFiltroRelatorio.cs;*;*;Parcial;ERPBlazor/Components/Pages/Report.razor:360;filtros do relatório; memória dos filtros só do período
+Sistema/Interfaces/frmPeriodo.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Report.razor:360;período do relatório
+Sistema/Interfaces/frmEdicaoMassa.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Table.razor:1260;SS8-143 (sem marca MIGRADO FORM)
+Sistema/Interfaces/frmFiltroAvancado.cs;*;*;Equivalente;ERPBlazor/Components/Shared/FiltroAvancadoDialog.razor:1;sem marca MIGRADO FORM
+Sistema/Interfaces/frmExportar.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Details.razor:1932;exportar PDF/Excel do Web
+Sistema/Interfaces/frmExportarRelatorio.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Report.razor:1;exportar do /Report
+Sistema/Interfaces/frmDashboard.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:1;dashboards do Web (S88–S91), outro desenho
+Sistema/Interfaces/frmAssistente.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/ProgressBar.razor:1;assistente de progresso das funções
+Metodos/CriarPDF.cs;*;*;Equivalente;Petrus.Core/Acoes/PdfRegistro.cs:1;PDF do registro/relatório
+Financeiro/Interfaces/frmMoedaPagamento.cs;*;*;Equivalente;ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1;SS8-151
+Financeiro/Interfaces/frmWhatsAppConta.cs;*;*;Equivalente;ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5;escolha da conta SX5
+Fiscal/Interfaces/frmEventosNFe.cs;*;*;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:200;SS8-165
+Fiscal/Interfaces/frmNovoEventoNFe.cs;*;*;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:200;SS8-165
+Vendas/Interfaces/frmCortarItens.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:37;Cortar itens da aba
+Vendas/Interfaces/frmMetaVendas.cs;*;*;Falta;;metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente)
+Compras/Interfaces/frmMetasResponsavel.cs;*;*;Falta;;metas por responsável (form sem chamada achada no desktop)
+Vendas/Interfaces/frmCliente.cs;*;*;Falta;;atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre)
+Vendas/Interfaces/frmCondPagto.cs;*;*;Falta;;atalho do frmInterface para condição de pagamento (conferir se a lupa cobre)
+Logistica/Interfaces/frmTransportadora.cs;*;*;Falta;;atalho do frmInterface para transportadora (conferir se a lupa cobre)
+Logistica/Interfaces/frmPedidosXProduto.cs;*;*;Falta;;pedidos do produto, aberto no frmInterface (conferir)
+Contabilidade/Classes/SPEDFiscal.cs;*;*;Equivalente;Petrus.Fiscal/AcoesSped.cs:25;SpedFiscal.Gerar/Exportar
+Contabilidade/Engines/L56Engine.cs;*;*;Descartado;;XML Suframa (S39 100177/100225 descartadas)
+Core/Engines/S2Engine.cs;*;VersaoS2;Não se aplica;;versão do executável do desktop
+Core/Utils/Email.cs;*;*;Não se aplica;;validação de e-mail do WinForms
+Utils/Funcoes.cs;*;GerarNroPersonalizado;Falta;;número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*)
+Utils/Funcoes.cs;*;GerarNroPersonalizadoCon;Falta;;idem
+Utils/Funcoes.cs;*;GerarPreID;Não se aplica;;pré-registro do Novo do WinForms; o Web grava no fim
+Utils/Funcoes.cs;*;FiltroProdutoPedidoCompra;Equivalente;Petrus.Core/Acoes/PesquisaInterface.cs:69;I14_PRODUTO
+Utils/Funcoes.cs;*;UTF8_to_ISO;Não se aplica;;
+Utils/Funcoes.cs;*;FormatDouble;Não se aplica;;
+Utils/Funcoes.cs;*;GetParametrizedDataTable;Não se aplica;Petrus.Core/Acoes/Banco.cs:1;
+Metodos/EnviosWhatsApp.cs;*;*;Equivalente;Petrus.Core/Acoes/AcoesSistema.cs:17;ligar/desligar/reiniciar WhatsApp (S39 100410/100411)
+Metodos/EtiquetasCadastro.cs;*;*;Em branch;;impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada
+Logistica/Etiqueta/PrintQueue.cs;*;*;Em branch;;feature/ss8-249, não mesclada
+Utils/RawPrinter.cs;*;*;Em branch;;impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada
+Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ArmazenarDanfePasta;Falta;;cópia do DANFE numa pasta da rede (pasta por empresa)
+Fiscal/Manifesto/*;*;ExibirDesign;Não se aplica;;designer do FastReport
+Fiscal/NotaFiscal/DANFE/*;*;ExibirDesign;Não se aplica;;designer do FastReport
+Fiscal/Manifesto/DamdfeFrMDFe.cs;*;*;Conferir;;DAMDFE em FastReport; conferir o DAMDFE do Web
+Fiscal/Manifesto/Configuracao*.cs;*;*;Conferir;;configuração do DAMDFE
+Industrial/Classes/Mistura.cs;*;ConverteDecimal;Não se aplica;;conversão de texto da tela
+Industrial/Classes/OrdensProducao.cs;*;ObterCoresPorNome;Conferir;ERPBlazor/Components/Pages/MES/OrderDetails.razor:1;cores da OP por nome
+Industrial/Classes/OrdensProducao.cs;*;NormalizarNomeCor;Conferir;ERPBlazor/Components/Pages/MES/OrderDetails.razor:1;
+Industrial/Engines/V1Engine.cs;*;PausarV1;Sem uso no desktop;;S39 100338 não implementada no desktop
+Industrial/Engines/V1Engine.cs;*;ReiniciarV1;Sem uso no desktop;;S39 100339 não implementada no desktop
+Industrial/Engines/V21Engine.cs;*;CalcularV21;Sem uso no desktop;;só o ObterV21 chama, e ele está comentado no Grid()
+RH/Engines/D10Engine.cs;*;DataAteHoje;Equivalente;Petrus.RH/Classes/Funcionarios.cs:318;
+Estoque/Interfaces/frmEntregaRequisicao.cs;*;*;Equivalente;ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1;SS8-137 (sem marca MIGRADO FORM)

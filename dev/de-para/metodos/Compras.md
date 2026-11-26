@@ -1,10 +1,10 @@
 # Métodos: Compras (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 35 · Via S39: 32 · Via form: 28 · Equivalente: 7 · Falta (form): 7 · Citado: 5 · Falta: 4 · Citado (conferir): 2 · Sem uso no desktop: 1 · Nome+Async: 1
+**Situação:** Mesmo nome: 32 · Via S39: 32 · Via form: 28 · Falta: 14 · Equivalente: 7 · Citado: 5 · Citado (conferir): 2 · Sem uso no desktop: 1 · Nome+Async: 1
 
 ## `Compras/Classes/Cotacoes.cs`
 
@@ -174,16 +174,16 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 23 | frmMetasResponsavel.frmMetasResponsavel_Load | 10 | **Falta (form)** |  | frmMetasResponsavel; evento de tela |
-| 33 | frmMetasResponsavel.CarregarGrid | 8 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1122` | classe Separacao |
-| 41 | frmMetasResponsavel.sfDataGridMeta_SelectionChanged | 21 | **Falta (form)** |  | frmMetasResponsavel; evento de tela |
-| 65 | frmMetasResponsavel.Metas | 30 | Mesmo nome | `Petrus.Industrial/Reports/RelatoriosMES.cs:602` | classe RelatoriosMES |
-| 95 | frmMetasResponsavel.AtualizarMes | 26 | **Falta (form)** |  | frmMetasResponsavel |
-| 121 | frmMetasResponsavel.InserirMes | 76 | **Falta (form)** |  | frmMetasResponsavel |
-| 197 | frmMetasResponsavel.CarregarDados | 74 | Mesmo nome | `ERPBlazor/Components/Pages/CMMS/OrderMaintenanceEditing.razor:89` | classe OrderMaintenanceEditing |
-| 272 | frmMetasResponsavel.cbbAno_SelectedIndexChanged | 4 | **Falta (form)** |  | frmMetasResponsavel; evento de tela |
-| 277 | frmMetasResponsavel.btnOK_Click | 49 | **Falta (form)** |  | frmMetasResponsavel; evento de tela |
-| 327 | frmMetasResponsavel.btnCancelar_Click | 4 | **Falta (form)** |  | frmMetasResponsavel; evento de tela |
+| 23 | frmMetasResponsavel.frmMetasResponsavel_Load | 10 | **Falta** |  | metas por responsável (form sem chamada achada no desktop); evento de tela |
+| 33 | frmMetasResponsavel.CarregarGrid | 8 | **Falta** |  | metas por responsável (form sem chamada achada no desktop) |
+| 41 | frmMetasResponsavel.sfDataGridMeta_SelectionChanged | 21 | **Falta** |  | metas por responsável (form sem chamada achada no desktop); evento de tela |
+| 65 | frmMetasResponsavel.Metas | 30 | **Falta** |  | metas por responsável (form sem chamada achada no desktop) |
+| 95 | frmMetasResponsavel.AtualizarMes | 26 | **Falta** |  | metas por responsável (form sem chamada achada no desktop) |
+| 121 | frmMetasResponsavel.InserirMes | 76 | **Falta** |  | metas por responsável (form sem chamada achada no desktop) |
+| 197 | frmMetasResponsavel.CarregarDados | 74 | **Falta** |  | metas por responsável (form sem chamada achada no desktop) |
+| 272 | frmMetasResponsavel.cbbAno_SelectedIndexChanged | 4 | **Falta** |  | metas por responsável (form sem chamada achada no desktop); evento de tela |
+| 277 | frmMetasResponsavel.btnOK_Click | 49 | **Falta** |  | metas por responsável (form sem chamada achada no desktop); evento de tela |
+| 327 | frmMetasResponsavel.btnCancelar_Click | 4 | **Falta** |  | metas por responsável (form sem chamada achada no desktop); evento de tela |
 
 ## `Compras/Interfaces/frmPerfilFornecedor.cs`
 

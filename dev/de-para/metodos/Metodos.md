@@ -1,10 +1,10 @@
 # Métodos: Metodos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Não se aplica: 32 · Em branch: 23 · Mesmo nome: 22 · Citado (conferir): 20 · Falta: 12 · Citado: 9 · Nome+Async: 6 · Equivalente: 1
+**Situação:** Em branch: 42 · Equivalente: 34 · Não se aplica: 32 · Mesmo nome: 6 · Citado: 6 · Citado (conferir): 4 · Falta: 1
 
 ## `Metodos/CloudflareR2.cs`
 
@@ -58,25 +58,25 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 40 | CriarPDF.AddTop | 212 | Mesmo nome | `Petrus.Core/Acoes/PdfRegistro.cs:731` | classe Gerador |
-| 253 | CriarPDF.AddTopPersonalizado | 190 | Citado (conferir) | `Petrus.Core/Acoes/PdfRegistro.cs:285` |  |
-| 444 | CriarPDF.AddTopRelatorio | 282 | **Falta** |  |  |
-| 732 | CriarPDF.AddGrid | 1958 | Mesmo nome | `Petrus.Core/Acoes/PdfRegistro.cs:827` | classe Gerador |
-| 2691 | CriarPDF.AddSignature | 630 | Mesmo nome | `Petrus.Core/Acoes/PdfRegistro.cs:966` | classe Gerador |
-| 3322 | CriarPDF.AddBottom | 80 | Mesmo nome | `Petrus.Core/Acoes/PdfRegistro.cs:1123` | classe Gerador |
-| 3402 | CriarPDF.QuebrarTexto | 35 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:460` | classe EtiquetasCadastro |
-| 3437 | CriarPDF.AddDetails | 576 | Mesmo nome | `Petrus.Core/Acoes/PdfRegistro.cs:1147` | classe Gerador |
-| 4013 | CriarPDF.ExportarRelatorio | 1 | Citado | `ERPBlazor/Components/Pages/Report.razor:38` |  |
-| 4575 | CriarPDF.ExportarTabelaFotos | 296 | Citado (conferir) | `Petrus.Vendas/Classes/TabelasPreco.cs:15` |  |
-| 4872 | CriarPDF.ExportarTabelaFotosGrupo | 651 | Citado (conferir) | `Petrus.Vendas/Classes/TabelasPreco.cs:16` |  |
-| 5523 | CriarPDF.ExportarFeirinha | 393 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:23` |  |
-| 5918 | CriarPDF.PdfGrid_BeginCellLayout | 33 | **Falta** |  | evento de tela |
-| 5951 | CriarPDF.Table_EndCellLayoutTabela | 60 | **Falta** |  | evento de tela |
-| 6012 | CriarPDF.Table_EndCellLayout | 57 | **Falta** |  | evento de tela |
-| 6069 | CriarPDF.CartaIsencaoR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:328` | classe PedidosVenda |
-| 6317 | CriarPDF.TermoResponsabilidadeR13 | 129 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:259` | classe PedidosVenda |
-| 6451 | CriarPDF.ExportarPersonalizado | 1 | Citado | `Petrus.Core/Acoes/PdfRegistro.cs:85` |  |
-| 6672 | CriarPDF.Exportar | 1 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/ShippingProducts.razor:275` | classe ShippingProducts |
+| 40 | CriarPDF.AddTop | 212 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 253 | CriarPDF.AddTopPersonalizado | 190 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 444 | CriarPDF.AddTopRelatorio | 282 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 732 | CriarPDF.AddGrid | 1958 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 2691 | CriarPDF.AddSignature | 630 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 3322 | CriarPDF.AddBottom | 80 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 3402 | CriarPDF.QuebrarTexto | 35 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 3437 | CriarPDF.AddDetails | 576 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 4013 | CriarPDF.ExportarRelatorio | 1 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 4575 | CriarPDF.ExportarTabelaFotos | 296 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 4872 | CriarPDF.ExportarTabelaFotosGrupo | 651 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 5523 | CriarPDF.ExportarFeirinha | 393 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 5918 | CriarPDF.PdfGrid_BeginCellLayout | 33 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 5951 | CriarPDF.Table_EndCellLayoutTabela | 60 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 6012 | CriarPDF.Table_EndCellLayout | 57 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 6069 | CriarPDF.CartaIsencaoR13 | 1 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 6317 | CriarPDF.TermoResponsabilidadeR13 | 129 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 6451 | CriarPDF.ExportarPersonalizado | 1 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
+| 6672 | CriarPDF.Exportar | 1 | Equivalente | `Petrus.Core/Acoes/PdfRegistro.cs:1` | PDF do registro/relatório |
 
 ## `Metodos/EnviosEmail.cs`
 
@@ -97,44 +97,44 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 38 | ParametrosWhatsApp.PrepararEnvioWhatsAppAsync | 1 | Citado (conferir) | `Petrus.Core/Utils/EnvioWhatsApp.cs:123` |  |
-| 106 | ParametrosWhatsApp.ObterCodigoWhatsApp | 19 | **Falta** |  |  |
-| 125 | ParametrosWhatsApp.LigarWhatsApp | 15 | **Falta** |  |  |
-| 140 | ParametrosWhatsApp.DesligarWhatsApp | 15 | **Falta** |  |  |
-| 155 | ParametrosWhatsApp.ReiniciarWhatsApp | 15 | **Falta** |  |  |
-| 171 | ParametrosWhatsApp.EnviarWhatsApp | 106 | Mesmo nome | `Petrus.Financeiro/Classes/EnvioBoletos.cs:201` | classe EnvioBoletos |
-| 277 | ParametrosWhatsApp.ObterStatusInstancia | 25 | Citado (conferir) | `Petrus.Core/Utils/WhatsAppZapster.cs:51` |  |
-| 302 | ParametrosWhatsApp.ObterQrCode | 15 | Citado (conferir) | `Petrus.Core/Utils/WhatsAppZapster.cs:63` |  |
-| 317 | ParametrosWhatsApp.ObterCodigoPareamentoInstancia | 34 | Citado (conferir) | `Petrus.Core/Utils/WhatsAppZapster.cs:74` |  |
-| 351 | ParametrosWhatsApp.LigarInstancia | 14 | Citado (conferir) | `Petrus.Core/Utils/WhatsAppZapster.cs:86` |  |
-| 365 | ParametrosWhatsApp.DesligarInstancia | 20 | Citado (conferir) | `Petrus.Core/Utils/WhatsAppZapster.cs:90` |  |
-| 385 | ParametrosWhatsApp.ReiniciarInstancia | 20 | Citado (conferir) | `Petrus.Core/Utils/WhatsAppZapster.cs:94` |  |
-| 405 | ParametrosWhatsApp.EnvioWhatsApp | 79 | Citado (conferir) | `Petrus.Financeiro/Classes/EnvioBoletos.cs:331` |  |
-| 485 | ParametrosWhatsApp.PreparaEnvioBoleto | 1 | Citado (conferir) | `Petrus.Financeiro/Classes/EnvioBoletos.cs:28` |  |
+| 38 | ParametrosWhatsApp.PrepararEnvioWhatsAppAsync | 1 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 106 | ParametrosWhatsApp.ObterCodigoWhatsApp | 19 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 125 | ParametrosWhatsApp.LigarWhatsApp | 15 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 140 | ParametrosWhatsApp.DesligarWhatsApp | 15 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 155 | ParametrosWhatsApp.ReiniciarWhatsApp | 15 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 171 | ParametrosWhatsApp.EnviarWhatsApp | 106 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 277 | ParametrosWhatsApp.ObterStatusInstancia | 25 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 302 | ParametrosWhatsApp.ObterQrCode | 15 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 317 | ParametrosWhatsApp.ObterCodigoPareamentoInstancia | 34 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 351 | ParametrosWhatsApp.LigarInstancia | 14 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 365 | ParametrosWhatsApp.DesligarInstancia | 20 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 385 | ParametrosWhatsApp.ReiniciarInstancia | 20 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 405 | ParametrosWhatsApp.EnvioWhatsApp | 79 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
+| 485 | ParametrosWhatsApp.PreparaEnvioBoleto | 1 | Equivalente | `Petrus.Core/Acoes/AcoesSistema.cs:17` | ligar/desligar/reiniciar WhatsApp (S39 100410/100411) |
 
 ## `Metodos/EtiquetasCadastro.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 38 | Operador.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
-| 45 | Operador.Operadores | 13 | Citado (conferir) | `Petrus.Core/Utils/EtiquetaOperador.cs:106` |  |
-| 60 | Operador.OperadorDaOrdem | 5 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:94` | classe EtiquetasCadastro |
-| 85 | Etiqueta.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
-| 109 | Plano.TiposDaTabela | 13 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:47` | classe EtiquetasCadastro |
-| 124 | Plano.EtiquetasDoTipo | 45 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:68` | classe EtiquetasCadastro |
-| 171 | Plano.ImpressoraPadrao | 9 | **Falta** |  |  |
-| 187 | Plano.Gerar | 4 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ComprovanteEventoNFe.cs:22` | classe ComprovanteEventoNFe |
-| 192 | Plano.Gerar | 76 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ComprovanteEventoNFe.cs:22` | classe ComprovanteEventoNFe |
-| 270 | Plano.Visualizar | 20 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
-| 292 | Plano.Imprimir | 38 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
-| 336 | Plano.Lotes | 35 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:491` | classe EtiquetasCadastro |
-| 372 | Plano.LoteVolumes | 16 | Citado (conferir) | `Petrus.Core/Utils/EtiquetasCadastro.cs:127` |  |
-| 390 | Plano.ValoresProduto | 28 | **Falta** |  |  |
-| 419 | Plano.LerProduto | 4 | **Falta** |  |  |
-| 425 | Plano.GerarProduto | 22 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:191` | classe EtiquetasCadastro |
-| 452 | Plano.GerarOrdemProducao | 54 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:239` | classe EtiquetasCadastro |
-| 508 | Plano.GerarVolumesPedido | 239 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:342` | classe EtiquetasCadastro |
-| 752 | Plano.GerarVolumesDocumento | 37 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:425` | classe EtiquetasCadastro |
+| 38 | Operador.ToString | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 45 | Operador.Operadores | 13 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 60 | Operador.OperadorDaOrdem | 5 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 85 | Etiqueta.ToString | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 109 | Plano.TiposDaTabela | 13 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 124 | Plano.EtiquetasDoTipo | 45 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 171 | Plano.ImpressoraPadrao | 9 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 187 | Plano.Gerar | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 192 | Plano.Gerar | 76 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 270 | Plano.Visualizar | 20 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 292 | Plano.Imprimir | 38 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 336 | Plano.Lotes | 35 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 372 | Plano.LoteVolumes | 16 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 390 | Plano.ValoresProduto | 28 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 419 | Plano.LerProduto | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 425 | Plano.GerarProduto | 22 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 452 | Plano.GerarOrdemProducao | 54 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 508 | Plano.GerarVolumesPedido | 239 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 752 | Plano.GerarVolumesDocumento | 37 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
 
 ## `Metodos/ExportarGrid.cs`
 

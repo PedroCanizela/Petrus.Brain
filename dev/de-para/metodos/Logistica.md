@@ -1,10 +1,10 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 21 · Via form: 20 · Falta: 10 · Falta (form): 9 · Via S39: 7 · Citado (conferir): 4 · Citado: 3 · Equivalente: 3 · Sem uso no desktop: 2 · Nome+Async: 1
+**Situação:** Via form: 20 · Mesmo nome: 20 · Falta: 17 · Via S39: 7 · Equivalente: 4 · Citado (conferir): 4 · Citado: 3 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
 
 ## `Logistica/Classes/Expedicoes.cs`
 
@@ -67,7 +67,7 @@ Voltar: [[de-para/README|De → para]]
 | 485 | J2Engine.TelefonesJ2 | 64 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:17` |  |
 | 549 | J2Engine.StatusJ2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:44` |  |
 | 566 | J2Engine.CoordenadasJ2 | 76 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:17` |  |
-| 643 | J2Engine.EmailJ2 | 51 | **Falta** |  |  |
+| 643 | J2Engine.EmailJ2 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:41` |  |
 | 694 | J2Engine.EmailImportacaoJ2 | 267 | **Falta** |  | pendente da SS8-221 |
 
 ## `Logistica/Engines/J40Engine.cs`
@@ -88,8 +88,8 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 25 | PrintQueue.Enfileirar | 4 | Mesmo nome | `Petrus.Hub/Fila/FilaRepositorio.cs:15` | classe ResumoStatus |
-| 30 | PrintQueue.ProcessarFila | 17 | **Falta** |  |  |
+| 25 | PrintQueue.Enfileirar | 4 | Em branch |  | feature/ss8-249, não mesclada |
+| 30 | PrintQueue.ProcessarFila | 17 | Em branch |  | feature/ss8-249, não mesclada |
 
 ## `Logistica/Etiqueta/ZebraPrinter.cs`
 
@@ -138,8 +138,8 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 29 | frmPedidosXProduto.frmPedidosXProduto_Load | 37 | **Falta (form)** |  | frmPedidosXProduto; evento de tela |
-| 70 | frmPedidosXProduto.sfDataGrid_CellButtonClick | 29 | **Falta (form)** |  | frmPedidosXProduto; evento de tela |
+| 29 | frmPedidosXProduto.frmPedidosXProduto_Load | 37 | **Falta** |  | pedidos do produto, aberto no frmInterface (conferir); evento de tela |
+| 70 | frmPedidosXProduto.sfDataGrid_CellButtonClick | 29 | **Falta** |  | pedidos do produto, aberto no frmInterface (conferir); evento de tela |
 
 ## `Logistica/Interfaces/frmPesquisaPedidos.cs`
 
@@ -156,13 +156,13 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 39 | frmTransportadora.sfDataGrid_CellDoubleClick | 8 | **Falta (form)** |  | frmTransportadora; evento de tela |
-| 48 | frmTransportadora.btnConfirmar1_Click | 23 | **Falta (form)** |  | frmTransportadora; evento de tela |
-| 72 | frmTransportadora.btnCancelar1_Click | 4 | **Falta (form)** |  | frmTransportadora; evento de tela |
-| 79 | frmTransportadora.timerPesquisa_Tick | 76 | **Falta (form)** |  | frmTransportadora; evento de tela |
-| 155 | frmTransportadora.txtPesquisa_TextChanged | 10 | **Falta (form)** |  | frmTransportadora; evento de tela |
-| 165 | frmTransportadora.frmTransportadora_Activated | 5 | **Falta (form)** |  | frmTransportadora; evento de tela |
-| 171 | frmTransportadora.frmTransportadora_Shown | 4 | **Falta (form)** |  | frmTransportadora; evento de tela |
+| 39 | frmTransportadora.sfDataGrid_CellDoubleClick | 8 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 48 | frmTransportadora.btnConfirmar1_Click | 23 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 72 | frmTransportadora.btnCancelar1_Click | 4 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 79 | frmTransportadora.timerPesquisa_Tick | 76 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 155 | frmTransportadora.txtPesquisa_TextChanged | 10 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 165 | frmTransportadora.frmTransportadora_Activated | 5 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 171 | frmTransportadora.frmTransportadora_Shown | 4 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
 
 ## `Logistica/Reports/SimulacaoExpedicao.cs`
 

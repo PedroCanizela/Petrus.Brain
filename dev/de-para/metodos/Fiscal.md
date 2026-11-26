@@ -1,10 +1,10 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 121 · Citado (conferir): 17 · Falta (form): 15 · Citado: 7 · Falta: 7 · Via form: 5 · Sem uso no desktop: 4 · Equivalente: 3 · Nome+Async: 2 · Via S39: 1
+**Situação:** Mesmo nome: 108 · Equivalente: 25 · Citado (conferir): 16 · Conferir: 11 · Citado: 7 · Via form: 5 · Falta: 3 · Não se aplica: 2 · Nome+Async: 2 · Sem uso no desktop: 2 · Via S39: 1
 
 ## `Fiscal/Calculos/CalculosImpostos.cs`
 
@@ -64,18 +64,18 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 40 | frmEventosNFe.frmEventosNFe_Load | 20 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 61 | frmEventosNFe.Colunas | 28 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
-| 90 | frmEventosNFe.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:92` | classe ExportarGrid |
-| 102 | frmEventosNFe.CarregarHistorico | 7 | Mesmo nome | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:122` | classe EventosNFeDialog |
-| 110 | frmEventosNFe.sfDataGrid_QueryCellStyle | 13 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 124 | frmEventosNFe.sfDataGrid_SelectionChanged | 4 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 134 | frmEventosNFe.AtualizarBotoes | 10 | Citado (conferir) | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:101` |  |
-| 145 | frmEventosNFe.btnNovo_Click | 24 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 170 | frmEventosNFe.btnCancelar_Click | 37 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 208 | frmEventosNFe.btnComprovante_Click | 23 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 232 | frmEventosNFe.btnXml_Click | 30 | **Falta (form)** |  | frmEventosNFe; evento de tela |
-| 263 | frmEventosNFe.btnFechar_Click | 4 | **Falta (form)** |  | frmEventosNFe; evento de tela |
+| 40 | frmEventosNFe.frmEventosNFe_Load | 20 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 61 | frmEventosNFe.Colunas | 28 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 90 | frmEventosNFe.Texto | 11 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 102 | frmEventosNFe.CarregarHistorico | 7 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 110 | frmEventosNFe.sfDataGrid_QueryCellStyle | 13 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 124 | frmEventosNFe.sfDataGrid_SelectionChanged | 4 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 134 | frmEventosNFe.AtualizarBotoes | 10 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 145 | frmEventosNFe.btnNovo_Click | 24 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 170 | frmEventosNFe.btnCancelar_Click | 37 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 208 | frmEventosNFe.btnComprovante_Click | 23 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 232 | frmEventosNFe.btnXml_Click | 30 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 263 | frmEventosNFe.btnFechar_Click | 4 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
 
 ## `Fiscal/Interfaces/frmInutilizacao.cs`
 
@@ -91,29 +91,29 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 40 | frmNovoEventoNFe.frmNovoEventoNFe_Load | 32 | **Falta (form)** |  | frmNovoEventoNFe; evento de tela |
-| 73 | frmNovoEventoNFe.Colunas | 24 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
-| 98 | frmNovoEventoNFe.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:92` | classe ExportarGrid |
-| 110 | frmNovoEventoNFe.Numero | 15 | Mesmo nome | `Petrus.Core/Relatorios/GraficoRelatorio.cs:107` | classe GraficoRelatorio |
-| 131 | frmNovoEventoNFe.cbbEvento_SelectedIndexChanged | 21 | **Falta (form)** |  | frmNovoEventoNFe; evento de tela |
-| 153 | frmNovoEventoNFe.btnTodos_Click | 7 | **Falta (form)** |  | frmNovoEventoNFe; evento de tela |
-| 161 | frmNovoEventoNFe.sfDataGrid_CurrentCellEndEdit | 30 | **Falta (form)** |  | frmNovoEventoNFe; evento de tela |
-| 192 | frmNovoEventoNFe.ItensSelecionados | 14 | **Falta (form)** |  | frmNovoEventoNFe |
-| 207 | frmNovoEventoNFe.btnEnviar_Click | 56 | **Falta (form)** |  | frmNovoEventoNFe; evento de tela |
-| 264 | frmNovoEventoNFe.btnCancelar_Click | 4 | **Falta (form)** |  | frmNovoEventoNFe; evento de tela |
+| 40 | frmNovoEventoNFe.frmNovoEventoNFe_Load | 32 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 73 | frmNovoEventoNFe.Colunas | 24 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 98 | frmNovoEventoNFe.Texto | 11 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 110 | frmNovoEventoNFe.Numero | 15 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 131 | frmNovoEventoNFe.cbbEvento_SelectedIndexChanged | 21 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 153 | frmNovoEventoNFe.btnTodos_Click | 7 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 161 | frmNovoEventoNFe.sfDataGrid_CurrentCellEndEdit | 30 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 192 | frmNovoEventoNFe.ItensSelecionados | 14 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 207 | frmNovoEventoNFe.btnEnviar_Click | 56 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 264 | frmNovoEventoNFe.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
 
 ## `Fiscal/Manifesto/ConfiguracaoDamdfe.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 50 | ConfiguracaoDamdfe.ObterLogo | 8 | **Falta** |  |  |
+| 50 | ConfiguracaoDamdfe.ObterLogo | 8 | Conferir |  | configuração do DAMDFE |
 
 ## `Fiscal/Manifesto/ConfiguracaoDao.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 23 | ConfiguracaoDao.SalvarConfiguracao | 11 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
-| 35 | ConfiguracaoDao.BuscarConfiguracao | 17 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
+| 23 | ConfiguracaoDao.SalvarConfiguracao | 11 | Conferir |  | configuração do DAMDFE |
+| 35 | ConfiguracaoDao.BuscarConfiguracao | 17 | Conferir |  | configuração do DAMDFE |
 
 ## `Fiscal/Manifesto/CriarMDFe.cs`
 
@@ -126,15 +126,15 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 44 | DamdfeFrMDFe.RegisterData | 5 | **Falta** |  |  |
-| 50 | DamdfeFrMDFe.Configurar | 8 | Mesmo nome | `Petrus.Core/Utils/EnvioWhatsApp.cs:39` | classe EnvioWhatsApp |
-| 63 | DamdfeFrMDFe.Visualizar | 4 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
-| 73 | DamdfeFrMDFe.ExibirDesign | 4 | **Falta** |  |  |
-| 83 | DamdfeFrMDFe.Imprimir | 6 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
-| 94 | DamdfeFrMDFe.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 104 | DamdfeFrMDFe.ExportarPdf | 6 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 116 | DamdfeFrMDFe.ExportarPdf | 8 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 130 | DamdfeFrMDFe.ExportarPdf | 9 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
+| 44 | DamdfeFrMDFe.RegisterData | 5 | Conferir |  | DAMDFE em FastReport |
+| 50 | DamdfeFrMDFe.Configurar | 8 | Conferir |  | DAMDFE em FastReport |
+| 63 | DamdfeFrMDFe.Visualizar | 4 | Conferir |  | DAMDFE em FastReport |
+| 73 | DamdfeFrMDFe.ExibirDesign | 4 | Não se aplica |  | designer do FastReport |
+| 83 | DamdfeFrMDFe.Imprimir | 6 | Conferir |  | DAMDFE em FastReport |
+| 94 | DamdfeFrMDFe.ExportarPdf | 5 | Conferir |  | DAMDFE em FastReport |
+| 104 | DamdfeFrMDFe.ExportarPdf | 6 | Conferir |  | DAMDFE em FastReport |
+| 116 | DamdfeFrMDFe.ExportarPdf | 8 | Conferir |  | DAMDFE em FastReport |
+| 130 | DamdfeFrMDFe.ExportarPdf | 9 | Conferir |  | DAMDFE em FastReport |
 
 ## `Fiscal/Manifesto/EventosMDFe.cs`
 
@@ -228,7 +228,7 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 16 | DanfeFastBase.Visualizar | 4 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
-| 26 | DanfeFastBase.ExibirDesign | 4 | **Falta** |  |  |
+| 26 | DanfeFastBase.ExibirDesign | 4 | Não se aplica |  | designer do FastReport |
 | 36 | DanfeFastBase.Imprimir | 6 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
 | 47 | DanfeFastBase.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
 | 56 | DanfeFastBase.ExportarPdf | 13 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
@@ -285,7 +285,7 @@ Voltar: [[de-para/README|De → para]]
 | 38 | ImpressoesNFe.ExportarXML | 54 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:39` |  |
 | 95 | ImpressoesNFe.ExportarDANFCE | 87 | **Falta** |  | NFC-e (DANFCE) do PDV |
 | 182 | ImpressoesNFe.ExportarDANFE | 155 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
-| 338 | ImpressoesNFe.ArmazenarDanfePasta | 22 | **Falta** |  |  |
+| 338 | ImpressoesNFe.ArmazenarDanfePasta | 22 | **Falta** |  | cópia do DANFE numa pasta da rede (pasta por empresa) |
 | 361 | ImpressoesNFe.ExportarDANFE | 1 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
 | 550 | ImpressoesNFe.ExportarCancelamentoNFe | 110 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:127` |  |
 | 660 | ImpressoesNFe.ExportarCartaCorrecaoNFe | 115 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:127` |  |

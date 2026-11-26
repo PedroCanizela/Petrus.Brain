@@ -1,10 +1,10 @@
 # Métodos: Industrial (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Equivalente: 80 · Via form: 61 · Mesmo nome: 54 · Falta: 6 · Via S7: 6 · Via S39: 4 · Sem uso no desktop: 4 · Citado: 2 · Nome+Async: 2 · Citado (conferir): 1
+**Situação:** Equivalente: 80 · Via form: 61 · Mesmo nome: 54 · Sem uso no desktop: 7 · Via S7: 6 · Via S39: 4 · Conferir: 2 · Nome+Async: 2 · Citado: 2 · Citado (conferir): 1 · Não se aplica: 1
 
 ## `Industrial/Classes/ApontamentosProducao.cs`
 
@@ -27,7 +27,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 22 | Mistura.CalculaVM2 | 83 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.Cadastro.cs:26` |  |
 | 113 | Mistura.CalculaVM5 | 207 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.Cadastro.cs:59` |  |
-| 321 | Mistura.ConverteDecimal | 28 | **Falta** |  |  |
+| 321 | Mistura.ConverteDecimal | 28 | Não se aplica |  | conversão de texto da tela |
 
 ## `Industrial/Classes/Moldes.cs`
 
@@ -43,8 +43,8 @@ Voltar: [[de-para/README|De → para]]
 | 27 | OrdensProducao.CalculaV1 | 131 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:29` |  |
 | 159 | OrdensProducao.ObterV3 | 69 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:171` |  |
 | 230 | OrdensProducao.ObterV21 | 155 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
-| 387 | OrdensProducao.ObterCoresPorNome | 11 | **Falta** |  |  |
-| 400 | OrdensProducao.NormalizarNomeCor | 12 | **Falta** |  |  |
+| 387 | OrdensProducao.ObterCoresPorNome | 11 | Conferir | `ERPBlazor/Components/Pages/MES/OrderDetails.razor:1` | cores da OP por nome |
+| 400 | OrdensProducao.NormalizarNomeCor | 12 | Conferir | `ERPBlazor/Components/Pages/MES/OrderDetails.razor:1` |  |
 | 413 | OrdensProducao.CalculaV27 | 236 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cores.cs:121` |  |
 | 650 | OrdensProducao.CalculaV22 | 140 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 790 | OrdensProducao.CalculaV23 | 170 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:51` |  |
@@ -87,8 +87,8 @@ Voltar: [[de-para/README|De → para]]
 | 195 | V1Engine.EstornarV1 | 55 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:134` | classe OrdensProducao |
 | 251 | V1Engine.ConcluirV1 | 23 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:192` |  |
 | 274 | V1Engine.IniciarV1 | 23 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:237` |  |
-| 297 | V1Engine.PausarV1 | 20 | **Falta** |  |  |
-| 317 | V1Engine.ReiniciarV1 | 20 | **Falta** |  |  |
+| 297 | V1Engine.PausarV1 | 20 | Sem uso no desktop |  | S39 100338 não implementada no desktop |
+| 317 | V1Engine.ReiniciarV1 | 20 | Sem uso no desktop |  | S39 100339 não implementada no desktop |
 | 338 | V1Engine.CancelarV1 | 29 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:215` |  |
 | 368 | V1Engine.LancarEstoqueV1 | 14 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 383 | V1Engine.CriarV1 | 97 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:17` |  |
@@ -97,7 +97,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | V21Engine.CalcularV21 | 24 | **Falta** |  |  |
+| 16 | V21Engine.CalcularV21 | 24 | Sem uso no desktop |  | só o ObterV21 chama, e ele está comentado no Grid() |
 
 ## `Industrial/Engines/VM3Engine.cs`
 

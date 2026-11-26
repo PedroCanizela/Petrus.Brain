@@ -1,10 +1,10 @@
 # Métodos: Estoque (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 52 · Via form: 35 · Citado: 5 · Via S39: 4 · Falta: 3 · Sem uso no desktop: 2 · Citado (conferir): 2
+**Situação:** Mesmo nome: 52 · Via form: 35 · Citado: 5 · Via S39: 4 · Equivalente: 3 · Sem uso no desktop: 2 · Citado (conferir): 2
 
 ## `Estoque/Classes/LocaisEstoque.cs`
 
@@ -58,7 +58,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | G36Engine.CalculaG36 | 12 | **Falta** |  |  |
+| 17 | G36Engine.CalculaG36 | 12 | Equivalente | `Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13` | Grid() do G6 (SS8-265) |
 
 ## `Estoque/Engines/G41Engine.cs`
 
@@ -76,13 +76,13 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | G48Engine.CalculaG48 | 24 | **Falta** |  |  |
+| 16 | G48Engine.CalculaG48 | 24 | Equivalente | `Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13` | Grid() do G6 (SS8-265) |
 
 ## `Estoque/Engines/G50Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | G50Engine.CalculaG50 | 12 | **Falta** |  |  |
+| 16 | G50Engine.CalculaG50 | 12 | Equivalente | `Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13` | Grid() do G6 (SS8-265) |
 
 ## `Estoque/Engines/G6Engine.cs`
 

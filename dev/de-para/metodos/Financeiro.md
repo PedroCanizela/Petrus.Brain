@@ -1,10 +1,10 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Via form: 237 · Mesmo nome: 119 · Descartado: 35 · Via S39: 17 · Citado: 13 · Falta (form): 8 · Falta: 7 · Citado (conferir): 6 · Sem uso no desktop: 4 · Nome+Async: 4 · Equivalente: 4 · Nome+Con: 1
+**Situação:** Via form: 237 · Mesmo nome: 119 · Descartado: 35 · Via S39: 17 · Equivalente: 17 · Citado: 13 · Citado (conferir): 6 · Sem uso no desktop: 4 · Nome+Async: 4 · Falta: 1 · Conferir: 1 · Nome+Con: 1
 
 ## `Financeiro/Classes/Cheques.cs`
 
@@ -29,21 +29,21 @@ Voltar: [[de-para/README|De → para]]
 | 86 | ContasPagar.ReativarN9 | 60 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100124 Reativar título |
 | 148 | ContasPagar.PagarN9 | 366 | Mesmo nome | `Petrus.Financeiro/Classes/ContasPagar.cs:399` |  |
 | 514 | ContasPagar.CancelarN9 | 1 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100091 Cancelar título |
-| 582 | ContasPagar.EstornarContasN13 | 26 | **Falta** |  |  |
+| 582 | ContasPagar.EstornarContasN13 | 26 | Equivalente | `Petrus.Financeiro/AcoesFinanceiro.cs:199` | EstornarPagamentoN13 |
 | 608 | ContasPagar.EstornarContasN9 | 129 | Mesmo nome | `Petrus.Financeiro/Classes/ContasPagar.cs:540` |  |
 
 ## `Financeiro/Classes/ContasReceber.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 28 | ContasReceber.WhatsAppEnviadoN22 | 35 | **Falta** |  |  |
-| 64 | ContasReceber.EmailEnviadoN22 | 35 | **Falta** |  |  |
+| 28 | ContasReceber.WhatsAppEnviadoN22 | 35 | Equivalente | `Petrus.Financeiro/Classes/EnvioBoletos.cs:31` | N22_ENVIADO_WHATSAPP depois do envio |
+| 64 | ContasReceber.EmailEnviadoN22 | 35 | Equivalente | `Petrus.Financeiro/Classes/EnvioBoletos.cs:31` | N22_ENVIADO depois do envio |
 | 99 | ContasReceber.CalculaNX8 | 59 | Citado (conferir) | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:14` |  |
 | 160 | ContasReceber.CalcularNX5 | 75 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:80` |  |
 | 237 | ContasReceber.ReativarN22 | 57 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100123 Reativar título |
 | 295 | ContasReceber.BaixarN22 | 369 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:354` |  |
 | 666 | ContasReceber.CancelarN22 | 1 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100116 Cancelar título |
-| 720 | ContasReceber.EstornarContasN43 | 21 | **Falta** |  |  |
+| 720 | ContasReceber.EstornarContasN43 | 21 | Equivalente | `Petrus.Financeiro/AcoesFinanceiro.cs:256` | EstornarRecebimentoN43 |
 | 742 | ContasReceber.EstornarContasN22 | 19 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:18` | classe N22Engine |
 | 763 | ContasReceber.EnviarCartorioN22 | 48 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100235 Enviar para cartório |
 | 814 | ContasReceber.ReconciliarN22 | 19 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100371 Reconciliar titulo |
@@ -181,7 +181,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | N47Engine.CriarN47 | 79 | **Falta** |  |  |
+| 16 | N47Engine.CriarN47 | 79 | **Falta** |  | só o Importar Easy e o frmCondPagto usam |
 
 ## `Financeiro/Engines/N87Engine.cs`
 
@@ -221,7 +221,7 @@ Voltar: [[de-para/README|De → para]]
 | 14 | N98Engine.StatusN98 | 17 | Mesmo nome | `Petrus.Financeiro/Engines/N98Engine.cs:13` |  |
 | 33 | N98Engine.CriarNN1 | 80 | Mesmo nome | `Petrus.Financeiro/Engines/N98Engine.cs:22` |  |
 | 113 | N98Engine.CriarNN2 | 90 | Mesmo nome | `Petrus.Financeiro/Engines/N98Engine.cs:37` |  |
-| 204 | N98Engine.ConcluirN98 | 25 | **Falta** |  |  |
+| 204 | N98Engine.ConcluirN98 | 25 | Equivalente | `Petrus.Financeiro/Engines/N98Engine.cs:15` | status do cheque na compensação |
 | 229 | N98Engine.DevolverN98 | 25 | Mesmo nome | `Petrus.Financeiro/Engines/N98Engine.cs:55` |  |
 
 ## `Financeiro/Engines/N9Engine.cs`
@@ -232,7 +232,7 @@ Voltar: [[de-para/README|De → para]]
 | 58 | N9Engine.CriarN9 | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:37` |  |
 | 204 | N9Engine.CriarN9Con | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:48` |  |
 | 350 | N9Engine.StatusN9 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:34` |  |
-| 365 | N9Engine.CalculaAtrasoN9 | 71 | **Falta** |  |  |
+| 365 | N9Engine.CalculaAtrasoN9 | 71 | Conferir | `ERPBlazor/Components/Pages/Report.razor:1037` | desktop calcula N9_DIAS_ATRASO ao listar |
 | 437 | N9Engine.CalcularN9 | 81 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:253` | classe RotinasCadastro |
 
 ## `Financeiro/Interfaces/frmAgendamentoPagFor.cs`
@@ -405,10 +405,10 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 25 | frmMoedaPagamento.frmMoedaPagamento_Load | 26 | **Falta (form)** |  | frmMoedaPagamento; evento de tela |
-| 52 | frmMoedaPagamento.txtSaldoMoeda_Validated | 13 | **Falta (form)** |  | frmMoedaPagamento; evento de tela |
-| 66 | frmMoedaPagamento.btnOK_Click | 7 | **Falta (form)** |  | frmMoedaPagamento; evento de tela |
-| 74 | frmMoedaPagamento.btnCancelar_Click | 4 | **Falta (form)** |  | frmMoedaPagamento; evento de tela |
+| 25 | frmMoedaPagamento.frmMoedaPagamento_Load | 26 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
+| 52 | frmMoedaPagamento.txtSaldoMoeda_Validated | 13 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
+| 66 | frmMoedaPagamento.btnOK_Click | 7 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
+| 74 | frmMoedaPagamento.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
 
 ## `Financeiro/Interfaces/frmNotasMultaJuros.cs`
 
@@ -635,10 +635,10 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 23 | frmWhatsAppConta.frmWhatsAppConta_Load | 8 | **Falta (form)** |  | frmWhatsAppConta; evento de tela |
-| 32 | frmWhatsAppConta.sfDataGrid_CellDoubleClick | 6 | **Falta (form)** |  | frmWhatsAppConta; evento de tela |
-| 39 | frmWhatsAppConta.btnConfirmar1_Click | 7 | **Falta (form)** |  | frmWhatsAppConta; evento de tela |
-| 47 | frmWhatsAppConta.btnCancelar1_Click | 4 | **Falta (form)** |  | frmWhatsAppConta; evento de tela |
+| 23 | frmWhatsAppConta.frmWhatsAppConta_Load | 8 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
+| 32 | frmWhatsAppConta.sfDataGrid_CellDoubleClick | 6 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
+| 39 | frmWhatsAppConta.btnConfirmar1_Click | 7 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
+| 47 | frmWhatsAppConta.btnCancelar1_Click | 4 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
 
 ## `Financeiro/Interfaces/frmWhatsAppPareamento.cs`
 

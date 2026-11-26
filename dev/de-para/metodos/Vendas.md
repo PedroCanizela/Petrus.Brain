@@ -1,10 +1,10 @@
 # Métodos: Vendas (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 86 · Via form: 74 · Falta (form): 27 · Falta: 26 · Citado (conferir): 10 · Citado: 9 · Via S39: 9 · Equivalente: 4 · Sem uso no desktop: 3 · Nome+Async: 1 · Nome sem Con: 1
+**Situação:** Mesmo nome: 79 · Via form: 74 · Falta: 49 · Equivalente: 16 · Citado (conferir): 9 · Citado: 9 · Via S39: 9 · Sem uso no desktop: 3 · Nome+Async: 1 · Nome sem Con: 1
 
 ## `Vendas/Classes/Clientes.cs`
 
@@ -108,8 +108,8 @@ Voltar: [[de-para/README|De → para]]
 | 616 | R2Engine.QuadroSocietarioR2 | 38 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:167` | classe RotinasCadastro |
 | 654 | R2Engine.StatusR2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:37` |  |
 | 669 | R2Engine.TelefonesR2 | 64 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.Cadastro.cs:333` |  |
-| 733 | R2Engine.EmailR2 | 51 | **Falta** |  |  |
-| 786 | R2Engine.CriarR2 | 304 | **Falta** |  |  |
+| 733 | R2Engine.EmailR2 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:38` |  |
+| 786 | R2Engine.CriarR2 | 304 | **Falta** |  | Importar Easy (importação de outro sistema) e LerXML do frmInterface |
 
 ## `Vendas/Engines/R38Engine.cs`
 
@@ -129,13 +129,13 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R47Engine.CriarR47 | 84 | **Falta** |  |  |
+| 12 | R47Engine.CriarR47 | 84 | **Falta** |  | Importar Easy e LerXML |
 
 ## `Vendas/Engines/R48Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | R48Engine.CriarR48 | 94 | **Falta** |  |  |
+| 16 | R48Engine.CriarR48 | 94 | **Falta** |  | Importar Easy |
 
 ## `Vendas/Engines/R4Engine.cs`
 
@@ -143,7 +143,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 13 | R4Engine.VincularR4Con | 136 | Nome sem Con | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
 | 150 | R4Engine.VincularR4 | 136 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
-| 287 | R4Engine.EmailR4 | 51 | **Falta** |  |  |
+| 287 | R4Engine.EmailR4 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:46` |  |
 | 339 | R4Engine.TelefonesR4 | 61 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
 | 400 | R4Engine.StatusR4 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:38` |  |
 
@@ -203,38 +203,38 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmCliente.frmCliente_Load | 12 | **Falta (form)** |  | frmCliente; evento de tela |
-| 37 | frmCliente.sfDataGrid_CellDoubleClick | 8 | **Falta (form)** |  | frmCliente; evento de tela |
-| 46 | frmCliente.btnConfirmar1_Click | 23 | **Falta (form)** |  | frmCliente; evento de tela |
-| 70 | frmCliente.btnCancelar1_Click | 4 | **Falta (form)** |  | frmCliente; evento de tela |
-| 76 | frmCliente.timerPesquisa_Tick | 76 | **Falta (form)** |  | frmCliente; evento de tela |
-| 152 | frmCliente.txtPesquisa_TextChanged | 10 | **Falta (form)** |  | frmCliente; evento de tela |
-| 163 | frmCliente.frmCliente_Shown | 4 | **Falta (form)** |  | frmCliente; evento de tela |
+| 24 | frmCliente.frmCliente_Load | 12 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 37 | frmCliente.sfDataGrid_CellDoubleClick | 8 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 46 | frmCliente.btnConfirmar1_Click | 23 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 70 | frmCliente.btnCancelar1_Click | 4 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 76 | frmCliente.timerPesquisa_Tick | 76 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 152 | frmCliente.txtPesquisa_TextChanged | 10 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 163 | frmCliente.frmCliente_Shown | 4 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
 
 ## `Vendas/Interfaces/frmCondPagto.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmCondPagto.Ok | 108 | Mesmo nome | `ERPBlazor/Components/Shared/PerfilClienteJurosDialog.razor:37` | classe PerfilClienteJurosDialog |
-| 132 | frmCondPagto.btnOK_Click | 4 | **Falta (form)** |  | frmCondPagto; evento de tela |
-| 137 | frmCondPagto.frmCondPagto_Load | 19 | **Falta (form)** |  | frmCondPagto; evento de tela |
-| 157 | frmCondPagto.btnCancelar_Click | 4 | **Falta (form)** |  | frmCondPagto; evento de tela |
-| 161 | frmCondPagto.txtParcelas_KeyDown | 7 | **Falta (form)** |  | frmCondPagto; evento de tela |
+| 24 | frmCondPagto.Ok | 108 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre) |
+| 132 | frmCondPagto.btnOK_Click | 4 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
+| 137 | frmCondPagto.frmCondPagto_Load | 19 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
+| 157 | frmCondPagto.btnCancelar_Click | 4 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
+| 161 | frmCondPagto.txtParcelas_KeyDown | 7 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
 
 ## `Vendas/Interfaces/frmCortarItens.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 35 | frmCortarItens.Colunas | 65 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
-| 101 | frmCortarItens.ObterDecimal | 9 | Mesmo nome | `ERPBlazor/Components/Pages/MES/Order.razor:640` | classe Order |
-| 111 | frmCortarItens.Valor | 9 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:88` | classe ExportarGrid |
-| 121 | frmCortarItens.frmCortarItens_Load | 61 | **Falta (form)** |  | frmCortarItens; evento de tela |
-| 183 | frmCortarItens.Calcula | 45 | **Falta (form)** |  | frmCortarItens |
-| 229 | frmCortarItens.MontaCortes | 48 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Itens.cs:164` |  |
-| 278 | frmCortarItens.btnOK_Click | 20 | **Falta (form)** |  | frmCortarItens; evento de tela |
-| 299 | frmCortarItens.btnCancelar_Click | 4 | **Falta (form)** |  | frmCortarItens; evento de tela |
-| 304 | frmCortarItens.sfDataGrid_CurrentCellEndEdit | 4 | **Falta (form)** |  | frmCortarItens; evento de tela |
-| 309 | frmCortarItens.sfDataGrid_RecordDeleted | 4 | **Falta (form)** |  | frmCortarItens; evento de tela |
+| 35 | frmCortarItens.Colunas | 65 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 101 | frmCortarItens.ObterDecimal | 9 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 111 | frmCortarItens.Valor | 9 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 121 | frmCortarItens.frmCortarItens_Load | 61 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 183 | frmCortarItens.Calcula | 45 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 229 | frmCortarItens.MontaCortes | 48 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 278 | frmCortarItens.btnOK_Click | 20 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 299 | frmCortarItens.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 304 | frmCortarItens.sfDataGrid_CurrentCellEndEdit | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 309 | frmCortarItens.sfDataGrid_RecordDeleted | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
 
 ## `Vendas/Interfaces/frmCortesPedido.cs`
 
@@ -325,19 +325,19 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 26 | frmMetaVendas.AdicionarMeta2 | 88 | **Falta (form)** |  | frmMetaVendas |
-| 119 | frmMetaVendas.frmMetaVendas_Load | 10 | **Falta (form)** |  | frmMetaVendas; evento de tela |
-| 129 | frmMetaVendas.CarregarGrid | 8 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1122` | classe Separacao |
-| 139 | frmMetaVendas.Metas | 39 | Mesmo nome | `Petrus.Industrial/Reports/RelatoriosMES.cs:602` | classe RelatoriosMES |
-| 178 | frmMetaVendas.AtualizarMes | 30 | **Falta (form)** |  | frmMetaVendas |
-| 208 | frmMetaVendas.InserirMes | 84 | **Falta (form)** |  | frmMetaVendas |
-| 293 | frmMetaVendas.btnAtualizar_Click | 4 | **Falta (form)** |  | frmMetaVendas; evento de tela |
-| 298 | frmMetaVendas.CarregarDados | 27 | Mesmo nome | `ERPBlazor/Components/Pages/CMMS/OrderMaintenanceEditing.razor:89` | classe OrderMaintenanceEditing |
-| 325 | frmMetaVendas.cbbAno_SelectedIndexChanged | 4 | **Falta (form)** |  | frmMetaVendas; evento de tela |
-| 330 | frmMetaVendas.sfDataGridMeta_SelectionChanged | 21 | **Falta (form)** |  | frmMetaVendas; evento de tela |
-| 352 | frmMetaVendas.txtDezembro_TextChanged | 4 | **Falta (form)** |  | frmMetaVendas; evento de tela |
-| 357 | frmMetaVendas.btnOK_Click | 36 | **Falta (form)** |  | frmMetaVendas; evento de tela |
-| 393 | frmMetaVendas.btnCancelar_Click | 4 | **Falta (form)** |  | frmMetaVendas; evento de tela |
+| 26 | frmMetaVendas.AdicionarMeta2 | 88 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
+| 119 | frmMetaVendas.frmMetaVendas_Load | 10 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 129 | frmMetaVendas.CarregarGrid | 8 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
+| 139 | frmMetaVendas.Metas | 39 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
+| 178 | frmMetaVendas.AtualizarMes | 30 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
+| 208 | frmMetaVendas.InserirMes | 84 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
+| 293 | frmMetaVendas.btnAtualizar_Click | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 298 | frmMetaVendas.CarregarDados | 27 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
+| 325 | frmMetaVendas.cbbAno_SelectedIndexChanged | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 330 | frmMetaVendas.sfDataGridMeta_SelectionChanged | 21 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 352 | frmMetaVendas.txtDezembro_TextChanged | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 357 | frmMetaVendas.btnOK_Click | 36 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 393 | frmMetaVendas.btnCancelar_Click | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
 
 ## `Vendas/Interfaces/frmPerfilVendedor.cs`
 

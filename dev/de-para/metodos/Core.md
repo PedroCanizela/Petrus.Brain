@@ -1,10 +1,10 @@
 # Métodos: Core (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 47 · Citado: 6 · Não se aplica: 5 · Sem uso no desktop: 5 · Citado (conferir): 4 · Via S39: 2 · Descartado: 2 · Falta: 2 · Equivalente: 1
+**Situação:** Mesmo nome: 47 · Não se aplica: 10 · Citado: 6 · Citado (conferir): 4 · Sem uso no desktop: 2 · Via S39: 2 · Descartado: 2 · Equivalente: 1
 
 ## `Core/Engines/S2Engine.cs`
 
@@ -12,7 +12,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 13 | S2Engine.BloquearS2 | 1 | Citado | `Petrus.Core/Acoes/AcoesSistema.cs:7` |  |
 | 49 | S2Engine.ReativarS2 | 25 | Via S39 | `Petrus.Core/Acoes/AcoesSistema.cs:22` | S39 100408 Reativar usuário |
-| 76 | S2Engine.VersaoS2 | 15 | **Falta** |  |  |
+| 76 | S2Engine.VersaoS2 | 15 | Não se aplica |  | versão do executável do desktop |
 | 91 | S2Engine.StatusS2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:45` |  |
 | 106 | S2Engine.BloquearS2 | 23 | Citado | `Petrus.Core/Acoes/AcoesSistema.cs:7` |  |
 | 129 | S2Engine.ReativarS2 | 23 | Via S39 | `Petrus.Core/Acoes/AcoesSistema.cs:22` | S39 100408 Reativar usuário |
@@ -89,10 +89,10 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 9 | Email.EmailValido | 6 | **Falta** |  |  |
-| 15 | Email.IsValidEmail | 12 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
-| 27 | Email.IsValidEmailRegular | 5 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
-| 32 | Email.IsValidDomain | 18 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
+| 9 | Email.EmailValido | 6 | Não se aplica |  | validação de e-mail do WinForms |
+| 15 | Email.IsValidEmail | 12 | Não se aplica |  | validação de e-mail do WinForms |
+| 27 | Email.IsValidEmailRegular | 5 | Não se aplica |  | validação de e-mail do WinForms |
+| 32 | Email.IsValidDomain | 18 | Não se aplica |  | validação de e-mail do WinForms |
 
 ## `Core/Utils/Helpers.cs`
 
