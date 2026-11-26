@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:50 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:52 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -224,6 +224,7 @@ Branches:
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
 - + feature/ss8-235-gaiola-embalagem
+- + feature/ss8-241-op-embalagem
 - + feature/ss8-249-etiqueta-zebra-fotos-r2
 - + feature/ss8-256-diagnostico-chaves
 - + feature/ss8-273-qtd-op-volume
