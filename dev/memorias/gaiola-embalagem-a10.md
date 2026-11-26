@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-26T00:46:13.367Z
 ---
 
-SS8-235 (PRATIC, 25/11/2026, aguardando aprovação; branch `feature/ss8-235-gaiola-embalagem` no Petrus e no Petrus.ERP):
+SS8-235 (PRATIC, concluída e na master em 25/11/2026: merge 978c0b46 no Petrus e 2d386ee no Petrus.ERP; falta rodar Scripts/SS8-235.sql):
 - Tabelas A10 Gaiolas de embalagem (S8 101144, tela 103008, código E00001, com A10_TARA), A11 produtos com A11_QTD
   NUMERIC(18,2) (S8 101145) e A12 histórico com A12_QTD_ANTERIOR/NOVA (S8 101146). S10 123459–123502.
 - Regras do Pedro: tabelas separadas da A7; quantidade movimenta estoque; produto não repete (somar ou substituir);
