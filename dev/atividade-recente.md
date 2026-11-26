@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 17:54 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 19:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -194,7 +194,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 c2da0833 SS8-30: Estrutura de dados do WMS por QR Code (histórico do pacote, conferência e inventário)
 - 2026-11-12 bb84d210 Merge SS8-25: Cadastro de etiquetas (GX4) no Dados.cs
 - 2026-11-12 dc8bcc29 SS8-25: Cadastro de etiquetas (GX4) no Dados.cs
-- 2026-11-12 78d27ff9 Planilha: SS10 (Conferência de backup) e campos GX3 do QR Code
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -218,6 +217,10 @@ Branches:
 - claude/dreamy-driscoll-ea3cff
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
+- + claude/ss8-299-2f9c3e
+- + claude/ss8-302-96847e
+- + claude/ss8-303-d4426e
+- + claude/ss8-304-1e89b6
 - claude/vibrant-heisenberg-962b6b
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
@@ -757,7 +760,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 c836264 Merge SS8-35: Monitor de TV da expedicao (Profiable)
 - 2026-11-12 68a8ef4 SS8-35: Monitor de TV da expedição (Profiable)
 - 2026-11-12 681859f SS8-34: Monitor de produção por célula (MonitorCelula)
-- 2026-11-12 f3232ef Update - Leitura QrCode
 
 ## Petrus.FV
 Branch atual: master
