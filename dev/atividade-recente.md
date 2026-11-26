@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 00:16 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 00:18 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -228,6 +228,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 b3e6eeb SS8-259: Instalar-NoCliente procura o credentials.xml em C:\Petrus
 - 2026-11-26 4309c0c SS8-259: Instalar-NoCliente acha o ASP.NET Core Module onde o Hosting Bundle instala
 - 2026-11-26 05abd17 SS8-259: PetrusAzure.psm1 lê o segredo guardado e aceita só a chave da conta
 - 2026-11-25 03c06d4 Regenera o inventário da migração após os merges de 174 e 221
