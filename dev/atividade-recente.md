@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:11 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -214,6 +214,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 63a972c SS8-276: Details: atalho com a letra inicial para ir direto ├á aba
 - 2026-11-25 0b9fc8d Pacotes: hist├│rico da cadastro_pacote para a GX5 na migra├º├úo e etiquetas em PDF numa p├ígina s├│
 - 2026-11-25 84fe92a SS8-277: Details com modo horizontal (sub-abas por grupo) e vertical, pelos par├ómetros do usu├írio
 - 2026-11-25 081d16e Regenera o invent├írio da migra├º├úo ap├│s os merges de 271, 261, 264, 267, 269, 273 e 274
