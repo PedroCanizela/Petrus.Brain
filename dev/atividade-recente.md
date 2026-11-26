@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:20 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-109-conector-mercado-livre
 - + feature/ss8-203-contas-pagar-sem-plano
 - + feature/ss8-249-g6-url-foto
 - + feature/ss8-91-lentidao-consultas
@@ -224,6 +225,7 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
+- + feature/ss8-109-conector-mercado-livre
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-241-op-embalagem
 - + feature/ss8-249-etiqueta-zebra-fotos-r2
