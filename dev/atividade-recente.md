@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 17:49 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 17:51 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -227,6 +227,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 6785551 Etiqueta de pacote Pratic: QR Code com ampliação 6, mais alto e à esquerda
 - 2026-11-26 6e0bd49 Etiqueta de pacote Pratic: descrição mais à direita
 - 2026-11-26 deaaa42 Etiqueta de pacote Pratic: descrição mais à direita, quebrando em até 3 linhas
 - 2026-11-26 4477e24 Etiqueta de pacote Pratic: descrição mais para a direita
