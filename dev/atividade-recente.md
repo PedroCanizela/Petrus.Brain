@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 14:02 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 14:04 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 9120ae1a SS8-300: campos do Mapa da fábrica 3D na C4 (Dados.cs)
 - 2026-11-26 67b03e82 Merge SS8-249: Migração Web — Produto e Pedido de venda: fotos públicas no Cloudflare R2 e etiqueta Zebra pelos parâmetros (Dados.cs)
 - 2026-11-26 43103f5b Merge SS8-203 (Dados.cs)
 - 2026-11-26 b071f6c0 Merge SS8-109: Hub / conector Mercado Livre (OAuth, anúncios, publicação) (Dados.cs)
@@ -229,6 +230,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 3620924 SS8-300: campos C4_MAPA_* no dicionário S10 do Petrus Web
 - 2026-11-26 f6980f2 SS8-300: mapa 3D com injetora no visual da CNE, operador sempre visível e modo andar
 - 2026-11-26 c04d73b SS8-300: Mapa da fábrica 3D no estilo da CNE
 - 2026-11-26 fb2c15b SS8-301: linha da grade volta a ser colorida pelo status, com tons legíveis
