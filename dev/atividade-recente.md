@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 19:47 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 19:48 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 4102800d SS8-304: Expedição: puxar o pedido pelo número (R13_NRO_DOCUMENTO)
 - 2026-11-26 f3e48201 SS8-299: UF do vendedor no relatório Performance de vendas
 - 2026-11-26 8b6b6d54 Merge SS8-300: Mapa da fábrica 3D do Petrus Web: campos C4_MAPA_* na C4 (Dados.cs)
 - 2026-11-26 9120ae1a SS8-300: campos do Mapa da fábrica 3D na C4 (Dados.cs)
@@ -221,18 +222,21 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
 - + claude/ss8-299-2f9c3e
-- + claude/ss8-302-96847e
 - + claude/ss8-303-d4426e
 - + claude/ss8-304-1e89b6
 - claude/vibrant-heisenberg-962b6b
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
+- + feature/ss8-302-bloquear-edicao-pedido-compra
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-306-login-modulos
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 fc82a94 SS8-304: Expedição: puxar o pedido pelo número (R13_NRO_DOCUMENTO)
+- 2026-11-26 26e292b SS8-306: login com slogan novo e todos os módulos do ERP
+- 2026-11-26 603fcf0 SS8-302: bloquear edição do pedido de compra Aprovado, Efetivado ou Concluido
 - 2026-11-26 4507005 SS8-299: UF do vendedor no relatório Performance de vendas
 - 2026-11-26 1bde202 ZplPdf: QR Code sempre do mesmo tamanho (lado de um QR versão 3 x ampliação)
 - 2026-11-26 6785551 Etiqueta de pacote Pratic: QR Code com ampliação 6, mais alto e à esquerda
