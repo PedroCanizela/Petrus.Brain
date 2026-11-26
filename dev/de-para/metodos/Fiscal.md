@@ -1,8 +1,8 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Mesmo nome: 108 · Equivalente: 25 · Citado (conferir): 16 · Conferir: 11 · Citado: 7 · Via form: 5 · Falta: 3 · Não se aplica: 2 · Nome+Async: 2 · Sem uso no desktop: 2 · Via S39: 1
 

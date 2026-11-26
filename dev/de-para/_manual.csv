@@ -1,4 +1,4 @@
-Arquivo;Classe;Metodo;Situacao;Web;Obs
+Arquivo;Classe;Metodo;Situacao;Web;Obs;Prioridade
 Margo/*;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;Margo (Groq) virou o Petrus.Assistente (SS8-171)
 Sistema/Interfaces/frmPetrusIA.cs;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;SS8-171
 Sistema/Interfaces/frmChatBot.cs;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;SS8-171
@@ -191,4 +191,47 @@ Industrial/Engines/V1Engine.cs;*;PausarV1;Sem uso no desktop;;S39 100338 não im
 Industrial/Engines/V1Engine.cs;*;ReiniciarV1;Sem uso no desktop;;S39 100339 não implementada no desktop
 Industrial/Engines/V21Engine.cs;*;CalcularV21;Sem uso no desktop;;só o ObterV21 chama, e ele está comentado no Grid()
 RH/Engines/D10Engine.cs;*;DataAteHoje;Equivalente;Petrus.RH/Classes/Funcionarios.cs:318;
+Fiscal/NotaFiscal/NotasEntrada.cs;*;GerarI49;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:49;Gerar parcelas da aba de duplicatas (I49) da nota de entrada; previsto na SS8-229 (Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:16)
+Sistema/Interfaces/frmInterface.cs;*;BtnIncluirFeirinhaR49_Click;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:40;Incluir feirinha (RR8 100928) nos itens do pedido; o botão do Web avisa que não migrou
+Sistema/Interfaces/frmInterface.cs;*;ImportarEasy;Falta;;importação de pedido/tabela de preço por planilha (Easy) no R13/R43/RR8/RM11
+Sistema/Interfaces/frmInterface.cs;*;ImportarAferi;Falta;;importação da planilha Aferi (CNPJ 04.968.578 e 51.534.496)
+Sistema/Interfaces/frmInterface.cs;*;ImportarAferiPratic;Falta;;importação da planilha Aferi da Pratic (SS8-210 foi só no desktop)
+Sistema/Interfaces/frmInterface.cs;*;ImportarAferiDecorplast;Falta;;importação da planilha Aferi da Decorplast
+Sistema/Interfaces/frmInterface.cs;*;ImportarGerador;Falta;;importação da planilha Gerador
+Sistema/Interfaces/frmInterface.cs;*;IntegrarPedido;Falta;;anexo RR3 da planilha importada (Aferi)
+Sistema/Interfaces/frmInterface.cs;*;AferiPratic*;Falta;;auxiliares da importação Aferi (SS8-210)
+Sistema/Interfaces/frmInterface.cs;*;LerXML;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:33;Importar XML da nota de entrada (SS8-246, ImportacaoXmlEntrada); conferir os cadastros criados do XML (R2/R47)
+Sistema/Interfaces/frmInterface.cs;*;GerarXmlSuframa;Descartado;;S39 100177/100225
+Sistema/Interfaces/frmInterface.cs;*;LerExtrato;Descartado;;S39 100155
+Sistema/Interfaces/frmInterface.cs;*;CarregaGrafico;Equivalente;ERPBlazor/Components/Pages/Report.razor:501;SS8-192
+Sistema/Interfaces/frmInterface.cs;*;Replicar;Equivalente;ERPBlazor/Components/Pages/Details.razor:45;SS8-145 (Petrus.Core/Acoes/Replicacao.cs)
+Sistema/Interfaces/frmInterface.cs;*;ConsultaAPI;Equivalente;ERPBlazor/Components/Pages/Details.API.cs:17;SS8-207
+Sistema/Interfaces/frmInterface.cs;*;ImportarCompra;Equivalente;ERPBlazor/Components/Pages/Details.razor:542;SS8-159
+Sistema/Interfaces/frmInterface.cs;*;GravarCortesR98;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:30;
+Sistema/Interfaces/frmInterface.cs;*;ConfirmarCadastro;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:314;
+Sistema/Interfaces/frmInterface.cs;*;CalculoAutomatico;Equivalente;Petrus.Vendas/Classes/CalculoPedidoVenda.cs:1011;
+Sistema/Interfaces/frmInterface.cs;*;Grid;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:22;ICalculoCadastro por módulo (SS8-245 e 261–269)
+Sistema/Interfaces/frmInterface.cs;*;BalancoG6;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:83;
+Sistema/Interfaces/frmInterface.cs;*;RelatorioEmail;Falta;;enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail)
+Sistema/Interfaces/frmInterface.cs;*;Compartilha;Parcial;ERPBlazor/Components/Pages/Details.razor:44;Compartilhar sem e-mail
+Sistema/Interfaces/frmInterface.cs;*;CompartilharRegistro;Parcial;ERPBlazor/Components/Pages/Details.razor:44;Compartilhar sem e-mail
+Sistema/Interfaces/frmInterface.cs;*;InfoCadastro;Equivalente;ERPBlazor/Components/Pages/Details.razor:44;
+Sistema/Interfaces/frmInterface.cs;*;PopularAcoes*;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:14;
+Sistema/Interfaces/frmInterface.cs;*;AcoesGrid;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:14;
+Sistema/Interfaces/frmInterface.cs;*;Funcao;Equivalente;Petrus.Core/Acoes/AcoesS39.cs:1;despacho das S39 (RegistroAcoes)
+Sistema/Interfaces/frmInterface.cs;*;PreExecutarAcao;Equivalente;Petrus.Core/Acoes/AcoesS39.cs:1;
+Sistema/Interfaces/frmInterface.cs;*;DeterminarAcao;Equivalente;Petrus.Core/Acoes/AcoesS39.cs:1;
+Sistema/Interfaces/frmInterface.cs;*;VerificaPermissao;Equivalente;Petrus.Core/Acoes/AcoesS39.cs:1;
+Sistema/Interfaces/frmInterface.cs;*;AplicaGrupoS2;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:280;SS8-230
+Sistema/Interfaces/frmInterface.cs;*;ResultadoGX6;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:210;
+Sistema/Interfaces/frmInterface.cs;*;IdsSelecionadosGX6;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:210;
+Sistema/Interfaces/frmInterface.cs;*;SelecionarMassa;Equivalente;ERPBlazor/Components/Pages/Table.razor:1260;
+Sistema/Interfaces/frmInterface.cs;*;ExcluirCadastro;Equivalente;ERPBlazor/Components/Pages/Details.razor:1;
+Sistema/Interfaces/frmInterface.cs;*;ParametrosRelatorio;Equivalente;ERPBlazor/Components/Pages/Report.razor:1;
+Sistema/Interfaces/frmInterface.cs;*;CreateItemsReport;Equivalente;ERPBlazor/Components/Pages/Report.razor:1;
+Sistema/Interfaces/frmInterface.cs;*;btnItemRelatorio_Click;Equivalente;ERPBlazor/Components/Pages/Report.razor:1;
+Sistema/Interfaces/frmInterface.cs;*;*Relatorio;Equivalente;ERPBlazor/Components/Pages/Report.razor:1;
+Sistema/Interfaces/frmInterface.cs;*;*Tabela;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:67;exportar/imprimir a grade
+Sistema/Interfaces/frmInterface.cs;*;Imprimir*;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:67;
+Sistema/Interfaces/frmInterface.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/Table.razor:1;montagem da tela do WinForms (Table/Details no Web);fallback
 Estoque/Interfaces/frmEntregaRequisicao.cs;*;*;Equivalente;ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1;SS8-137 (sem marca MIGRADO FORM)

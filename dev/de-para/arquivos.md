@@ -1,6 +1,6 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
@@ -368,7 +368,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Sistema/Interfaces/frmInicio.cs` | 13 | 13 | 0 | 0 | `ERPBlazor/Components/Pages/Home.razor` |
 | `Sistema/Interfaces/frmInput.cs` | 9 | 9 | 0 | 0 |  |
 | `Sistema/Interfaces/frmInputDate.cs` | 3 | 3 | 0 | 0 |  |
-| `Sistema/Interfaces/frmInterface.cs` | 473 | 473 | 0 | 0 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Compras/AcoesCompras.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
+| `Sistema/Interfaces/frmInterface.cs` | 473 | 458 | 15 | 2390 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs`, `Petrus.Financeiro/AcoesFinanceiro.cs` |
 | `Sistema/Interfaces/frmLogin.cs` | 159 | 151 | 8 | 1299 | `ERPBlazor/Components/Pages/Login.razor` |
 | `Sistema/Interfaces/frmMensagem.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Pages/Message.razor`, `Petrus.Core/Utils/Gaiolas.cs`, `Petrus.Core/Utils/PacoteLeitura.cs` |
 | `Sistema/Interfaces/frmMenu.cs` | 41 | 41 | 0 | 0 | `ERPBlazor/Components/Services/MenuPetrus.cs` |

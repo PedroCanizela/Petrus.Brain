@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:29 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:43 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 c9e9ca77 SS8-109: campos, telas e funções do Hub / Mercado Livre no Dados.cs
 - 2026-11-26 f856e034 SS8-249: coluna G6_URL_FOTO e PublicarFotosG6 lendo o caminho do G6_FOTO
 - 2026-11-26 cb139fff SS8-203: relatório de contas à pagar sem plano de contas
 - 2026-11-26 765196f2 Update
@@ -223,7 +224,7 @@ Branches:
 - claude/amazing-brattain-67d432
 - claude/determined-dewdney-22c5ee
 - claude/jolly-wiles-b6bda3
-- + claude/magical-bartik-17f3b7
+- claude/magical-bartik-17f3b7
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
 - + feature/ss8-109-conector-mercado-livre
@@ -238,10 +239,12 @@ Branches:
 - + feature/ss8-285-exportar-celular
 - + feature/ss8-286-abas-piscando
 - + feature/ss8-287-mais-acoes-table
+- + feature/ss8-288-pcp-operacoes
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 0e329bf SS8-109: Hub / conector Mercado Livre (OAuth, importação e vínculo de anúncios, publicação)
 - 2026-11-26 14a2530 SS8-248: botões avulsos do frmComando no Comando SQL do Web
 - 2026-11-26 299c4ac SS8-241: OP de embalagem gravada "Concluido" e etiquetas da série Embalagem só com ela
 - 2026-11-26 85b7d08 SS8-286: abas do Web sem pisca, até 25 abas e mais estreitas

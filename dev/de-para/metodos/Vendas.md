@@ -1,8 +1,8 @@
 # Métodos: Vendas (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Mesmo nome: 79 · Via form: 74 · Falta: 49 · Equivalente: 16 · Citado (conferir): 9 · Citado: 9 · Via S39: 9 · Sem uso no desktop: 3 · Nome+Async: 1 · Nome sem Con: 1
 

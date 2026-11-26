@@ -1,8 +1,8 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Via form: 237 · Mesmo nome: 119 · Descartado: 35 · Via S39: 17 · Equivalente: 17 · Citado: 13 · Citado (conferir): 6 · Sem uso no desktop: 4 · Nome+Async: 4 · Falta: 1 · Conferir: 1 · Nome+Con: 1
 

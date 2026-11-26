@@ -1,8 +1,8 @@
 # Métodos: CRM (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Via S39: 13 · Mesmo nome: 7 · Citado: 5 · Equivalente: 4 · Nome+Async: 1
 

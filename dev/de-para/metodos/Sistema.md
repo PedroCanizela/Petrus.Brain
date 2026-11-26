@@ -1,10 +1,10 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Descartado: 446 · Via form: 327 · Não se aplica: 166 · Equivalente: 165 · Mesmo nome: 149 · Via S39: 137 · Substituído: 60 · Em branch: 43 · Parcial: 17 · Falta: 8 · Citado (conferir): 2 · Nome sem Con: 1
+**Situação:** Descartado: 448 · Não se aplica: 316 · Equivalente: 205 · Mesmo nome: 148 · Via S39: 135 · Via form: 118 · Substituído: 60 · Em branch: 43 · Falta: 23 · Parcial: 19 · Citado (conferir): 5 · Nome sem Con: 1
 
 ## `Sistema/Classes/Auditoria.cs`
 
@@ -1044,31 +1044,31 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 178 | frmInterface.LocalizaParametros | 224 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:114` | classe ParametrosSistema |
-| 431 | frmInterface.CreateControls | 1221 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1653 | frmInterface.ImprimirToolStripMenuItem_Click | 112 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1766 | frmInterface.EdicaoMassaToolStripMenuItem_Click | 54 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1821 | frmInterface.LimpaFiltro | 17 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1838 | frmInterface.AplicaFiltro | 11 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1850 | frmInterface.FiltroAvancadoToolStripMenuItem_Click | 18 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1869 | frmInterface.EmpresaToolStripMenuItem_Click | 38 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1910 | frmInterface.ToolStripMenuItem_Click | 21 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1932 | frmInterface.BtnAcao_Click | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 1940 | frmInterface.btnImportar_Click | 118 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2073 | frmInterface.AcoesGrid | 103 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2177 | frmInterface.BtnGerarParcelasIX11_Click | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2186 | frmInterface.BtnGradeR49_Click | 114 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2301 | frmInterface.BtnRecalcularR49_Click | 48 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2350 | frmInterface.BtnIncluirFeirinhaR49_Click | 91 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2442 | frmInterface.BtnPesquisaPedidosJ10_Click | 137 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2580 | frmInterface.BtnIncluirProdutosR49_Click | 111 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2698 | frmInterface.BtnCortarItensR49_Click | 81 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2783 | frmInterface.GravarCortesR98 | 82 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2866 | frmInterface.BtnGerarParcelasI59_Click | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2874 | frmInterface.BtnGerarParcelasI49_Click | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2883 | frmInterface.BtnGerarParcelasR50_Click | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 2894 | frmInterface.PopularAcoes | 282 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 3176 | frmInterface.PopularAcoesGrid | 58 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 3235 | frmInterface.DefaultState | 46 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 431 | frmInterface.CreateControls | 1221 | Citado (conferir) | `Petrus.Core/Sistema/AcessoRapido.cs:12` |  |
+| 1653 | frmInterface.ImprimirToolStripMenuItem_Click | 112 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
+| 1766 | frmInterface.EdicaoMassaToolStripMenuItem_Click | 54 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1821 | frmInterface.LimpaFiltro | 17 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1838 | frmInterface.AplicaFiltro | 11 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1850 | frmInterface.FiltroAvancadoToolStripMenuItem_Click | 18 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1869 | frmInterface.EmpresaToolStripMenuItem_Click | 38 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1910 | frmInterface.ToolStripMenuItem_Click | 21 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1932 | frmInterface.BtnAcao_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 1940 | frmInterface.btnImportar_Click | 118 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2073 | frmInterface.AcoesGrid | 103 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:14` |  |
+| 2177 | frmInterface.BtnGerarParcelasIX11_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2186 | frmInterface.BtnGradeR49_Click | 114 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2301 | frmInterface.BtnRecalcularR49_Click | 48 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2350 | frmInterface.BtnIncluirFeirinhaR49_Click | 91 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2442 | frmInterface.BtnPesquisaPedidosJ10_Click | 137 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2580 | frmInterface.BtnIncluirProdutosR49_Click | 111 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2698 | frmInterface.BtnCortarItensR49_Click | 81 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2783 | frmInterface.GravarCortesR98 | 82 | Equivalente | `ERPBlazor/Components/Pages/Details.Cadastro.cs:30` |  |
+| 2866 | frmInterface.BtnGerarParcelasI59_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2874 | frmInterface.BtnGerarParcelasI49_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2883 | frmInterface.BtnGerarParcelasR50_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2894 | frmInterface.PopularAcoes | 282 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:14` |  |
+| 3176 | frmInterface.PopularAcoesGrid | 58 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:14` |  |
+| 3235 | frmInterface.DefaultState | 46 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 3283 | frmInterface.EventosNFeRTC | 49 | Via S39 | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:58` | S39 100498 Eventos da NF-e |
 | 3333 | frmInterface.ExportarCartaCorrecaoR7 | 128 | Via S39 | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:55` | S39 100088 Exportar carta de correção |
 | 3462 | frmInterface.ExportarCartaCorrecaoI11 | 129 | Via S39 | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:56` | S39 100098 Exportar carta de correção |
@@ -1088,8 +1088,8 @@ Voltar: [[de-para/README|De → para]]
 | 6753 | frmInterface.BaixarN9 | 241 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:85` | S39 100057 Baixar título |
 | 6995 | frmInterface.BaixarN22 | 184 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:354` | classe ContasReceber |
 | 7179 | frmInterface.EstornarContasN9 | 157 | Mesmo nome | `Petrus.Financeiro/Classes/ContasPagar.cs:540` | classe ContasPagar |
-| 7337 | frmInterface.DeterminarAcao | 9 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 7348 | frmInterface.PreExecutarAcao | 160 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 7337 | frmInterface.DeterminarAcao | 9 | Equivalente | `Petrus.Core/Acoes/AcoesS39.cs:1` |  |
+| 7348 | frmInterface.PreExecutarAcao | 160 | Equivalente | `Petrus.Core/Acoes/AcoesS39.cs:1` |  |
 | 7510 | frmInterface.EstornarPagamentoN13 | 198 | Mesmo nome | `Petrus.Financeiro/Classes/ContasPagar.cs:580` | classe ContasPagar |
 | 7708 | frmInterface.EstornarRecebimentoN43 | 200 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:538` | classe ContasReceber |
 | 7909 | frmInterface.EstornarContasN22 | 158 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:18` | classe N22Engine |
@@ -1101,7 +1101,7 @@ Voltar: [[de-para/README|De → para]]
 | 10345 | frmInterface.EstornarFaturamentoR13 | 300 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:212` | classe PedidosVenda |
 | 10646 | frmInterface.ExportarPedidoR13 | 133 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:42` | classe PedidosVenda |
 | 10779 | frmInterface.ExportarRelatorioComissaoR4 | 134 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:88` | classe Vendedores |
-| 10913 | frmInterface.ImprimirRelatorioComissaoR4 | 124 | Via S39 | `Petrus.Vendas/AcoesComissoes.cs:24` | S39 100397 Imprimir relatório |
+| 10913 | frmInterface.ImprimirRelatorioComissaoR4 | 124 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
 | 11038 | frmInterface.EnviarRelatorioComissaoR4 | 134 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:101` | classe Vendedores |
 | 11172 | frmInterface.EnviarRelatorioVendasR4 | 141 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:220` | classe Vendedores |
 | 11313 | frmInterface.EnviarRelatorioCobrancaR4 | 141 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:223` | classe Vendedores |
@@ -1123,7 +1123,7 @@ Voltar: [[de-para/README|De → para]]
 | 14088 | frmInterface.EtiquetaVolumeR13 | 203 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:28` | classe PedidosVenda |
 | 14292 | frmInterface.EtiquetaDun14R13 | 174 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:90` | classe PedidosVenda |
 | 14467 | frmInterface.CartaIsencaoR13 | 175 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:328` | classe PedidosVenda |
-| 14643 | frmInterface.VerificaPermissao | 35 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 14643 | frmInterface.VerificaPermissao | 35 | Equivalente | `Petrus.Core/Acoes/AcoesS39.cs:1` |  |
 | 14678 | frmInterface.CancelarVZ5 | 193 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100454 Cancelar manutenção |
 | 14871 | frmInterface.CancelarVZ7 | 193 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100457 Cancelar troca |
 | 15065 | frmInterface.CancelarR13 | 214 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:303` | classe PedidosVenda |
@@ -1188,13 +1188,13 @@ Voltar: [[de-para/README|De → para]]
 | 26744 | frmInterface.ConcluirVZ5 | 189 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100453 Concluir manutenção |
 | 26933 | frmInterface.ConcluirVM3 | 139 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:563` | classe Mistura |
 | 27076 | frmInterface.AlterarStatusK5 | 110 | Mesmo nome | `Petrus.Manutencao/Engines/K5Engine.cs:20` | classe K5Engine |
-| 27188 | frmInterface.IdsSelecionadosGX6 | 23 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 27213 | frmInterface.ResultadoGX6 | 30 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 27188 | frmInterface.IdsSelecionadosGX6 | 23 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:210` |  |
+| 27213 | frmInterface.ResultadoGX6 | 30 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:210` |  |
 | 27248 | frmInterface.AlterarStatusGX6 | 74 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:140` | classe GX6Engine |
 | 27327 | frmInterface.EntregarGX6 | 50 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:280` | classe GX6Engine |
 | 27382 | frmInterface.GerarRequisicaoV1 | 63 | Via S39 | `Petrus.Estoque/AcoesRequisicoes.cs:22` | S39 100496 Gerar requisição |
 | 27450 | frmInterface.AplicarGrupoUsuariosS92 | 51 | Via S39 | `Petrus.Core/Acoes/AcoesSistema.cs:22` | S39 100500 Aplicar aos usuários |
-| 27509 | frmInterface.AplicaGrupoS2 | 45 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 27509 | frmInterface.AplicaGrupoS2 | 45 | Equivalente | `ERPBlazor/Components/Pages/Details.Cadastro.cs:280` | SS8-230 |
 | 27555 | frmInterface.CancelarVM3 | 155 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:568` | classe Mistura |
 | 27710 | frmInterface.ConcluirVZ7 | 189 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100455 Concluir troca |
 | 27901 | frmInterface.ConcluirJJ2 | 199 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100352 Concluir incidente |
@@ -1224,7 +1224,7 @@ Voltar: [[de-para/README|De → para]]
 | 32391 | frmInterface.LancamentoParcelasN9 | 48 | Mesmo nome | `Petrus.Financeiro/Classes/ContasPagar.cs:669` | classe ContasPagar |
 | 32439 | frmInterface.LancamentoEstoqueG6 | 52 | Via S39 | `Petrus.Estoque/AcoesEstoque.cs:30` | S39 100392 Lançamento |
 | 32492 | frmInterface.LancamentoEstoqueG17 | 52 | Via S39 | `Petrus.Estoque/AcoesEstoque.cs:30` | S39 100086 Lançamento |
-| 32544 | frmInterface.BalancoG6 | 53 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 32544 | frmInterface.BalancoG6 | 53 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:83` |  |
 | 32598 | frmInterface.BalancoG17 | 53 | Mesmo nome | `Petrus.Estoque/Engines/G17Engine.cs:110` | classe G17Engine |
 | 32651 | frmInterface.ReservaG17 | 48 | Mesmo nome | `Petrus.Estoque/Engines/G17Engine.cs:134` | classe G17Engine |
 | 32699 | frmInterface.TransferenciaG17 | 48 | Mesmo nome | `Petrus.Estoque/Engines/G17Engine.cs:149` | classe G17Engine |
@@ -1251,7 +1251,7 @@ Voltar: [[de-para/README|De → para]]
 | 36153 | frmInterface.ExportarDanfeR7 | 239 | Via S39 | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:55` | S39 100013 Exportar danfe |
 | 36392 | frmInterface.ExportarXmlI11 | 206 | Via S39 | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:56` | S39 100048 Exportar xml |
 | 36598 | frmInterface.ExportarSpedL6 | 196 | Via S39 | `Petrus.Fiscal/AcoesSped.cs:17` | S39 100158 Exportar sped |
-| 36794 | frmInterface.GerarXmlSuframa | 200 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 36794 | frmInterface.GerarXmlSuframa | 200 | Descartado |  | S39 100177/100225 |
 | 36995 | frmInterface.ExportarXmlR7 | 199 | Via S39 | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:55` | S39 100015 Exportar xml |
 | 37195 | frmInterface.ExportarXmlJ34 | 192 | Via S39 | `Petrus.Fiscal/Manifesto/AcoesMDFe.cs:20` | S39 100103 Exportar xml |
 | 37389 | frmInterface.ExportarXmlSuframaL56 | 155 | Descartado |  | S39 100177 Exportar xml suframa |
@@ -1309,7 +1309,7 @@ Voltar: [[de-para/README|De → para]]
 | 46786 | frmInterface.EditarVendedorR13 | 127 | Via S39 | `Petrus.Vendas/Classes/PedidosVenda.cs:84` | S39 100357 Editar vendedor |
 | 46913 | frmInterface.AnexosR13 | 130 | Via S39 | `Petrus.Vendas/Classes/PedidosVenda.cs:84` | S39 100421 Editar anexos |
 | 47049 | frmInterface.CortesR13 | 108 | Via S39 | `Petrus.Vendas/Classes/PedidosVenda.cs:84` | S39 100460 Cortes |
-| 47162 | frmInterface.ImprimirEtiquetaCadastro | 66 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:35` | S39 100465 Imprimir etiqueta |
+| 47162 | frmInterface.ImprimirEtiquetaCadastro | 66 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
 | 47229 | frmInterface.PerfilR13 | 169 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:28` | S39 100105 Perfil do cliente |
 | 47398 | frmInterface.SituacaoR13 | 169 | Via S39 | `Petrus.Vendas/Classes/PedidosVenda.cs:84` | S39 100345 Situação |
 | 47567 | frmInterface.DirecionarH5 | 169 | Via S39 | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:5` | S39 100418 Direcionar ordem |
@@ -1323,199 +1323,199 @@ Voltar: [[de-para/README|De → para]]
 | 48796 | frmInterface.BloquearR13 | 227 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:281` | classe PedidosVenda |
 | 49023 | frmInterface.ReativarR13 | 190 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:331` | classe PedidosVenda |
 | 49214 | frmInterface.ReativarJ10 | 188 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100227 Reativar expedição |
-| 49405 | frmInterface.Seleciona | 38 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49444 | frmInterface.SelecionaN9 | 18 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49476 | frmInterface.CriarInterface | 176 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49652 | frmInterface.RecarregarInterface | 28 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49681 | frmInterface.frmInterface_Load | 22 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49704 | frmInterface.BtnPersonalizar_Click | 13 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 49405 | frmInterface.Seleciona | 38 | Citado (conferir) | `ERPBlazor/Components/Pages/MES/OperatorLabels.razor:191` |  |
+| 49444 | frmInterface.SelecionaN9 | 18 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49476 | frmInterface.CriarInterface | 176 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49652 | frmInterface.RecarregarInterface | 28 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.Layout.cs:15` |  |
+| 49681 | frmInterface.frmInterface_Load | 22 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49704 | frmInterface.BtnPersonalizar_Click | 13 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 49721 | frmInterface.ExportarPDF | 65 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 49787 | frmInterface.BtnExportar_Click | 6 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49795 | frmInterface.BtnOpcoes_Click | 13 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49809 | frmInterface.sfDataGrid1_CellDoubleClick | 141 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49951 | frmInterface.sfDataGrid1_SelectionChanged | 19 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 49974 | frmInterface.sfDataGrid1_QueryRowStyle | 38 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50013 | frmInterface.cbbCampo_SelectedIndexChanged | 20 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50033 | frmInterface.btnImprimir_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50038 | frmInterface.btnExpExcel_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50044 | frmInterface.Default | 43 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50087 | frmInterface.btnExpPDF_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 49787 | frmInterface.BtnExportar_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49795 | frmInterface.BtnOpcoes_Click | 13 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49809 | frmInterface.sfDataGrid1_CellDoubleClick | 141 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49951 | frmInterface.sfDataGrid1_SelectionChanged | 19 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 49974 | frmInterface.sfDataGrid1_QueryRowStyle | 38 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50013 | frmInterface.cbbCampo_SelectedIndexChanged | 20 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50033 | frmInterface.btnImprimir_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50038 | frmInterface.btnExpExcel_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50044 | frmInterface.Default | 43 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50087 | frmInterface.btnExpPDF_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50092 | frmInterface.Novo | 73 | Mesmo nome | `ERPBlazor/Components/Pages/MES/Roteiros.razor:238` | classe Roteiros |
 | 50166 | frmInterface.GetEmpresa | 6 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:408` | classe Helpers |
-| 50173 | frmInterface.btnNovo_Click | 31 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 50173 | frmInterface.btnNovo_Click | 31 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50205 | frmInterface.Editar | 62 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:203` | classe MisturaReceitas |
-| 50267 | frmInterface.ValidarCampos | 45 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 50267 | frmInterface.ValidarCampos | 45 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50315 | frmInterface.Excluir | 22 | Mesmo nome | `Petrus.Core/Utils/CRUD.cs:73` | classe CRUD |
 | 50338 | frmInterface.Visualizar | 66 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
-| 50406 | frmInterface.btnEditar_Click | 93 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50500 | frmInterface.btnVisualizar_Click | 46 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50547 | frmInterface.ValidaCampos | 13 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50560 | frmInterface.btnFiltro_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50566 | frmInterface.ShowPanel | 35 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 50605 | frmInterface.ValidaSearch | 57 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 50406 | frmInterface.btnEditar_Click | 93 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50500 | frmInterface.btnVisualizar_Click | 46 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50547 | frmInterface.ValidaCampos | 13 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50560 | frmInterface.btnFiltro_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50566 | frmInterface.ShowPanel | 35 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 50605 | frmInterface.ValidaSearch | 57 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50663 | frmInterface.Confirmar | 209 | Mesmo nome | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:150` | classe IncluirProdutosDialog |
-| 50889 | NFeTerceiros.ConfirmarCadastro | 468 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51358 | NFeTerceiros.btnConfirmar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51363 | NFeTerceiros.PreDefaultState | 14 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51379 | NFeTerceiros.SfDataGridTabela_CellCheckBoxClick | 19 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51398 | NFeTerceiros.btnCancelar_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51407 | NFeTerceiros.customizarToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51413 | NFeTerceiros.excluirToolStripMenuItem_Click | 135 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51552 | NFeTerceiros.ImprimirArquivo | 24 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51577 | NFeTerceiros.ImprimirRelatorio | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51587 | NFeTerceiros.ImprimirLista | 25 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51616 | NFeTerceiros.exportarPDFToolStripMenuItem_Click | 140 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51757 | NFeTerceiros.ExcluirCadastro | 91 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 51849 | NFeTerceiros.btnExcluir_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 50889 | NFeTerceiros.ConfirmarCadastro | 468 | Equivalente | `ERPBlazor/Components/Pages/Details.Cadastro.cs:314` |  |
+| 51358 | NFeTerceiros.btnConfirmar_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51363 | NFeTerceiros.PreDefaultState | 14 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51379 | NFeTerceiros.SfDataGridTabela_CellCheckBoxClick | 19 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51398 | NFeTerceiros.btnCancelar_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51407 | NFeTerceiros.customizarToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51413 | NFeTerceiros.excluirToolStripMenuItem_Click | 135 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51552 | NFeTerceiros.ImprimirArquivo | 24 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
+| 51577 | NFeTerceiros.ImprimirRelatorio | 5 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` |  |
+| 51587 | NFeTerceiros.ImprimirLista | 25 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
+| 51616 | NFeTerceiros.exportarPDFToolStripMenuItem_Click | 140 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 51757 | NFeTerceiros.ExcluirCadastro | 91 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:1` |  |
+| 51849 | NFeTerceiros.btnExcluir_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 51862 | NFeTerceiros.Pesquisar | 174 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1302` | classe Separacao |
-| 52037 | NFeTerceiros.txtPesquisa_IconRightClick | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52042 | NFeTerceiros.sfDataGrid1_QueryImageCellStyle | 70 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52113 | NFeTerceiros.InfoCadastro | 21 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52135 | NFeTerceiros.btnInfo_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52141 | NFeTerceiros.CompartilharRegistro | 89 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52233 | NFeTerceiros.Compartilha | 101 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52335 | NFeTerceiros.btnCompartilhar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52343 | NFeTerceiros.btnImprimirRelatorio_Click | 29 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52373 | NFeTerceiros.btnExpExcelRelatorio_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52377 | NFeTerceiros.ExportarPDFRelatorio | 54 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52431 | NFeTerceiros.btnExpPDFRelatorio_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52438 | NFeTerceiros.btnCustomizarRelatorio_Click | 24 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52463 | NFeTerceiros.btnVisualizarRelatorio_Click | 34 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 52037 | NFeTerceiros.txtPesquisa_IconRightClick | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52042 | NFeTerceiros.sfDataGrid1_QueryImageCellStyle | 70 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52113 | NFeTerceiros.InfoCadastro | 21 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:44` |  |
+| 52135 | NFeTerceiros.btnInfo_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52141 | NFeTerceiros.CompartilharRegistro | 89 | Parcial | `ERPBlazor/Components/Pages/Details.razor:44` | Compartilhar sem e-mail |
+| 52233 | NFeTerceiros.Compartilha | 101 | Parcial | `ERPBlazor/Components/Pages/Details.razor:44` | Compartilhar sem e-mail |
+| 52335 | NFeTerceiros.btnCompartilhar_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52343 | NFeTerceiros.btnImprimirRelatorio_Click | 29 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52373 | NFeTerceiros.btnExpExcelRelatorio_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52377 | NFeTerceiros.ExportarPDFRelatorio | 54 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` |  |
+| 52431 | NFeTerceiros.btnExpPDFRelatorio_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52438 | NFeTerceiros.btnCustomizarRelatorio_Click | 24 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52463 | NFeTerceiros.btnVisualizarRelatorio_Click | 34 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52502 | NFeTerceiros.EnviarEmail | 54 | Mesmo nome | `Petrus.Financeiro/Classes/EnvioBoletos.cs:105` | classe EnvioBoletos |
-| 52557 | NFeTerceiros.RelatorioEmail | 60 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52619 | NFeTerceiros.compartilharToolStripMenuItem_Click | 252 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52871 | NFeTerceiros.btnFiltroRelatorio_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52876 | NFeTerceiros.btnMaisAcoesRelatorio_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52884 | NFeTerceiros.BackGroundWorkerDoWork | 72 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 52958 | NFeTerceiros.ImportarEasy | 927 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 53886 | NFeTerceiros.CarregarPesquisa | 15 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 53905 | NFeTerceiros.Funcao | 849 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54755 | NFeTerceiros.DefaultInteracao | 7 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 52557 | NFeTerceiros.RelatorioEmail | 60 | **Falta** |  | enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail) |
+| 52619 | NFeTerceiros.compartilharToolStripMenuItem_Click | 252 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52871 | NFeTerceiros.btnFiltroRelatorio_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52876 | NFeTerceiros.btnMaisAcoesRelatorio_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52884 | NFeTerceiros.BackGroundWorkerDoWork | 72 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52958 | NFeTerceiros.ImportarEasy | 927 | **Falta** |  | importação de pedido/tabela de preço por planilha (Easy) no R13/R43/RR8/RM11 |
+| 53886 | NFeTerceiros.CarregarPesquisa | 15 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 53905 | NFeTerceiros.Funcao | 849 | Equivalente | `Petrus.Core/Acoes/AcoesS39.cs:1` | despacho das S39 (RegistroAcoes) |
+| 54755 | NFeTerceiros.DefaultInteracao | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 54766 | NFeTerceiros.Acao | 17 | Mesmo nome | `Petrus.Vendas/AcoesCadastros.cs:134` | classe AcoesCadastros |
-| 54784 | NFeTerceiros.btnAcao1_Click | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54795 | NFeTerceiros.btnAcao2_Click | 9 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54806 | NFeTerceiros.btnRefresh_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54812 | NFeTerceiros.btnVisualizarInteracao_Click | 34 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54847 | NFeTerceiros.btnFiltroInteracao_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54852 | NFeTerceiros.btnMaisAcoesInteracao_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54857 | NFeTerceiros.btnImprimirInteracao_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54862 | NFeTerceiros.btnExpExcelInteracao_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54867 | NFeTerceiros.btnExpPDFInteracao_Click | 31 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54902 | NFeTerceiros.SfDataGrid_RecordDeleted | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 54911 | NFeTerceiros.SfDataGrid_CurrentCellEndEdit | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 54784 | NFeTerceiros.btnAcao1_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54795 | NFeTerceiros.btnAcao2_Click | 9 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54806 | NFeTerceiros.btnRefresh_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54812 | NFeTerceiros.btnVisualizarInteracao_Click | 34 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54847 | NFeTerceiros.btnFiltroInteracao_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54852 | NFeTerceiros.btnMaisAcoesInteracao_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54857 | NFeTerceiros.btnImprimirInteracao_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54862 | NFeTerceiros.btnExpExcelInteracao_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54867 | NFeTerceiros.btnExpPDFInteracao_Click | 31 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54902 | NFeTerceiros.SfDataGrid_RecordDeleted | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 54911 | NFeTerceiros.SfDataGrid_CurrentCellEndEdit | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 54919 | NFeTerceiros.Calculo | 22 | Mesmo nome | `Petrus.Industrial/Indicadores/IndicadoresProducao.cs:97` | classe IndicadoresProducao |
-| 54942 | NFeTerceiros.Grid | 196 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 55138 | NFeTerceiros.LerExtrato | 166 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 55304 | NFeTerceiros.ImportarCompra | 230 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 55541 | NFeTerceiros.ConsultaAPI | 155 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 55697 | NFeTerceiros.BtnConsultaRFB_Click | 6 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 55703 | NFeTerceiros.CreateItemsReport | 125 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 55829 | NFeTerceiros.btnItemRelatorio_Click | 137 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 54942 | NFeTerceiros.Grid | 196 | Equivalente | `ERPBlazor/Components/Pages/Details.Cadastro.cs:22` | ICalculoCadastro por módulo (SS8-245 e 261–269) |
+| 55138 | NFeTerceiros.LerExtrato | 166 | Descartado |  | S39 100155 |
+| 55304 | NFeTerceiros.ImportarCompra | 230 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:542` | SS8-159 |
+| 55541 | NFeTerceiros.ConsultaAPI | 155 | Equivalente | `ERPBlazor/Components/Pages/Details.API.cs:17` | SS8-207 |
+| 55697 | NFeTerceiros.BtnConsultaRFB_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 55703 | NFeTerceiros.CreateItemsReport | 125 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` |  |
+| 55829 | NFeTerceiros.btnItemRelatorio_Click | 137 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` |  |
 | 55969 | NFeTerceiros.ConsultarAPI | 1579 | Mesmo nome | `Petrus.Core/Integracao/ConsultaAPI.cs:87` | classe ConsultaAPI |
-| 57548 | NFeTerceiros.FileSearch_Click | 36 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 57585 | NFeTerceiros.BtnImagem_Click | 75 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 57663 | NFeTerceiros.BtnGrid_Click | 60 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 57548 | NFeTerceiros.FileSearch_Click | 36 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 57585 | NFeTerceiros.BtnImagem_Click | 75 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 57663 | NFeTerceiros.BtnGrid_Click | 60 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 57724 | NFeTerceiros.Selecionar | 62 | Mesmo nome | `ERPBlazor/Components/Pages/Modules.razor:74` | classe Modules |
-| 57786 | NFeTerceiros.SelecionarMassa | 33 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 57820 | NFeTerceiros.SearchTxt_IconLeftClick | 203 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 58024 | NFeTerceiros.SearchTxt_IconRightClick | 38 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 58062 | NFeTerceiros.SearchTxt_Validated | 963 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 57786 | NFeTerceiros.SelecionarMassa | 33 | Equivalente | `ERPBlazor/Components/Pages/Table.razor:1260` |  |
+| 57820 | NFeTerceiros.SearchTxt_IconLeftClick | 203 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 58024 | NFeTerceiros.SearchTxt_IconRightClick | 38 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 58062 | NFeTerceiros.SearchTxt_Validated | 963 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 59027 | NFeTerceiros.BuscarValores | 97 | Mesmo nome | `Petrus.Core/Cadastros/BuscaCadastro.cs:401` | classe BuscaCadastro |
-| 59124 | NFeTerceiros.CalculoAutomatico | 60 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59188 | NFeTerceiros.Txt_Validating | 369 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59557 | NFeTerceiros.CbbEmpresa_Validating | 27 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59586 | NFeTerceiros.Cbb_Validating | 56 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59645 | NFeTerceiros.Txt_ValidatingRight | 11 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59656 | NFeTerceiros.Chk_CheckedChanged | 11 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 59124 | NFeTerceiros.CalculoAutomatico | 60 | Equivalente | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:1011` |  |
+| 59188 | NFeTerceiros.Txt_Validating | 369 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59557 | NFeTerceiros.CbbEmpresa_Validating | 27 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59586 | NFeTerceiros.Cbb_Validating | 56 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59645 | NFeTerceiros.Txt_ValidatingRight | 11 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59656 | NFeTerceiros.Chk_CheckedChanged | 11 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 59667 | NFeTerceiros.Importar | 16 | Mesmo nome | `Petrus.Core/Acoes/ImportacaoExcel.cs:171` | classe ImportacaoExcel |
-| 59686 | NFeTerceiros.btnConfirmar1_Click | 25 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59713 | NFeTerceiros.btnCancelar1_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59718 | NFeTerceiros.btnNovoRegistro_Click | 30 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59757 | NFeTerceiros.btnPeriodo_Click | 43 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 59801 | NFeTerceiros.CarregaRelatorio | 154 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:922` | classe PeriodoSalvo |
-| 59957 | NFeTerceiros.CarregaGrafico | 795 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 59686 | NFeTerceiros.btnConfirmar1_Click | 25 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59713 | NFeTerceiros.btnCancelar1_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59718 | NFeTerceiros.btnNovoRegistro_Click | 30 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59757 | NFeTerceiros.btnPeriodo_Click | 43 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 59801 | NFeTerceiros.CarregaRelatorio | 154 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` |  |
+| 59957 | NFeTerceiros.CarregaGrafico | 795 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:501` | SS8-192 |
 | 60753 | NFeTerceiros.CarregarGrid | 130 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1122` | classe Separacao |
-| 60884 | NFeTerceiros.ParametrosRelatorio | 190 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61077 | NFeTerceiros.exportarExcelToolStripMenuItem1_Click | 43 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61121 | NFeTerceiros.exportarPDFToolStripMenuItem2_Click | 42 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61167 | NFeTerceiros.imprimirToolStripMenuItem1_Click | 42 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61210 | NFeTerceiros.filtroToolStripMenuItem1_Click | 42 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61255 | NFeTerceiros.exportarModeloToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61260 | NFeTerceiros.exportarModeloToolStripMenuItem1_Click | 42 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61303 | NFeTerceiros.exportarModeloToolStripMenuItem_Click_1 | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 61308 | NFeTerceiros.Replicar | 878 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62186 | NFeTerceiros.btnReplicar_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62194 | NFeTerceiros.btnStatusGrid_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62200 | NFeTerceiros.todosToolStripMenuItem_Click | 16 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62217 | NFeTerceiros.btnImprimirRegistro_Click | 57 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62275 | NFeTerceiros.imprimirToolStripMenuItem_Click | 99 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62375 | NFeTerceiros.btnCompartilharRelatorio_Click | 247 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62623 | NFeTerceiros.guna2ContextMenuStrip1_Opening | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62629 | NFeTerceiros.ImportarGerador | 151 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 62780 | NFeTerceiros.ImportarAferiPratic | 358 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63141 | NFeTerceiros.AferiPraticNormalizar | 20 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63162 | NFeTerceiros.AferiPraticAba | 37 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63200 | NFeTerceiros.AferiPraticTexto | 27 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63228 | NFeTerceiros.AferiPraticNumero | 34 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63264 | NFeTerceiros.AferiPraticLinhaCabecalho | 12 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63278 | NFeTerceiros.AferiPraticColuna | 22 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63302 | NFeTerceiros.AferiPraticRotulo | 17 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63321 | NFeTerceiros.AferiPraticAoLado | 13 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63335 | NFeTerceiros.IntegrarPedido | 43 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63378 | NFeTerceiros.ImportarAferiDecorplast | 332 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 63711 | NFeTerceiros.ImportarAferi | 337 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 64049 | NFeTerceiros.LerXML | 2344 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 66393 | NFeTerceiros.sfDataGridTabela_CellButtonClick | 26 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 66421 | NFeTerceiros.sfDataGrid_CellButtonClick | 3472 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69894 | NFeTerceiros.frmInterface_FormClosing | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69899 | NFeTerceiros.sfDataGridTabela_ColumnDragging | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69904 | NFeTerceiros.sfDataGridTabela_DragDrop | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69909 | NFeTerceiros.sfDataGridTabela_CurrentCellValidated | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69914 | NFeTerceiros.ocultarColunasToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69921 | NFeTerceiros.ordemDasColunasToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69926 | NFeTerceiros.salvarConfiguraçõesToolStripMenuItem_Click | 22 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69949 | NFeTerceiros.gerarParcelasToolStripMenuItem_Click | 3 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69953 | NFeTerceiros.btnPeriodoInteracao_Click | 40 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 69995 | NFeTerceiros.editandoToolStripMenuItem_Click | 51 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70047 | NFeTerceiros.visualizandoToolStripMenuItem_Click | 53 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70103 | NFeTerceiros.btnVoltar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70108 | NFeTerceiros.txtPesquisa_KeyDown | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70117 | NFeTerceiros.frmInterface_FormClosed | 27 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70145 | NFeTerceiros.txtPesquisaInteracao_KeyDown | 8 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70154 | NFeTerceiros.guna2Button2_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70159 | NFeTerceiros.guna2Button1_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70164 | NFeTerceiros.btnMaisAcoes1_Click | 15 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70180 | NFeTerceiros.btnCancelar2_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70186 | NFeTerceiros.btnConfirmar2_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70192 | NFeTerceiros.compartilharToolStripMenuItem1_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70198 | NFeTerceiros.replicarToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70203 | NFeTerceiros.excluirToolStripMenuItem1_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70208 | NFeTerceiros.infoToolStripMenuItem_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70214 | NFeTerceiros.maisAçõesToolStripMenuItem_Click | 3 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70218 | NFeTerceiros.pDFToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70223 | NFeTerceiros.limparToolStripMenuItem_Click | 43 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70266 | NFeTerceiros.txtAPI_KeyDown | 9 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70276 | NFeTerceiros.imprimirToolStripMenuItem2_Click | 57 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70334 | NFeTerceiros.ocultarColunasToolStripMenuItem1_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70343 | NFeTerceiros.importaçãoEmMassaToolStripMenuItem_Click_1 | 115 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70459 | NFeTerceiros.importaçãoNormalToolStripMenuItem_Click | 34 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70494 | NFeTerceiros.exportarModeloToolStripMenuItem2_Click | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70500 | NFeTerceiros.importaçãoSecundáriaToolStripMenuItem_Click | 167 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70670 | NFeTerceiros.txtPesquisaInteracao_IconRightClick | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70677 | NFeTerceiros.cbbCampoInteracao_SelectedIndexChanged | 18 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70696 | NFeTerceiros.btnVoltarLista_Click | 7 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70705 | NFeTerceiros.btnFiltros_Click | 124 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70830 | NFeTerceiros.toggleSwitchVertical_CheckedChanged | 5 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70836 | NFeTerceiros.btnStatus_Click | 66 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70903 | NFeTerceiros.btnLimpaFiltro_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70907 | NFeTerceiros.ImprimirTabela | 32 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70940 | NFeTerceiros.btnImprimirTabela_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70945 | NFeTerceiros.ExportarExcelTabela | 33 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 70979 | NFeTerceiros.ExportarPDFTabela | 33 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 71013 | NFeTerceiros.btnPDFTabela_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 71018 | NFeTerceiros.btnExcelTabela_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 71023 | NFeTerceiros.btnAtualizar_Click | 12 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
-| 71036 | NFeTerceiros.atualizarToolStripMenuItem_Click | 4 | Via form | `ERPBlazor/Components/Pages/Table.razor:2` | frmInterface |
+| 60884 | NFeTerceiros.ParametrosRelatorio | 190 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:1` |  |
+| 61077 | NFeTerceiros.exportarExcelToolStripMenuItem1_Click | 43 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 61121 | NFeTerceiros.exportarPDFToolStripMenuItem2_Click | 42 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 61167 | NFeTerceiros.imprimirToolStripMenuItem1_Click | 42 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
+| 61210 | NFeTerceiros.filtroToolStripMenuItem1_Click | 42 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 61255 | NFeTerceiros.exportarModeloToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 61260 | NFeTerceiros.exportarModeloToolStripMenuItem1_Click | 42 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 61303 | NFeTerceiros.exportarModeloToolStripMenuItem_Click_1 | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 61308 | NFeTerceiros.Replicar | 878 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:45` | SS8-145 (Petrus.Core/Acoes/Replicacao.cs) |
+| 62186 | NFeTerceiros.btnReplicar_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 62194 | NFeTerceiros.btnStatusGrid_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 62200 | NFeTerceiros.todosToolStripMenuItem_Click | 16 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 62217 | NFeTerceiros.btnImprimirRegistro_Click | 57 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 62275 | NFeTerceiros.imprimirToolStripMenuItem_Click | 99 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
+| 62375 | NFeTerceiros.btnCompartilharRelatorio_Click | 247 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 62623 | NFeTerceiros.guna2ContextMenuStrip1_Opening | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 62629 | NFeTerceiros.ImportarGerador | 151 | **Falta** |  | importação da planilha Gerador |
+| 62780 | NFeTerceiros.ImportarAferiPratic | 358 | **Falta** |  | importação da planilha Aferi da Pratic (SS8-210 foi só no desktop) |
+| 63141 | NFeTerceiros.AferiPraticNormalizar | 20 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63162 | NFeTerceiros.AferiPraticAba | 37 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63200 | NFeTerceiros.AferiPraticTexto | 27 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63228 | NFeTerceiros.AferiPraticNumero | 34 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63264 | NFeTerceiros.AferiPraticLinhaCabecalho | 12 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63278 | NFeTerceiros.AferiPraticColuna | 22 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63302 | NFeTerceiros.AferiPraticRotulo | 17 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63321 | NFeTerceiros.AferiPraticAoLado | 13 | **Falta** |  | auxiliares da importação Aferi (SS8-210) |
+| 63335 | NFeTerceiros.IntegrarPedido | 43 | **Falta** |  | anexo RR3 da planilha importada (Aferi) |
+| 63378 | NFeTerceiros.ImportarAferiDecorplast | 332 | **Falta** |  | importação da planilha Aferi da Decorplast |
+| 63711 | NFeTerceiros.ImportarAferi | 337 | **Falta** |  | importação da planilha Aferi (CNPJ 04.968.578 e 51.534.496) |
+| 64049 | NFeTerceiros.LerXML | 2344 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:33` | Importar XML da nota de entrada (SS8-246, ImportacaoXmlEntrada) |
+| 66393 | NFeTerceiros.sfDataGridTabela_CellButtonClick | 26 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 66421 | NFeTerceiros.sfDataGrid_CellButtonClick | 3472 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69894 | NFeTerceiros.frmInterface_FormClosing | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69899 | NFeTerceiros.sfDataGridTabela_ColumnDragging | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69904 | NFeTerceiros.sfDataGridTabela_DragDrop | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69909 | NFeTerceiros.sfDataGridTabela_CurrentCellValidated | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69914 | NFeTerceiros.ocultarColunasToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69921 | NFeTerceiros.ordemDasColunasToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69926 | NFeTerceiros.salvarConfiguraçõesToolStripMenuItem_Click | 22 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69949 | NFeTerceiros.gerarParcelasToolStripMenuItem_Click | 3 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69953 | NFeTerceiros.btnPeriodoInteracao_Click | 40 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 69995 | NFeTerceiros.editandoToolStripMenuItem_Click | 51 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70047 | NFeTerceiros.visualizandoToolStripMenuItem_Click | 53 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70103 | NFeTerceiros.btnVoltar_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70108 | NFeTerceiros.txtPesquisa_KeyDown | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70117 | NFeTerceiros.frmInterface_FormClosed | 27 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70145 | NFeTerceiros.txtPesquisaInteracao_KeyDown | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70154 | NFeTerceiros.guna2Button2_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70159 | NFeTerceiros.guna2Button1_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70164 | NFeTerceiros.btnMaisAcoes1_Click | 15 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70180 | NFeTerceiros.btnCancelar2_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70186 | NFeTerceiros.btnConfirmar2_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70192 | NFeTerceiros.compartilharToolStripMenuItem1_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70198 | NFeTerceiros.replicarToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70203 | NFeTerceiros.excluirToolStripMenuItem1_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70208 | NFeTerceiros.infoToolStripMenuItem_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70214 | NFeTerceiros.maisAçõesToolStripMenuItem_Click | 3 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70218 | NFeTerceiros.pDFToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70223 | NFeTerceiros.limparToolStripMenuItem_Click | 43 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70266 | NFeTerceiros.txtAPI_KeyDown | 9 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70276 | NFeTerceiros.imprimirToolStripMenuItem2_Click | 57 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
+| 70334 | NFeTerceiros.ocultarColunasToolStripMenuItem1_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70343 | NFeTerceiros.importaçãoEmMassaToolStripMenuItem_Click_1 | 115 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70459 | NFeTerceiros.importaçãoNormalToolStripMenuItem_Click | 34 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70494 | NFeTerceiros.exportarModeloToolStripMenuItem2_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70500 | NFeTerceiros.importaçãoSecundáriaToolStripMenuItem_Click | 167 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70670 | NFeTerceiros.txtPesquisaInteracao_IconRightClick | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70677 | NFeTerceiros.cbbCampoInteracao_SelectedIndexChanged | 18 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70696 | NFeTerceiros.btnVoltarLista_Click | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70705 | NFeTerceiros.btnFiltros_Click | 124 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70830 | NFeTerceiros.toggleSwitchVertical_CheckedChanged | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70836 | NFeTerceiros.btnStatus_Click | 66 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70903 | NFeTerceiros.btnLimpaFiltro_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70907 | NFeTerceiros.ImprimirTabela | 32 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` | exportar/imprimir a grade |
+| 70940 | NFeTerceiros.btnImprimirTabela_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 70945 | NFeTerceiros.ExportarExcelTabela | 33 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` | exportar/imprimir a grade |
+| 70979 | NFeTerceiros.ExportarPDFTabela | 33 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` | exportar/imprimir a grade |
+| 71013 | NFeTerceiros.btnPDFTabela_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 71018 | NFeTerceiros.btnExcelTabela_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 71023 | NFeTerceiros.btnAtualizar_Click | 12 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 71036 | NFeTerceiros.atualizarToolStripMenuItem_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 
 ## `Sistema/Interfaces/frmLogin.cs`
 

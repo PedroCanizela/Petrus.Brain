@@ -1,8 +1,8 @@
 # Métodos: Metodos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Em branch: 42 · Equivalente: 34 · Não se aplica: 32 · Mesmo nome: 6 · Citado: 6 · Citado (conferir): 4 · Falta: 1
 

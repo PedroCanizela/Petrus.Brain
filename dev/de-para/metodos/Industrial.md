@@ -1,8 +1,8 @@
 # Métodos: Industrial (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Equivalente: 80 · Via form: 61 · Mesmo nome: 54 · Sem uso no desktop: 7 · Via S7: 6 · Via S39: 4 · Conferir: 2 · Nome+Async: 2 · Citado: 2 · Citado (conferir): 1 · Não se aplica: 1
 

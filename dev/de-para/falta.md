@@ -1,8 +1,8 @@
 # O que falta no Web (automático)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita à mão fica em [[de-para/analise|Análise]].
+Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita à mão fica em [[dev/de-para/analise|Análise]].
 
 ## Compras (9 métodos, ~1398 linhas)
 
@@ -57,18 +57,33 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `RH/Engines/D10Engine.cs:589` | D10Engine.TelefonesImportacaoD10 | 333 | pendente da SS8-221 |
 | `RH/Engines/D10Engine.cs:259` | D10Engine.EmailImportacaoD10 | 267 | pendente da SS8-221 |
 
-## Sistema (8 métodos, ~1299 linhas)
+## Sistema (23 métodos, ~3689 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
+| `Sistema/Interfaces/frmInterface.cs:52958` | NFeTerceiros.ImportarEasy | 927 | importação de pedido/tabela de preço por planilha (Easy) no R13/R43/RR8/RM11 |
 | `Sistema/Interfaces/frmLogin.cs:1063` | frmLogin.CriaModulos | 376 | módulos da empresa nova (trial) |
 | `Sistema/Interfaces/frmLogin.cs:2146` | frmLogin.CriarUsuario | 366 | cadastro de usuário novo pelo login (trial) |
+| `Sistema/Interfaces/frmInterface.cs:62780` | NFeTerceiros.ImportarAferiPratic | 358 | importação da planilha Aferi da Pratic (SS8-210 foi só no desktop) |
+| `Sistema/Interfaces/frmInterface.cs:63711` | NFeTerceiros.ImportarAferi | 337 | importação da planilha Aferi (CNPJ 04.968.578 e 51.534.496) |
+| `Sistema/Interfaces/frmInterface.cs:63378` | NFeTerceiros.ImportarAferiDecorplast | 332 | importação da planilha Aferi da Decorplast |
 | `Sistema/Interfaces/frmLogin.cs:542` | frmLogin.CriarEmpresa | 325 | cadastro de empresa nova pelo login (trial/assinatura) |
+| `Sistema/Interfaces/frmInterface.cs:62629` | NFeTerceiros.ImportarGerador | 151 | importação da planilha Gerador |
 | `Sistema/Interfaces/frmLogin.cs:925` | frmLogin.Calcula | 72 | valor da assinatura no login |
 | `Sistema/Interfaces/frmLogin.cs:1756` | frmLogin.VerificarAssinatura | 62 | assinatura/cobrança do Petrus no login |
-| `Sistema/Interfaces/frmLogin.cs:503` | frmLogin.GerarIDUsuario | 37 | trial |
+| `Sistema/Interfaces/frmInterface.cs:52557` | NFeTerceiros.RelatorioEmail | 60 | enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail) |
+| `Sistema/Interfaces/frmInterface.cs:63335` | NFeTerceiros.IntegrarPedido | 43 | anexo RR3 da planilha importada (Aferi) |
 | `Sistema/Interfaces/frmLogin.cs:1024` | frmLogin.btnFormaPagto | 37 | assinatura no login |
+| `Sistema/Interfaces/frmInterface.cs:63162` | NFeTerceiros.AferiPraticAba | 37 | auxiliares da importação Aferi (SS8-210) |
+| `Sistema/Interfaces/frmLogin.cs:503` | frmLogin.GerarIDUsuario | 37 | trial |
+| `Sistema/Interfaces/frmInterface.cs:63228` | NFeTerceiros.AferiPraticNumero | 34 | auxiliares da importação Aferi (SS8-210) |
+| `Sistema/Interfaces/frmInterface.cs:63200` | NFeTerceiros.AferiPraticTexto | 27 | auxiliares da importação Aferi (SS8-210) |
 | `Sistema/Interfaces/frmLogin.cs:888` | frmLogin.CartaoCredito | 24 | assinatura no login |
+| `Sistema/Interfaces/frmInterface.cs:63278` | NFeTerceiros.AferiPraticColuna | 22 | auxiliares da importação Aferi (SS8-210) |
+| `Sistema/Interfaces/frmInterface.cs:63141` | NFeTerceiros.AferiPraticNormalizar | 20 | auxiliares da importação Aferi (SS8-210) |
+| `Sistema/Interfaces/frmInterface.cs:63302` | NFeTerceiros.AferiPraticRotulo | 17 | auxiliares da importação Aferi (SS8-210) |
+| `Sistema/Interfaces/frmInterface.cs:63321` | NFeTerceiros.AferiPraticAoLado | 13 | auxiliares da importação Aferi (SS8-210) |
+| `Sistema/Interfaces/frmInterface.cs:63264` | NFeTerceiros.AferiPraticLinhaCabecalho | 12 | auxiliares da importação Aferi (SS8-210) |
 
 ## Utils (2 métodos, ~156 linhas)
 

@@ -1,8 +1,8 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
-Voltar: [[de-para/README|De → para]]
+Voltar: [[dev/de-para/README|De → para]]
 
 **Situação:** Via form: 20 · Mesmo nome: 20 · Falta: 17 · Via S39: 7 · Equivalente: 4 · Citado (conferir): 4 · Citado: 3 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
 
