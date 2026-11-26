@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:15 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -219,10 +219,10 @@ Branches:
 - claude/determined-feistel-6e7623
 - + claude/dreamy-driscoll-ea3cff
 - claude/jolly-wiles-b6bda3
-- + claude/lucid-aryabhata-a87fab
 - claude/magical-bartik-17f3b7
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-296-pesquisa-so-enter
+- + feature/ss8-297-rodape-totais-celular
 - + feature/ss8-39-novo-layout-erp
 - * master
 
