@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 20:56 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:05 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-275-recuperar-senha
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 fd299428 Merge SS8-275: Petrus / Login: esqueci a senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
 - 2026-11-25 198770bf SS8-275: Petrus / Login: recupera├º├úo de senha com c├│digo aleat├│rio e sem o c├│digo fixo 1709
 - 2026-11-25 38b4a4a6 Merge SS8-272: Petrus / Login: consultas com par├ómetros no frmLogin (SQL injection) e senha com o mesmo hash do Petrus Web
 - 2026-11-25 33e48666 SS8-272: Petrus / Login: consultas com par├ómetros no frmLogin (SQL injection) e senha com o mesmo hash do Petrus Web
@@ -200,7 +200,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-11 9e3043a1 Update - Dicionario
 - 2026-11-11 4f750f3d Add - Dicionario Petrus
 - 2026-11-11 b10df23d Update - Dados
-- 2026-11-11 407baecd Fix - Troca de Molde e Ordem Mistura Pratic
 
 ## Petrus.ERP
 Branch atual: master
