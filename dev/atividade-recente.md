@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 11:43 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:04 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -197,10 +197,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 c354334f Add - Dados QrCode Claude
 - 2026-11-12 5d51fc76 SS8-24: Tabela SS10 (Conferência de backup) no Dados.cs
 - 2026-11-12 ee9e77dd Update
-- 2026-11-12 12f5d287 Merge SS8-10: Ordem de mistura - cálculo das matérias-primas, grupo Valores e cores de status
-- 2026-11-12 a2d637d7 SS8-10: grupo Valores e cores de status na Ordem de mistura
-- 2026-11-12 d6610e8b SS8-10: sempre recarregar as matérias-primas da receita
-- 2026-11-12 96c12d93 SS8-10: Ordem de mistura - cálculo das matérias-primas (CalculaVM5)
 
 ## Petrus.Canhoto
 Branch atual: master
