@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:19 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -217,16 +217,19 @@ Branches:
 - claude/amazing-brattain-67d432
 - claude/determined-dewdney-22c5ee
 - claude/determined-feistel-6e7623
-- + claude/dreamy-driscoll-ea3cff
+- claude/dreamy-driscoll-ea3cff
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
+- + claude/vibrant-heisenberg-962b6b
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-296-pesquisa-so-enter
 - + feature/ss8-297-rodape-totais-celular
+- + feature/ss8-298-apontamento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 a787555 ﻿SS8-298: MES / Apontamento: renomeia "Apontamento por etapas" para "Apontamento"
 - 2026-11-26 505f7ec Merge SS8-249: Migração Web — Produto e Pedido de venda: fotos públicas no Cloudflare R2 e etiqueta Zebra pelos parâmetros
 - 2026-11-26 8366b23 Merge SS8-284: Petrus Web / Layout geral: responsividade no celular e no tablet (Table, Details, Report, Dashboards e diálogos)
 - 2026-11-26 7d980d4 Merge SS8-283: Petrus Web / Tema escuro: paleta mais clara e controles sem fundo branco (campos desabilitados, diálogos, gráficos)
