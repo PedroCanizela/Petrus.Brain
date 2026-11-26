@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:22 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:28 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -217,6 +217,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 669a3bf SS8-221: importar Excel e exportar modelo de importação na /Table
 - 2026-11-25 f1f9358 Merge SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
 - 2026-11-25 3c04ef2 Merge SS8-161: Migração Web / Homologação: auditar e testar contra o banco as funções S39 migradas, por módulo
 - 2026-11-25 d826751 SS8-161: bateria de homologação numa cópia local do banco e correções achadas
