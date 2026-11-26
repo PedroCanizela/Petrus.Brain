@@ -69,6 +69,8 @@
 - [Monitoramento MES: linha colorida](monitoramento-visual-mes.md) — SS8-301: Pedro quer a linha colorida pelo status, não etiqueta; tons por color-mix no tema
 - [Mapa da fábrica 3D estilo CNE](mapa-fabrica-3d-cne.md) — SS8-300: injetora em blocos (sem .glb), operador sempre visível, Mover máquinas/Andar, C4_MAPA_* no S10 (2 branches); corLinear, OrbitControls preso no arraste
 - [Etiqueta Zebra pelo navegador](etiqueta-zebra-navegador-pdf.md) — GX4 sem endereço = PDF do ZplPdf, uma página por ^XA (^PW x ^LL), QR ^BQ; pacote e operador
+- [UF no Performance de vendas](uf-performance-vendas-ss8-299.md) — SS8-299: S77_UF = X12_SIGLA pela R4.X12_ID, S30 103896 (Dados.cs + S30.cs do Web), R4_PREMIACAO não existe
+- [Login com todos os módulos](login-vitrine-modulos-web.md) — SS8-306: vitrine por área no Login.razor (MenuPetrus.ModulosWeb), slogan novo, fundo escuro mantido
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
