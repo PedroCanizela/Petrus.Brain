@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:22 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -226,6 +226,7 @@ Branches:
 - + feature/ss8-297-rodape-totais-celular
 - + feature/ss8-298-apontamento
 - + feature/ss8-300-mapa-fabrica-3d-cne
+- + feature/ss8-301-visual-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
