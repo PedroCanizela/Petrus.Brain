@@ -55,7 +55,7 @@
 - [Importar Excel na /Table](importar-excel-table-web.md) — SS8-221: LeituraExcel (xlsx sem XlsIO) e ImportacaoExcel no Core, com/sem ID, S15_INCLUIR; telefones/e-mails R2/R4/J2/I5/D10 pendentes
 - [Tema escuro no Web](tema-escuro-web.md) — SS8-283: paleta grafite, .pt-escuro no <html> (diálogos/popovers), campo inativo por variável, EstadoTema nos SfChart
 - [Contas a pagar sem plano (SS8-203)](contas-pagar-sem-plano-ss8-203.md) — S7 100492 (N9 sem L70) no desktop e Web; receita S7+S29+S30+GetReport/Registrar
-- [Fotos R2 e etiqueta Zebra no Web](fotos-r2-etiqueta-zebra-web.md) — SS8-249: ExportarEtiquetaZebra no Core (rede ou .zpl), 100115 pede de-até; fotos aguardando (G6_URL_FOTO não existe)
+- [Fotos R2 e etiqueta Zebra no Web](fotos-r2-etiqueta-zebra-web.md) — SS8-249: ExportarEtiquetaZebra no Core (rede ou .zpl), G6_URL_FOTO (S10 123535) + botão Publicar fotos; 2 branches juntas
 - [Exportar arquivos no app do celular](exportar-arquivos-celular-web.md) — SS8-285: blob ignorado no PWA; EntregaArquivos + ArquivosTemporarios, aviso Abrir/Compartilhar, ExcelDaGradeAsync
 - [Catálogo S10 estourava a pilha](catalogo-s10-pilha.md) — SS8-235: CriarS10 > 1,5 MB de pilha derrubava o Web; CriarS10Parte1..14, campo novo no fim da última parte
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar

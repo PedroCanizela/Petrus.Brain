@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:52 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:54 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 f856e034 SS8-249: coluna G6_URL_FOTO e PublicarFotosG6 lendo o caminho do G6_FOTO
 - 2026-11-26 cb139fff SS8-203: relatório de contas à pagar sem plano de contas
 - 2026-11-26 765196f2 Update
 - 2026-11-25 dc65042a Merge SS8-253: Logística / Expedição: motorista por pedido na aba de pedidos da expedição
@@ -236,6 +237,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 f83a362 SS8-248: Customizador fica no desktop e o Comando SQL vai para o Web
+- 2026-11-26 4eea362 SS8-249: fotos públicas do produto no Cloudflare R2 (PublicarFotosG6) no Petrus Web
 - 2026-11-26 e747bc8 SS8-203: relatório de contas à pagar sem plano de contas
 - 2026-11-26 8e2f91b SS8-235: divide o catálogo S10 em partes para não estourar a pilha ao abrir as telas
 - 2026-11-26 0fa9d62 SS8-285: exportar Excel e PDF no app do celular (Table, Report e demais grades)
