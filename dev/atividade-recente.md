@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 11:04 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 11:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -28,6 +28,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 1fec030d SS8-289: tabelas dos agentes de IA do Petrus Web no Dados.cs
 - 2026-11-26 c9e9ca77 SS8-109: campos, telas e funções do Hub / Mercado Livre no Dados.cs
 - 2026-11-26 f856e034 SS8-249: coluna G6_URL_FOTO e PublicarFotosG6 lendo o caminho do G6_FOTO
 - 2026-11-26 cb139fff SS8-203: relatório de contas à pagar sem plano de contas
@@ -225,7 +226,6 @@ Branches:
 - claude/magical-bartik-17f3b7
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
-- + claude/ss8-289-agentes-ia-102928
 - + feature/ss8-109-conector-mercado-livre
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-241-op-embalagem
@@ -239,10 +239,12 @@ Branches:
 - + feature/ss8-286-abas-piscando
 - + feature/ss8-287-mais-acoes-table
 - + feature/ss8-288-pcp-operacoes
+- + feature/ss8-289-agentes-ia
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 cc7f6a2 SS8-289: agentes de IA no Petrus Web (base)
 - 2026-11-26 19c9628 SS8-288: PCP por operação, apontamento por etapas e produção por operação
 - 2026-11-26 0e329bf SS8-109: Hub / conector Mercado Livre (OAuth, importação e vínculo de anúncios, publicação)
 - 2026-11-26 14a2530 SS8-248: botões avulsos do frmComando no Comando SQL do Web
