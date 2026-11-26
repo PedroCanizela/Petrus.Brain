@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:33 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:35 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -219,6 +219,10 @@ Branch atual: master
 Branches:
 - + claude/determined-dewdney-22c5ee
 - claude/jolly-wiles-b6bda3
+- + claude/ss8-203-ca49c2
+- + claude/ss8-248-b6b934
+- + claude/ss8-249-215e7c
+- + feature/ss8-256-diagnostico-chaves
 - + feature/ss8-273-qtd-op-volume
 - + feature/ss8-279-pesquisa-enter-ajustes
 - + feature/ss8-283-tema-escuro
@@ -227,6 +231,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 38b9cb3 SS8-273: MES / Ordem de produção: digitar a quantidade da OP em volumes (não as cores)
+- 2026-11-26 22c5ca9 SS8-279: pesquisa só com Enter em todas as telas e campos NUMERIC no Pesquisar por
 - 2026-11-26 588933c SS8-259: Instalar-NoCliente usa o endereço do site no IIS para o /saude
 - 2026-11-26 b3e6eeb SS8-259: Instalar-NoCliente procura o credentials.xml em C:\Petrus
 - 2026-11-26 4309c0c SS8-259: Instalar-NoCliente acha o ASP.NET Core Module onde o Hosting Bundle instala

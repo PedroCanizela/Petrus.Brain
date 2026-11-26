@@ -39,7 +39,7 @@
 - [Perfil do cliente no Web](perfil-cliente-web.md) — SS8-247: /Vendas/PerfilCliente (102031), PerfilClienteView no diálogo, juros/data base, ações no Financeiro.PerfilCliente, ArquivosAcao.Compactar
 - [Cálculos do Industrial no /Details](calculos-cadastro-industrial.md) — SS8-266: Grid() de V1/VX1/VX11/VZ1/C3/VM1/VM3 no ICalculoCadastro, S9 das abas, Substituir só se mudar
 - [Cálculos de Compras no Web](calculos-cadastro-compras-web.md) — SS8-262: Grid() de I13/I14/I57/I70 no CalculoCadastroCompras, Compras→Fiscal, CadastroEmEdicao.S2_USUARIO, sem cálculo na importação
-- [Parâmetros do usuário (S84) no Web](parametros-usuario-s84-web.md) — SS8-273: ParametrosUsuario no Core.Sistema, preferência por usuário; pó por volume na OP (OPCoresPorVolume)
+- [Parâmetros do usuário (S84) no Web](parametros-usuario-s84-web.md) — SS8-273: ParametrosUsuario no Core.Sistema; quantidade da OP em volumes (OPQuantidadePorVolume), "pó" era "OP"
 - [Cálculos da Manutenção no /Details](calculos-cadastro-manutencao.md) — SS8-267: Grid() de H5/H3 (buscas G6/H9/HX8), S9 das abas, bug HX8_DESCRICAO no HX9
 - [Senha com hash no desktop](senha-hash-desktop.md) — SS8-272: Funcoes.ConferirLogin/GravarSenhaS2 no Petrus, S2_SENHA_HASH igual ao Web; backdoor 1709 no esqueci a senha
 - [Modo vertical/horizontal do Details](details-modo-vertical-web.md) — SS8-277: sub-abas por grupo S9 na Principal, toggle no cabeçalho, S84 ModoVertical igual ao desktop
