@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 17:09 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 17:37 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -198,7 +198,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 8b80400a Merge SS8-24: Tabela SS10 (Conferência de backup) no Dados.cs
 - 2026-11-12 c354334f Add - Dados QrCode Claude
 - 2026-11-12 5d51fc76 SS8-24: Tabela SS10 (Conferência de backup) no Dados.cs
-- 2026-11-12 ee9e77dd Update
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -229,6 +228,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 6620aa0 Etiqueta de pacote Pratic: ZPL para 100 x 50 mm, sem logo e borda (vêm impressos no rolo)
 - 2026-11-26 4e247b1 Etiquetas pelo navegador: pacote QR Code sem endereço de rede e PDF com uma página por linha da Zebra
 - 2026-11-26 b53399e Merge SS8-300: Petrus Web / MES / Mapa da fábrica: mapa 3D no estilo da CNE (injetora em blocos, operador, mover máquinas e andar pela fábrica)
 - 2026-11-26 3620924 SS8-300: campos C4_MAPA_* no dicionário S10 do Petrus Web
