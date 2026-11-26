@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:47 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:50 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,6 +19,7 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-203-contas-pagar-sem-plano
+- + feature/ss8-249-g6-url-foto
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -233,6 +234,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 8e2f91b SS8-235: divide o catálogo S10 em partes para não estourar a pilha ao abrir as telas
+- 2026-11-26 0fa9d62 SS8-285: exportar Excel e PDF no app do celular (Table, Report e demais grades)
 - 2026-11-26 d3ba4b6 SS8-249: Etiqueta NF com EtiquetaZebra (ExportarEtiquetaZebra) no Petrus Web
 - 2026-11-26 eeb70df SS8-284: Petrus Web no celular e no tablet
 - 2026-11-26 7050f5c SS8-283: tema escuro mais claro e sem controles brancos
