@@ -50,6 +50,7 @@
 - [Datas pelo S10_TIPO no Web](datetime-s10-tipo-web.md) — SS8-280: DATE/DATETIME/TIME como no desktop (HH:mm:ss), Details com datetime-local, PlanilhaAba e Table
 - [Pesquisa com Enter na /Table](pesquisa-enter-table-web.md) — SS8-279: busca no banco só no Enter/lupa (PesquisaInterface no Core, CarregaPesquisa do desktop), não filtra a grade carregada
 - [Importar pedido por IA no Web](importar-pedido-ia-web.md) — SS8-174: PedidoProdutoService (Sonnet, chave do assistente, IA1/IA2, limite S74), PDF direto, desktop não mexido
+- [Petrus PDV (frente de caixa Web)](petrus-pdv-web.md) — SS8-46: repo Petrus.PDV, Blazor WASM/PWA + API, Petrus.Core via PetrusErpDir, caixa RX1/RX2, módulo S4 52
 - [Desenvolvimento e erros no Suporte](desenvolvimento-suporte-erros.md) — SS8-278: Dashboard, aba Erros (AW4, POST /api/erros pelo Petrus.Atualizador), SS8_VALOR, prints AW5, documento para assinatura
 - [Importar Excel na /Table](importar-excel-table-web.md) — SS8-221: LeituraExcel (xlsx sem XlsIO) e ImportacaoExcel no Core, com/sem ID, S15_INCLUIR; telefones/e-mails R2/R4/J2/I5/D10 pendentes
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
