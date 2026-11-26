@@ -11,7 +11,7 @@ metadata:
 SS8-306 (26/11/2026, branch feature/ss8-306-login-modulos): a vitrine do `Login.razor` (painel escuro `.lg-marca`) lista
 todos os módulos de `MenuPetrus.ModulosWeb` com `IconeModulo`/`DescricaoModulo`, agrupados por área (Gestão, Indústria,
 Logística, Varejo e canais, Pessoas e sistema) no array `Areas` da página; módulo novo sem área cai em "Outros".
-Slogan: "Do pedido ao chão de fábrica, tudo conversa no Petrus." CSS no bloco SS8-41 do `petrus.css`.
+Slogan escolhido pelo Pedro: "Toda a operação / em um só sistema." + "Inovando constantemente visando melhorar cada vez mais o dia a dia da sua empresa." CSS no bloco SS8-41 do `petrus.css`.
 
 **Why:** o Pedro pediu slogan melhor e todos os módulos, e disse que gostou do fundo (gradiente escuro com grade) — manter.
 
