@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:47 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:51 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,14 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-237-bordero-valor-saldo
-- + feature/ss8-253-motorista-combobox-expedicao
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 dc65042a Merge SS8-253: Logística / Expedição: motorista por pedido na aba de pedidos da expedição
+- 2026-11-25 e2dbd6cd Merge SS8-237: Bordero cobrança: add campo
 - 2026-11-25 a4676fd0 SS8-253: Logística / Expedição: motorista do pedido fora do PDF da expedição
 - 2026-11-25 48677e45 Merge SS8-281: Logística / Petrus.Canhoto: app de canhoto de entrega digital com assinatura, fotos e localização do recebedor
 - 2026-11-25 9a4e6082 SS8-281: Estrutura do canhoto de entrega digital (J60 e J61) para o Petrus.Canhoto
@@ -223,12 +223,14 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
-- + feature/ss8-174-importar-pedido-ia
-- + feature/ss8-221-importar-excel-table
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 e38ec34 Merge SS8-174: Vendas / Pedido de venda: importar pedido do cliente por IA (Claude) no Incluir produtos do Petrus Web
+- 2026-11-25 4dbe870 On master: SS8-174: linha do Importar pedido via IA no comparacao-desktop-web (duplicada da branch)
+- 2026-11-25 f14f185 index on master: 8fb712e Merge SS8-221: Migração Web / Tela de tabela: importar Excel e exportar modelo de importação
+- 2026-11-25 8fb712e Merge SS8-221: Migração Web / Tela de tabela: importar Excel e exportar modelo de importação
 - 2026-11-25 49e33ef Merge SS8-281: Logística / Petrus.Canhoto: app de canhoto de entrega digital com assinatura, fotos e localização do recebedor
 - 2026-11-25 b57603d SS8-281: Petrus.Canhoto - API, canhoto em PDF e catálogo do canhoto de entrega (J60/J61)
 - 2026-11-25 796f20f SS8-174: importar pedido do cliente por IA (Claude) no Incluir produtos do Petrus Web
@@ -699,10 +701,10 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-282-design-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b363298 Merge SS8-282: Petrus.FV / Layout: atualizar o força de vendas com o design novo do Petrus.ERP (tema, menu, login e telas)
 - 2026-11-25 b6dea8e SS8-282: Petrus.FV / Layout: design novo do Petrus.ERP (tema, menu, login e telas)
 
 ## Petrus.Hub
@@ -757,10 +759,10 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + feature/ss8-46-pdv-web-caixa
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 61c01ba Merge SS8-46: PDV / Frente de caixa: app Petrus PDV em Blazor WebAssembly no banco do Petrus (Parte 1: login e caixa)
 - 2026-11-25 90f1072 SS8-46: Petrus PDV Parte 1 - login e caixa (abertura, fechamento, sangria e suprimento)
 - 2026-11-25 74d0b6a Repositório do Petrus PDV
 
