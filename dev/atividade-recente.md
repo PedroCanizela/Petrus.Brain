@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:39 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:59 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -228,6 +228,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 f6980f2 SS8-300: mapa 3D com injetora no visual da CNE, operador sempre visível e modo andar
 - 2026-11-26 c04d73b SS8-300: Mapa da fábrica 3D no estilo da CNE
 - 2026-11-26 fb2c15b SS8-301: linha da grade volta a ser colorida pelo status, com tons legíveis
 - 2026-11-26 bdb1457 Merge SS8-298: MES / Apontamento: renomear "Apontamento por etapas" para "Apontamento" e manter no MES junto com a OP de embalagem (SS8-288)
