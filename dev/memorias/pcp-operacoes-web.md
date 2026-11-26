@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 955801ae-f642-4964-82ad-493b3e4fcade
-  modified: 2026-11-26T14:27:28.040Z
+  modified: 2026-11-26T16:22:14.803Z
 ---
 
 SS8-288 aprovada e na master em 26/11/2026 (merge a477585, sem push). O Pedro pediu
@@ -21,6 +21,9 @@ SS8-288 aprovada e na master em 26/11/2026 (merge a477585, sem push). O Pedro pe
   (perdas). Não muda o status da OP: OP "Iniciado" entra no OEE do Petrus.Monitor ([[op-embalagem-web]]).
 - Código: `Petrus.Industrial/Classes/PlanejamentoPCP.cs` (Planejar devolve tudo: ordens/etapas, referências, carga,
   realizado, perdas, operadores, calendário) e `ApontamentoEtapas.cs`. Telas no menu Chão de Fábrica > Planejamento.
+- SS8-298 (26/11, branch feature/ss8-298-apontamento, aguardando aprovação): a tela de lançamento chama-se só
+  **"Apontamento"**, rota `/MES/Apontamento` (a antiga `/MES/ApontamentoEtapas` redireciona), no menu do MES em
+  Produção logo depois da "OP de embalagem". O arquivo continua `LancamentoEtapas.razor`.
 - O Web não sobe contra banco local (só o credentials.xml). Para testar a lógica: banco local descartável com
   `SELECT TOP 0 * INTO` do novplast + dados fictícios + console que define `Funcoes.ConnectionString` antes de tudo.
 

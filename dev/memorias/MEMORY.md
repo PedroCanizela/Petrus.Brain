@@ -65,7 +65,7 @@
 - [Agentes de IA por área](agentes-ia-ss8-289.md) — SS8-289 base entregue (IA3/IA4/IA5, S74/S84 cota, AgentesService, FerramentasAgentes.Registrar, /Agentes); 290 notificações, 291-295 áreas
 - [Contexto do usuário sem pisca nas abas](contexto-cascata-web.md) — SS8-286: FonteContexto (CascadingValueSource) no lugar do CascadingValue de record; 25 abas de 180px
 - [Hub / Mercado Livre](hub-mercado-livre.md) — SS8-109: conector ML no Petrus.Hub, OAuth /Hub/{slug}/Retorno, SKU = G6_REFERENCIA, variações G6_ID_1+G6_GRADE, S39 100530–535
-- [PCP por operação no Web](pcp-operacoes-web.md) — SS8-288: operação = V10, etapas = linhas VZ1 do produto, apontamento VX1+VX9+VX7, /PCP/Planejamento
+- [PCP por operação no Web](pcp-operacoes-web.md) — SS8-288: operação = V10, etapas = linhas VZ1 do produto, apontamento VX1+VX9+VX7, /PCP/Planejamento; tela "Apontamento" /MES/Apontamento (SS8-298)
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
