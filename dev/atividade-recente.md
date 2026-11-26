@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:45 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:47 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -233,6 +233,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 d3ba4b6 SS8-249: Etiqueta NF com EtiquetaZebra (ExportarEtiquetaZebra) no Petrus Web
 - 2026-11-26 eeb70df SS8-284: Petrus Web no celular e no tablet
 - 2026-11-26 7050f5c SS8-283: tema escuro mais claro e sem controles brancos
 - 2026-11-26 99b4419 SS8-256: conferir na subida se as chaves do Data Protection ficaram gravadas
