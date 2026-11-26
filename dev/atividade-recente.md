@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:27 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:29 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -222,15 +222,15 @@ Branches:
 - claude/magical-bartik-17f3b7
 - claude/vibrant-heisenberg-962b6b
 - + feature/ss8-235-gaiola-embalagem
-- + feature/ss8-296-pesquisa-so-enter
-- + feature/ss8-297-rodape-totais-celular
-- + feature/ss8-298-apontamento
 - + feature/ss8-300-mapa-fabrica-3d-cne
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 bdb1457 Merge SS8-298: MES / Apontamento: renomear "Apontamento por etapas" para "Apontamento" e manter no MES junto com a OP de embalagem (SS8-288)
+- 2026-11-26 daa1dca Merge SS8-297: Petrus Web / Celular: no pedido de venda, aba Produtos, o rodapé de totais ocupa a tela e esconde a grade (SS8-284)
+- 2026-11-26 04f56b5 Merge SS8-296: Petrus Web / Pesquisa: ainda busca a cada tecla (SS8-279); buscar no banco somente no Enter ou na lupa
 - 2026-11-26 42aa4fa SS8-301: Monitoramento (MES) com status em etiqueta, ciclo x padrão e grade legível
 - 2026-11-26 3c29fdc SS8-297: Details no celular: rodapé de totais recolhível e em 2 colunas, sem esconder a grade
 - 2026-11-26 35d8e77 SS8-296: pesquisa do Web só vai ao servidor no Enter ou na lupa

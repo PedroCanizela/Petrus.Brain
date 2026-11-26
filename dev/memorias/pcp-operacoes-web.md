@@ -21,7 +21,7 @@ SS8-288 aprovada e na master em 26/11/2026 (merge a477585, sem push). O Pedro pe
   (perdas). Não muda o status da OP: OP "Iniciado" entra no OEE do Petrus.Monitor ([[op-embalagem-web]]).
 - Código: `Petrus.Industrial/Classes/PlanejamentoPCP.cs` (Planejar devolve tudo: ordens/etapas, referências, carga,
   realizado, perdas, operadores, calendário) e `ApontamentoEtapas.cs`. Telas no menu Chão de Fábrica > Planejamento.
-- SS8-298 (26/11, branch feature/ss8-298-apontamento, aguardando aprovação): a tela de lançamento chama-se só
+- SS8-298 (26/11, aprovada e na master, merge bdb1457): a tela de lançamento chama-se só
   **"Apontamento"**, rota `/MES/Apontamento` (a antiga `/MES/ApontamentoEtapas` redireciona), no menu do MES em
   Produção logo depois da "OP de embalagem". O arquivo continua `LancamentoEtapas.razor`.
 - O Web não sobe contra banco local (só o credentials.xml). Para testar a lógica: banco local descartável com
