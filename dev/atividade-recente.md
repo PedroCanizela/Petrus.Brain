@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:30 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:39 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -228,6 +228,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 c04d73b SS8-300: Mapa da fábrica 3D no estilo da CNE
 - 2026-11-26 fb2c15b SS8-301: linha da grade volta a ser colorida pelo status, com tons legíveis
 - 2026-11-26 bdb1457 Merge SS8-298: MES / Apontamento: renomear "Apontamento por etapas" para "Apontamento" e manter no MES junto com a OP de embalagem (SS8-288)
 - 2026-11-26 daa1dca Merge SS8-297: Petrus Web / Celular: no pedido de venda, aba Produtos, o rodapé de totais ocupa a tela e esconde a grade (SS8-284)
