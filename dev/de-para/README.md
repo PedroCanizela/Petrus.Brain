@@ -1,6 +1,6 @@
 # De → para: Petrus desktop → Petrus.ERP (Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com arquivo:linha dos dois lados.
 
@@ -25,12 +25,12 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | Equivalente | 430 | 29427 |
 | Não se aplica | 387 | 20514 |
 | Via S39 | 224 | 26886 |
+| Falta | 204 | 13179 |
 | Substituído | 175 | 9004 |
-| Outro repositório | 125 | 3130 |
-| Falta | 118 | 10650 |
 | Em branch | 89 | 3657 |
 | Citado | 72 | 5862 |
 | Citado (conferir) | 61 | 3992 |
+| Outro repositório | 39 | 601 |
 | Sem uso no desktop | 29 | 2550 |
 | Parcial | 22 | 3704 |
 | Nome+Async | 14 | 791 |
@@ -57,7 +57,7 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | [[dev/de-para/metodos/Manutencao|Manutencao]] | 35 | 35 | 0 | 0 |
 | [[dev/de-para/metodos/Margo|Margo]] | 115 | 115 | 0 | 0 |
 | [[dev/de-para/metodos/Metodos|Metodos]] | 125 | 124 | 0 | 0 |
-| [[dev/de-para/metodos/PDV|PDV]] | 125 | 125 | 0 | 0 |
+| [[dev/de-para/metodos/PDV|PDV]] | 125 | 39 | 35 | 2104 |
 | [[dev/de-para/metodos/Program|Program]] | 1 | 1 | 0 | 0 |
 | [[dev/de-para/metodos/Qualidade|Qualidade]] | 4 | 4 | 0 | 0 |
 | [[dev/de-para/metodos/RH|RH]] | 90 | 88 | 2 | 600 |

@@ -13,6 +13,7 @@ Este repositório é o **cérebro** do Pedro: tudo que um Claude (qualquer conta
 | `dev\scripts\ss8.ps1` | Acesso às demandas (tabela SS8 do cnzla). Precisa do `conexao.txt` (segredo, fora do repo). |
 | `dev\tarefas\` | Instruções das tarefas agendadas. |
 | `dev\atividade-recente.md` | Commits/branches dos últimos 14 dias (automático). |
+| `dev\de-para\` | **De → para desktop → Web**: cada tela, função, relatório, form, arquivo e método do desktop com o arquivo:linha no Web. Comece por `analise.md` (o que falta). Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` + `_manual.csv`. |
 | `dev\migracao-lacunas.md` | Retrato da migração Web em 21/11/2026 (histórico; o atual está na memória `migracao-web`). |
 | `dev\claude-global\CLAUDE.md` | Cópia das instruções globais do Claude (`~\.claude\CLAUDE.md`). |
 | `dev\GUIA-RESTAURAR.md` | Como restaurar tudo em outra conta/PC. |

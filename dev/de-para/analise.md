@@ -15,10 +15,22 @@ lados, está nas páginas geradas ([[dev/de-para/README|De → para]]). Esta pá
 | Funções (S39) | 275 | 260 migradas + 3 descartadas; as **12 restantes não existem nem no desktop** |
 | Relatórios (S7) | 247 | 162 com gerador + 82 genéricos; **3 faltam** (100149 Desempenho, 100150 Lucratividade, 100154 CMV), sem gerador nem no desktop |
 | Catálogos (`Dados.cs`) | 33 | todos iguais, menos o **S10: 2 campos** só no desktop |
-| Forms com código | 137 | **8 faltam** (lista abaixo); PDV no repo `Petrus.PDV`; Customizador fica no desktop |
-| Métodos | 3.688 | **67 métodos (~9.800 linhas) faltam de verdade**; 75 para conferir |
+| Forms com código | 137 | **12 faltam** (8 do ERP + 4 do PDV de venda); caixa do PDV no repo `Petrus.PDV`; Customizador fica no desktop |
+| Métodos | 3.688 | **102 métodos (~11.900 linhas) faltam de verdade**, 35 deles da venda do PDV; 75 para conferir |
 
-Os métodos que faltam se concentram em 8 assuntos:
+Os métodos que faltam se concentram em 9 assuntos:
+
+## 0. PDV: só o caixa foi para o Web
+
+O `Petrus.PDV` (SS8-46) fez a **fase 1** do README dele: login, empresa, abertura, fechamento, sangria e suprimento
+(`Petrus.PDV/Classes/Caixa.cs`, `Engines/RX1Engine.cs`, `RX2Engine.cs`). **Fases 2 a 4 não existem:**
+
+| Desktop | Linhas | O que é |
+|---|---:|---|
+| `PDV/Interfaces/frmPDV.cs` | 2.651 | a venda: produtos (`CalculaR49` 838 linhas, `CalculaR50`), cliente, `CriarR13`, `Concluir`, pagamentos (PIX, cartões, vales, depósito), pré-venda, cancelamento |
+| `PDV/Interfaces/frmPDVRecebimento.cs` | 96 | recebimentos |
+| `PDV/Interfaces/frmPDVInformacoes.cs`, `frmPDVValores.cs` | 69 | informações e valores do caixa |
+| `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` `ExportarDANFCE` | 87 | NFC-e / DANFCE (fase 4) |
 
 ## 1. Importações de pedido por planilha (Aferi, Easy, Gerador): só no desktop
 
@@ -84,7 +96,7 @@ O `/Details` mostra esses botões, mas eles só avisam "use o desktop" (`ERPBlaz
 | Cotação de moedas do Banco Central ao abrir a tela S6 102952 | `Integracao/Models/CotacaoMoeda.cs` (328 linhas) | **Falta** |
 | Enviar relatório/registro por e-mail | `frmInterface.cs:52557` `RelatorioEmail` | **Falta**: o Compartilhar do Web é só PDF/Imprimir (`Details.razor:44`) |
 | Cadastro de empresa e usuário novos pelo login (teste grátis, assinatura, cartão) | `Sistema/Interfaces/frmLogin.cs:542` `CriarEmpresa`, `:1063` `CriaModulos`, `:2146` `CriarUsuario`, `:1756` `VerificarAssinatura`… (~1.300 linhas) | **Falta**: decidir se vai para o Web ou para o site |
-| NFC-e (DANFCE) | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` `ExportarDANFCE`, `DANFE/DanfeSharedHelper.cs:20` | **Falta**: o `Petrus.PDV` tem caixa (RX1/RX2), mas não emite NFC-e |
+| NFC-e (DANFCE) | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` `ExportarDANFCE`, `DANFE/DanfeSharedHelper.cs:20` | **Falta**: fase 4 do Petrus.PDV (item 0) |
 | Cópia do DANFE numa pasta da rede | `ImpressoesNFe.cs:338` `ArmazenarDanfePasta` | **Falta** (pequeno) |
 | Memória dos filtros do relatório (S84) | `ParametrosSistema.cs:134` `SalvaPreferencias`, `frmFiltroRelatorio` | **Parcial**: o Web lembra só o período (`Report.razor:360`) |
 | "Atrasado" do controle de qualidade ao abrir a lista | `Qualidade/Engines/K5Engine.cs:100` | **Parcial**: o Web recalcula ao editar e ao mudar o status (`Petrus.Manutencao/AcoesQualidade.cs:39`) |
@@ -107,7 +119,7 @@ Resolve com `Scripts\SincronizarCatalogos.ps1` (sem `-Relatorio`).
 
 - **Customizador** (`Sistema/Dicionario`, `Interfaces/Ambiente`, `Interfaces/BancoDados`): fica no desktop (SS8-248).
 - **Margo / Petrus IA / ChatBot**: substituídos pelo `Petrus.Assistente`.
-- **PDV**: está no repositório `Petrus.PDV` (`Petrus.PDV/Engines/RX1Engine.cs`, `RX2Engine.cs`, `CaixaPagina.razor`).
+- **Caixa do PDV**: está no repositório `Petrus.PDV` (a venda não: item 0).
 - **Infra do WinForms** (`CriarAmbiente`, `CreateControls`, combos, rodapés, splash, mensagens): o Web faz com Table/Details/Report.
 - **29 métodos sem uso no desktop** (ninguém chama ou a chamada está comentada): `CalcularR58`, `ObterV21`/`CalculaV22`/`CalculaV3`
   (comentados no `Grid()` do V1), `LancamentoContabil`, `CriarN43`, `CriarN13`, `CriarG6`, `CriarR54/R56/R87`, `EnviarNFeSefazJ10`,
@@ -132,6 +144,6 @@ não mescladas). Assim, uma marca `MIGRADO`/`DESCARTADO` de uma branch contava c
 2. Gerar parcelas I59/IX11/I49 e telefones/e-mails da importação (itens 2 e 3).
 3. Número personalizado e e-mail de relatório (item 5).
 4. Mesclar SS8-249 e SS8-248, depois rodar `SincronizarCatalogos.ps1` (itens 6 e 7).
-5. Metas (frmMetaVendas), cotação de moedas, NFC-e: perguntar antes (form sem S39 / escopo novo).
+5. Venda do PDV (fases 2–4 do Petrus.PDV), metas (frmMetaVendas), cotação de moedas: perguntar antes (form sem S39 / escopo novo).
 6. Conferir os 75 "para conferir" e marcar com `// MIGRADO FORM:` os forms cobertos sem marca (frmAuditoria,
    frmEdicaoMassa, frmFiltroAvancado, frmEntregaRequisicao, frmMonitoramento, frmPainel*, frmEventosNFe...).

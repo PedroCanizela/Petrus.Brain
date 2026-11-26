@@ -1,6 +1,6 @@
 # Forms: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
 |---|---|---:|---|---|---|
@@ -65,16 +65,16 @@
 | Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Manutencao\Interfaces | `frmTransferenciaOM` | 187 | 100425 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Margo\Interfaces | `frmMargo` | 741 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
-| PDV\Interfaces | `frmPDV` | 2.651 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVAbertura` | 100 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVCaixa` | 170 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVFechamento` | 79 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVInicio` | 172 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVSangria` | 75 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVSuprimento` | 74 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| PDV\Interfaces | `frmPDVValores` | 35 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDV` | 2.651 |  | Falta |  |
+| PDV\Interfaces | `frmPDVAbertura` | 100 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:70` |
+| PDV\Interfaces | `frmPDVCaixa` | 170 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:25` |
+| PDV\Interfaces | `frmPDVFechamento` | 79 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:74` |
+| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | Falta |  |
+| PDV\Interfaces | `frmPDVInicio` | 172 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Acesso.cs:172` |
+| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | Falta |  |
+| PDV\Interfaces | `frmPDVSangria` | 75 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:78` |
+| PDV\Interfaces | `frmPDVSuprimento` | 74 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:82` |
+| PDV\Interfaces | `frmPDVValores` | 35 |  | Falta |  |
 | RH\Interfaces | `frmAdmissao` | 184 | 100325, 100323 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmAfastamento` | 109 | 100324 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmLancamentoFolha` | 251 | 100399 | Tem | `Petrus.RH/AcoesRH.cs:25` |

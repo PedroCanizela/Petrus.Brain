@@ -1,6 +1,6 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
@@ -281,16 +281,16 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Metodos/GerarEtiquetas.cs` | 17 | 17 | 0 | 0 |  |
 | `PDV/Engines/RX1Engine.cs` | 2 | 2 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
 | `PDV/Engines/RX2Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDV.cs` | 74 | 74 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVAbertura.cs` | 6 | 6 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVCaixa.cs` | 6 | 6 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVFechamento.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVInformacoes.cs` | 2 | 2 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVInicio.cs` | 9 | 9 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVRecebimento.cs` | 8 | 8 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVSangria.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVSuprimento.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDVValores.cs` | 2 | 2 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| `PDV/Interfaces/frmPDV.cs` | 74 | 0 | 32 | 2077 |  |
+| `PDV/Interfaces/frmPDVAbertura.cs` | 6 | 6 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
+| `PDV/Interfaces/frmPDVCaixa.cs` | 6 | 6 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
+| `PDV/Interfaces/frmPDVFechamento.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
+| `PDV/Interfaces/frmPDVInformacoes.cs` | 2 | 0 | 1 | 9 |  |
+| `PDV/Interfaces/frmPDVInicio.cs` | 9 | 9 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Acesso.cs` |
+| `PDV/Interfaces/frmPDVRecebimento.cs` | 8 | 0 | 1 | 9 |  |
+| `PDV/Interfaces/frmPDVSangria.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
+| `PDV/Interfaces/frmPDVSuprimento.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
+| `PDV/Interfaces/frmPDVValores.cs` | 2 | 0 | 1 | 9 |  |
 | `Program.cs` | 1 | 1 | 0 | 0 | `ERPBlazor/Program.cs` |
 | `Qualidade/Engines/K5Engine.cs` | 4 | 4 | 0 | 0 | `Petrus.Manutencao/Engines/K5Engine.cs`, `Petrus.Manutencao/AcoesQualidade.cs` |
 | `RH/Classes/EntregaEPI.cs` | 1 | 1 | 0 | 0 | `Petrus.RH/Classes/EntregaEPI.cs` |

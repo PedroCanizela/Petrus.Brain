@@ -5,8 +5,12 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-26T12:38:31.514Z
+  modified: 2026-11-26T13:48:30.022Z
 ---
+
+**Atualizado em 26/11/2026 pelo de → para completo no Brain ([[de-para-desktop-web]], `dev\de-para\analise.md`): use ele.**
+Em 26/11: telas, S39 e S7 fechados; Grid() dos 10 módulos, BancoDados (SS8-243) e importação Excel (SS8-221) já na master.
+Os inventários contavam `.claude\worktrees` (branches não mescladas) como migrado: corrigido nos 3 scripts.
 
 Levantamento de 25/11/2026 em `Petrus.ERP/Docs/comparacao-desktop-web.md` (+ CSVs em `Docs/comparacao-desktop-web/`,
 script `Scripts/CompararDesktopWeb.ps1`, comparação por nome de método — heurística).
