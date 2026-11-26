@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:42 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 a4676fd0 SS8-253: Logística / Expedição: motorista do pedido fora do PDF da expedição
 - 2026-11-25 48677e45 Merge SS8-281: Logística / Petrus.Canhoto: app de canhoto de entrega digital com assinatura, fotos e localização do recebedor
 - 2026-11-25 9a4e6082 SS8-281: Estrutura do canhoto de entrega digital (J60 e J61) para o Petrus.Canhoto
 - 2026-11-25 72527c48 SS8-253: Logística / Expedição: motorista do pedido escolhido em lista suspensa
