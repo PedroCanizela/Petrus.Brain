@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:26 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:32 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -207,6 +207,7 @@ Branch atual: master
 Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
+- + feature/ss8-255-frete-transportador-n9
 - + feature/ss8-259-atualizacao-simples
 - + feature/ss8-39-novo-layout-erp
 - * master
