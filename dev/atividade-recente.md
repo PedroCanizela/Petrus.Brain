@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:21 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -241,6 +241,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 14a2530 SS8-248: botões avulsos do frmComando no Comando SQL do Web
 - 2026-11-26 299c4ac SS8-241: OP de embalagem gravada "Concluido" e etiquetas da série Embalagem só com ela
 - 2026-11-26 85b7d08 SS8-286: abas do Web sem pisca, até 25 abas e mais estreitas
 - 2026-11-26 ab33548 SS8-287: Mais ações da /Table igual ao do desktop
