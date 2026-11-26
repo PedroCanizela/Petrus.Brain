@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:07 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:08 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -240,6 +240,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 299c4ac SS8-241: OP de embalagem gravada "Concluido" e etiquetas da série Embalagem só com ela
 - 2026-11-26 85b7d08 SS8-286: abas do Web sem pisca, até 25 abas e mais estreitas
 - 2026-11-26 ab33548 SS8-287: Mais ações da /Table igual ao do desktop
 - 2026-11-26 70318a6 Revert "SS8-241: OP de embalagem fora das telas do chão de fábrica"
