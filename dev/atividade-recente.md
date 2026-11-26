@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:10 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -209,11 +209,12 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
 - + feature/ss8-240-filtro-referencia-op
-- + feature/ss8-279-pesquisa-enter
+- + feature/ss8-278-envio-erros
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 4dc6534 Merge SS8-279: Petrus Web / Pesquisa: buscar no banco somente ao pressionar Enter, como o desktop
 - 2026-11-25 cdacc3f SS8-279: Petrus Web / Pesquisa: buscar no banco somente ao pressionar Enter
 - 2026-11-25 d5cc70d Merge SS8-280: Petrus Web / Details: colunas datetime nas abas e grades mostrarem data e hora, não só a data
 - 2026-11-25 7fb8b62 SS8-280: Petrus Web / Details: colunas datetime com data e hora
