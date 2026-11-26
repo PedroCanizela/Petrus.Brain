@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:57 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:17 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,8 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-237-bordero-valor-saldo
+- + feature/ss8-281-canhoto
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -205,6 +207,7 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
+- + feature/ss8-281-canhoto
 - + feature/ss8-39-novo-layout-erp
 - * master
 
@@ -675,6 +678,7 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
+- + feature/ss8-282-design-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
