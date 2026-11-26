@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 cb139fff SS8-203: relatório de contas à pagar sem plano de contas
 - 2026-11-26 765196f2 Update
 - 2026-11-25 dc65042a Merge SS8-253: Logística / Expedição: motorista por pedido na aba de pedidos da expedição
 - 2026-11-25 e2dbd6cd Merge SS8-237: Bordero cobrança: add campo
@@ -234,6 +235,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 e747bc8 SS8-203: relatório de contas à pagar sem plano de contas
 - 2026-11-26 8e2f91b SS8-235: divide o catálogo S10 em partes para não estourar a pilha ao abrir as telas
 - 2026-11-26 0fa9d62 SS8-285: exportar Excel e PDF no app do celular (Table, Report e demais grades)
 - 2026-11-26 d3ba4b6 SS8-249: Etiqueta NF com EtiquetaZebra (ExportarEtiquetaZebra) no Petrus Web
