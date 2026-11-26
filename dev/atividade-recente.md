@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 21:25 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 21:26 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -207,11 +207,12 @@ Branch atual: master
 Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
-- + feature/ss8-260-login-parametros
+- + feature/ss8-259-atualizacao-simples
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 f4f3578 Merge SS8-260: Petrus Web / Login: corrigir SQL injection na consulta de usu├írio e senha e avaliar senha com hash na S2
 - 2026-11-25 0452a1b SS8-260: Petrus Web / Login: consultas da S1 e S2 do MainLayout com par├ómetros
 - 2026-11-25 14c778f Merge SS8-276: Petrus Web / Details: atalho de teclado com a letra inicial para ir direto ├á aba (V = Valores, D = Dados Gerais)
 - 2026-11-25 912e924 Merge SS8-277: Petrus Web / Details: modo horizontal (sub-abas por grupo na Principal, como no desktop) e vertical, escolhido nos par├ómetros do usu├írio com toggle na tela
