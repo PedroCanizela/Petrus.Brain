@@ -54,6 +54,7 @@
 - [Desenvolvimento e erros no Suporte](desenvolvimento-suporte-erros.md) — SS8-278: Dashboard, aba Erros (AW4, POST /api/erros pelo Petrus.Atualizador), SS8_VALOR, prints AW5, documento para assinatura
 - [Importar Excel na /Table](importar-excel-table-web.md) — SS8-221: LeituraExcel (xlsx sem XlsIO) e ImportacaoExcel no Core, com/sem ID, S15_INCLUIR; telefones/e-mails R2/R4/J2/I5/D10 pendentes
 - [Tema escuro no Web](tema-escuro-web.md) — SS8-283: paleta grafite, .pt-escuro no <html> (diálogos/popovers), campo inativo por variável, EstadoTema nos SfChart
+- [Contas a pagar sem plano (SS8-203)](contas-pagar-sem-plano-ss8-203.md) — S7 100492 (N9 sem L70) no desktop e Web; receita S7+S29+S30+GetReport/Registrar
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

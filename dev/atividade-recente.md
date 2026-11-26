@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:40 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -221,7 +221,8 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
-- + claude/ss8-249-215e7c
+- + feature/ss8-235-gaiola-embalagem
+- + feature/ss8-249-etiqueta-zebra-fotos-r2
 - + feature/ss8-256-diagnostico-chaves
 - + feature/ss8-273-qtd-op-volume
 - + feature/ss8-279-pesquisa-enter-ajustes
@@ -232,6 +233,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 eeb70df SS8-284: Petrus Web no celular e no tablet
 - 2026-11-26 7050f5c SS8-283: tema escuro mais claro e sem controles brancos
 - 2026-11-26 99b4419 SS8-256: conferir na subida se as chaves do Data Protection ficaram gravadas
 - 2026-11-26 ebcc07b SS8-273: com a OP em volumes, as cores também são digitadas em volume
