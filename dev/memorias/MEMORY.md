@@ -43,7 +43,7 @@
 - [Senha com hash no desktop](senha-hash-desktop.md) — SS8-272: Funcoes.ConferirLogin/GravarSenhaS2 no Petrus, S2_SENHA_HASH igual ao Web; backdoor 1709 no esqueci a senha
 - [Modo vertical/horizontal do Details](details-modo-vertical-web.md) — SS8-277: sub-abas por grupo S9 na Principal, toggle no cabeçalho, S84 ModoVertical igual ao desktop
 - [Atalho de letra nas abas do Details](atalho-letra-abas-details.md) — SS8-276: petrus-atalho-abas.js, MudTabs com pt-details-abas e data-pt-grupos, grupos do Principal rolam
-- [Homologação da migração Web](homologacao-migracao-web.md) — SS8-161: Ferramentas/Homologacao audita MIGRADO S39 x RegistroAcoes, roteiro por módulo; S39 do banco vazia
+- [Homologação da migração Web](homologacao-migracao-web.md) — SS8-161: Ferramentas/Homologacao (auditoria + bateria numa cópia local do cnzla); credentials.xml aponta para o banco pratic, não cnzla
 - [Atualização simples do Web](atualizacao-simples-web.md) — SS8-259: Publicar.cmd sem az, automática 20:00 (AW2), painel /atualizacoes no Suporte (AW3, token HMAC), Instalar.cmd
 - [Gaiola de embalagem (A10)](gaiola-embalagem-a10.md) — SS8-235: A10/A11/A12 com qtd que movimenta a G17, A10Engine no Petrus.Estoque, telas WMS com Embalagem=true
 - [Datas pelo S10_TIPO no Web](datetime-s10-tipo-web.md) — SS8-280: DATE/DATETIME/TIME como no desktop (HH:mm:ss), Details com datetime-local, PlanilhaAba e Table
