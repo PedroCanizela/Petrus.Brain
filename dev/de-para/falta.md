@@ -1,6 +1,6 @@
 # O que falta no Web (automático)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita à mão fica em [[dev/de-para/analise|Análise]].
 
@@ -24,10 +24,11 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 |---|---|---:|---|
 | `Financeiro/Engines/N47Engine.cs:16` | N47Engine.CriarN47 | 79 | só o Importar Easy e o frmCondPagto usam |
 
-## Fiscal (3 métodos, ~166 linhas)
+## Fiscal (4 métodos, ~444 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
+| `Fiscal/NotaFiscal/NotasEntrada.cs:300` | NotasEntrada.GerarI49 | 278 | Gerar parcelas da aba de duplicatas (I49) da nota de entrada |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` | ImpressoesNFe.ExportarDANFCE | 87 | NFC-e (DANFCE) do PDV |
 | `Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:20` | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | NFC-e (DANFCE) do PDV |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs:338` | ImpressoesNFe.ArmazenarDanfePasta | 22 | cópia do DANFE numa pasta da rede (pasta por empresa) |

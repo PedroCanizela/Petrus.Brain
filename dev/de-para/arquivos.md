@@ -1,6 +1,6 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
@@ -176,7 +176,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Fiscal/NotaFiscal/EventosNFe.cs` | 6 | 6 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs` |
 | `Fiscal/NotaFiscal/EventosRTC.cs` | 19 | 19 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs`, `Petrus.Atualizador/EnvioErros.cs` |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs` | 7 | 5 | 2 | 109 | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs` |
-| `Fiscal/NotaFiscal/NotasEntrada.cs` | 6 | 6 | 0 | 0 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs` |
+| `Fiscal/NotaFiscal/NotasEntrada.cs` | 6 | 5 | 1 | 278 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs`, `ERPBlazor/Components/Pages/Details.Abas.cs` |
 | `Fiscal/NotaFiscal/NotasMultaJuros.cs` | 8 | 8 | 0 | 0 | `Petrus.Financeiro/Classes/NotasMultaJuros.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
 | `Fiscal/NotaFiscal/NotasSaida.cs` | 4 | 4 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/NotasSaida.Calculos.cs`, `Petrus.Fiscal/NotaFiscal/EventosNFe.cs` |
 | `Fiscal/Reports/ApuracaoIcmsIpi.cs` | 2 | 2 | 0 | 0 | `Petrus.Fiscal/Reports/ApuracaoIcmsIpi.cs` |
@@ -368,7 +368,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Sistema/Interfaces/frmInicio.cs` | 13 | 13 | 0 | 0 | `ERPBlazor/Components/Pages/Home.razor` |
 | `Sistema/Interfaces/frmInput.cs` | 9 | 9 | 0 | 0 |  |
 | `Sistema/Interfaces/frmInputDate.cs` | 3 | 3 | 0 | 0 |  |
-| `Sistema/Interfaces/frmInterface.cs` | 473 | 458 | 15 | 2390 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs`, `Petrus.Financeiro/AcoesFinanceiro.cs` |
+| `Sistema/Interfaces/frmInterface.cs` | 473 | 457 | 15 | 2390 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs`, `Petrus.Financeiro/AcoesFinanceiro.cs` |
 | `Sistema/Interfaces/frmLogin.cs` | 159 | 151 | 8 | 1299 | `ERPBlazor/Components/Pages/Login.razor` |
 | `Sistema/Interfaces/frmMensagem.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Pages/Message.razor`, `Petrus.Core/Utils/Gaiolas.cs`, `Petrus.Core/Utils/PacoteLeitura.cs` |
 | `Sistema/Interfaces/frmMenu.cs` | 41 | 41 | 0 | 0 | `ERPBlazor/Components/Services/MenuPetrus.cs` |

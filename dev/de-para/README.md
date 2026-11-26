@@ -1,6 +1,6 @@
 # De → para: Petrus desktop → Petrus.ERP (Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com arquivo:linha dos dois lados.
 
@@ -23,14 +23,14 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | Via form | 662 | 16948 |
 | Descartado | 488 | 15659 |
 | Equivalente | 430 | 29427 |
-| Não se aplica | 388 | 20605 |
+| Não se aplica | 387 | 20514 |
 | Via S39 | 224 | 26886 |
 | Substituído | 175 | 9004 |
 | Outro repositório | 125 | 3130 |
-| Falta | 116 | 10281 |
+| Falta | 118 | 10650 |
 | Em branch | 89 | 3657 |
 | Citado | 72 | 5862 |
-| Citado (conferir) | 62 | 4270 |
+| Citado (conferir) | 61 | 3992 |
 | Sem uso no desktop | 29 | 2550 |
 | Parcial | 22 | 3704 |
 | Nome+Async | 14 | 791 |
@@ -50,7 +50,7 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | [[dev/de-para/metodos/Custos|Custos]] | 42 | 42 | 0 | 0 |
 | [[dev/de-para/metodos/Estoque|Estoque]] | 103 | 103 | 0 | 0 |
 | [[dev/de-para/metodos/Financeiro|Financeiro]] | 455 | 454 | 1 | 79 |
-| [[dev/de-para/metodos/Fiscal|Fiscal]] | 182 | 179 | 3 | 166 |
+| [[dev/de-para/metodos/Fiscal|Fiscal]] | 182 | 178 | 4 | 444 |
 | [[dev/de-para/metodos/Industrial|Industrial]] | 220 | 220 | 0 | 0 |
 | [[dev/de-para/metodos/Integracao|Integracao]] | 24 | 20 | 4 | 328 |
 | [[dev/de-para/metodos/Logistica|Logistica]] | 80 | 63 | 4 | 789 |
@@ -62,7 +62,7 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | [[dev/de-para/metodos/Qualidade|Qualidade]] | 4 | 4 | 0 | 0 |
 | [[dev/de-para/metodos/RH|RH]] | 90 | 88 | 2 | 600 |
 | [[dev/de-para/metodos/Settings|Settings]] | 2 | 2 | 0 | 0 |
-| [[dev/de-para/metodos/Sistema|Sistema]] | 1521 | 1498 | 23 | 3689 |
+| [[dev/de-para/metodos/Sistema|Sistema]] | 1521 | 1497 | 23 | 3689 |
 | [[dev/de-para/metodos/Utils|Utils]] | 85 | 83 | 2 | 156 |
 | [[dev/de-para/metodos/Vendas|Vendas]] | 250 | 201 | 18 | 2359 |
 

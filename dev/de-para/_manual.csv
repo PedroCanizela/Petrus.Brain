@@ -2,7 +2,17 @@ Arquivo;Classe;Metodo;Situacao;Web;Obs;Prioridade
 Margo/*;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;Margo (Groq) virou o Petrus.Assistente (SS8-171)
 Sistema/Interfaces/frmPetrusIA.cs;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;SS8-171
 Sistema/Interfaces/frmChatBot.cs;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;SS8-171
-PDV/*;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs;PDV Web no repo Petrus.PDV (SS8-46); NFC-e/DANFCE não existe lá
+PDV/Engines/*;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs;caixa RX1/RX2 no repo Petrus.PDV (SS8-46, fase 1)
+PDV/Interfaces/frmPDVInicio.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Acesso.cs:172;Petrus.PDV fase 1
+PDV/Interfaces/frmPDVCaixa.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:25;Petrus.PDV fase 1
+PDV/Interfaces/frmPDVAbertura.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:70;Petrus.PDV fase 1
+PDV/Interfaces/frmPDVFechamento.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:74;Petrus.PDV fase 1
+PDV/Interfaces/frmPDVSangria.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:78;Petrus.PDV fase 1
+PDV/Interfaces/frmPDVSuprimento.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:82;Petrus.PDV fase 1
+PDV/Interfaces/frmPDV.cs;*;*;Falta;;venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita
+PDV/Interfaces/frmPDVRecebimento.cs;*;*;Falta;;recebimentos: fase 3 do Petrus.PDV, não feita
+PDV/Interfaces/frmPDVInformacoes.cs;*;*;Falta;;informações do caixa: fase 3 do Petrus.PDV, não feita
+PDV/Interfaces/frmPDVValores.cs;*;*;Falta;;valores do caixa: fase 3 do Petrus.PDV, não feita
 Sistema/Dicionario/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
 Sistema/Interfaces/Ambiente/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
 Sistema/Interfaces/BancoDados/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)

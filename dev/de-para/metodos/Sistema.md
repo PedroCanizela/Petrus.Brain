@@ -1,10 +1,10 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:41. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:44. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Descartado: 448 · Não se aplica: 316 · Equivalente: 205 · Mesmo nome: 148 · Via S39: 135 · Via form: 118 · Substituído: 60 · Em branch: 43 · Falta: 23 · Parcial: 19 · Citado (conferir): 5 · Nome sem Con: 1
+**Situação:** Descartado: 448 · Não se aplica: 315 · Equivalente: 205 · Mesmo nome: 148 · Via S39: 135 · Via form: 118 · Substituído: 60 · Em branch: 43 · Falta: 24 · Parcial: 19 · Citado (conferir): 5 · Nome sem Con: 1
 
 ## `Sistema/Classes/Auditoria.cs`
 
@@ -1058,7 +1058,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 2177 | frmInterface.BtnGerarParcelasIX11_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2186 | frmInterface.BtnGradeR49_Click | 114 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2301 | frmInterface.BtnRecalcularR49_Click | 48 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 2350 | frmInterface.BtnIncluirFeirinhaR49_Click | 91 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 2350 | frmInterface.BtnIncluirFeirinhaR49_Click | 91 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:40` | Incluir feirinha (RR8 100928) nos itens do pedido; evento de tela |
 | 2442 | frmInterface.BtnPesquisaPedidosJ10_Click | 137 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2580 | frmInterface.BtnIncluirProdutosR49_Click | 111 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2698 | frmInterface.BtnCortarItensR49_Click | 81 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
