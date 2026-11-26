@@ -1,10 +1,10 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Via form: 237 · Mesmo nome: 119 · Descartado: 34 · Via S39: 17 · Falta: 16 · Citado: 13 · Falta (form): 8 · Citado (conferir): 6 · Nome+Async: 4 · Nome+Con: 1
+**Situação:** Via form: 237 · Mesmo nome: 119 · Descartado: 35 · Via S39: 17 · Citado: 13 · Falta (form): 8 · Falta: 7 · Citado (conferir): 6 · Sem uso no desktop: 4 · Nome+Async: 4 · Equivalente: 4 · Nome+Con: 1
 
 ## `Financeiro/Classes/Cheques.cs`
 
@@ -113,7 +113,7 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | N13Engine.EstornarN13 | 153 | Mesmo nome | `Petrus.Financeiro/Engines/N13Engine.cs:17` |  |
-| 172 | N13Engine.CriarN13 | 133 | **Falta** |  |  |
+| 172 | N13Engine.CriarN13 | 133 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 305 | N13Engine.AtualizaN13 | 31 | Mesmo nome | `Petrus.Financeiro/Engines/N13Engine.cs:93` |  |
 
 ## `Financeiro/Engines/N22Engine.cs`
@@ -135,7 +135,7 @@ Voltar: [[de-para/README|De → para]]
 | 658 | N22Engine.CalculaAtrasoPerfilN22 | 95 | Citado | `Petrus.Vendas/Classes/PerfisVendas.cs:318` |  |
 | 754 | N22Engine.CalculaProtestado | 16 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:215` |  |
 | 771 | N22Engine.CalculaAtrasoFinanceiroN22 | 118 | Citado | `ERPBlazor/Components/Pages/Report.razor:1037` |  |
-| 890 | N22Engine.CalculaFinanceiroN22 | 11 | **Falta** |  |  |
+| 890 | N22Engine.CalculaFinanceiroN22 | 11 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 902 | N22Engine.OcorrenciaN83 | 86 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:198` |  |
 | 988 | N22Engine.OcorrenciaNX1 | 91 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:183` |  |
 
@@ -143,20 +143,20 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 14 | N37Engine.StatusN37 | 17 | **Falta** |  |  |
+| 14 | N37Engine.StatusN37 | 17 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:51` |  |
 
 ## `Financeiro/Engines/N3Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 23 | N3Engine.PagamentoN95 | 111 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:274` |  |
-| 135 | N3Engine.LancamentoN3Con | 120 | **Falta** |  |  |
+| 135 | N3Engine.LancamentoN3Con | 120 | Sem uso no desktop |  | só o frmComando chama |
 | 256 | N3Engine.CriarComissaoN3Con | 119 | Mesmo nome | `Petrus.Financeiro/Engines/N3Engine.cs:12` |  |
 | 375 | N3Engine.CriarComissaoN3 | 121 | Nome+Con | `Petrus.Financeiro/Engines/N3Engine.cs:12` |  |
 | 496 | N3Engine.LancamentoN3 | 121 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:187` |  |
 | 617 | N3Engine.CalculaSaldoComissaoN3 | 63 | Citado | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:11` |  |
 | 681 | N3Engine.AtualizaN3 | 43 | Citado | `Petrus.Financeiro/Classes/ContasReceber.cs:465` |  |
-| 724 | N3Engine.FechamentoN95 | 113 | **Falta** |  |  |
+| 724 | N3Engine.FechamentoN95 | 113 | Equivalente | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:40` | FechamentoComissaoR4 |
 | 837 | N3Engine.CalculaSaldoAtual | 83 | Citado | `Petrus.Vendas/Reports/RegrasRelatoriosGenericos.cs:98` |  |
 | 922 | N3Engine.GerarFechamento | 82 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:34` |  |
 | 1006 | N3Engine.PagamentoComissao | 185 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:204` |  |
@@ -167,7 +167,7 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 17 | N43Engine.EstornarN43 | 179 | Mesmo nome | `Petrus.Financeiro/Engines/N43Engine.cs:17` |  |
-| 197 | N43Engine.CriarN43 | 173 | **Falta** |  |  |
+| 197 | N43Engine.CriarN43 | 173 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 371 | N43Engine.AtualizaN43 | 38 | Mesmo nome | `Petrus.Financeiro/Engines/N43Engine.cs:99` |  |
 
 ## `Financeiro/Engines/N44Engine.cs`
@@ -207,7 +207,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 18 | N93Engine.StatusN93 | 16 | **Falta** |  |  |
+| 18 | N93Engine.StatusN93 | 16 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:47` |  |
 | 34 | N93Engine.CriarN93 | 148 | Mesmo nome | `Petrus.Financeiro/Engines/N93Engine.cs:15` |  |
 | 182 | N93Engine.BaixarN93 | 42 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100312 Baixar crédito |
 | 224 | N93Engine.ConciliarN93 | 54 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100419 Conciliar crédito |
@@ -228,10 +228,10 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | N9Engine.AgendarN9 | 40 | **Falta** |  |  |
+| 17 | N9Engine.AgendarN9 | 40 | Descartado |  | só o frmAgendamentoPagFor (descartado) |
 | 58 | N9Engine.CriarN9 | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:37` |  |
 | 204 | N9Engine.CriarN9Con | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:48` |  |
-| 350 | N9Engine.StatusN9 | 15 | **Falta** |  |  |
+| 350 | N9Engine.StatusN9 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:34` |  |
 | 365 | N9Engine.CalculaAtrasoN9 | 71 | **Falta** |  |  |
 | 437 | N9Engine.CalcularN9 | 81 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:253` | classe RotinasCadastro |
 

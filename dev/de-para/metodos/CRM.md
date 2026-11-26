@@ -1,10 +1,10 @@
 # Métodos: CRM (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Via S39: 13 · Mesmo nome: 7 · Citado: 5 · Falta: 4 · Nome+Async: 1
+**Situação:** Via S39: 13 · Mesmo nome: 7 · Citado: 5 · Equivalente: 4 · Nome+Async: 1
 
 ## `CRM/Classes/Agendamentos.cs`
 
@@ -50,7 +50,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 11 | RM20Engine.CancelarRM20 | 21 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100380 Cancelar agendamento |
 | 33 | RM20Engine.ConcluirRM20 | 20 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100379 Concluir agendamento |
-| 54 | RM20Engine.StatusRM20 | 15 | **Falta** |  |  |
+| 54 | RM20Engine.StatusRM20 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:55` |  |
 
 ## `CRM/Engines/RM3Engine.cs`
 
@@ -60,7 +60,7 @@ Voltar: [[de-para/README|De → para]]
 | 31 | RM3Engine.CancelarRM3 | 21 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100377 Cancelar solicitação |
 | 52 | RM3Engine.ReprovarRM3 | 21 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100382 Reprovar solicitação |
 | 73 | RM3Engine.ConcluirRM3 | 20 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100375 Concluir solicitação |
-| 93 | RM3Engine.StatusRM3 | 15 | **Falta** |  |  |
+| 93 | RM3Engine.StatusRM3 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:53` |  |
 
 ## `CRM/Engines/RM7Engine.cs`
 
@@ -68,14 +68,14 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 11 | RM7Engine.CancelarRM7 | 21 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100373 Cancelar titcket |
 | 33 | RM7Engine.ConcluirRM7 | 20 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100372 Concluir ticket |
-| 54 | RM7Engine.StatusRM7 | 15 | **Falta** |  |  |
+| 54 | RM7Engine.StatusRM7 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:54` |  |
 
 ## `CRM/Engines/RR10Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 12 | RR10Engine.CriarRR10 | 85 | Nome+Async | `Petrus.Core/Utils/ConferenciaPedido.cs:506` | classe ConferenciaPedido |
-| 98 | RR10Engine.CriarRR10Con | 88 | **Falta** |  |  |
+| 98 | RR10Engine.CriarRR10Con | 88 | Equivalente | `Petrus.Core/Acoes/Banco.cs:99` | CriarRR10Async |
 
 ## `CRM/Reports/FeirinhasVendidas.cs`
 

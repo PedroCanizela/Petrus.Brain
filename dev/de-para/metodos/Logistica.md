@@ -1,10 +1,10 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 23 · Via form: 20 · Falta (form): 13 · Falta: 9 · Via S39: 7 · Citado (conferir): 4 · Citado: 3 · Nome+Async: 1
+**Situação:** Mesmo nome: 21 · Via form: 20 · Falta: 10 · Falta (form): 9 · Via S39: 7 · Citado (conferir): 4 · Citado: 3 · Equivalente: 3 · Sem uso no desktop: 2 · Nome+Async: 1
 
 ## `Logistica/Classes/Expedicoes.cs`
 
@@ -17,7 +17,7 @@ Voltar: [[de-para/README|De → para]]
 | 979 | Expedicoes.CalculaJ35 | 181 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:362` |  |
 | 1160 | Expedicoes.CalculaJ38 | 115 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:29` |  |
 | 1275 | Expedicoes.CalculaJ39 | 115 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:23` |  |
-| 1393 | Expedicoes.EnviarNFeSefazJ10 | 64 | **Falta** |  |  |
+| 1393 | Expedicoes.EnviarNFeSefazJ10 | 64 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 1458 | Expedicoes.LiberarJ10 | 94 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.cs:64` |  |
 | 1553 | Expedicoes.GerarMDFeJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:119` |  |
 | 1638 | Expedicoes.EmbarcarJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.cs:109` |  |
@@ -53,9 +53,9 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 15 | J10Engine.StatusJ10 | 15 | **Falta** |  |  |
+| 15 | J10Engine.StatusJ10 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:43` |  |
 | 34 | J10Engine.VerificarFaturamento | 121 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Verificacao.cs:20` | classe PedidosVenda |
-| 155 | J10Engine.AplicaFiltrosJ10 | 34 | **Falta** |  |  |
+| 155 | J10Engine.AplicaFiltrosJ10 | 34 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 190 | J10Engine.AtualizaJ10 | 37 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:281` | classe RotinasCadastro |
 
 ## `Logistica/Engines/J2Engine.cs`
@@ -63,12 +63,12 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | J2Engine.VincularJ2 | 136 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:25` | classe Origem |
-| 155 | J2Engine.TelefonesImportacaoJ2 | 329 | **Falta** |  |  |
+| 155 | J2Engine.TelefonesImportacaoJ2 | 329 | **Falta** |  | pendente da SS8-221 |
 | 485 | J2Engine.TelefonesJ2 | 64 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:17` |  |
-| 549 | J2Engine.StatusJ2 | 15 | **Falta** |  |  |
+| 549 | J2Engine.StatusJ2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:44` |  |
 | 566 | J2Engine.CoordenadasJ2 | 76 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:17` |  |
 | 643 | J2Engine.EmailJ2 | 51 | **Falta** |  |  |
-| 694 | J2Engine.EmailImportacaoJ2 | 267 | **Falta** |  |  |
+| 694 | J2Engine.EmailImportacaoJ2 | 267 | **Falta** |  | pendente da SS8-221 |
 
 ## `Logistica/Engines/J40Engine.cs`
 
@@ -80,7 +80,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | JJ2Engine.StatusJJ2 | 15 | **Falta** |  |  |
+| 11 | JJ2Engine.StatusJJ2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:52` |  |
 | 26 | JJ2Engine.CancelarJJ2 | 24 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100353 Cancelar incidente |
 | 50 | JJ2Engine.ConcluirJJ2 | 23 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100352 Concluir incidente |
 
@@ -145,12 +145,12 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 26 | frmPesquisaPedidos.frmPesquisaPedidos_Load | 15 | **Falta (form)** |  | frmPesquisaPedidos; evento de tela |
-| 46 | frmPesquisaPedidos.Pedidos | 87 | Mesmo nome | `Petrus.Logistica/Utils/Grades.cs:28` | classe Grades |
-| 143 | frmPesquisaPedidos.Carregar | 106 | Mesmo nome | `Petrus.Boleto/Boleto/Instrucao/Instrucao_BancoBrasil.cs:67` | classe Instrucao_BancoBrasil |
-| 251 | frmPesquisaPedidos.btnAtualizar_Click | 4 | **Falta (form)** |  | frmPesquisaPedidos; evento de tela |
-| 257 | frmPesquisaPedidos.btnOK_Click | 9 | **Falta (form)** |  | frmPesquisaPedidos; evento de tela |
-| 267 | frmPesquisaPedidos.btnCancelar_Click | 4 | **Falta (form)** |  | frmPesquisaPedidos; evento de tela |
+| 26 | frmPesquisaPedidos.frmPesquisaPedidos_Load | 15 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
+| 46 | frmPesquisaPedidos.Pedidos | 87 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou |
+| 143 | frmPesquisaPedidos.Carregar | 106 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou |
+| 251 | frmPesquisaPedidos.btnAtualizar_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
+| 257 | frmPesquisaPedidos.btnOK_Click | 9 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
+| 267 | frmPesquisaPedidos.btnCancelar_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
 
 ## `Logistica/Interfaces/frmTransportadora.cs`
 

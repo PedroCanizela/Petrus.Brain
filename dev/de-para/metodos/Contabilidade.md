@@ -1,10 +1,10 @@
 # Métodos: Contabilidade (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Falta: 6 · Mesmo nome: 4 · Citado: 2 · Nome+Async: 1
+**Situação:** Falta: 5 · Mesmo nome: 4 · Nome sem Con: 1 · Sem uso no desktop: 1 · Citado: 1 · Nome+Async: 1
 
 ## `Contabilidade/Classes/Contabil.cs`
 
@@ -51,6 +51,6 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 17 | L70Engine.CriarL70 | 105 | Mesmo nome | `Petrus.Financeiro/Engines/L70Engine.cs:29` |  |
-| 123 | L70Engine.CriarL70Con | 108 | Citado | `Petrus.Logistica/Classes/Expedicoes.cs:221` |  |
-| 232 | L70Engine.LancamentoContabil | 115 | **Falta** |  |  |
+| 123 | L70Engine.CriarL70Con | 108 | Nome sem Con | `Petrus.Financeiro/Engines/L70Engine.cs:29` |  |
+| 232 | L70Engine.LancamentoContabil | 115 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 

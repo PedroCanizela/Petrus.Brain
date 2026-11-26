@@ -1,10 +1,10 @@
 # Métodos: RH (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 41 · Via form: 37 · Falta: 6 · Citado: 4 · Citado (conferir): 2
+**Situação:** Mesmo nome: 41 · Via form: 37 · Citado: 4 · Falta: 3 · Citado (conferir): 2 · Equivalente: 2 · Nome sem Con: 1
 
 ## `RH/Classes/EntregaEPI.cs`
 
@@ -34,25 +34,25 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | D10Engine.StatusD10 | 15 | **Falta** |  |  |
+| 17 | D10Engine.StatusD10 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:46` |  |
 | 32 | D10Engine.EfetivarD10 | 24 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:117` | classe Funcionarios |
 | 79 | D10Engine.DataAteHoje | 4 | **Falta** |  |  |
 | 84 | D10Engine.StatusCalculadoD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:339` | classe Funcionarios |
 | 128 | D10Engine.AtualizaStatusD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:315` | classe Funcionarios |
 | 173 | D10Engine.ExperienciaD10 | 33 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:296` | classe Funcionarios |
 | 208 | D10Engine.EmailD10 | 51 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
-| 259 | D10Engine.EmailImportacaoD10 | 267 | **Falta** |  |  |
+| 259 | D10Engine.EmailImportacaoD10 | 267 | **Falta** |  | pendente da SS8-221 |
 | 527 | D10Engine.TelefonesD10 | 62 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
-| 589 | D10Engine.TelefonesImportacaoD10 | 333 | **Falta** |  |  |
+| 589 | D10Engine.TelefonesImportacaoD10 | 333 | **Falta** |  | pendente da SS8-221 |
 
 ## `RH/Engines/DX1Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | DX1Engine.Calcular | 6 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
-| 25 | DX1Engine.StatusDX1 | 15 | **Falta** |  |  |
+| 25 | DX1Engine.StatusDX1 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:50` |  |
 | 40 | DX1Engine.Criar | 131 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
-| 171 | DX1Engine.ConcluirDX1Con | 95 | **Falta** |  |  |
+| 171 | DX1Engine.ConcluirDX1Con | 95 | Nome sem Con | `Petrus.RH/Classes/FolhaPagamento.cs:49` | classe FolhaPagamento |
 | 267 | DX1Engine.ConcluirDX1 | 95 | Mesmo nome | `Petrus.RH/Classes/FolhaPagamento.cs:49` | classe FolhaPagamento |
 | 362 | DX1Engine.CancelarDX1 | 33 | Mesmo nome | `Petrus.RH/Classes/FolhaPagamento.cs:107` | classe FolhaPagamento |
 

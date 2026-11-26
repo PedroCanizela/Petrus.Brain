@@ -1,31 +1,31 @@
 # Métodos: Utils (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 40 · Falta: 39 · Citado: 4 · Citado (conferir): 2
+**Situação:** Mesmo nome: 37 · Não se aplica: 20 · Falta: 9 · Equivalente: 5 · Sem uso no desktop: 5 · Citado: 4 · Citado (conferir): 2 · Parcial: 2 · Nome sem Con: 1
 
 ## `Utils/AppSetting.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 18 | AppSetting.GetConnectionString | 4 | **Falta** |  |  |
-| 23 | AppSetting.SaveConnectionString | 7 | **Falta** |  |  |
+| 18 | AppSetting.GetConnectionString | 4 | Não se aplica |  | connection string vem do credentials.xml/appsettings no Web |
+| 23 | AppSetting.SaveConnectionString | 7 | Não se aplica |  | connection string vem do credentials.xml/appsettings no Web |
 
 ## `Utils/AverageStoppedMinutesAggregate .cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 13 | AverageStoppedMinutesAggregate.CalculateAggregateFunc | 37 | **Falta** |  |  |
+| 13 | AverageStoppedMinutesAggregate.CalculateAggregateFunc | 37 | Não se aplica |  | rodapé de média do SfDataGrid |
 
 ## `Utils/CredentialsManager.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 20 | CredentialsManager.RetornaCredenciais | 16 | **Falta** |  |  |
-| 38 | CredentialsManager.ExistemMultiplasCredenciais | 4 | **Falta** |  |  |
-| 44 | CredentialsManager.SelecionaCredencial | 18 | **Falta** |  |  |
+| 20 | CredentialsManager.RetornaCredenciais | 16 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | escolha de banco no login |
+| 38 | CredentialsManager.ExistemMultiplasCredenciais | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | escolha de banco no login |
+| 44 | CredentialsManager.SelecionaCredencial | 18 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | escolha de banco no login |
 
 ## `Utils/Funcoes.cs`
 
@@ -33,13 +33,13 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 76 | Funcoes.GerarHashSenha | 17 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:102` | classe TokenSessao |
 | 95 | Funcoes.ConferirHashSenha | 41 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:111` | classe TokenSessao |
-| 138 | Funcoes.ExisteSenhaHash | 6 | **Falta** |  |  |
+| 138 | Funcoes.ExisteSenhaHash | 6 | Equivalente | `ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1` | SS8-272 |
 | 146 | Funcoes.SenhaSomenteHash | 6 | Citado (conferir) | `Petrus.Core/Sistema/Senha.cs:15` |  |
-| 157 | Funcoes.ConferirLogin | 22 | **Falta** |  |  |
-| 185 | Funcoes.GravarSenhaS2 | 23 | **Falta** |  |  |
+| 157 | Funcoes.ConferirLogin | 22 | Equivalente | `ERPBlazor/Components/Pages/Login.razor:1` | S2_SENHA_HASH igual ao Web (SS8-272) |
+| 185 | Funcoes.GravarSenhaS2 | 23 | Equivalente | `ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1` | SS8-272 |
 | 229 | Funcoes.UTF8_to_ISO | 11 | **Falta** |  |  |
 | 241 | Funcoes.ParametroDataGrid | 9 | Citado | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:640` |  |
-| 251 | Funcoes.RolagemSfDataGrid | 27 | **Falta** |  |  |
+| 251 | Funcoes.RolagemSfDataGrid | 27 | Não se aplica |  |  |
 | 298 | Funcoes.RetornaConnection | 10 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:197` | classe TokenSessao |
 | 312 | Funcoes.ExecuteQueries | 25 | Mesmo nome | `Petrus.Core/Dados/DataAccess.cs:48` | classe DataAccess |
 | 339 | Funcoes.GetQueriesExecuted | 25 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:48` |  |
@@ -50,31 +50,31 @@ Voltar: [[de-para/README|De → para]]
 | 406 | Funcoes.ReadDataRow | 22 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:64` |  |
 | 430 | Funcoes.DataTable | 5 | Mesmo nome | `Petrus.Core/Models/S8.cs:606` | classe S8 |
 | 435 | Funcoes.GetDataTable | 5 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:39` |  |
-| 443 | Funcoes.BloquearRecurso | 23 | **Falta** |  |  |
-| 467 | Funcoes.LiberarRecurso | 26 | **Falta** |  |  |
+| 443 | Funcoes.BloquearRecurso | 23 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` | Web gera ID com UPDLOCK/HOLDLOCK (SS8-199) |
+| 467 | Funcoes.LiberarRecurso | 26 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` | SS8-199 |
 | 493 | Funcoes.GetParametrizedDataTable | 25 | **Falta** |  |  |
 | 521 | Funcoes.CarregaDados | 377 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
 | 903 | Funcoes.LimpaCampos | 78 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1087` | classe StatusCadastro |
 | 981 | Funcoes.FormataCampos | 80 | Mesmo nome | `Petrus.Boleto/Boleto/Boleto.cs:685` | classe Boleto |
-| 1061 | Funcoes.BloqueiaCampos | 55 | **Falta** |  |  |
-| 1117 | Funcoes.ValoresCampos | 197 | **Falta** |  |  |
+| 1061 | Funcoes.BloqueiaCampos | 55 | Não se aplica | `ERPBlazor/Components/Pages/Details.Cadastro.cs:1` | S10_ATIVO no Details |
+| 1117 | Funcoes.ValoresCampos | 197 | Equivalente | `Petrus.Core/Cadastros/CadastroEmEdicao.cs:1` | valores padrão no Novo() |
 | 1315 | Funcoes.Habilita | 4 | Citado (conferir) | `ERPBlazor/Components/Shared/MotivoDialog.razor:6` |  |
-| 1319 | Funcoes.Desabilita | 4 | **Falta** |  |  |
-| 1327 | Funcoes.VerificaLinhas | 163 | **Falta** |  |  |
+| 1319 | Funcoes.Desabilita | 4 | Não se aplica |  |  |
+| 1327 | Funcoes.VerificaLinhas | 163 | Equivalente | `ERPBlazor/Components/Pages/Details.Cadastro.cs:1` | conferência das abas no Grid() |
 | 1493 | Funcoes.Filtro | 21 | Mesmo nome | `Petrus.Core/Utils/PesoOrdem.cs:296` | classe PesoOrdem |
 | 1514 | Funcoes.LimpaGrid | 19 | Citado | `ERPBlazor/Components/Pages/Details.Abas.cs:239` |  |
 | 1535 | Funcoes.GerarConexao | 1759 | Mesmo nome | `Petrus.Core/Utils/Conexoes.cs:1889` | classe Conexoes |
-| 3295 | Funcoes.GerarConexaoMassa | 1361 | **Falta** |  |  |
+| 3295 | Funcoes.GerarConexaoMassa | 1361 | Parcial | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | importação de planilha (SS8-221) sem telefones/e-mails |
 | 4657 | Funcoes.GerarConexaoTabela | 812 | Mesmo nome | `Petrus.Core/Utils/Conexoes.cs:19` | classe Conexoes |
-| 5470 | Funcoes.GerarConexaoTabelaMassa | 870 | **Falta** |  |  |
-| 6340 | Funcoes.VerificaIDCon | 75 | **Falta** |  |  |
+| 5470 | Funcoes.GerarConexaoTabelaMassa | 870 | Parcial | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | SS8-221 |
+| 6340 | Funcoes.VerificaIDCon | 75 | Nome sem Con | `Petrus.Core/Utils/Funcoes.cs:233` | classe TokenSessao |
 | 6416 | Funcoes.VerificaID | 76 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:233` | classe TokenSessao |
 | 6492 | Funcoes.GerarNroPersonalizado | 78 | **Falta** |  |  |
 | 6571 | Funcoes.GerarNroPersonalizadoCon | 78 | **Falta** |  |  |
 | 6651 | Funcoes.GerarID | 103 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:260` | classe TokenSessao |
 | 6755 | Funcoes.GerarPreID | 20 | **Falta** |  |  |
 | 6775 | Funcoes.GetEmpresa | 51 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:408` | classe Helpers |
-| 6827 | Funcoes.VirtualDataTable | 156 | **Falta** |  |  |
+| 6827 | Funcoes.VirtualDataTable | 156 | Não se aplica |  | grade virtual do WinForms |
 | 6983 | Funcoes.GetVirtualDataTable | 160 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:98` | classe Helpers |
 | 7144 | Funcoes.CarregaGrid | 533 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:823` | classe CampoPesquisa |
 | 7678 | Funcoes.GetDataTableVirtual | 313 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:263` | classe Helpers |
@@ -84,20 +84,20 @@ Voltar: [[de-para/README|De → para]]
 | 9165 | Funcoes.Importar | 315 | Mesmo nome | `Petrus.Core/Acoes/ImportacaoExcel.cs:171` | classe ImportacaoExcel |
 | 9481 | Funcoes.ImportarSemIdentificador | 329 | Mesmo nome | `Petrus.Core/Acoes/ImportacaoExcel.cs:175` | classe ImportacaoExcel |
 | 9811 | Funcoes.NovoGrid | 238 | Citado | `ERPBlazor/Components/Pages/Details.Cadastro.cs:313` |  |
-| 10050 | Funcoes.NovoRegistro | 301 | **Falta** |  |  |
+| 10050 | Funcoes.NovoRegistro | 301 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 10355 | Funcoes.Editar | 522 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:203` | classe MisturaReceitas |
-| 10891 | Funcoes.EndsWithAny | 4 | **Falta** |  |  |
+| 10891 | Funcoes.EndsWithAny | 4 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 10902 | Funcoes.FormatCNPJ | 12 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:76` |  |
 | 10919 | Funcoes.SemFormatacaoCNPJ | 5 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:175` |  |
 | 10924 | Funcoes.FormataTelefone | 14 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:85` | classe ApoioVendas |
 | 10938 | Funcoes.FormataFone | 14 | Mesmo nome | `Petrus.Core/Integracao/ConsultaAPI.cs:685` | classe ConsultaAPI |
-| 10954 | Funcoes.FormataIE | 4 | **Falta** |  |  |
+| 10954 | Funcoes.FormataIE | 4 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 10958 | Funcoes.FormataCEP | 4 | Mesmo nome | `Petrus.Core/Integracao/ConsultaAPI.cs:679` | classe ConsultaAPI |
 | 10962 | Funcoes.FormatCPF | 4 | Mesmo nome | `Petrus.Core/Integracao/ConsultaAPI.cs:676` | classe ConsultaAPI |
-| 10966 | Funcoes.Formata | 4 | **Falta** |  |  |
+| 10966 | Funcoes.Formata | 4 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 10970 | Funcoes.SemFormatacao | 12 | Mesmo nome | `Petrus.Financeiro/Utils/Legado.cs:71` |  |
 | 10986 | Funcoes.RandomString | 6 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:177` |  |
-| 10992 | Funcoes.RandomNumber | 6 | **Falta** |  |  |
+| 10992 | Funcoes.RandomNumber | 6 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 10999 | Funcoes.FormatNumber | 6 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:134` | classe TokenSessao |
 | 11005 | Funcoes.FormatDouble | 6 | **Falta** |  |  |
 
@@ -105,12 +105,12 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 15 | Mensagens.MsgSalvarInclusao | 11 | **Falta** |  |  |
-| 26 | Mensagens.MsgSalvarAlteracoes | 10 | **Falta** |  |  |
-| 36 | Mensagens.MsgErro | 10 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:217` |  |
-| 46 | Mensagens.MsgSucesso | 10 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:215` |  |
-| 56 | Mensagens.MsgAtencao | 10 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:216` |  |
-| 67 | Mensagens.MsgAviso | 10 | **Falta** |  |  |
+| 15 | Mensagens.MsgSalvarInclusao | 11 | Não se aplica |  | caixas de mensagem do WinForms (Snackbar/diálogos no Web) |
+| 26 | Mensagens.MsgSalvarAlteracoes | 10 | Não se aplica |  | caixas de mensagem do WinForms (Snackbar/diálogos no Web) |
+| 36 | Mensagens.MsgErro | 10 | Não se aplica |  | caixas de mensagem do WinForms (Snackbar/diálogos no Web) |
+| 46 | Mensagens.MsgSucesso | 10 | Não se aplica |  | caixas de mensagem do WinForms (Snackbar/diálogos no Web) |
+| 56 | Mensagens.MsgAtencao | 10 | Não se aplica |  | caixas de mensagem do WinForms (Snackbar/diálogos no Web) |
+| 67 | Mensagens.MsgAviso | 10 | Não se aplica |  | caixas de mensagem do WinForms (Snackbar/diálogos no Web) |
 
 ## `Utils/RawPrinter.cs`
 
@@ -123,11 +123,11 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 13 | TotalMinutesAggregate.CalculateAggregateFunc | 24 | **Falta** |  |  |
+| 13 | TotalMinutesAggregate.CalculateAggregateFunc | 24 | Não se aplica |  | rodapé de soma do SfDataGrid |
 
 ## `Utils/TotalMinutesAggregateVX1.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 13 | TotalMinutesAggregateVX1.CalculateAggregateFunc | 24 | **Falta** |  |  |
+| 13 | TotalMinutesAggregateVX1.CalculateAggregateFunc | 24 | Não se aplica |  | rodapé de soma do SfDataGrid |
 

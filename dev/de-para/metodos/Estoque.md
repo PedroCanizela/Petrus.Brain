@@ -1,10 +1,10 @@
 # Métodos: Estoque (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 52 · Via form: 35 · Falta: 5 · Citado: 5 · Via S39: 4 · Citado (conferir): 2
+**Situação:** Mesmo nome: 52 · Via form: 35 · Citado: 5 · Via S39: 4 · Falta: 3 · Sem uso no desktop: 2 · Citado (conferir): 2
 
 ## `Estoque/Classes/LocaisEstoque.cs`
 
@@ -64,7 +64,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | G41Engine.CalculaG41 | 12 | **Falta** |  |  |
+| 17 | G41Engine.CalculaG41 | 12 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 
 ## `Estoque/Engines/G45Engine.cs`
 
@@ -93,7 +93,7 @@ Voltar: [[de-para/README|De → para]]
 | 71 | G6Engine.InativarG6 | 33 | Via S39 | `Petrus.Estoque/AcoesProduto.cs:26` | S39 100218 Inativar produto |
 | 105 | G6Engine.ReativarG6 | 31 | Via S39 | `Petrus.Estoque/AcoesProduto.cs:26` | S39 100219 Reativar produto |
 | 137 | G6Engine.CalculaG6 | 15 | Mesmo nome | `Petrus.Industrial/Classes/Moldes.cs:49` | classe Moldes |
-| 153 | G6Engine.CriarG6 | 178 | **Falta** |  |  |
+| 153 | G6Engine.CriarG6 | 178 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 332 | G6Engine.StatusG6 | 15 | Citado (conferir) | `Petrus.Core/Cadastros/StatusInclusao.cs:12` |  |
 
 ## `Estoque/Engines/GX6Engine.cs`

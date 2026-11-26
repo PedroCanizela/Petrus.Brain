@@ -1,10 +1,10 @@
 # Métodos: Vendas (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 89 · Via form: 74 · Falta (form): 41 · Falta: 16 · Citado: 10 · Citado (conferir): 10 · Via S39: 9 · Nome+Async: 1
+**Situação:** Mesmo nome: 86 · Via form: 74 · Falta (form): 27 · Falta: 26 · Citado (conferir): 10 · Citado: 9 · Via S39: 9 · Equivalente: 4 · Sem uso no desktop: 3 · Nome+Async: 1 · Nome sem Con: 1
 
 ## `Vendas/Classes/Clientes.cs`
 
@@ -83,8 +83,8 @@ Voltar: [[de-para/README|De → para]]
 | 120 | Vendedores.RelatorioVendasR4 | 75 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:148` |  |
 | 195 | Vendedores.RelatorioClientesR4 | 86 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:172` |  |
 | 281 | Vendedores.RelatorioCobrancaR4 | 45 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:202` |  |
-| 327 | Vendedores.TelefonesImportacaoR4 | 333 | **Falta** |  |  |
-| 661 | Vendedores.EmailImportacaoR4 | 188 | **Falta** |  |  |
+| 327 | Vendedores.TelefonesImportacaoR4 | 333 | **Falta** |  | pendente da SS8-221 |
+| 661 | Vendedores.EmailImportacaoR4 | 188 | **Falta** |  | pendente da SS8-221 |
 | 851 | Vendedores.BloquearR4 | 1 | Citado | `Petrus.Vendas/AcoesCadastros.cs:9` |  |
 | 921 | Vendedores.InativarR4 | 1 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100194 Inativar vendedor |
 | 991 | Vendedores.ReativarR4 | 59 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100196 Reativar vendedor |
@@ -103,10 +103,10 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R2Engine.EmailImportacaoR2 | 267 | **Falta** |  |  |
-| 281 | R2Engine.TelefonesImportacaoR2 | 333 | **Falta** |  |  |
+| 12 | R2Engine.EmailImportacaoR2 | 267 | **Falta** |  | pendente da SS8-221 |
+| 281 | R2Engine.TelefonesImportacaoR2 | 333 | **Falta** |  | pendente da SS8-221 |
 | 616 | R2Engine.QuadroSocietarioR2 | 38 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:167` | classe RotinasCadastro |
-| 654 | R2Engine.StatusR2 | 15 | **Falta** |  |  |
+| 654 | R2Engine.StatusR2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:37` |  |
 | 669 | R2Engine.TelefonesR2 | 64 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.Cadastro.cs:333` |  |
 | 733 | R2Engine.EmailR2 | 51 | **Falta** |  |  |
 | 786 | R2Engine.CriarR2 | 304 | **Falta** |  |  |
@@ -115,7 +115,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | R38Engine.StatusR38 | 15 | **Falta** |  |  |
+| 17 | R38Engine.StatusR38 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:48` |  |
 | 33 | R38Engine.ReativarR38 | 32 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100277 Reativar grupo |
 | 66 | R38Engine.BloquearR38 | 33 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100275 Bloquear grupo |
 
@@ -123,7 +123,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 9 | R43Engine.StatusR43 | 15 | **Falta** |  |  |
+| 9 | R43Engine.StatusR43 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:35` |  |
 
 ## `Vendas/Engines/R47Engine.cs`
 
@@ -141,29 +141,29 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 13 | R4Engine.VincularR4Con | 136 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:225` |  |
+| 13 | R4Engine.VincularR4Con | 136 | Nome sem Con | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
 | 150 | R4Engine.VincularR4 | 136 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
 | 287 | R4Engine.EmailR4 | 51 | **Falta** |  |  |
 | 339 | R4Engine.TelefonesR4 | 61 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
-| 400 | R4Engine.StatusR4 | 15 | **Falta** |  |  |
+| 400 | R4Engine.StatusR4 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:38` |  |
 
 ## `Vendas/Engines/R54Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | R54Engine.CriarR54 | 89 | **Falta** |  |  |
+| 11 | R54Engine.CriarR54 | 89 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 
 ## `Vendas/Engines/R56Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R56Engine.CriarR56 | 80 | **Falta** |  |  |
+| 12 | R56Engine.CriarR56 | 80 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 
 ## `Vendas/Engines/R87Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R87Engine.CriarR87 | 85 | **Falta** |  |  |
+| 12 | R87Engine.CriarR87 | 85 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 
 ## `Vendas/Engines/R92Engine.cs`
 
@@ -287,23 +287,23 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 27 | frmGradeProduto.Produtos | 106 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Itens.cs:54` | classe PedidosVenda |
-| 143 | frmGradeProduto.frmGradeProduto_Load | 20 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 164 | frmGradeProduto.Calcula | 214 | **Falta (form)** |  | frmGradeProduto |
-| 426 | frmGradeProduto.sfDataGrid_CurrentCellEndEdit | 5 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 435 | frmGradeProduto.sfDataGrid_QueryRowStyle | 34 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 470 | frmGradeProduto.sfDataGrid_RecordDeleted | 5 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 476 | frmGradeProduto.btnOK_Click | 6 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 483 | frmGradeProduto.btnCancelar_Click | 4 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 489 | frmGradeProduto.btnInserirGrade_Click | 4 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 493 | frmGradeProduto.Salvar | 43 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:613` | classe PedidosVenda |
-| 536 | frmGradeProduto.Limpar | 9 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:214` | classe Mensagens |
-| 546 | frmGradeProduto.btnLimparProdutos_Click | 4 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 551 | frmGradeProduto.txtQtde_Validated | 16 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 568 | frmGradeProduto.txtValorUnitario_Validated | 16 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 585 | frmGradeProduto.txtProduto_KeyDown | 8 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 594 | frmGradeProduto.txtQtde_KeyDown | 8 | **Falta (form)** |  | frmGradeProduto; evento de tela |
-| 603 | frmGradeProduto.txtValorUnitario_KeyDown | 10 | **Falta (form)** |  | frmGradeProduto; evento de tela |
+| 27 | frmGradeProduto.Produtos | 106 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
+| 143 | frmGradeProduto.frmGradeProduto_Load | 20 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 164 | frmGradeProduto.Calcula | 214 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
+| 426 | frmGradeProduto.sfDataGrid_CurrentCellEndEdit | 5 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 435 | frmGradeProduto.sfDataGrid_QueryRowStyle | 34 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 470 | frmGradeProduto.sfDataGrid_RecordDeleted | 5 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 476 | frmGradeProduto.btnOK_Click | 6 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 483 | frmGradeProduto.btnCancelar_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 489 | frmGradeProduto.btnInserirGrade_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 493 | frmGradeProduto.Salvar | 43 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
+| 536 | frmGradeProduto.Limpar | 9 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
+| 546 | frmGradeProduto.btnLimparProdutos_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 551 | frmGradeProduto.txtQtde_Validated | 16 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 568 | frmGradeProduto.txtValorUnitario_Validated | 16 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 585 | frmGradeProduto.txtProduto_KeyDown | 8 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 594 | frmGradeProduto.txtQtde_KeyDown | 8 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 603 | frmGradeProduto.txtValorUnitario_KeyDown | 10 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
 
 ## `Vendas/Interfaces/frmIncluirProdutos.cs`
 

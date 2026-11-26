@@ -1,10 +1,10 @@
 # Métodos: Manutencao (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 14 · Falta: 10 · Via form: 7 · Citado (conferir): 3 · Citado: 1
+**Situação:** Mesmo nome: 14 · Equivalente: 11 · Via form: 7 · Citado (conferir): 2 · Citado: 1
 
 ## `Manutencao/Classes/OrdensManutencao.cs`
 
@@ -79,60 +79,60 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | CausaXSolucao.RelatorioCausaXSolucao | 34 | **Falta** |  |  |
+| 11 | CausaXSolucao.RelatorioCausaXSolucao | 34 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/CustoEquipamento.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | CustoEquipamento.CustoManutencao | 28 | **Falta** |  |  |
+| 11 | CustoEquipamento.CustoManutencao | 28 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/DisponibilidadeEquipamento.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | DisponibilidadeEquipamento.Disponibilidade | 37 | Citado (conferir) | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:240` |  |
+| 11 | DisponibilidadeEquipamento.Disponibilidade | 37 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/FalhasEquipamento.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | FalhasEquipamento.FalhasPorEquipamento | 30 | **Falta** |  |  |
-| 42 | FalhasEquipamento.FalhasPorMotivo | 26 | **Falta** |  |  |
+| 11 | FalhasEquipamento.FalhasPorEquipamento | 30 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
+| 42 | FalhasEquipamento.FalhasPorMotivo | 26 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/MateriaisConsumidos.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | MateriaisConsumidos.RelatorioMateriaisConsumidos | 35 | **Falta** |  |  |
+| 11 | MateriaisConsumidos.RelatorioMateriaisConsumidos | 35 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/MTBF.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | MTBF.MTBFEquipamento | 34 | **Falta** |  |  |
+| 11 | MTBF.MTBFEquipamento | 34 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/MTTR.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | MTTR.MTTREquipamento | 28 | **Falta** |  |  |
+| 11 | MTTR.MTTREquipamento | 28 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/PreventivaXCorretiva.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | PreventivaXCorretiva.RelatorioPreventivaXCorretiva | 36 | **Falta** |  |  |
+| 11 | PreventivaXCorretiva.RelatorioPreventivaXCorretiva | 36 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/PrevistoXRealizado.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | PrevistoXRealizado.RelatorioPrevistoXRealizado | 57 | **Falta** |  |  |
+| 11 | PrevistoXRealizado.RelatorioPrevistoXRealizado | 57 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 
 ## `Manutencao/Reports/RankingFalhas.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | RankingFalhas.RankingFalhasPorEquipamento | 47 | **Falta** |  |  |
+| 11 | RankingFalhas.RankingFalhasPorEquipamento | 47 | Equivalente | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1` | relatórios do CMMS (/CMMS/Reports) |
 

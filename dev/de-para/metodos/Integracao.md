@@ -1,6 +1,6 @@
 # Métodos: Integracao (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
@@ -31,10 +31,10 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 69 | CotacaoBcb.AtualizarCotacoes | 95 | **Falta** |  |  |
-| 164 | CotacaoBcb.AtualizarCotacao | 43 | **Falta** |  |  |
-| 208 | CotacaoBcb.ConsultarCotacao | 70 | **Falta** |  |  |
-| 284 | CotacaoBcb.ConsultarCotacaoNaData | 120 | **Falta** |  |  |
+| 69 | CotacaoBcb.AtualizarCotacoes | 95 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
+| 164 | CotacaoBcb.AtualizarCotacao | 43 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
+| 208 | CotacaoBcb.ConsultarCotacao | 70 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
+| 284 | CotacaoBcb.ConsultarCotacaoNaData | 120 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
 
 ## `Integracao/Models/Serasa.cs`
 

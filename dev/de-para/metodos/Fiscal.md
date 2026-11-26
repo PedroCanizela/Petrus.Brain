@@ -1,10 +1,10 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 121 · Citado (conferir): 17 · Falta (form): 15 · Falta: 14 · Citado: 7 · Via form: 5 · Nome+Async: 2 · Via S39: 1
+**Situação:** Mesmo nome: 121 · Citado (conferir): 17 · Falta (form): 15 · Citado: 7 · Falta: 7 · Via form: 5 · Sem uso no desktop: 4 · Equivalente: 3 · Nome+Async: 2 · Via S39: 1
 
 ## `Fiscal/Calculos/CalculosImpostos.cs`
 
@@ -44,21 +44,21 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 9 | J34Engine.StatusJ34 | 15 | **Falta** |  |  |
+| 9 | J34Engine.StatusJ34 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:32` |  |
 
 ## `Fiscal/Engines/R7Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 15 | R7Engine.DestinoR7 | 55 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:186` | classe RotinasCadastro |
-| 70 | R7Engine.StatusR7 | 23 | **Falta** |  |  |
+| 70 | R7Engine.StatusR7 | 23 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:31` |  |
 | 94 | R7Engine.AtualizaNumeroDocumentoR7 | 79 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/CriarNFe.cs:6638` | classe R58 |
 
 ## `Fiscal/Engines/X13Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 9 | X13Engine.StatusX13 | 15 | **Falta** |  |  |
+| 9 | X13Engine.StatusX13 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:36` |  |
 
 ## `Fiscal/Interfaces/frmEventosNFe.cs`
 
@@ -112,8 +112,8 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 23 | ConfiguracaoDao.SalvarConfiguracao | 11 | **Falta** |  |  |
-| 35 | ConfiguracaoDao.BuscarConfiguracao | 17 | **Falta** |  |  |
+| 23 | ConfiguracaoDao.SalvarConfiguracao | 11 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
+| 35 | ConfiguracaoDao.BuscarConfiguracao | 17 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 
 ## `Fiscal/Manifesto/CriarMDFe.cs`
 
@@ -239,7 +239,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 20 | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | **Falta** |  |  |
+| 20 | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | **Falta** |  | NFC-e (DANFCE) do PDV |
 | 78 | DanfeSharedHelper.GenerateDanfeFrEventoReport | 21 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:20` |  |
 | 100 | DanfeSharedHelper.GenerateDanfeFrNfeReport | 140 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:42` |  |
 
@@ -283,7 +283,7 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 38 | ImpressoesNFe.ExportarXML | 54 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:39` |  |
-| 95 | ImpressoesNFe.ExportarDANFCE | 87 | **Falta** |  |  |
+| 95 | ImpressoesNFe.ExportarDANFCE | 87 | **Falta** |  | NFC-e (DANFCE) do PDV |
 | 182 | ImpressoesNFe.ExportarDANFE | 155 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
 | 338 | ImpressoesNFe.ArmazenarDanfePasta | 22 | **Falta** |  |  |
 | 361 | ImpressoesNFe.ExportarDANFE | 1 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
@@ -319,7 +319,7 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 33 | NotasSaida.CalculaR58 | 288 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasSaida.Calculos.cs:542` |  |
-| 321 | NotasSaida.CalcularR58 | 358 | **Falta** |  |  |
+| 321 | NotasSaida.CalcularR58 | 358 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 679 | NotasSaida.CalculaR57 | 1349 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasSaida.Calculos.cs:38` |  |
 | 2029 | NotasSaida.EstornarCancelamentoR7 | 35 | Citado | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:16` |  |
 
@@ -346,5 +346,5 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | SaidaContabil.NotasSaidaPorProduto | 39 | **Falta** |  |  |
+| 11 | SaidaContabil.NotasSaidaPorProduto | 39 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 

@@ -1,58 +1,58 @@
 # Métodos: Metodos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Falta: 50 · Citado (conferir): 29 · Mesmo nome: 23 · Citado: 17 · Nome+Async: 6
+**Situação:** Não se aplica: 32 · Em branch: 23 · Mesmo nome: 22 · Citado (conferir): 20 · Falta: 12 · Citado: 9 · Nome+Async: 6 · Equivalente: 1
 
 ## `Metodos/CloudflareR2.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 41 | CloudflareR2.CriarCliente | 30 | **Falta** |  |  |
-| 77 | CloudflareR2.UploadPdf | 46 | Citado | `Petrus.Core/Utils/EnvioWhatsApp.cs:171` |  |
-| 130 | CloudflareR2.GerarUrl | 31 | Citado (conferir) | `Petrus.Core/Utils/EnvioWhatsApp.cs:171` |  |
-| 167 | CloudflareR2.UploadFoto | 112 | **Falta** |  |  |
-| 285 | CloudflareR2.GerarUrlPublica | 8 | **Falta** |  |  |
-| 300 | CloudflareR2.PublicarFotosG6 | 155 | **Falta** |  |  |
+| 41 | CloudflareR2.CriarCliente | 30 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 77 | CloudflareR2.UploadPdf | 46 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 130 | CloudflareR2.GerarUrl | 31 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 167 | CloudflareR2.UploadFoto | 112 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 285 | CloudflareR2.GerarUrlPublica | 8 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 300 | CloudflareR2.PublicarFotosG6 | 155 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
 
 ## `Metodos/CriarAmbiente.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 91 | RodapesCampos.txtValor_KeyPress | 16 | **Falta** |  | evento de tela |
-| 107 | RodapesCampos.AplicaCaixaNumerico | 31 | **Falta** |  |  |
-| 138 | RodapesCampos.txtValor_MouseClick | 4 | **Falta** |  | evento de tela |
-| 142 | RodapesCampos.sfDataGrid_QueryRowHeight | 18 | **Falta** |  | evento de tela |
-| 161 | RodapesCampos.CreateFields | 2840 | Citado (conferir) | `Petrus.Core/Acoes/FiltroAvancado.cs:34` |  |
-| 3001 | RodapesCampos.AplicarCorMargem | 32 | **Falta** |  | evento de tela |
-| 3033 | RodapesCampos.Cbb_MouseWheel | 4 | **Falta** |  | evento de tela |
-| 3038 | RodapesCampos.Txt_TextChanged | 9 | **Falta** |  | evento de tela |
-| 3048 | RodapesCampos.Txt_LostFocus | 10 | **Falta** |  | evento de tela |
-| 3061 | RodapesCampos.SfListViewSugestoes_KeyDown | 7 | **Falta** |  | evento de tela |
-| 3069 | RodapesCampos.SfListViewSugestoes_MouseClick | 7 | **Falta** |  | evento de tela |
-| 3081 | Item.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
-| 3086 | Item.InserirTextoSelecionado | 15 | **Falta** |  |  |
-| 3101 | Item.BuscarSugestoesDoBanco | 29 | **Falta** |  |  |
-| 3134 | Item.CriarComboMotoristas | 37 | **Falta** |  |  |
-| 3180 | Item.Txt_KeyDown | 208 | **Falta** |  | evento de tela |
-| 3391 | Item.SfListViewSugestoes_SelectionChanged | 7 | **Falta** |  | evento de tela |
-| 3399 | Item.btnEscolherImagem | 37 | **Falta** |  | evento de tela |
-| 3444 | Item.AcessarInterface | 915 | Citado (conferir) | `Petrus.Core/Models/S6.cs:419` |  |
-| 4362 | Item.CreateColumns | 375 | **Falta** |  |  |
-| 4737 | Item.CreateColumnsRelatorio | 385 | **Falta** |  |  |
-| 5122 | Item.CreateColumnsInteracao | 356 | **Falta** |  |  |
-| 5478 | Item.CreateSumariesRelatorios | 148 | **Falta** |  |  |
-| 5627 | Item.CreateSumaries | 102 | **Falta** |  |  |
-| 5736 | Telas.GetDataSource | 203 | Citado (conferir) | `ERPBlazor/Components/Services/MenuPetrus.cs:360` |  |
-| 5939 | Telas.SfListView1_SelectionChanged | 288 | **Falta** |  | evento de tela |
-| 6227 | Telas.SfListView1_DrawItem | 20 | **Falta** |  | evento de tela |
-| 6249 | Telas.CreateListView | 186 | **Falta** |  |  |
-| 6437 | Telas.PopulateComboBox | 127 | **Falta** |  |  |
-| 6568 | Telas.sfDataGrid1_QueryRowStyle | 97 | **Falta** |  | evento de tela |
-| 6666 | Telas.sfDataGrid1_QueryCellStyle | 57 | **Falta** |  |  |
-| 6724 | Telas.CreateGroups | 297 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.Layout.cs:10` |  |
+| 91 | RodapesCampos.txtValor_KeyPress | 16 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 107 | RodapesCampos.AplicaCaixaNumerico | 31 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 138 | RodapesCampos.txtValor_MouseClick | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 142 | RodapesCampos.sfDataGrid_QueryRowHeight | 18 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 161 | RodapesCampos.CreateFields | 2840 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3001 | RodapesCampos.AplicarCorMargem | 32 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3033 | RodapesCampos.Cbb_MouseWheel | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3038 | RodapesCampos.Txt_TextChanged | 9 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3048 | RodapesCampos.Txt_LostFocus | 10 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3061 | RodapesCampos.SfListViewSugestoes_KeyDown | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3069 | RodapesCampos.SfListViewSugestoes_MouseClick | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3081 | Item.ToString | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3086 | Item.InserirTextoSelecionado | 15 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3101 | Item.BuscarSugestoesDoBanco | 29 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3134 | Item.CriarComboMotoristas | 37 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3180 | Item.Txt_KeyDown | 208 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3391 | Item.SfListViewSugestoes_SelectionChanged | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3399 | Item.btnEscolherImagem | 37 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3444 | Item.AcessarInterface | 915 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 4362 | Item.CreateColumns | 375 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 4737 | Item.CreateColumnsRelatorio | 385 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5122 | Item.CreateColumnsInteracao | 356 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5478 | Item.CreateSumariesRelatorios | 148 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5627 | Item.CreateSumaries | 102 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5736 | Telas.GetDataSource | 203 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5939 | Telas.SfListView1_SelectionChanged | 288 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6227 | Telas.SfListView1_DrawItem | 20 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6249 | Telas.CreateListView | 186 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6437 | Telas.PopulateComboBox | 127 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6568 | Telas.sfDataGrid1_QueryRowStyle | 97 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6666 | Telas.sfDataGrid1_QueryCellStyle | 57 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6724 | Telas.CreateGroups | 297 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
 
 ## `Metodos/CriarPDF.cs`
 
@@ -140,7 +140,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 30 | ExportarGrid.ImportarGridExcel | 47 | **Falta** |  |  |
+| 30 | ExportarGrid.ImportarGridExcel | 47 | Equivalente | `Petrus.Core/Utils/LeituraExcel.cs:1` | SS8-221 |
 | 78 | ExportarGrid.ExportarGridExcel | 56 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:28` |  |
 | 134 | ExportarGrid.ExportarGridPDF | 83 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:36` |  |
 | 217 | ExportarGrid.ExportarModelo | 61 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:32` |  |
@@ -153,21 +153,21 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 35 | GerarEtiquetas.ExportarEtiquetasProduto | 97 | Citado | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:12` |  |
-| 133 | GerarEtiquetas.ExportarEtiquetasProdutoZebra | 1 | Citado (conferir) | `Petrus.Core/Utils/EtiquetasCadastro.cs:137` |  |
-| 218 | GerarEtiquetas.EtiquetasG6 | 70 | **Falta** |  |  |
-| 288 | GerarEtiquetas.EtiquetasV1 | 59 | **Falta** |  |  |
-| 349 | GerarEtiquetas.EtiquetasR7 | 79 | **Falta** |  |  |
-| 431 | GerarEtiquetas.EtiquetasJ7 | 52 | **Falta** |  |  |
-| 483 | GerarEtiquetas.BuscarTemplateEtiqueta | 8 | **Falta** |  |  |
-| 491 | GerarEtiquetas.QuebrarTexto | 26 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:460` | classe EtiquetasCadastro |
-| 517 | GerarEtiquetas.MontarZPL | 9 | Citado | `Petrus.Core/Utils/EtiquetasCadastro.cs:479` |  |
-| 526 | GerarEtiquetas.ExportarEtiquetaZebra | 348 | **Falta** |  |  |
-| 874 | GerarEtiquetas.LimparTextoZPL | 40 | Citado | `Petrus.Core/Utils/PacoteEtiqueta.cs:677` |  |
-| 914 | GerarEtiquetas.ExportarEtiquetaDun14 | 274 | Citado (conferir) | `Petrus.Core/Utils/EtiquetasCadastro.cs:308` |  |
-| 1188 | GerarEtiquetas.ImprimirPdfDireto | 15 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:20` |  |
-| 1203 | GerarEtiquetas.ExportarEtiquetaQrCode | 109 | Citado | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:14` |  |
-| 1313 | GerarEtiquetas.ExportarEtiquetas | 87 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:47` |  |
-| 1401 | GerarEtiquetas.ExportarEtiquetasVolume | 68 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:74` |  |
-| 1470 | GerarEtiquetas.ExportarEtiquetasProduto | 107 | Citado | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:12` |  |
+| 35 | GerarEtiquetas.ExportarEtiquetasProduto | 97 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 133 | GerarEtiquetas.ExportarEtiquetasProdutoZebra | 1 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 218 | GerarEtiquetas.EtiquetasG6 | 70 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 288 | GerarEtiquetas.EtiquetasV1 | 59 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 349 | GerarEtiquetas.EtiquetasR7 | 79 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 431 | GerarEtiquetas.EtiquetasJ7 | 52 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 483 | GerarEtiquetas.BuscarTemplateEtiqueta | 8 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 491 | GerarEtiquetas.QuebrarTexto | 26 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 517 | GerarEtiquetas.MontarZPL | 9 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 526 | GerarEtiquetas.ExportarEtiquetaZebra | 348 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 874 | GerarEtiquetas.LimparTextoZPL | 40 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 914 | GerarEtiquetas.ExportarEtiquetaDun14 | 274 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 1188 | GerarEtiquetas.ImprimirPdfDireto | 15 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 1203 | GerarEtiquetas.ExportarEtiquetaQrCode | 109 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 1313 | GerarEtiquetas.ExportarEtiquetas | 87 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 1401 | GerarEtiquetas.ExportarEtiquetasVolume | 68 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 1470 | GerarEtiquetas.ExportarEtiquetasProduto | 107 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
 

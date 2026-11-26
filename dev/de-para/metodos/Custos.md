@@ -1,16 +1,16 @@
 # Métodos: Custos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Via form: 27 · Mesmo nome: 7 · Falta: 6 · Nome+Async: 1 · Citado: 1
+**Situação:** Via form: 27 · Mesmo nome: 7 · Falta: 5 · Nome+Async: 1 · Citado: 1 · Sem uso no desktop: 1
 
 ## `Custos/Engines/CalculoFolha.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | CalculoFolha.CalcularFolha | 33 | **Falta** |  |  |
+| 12 | CalculoFolha.CalcularFolha | 33 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 46 | CalculoFolha.CalcularFuncionario | 14 | Citado | `Petrus.Custos/Classes/CustosPrecificacao.cs:195` |  |
 | 61 | CalculoFolha.CalcularParcial | 28 | **Falta** |  |  |
 | 89 | CalculoFolha.CalculaINSS | 7 | **Falta** |  |  |

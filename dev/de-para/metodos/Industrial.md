@@ -1,10 +1,10 @@
 # Métodos: Industrial (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 63 · Via form: 61 · Falta (form): 53 · Falta: 16 · Via S7: 14 · Citado (conferir): 5 · Via S39: 4 · Citado: 2 · Nome+Async: 2
+**Situação:** Equivalente: 80 · Via form: 61 · Mesmo nome: 54 · Falta: 6 · Via S7: 6 · Via S39: 4 · Sem uso no desktop: 4 · Citado: 2 · Nome+Async: 2 · Citado (conferir): 1
 
 ## `Industrial/Classes/ApontamentosProducao.cs`
 
@@ -42,13 +42,13 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 27 | OrdensProducao.CalculaV1 | 131 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:29` |  |
 | 159 | OrdensProducao.ObterV3 | 69 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:171` |  |
-| 230 | OrdensProducao.ObterV21 | 155 | **Falta** |  |  |
+| 230 | OrdensProducao.ObterV21 | 155 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 387 | OrdensProducao.ObterCoresPorNome | 11 | **Falta** |  |  |
 | 400 | OrdensProducao.NormalizarNomeCor | 12 | **Falta** |  |  |
 | 413 | OrdensProducao.CalculaV27 | 236 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cores.cs:121` |  |
-| 650 | OrdensProducao.CalculaV22 | 140 | **Falta** |  |  |
+| 650 | OrdensProducao.CalculaV22 | 140 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 790 | OrdensProducao.CalculaV23 | 170 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:51` |  |
-| 961 | OrdensProducao.CalculaV3 | 224 | **Falta** |  |  |
+| 961 | OrdensProducao.CalculaV3 | 224 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 1187 | OrdensProducao.CancelarV1 | 1 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:124` |  |
 | 1227 | OrdensProducao.ReativarV1 | 32 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:127` |  |
 | 1261 | OrdensProducao.IniciarV1 | 22 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:107` |  |
@@ -82,7 +82,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 14 | V1Engine.CalcularEstrutura | 71 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:250` | classe OrdensProducao |
 | 86 | V1Engine.CalculaV1 | 68 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.Cadastro.cs:29` | classe OrdensProducao |
-| 156 | V1Engine.StatusV1 | 15 | **Falta** |  |  |
+| 156 | V1Engine.StatusV1 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:42` |  |
 | 171 | V1Engine.ReativarV1 | 23 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:127` | classe OrdensProducao |
 | 195 | V1Engine.EstornarV1 | 55 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:134` | classe OrdensProducao |
 | 251 | V1Engine.ConcluirV1 | 23 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:192` |  |
@@ -90,7 +90,7 @@ Voltar: [[de-para/README|De → para]]
 | 297 | V1Engine.PausarV1 | 20 | **Falta** |  |  |
 | 317 | V1Engine.ReiniciarV1 | 20 | **Falta** |  |  |
 | 338 | V1Engine.CancelarV1 | 29 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:215` |  |
-| 368 | V1Engine.LancarEstoqueV1 | 14 | **Falta** |  |  |
+| 368 | V1Engine.LancarEstoqueV1 | 14 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 383 | V1Engine.CriarV1 | 97 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:17` |  |
 
 ## `Industrial/Engines/V21Engine.cs`
@@ -103,7 +103,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | VM3Engine.StatusVM3 | 12 | **Falta** |  |  |
+| 16 | VM3Engine.StatusVM3 | 12 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:58` |  |
 | 28 | VM3Engine.ConcluirVM3 | 1 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:563` | classe Mistura |
 | 61 | VM3Engine.CancelarVM3 | 1 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:568` | classe Mistura |
 
@@ -137,7 +137,7 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 18 | VZ7Engine.StatusVZ7 | 12 | **Falta** |  |  |
+| 18 | VZ7Engine.StatusVZ7 | 12 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:57` |  |
 | 30 | VZ7Engine.ConcluirVZ7 | 1 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100455 Concluir troca |
 | 66 | VZ7Engine.CancelarVZ7 | 1 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100457 Cancelar troca |
 
@@ -192,47 +192,47 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 32 | frmMonitoramento.frmMonitoramento_Load | 89 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 130 | frmMonitoramento.CarregaOrdensConcluidas | 28 | **Falta (form)** |  | frmMonitoramento |
-| 159 | frmMonitoramento.CarregaOrdensEmAberto | 8 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MapMES.razor:1497` | classe PosicaoMaquina |
-| 168 | frmMonitoramento.CarregaOrdens | 270 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MapMES.razor:1518` | classe PosicaoMaquina |
-| 442 | frmMonitoramento.OrdensAberto | 106 | **Falta (form)** |  | frmMonitoramento |
-| 550 | frmMonitoramento.TempoReal | 271 | **Falta (form)** |  | frmMonitoramento |
-| 825 | frmMonitoramento.OrdensConcluidas | 98 | **Falta (form)** |  | frmMonitoramento |
-| 927 | frmMonitoramento.timer1_Tick | 11 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 944 | frmMonitoramento.btnConcluir_Click | 195 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1139 | frmMonitoramento.Seleciona | 37 | Citado (conferir) | `ERPBlazor/Components/Pages/MES/OperatorLabels.razor:191` |  |
-| 1177 | frmMonitoramento.btnApontarParada_Click | 54 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1232 | frmMonitoramento.btnApontarPerdas_Click | 65 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1298 | frmMonitoramento.btnApontarPeso_Click | 35 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1334 | frmMonitoramento.relatorioPesosToolStripMenuItem_Click | 15 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1350 | frmMonitoramento.sfDataGridTempoReal_QueryCellStyle | 35 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1386 | frmMonitoramento.sfDataGridEmAberto_QueryRowStyle | 133 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1520 | frmMonitoramento.btnImprimir_Click | 4 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1525 | frmMonitoramento.btnExcel_Click | 4 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1530 | frmMonitoramento.btnPDF_Click | 4 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1540 | frmMonitoramento.btnPeriodo_Click | 41 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1582 | frmMonitoramento.btnOperador_Click | 26 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1609 | frmMonitoramento.btnJustificarParada_Click | 228 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1838 | frmMonitoramento.btnMaisAcoes_Click | 4 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1843 | frmMonitoramento.exportarOrdemToolStripMenuItem_Click | 57 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1900 | frmMonitoramento.guna2GroupBox7_Validated | 4 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1904 | frmMonitoramento.cancelarOrdemToolStripMenuItem_Click | 43 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1948 | frmMonitoramento.AlteraCor | 25 | **Falta (form)** |  | frmMonitoramento |
-| 1973 | frmMonitoramento.txtOEE_Validated | 7 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1981 | frmMonitoramento.txtProdutividade_Validated | 8 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1989 | frmMonitoramento.txtQualidade_Validated | 7 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 1997 | frmMonitoramento.txtDisponibilidade_Validated | 8 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2008 | frmMonitoramento.sfDataGridConcluido_QueryRowStyle | 7 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2016 | frmMonitoramento.pausarOrdemToolStripMenuItem_Click | 52 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2069 | frmMonitoramento.reiniciarOrdemToolStripMenuItem_Click | 54 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2124 | frmMonitoramento.btnPrioridadesTroca_Click | 7 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2132 | frmMonitoramento.btnIniciarOrdem_Click | 103 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2236 | frmMonitoramento.btnCancelarOrdem_Click | 45 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2282 | frmMonitoramento.btnImprimirAberto_Click | 5 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2288 | frmMonitoramento.btnExcelAberto_Click | 5 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2294 | frmMonitoramento.btnPDFAberto_Click | 5 | **Falta (form)** |  | frmMonitoramento; evento de tela |
-| 2300 | frmMonitoramento.apontarPesosToolStripMenuItem_Click | 35 | **Falta (form)** |  | frmMonitoramento; evento de tela |
+| 32 | frmMonitoramento.frmMonitoramento_Load | 89 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 130 | frmMonitoramento.CarregaOrdensConcluidas | 28 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 159 | frmMonitoramento.CarregaOrdensEmAberto | 8 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 168 | frmMonitoramento.CarregaOrdens | 270 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 442 | frmMonitoramento.OrdensAberto | 106 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 550 | frmMonitoramento.TempoReal | 271 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 825 | frmMonitoramento.OrdensConcluidas | 98 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 927 | frmMonitoramento.timer1_Tick | 11 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 944 | frmMonitoramento.btnConcluir_Click | 195 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1139 | frmMonitoramento.Seleciona | 37 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1177 | frmMonitoramento.btnApontarParada_Click | 54 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1232 | frmMonitoramento.btnApontarPerdas_Click | 65 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1298 | frmMonitoramento.btnApontarPeso_Click | 35 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1334 | frmMonitoramento.relatorioPesosToolStripMenuItem_Click | 15 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1350 | frmMonitoramento.sfDataGridTempoReal_QueryCellStyle | 35 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1386 | frmMonitoramento.sfDataGridEmAberto_QueryRowStyle | 133 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1520 | frmMonitoramento.btnImprimir_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1525 | frmMonitoramento.btnExcel_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1530 | frmMonitoramento.btnPDF_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1540 | frmMonitoramento.btnPeriodo_Click | 41 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1582 | frmMonitoramento.btnOperador_Click | 26 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1609 | frmMonitoramento.btnJustificarParada_Click | 228 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1838 | frmMonitoramento.btnMaisAcoes_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1843 | frmMonitoramento.exportarOrdemToolStripMenuItem_Click | 57 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1900 | frmMonitoramento.guna2GroupBox7_Validated | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1904 | frmMonitoramento.cancelarOrdemToolStripMenuItem_Click | 43 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1948 | frmMonitoramento.AlteraCor | 25 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1973 | frmMonitoramento.txtOEE_Validated | 7 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1981 | frmMonitoramento.txtProdutividade_Validated | 8 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1989 | frmMonitoramento.txtQualidade_Validated | 7 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 1997 | frmMonitoramento.txtDisponibilidade_Validated | 8 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2008 | frmMonitoramento.sfDataGridConcluido_QueryRowStyle | 7 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2016 | frmMonitoramento.pausarOrdemToolStripMenuItem_Click | 52 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2069 | frmMonitoramento.reiniciarOrdemToolStripMenuItem_Click | 54 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2124 | frmMonitoramento.btnPrioridadesTroca_Click | 7 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2132 | frmMonitoramento.btnIniciarOrdem_Click | 103 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2236 | frmMonitoramento.btnCancelarOrdem_Click | 45 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2282 | frmMonitoramento.btnImprimirAberto_Click | 5 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2288 | frmMonitoramento.btnExcelAberto_Click | 5 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2294 | frmMonitoramento.btnPDFAberto_Click | 5 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
+| 2300 | frmMonitoramento.apontarPesosToolStripMenuItem_Click | 35 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` | monitoramento no MES (sem marca MIGRADO FORM) |
 
 ## `Industrial/Interfaces/frmMRP.cs`
 
@@ -270,35 +270,35 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 19 | frmPainel.ResetarGrid | 5 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:216` | classe DashboardProdution |
-| 26 | frmPainel.Carregar | 212 | Mesmo nome | `Petrus.Industrial/Classes/TempoDisponivelMES.cs:45` | classe TempoDisponivelMES |
-| 239 | frmPainel.CarregarStatus | 6 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:1014` | classe CampoPesquisa |
-| 245 | frmPainel.AlteraCor | 25 | **Falta (form)** |  | frmPainel |
-| 280 | frmPainel.CriarColunas | 149 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:242` | classe DashboardProdution |
-| 432 | frmPainel.MudarEtapa | 22 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:296` | classe DashboardProdution |
-| 454 | frmPainel.OEE | 7 | **Falta (form)** |  | frmPainel |
-| 462 | frmPainel.Qualidade | 10 | Citado (conferir) | `ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:2` |  |
-| 473 | frmPainel.Produtividade | 9 | Citado (conferir) | `ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:2` |  |
-| 483 | frmPainel.Disponibilidade | 9 | Citado (conferir) | `ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:240` |  |
-| 493 | frmPainel.frmPainel_Load | 7 | **Falta (form)** |  | frmPainel; evento de tela |
-| 501 | frmPainel.timer1_Tick | 4 | **Falta (form)** |  | frmPainel; evento de tela |
-| 506 | frmPainel.timer2_Tick | 4 | **Falta (form)** |  | frmPainel; evento de tela |
-| 511 | frmPainel.pnPainel_Paint | 4 | **Falta (form)** |  | frmPainel; evento de tela |
-| 516 | frmPainel.sfDataGrid_QueryRowStyle | 19 | **Falta (form)** |  | frmPainel; evento de tela |
+| 19 | frmPainel.ResetarGrid | 5 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 26 | frmPainel.Carregar | 212 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 239 | frmPainel.CarregarStatus | 6 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 245 | frmPainel.AlteraCor | 25 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 280 | frmPainel.CriarColunas | 149 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 432 | frmPainel.MudarEtapa | 22 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 454 | frmPainel.OEE | 7 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 462 | frmPainel.Qualidade | 10 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 473 | frmPainel.Produtividade | 9 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 483 | frmPainel.Disponibilidade | 9 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 493 | frmPainel.frmPainel_Load | 7 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 501 | frmPainel.timer1_Tick | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 506 | frmPainel.timer2_Tick | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 511 | frmPainel.pnPainel_Paint | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
+| 516 | frmPainel.sfDataGrid_QueryRowStyle | 19 | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` | sem marca MIGRADO FORM |
 
 ## `Industrial/Interfaces/frmPainelMonitoramento.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmPainelMonitoramento.frmPainelMonitoramento_Load | 40 | **Falta (form)** |  | frmPainelMonitoramento; evento de tela |
-| 65 | frmPainelMonitoramento.Timer2_Tick | 40 | **Falta (form)** |  | frmPainelMonitoramento; evento de tela |
-| 106 | frmPainelMonitoramento.timer1_Tick | 4 | **Falta (form)** |  | frmPainelMonitoramento; evento de tela |
-| 114 | frmPainelMonitoramento.CarregaOrdens | 213 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MapMES.razor:1518` | classe PosicaoMaquina |
-| 328 | frmPainelMonitoramento.AlteraCor | 25 | **Falta (form)** |  | frmPainelMonitoramento |
-| 353 | frmPainelMonitoramento.AlteraLabel | 19 | **Falta (form)** |  | frmPainelMonitoramento |
-| 375 | frmPainelMonitoramento.TempoReal | 129 | **Falta (form)** |  | frmPainelMonitoramento |
-| 505 | frmPainelMonitoramento.sfDataGridEmAberto_QueryRowStyle | 123 | **Falta (form)** |  | frmPainelMonitoramento; evento de tela |
-| 629 | frmPainelMonitoramento.timer3_Tick | 258 | **Falta (form)** |  | frmPainelMonitoramento; evento de tela |
+| 24 | frmPainelMonitoramento.frmPainelMonitoramento_Load | 40 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 65 | frmPainelMonitoramento.Timer2_Tick | 40 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 106 | frmPainelMonitoramento.timer1_Tick | 4 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 114 | frmPainelMonitoramento.CarregaOrdens | 213 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 328 | frmPainelMonitoramento.AlteraCor | 25 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 353 | frmPainelMonitoramento.AlteraLabel | 19 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 375 | frmPainelMonitoramento.TempoReal | 129 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 505 | frmPainelMonitoramento.sfDataGridEmAberto_QueryRowStyle | 123 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
+| 629 | frmPainelMonitoramento.timer3_Tick | 258 | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` | sem marca MIGRADO FORM |
 
 ## `Industrial/Interfaces/frmPrioridadeTrocaMolde.cs`
 
@@ -345,8 +345,8 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 15 | CiclosRealizados.CiclosRealizadosPorMolde | 38 | **Falta** |  |  |
-| 53 | CiclosRealizados.CiclosRealizadosPorMoldeXMaquina | 41 | **Falta** |  |  |
+| 15 | CiclosRealizados.CiclosRealizadosPorMolde | 38 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioCiclos.razor:1` | /MES/Reports/Cycles |
+| 53 | CiclosRealizados.CiclosRealizadosPorMoldeXMaquina | 41 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioCiclos.razor:1` | /MES/Reports/Cycles |
 
 ## `Industrial/Reports/Disponibilidade.cs`
 
@@ -365,26 +365,26 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 14 | OEE.OEECompleto | 85 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:35` | S7 100251 |
-| 101 | OEE.OEEDiaria | 101 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:35` | S7 100273 |
-| 203 | OEE.OEEMensal | 119 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:35` | S7 100278 |
+| 14 | OEE.OEECompleto | 85 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:1` | /MES/Reports/Oee |
+| 101 | OEE.OEEDiaria | 101 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:1` | /MES/Reports/Oee |
+| 203 | OEE.OEEMensal | 119 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:1` | /MES/Reports/Oee |
 
 ## `Industrial/Reports/Paradas.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 14 | Paradas.ParadasDetalhado | 68 | **Falta** |  |  |
-| 83 | Paradas.ParadasPorMotivo | 120 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:31` | S7 100279 |
-| 203 | Paradas.ParadasPorMaquina | 63 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:31` | S7 100407 |
-| 266 | Paradas.ParadasPorTurno | 113 | Mesmo nome | `Petrus.Industrial/Reports/RelatoriosMES.cs:298` | classe RelatoriosMES |
+| 14 | Paradas.ParadasDetalhado | 68 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioParadas.razor:1` | /MES/Reports/Downtime |
+| 83 | Paradas.ParadasPorMotivo | 120 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioParadas.razor:1` | /MES/Reports/Downtime |
+| 203 | Paradas.ParadasPorMaquina | 63 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioParadas.razor:1` | /MES/Reports/Downtime |
+| 266 | Paradas.ParadasPorTurno | 113 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioParadas.razor:1` | /MES/Reports/Downtime |
 
 ## `Industrial/Reports/Perdas.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 15 | Perdas.PerdasPorMotivo | 33 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:28` | S7 100409 |
-| 48 | Perdas.PerdasPorMaquina | 34 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:28` | S7 100410 |
-| 82 | Perdas.PerdasPorTurno | 75 | Via S7 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:28` | S7 100411 |
+| 15 | Perdas.PerdasPorMotivo | 33 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioPerdas.razor:1` | /MES/Reports/Losses |
+| 48 | Perdas.PerdasPorMaquina | 34 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioPerdas.razor:1` | /MES/Reports/Losses |
+| 82 | Perdas.PerdasPorTurno | 75 | Equivalente | `ERPBlazor/Components/Pages/MES/Reports/RelatorioPerdas.razor:1` | /MES/Reports/Losses |
 
 ## `Industrial/Reports/PPH.cs`
 

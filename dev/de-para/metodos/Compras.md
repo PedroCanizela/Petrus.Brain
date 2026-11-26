@@ -1,10 +1,10 @@
 # Métodos: Compras (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 35 · Via S39: 32 · Via form: 28 · Falta: 12 · Falta (form): 7 · Citado: 5 · Citado (conferir): 2 · Nome+Async: 1
+**Situação:** Mesmo nome: 35 · Via S39: 32 · Via form: 28 · Equivalente: 7 · Falta (form): 7 · Citado: 5 · Falta: 4 · Citado (conferir): 2 · Sem uso no desktop: 1 · Nome+Async: 1
 
 ## `Compras/Classes/Cotacoes.cs`
 
@@ -19,11 +19,11 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 38 | DocumentosEntrada.CalculaIX8 | 59 | Citado (conferir) | `Petrus.Compras/Classes/CalculoCadastroCompras.cs:13` |  |
-| 99 | DocumentosEntrada.GerarI59 | 306 | **Falta** |  |  |
+| 99 | DocumentosEntrada.GerarI59 | 306 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | botão "Gerar parcelas" da aba I59 avisa que não migrou |
 | 405 | DocumentosEntrada.CalculaI59 | 267 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.Calculos.cs:424` |  |
 | 673 | DocumentosEntrada.CalculaI58 | 871 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.Calculos.cs:37` |  |
 | 1546 | DocumentosEntrada.CancelarI57 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100289 Cancelar documento |
-| 1612 | DocumentosEntrada.ReativarI57 | 61 | **Falta** |  |  |
+| 1612 | DocumentosEntrada.ReativarI57 | 61 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 1673 | DocumentosEntrada.ConcluirI57 | 1 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.cs:24` |  |
 | 1746 | DocumentosEntrada.ReabrirI57 | 76 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.cs:47` |  |
 | 1822 | DocumentosEntrada.AprovarI57 | 52 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100290 Aprovar documento |
@@ -51,7 +51,7 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 32 | PedidosCompra.CalculaIX11 | 267 | Mesmo nome | `Petrus.Compras/Classes/PedidosCompra.cs:416` |  |
-| 300 | PedidosCompra.GerarIX11 | 278 | **Falta** |  |  |
+| 300 | PedidosCompra.GerarIX11 | 278 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | botão "Gerar parcelas" da aba IX11 avisa que não migrou |
 | 578 | PedidosCompra.CalculaIX7 | 59 | Citado (conferir) | `Petrus.Compras/Classes/CalculoCadastroCompras.cs:12` |  |
 | 639 | PedidosCompra.CalculaI43 | 865 | Mesmo nome | `Petrus.Compras/Classes/PedidosCompra.cs:35` |  |
 | 1507 | PedidosCompra.EfetivarI14 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100070 Efetivar pedido |
@@ -77,7 +77,7 @@ Voltar: [[de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 16 | I13Engine.AprovarI13 | 23 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100251 Aprovar solicitação |
 | 39 | I13Engine.CancelarI13 | 24 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100250 Cancelar solicitação |
-| 63 | I13Engine.StatusI13 | 15 | **Falta** |  |  |
+| 63 | I13Engine.StatusI13 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:41` | StatusInclusao (SS8-168) |
 | 78 | I13Engine.CriarI13 | 97 | Citado | `Petrus.Industrial/Classes/PlanejamentoMRP.cs:435` |  |
 
 ## `Compras/Engines/I14Engine.cs`
@@ -99,14 +99,14 @@ Voltar: [[de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 11 | I40Engine.CriarI40 | 85 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:108` | classe Origem |
-| 97 | I40Engine.CriarI40Con | 84 | **Falta** |  |  |
+| 97 | I40Engine.CriarI40Con | 84 | Equivalente | `Petrus.Vendas/Classes/Vendedores.cs:108` |  |
 
 ## `Compras/Engines/I41Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 11 | I41Engine.CriarI41 | 95 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:119` | classe Origem |
-| 107 | I41Engine.CriarI41Con | 94 | **Falta** |  |  |
+| 107 | I41Engine.CriarI41Con | 94 | Equivalente | `Petrus.Vendas/Classes/Vendedores.cs:119` |  |
 
 ## `Compras/Engines/I57Engine.cs`
 
@@ -123,14 +123,14 @@ Voltar: [[de-para/README|De → para]]
 | 48 | I5Engine.ReativarI5 | 24 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100197 Reativar fornecedor |
 | 73 | I5Engine.InativarI5 | 27 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100198 Inativar fornecedor |
 | 101 | I5Engine.CriarI5 | 267 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:81` | classe Origem |
-| 369 | I5Engine.CriarI5Con | 265 | **Falta** |  |  |
-| 635 | I5Engine.StatusI5 | 17 | **Falta** |  |  |
+| 369 | I5Engine.CriarI5Con | 265 | Equivalente | `Petrus.Vendas/Classes/Vendedores.cs:81` | vendedor vira fornecedor (R4Engine) |
+| 635 | I5Engine.StatusI5 | 17 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:40` |  |
 | 652 | I5Engine.EmailI5 | 51 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:147` | classe Origem |
-| 704 | I5Engine.EmailI5Con | 51 | **Falta** |  |  |
-| 756 | I5Engine.EmailImportacaoI5 | 267 | **Falta** |  |  |
-| 1023 | I5Engine.TelefonesI5Con | 62 | **Falta** |  |  |
+| 704 | I5Engine.EmailI5Con | 51 | Equivalente | `Petrus.Vendas/Classes/Vendedores.cs:108` |  |
+| 756 | I5Engine.EmailImportacaoI5 | 267 | **Falta** |  | e-mails na importação de planilha (pendente da SS8-221) |
+| 1023 | I5Engine.TelefonesI5Con | 62 | Equivalente | `Petrus.Vendas/Classes/Vendedores.cs:119` |  |
 | 1086 | I5Engine.TelefonesI5 | 62 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:130` | classe Origem |
-| 1148 | I5Engine.TelefonesImportacaoI5 | 333 | **Falta** |  |  |
+| 1148 | I5Engine.TelefonesImportacaoI5 | 333 | **Falta** |  | telefones na importação de planilha (pendente da SS8-221) |
 
 ## `Compras/Engines/I70Engine.cs`
 
