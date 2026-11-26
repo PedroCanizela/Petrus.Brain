@@ -19,6 +19,7 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-299-uf-performance-vendas
+- + feature/ss8-303-faltas-qrcode-expedicao
 - + feature/ss8-304-expedicao-nro-documento
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
