@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:15 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:35 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -200,7 +200,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 a8fe0776 Merge SS8-2: remover mensagem de exportar ordem de separação no recálculo de pedidos
 - 2026-11-12 85b6e3ed SS8-2: não perguntar exportação da ordem de separação ao recalcular pedidos
 - 2026-11-11 64d1a50f Update - Dicionario
-- 2026-11-11 9e3043a1 Update - Dicionario
 
 ## Petrus.ERP
 Branch atual: master
@@ -213,6 +212,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 d826751 SS8-161: bateria de homologação numa cópia local do banco e correções achadas
 - 2026-11-25 4becec4 SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
 - 2026-11-25 bf7e9e5 Merge SS8-240: MES / Ordens de produção: pesquisa por produto com a referência exata
 - 2026-11-25 4dc6534 Merge SS8-279: Petrus Web / Pesquisa: buscar no banco somente ao pressionar Enter, como o desktop
@@ -829,7 +829,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 5a8ef39 Merge: Desenvolvimento - campos de repositório, branch e interação com o Claude (SS8)
 - 2026-11-12 0f203ac SS8-24: SS10_DATA como DATETIME, igual ao Dados.cs do Petrus
 - 2026-11-12 018ce02 SS8-24: Controle diário de conferência de backup por cliente
-- 2026-11-11 6a795d3 Desenvolvimento: campos de repositório, branch e interação com o Claude (SS8)
 
 ## ZeusFiscal
 Branch atual: master
