@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4d71e034-31fc-43c8-b692-0d85f7fdf76b
-  modified: 2026-11-25T23:55:59.616Z
+  modified: 2026-11-26T12:38:31.514Z
 ---
 
 Levantamento de 25/11/2026 em `Petrus.ERP/Docs/comparacao-desktop-web.md` (+ CSVs em `Docs/comparacao-desktop-web/`,
@@ -26,6 +26,9 @@ Lacunas reais conferidas no código (não aparecem no inventário de S39/S7):
   Grid() completo nos 10 módulos, nada homologado no banco (SS8-161).
 - Sem importação de planilha (`Funcoes.Importar`, `ImportarSemIdentificador`, `GerarConexaoMassa`).
 - PDV inteiro (Petrus.PDV só tem Class1.cs) e Customizador/dicionário (frmTabelas etc.) não existem no Web.
+  SS8-248 (26/11, aguardando resposta do Pedro: portar, manter no desktop ou só parte): o Customizador grava
+  S8/S9/S10/S6/S11/S7/S37 no banco por S1_ID e o Web já lê esses registros (banco + catálogo); falta só o editor.
+  frmIntegracoes é esqueleto vazio; frmDataBase é a escolha de banco do login.
 - Catálogos do Web defasados (IA1/IA2 em S8/S9/S10, S77_VALOR_META_2, S79): sincronizados na SS8-244 (branch nos dois repos). Regra: mudança de catálogo feita só no Web vai antes para o Dados.cs, com ID livre do desktop (a SS8-237 usou o 103884 da S30, que era da Meta 2). S4/S14/S15/S72/S82/SS1/SS2 o Web lê do banco, sem cópia no Core.
 - `InventarioMigracao.ps1` marca Interação como "Falta", mas a /Table abre Interação desde a SS8-127; só 102031 vai para /Developer.
 - S39 que faltam de verdade: 7 (100332, 100383, 100274, 100181, 100497/100498, 100019). S7: 3 (100149/150/154).

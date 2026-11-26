@@ -230,6 +230,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 99b4419 SS8-256: conferir na subida se as chaves do Data Protection ficaram gravadas
 - 2026-11-26 ebcc07b SS8-273: com a OP em volumes, as cores também são digitadas em volume
 - 2026-11-26 38b9cb3 SS8-273: MES / Ordem de produção: digitar a quantidade da OP em volumes (não as cores)
 - 2026-11-26 22c5ca9 SS8-279: pesquisa só com Enter em todas as telas e campos NUMERIC no Pesquisar por
