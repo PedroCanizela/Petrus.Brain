@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 00:39 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:31 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -200,13 +200,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 cf43fcff Update - Cortes Pedido Nov!Plast e Erca Aluminio
 - 2026-11-12 ca306261 SS8-23: Corte de itens do pedido de venda (tabela R98)
 - 2026-11-12 d9c9adbb Update
-- 2026-11-12 71e72dea Fix - Valor Saldo N22 Guthierre
-- 2026-11-12 537b5313 SS8-5: marcar N50_PARCIAL no CalculaN50
-- 2026-11-12 ea9ba0f1 SS8-5: novo campo N50_PARCIAL (BIT) na Remessa x itens
-- 2026-11-12 4fb405d0 SS8-5: calcular o saldo sempre, sem usar N22_VALOR_SALDO do banco
-- 2026-11-12 f9dff5ca SS8-5: remessa e boleto usam o valor saldo do título
-- 2026-11-12 a8fe0776 Merge SS8-2: remover mensagem de exportar ordem de separação no recálculo de pedidos
-- 2026-11-12 85b6e3ed SS8-2: não perguntar exportação da ordem de separação ao recalcular pedidos
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -225,6 +218,8 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
+- + feature/ss8-273-qtd-op-volume
+- + feature/ss8-279-pesquisa-enter-ajustes
 - + feature/ss8-39-novo-layout-erp
 - * master
 

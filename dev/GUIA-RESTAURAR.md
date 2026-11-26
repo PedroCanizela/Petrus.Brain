@@ -53,6 +53,9 @@ As skills atuais estão completas em `dev\skills\`:
 - `/aprovar <id> [push]` — merge `--no-ff` local na master, remove worktree/branch, Concluído.
 - `/rejeitar <id> <motivo>` — grava o motivo, volta para Pendente mantendo a branch.
 - `/atualizar-planilha [abas] [remover]` — leva Dados.cs para `PETRUS 3.xlsx`.
+- `/publicar [notas] [beta]` — publica versão nova do Petrus Web no Azure (`Scripts\Publicar-Versao.ps1` do Petrus.ERP) a partir da master; clientes instalam às 20:00 ou pelo painel.
+- `/atualizacoes [atualizar <cliente>|todos] [cancelar <cliente>] [remover <cliente> <servidor>]` — mostra a versão do Web em cada cliente (AW3 do cnzla) e pede atualização.
+- `/pacote-cliente <nome>` — gera o pacote de instalação do Petrus Web para um cliente (`Scripts\Gerar-PacoteCliente.ps1`) e explica o `Instalar.cmd`.
 
 ## Tarefas agendadas
 - `atualizar-petrus-brain`: todo dia 7h10 (roda `scripts\Sincronizar.ps1 -Commit` e revisa `dev\sistemas.md` e `assistente\sistema\`).
