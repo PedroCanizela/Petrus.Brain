@@ -58,6 +58,7 @@
 - [Fotos R2 e etiqueta Zebra no Web](fotos-r2-etiqueta-zebra-web.md) — SS8-249: ExportarEtiquetaZebra no Core (rede ou .zpl), G6_URL_FOTO (S10 123535) + botão Publicar fotos; 2 branches juntas
 - [Exportar arquivos no app do celular](exportar-arquivos-celular-web.md) — SS8-285: blob ignorado no PWA; EntregaArquivos + ArquivosTemporarios, aviso Abrir/Compartilhar, ExcelDaGradeAsync
 - [Catálogo S10 estourava a pilha](catalogo-s10-pilha.md) — SS8-235: CriarS10 > 1,5 MB de pilha derrubava o Web; CriarS10Parte1..14, campo novo no fim da última parte
+- [Comando SQL no Web](comando-sql-web.md) — SS8-248: Customizador fica no desktop; /Ajustes/Comando só admin, simula antes de gravar, bloqueios e log
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

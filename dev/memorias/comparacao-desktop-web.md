@@ -26,7 +26,7 @@ Lacunas reais conferidas no código (não aparecem no inventário de S39/S7):
   Grid() completo nos 10 módulos, nada homologado no banco (SS8-161).
 - Sem importação de planilha (`Funcoes.Importar`, `ImportarSemIdentificador`, `GerarConexaoMassa`).
 - PDV inteiro (Petrus.PDV só tem Class1.cs) e Customizador/dicionário (frmTabelas etc.) não existem no Web.
-  SS8-248 (26/11, aguardando resposta do Pedro: portar, manter no desktop ou só parte): o Customizador grava
+  SS8-248 (26/11, decidido: Customizador fica no desktop, só o console SQL vai, ver [[comando-sql-web]]): o Customizador grava
   S8/S9/S10/S6/S11/S7/S37 no banco por S1_ID e o Web já lê esses registros (banco + catálogo); falta só o editor.
   frmIntegracoes é esqueleto vazio; frmDataBase é a escolha de banco do login.
 - Catálogos do Web defasados (IA1/IA2 em S8/S9/S10, S77_VALOR_META_2, S79): sincronizados na SS8-244 (branch nos dois repos). Regra: mudança de catálogo feita só no Web vai antes para o Dados.cs, com ID livre do desktop (a SS8-237 usou o 103884 da S30, que era da Meta 2). S4/S14/S15/S72/S82/SS1/SS2 o Web lê do banco, sem cópia no Core.
