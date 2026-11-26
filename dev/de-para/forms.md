@@ -1,0 +1,143 @@
+# Forms: desktop → Web
+
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+
+| Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
+|---|---|---:|---|---|---|
+| Compras\Interfaces | `frmHistoricoCompras` | 202 | 100437 | Tem | `Petrus.Compras/AcoesCompras.cs:27` |
+| Compras\Interfaces | `frmManifestarXml` | 32 | 100248 | Tem | `Petrus.Fiscal/NotaFiscal/AcoesDistribuicao.cs:18` |
+| Compras\Interfaces | `frmMetasResponsavel` | 332 |  | **Falta** |  |
+| Compras\Interfaces | `frmPerfilFornecedor` | 970 | 100188 | Tem | `Petrus.Compras/AcoesCompras.cs:27` |
+| Custos\Interfaces | `frmCustosIndiretos` | 374 |  | Tem | `ERPBlazor/Components/Pages/Custos/CustosIndiretos.razor:2` |
+| Custos\Interfaces | `frmFormacaoCusto` | 473 |  | Tem | `ERPBlazor/Components/Pages/Custos/FormacaoCusto.razor:2` |
+| Custos\Interfaces | `frmMaoObra` | 254 |  | Tem | `ERPBlazor/Components/Pages/Custos/MaoObra.razor:2` |
+| Custos\Interfaces | `frmMateriaPrima` | 257 |  | Tem | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:2` |
+| Custos\Interfaces | `frmSemiAcabados` | 135 |  | Tem | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:2` |
+| Estoque\Interfaces | `frmBalanco` | 301 | 100391, 100083 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
+| Estoque\Interfaces | `frmEntregaRequisicao` | 175 |  | **Falta** |  |
+| Estoque\Interfaces | `frmLancamentoEstoque` | 280 | 100392, 100086 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
+| Estoque\Interfaces | `frmReservaEstoque` | 160 | 100085 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
+| Estoque\Interfaces | `frmTransferenciaEstoque` | 285 | 100089 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
+| Financeiro\Interfaces | `frmAgendamentoPagFor` | 230 |  | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` |
+| Financeiro\Interfaces | `frmAnaliseCliente` | 71 | 100298 | Tem | `Petrus.Vendas/AcoesCadastros.cs:29` |
+| Financeiro\Interfaces | `frmAvaliacaoCredito` | 1.516 |  | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` |
+| Financeiro\Interfaces | `frmConciliacaoBancaria` | 656 | 100278 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmEdicaoProtestado` | 222 | 100332 | Tem | `ERPBlazor/Components/Shared/ProtestoTituloDialog.razor:3` |
+| Financeiro\Interfaces | `frmEnvioBoleto` | 48 | 100307 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmHomologarConta` | 157 | 100184 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmLancamentoComissao` | 175 | 100212, 100080 | Tem | `Petrus.Vendas/AcoesCadastros.cs:29` |
+| Financeiro\Interfaces | `frmLancamentoMultiplo` | 848 | 100183 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmMoeda` | 194 | 100057 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmMoedaPagamento` | 79 |  | **Falta** |  |
+| Financeiro\Interfaces | `frmNotasMultaJuros` | 284 |  | Tem | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` |
+| Financeiro\Interfaces | `frmOrcamento` | 351 |  | Tem | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` |
+| Financeiro\Interfaces | `frmPagamento` | 563 | 100057 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmPagamentoManual` | 201 | 100385, 100211 | Tem | `Petrus.Vendas/AcoesComissoes.cs:25` |
+| Financeiro\Interfaces | `frmPagamentoMultiplo` | 608 | 100057 | Tem | `Petrus.Financeiro/AcoesFinanceiro.cs:86` |
+| Financeiro\Interfaces | `frmPerfilCliente` | 2.803 | 100152, 100105 | Tem | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` |
+| Financeiro\Interfaces | `frmPerfilClienteJuros` | 58 |  | Tem | `ERPBlazor/Components/Shared/PerfilClienteJurosDialog.razor:1` |
+| Financeiro\Interfaces | `frmRecebimento` | 776 |  | Tem | `Petrus.Financeiro/Classes/ContasReceber.cs:16` |
+| Financeiro\Interfaces | `frmRecebimentoMultiplo` | 574 |  | Tem | `Petrus.Financeiro/Classes/ContasReceber.cs:16` |
+| Financeiro\Interfaces | `frmWhatsAppCodigo` | 100 |  | Tem | `ERPBlazor/Components/Shared/WhatsAppPareamentoDialog.razor:1` |
+| Financeiro\Interfaces | `frmWhatsAppConta` | 52 |  | **Falta** |  |
+| Financeiro\Interfaces | `frmWhatsAppPareamento` | 26 |  | Tem | `ERPBlazor/Components/Shared/WhatsAppPareamentoDialog.razor:1` |
+| Financeiro\Interfaces | `frmWhatsAppQrCode` | 103 |  | Tem | `ERPBlazor/Components/Shared/WhatsAppPareamentoDialog.razor:1` |
+| Fiscal\Interfaces | `frmEventosNFe` | 268 | 100497, 100498 | **Falta** |  |
+| Fiscal\Interfaces | `frmInutilizacao` | 118 | 100223 | Tem | `ERPBlazor/Components/Shared/InutilizacaoDialog.razor:2` |
+| Fiscal\Interfaces | `frmNovoEventoNFe` | 269 |  | **Falta** |  |
+| Industrial\Interfaces | `frmApontarParada` | 202 |  | Tem | `ERPBlazor/Components/Pages/MES/DowntimeReporting.razor:2` |
+| Industrial\Interfaces | `frmApontarPerda` | 181 |  | Tem | `ERPBlazor/Components/Pages/MES/LossReporting.razor:2` |
+| Industrial\Interfaces | `frmApontarPeso` | 217 |  | Tem | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` |
+| Industrial\Interfaces | `frmJustificarParada` | 133 |  | Tem | `ERPBlazor/Components/Pages/MES/DowntimeJustification.razor:2` |
+| Industrial\Interfaces | `frmMonitoramento` | 2.336 |  | **Falta** |  |
+| Industrial\Interfaces | `frmMRP` | 1.133 |  | Tem | `ERPBlazor/Components/Pages/PCP/MRP.razor:2` |
+| Industrial\Interfaces | `frmPainel` | 536 |  | **Falta** |  |
+| Industrial\Interfaces | `frmPainelMonitoramento` | 888 |  | **Falta** |  |
+| Industrial\Interfaces | `frmPrioridadeTrocaMolde` | 180 |  | Tem | `ERPBlazor/Components/Pages/MES/MoldChangePriority.razor:2` |
+| Industrial\Interfaces | `frmRelatorioPesos` | 334 |  | Tem | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` |
+| Integracao\Interfaces\Serasa | `frmSerasa` | 669 |  | Tem | `ERPBlazor/Components/Pages/Financeiro/Serasa.razor:2` |
+| Logistica\Interfaces | `frmEtiqueta` | 55 | 100115 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Logistica\Interfaces | `frmEtiquetaProduto` | 48 | 100096 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
+| Logistica\Interfaces | `frmImprimirEtiqueta` | 360 | 100465, 100464, 100463, 100462, 100461 | Tem | `Petrus.Logistica/AcoesLogistica.cs:37` |
+| Logistica\Interfaces | `frmPedidosXProduto` | 100 |  | **Falta** |  |
+| Logistica\Interfaces | `frmPesquisaPedidos` | 272 |  | **Falta** |  |
+| Logistica\Interfaces | `frmTransportadora` | 176 |  | **Falta** |  |
+| Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
+| Manutencao\Interfaces | `frmTransferenciaOM` | 187 | 100425 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
+| Margo\Interfaces | `frmMargo` | 741 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
+| PDV\Interfaces | `frmPDV` | 2.651 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVAbertura` | 100 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVCaixa` | 170 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVFechamento` | 79 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVInicio` | 172 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVSangria` | 75 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVSuprimento` | 74 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDVValores` | 35 |  | **Falta** |  |
+| RH\Interfaces | `frmAdmissao` | 184 | 100325, 100323 | Tem | `Petrus.RH/AcoesRH.cs:25` |
+| RH\Interfaces | `frmAfastamento` | 109 | 100324 | Tem | `Petrus.RH/AcoesRH.cs:25` |
+| RH\Interfaces | `frmLancamentoFolha` | 251 | 100399 | Tem | `Petrus.RH/AcoesRH.cs:25` |
+| RH\Interfaces | `frmOrgonograma` | 55 |  | Tem | `ERPBlazor/Components/Pages/HR/OrganizationalChart.razor:2` |
+| RH\Interfaces | `frmRescisao` | 126 | 100327 | Tem | `Petrus.RH/AcoesRH.cs:25` |
+| RH\Interfaces | `frmTransferencia` | 166 | 100325 | Tem | `Petrus.RH/AcoesRH.cs:25` |
+| Sistema\Dicionario | `frmDicionario` | 423 |  | **Falta** |  |
+| Sistema\Interfaces | `frmAcessoRapido` | 238 |  | **Falta** |  |
+| Sistema\Interfaces | `frmAssistente` | 81 | 186 funções | **Falta** |  |
+| Sistema\Interfaces | `frmAuditoria` | 519 |  | **Falta** |  |
+| Sistema\Interfaces | `frmChatBot` | 2.036 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
+| Sistema\Interfaces | `frmComando` | 1.136 |  | **Falta** |  |
+| Sistema\Interfaces | `frmCompartilhar` | 107 |  | Tem | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` |
+| Sistema\Interfaces | `frmConta` | 691 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` |
+| Sistema\Interfaces | `frmCredentials` | 74 |  | **Falta** |  |
+| Sistema\Interfaces | `frmCustomizador` | 332 |  | **Falta** |  |
+| Sistema\Interfaces | `frmDashboard` | 1.662 |  | **Falta** |  |
+| Sistema\Interfaces | `frmEdicaoMassa` | 899 |  | **Falta** |  |
+| Sistema\Interfaces | `frmEmail` | 108 |  | Tem | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` |
+| Sistema\Interfaces | `frmEmpresa` | 48 | 100096 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
+| Sistema\Interfaces | `frmEmpresaProduto` | 220 | 100433 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
+| Sistema\Interfaces | `frmExportar` | 157 |  | **Falta** |  |
+| Sistema\Interfaces | `frmExportarRelatorio` | 289 |  | **Falta** |  |
+| Sistema\Interfaces | `frmFiltroAvancado` | 864 |  | **Falta** |  |
+| Sistema\Interfaces | `frmFiltroRelatorio` | 1.215 |  | **Falta** |  |
+| Sistema\Interfaces | `frmInicio` | 420 |  | **Falta** |  |
+| Sistema\Interfaces | `frmInput` | 145 | 10 funções | **Falta** |  |
+| Sistema\Interfaces | `frmInputDate` | 30 |  | **Falta** |  |
+| Sistema\Interfaces | `frmInterface` | 71.041 | 100330, 100300, 100278, 100155 | Tem | `ERPBlazor/Components/Pages/Table.razor:2` |
+| Sistema\Interfaces | `frmLogin` | 4.271 |  | **Falta** |  |
+| Sistema\Interfaces | `frmMensagem` | 136 | 100409, 100309, 100308 | Tem | `ERPBlazor/Components/Pages/Message.razor:2` |
+| Sistema\Interfaces | `frmMenu` | 1.710 |  | **Falta** |  |
+| Sistema\Interfaces | `frmMudarSenha` | 50 |  | Tem | `ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1` |
+| Sistema\Interfaces | `frmPDFViewer` | 33 | 100387, 100351, 100136, 100096, 100095, 100064, 100009 | **Falta** |  |
+| Sistema\Interfaces | `frmPeriodo` | 299 |  | **Falta** |  |
+| Sistema\Interfaces | `frmPetrusIA` | 2.671 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
+| Sistema\Interfaces | `frmProgressBar` | 93 | 124 funções | Tem | `ERPBlazor/Components/Pages/ProgressBar.razor:2` |
+| Sistema\Interfaces | `frmSplashScreen` | 318 |  | **Falta** |  |
+| Sistema\Interfaces\Ajustes | `frmBoletos` | 113 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Boletos.razor:2` |
+| Sistema\Interfaces\Ajustes | `frmGeral` | 1.430 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Geral.razor:2` |
+| Sistema\Interfaces\Ajustes | `frmNotasFiscais` | 727 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` |
+| Sistema\Interfaces\Ajustes | `frmUsuarios` | 240 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Usuarios.razor:2` |
+| Sistema\Interfaces\Ambiente | `frmCategorias` | 1.179 |  | **Falta** |  |
+| Sistema\Interfaces\Ambiente | `frmGraficos` | 1.115 |  | **Falta** |  |
+| Sistema\Interfaces\Ambiente | `frmIndicadores` | 1.045 |  | **Falta** |  |
+| Sistema\Interfaces\Ambiente | `frmInteracoes` | 1.819 |  | **Falta** |  |
+| Sistema\Interfaces\Ambiente | `frmInterfaces` | 1.630 |  | **Falta** |  |
+| Sistema\Interfaces\Ambiente | `frmRelatorios` | 1.574 |  | **Falta** |  |
+| Sistema\Interfaces\BancoDados | `frmConexoes` | 1.488 |  | **Falta** |  |
+| Sistema\Interfaces\BancoDados | `frmDataBase` | 133 |  | **Falta** |  |
+| Sistema\Interfaces\BancoDados | `frmIntegracoes` | 69 |  | **Falta** |  |
+| Sistema\Interfaces\BancoDados | `frmTabelas` | 2.446 |  | **Falta** |  |
+| Vendas\Interfaces | `frmAdiantarPedido` | 237 | 100431 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Vendas\Interfaces | `frmAnexosPedido` | 386 | 100421 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Vendas\Interfaces | `frmCliente` | 168 |  | **Falta** |  |
+| Vendas\Interfaces | `frmCondPagto` | 169 |  | **Falta** |  |
+| Vendas\Interfaces | `frmCortarItens` | 314 |  | **Falta** |  |
+| Vendas\Interfaces | `frmCortesPedido` | 301 | 100460 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Vendas\Interfaces | `frmEdicaoEntrega` | 145 | 100355 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Vendas\Interfaces | `frmEdicaoOutros` | 110 | 100422 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Vendas\Interfaces | `frmEdicaoVendedor` | 245 | 100357 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
+| Vendas\Interfaces | `frmGradeProduto` | 614 |  | **Falta** |  |
+| Vendas\Interfaces | `frmIncluirProdutos` | 587 |  | Tem | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:6` |
+| Vendas\Interfaces | `frmMetaVendas` | 398 |  | **Falta** |  |
+| Vendas\Interfaces | `frmPerfilVendedor` | 1.759 | 100206 | Tem | `Petrus.Vendas/AcoesCadastros.cs:29` |
+| Vendas\Interfaces | `frmSituacao` | 398 | 100345 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |

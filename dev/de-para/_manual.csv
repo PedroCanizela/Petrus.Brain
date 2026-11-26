@@ -1,0 +1,124 @@
+Arquivo;Classe;Metodo;Situacao;Web;Obs
+Margo/*;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;Margo (Groq) virou o Petrus.Assistente (SS8-171)
+Sistema/Interfaces/frmPetrusIA.cs;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;SS8-171
+Sistema/Interfaces/frmChatBot.cs;*;*;Substituído;Petrus.Assistente/ServicoAssistente.cs:15;SS8-171
+PDV/*;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs;PDV Web no repo Petrus.PDV (SS8-46); NFC-e/DANFCE não existe lá
+Sistema/Dicionario/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
+Sistema/Interfaces/Ambiente/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
+Sistema/Interfaces/BancoDados/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
+Sistema/Interfaces/frmCustomizador.cs;*;*;Descartado;;Customizador fica no desktop (SS8-248)
+Metodos/CriarAmbiente.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/Table.razor:1;monta grades/campos do WinForms; no Web é Table/Details/Report
+Program.cs;*;*;Não se aplica;ERPBlazor/Program.cs:1;
+Settings.cs;*;*;Não se aplica;;
+Utils/AppSetting.cs;*;*;Não se aplica;;connection string vem do credentials.xml/appsettings no Web
+Utils/CredentialsManager.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/Login.razor:1;escolha de banco no login
+Sistema/Interfaces/frmCredentials.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/Login.razor:1;escolha de banco no login
+Utils/Mensagens.cs;*;*;Não se aplica;;caixas de mensagem do WinForms (Snackbar/diálogos no Web)
+Utils/TotalMinutesAggregate*.cs;*;*;Não se aplica;;rodapé de soma do SfDataGrid
+Utils/AverageStoppedMinutesAggregate*.cs;*;*;Não se aplica;;rodapé de média do SfDataGrid
+Utils/Funcoes.cs;*;RolagemSfDataGrid;Não se aplica;;
+Utils/Funcoes.cs;*;BloqueiaCampos;Não se aplica;ERPBlazor/Components/Pages/Details.Cadastro.cs:1;S10_ATIVO no Details
+Utils/Funcoes.cs;*;Desabilita;Não se aplica;;
+Utils/Funcoes.cs;*;VirtualDataTable;Não se aplica;;grade virtual do WinForms
+Utils/Funcoes.cs;*;BloquearRecurso;Não se aplica;Petrus.Core/Acoes/Banco.cs:1;Web gera ID com UPDLOCK/HOLDLOCK (SS8-199)
+Utils/Funcoes.cs;*;LiberarRecurso;Não se aplica;Petrus.Core/Acoes/Banco.cs:1;SS8-199
+Utils/Funcoes.cs;*;ConferirLogin;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;S2_SENHA_HASH igual ao Web (SS8-272)
+Utils/Funcoes.cs;*;GravarSenhaS2;Equivalente;ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1;SS8-272
+Utils/Funcoes.cs;*;ExisteSenhaHash;Equivalente;ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1;SS8-272
+Utils/Funcoes.cs;*;ValoresCampos;Equivalente;Petrus.Core/Cadastros/CadastroEmEdicao.cs:1;valores padrão no Novo()
+Utils/Funcoes.cs;*;VerificaLinhas;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:1;conferência das abas no Grid()
+Utils/Funcoes.cs;*;GerarConexaoMassa;Parcial;Petrus.Core/Acoes/ImportacaoExcel.cs:44;importação de planilha (SS8-221) sem telefones/e-mails; uso em PedidosVenda/Expedicoes coberto por Conexoes.GerarConexao
+Utils/Funcoes.cs;*;GerarConexaoTabelaMassa;Parcial;Petrus.Core/Acoes/ImportacaoExcel.cs:44;SS8-221
+Metodos/ExportarGrid.cs;*;ImportarGridExcel;Equivalente;Petrus.Core/Utils/LeituraExcel.cs:1;SS8-221
+Compras/Engines/I5Engine.cs;*;TelefonesImportacaoI5;Falta;;telefones na importação de planilha (pendente da SS8-221)
+Compras/Engines/I5Engine.cs;*;EmailImportacaoI5;Falta;;e-mails na importação de planilha (pendente da SS8-221)
+Vendas/Engines/R2Engine.cs;*;TelefonesImportacaoR2;Falta;;pendente da SS8-221
+Vendas/Engines/R2Engine.cs;*;EmailImportacaoR2;Falta;;pendente da SS8-221
+Vendas/Classes/Vendedores.cs;*;TelefonesImportacaoR4;Falta;;pendente da SS8-221
+Vendas/Classes/Vendedores.cs;*;EmailImportacaoR4;Falta;;pendente da SS8-221
+Logistica/Engines/J2Engine.cs;*;TelefonesImportacaoJ2;Falta;;pendente da SS8-221
+Logistica/Engines/J2Engine.cs;*;EmailImportacaoJ2;Falta;;pendente da SS8-221
+RH/Engines/D10Engine.cs;*;TelefonesImportacaoD10;Falta;;pendente da SS8-221
+RH/Engines/D10Engine.cs;*;EmailImportacaoD10;Falta;;pendente da SS8-221
+Compras/Engines/I5Engine.cs;*;CriarI5Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:81;vendedor vira fornecedor (R4Engine)
+Compras/Engines/I5Engine.cs;*;EmailI5Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:108;
+Compras/Engines/I5Engine.cs;*;TelefonesI5Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:119;
+Compras/Engines/I40Engine.cs;*;CriarI40Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:108;
+Compras/Engines/I41Engine.cs;*;CriarI41Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:119;
+CRM/Engines/RR10Engine.cs;*;CriarRR10Con;Equivalente;Petrus.Core/Acoes/Banco.cs:99;CriarRR10Async
+Financeiro/Engines/N3Engine.cs;*;FechamentoN95;Equivalente;Petrus.Vendas/Classes/Vendedores.Comissoes.cs:40;FechamentoComissaoR4
+Financeiro/Engines/N3Engine.cs;*;LancamentoN3Con;Sem uso no desktop;;só o frmComando chama
+Compras/Engines/I13Engine.cs;*;StatusI13;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:41;StatusInclusao (SS8-168)
+Compras/Engines/I5Engine.cs;*;StatusI5;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:40;
+Vendas/Engines/R2Engine.cs;*;StatusR2;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:37;
+Vendas/Engines/R4Engine.cs;*;StatusR4;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:38;
+Vendas/Engines/R38Engine.cs;*;StatusR38;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:48;
+Vendas/Engines/R43Engine.cs;*;StatusR43;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:35;
+Fiscal/Engines/R7Engine.cs;*;StatusR7;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:31;
+Fiscal/Engines/J34Engine.cs;*;StatusJ34;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:32;
+Fiscal/Engines/X13Engine.cs;*;StatusX13;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:36;
+Financeiro/Engines/N9Engine.cs;*;StatusN9;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:34;
+Financeiro/Engines/N93Engine.cs;*;StatusN93;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:47;
+Financeiro/Engines/N37Engine.cs;*;StatusN37;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:51;
+Industrial/Engines/V1Engine.cs;*;StatusV1;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:42;
+Industrial/Engines/VZ7Engine.cs;*;StatusVZ7;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:57;
+Industrial/Engines/VM3Engine.cs;*;StatusVM3;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:58;
+Logistica/Engines/J10Engine.cs;*;StatusJ10;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:43;
+Logistica/Engines/J2Engine.cs;*;StatusJ2;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:44;
+Logistica/Engines/JJ2Engine.cs;*;StatusJJ2;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:52;
+Core/Engines/S2Engine.cs;*;StatusS2;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:45;
+RH/Engines/D10Engine.cs;*;StatusD10;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:46;
+RH/Engines/DX1Engine.cs;*;StatusDX1;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:50;
+CRM/Engines/RM3Engine.cs;*;StatusRM3;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:53;
+CRM/Engines/RM7Engine.cs;*;StatusRM7;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:54;
+CRM/Engines/RM20Engine.cs;*;StatusRM20;Equivalente;Petrus.Core/Cadastros/StatusInclusao.cs:55;
+Sistema/Classes/ParametrosSistema.cs;*;HistoricoStatusConnected;Equivalente;Petrus.Core/Acoes/Banco.cs:86;GravarHistoricoStatusAsync
+Qualidade/Engines/K5Engine.cs;*;AtualizarSituacaoK5;Parcial;Petrus.Manutencao/AcoesQualidade.cs:39;Web recalcula ao editar/mudar status; o desktop também recalcula "Atrasado" ao abrir a lista do K5
+Manutencao/Reports/*;*;*;Equivalente;ERPBlazor/Components/Pages/CMMS/ReportsCMMS.razor:1;relatórios do CMMS (/CMMS/Reports)
+Industrial/Reports/Paradas.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/Reports/RelatorioParadas.razor:1;/MES/Reports/Downtime
+Industrial/Reports/Perdas.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/Reports/RelatorioPerdas.razor:1;/MES/Reports/Losses
+Industrial/Reports/OEE.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:1;/MES/Reports/Oee
+Industrial/Reports/CiclosRealizados.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/Reports/RelatorioCiclos.razor:1;/MES/Reports/Cycles
+Industrial/Interfaces/frmMonitoramento.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/LiveProduction.razor:1;monitoramento no MES (sem marca MIGRADO FORM)
+Industrial/Interfaces/frmPainelMonitoramento.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1;sem marca MIGRADO FORM
+Industrial/Interfaces/frmPainel.cs;*;*;Equivalente;ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1;sem marca MIGRADO FORM
+Sistema/Interfaces/frmAuditoria.cs;*;*;Equivalente;ERPBlazor/Components/Shared/AuditoriaDialog.razor:1;sem marca MIGRADO FORM
+Sistema/Interfaces/frmMenu.cs;*;*;Equivalente;ERPBlazor/Components/Services/MenuPetrus.cs:1;menu do Web; o botão flutuante de IA virou o Assistente
+Sistema/Interfaces/frmInicio.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Home.razor:1;
+Sistema/Interfaces/frmSplashScreen.cs;*;*;Equivalente;ERPBlazor/Services/EstruturaBancoService.cs:7;SS8-243
+Sistema/Interfaces/frmPDFViewer.cs;*;*;Não se aplica;;o navegador abre o PDF
+Sistema/Interfaces/frmInput.cs;*;*;Não se aplica;;diálogos do Web
+Sistema/Interfaces/frmInputDate.cs;*;*;Não se aplica;;diálogos do Web
+Sistema/Interfaces/frmLogin.cs;*;EntrarSistema;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;
+Sistema/Interfaces/frmLogin.cs;*;CriarEmpresa;Falta;;cadastro de empresa nova pelo login (trial/assinatura)
+Sistema/Interfaces/frmLogin.cs;*;CriarUsuario;Falta;;cadastro de usuário novo pelo login (trial)
+Sistema/Interfaces/frmLogin.cs;*;CriaModulos;Falta;;módulos da empresa nova (trial)
+Sistema/Interfaces/frmLogin.cs;*;VerificarAssinatura;Falta;;assinatura/cobrança do Petrus no login
+Sistema/Interfaces/frmLogin.cs;*;CartaoCredito;Falta;;assinatura no login
+Sistema/Interfaces/frmLogin.cs;*;btnFormaPagto;Falta;;assinatura no login
+Sistema/Interfaces/frmLogin.cs;*;Calcula;Falta;;valor da assinatura no login
+Sistema/Interfaces/frmLogin.cs;*;GerarIDUsuario;Falta;;trial
+Sistema/Interfaces/frmLogin.cs;*;GerarCodigoSenha;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;esqueci a senha
+Sistema/Interfaces/frmLogin.cs;*;CodigoSenhaValido;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;esqueci a senha
+Sistema/Interfaces/frmLogin.cs;*;LimparCodigoSenha;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;esqueci a senha
+Sistema/Interfaces/frmLogin.cs;*;BuscarS2;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;
+Sistema/Interfaces/frmLogin.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/Login.razor:1;tela de login do WinForms
+Sistema/Classes/UsuariosSistema.cs;*;*;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:280;permissões/grupos do usuário no Web (SS8-230); conferir CopiaGrupo
+Core/Metodos/Dados.cs;*;CriarSS1;Não se aplica;;Web lê do banco
+Core/Metodos/Dados.cs;*;CriarSS2;Não se aplica;;Web lê do banco
+Core/Metodos/Dados.cs;*;CriarS4;Não se aplica;;Web lê do banco
+Core/Metodos/Dados.cs;*;CriarS14;Não se aplica;;Web lê do banco
+Core/Metodos/Dados.cs;*;CriarS72;Não se aplica;;Web lê do banco
+Core/Metodos/Dados.cs;*;CriarS31;Descartado;;gráficos do desktop (Web tem S88–S91)
+Core/Metodos/Dados.cs;*;CriarS36;Descartado;;indicadores do desktop (Web tem S88–S91)
+Compras/Classes/DocumentosEntrada.cs;*;GerarI59;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:49;botão "Gerar parcelas" da aba I59 avisa que não migrou
+Compras/Classes/PedidosCompra.cs;*;GerarIX11;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:49;botão "Gerar parcelas" da aba IX11 avisa que não migrou
+Vendas/Interfaces/frmGradeProduto.cs;*;*;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:39;botão "Grade de produtos" avisa que não migrou
+Logistica/Interfaces/frmPesquisaPedidos.cs;*;*;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:52;botão "Pesquisa pedidos" (J23) avisa que não migrou
+Integracao/Models/CotacaoMoeda.cs;*;*;Falta;;cotação de moedas do BCB ao abrir a tela S6 102952
+Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ExportarDANFCE;Falta;;NFC-e (DANFCE) do PDV
+Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs;*;GenerateDanfeNfceReport;Falta;;NFC-e (DANFCE) do PDV
+Financeiro/Engines/N9Engine.cs;*;AgendarN9;Descartado;;só o frmAgendamentoPagFor (descartado)
+Metodos/CloudflareR2.cs;*;*;Em branch;;feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada
+Metodos/GerarEtiquetas.cs;*;*;Em branch;;feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada
+Sistema/Interfaces/frmComando.cs;*;*;Em branch;;claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada
