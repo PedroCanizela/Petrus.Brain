@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 19:49 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 19:51 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 1440911b SS8-303: Expedição: faltas e resumo dos itens pelo estoque de QR Code quando a empresa usa gaiolas
 - 2026-11-26 4102800d SS8-304: Expedição: puxar o pedido pelo número (R13_NRO_DOCUMENTO)
 - 2026-11-26 f3e48201 SS8-299: UF do vendedor no relatório Performance de vendas
 - 2026-11-26 8b6b6d54 Merge SS8-300: Mapa da fábrica 3D do Petrus Web: campos C4_MAPA_* na C4 (Dados.cs)
@@ -235,6 +236,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 e3ee204 SS8-303: Expedição: faltas e resumo dos itens pelo estoque de QR Code quando a empresa usa gaiolas
 - 2026-11-26 473197d SS8-305: Início com ilustração do módulo (MES) e boas-vindas com usuário e empresa
 - 2026-11-26 fc82a94 SS8-304: Expedição: puxar o pedido pelo número (R13_NRO_DOCUMENTO)
 - 2026-11-26 26e292b SS8-306: login com slogan novo e todos os módulos do ERP
