@@ -227,6 +227,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 6e0bd49 Etiqueta de pacote Pratic: descrição mais à direita
 - 2026-11-26 deaaa42 Etiqueta de pacote Pratic: descrição mais à direita, quebrando em até 3 linhas
 - 2026-11-26 4477e24 Etiqueta de pacote Pratic: descrição mais para a direita
 - 2026-11-26 d95350b Etiqueta de pacote Pratic: descrição do produto em até 2 linhas embaixo
