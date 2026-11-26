@@ -1,10 +1,10 @@
 # Métodos: Estoque (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 52 · Via form: 35 · Citado: 5 · Via S39: 4 · Equivalente: 3 · Sem uso no desktop: 2 · Citado (conferir): 2
+**Situação:** Mesmo nome: 48 · Via form: 35 · Equivalente: 8 · Citado: 5 · Via S39: 4 · Sem uso no desktop: 2 · Citado (conferir): 1
 
 ## `Estoque/Classes/LocaisEstoque.cs`
 
@@ -135,11 +135,11 @@ Voltar: [[de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 90 | frmEntregaRequisicao.Coluna | 11 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:167` | classe LeituraExcel |
-| 102 | frmEntregaRequisicao.Numero | 12 | Mesmo nome | `Petrus.Core/Relatorios/GraficoRelatorio.cs:107` | classe GraficoRelatorio |
-| 115 | frmEntregaRequisicao.Carregar | 12 | Mesmo nome | `Petrus.Boleto/Boleto/Instrucao/Instrucao_BancoBrasil.cs:67` | classe Instrucao_BancoBrasil |
-| 128 | frmEntregaRequisicao.Preencher | 14 | Citado (conferir) | `ERPBlazor/Components/Pages/Table.razor:1372` |  |
-| 143 | frmEntregaRequisicao.Confirmar | 31 | Mesmo nome | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:150` | classe IncluirProdutosDialog |
+| 90 | frmEntregaRequisicao.Coluna | 11 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
+| 102 | frmEntregaRequisicao.Numero | 12 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
+| 115 | frmEntregaRequisicao.Carregar | 12 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
+| 128 | frmEntregaRequisicao.Preencher | 14 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
+| 143 | frmEntregaRequisicao.Confirmar | 31 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
 
 ## `Estoque/Interfaces/frmLancamentoEstoque.cs`
 

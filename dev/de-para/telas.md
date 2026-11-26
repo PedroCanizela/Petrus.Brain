@@ -1,6 +1,6 @@
 # Telas (S6): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 **Genérica** = a tela dinâmica do Web abre pelo catálogo (`/Table` para Tabela e Interação, `/Report` para Relatório). **Tem** = página própria (marca `MIGRADO S6`).
 

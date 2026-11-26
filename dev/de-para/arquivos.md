@@ -1,6 +1,6 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
@@ -81,7 +81,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Estoque/Engines/G6Engine.cs` | 7 | 7 | 0 | 0 | `Petrus.Estoque/AcoesProduto.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs`, `Petrus.Industrial/Classes/Moldes.cs` |
 | `Estoque/Engines/GX6Engine.cs` | 14 | 14 | 0 | 0 | `Petrus.Estoque/Engines/GX6Engine.cs`, `Petrus.Estoque/Engines/A10Engine.cs`, `Petrus.Core/Utils/ZplPdf.cs` |
 | `Estoque/Interfaces/frmBalanco.cs` | 11 | 11 | 0 | 0 | `Petrus.Estoque/AcoesEstoque.cs`, `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor` |
-| `Estoque/Interfaces/frmEntregaRequisicao.cs` | 5 | 5 | 0 | 0 | `ERPBlazor/Components/Pages/Table.razor`, `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor`, `Petrus.Boleto/Boleto/Instrucao/Instrucao_BancoBrasil.cs` |
+| `Estoque/Interfaces/frmEntregaRequisicao.cs` | 5 | 5 | 0 | 0 | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor` |
 | `Estoque/Interfaces/frmLancamentoEstoque.cs` | 11 | 11 | 0 | 0 | `Petrus.Estoque/AcoesEstoque.cs`, `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor` |
 | `Estoque/Interfaces/frmReservaEstoque.cs` | 6 | 6 | 0 | 0 | `Petrus.Estoque/AcoesEstoque.cs` |
 | `Estoque/Interfaces/frmTransferenciaEstoque.cs` | 9 | 9 | 0 | 0 | `Petrus.Estoque/AcoesEstoque.cs` |

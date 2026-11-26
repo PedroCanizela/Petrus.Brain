@@ -1,6 +1,6 @@
 # Forms: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:27. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:29. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
 |---|---|---:|---|---|---|
@@ -14,7 +14,7 @@
 | Custos\Interfaces | `frmMateriaPrima` | 257 |  | Tem | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:2` |
 | Custos\Interfaces | `frmSemiAcabados` | 135 |  | Tem | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:2` |
 | Estoque\Interfaces | `frmBalanco` | 301 | 100391, 100083 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
-| Estoque\Interfaces | `frmEntregaRequisicao` | 175 |  | **Falta** |  |
+| Estoque\Interfaces | `frmEntregaRequisicao` | 175 |  | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` |
 | Estoque\Interfaces | `frmLancamentoEstoque` | 280 | 100392, 100086 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
 | Estoque\Interfaces | `frmReservaEstoque` | 160 | 100085 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
 | Estoque\Interfaces | `frmTransferenciaEstoque` | 285 | 100089 | Tem | `Petrus.Estoque/AcoesEstoque.cs:31` |
@@ -65,23 +65,23 @@
 | Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Manutencao\Interfaces | `frmTransferenciaOM` | 187 | 100425 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Margo\Interfaces | `frmMargo` | 741 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
-| PDV\Interfaces | `frmPDV` | 2.651 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVAbertura` | 100 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVCaixa` | 170 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVFechamento` | 79 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVInicio` | 172 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVSangria` | 75 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVSuprimento` | 74 |  | **Falta** |  |
-| PDV\Interfaces | `frmPDVValores` | 35 |  | **Falta** |  |
+| PDV\Interfaces | `frmPDV` | 2.651 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVAbertura` | 100 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVCaixa` | 170 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVFechamento` | 79 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVInicio` | 172 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVSangria` | 75 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVSuprimento` | 74 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
+| PDV\Interfaces | `frmPDVValores` | 35 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
 | RH\Interfaces | `frmAdmissao` | 184 | 100325, 100323 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmAfastamento` | 109 | 100324 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmLancamentoFolha` | 251 | 100399 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmOrgonograma` | 55 |  | Tem | `ERPBlazor/Components/Pages/HR/OrganizationalChart.razor:2` |
 | RH\Interfaces | `frmRescisao` | 126 | 100327 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmTransferencia` | 166 | 100325 | Tem | `Petrus.RH/AcoesRH.cs:25` |
-| Sistema\Dicionario | `frmDicionario` | 423 |  | **Falta** |  |
+| Sistema\Dicionario | `frmDicionario` | 423 |  | Descartado |  |
 | Sistema\Interfaces | `frmAcessoRapido` | 238 |  | Tem | `ERPBlazor/Components/Pages/Home.razor:60` |
 | Sistema\Interfaces | `frmAssistente` | 81 | 186 funções | Não se aplica | `ERPBlazor/Components/Pages/ProgressBar.razor:1` |
 | Sistema\Interfaces | `frmAuditoria` | 519 |  | Equivalente | `ERPBlazor/Components/Shared/AuditoriaDialog.razor:1` |
@@ -117,16 +117,16 @@
 | Sistema\Interfaces\Ajustes | `frmGeral` | 1.430 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Geral.razor:2` |
 | Sistema\Interfaces\Ajustes | `frmNotasFiscais` | 727 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` |
 | Sistema\Interfaces\Ajustes | `frmUsuarios` | 240 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Usuarios.razor:2` |
-| Sistema\Interfaces\Ambiente | `frmCategorias` | 1.179 |  | **Falta** |  |
-| Sistema\Interfaces\Ambiente | `frmGraficos` | 1.115 |  | **Falta** |  |
-| Sistema\Interfaces\Ambiente | `frmIndicadores` | 1.045 |  | **Falta** |  |
-| Sistema\Interfaces\Ambiente | `frmInteracoes` | 1.819 |  | **Falta** |  |
-| Sistema\Interfaces\Ambiente | `frmInterfaces` | 1.630 |  | **Falta** |  |
-| Sistema\Interfaces\Ambiente | `frmRelatorios` | 1.574 |  | **Falta** |  |
-| Sistema\Interfaces\BancoDados | `frmConexoes` | 1.488 |  | **Falta** |  |
-| Sistema\Interfaces\BancoDados | `frmDataBase` | 133 |  | **Falta** |  |
-| Sistema\Interfaces\BancoDados | `frmIntegracoes` | 69 |  | **Falta** |  |
-| Sistema\Interfaces\BancoDados | `frmTabelas` | 2.446 |  | **Falta** |  |
+| Sistema\Interfaces\Ambiente | `frmCategorias` | 1.179 |  | Descartado |  |
+| Sistema\Interfaces\Ambiente | `frmGraficos` | 1.115 |  | Descartado |  |
+| Sistema\Interfaces\Ambiente | `frmIndicadores` | 1.045 |  | Descartado |  |
+| Sistema\Interfaces\Ambiente | `frmInteracoes` | 1.819 |  | Descartado |  |
+| Sistema\Interfaces\Ambiente | `frmInterfaces` | 1.630 |  | Descartado |  |
+| Sistema\Interfaces\Ambiente | `frmRelatorios` | 1.574 |  | Descartado |  |
+| Sistema\Interfaces\BancoDados | `frmConexoes` | 1.488 |  | Descartado |  |
+| Sistema\Interfaces\BancoDados | `frmDataBase` | 133 |  | Descartado |  |
+| Sistema\Interfaces\BancoDados | `frmIntegracoes` | 69 |  | Descartado |  |
+| Sistema\Interfaces\BancoDados | `frmTabelas` | 2.446 |  | Descartado |  |
 | Vendas\Interfaces | `frmAdiantarPedido` | 237 | 100431 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmAnexosPedido` | 386 | 100421 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmCliente` | 168 |  | Falta |  |
