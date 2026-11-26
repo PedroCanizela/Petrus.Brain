@@ -1,6 +1,6 @@
 # Forms: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:21. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
 |---|---|---:|---|---|---|
@@ -49,10 +49,10 @@
 | Industrial\Interfaces | `frmApontarPerda` | 181 |  | Tem | `ERPBlazor/Components/Pages/MES/LossReporting.razor:2` |
 | Industrial\Interfaces | `frmApontarPeso` | 217 |  | Tem | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` |
 | Industrial\Interfaces | `frmJustificarParada` | 133 |  | Tem | `ERPBlazor/Components/Pages/MES/DowntimeJustification.razor:2` |
-| Industrial\Interfaces | `frmMonitoramento` | 2.336 |  | **Falta** |  |
+| Industrial\Interfaces | `frmMonitoramento` | 2.336 |  | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProduction.razor:1` |
 | Industrial\Interfaces | `frmMRP` | 1.133 |  | Tem | `ERPBlazor/Components/Pages/PCP/MRP.razor:2` |
-| Industrial\Interfaces | `frmPainel` | 536 |  | **Falta** |  |
-| Industrial\Interfaces | `frmPainelMonitoramento` | 888 |  | **Falta** |  |
+| Industrial\Interfaces | `frmPainel` | 536 |  | Equivalente | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:1` |
+| Industrial\Interfaces | `frmPainelMonitoramento` | 888 |  | Equivalente | `ERPBlazor/Components/Pages/MES/LiveProductionTV.razor:1` |
 | Industrial\Interfaces | `frmPrioridadeTrocaMolde` | 180 |  | Tem | `ERPBlazor/Components/Pages/MES/MoldChangePriority.razor:2` |
 | Industrial\Interfaces | `frmRelatorioPesos` | 334 |  | Tem | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` |
 | Integracao\Interfaces\Serasa | `frmSerasa` | 669 |  | Tem | `ERPBlazor/Components/Pages/Financeiro/Serasa.razor:2` |
@@ -60,7 +60,7 @@
 | Logistica\Interfaces | `frmEtiquetaProduto` | 48 | 100096 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
 | Logistica\Interfaces | `frmImprimirEtiqueta` | 360 | 100465, 100464, 100463, 100462, 100461 | Tem | `Petrus.Logistica/AcoesLogistica.cs:37` |
 | Logistica\Interfaces | `frmPedidosXProduto` | 100 |  | **Falta** |  |
-| Logistica\Interfaces | `frmPesquisaPedidos` | 272 |  | **Falta** |  |
+| Logistica\Interfaces | `frmPesquisaPedidos` | 272 |  | Falta | `ERPBlazor/Components/Pages/Details.Abas.cs:52` |
 | Logistica\Interfaces | `frmTransportadora` | 176 |  | **Falta** |  |
 | Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Manutencao\Interfaces | `frmTransferenciaOM` | 187 | 100425 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
@@ -84,13 +84,13 @@
 | Sistema\Dicionario | `frmDicionario` | 423 |  | **Falta** |  |
 | Sistema\Interfaces | `frmAcessoRapido` | 238 |  | **Falta** |  |
 | Sistema\Interfaces | `frmAssistente` | 81 | 186 funções | **Falta** |  |
-| Sistema\Interfaces | `frmAuditoria` | 519 |  | **Falta** |  |
+| Sistema\Interfaces | `frmAuditoria` | 519 |  | Equivalente | `ERPBlazor/Components/Shared/AuditoriaDialog.razor:1` |
 | Sistema\Interfaces | `frmChatBot` | 2.036 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
-| Sistema\Interfaces | `frmComando` | 1.136 |  | **Falta** |  |
+| Sistema\Interfaces | `frmComando` | 1.136 |  | Em branch |  |
 | Sistema\Interfaces | `frmCompartilhar` | 107 |  | Tem | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` |
 | Sistema\Interfaces | `frmConta` | 691 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` |
-| Sistema\Interfaces | `frmCredentials` | 74 |  | **Falta** |  |
-| Sistema\Interfaces | `frmCustomizador` | 332 |  | **Falta** |  |
+| Sistema\Interfaces | `frmCredentials` | 74 |  | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` |
+| Sistema\Interfaces | `frmCustomizador` | 332 |  | Descartado |  |
 | Sistema\Interfaces | `frmDashboard` | 1.662 |  | **Falta** |  |
 | Sistema\Interfaces | `frmEdicaoMassa` | 899 |  | **Falta** |  |
 | Sistema\Interfaces | `frmEmail` | 108 |  | Tem | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` |
@@ -100,19 +100,19 @@
 | Sistema\Interfaces | `frmExportarRelatorio` | 289 |  | **Falta** |  |
 | Sistema\Interfaces | `frmFiltroAvancado` | 864 |  | **Falta** |  |
 | Sistema\Interfaces | `frmFiltroRelatorio` | 1.215 |  | **Falta** |  |
-| Sistema\Interfaces | `frmInicio` | 420 |  | **Falta** |  |
-| Sistema\Interfaces | `frmInput` | 145 | 10 funções | **Falta** |  |
-| Sistema\Interfaces | `frmInputDate` | 30 |  | **Falta** |  |
+| Sistema\Interfaces | `frmInicio` | 420 |  | Equivalente | `ERPBlazor/Components/Pages/Home.razor:1` |
+| Sistema\Interfaces | `frmInput` | 145 | 10 funções | Não se aplica |  |
+| Sistema\Interfaces | `frmInputDate` | 30 |  | Não se aplica |  |
 | Sistema\Interfaces | `frmInterface` | 71.041 | 100330, 100300, 100278, 100155 | Tem | `ERPBlazor/Components/Pages/Table.razor:2` |
-| Sistema\Interfaces | `frmLogin` | 4.271 |  | **Falta** |  |
+| Sistema\Interfaces | `frmLogin` | 4.271 |  | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` |
 | Sistema\Interfaces | `frmMensagem` | 136 | 100409, 100309, 100308 | Tem | `ERPBlazor/Components/Pages/Message.razor:2` |
-| Sistema\Interfaces | `frmMenu` | 1.710 |  | **Falta** |  |
+| Sistema\Interfaces | `frmMenu` | 1.710 |  | Equivalente | `ERPBlazor/Components/Services/MenuPetrus.cs:1` |
 | Sistema\Interfaces | `frmMudarSenha` | 50 |  | Tem | `ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1` |
-| Sistema\Interfaces | `frmPDFViewer` | 33 | 100387, 100351, 100136, 100096, 100095, 100064, 100009 | **Falta** |  |
+| Sistema\Interfaces | `frmPDFViewer` | 33 | 100387, 100351, 100136, 100096, 100095, 100064, 100009 | Não se aplica |  |
 | Sistema\Interfaces | `frmPeriodo` | 299 |  | **Falta** |  |
 | Sistema\Interfaces | `frmPetrusIA` | 2.671 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
 | Sistema\Interfaces | `frmProgressBar` | 93 | 124 funções | Tem | `ERPBlazor/Components/Pages/ProgressBar.razor:2` |
-| Sistema\Interfaces | `frmSplashScreen` | 318 |  | **Falta** |  |
+| Sistema\Interfaces | `frmSplashScreen` | 318 |  | Equivalente | `ERPBlazor/Services/EstruturaBancoService.cs:7` |
 | Sistema\Interfaces\Ajustes | `frmBoletos` | 113 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Boletos.razor:2` |
 | Sistema\Interfaces\Ajustes | `frmGeral` | 1.430 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/Geral.razor:2` |
 | Sistema\Interfaces\Ajustes | `frmNotasFiscais` | 727 |  | Tem | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` |
@@ -136,7 +136,7 @@
 | Vendas\Interfaces | `frmEdicaoEntrega` | 145 | 100355 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmEdicaoOutros` | 110 | 100422 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmEdicaoVendedor` | 245 | 100357 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
-| Vendas\Interfaces | `frmGradeProduto` | 614 |  | **Falta** |  |
+| Vendas\Interfaces | `frmGradeProduto` | 614 |  | Falta | `ERPBlazor/Components/Pages/Details.Abas.cs:39` |
 | Vendas\Interfaces | `frmIncluirProdutos` | 587 |  | Tem | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:6` |
 | Vendas\Interfaces | `frmMetaVendas` | 398 |  | **Falta** |  |
 | Vendas\Interfaces | `frmPerfilVendedor` | 1.759 | 100206 | Tem | `Petrus.Vendas/AcoesCadastros.cs:29` |
