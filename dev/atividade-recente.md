@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 20:11 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 20:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,6 +19,7 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-299-uf-performance-vendas
+- + feature/ss8-302-bloquear-edicao-pedido-compra
 - + feature/ss8-303-faltas-qrcode-expedicao
 - + feature/ss8-304-expedicao-nro-documento
 - + feature/ss8-91-lentidao-consultas
