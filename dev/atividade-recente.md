@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 13:23 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 13:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -231,6 +231,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 42aa4fa SS8-301: Monitoramento (MES) com status em etiqueta, ciclo x padrão e grade legível
 - 2026-11-26 3c29fdc SS8-297: Details no celular: rodapé de totais recolhível e em 2 colunas, sem esconder a grade
 - 2026-11-26 35d8e77 SS8-296: pesquisa do Web só vai ao servidor no Enter ou na lupa
 - 2026-11-26 b6886c3 SS8-298: MES / Apontamento: renomeia "Apontamento por etapas" para "Apontamento"
