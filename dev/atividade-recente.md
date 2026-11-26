@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:38 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 09:40 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-203-contas-pagar-sem-plano
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -216,7 +217,7 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + claude/determined-dewdney-22c5ee
+- claude/determined-dewdney-22c5ee
 - claude/jolly-wiles-b6bda3
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
@@ -226,10 +227,12 @@ Branches:
 - + feature/ss8-279-pesquisa-enter-ajustes
 - + feature/ss8-283-tema-escuro
 - + feature/ss8-284-responsividade-celular
+- + feature/ss8-285-exportar-celular
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 7050f5c SS8-283: tema escuro mais claro e sem controles brancos
 - 2026-11-26 99b4419 SS8-256: conferir na subida se as chaves do Data Protection ficaram gravadas
 - 2026-11-26 ebcc07b SS8-273: com a OP em volumes, as cores também são digitadas em volume
 - 2026-11-26 38b9cb3 SS8-273: MES / Ordem de produção: digitar a quantidade da OP em volumes (não as cores)
