@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 10:46 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -203,7 +203,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 ae060156 SS8-5: trazer master e mover N50_PARCIAL para o ID 122741
 - 2026-11-12 a2384997 Add - Comandos
 - 2026-11-12 e378e9c1 Merge SS8-23: Corte de itens do pedido de venda
-- 2026-11-12 cf43fcff Update - Cortes Pedido Nov!Plast e Erca Aluminio
 
 ## Petrus.Canhoto
 Branch atual: master
