@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 09:59 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 10:03 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -220,10 +220,9 @@ Commits dos ultimos 14 dias (todas as branches):
 Branch atual: master
 
 Branches:
-- + claude/amazing-brattain-67d432
+- claude/amazing-brattain-67d432
 - claude/determined-dewdney-22c5ee
 - claude/jolly-wiles-b6bda3
-- + claude/quirky-mirzakhani-6c03dc
 - + claude/ss8-203-ca49c2
 - + claude/ss8-248-b6b934
 - + feature/ss8-235-gaiola-embalagem
@@ -235,10 +234,13 @@ Branches:
 - + feature/ss8-283-tema-escuro
 - + feature/ss8-284-responsividade-celular
 - + feature/ss8-285-exportar-celular
+- + feature/ss8-286-abas-piscando
+- + feature/ss8-287-mais-acoes-table
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 2919a3d SS8-241: OP de embalagem fora das telas do chão de fábrica
 - 2026-11-26 5d7c3f6 SS8-241: MES / OP de embalagem com produto, quantidade por pacote e quantidade de pacotes
 - 2026-11-26 f83a362 SS8-248: Customizador fica no desktop e o Comando SQL vai para o Web
 - 2026-11-26 4eea362 SS8-249: fotos públicas do produto no Cloudflare R2 (PublicarFotosG6) no Petrus Web

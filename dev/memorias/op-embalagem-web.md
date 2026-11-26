@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 0c47d592-b376-41fb-ab64-c50ae49c5e30
-  modified: 2026-11-26T12:56:51.910Z
+  modified: 2026-11-26T13:02:53.778Z
 ---
 
 SS8-241 (PRATIC, entregue em 26/11/2026 na branch `feature/ss8-241-op-embalagem`, aguardando aprovação):
@@ -16,6 +16,10 @@ SS8-241 (PRATIC, entregue em 26/11/2026 na branch `feature/ss8-241-op-embalagem`
   em /WMS/PackageLabels (que gera até o V1_VOLUME, só com OP Iniciado/Parado).
 - Status ao salvar não foi respondido: gravei "Iniciado". Código em `Petrus.Industrial/Classes/OrdensProducao.Embalagem.cs`;
   a lista /MES/Order exclui o tipo Embalagem.
+- Como fica "Iniciado" sem máquina, toda consulta de OP em andamento com `LEFT JOIN C4` a pegaria: filtrei
+  `ISNULL(V1.V1_TIPO,'') <> 'Embalagem'` no DashboardMES, LiveProduction, MapMES, Workstation, MonitorProducao,
+  Assistente, IndicadoresProducao (abertas/atrasadas) e EtiquetaOperador. Tela nova que lista OP Iniciado/Parado
+  precisa do mesmo filtro. O desktop não foi filtrado.
 
 **Why:** a Kelly cadastra e depois os meninos geram os QR Codes dos pacotes.
 **How to apply:** mudanças na OP de embalagem ficam nas *V1Embalagem* do OrdensProducao; ver [[etiquetas-qr-wms-pratic]],
