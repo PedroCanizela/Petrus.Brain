@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 20:43 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 20:50 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,17 +18,17 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-299-uf-performance-vendas
-- + feature/ss8-302-bloquear-edicao-pedido-compra
-- + feature/ss8-303-faltas-qrcode-expedicao
-- + feature/ss8-304-expedicao-nro-documento
-- + feature/ss8-307-baixa-manual-pacote
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 2fc29fa3 Merge SS8-299: Performance de vendas: UF do vendedor
+- 2026-11-26 a119ea14 Merge SS8-302: Pedido de compra: bloquear edição pelo status
+- 2026-11-26 c2c564ac Merge SS8-307: Baixa manual de pacote
+- 2026-11-26 d435bf13 Merge SS8-304: Expedição: incluir o pedido pelo número do pedido
+- 2026-11-26 cca49eee Merge SS8-303: Expedição: faltas e resumo pelo estoque de QR Code com gaiolas
 - 2026-11-26 552c80cc SS8-307: função S39 100536 "Baixa manual de pacote" (GX3) no Dados.cs
 - 2026-11-26 f5b5997e SS8-302: bloquear edição do pedido de compra Aprovado, Efetivado ou Concluido
 - 2026-11-26 1440911b SS8-303: Expedição: faltas e resumo dos itens pelo estoque de QR Code quando a empresa usa gaiolas
@@ -230,22 +230,22 @@ Branches:
 - claude/magical-bartik-17f3b7
 - + claude/nice-curie-216004
 - claude/peaceful-ardinghelli-9cc6a3
-- + claude/ss8-299-2f9c3e
-- + claude/ss8-303-d4426e
-- + claude/ss8-304-1e89b6
-- + claude/ss8-307-602281
 - claude/vibrant-heisenberg-962b6b
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
-- + feature/ss8-302-bloquear-edicao-pedido-compra
 - + feature/ss8-305-inicio-arte-modulo
-- + feature/ss8-306-login-modulos
-- + feature/ss8-308-grade-reimprimir-etiquetas
-- + feature/ss8-310-inicio-wms
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 305e39b Merge SS8-299: Performance de vendas: UF do vendedor
+- 2026-11-26 09a8b22 Merge SS8-310: WMS: Início abre o Painel de separação
+- 2026-11-26 a8d86db Merge SS8-302: Pedido de compra: bloquear edição pelo status
+- 2026-11-26 274af7a Merge SS8-308: Grade Reimprimir e textos das grades em pt-BR
+- 2026-11-26 a6a9b81 Merge SS8-307: Baixa manual de pacote
+- 2026-11-26 7511afd Merge SS8-306: Login: slogan novo e todos os módulos
+- 2026-11-26 bf24796 Merge SS8-304: Expedição: incluir o pedido pelo número do pedido
+- 2026-11-26 ad0982c Merge SS8-303: Expedição: faltas e resumo pelo estoque de QR Code com gaiolas
 - 2026-11-26 69e3951 SS8-308: grade da aba Reimprimir das Etiquetas de pacote com estilo e grades do Web em português
 - 2026-11-26 a353fa3 SS8-310: WMS - item Início do menu abre o Painel separação
 - 2026-11-26 d2c5fc2 SS8-307: baixa manual de pacote na consulta de pacote do WMS
