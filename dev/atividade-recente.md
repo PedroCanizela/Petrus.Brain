@@ -208,7 +208,6 @@ Branch atual: master
 Branches:
 - claude/jolly-wiles-b6bda3
 - + feature/ss8-161-homologacao-migracao
-- + feature/ss8-276-atalho-letra-abas
 - + feature/ss8-39-novo-layout-erp
 - * master
 

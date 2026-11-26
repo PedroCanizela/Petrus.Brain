@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-26T00:11:48.234Z
 ---
 
-SS8-277 (25/11/2026, branch `feature/ss8-277-details-horizontal-vertical`, aguardando aprovação): toggle "Modo vertical"
+SS8-277 (aprovada e na master em 25/11/2026, merge 912e924; SS8-276 já trata as sub-abas no atalho de letra): toggle "Modo vertical"
 no cabeçalho do /Details. Horizontal = os grupos S9 da aba Principal viram sub-abas (MudTabs `pt-subabas-grupos`, só o
 grupo aberto é desenhado); vertical = rolagem. Código em `ERPBlazor/Components/Pages/Details.Layout.cs`.
 
