@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-26T01:15:29.446Z
 ---
 
-SS8-278 (25/11/2026, aguardando aprovação; branches `feature/ss8-278-dashboard-erros-pdf` no Petrus.Suporte e
+SS8-278 (25/11/2026, aprovada e na master do Petrus.Suporte (d21c727) e do Petrus.ERP (f1f9358), sem push; branches eram `feature/ss8-278-dashboard-erros-pdf` no Petrus.Suporte e
 `feature/ss8-278-envio-erros` no Petrus.ERP):
 - **Erros dos clientes:** o `Petrus.Atualizador/EnvioErros.cs` lê `C:\Petrus\Logs\erros-web-*.log` (formato do ErrosWeb:
   cabeçalho `data [categoria] mensagem`, exceção, linha de 100 traços) a partir de `erros-enviados.json` na PastaTrabalho e

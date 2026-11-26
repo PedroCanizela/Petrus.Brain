@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 22:56 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 22:57 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -205,11 +205,11 @@ Branch atual: master
 
 Branches:
 - claude/jolly-wiles-b6bda3
-- + feature/ss8-278-envio-erros
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 f1f9358 Merge SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
 - 2026-11-25 3c04ef2 Merge SS8-161: Migração Web / Homologação: auditar e testar contra o banco as funções S39 migradas, por módulo
 - 2026-11-25 d826751 SS8-161: bateria de homologação numa cópia local do banco e correções achadas
 - 2026-11-25 4becec4 SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte
@@ -753,10 +753,10 @@ Branch atual: master
 
 Branches:
 - + feature/base-conhecimento
-- + feature/ss8-278-dashboard-erros-pdf
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 d21c727 Merge SS8-278: Suporte / Desenvolvimento: dashboard de gráficos, aba Erros dos clientes com sugestão de demanda, replicar, documento para assinatura e colar
 - 2026-11-25 722be2d SS8-278: Desenvolvimento com dashboard, aba Erros dos clientes, replicar para clientes, documento para assinatura e colar
 - 2026-11-25 b66ebd3 Merge SS8-259: painel das atualizações do Petrus Web nos clientes
 - 2026-11-25 b4932eb SS8-259: painel das atualizações do Petrus Web nos clientes (/atualizacoes)
