@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 25/11/2026 23:29 por scripts\Sincronizar.ps1
+Gerado em 25/11/2026 23:41 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 9a4e6082 SS8-281: Estrutura do canhoto de entrega digital (J60 e J61) para o Petrus.Canhoto
 - 2026-11-25 72527c48 SS8-253: Logística / Expedição: motorista do pedido escolhido em lista suspensa
 - 2026-11-25 85909fae SS8-237: Borderô de cobrança (desktop) - SELECT traz o Valor Saldo
 - 2026-11-25 978c0b46 Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
@@ -205,6 +206,17 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 a8fe0776 Merge SS8-2: remover mensagem de exportar ordem de separação no recálculo de pedidos
 - 2026-11-12 85b6e3ed SS8-2: não perguntar exportação da ordem de separação ao recalcular pedidos
 
+## Petrus.Canhoto
+Branch atual: feature/ss8-281-canhoto
+
+Branches:
+- * feature/ss8-281-canhoto
+- master
+
+Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 474dae6 SS8-281: Petrus.Canhoto - app do motorista para o canhoto de entrega digital
+- 2026-11-25 09ace2e Repositório Petrus.Canhoto
+
 ## Petrus.ERP
 Branch atual: master
 
@@ -217,6 +229,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-25 b57603d SS8-281: Petrus.Canhoto - API, canhoto em PDF e catálogo do canhoto de entrega (J60/J61)
 - 2026-11-25 796f20f SS8-174: importar pedido do cliente por IA (Claude) no Incluir produtos do Petrus Web
 - 2026-11-25 669a3bf SS8-221: importar Excel e exportar modelo de importação na /Table
 - 2026-11-25 f1f9358 Merge SS8-278: Petrus.Atualizador manda os erros do Petrus Web para a aba Erros do suporte

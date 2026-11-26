@@ -6,6 +6,7 @@
 - [Usabilidade do desktop no web](usabilidade-desktop-no-web.md) — lista padrão, seleção, duplo clique e funções na barra, como no frmInterface
 - [Não testar ajustes pequenos](nao-testar-ajustes-pequenos.md) — ajuste pontual nos scripts: só editar e entregar, sem rodar teste
 - [Petrus.Brain](petrus-brain.md) — repo-cérebro (dev + assistente WhatsApp), sync diária, CLAUDE.md de entrada
+- [Petrus.Canhoto](petrus-canhoto.md) — SS8-281: PWA do motorista (repo próprio), API /api/canhoto no Web, J60/J61, B1.S2_ID, PDF S39 100501/100502
 - [Pedido manual vira SS8](pedido-manual-vira-ss8.md) — REGRA: /nova-demanda direto + sessão `/desenvolver <id>` na seção Demandas SS8
 - [Brain sincroniza sozinho](brain-sync-automatico.md) — hook Stop roda Sincronizar-Automatico.ps1 (commit+push) a cada tarefa; não perguntar
 - [Forms sem S39 no Web](migracao-web-forms-sem-s39.md) — SS8-160: perguntar antes de portar; RotasDedicadas; MIGRADO/DESCARTADO FORM
