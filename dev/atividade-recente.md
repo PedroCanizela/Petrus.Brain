@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 17:51 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 17:54 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -195,8 +195,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 bb84d210 Merge SS8-25: Cadastro de etiquetas (GX4) no Dados.cs
 - 2026-11-12 dc8bcc29 SS8-25: Cadastro de etiquetas (GX4) no Dados.cs
 - 2026-11-12 78d27ff9 Planilha: SS10 (Conferência de backup) e campos GX3 do QR Code
-- 2026-11-12 8b80400a Merge SS8-24: Tabela SS10 (Conferência de backup) no Dados.cs
-- 2026-11-12 c354334f Add - Dados QrCode Claude
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -227,6 +225,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 1bde202 ZplPdf: QR Code sempre do mesmo tamanho (lado de um QR versão 3 x ampliação)
 - 2026-11-26 6785551 Etiqueta de pacote Pratic: QR Code com ampliação 6, mais alto e à esquerda
 - 2026-11-26 6e0bd49 Etiqueta de pacote Pratic: descrição mais à direita
 - 2026-11-26 deaaa42 Etiqueta de pacote Pratic: descrição mais à direita, quebrando em até 3 linhas
@@ -926,8 +925,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-17 f65ea58 Assistente: correções da revisão de código
 - 2026-11-17 e1b546e Base de conhecimento do assistente gerada do código do Petrus
 - 2026-11-17 8e6940d Assistente de WhatsApp (Zapster + Claude) no Petrus.Suporte
-- 2026-11-12 659b7e5 Merge SS8-24: Controle diário de conferência de backup por cliente
-- 2026-11-12 5a8ef39 Merge: Desenvolvimento - campos de repositório, branch e interação com o Claude (SS8)
 
 ## ZeusFiscal
 Branch atual: master
