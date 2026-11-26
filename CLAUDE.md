@@ -6,6 +6,8 @@ Este repositório é o **cérebro** do Pedro: tudo que um Claude (qualquer conta
 | Pasta | Para quê |
 |---|---|
 | `dev\sistemas.md` | **Comece por aqui.** Mapa dos sistemas: Petrus, repositórios, bancos, projetos em andamento, preferências. |
+| `dev\mapa-petrus-erp.md` | Projetos do Petrus.ERP (Web), padrões repetidos e situação da migração. |
+| `dev\clientes.md` | Clientes (PRATIC, TERRAMADA, RELOBRAZ...) e o histórico de demandas de cada um. |
 | `dev\memorias\` | Memórias do Claude (um fato por arquivo; `MEMORY.md` é o índice). |
 | `dev\skills\` | Comandos: `/demandas /nova-demanda /desenvolver /responder /aprovar /rejeitar /atualizar-planilha`. |
 | `dev\scripts\ss8.ps1` | Acesso às demandas (tabela SS8 do cnzla). Precisa do `conexao.txt` (segredo, fora do repo). |

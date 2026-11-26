@@ -12,6 +12,8 @@ $claude = Join-Path $env:USERPROFILE '.claude'
 $repos  = Join-Path $env:USERPROFILE 'source\repos'
 $git    = 'C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe'
 $suporte = Join-Path $repos 'Petrus.Suporte'
+# git devolve UTF-8; sem isto o PowerShell 5.1 le como cp850 e os acentos do atividade-recente quebram
+try { [Console]::OutputEncoding = New-Object Text.UTF8Encoding($false) } catch { }
 
 function Copiar-Pasta($origem, $destino, $filtro) {
     if (-not (Test-Path $origem)) { return }

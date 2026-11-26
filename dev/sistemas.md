@@ -1,6 +1,6 @@
 # Contexto dos sistemas do Pedro
 
-> Atualizado pelo Claude (tarefa diária `atualizar-petrus-brain` + hook Stop `Sincronizar-Automatico.ps1`). Última revisão manual do Claude: 25/11/2026.
+> Atualizado pelo Claude (tarefa diária `atualizar-petrus-brain` + hook Stop `Sincronizar-Automatico.ps1`). Última revisão manual do Claude: 25/11/2026 (noite: repositórios, projetos, mapa do Web e clientes).
 > Detalhes finos ficam em `memorias\` (um fato por arquivo). Este arquivo é o mapa geral.
 > **Segredos (senhas, chaves, connection strings) NÃO ficam aqui.** Ver "Onde estão os segredos".
 
@@ -20,21 +20,23 @@
 ERP modular de Pedro Canizela, desde 2020, para o setor industrial. Telas e campos são **gerados por dados de configuração** (dicionário no `Core\Metodos\Dados.cs`; planilha espelho `PETRUS 3.xlsx`).
 Tipos de interface: Tabela, Interação, Relatório. Módulos: Chão de Fábrica, Comercial, Compras, Contábil, Customizador, Estoque, Expedição, Faturamento, Finanças etc.
 
+Clientes e o que cada um pede: [[clientes]].
+
 Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações/funções, S79 status, S72 permissões. Tabelas de negócio têm código (R13 pedido de venda, R7, R57, N22, I11, I46…).
 
 ## Repositórios (`C:\Users\pedro\source\repos\`)
 | Repo | O que é |
 |---|---|
 | **Petrus** | ERP desktop WinForms (.NET Framework), `Petrus.sln`. Projetos: Petrus (UI/módulos), Petrus.Libraries.DBO, Petrus.Libraries.System. Pacotes na pasta `packages` (Syncfusion 25.2.3, Hercules NFe/MDFe, FiscalBr, MailKit…). `Tools\` tem GerarDados / AtualizarPlanilha / CompararPlanilha. |
-| **Petrus.ERP** | Versão web (Blazor) em migração do desktop. Telas dinâmicas Table/Details/Report. Módulos Petrus.Core, Petrus.Vendas, etc. |
-| **Petrus.Suporte** | Site de suporte (https://suporte.erppetrus.com.br), tela /desenvolvimento (demandas SS8), assistente de WhatsApp (Zapster + Claude Haiku), base de conhecimento SS1/SS2. |
-| Petrus.FV | Força de vendas |
-| Petrus.IA | IA do Petrus |
-| Petrus.Hub | Hub |
-| Petrus.Monitor | Monitor |
-| Petrus.Migrador | Migrador de dados |
-| Petrus.Site | Site |
-| Petrus.PricingCore | Biblioteca de precificação (netstandard2.0) usada pelo Petrus |
+| **Petrus.ERP** | Versão web (Blazor Server, .NET 10, MudBlazor + Syncfusion) em migração do desktop. Telas dinâmicas Table/Details/Report; um projeto por módulo (Core, Vendas, Compras, Estoque, Financeiro, Fiscal, Industrial, Logística, Manutenção, RH, Custos, Boleto, Assistente, Atualizador, Hub). **Mapa completo em [[mapa-petrus-erp]].** |
+| **Petrus.Suporte** | Site de suporte (https://suporte.erppetrus.com.br), .NET 10. Telas: Desenvolvimento (demandas SS8), Chamados, Atendimentos, Clientes, Conhecimento (SS1/SS2), Problemas, Respostas da IA, Contatos WhatsApp, Backups, **Atualizações** (painel AW3 do Web, SS8-259), Configurações. Assistente de WhatsApp (Zapster + Claude Haiku) em `Petrus.Suporte.Core`. |
+| Petrus.FV | Força de vendas: Blazor (.NET 10, MudBlazor/Syncfusion), EF Core no `Petrus.FV.Core`, `Engine` e `PricingCore` próprios. Telas Login, Dashboard, Sales, Reports; consulta CNPJá. Lê `C:\Petrus\credentials.xml`. Último commit 09/2026. |
+| Petrus.IA | Assistente de voz/chat (Blazor + SignalR `ChatHub`, .NET 10): Google GenAI e Groq, interpretador de comandos do ERP, fala/síntese de voz, reconhecimento facial, geolocalização. Parado desde 06/2026 (a IA atual do ERP é o `Petrus.Assistente`, [[assistente-ia-erp]]). |
+| Petrus.Hub | Integração com marketplaces (ML, Shopee, TikTok; depois Amazon/Magalu). `Petrus.Hub.Core` (conectores `IMarketplaceConnector`, fila HB3, log HB4, contas HB1 com tokens criptografados) + app Blazor com webhooks `POST /webhooks/{marketplace}` e `GET /status`. Mesmo banco do Petrus. |
+| Petrus.Monitor | Serviço/app Windows (.NET 9) de chão de fábrica para a PRATIC: lê o MySQL da Pratic e integração Arduino (máquinas), monitora e baixa insumos da OP (`G17Engine`, `V1Engine`). |
+| Petrus.Migrador | WinForms (.NET 9) para migrar dados de outros sistemas para o Petrus; scripts por cliente em `Scripts\CNE` e `Scripts\RS SOLUTIONS` (planilhas de mapeamento). Parado desde 11/2025 (migração novplast é por SQL, ver Bancos). |
+| Petrus.Site | Site institucional e landing page (cnzla software). Repaginação pendente na SS8-37. |
+| Petrus.PricingCore | Biblioteca de precificação (netstandard2.0: `Calculadora`, `Models`) usada pelo Petrus desktop; o Web tem cópia em `Petrus.Vendas/PricingCore`. |
 | boletonet, ZeusFiscal | Bibliotecas de boleto / fiscal |
 | Petrus.Brain | Este cérebro (vault Obsidian). Push automático autorizado só para ele. |
 | `_worktrees\<Repo>\ss8-<id>` | Worktrees das demandas em desenvolvimento |
@@ -47,12 +49,14 @@ Tabelas de dicionário importantes: S6 telas, S81 menus, S10 campos, S39 ações
 ## Projetos em andamento
 1. **Fluxo de demandas SS8** — Claude pega demandas, pergunta ou desenvolve em branch/worktree, usuário aprova. Comandos: `/demandas /nova-demanda /desenvolver /responder /aprovar /rejeitar`. Script `C:\Users\pedro\.claude\demandas\ss8.ps1` (+ `conexao.txt` com a conexão). Status: Pendente, Em análise, Aguardando resposta, Em desenvolvimento, Aguardando aprovação, Em testes, Concluído, Cancelado. Seção "Demandas SS8" na barra lateral do app.
 2. **Assistente de WhatsApp** — aprovado e na master (17/11/2026). Webhook Zapster → `/api/whatsapp/webhook`. Base SS1/SS2 gerada do código por `Tools\AtualizarBase.ps1`; tarefa agendada `atualizar-base-assistente` (segunda 7h; hoje **desativada**).
-3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) em diante. **Situação 24/11: ~92%** (S39 252/272, relatórios 244/247, telas 318/361); entregas só compiladas. Próximo passo: **homologação contra o banco (SS8-161)**, depois desligamento do desktop por módulo (SS8-142); meta ~19/12/2026. Ainda abertas: SS8-165 (eventos NF-e da Reforma). Recentes na master: SS8-242 (tratamento global de erros, log em `C:\Petrus\Logs`), SS8-230 (grupos de permissões S92–S95, Web e desktop), SS8-210 (importação Aferi Pratic). Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
+3. **Migração Web (WinForms → Blazor)** — iniciada 19/11/2026, prazo ~1 mês, plano Pro. Usar telas dinâmicas. Inventário: `Petrus.ERP/Scripts/InventarioMigracao.ps1` → `Docs/migracao-inventario.md`. Marcar migrado com `// MIGRADO S6:id` ou `S39:id`. Mecanismo `Petrus.Core/Acoes` (RegistroAcoes). Piloto (SS8-126, pedido de venda) na master. Demandas SS8-125 (mãe) em diante. **Situação 25/11 (inventário 20:55): telas 362/362 abrem no Web (0 em /Developer), S39 260/273 migradas + 3 descartadas (faltam 10)**; entregas só compiladas. Em 25/11 entraram na master: cálculos do Grid() por módulo (SS8-245, 261–269), login seguro (258/260/270/271, desktop 272/275), estrutura do banco pelo Web (243), catálogo sincronizado (244), normalização no padrão do Pedro (251), eventos NF-e da Reforma (165), funções restantes (246), modo vertical e atalhos no Details (276/277), atualização simples (259). Em desenvolvimento: **homologação contra o banco (SS8-161)**, pesquisa só no Enter (279), data e hora nas grades (280). Depois: desligamento do desktop por módulo (SS8-142); meta ~19/12/2026. Ainda fora: Customizador/dicionário (248), fotos R2 e etiquetas (249), PDV. Detalhes em [[mapa-petrus-erp]]. Manter usabilidade do desktop (lista, checkbox, duplo clique abre, funções S39 na barra).
 4. **Migração Guarani → Petrus** (cliente novplast) — scripts SQL em `Desktop\nov`.
-5. **Petrus.Hub** (marketplaces: Mercado Livre, Shopee, TikTok Shop; depois Amazon/Magalu) — SS8-107 a 116; tabelas HB1 a HB4 na master (SS8-108).
-6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124; base (tabelas S88 a S91, indicadores, job, permissões e metas) na master (SS8-118) e painel Financeiro (SS8-120); faltam Comercial, Produção, Estoque, Manutenção e alertas (119, 121–124). Memórias `dashboards-indicadores-web`, `dashboard-financeiro-web`.
-7. **Assistente de IA no Petrus Web** — SS8-171, tabelas IA1/IA2 na master (memória `assistente-ia-erp`). Também em andamento: atualização de versão do Web via Azure Blob (SS8-172).
-8. **Demandas de clientes** (desktop/Web) — PRATIC (gaiola/semiacabado, recebimento parcial, estoque retroativo, filtro OP), TERRAMADA (Segurança do Trabalho, SS8-208), MES (troca de molde, receita de mistura na OP, SS8-232/234 na master).
+5. **Petrus.Hub** (marketplaces: Mercado Livre, Shopee, TikTok Shop; depois Amazon/Magalu) — SS8-107 a 116; tabelas HB1 a HB4 na master (SS8-108). Conectores (109–116) ainda **pendentes**.
+6. **Dashboards** (indicadores por módulo no Petrus.ERP) — SS8-117 a 124, **todos na master em 25/11**: base S88–S91 (118), Financeiro (120), Comercial (119), Produção/OEE (121), Estoque (122), Manutenção (123) e resumo/alertas por e-mail e WhatsApp (124). Memórias `dashboards-indicadores-web`, `dashboard-financeiro-web`, `dashboards-areas-web`.
+7. **Assistente de IA no Petrus Web** — SS8-171, tabelas IA1/IA2 na master (memória `assistente-ia-erp`). Pendente: importar pedido por IA com Claude no lugar do Groq (SS8-174).
+8. **Atualização do Web nos clientes** — SS8-172 (Azure Blob) foi simplificada na SS8-259: `Publicar.cmd`, atualização automática às 20:00 (AW2), painel no Suporte (AW3). Memória `atualizacao-simples-web`.
+9. **Suporte** — SS8-278 em desenvolvimento: dashboard de gráficos, aba Erros dos clientes com sugestão de demanda.
+10. **Demandas de clientes** — ver [[clientes]]. Em aberto: PRATIC (gaiola semiacabado 236, pesquisa exata na OP 240, recebimento parcial 200), TERRAMADA (Segurança do Trabalho 208), RELOBRAZ (fluxo de status 239), ERCA (distribuição DF-e 201).
 
 ## Onde estão os segredos (não copiados aqui)
 - `C:\Users\pedro\.claude\demandas\conexao.txt` — conexão do cnzla para o ss8.ps1.

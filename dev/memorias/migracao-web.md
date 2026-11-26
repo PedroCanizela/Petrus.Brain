@@ -1,11 +1,11 @@
 ---
 name: migracao-web
-description: "Migração do Petrus desktop (WinForms) para o Petrus.ERP Blazor — estratégia, inventário, mecanismo S39, demandas e status (92% em 24/11/2026, falta homologar)"
+description: "Migração do Petrus desktop (WinForms) para o Petrus.ERP Blazor — estratégia, inventário, mecanismo S39, demandas e status (25/11/2026: telas 362/362, S39 260/273, falta homologar)"
 metadata:
   node_type: memory
   type: project
   originSessionId: 89c32ad5-e9b3-4f87-a9c9-c5076705f87b
-  modified: 2026-11-24T12:00:00.000Z
+  modified: 2026-11-25T23:00:00.000Z
 ---
 
 Migração WinForms → Petrus.ERP Blazor iniciada em 19/11/2026. O usuário definiu: usar as telas dinâmicas (Table, Details, Report), não páginas próprias. Prazo desejado ~1 mês, no plano Pro (pode subir para Max se o limite travar).
@@ -15,7 +15,8 @@ Migração WinForms → Petrus.ERP Blazor iniciada em 19/11/2026. O usuário def
 - Piloto (SS8-126) aprovado e na master em 19/11/2026 (merge 0d485d3): RegistroAcoes, catálogos S39/S79 do código (o desktop soma Dados.CriarS39/S79 ao banco; o web faz igual), pedido de venda, módulos Vendas (38) e Comercial (5), Table/Report no layout novo.
 - Banco do credentials.xml é o cnzla do Azure, em uso real pela PRATIC: testes que gravam só em pedido TESTE (ex.: R13 204). Navegar no app só por dentro (Blazor.navigateTo); recarregar a página perde o login.
 - Demandas: SS8-125 (mãe) a 148, prefixo "Migração Web —".
-- **Situação em 24/11/2026** (inventário regerado 24/11 à noite): funções S39 252/272 migradas, 3 descartadas, faltam 17 (94% resolvidas). Descartadas pelo Pedro em 24/11 (não migrar): XML Suframa 100177/100225 (L56) e ler extrato 100155 (N88), marcadas com `// DESCARTADO S39:id` em `Petrus.Core/Acoes/FuncoesDescartadas.cs` (o inventário tira da conta; no menu seguem desabilitadas); relatórios S7 244/247 (99%: 162 com gerador, 82 genéricos, 3 sem menu); telas 318/361 (88%: 63 próprias, 255 genéricas, 43 faltam). Média ~92%.
+- **Situação em 25/11/2026** (inventário de 20:55): telas 362, todas abrem no Web (296 genéricas, 66 próprias, 0 em /Developer — a SS8-250 passou as de Interação para genéricas e marcou os forms cobertos); funções S39 260/273 migradas, 3 descartadas, faltam 10. Em 25/11 entraram na master 165 (eventos RTC), 243, 244, 245 e 261–269 (cálculos do Grid()), 246 (funções restantes), 247, 250, 251, 258/260/270/271 (login), 259, 276/277. Abertas: 161 (homologação, em desenvolvimento), 142, 248 (Customizador), 249 (fotos R2/etiquetas), 125 (mãe). Mapa dos projetos: `dev\mapa-petrus-erp.md` no Brain.
+- Situação anterior, 24/11/2026 (inventário regerado 24/11 à noite): funções S39 252/272 migradas, 3 descartadas, faltam 17 (94% resolvidas). Descartadas pelo Pedro em 24/11 (não migrar): XML Suframa 100177/100225 (L56) e ler extrato 100155 (N88), marcadas com `// DESCARTADO S39:id` em `Petrus.Core/Acoes/FuncoesDescartadas.cs` (o inventário tira da conta; no menu seguem desabilitadas); relatórios S7 244/247 (99%: 162 com gerador, 82 genéricos, 3 sem menu); telas 318/361 (88%: 63 próprias, 255 genéricas, 43 faltam). Média ~92%.
 - Na master até 23/11: 126–140, 143–160, 162, 164, 166, 168, 171, 172, 175, 177, 180, 185–193, 195, 198 (e dashboards 118/120).
 - Faltam (21 S39): protestar título 100332 e desconto amigão 100383 (N22), ler extrato 100155 (N88), XML Suframa 100177/100225 (L56), MDF-e contingência 100274, importar XML 100181 (I11), eventos NF-e RTC 100497/100498 (= SS8-165), portal NF-e 100019, entre outras. Abertas: SS8-161 (homologação contra o banco, próximo passo), 165, 173, 142 (desligamento do desktop por módulo), 125 (mãe).
 - Estimativa dada em 24/11: código restante 2–4 dias (sobrou o mais pesado); o prazo real depende da homologação (1–3 semanas, módulo a módulo) e do corte com os clientes. Meta de ~1 mês ≈ 19/12/2026.
