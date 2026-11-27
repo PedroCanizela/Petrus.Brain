@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:11 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:12 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -269,6 +269,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 027525c SS8-353: ordem de mistura com status Efetivado antes da conclusão (Web)
 - 2026-11-27 e750ec2 SS8-354: Industrial / Ordem de produção: exibir a previsão da OP
 - 2026-11-27 f55d91d Merge SS8-356: MES / Monitoramento: retirar a coluna e o botão de prioridade da máquina
 - 2026-11-27 5fda2a6 SS8-350: MES / Resumo de produção: previsão somando as ordens liberadas e máquinas ordenadas pelo término
