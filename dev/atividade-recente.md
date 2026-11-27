@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 21:26 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 21:28 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-311-expedicao-pedido-nro-documento
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 74cad3c4 Merge SS8-311: Expedição: coluna Nro Pedido que preenche o Pedido
 - 2026-11-26 ff1d9736 SS8-311: Expedição: coluna Nro Pedido que preenche o Pedido
 - 2026-11-26 9d5152b3 Merge SS8-312: Expedição: estoque, saldo e faltas por QR Code em volumes
 - 2026-11-26 58d2fcbe SS8-312: Expedição: estoque, saldo e faltas por QR Code em volumes
@@ -239,7 +239,6 @@ Branches:
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
-- + feature/ss8-311-expedicao-pedido-nro-documento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
