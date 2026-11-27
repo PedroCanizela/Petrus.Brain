@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:21 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 18:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 9bc9ef28 SS8-358: concluir a ordem de mistura baixa o produto da mistura da receita
 - 2026-11-27 eea783e1 Merge SS8-344: Vendas / Pedido de venda: estoque e saldo ao lado da margem e só com gaiola
 - 2026-11-27 6da3d1e6 SS8-344: estoque e saldo do pedido ao lado da margem e só com gaiola
 - 2026-11-27 64b0e483 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)
@@ -271,6 +272,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 7cabd96 SS8-358: produto da mistura na receita; concluir a ordem de mistura baixa o produto
 - 2026-11-27 3ad91f9 Merge SS8-344: Vendas / Pedido de venda: estoque e saldo ao lado da margem e só com gaiola
 - 2026-11-27 cf3e1d3 SS8-344: estoque e saldo do pedido ao lado da margem e só com gaiola
 - 2026-11-27 b8d3316 Usuário (S2): não grava login repetido no /Details

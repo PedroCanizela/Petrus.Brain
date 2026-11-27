@@ -100,6 +100,7 @@
 - [Função S39 nova sem S72](funcao-s39-nova-sem-s72.md) — SS8-355: usuário antigo não recebe S72 da função nova (até ADMIN); botão Funções em Ajustes > Atualizações
 - [Troca de módulo forçada no Web](troca-modulo-forcada-web.md) — SS8-359: CurrentUser vazio em circuito novo, ProtectedComponentBase ia para "/", login lembrado gravava MES
 - [Previsão na OP do Web](previsao-op-web.md) — SS8-354: bloco Previsão no OrderDetails (horas, pacotes, kg, fim, falta), CalcularPrevisaoOP, C3_PESO em kg
+- [Produto da mistura na receita](produto-mistura-vm1.md) — SS8-358: VM1.G6_ID (RMP), concluir VM3 baixa o produto e não as MPs; Gerar produto S39 100543; script vincula pelo "(id)"
 - [Efetivar ordem de mistura](efetivar-ordem-mistura.md) — SS8-353: VM3 Novo→Efetivado→Concluido só no Web, S39 100540/100541, estorno volta p/ Efetivado; em cima da 335
 - [Ajustes QR Code SS8-357](ajustes-qrcode-ss8-357.md) — baixa em massa, motivo opcional, excluir gaiola A7/A10, OP concluída nas etiquetas; G6 Pratic repete nas S1 1 e 3
 - [Conferência de pedido faturado](conferencia-pedido-faturado.md) — SS8-363: S39 100542, busca pelo número traz Faturado/Embarcado, finalizar não muda a situação; próximo S39 100543
