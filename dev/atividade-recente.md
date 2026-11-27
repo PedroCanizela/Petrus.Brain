@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:25 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 18:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-358-produto-mistura
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 564b8605 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
 - 2026-11-27 9bc9ef28 SS8-358: concluir a ordem de mistura baixa o produto da mistura da receita
 - 2026-11-27 eea783e1 Merge SS8-344: Vendas / Pedido de venda: estoque e saldo ao lado da margem e só com gaiola
 - 2026-11-27 6da3d1e6 SS8-344: estoque e saldo do pedido ao lado da margem e só com gaiola
@@ -266,13 +266,13 @@ Branches:
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
-- + feature/ss8-358-produto-mistura
 - + feature/ss8-364-conferencia-endereco-gaiola
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 1da5643 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
 - 2026-11-27 4b0845c SS8-364: endereço da conferência de pedido pelas gaiolas do produto
 - 2026-11-27 7cabd96 SS8-358: produto da mistura na receita; concluir a ordem de mistura baixa o produto
 - 2026-11-27 3ad91f9 Merge SS8-344: Vendas / Pedido de venda: estoque e saldo ao lado da margem e só com gaiola
