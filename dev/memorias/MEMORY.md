@@ -94,6 +94,7 @@
 - [Prioridade de máquinas](prioridade-maquinas-c4.md) — SS8-340: C4_PRIORIDADE (S10 123720, 2 branches), /MES/PrioridadeMaquinas, coluna e ordem no Monitoramento; alias no .razor
 - [Resumo de produção por máquina](resumo-producao-maquina.md) — SS8-339: /MES/ResumoProducao, 1º tempo/previsão/outros tempos, TempoDisponivelMES.Previsao (Monitor não divide por cavidades)
 - [Baixa pela receita de mistura no Monitor](baixa-mistura-monitor.md) — SS8-335: Estoque.BaixarMistura, peças × C3_PESO (kg) × VM2_%, à parte da G32, VM3 não baixa
+- [Requisição de várias OPs e conferência](requisicao-varias-ops-conferencia.md) — SS8-347: RMI única somando insumos (OPs na OBS), GX7_QTD_CONFERIDA, status Conferida, S39 100538, script antes de publicar
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

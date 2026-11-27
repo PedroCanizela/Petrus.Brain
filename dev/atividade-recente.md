@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 14:26 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 14:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -252,6 +252,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 623c6d3 SS8-347: Requisição de material de várias OPs e conferência da qualidade
 - 2026-11-27 9c7429a SS8-235: aba sem campo principal montava "ORDER BY  DESC" no /Details
 - 2026-11-27 7989aec Revert "SS8-235: divide o catálogo S10 em partes para não estourar a pilha ao abrir as telas"
 - 2026-11-27 d4301b5 Merge SS8-346: Vendas / Situação do pedido: enviar de Receita/Sintegra para Em análise e de Em análise para Aguardando depósito
