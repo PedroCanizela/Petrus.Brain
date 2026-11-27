@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 13:59 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 14:05 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,12 +19,14 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
+- + feature/ss8-346-situacao-analise-deposito
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 b0ace1d5 SS8-346: Situação do pedido: Receita/Sintegra para Em análise e Em análise para Aguardando depósito
 - 2026-11-27 aee7e02b Merge SS8-340: campo C4_PRIORIDADE no dicionário (prioridade de máquinas)
 - 2026-11-27 8764da3c SS8-340: campo C4_PRIORIDADE no dicionário (prioridade de máquinas do Petrus Web)
 - 2026-11-27 4f62e6e6 SS8-334: contador da empresa na tag autXML da NF-e
@@ -198,7 +200,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-16 f54337e2 Update - Claude
 - 2026-11-16 99de4fd7 Merge SS8-38: Busca de pedidos de compra por produto
 - 2026-11-16 60e2113a SS8-38: Busca de pedidos de compra por produto
-- 2026-11-13 bf252e35 Fix - Layout Peso
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -241,10 +242,12 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
+- + feature/ss8-346-situacao-analise-deposito
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 037babd SS8-346: Situação do pedido: Receita/Sintegra para Em análise e Em análise para Aguardando depósito
 - 2026-11-27 1c2e1da Merge SS8-330: WMS / Inventário: estoque esperado pelos pacotes QR Code em estoque, e não pelo saldo da G17
 - 2026-11-27 a850ace Merge SS8-345: MES / Monitoramento e Ordens de produção: referência e receita de mistura
 - 2026-11-27 cf0b340 SS8-330: concluir com ajuste também acerta os QR Codes
