@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 13:30 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 13:38 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -241,10 +241,12 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
+- + feature/ss8-345-referencia-ordens-pendentes
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 6bb3f6f SS8-330: ajuste do inventário leva o saldo da G17 do local ao contado
 - 2026-11-27 6721c38 Merge SS8-342: MES / Monitoramento: só ordens liberadas, função Liberar ordem e status Liberado
 - 2026-11-27 c337e13 Merge SS8-341: MES / Monitoramento: abrir a ordem de produção pela grade e receita de mistura como busca
 - 2026-11-27 b8e6799 Merge SS8-340: MES / Prioridade de máquinas: tela para ordenar as máquinas e ordem no Monitoramento
