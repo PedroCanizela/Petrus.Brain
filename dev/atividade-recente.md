@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 14:27 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 14:28 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 838c6fec SS8-343: Estoque x carteira (QR Code), com molde e sugestões de produção
 - 2026-11-27 7cd70740 Merge SS8-346: Vendas / Situação do pedido: enviar de Receita/Sintegra para Em análise e de Em análise para Aguardando depósito
 - 2026-11-27 b0ace1d5 SS8-346: Situação do pedido: Receita/Sintegra para Em análise e Em análise para Aguardando depósito
 - 2026-11-27 aee7e02b Merge SS8-340: campo C4_PRIORIDADE no dicionário (prioridade de máquinas)
@@ -252,6 +253,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 bcd7266 SS8-343: Estoque x carteira (QR Code), com molde e sugestões de produção
+- 2026-11-27 0b00f55 SS8-348: MES / Monitoramento: ordens pendentes ordenadas pelo ID da OP
 - 2026-11-27 623c6d3 SS8-347: Requisição de material de várias OPs e conferência da qualidade
 - 2026-11-27 9c7429a SS8-235: aba sem campo principal montava "ORDER BY  DESC" no /Details
 - 2026-11-27 7989aec Revert "SS8-235: divide o catálogo S10 em partes para não estourar a pilha ao abrir as telas"
