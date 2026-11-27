@@ -76,6 +76,7 @@
 - [Faltas da expedição por QR Code](faltas-expedicao-qrcode.md) — SS8-303: J51/J50 pelo GX3 quando há gaiola A7 (Em estoque + Expedido nos pedidos), J50_ESTOQUE/SALDO 123700/01 não exportados
 - [Baixa manual de pacote no Web](baixa-manual-pacote-web.md) — SS8-307: aba Baixa manual na Consulta de pacote, busca pelo ID, Expedido c/ pedido ou Excluido, S39 100536
 - [SfGrid sem Class e textos pt-BR](sfgrid-class-localizacao-web.md) — SS8-308: Class= no SfGrid tira o CSS do Syncfusion; LocalizacaoSyncfusion (Grid_/Pager_) no Program.cs
+- [Pesquisa do /Report nas colunas exibidas](pesquisa-report-colunas-exibidas.md) — SS8-314: só S10_TAMANHO_GRID > 0, texto como na grade, sem acento; "Pesquisar por"; placeholder novo
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
