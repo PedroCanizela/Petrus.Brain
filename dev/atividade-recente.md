@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:22 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 11:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 4f62e6e6 SS8-334: contador da empresa na tag autXML da NF-e
 - 2026-11-27 1d612e6f Update
 - 2026-11-26 23477dd0 Update
 - 2026-11-26 74cad3c4 Merge SS8-311: Expedição: coluna Nro Pedido que preenche o Pedido
@@ -238,11 +239,13 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-331-troca-senha-1234
 - + feature/ss8-332-qrcode-manual-sem-op
+- + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-336-receita-mistura-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 8b0a039 SS8-334: contador da empresa na tag autXML da NF-e
 - 2026-11-27 17f4aa2 SS8-332: QR Code da série Manual sem ordem de produção
 - 2026-11-27 c828c3f SS8-330: Inventário por QR Code usa os pacotes em estoque como estoque esperado
 - 2026-11-27 cd4df75 SS8-329: MES / Ordens de produção: referência e observação na pré-visualização da OP
