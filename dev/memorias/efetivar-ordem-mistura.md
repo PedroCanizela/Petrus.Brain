@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-27T20:11:54.033Z
 ---
 
-SS8-353 (PRATIC, 27/11/2026, branch `feature/ss8-353-efetivar-ordem-mistura` do Petrus.ERP, **em cima da** `feature/ss8-335-baixa-ordem-mistura`, aguardando aprovação):
+SS8-353 (PRATIC, 27/11/2026, branch `feature/ss8-353-efetivar-ordem-mistura` do Petrus.ERP, feita em cima da 335; as duas mescladas na master em 27/11/2026):
 
 - VM3_STATUS ganhou **Efetivado** (só no Web; o desktop não conhece). Fluxo Novo → Efetivado → Concluido; só a efetivada conclui (e a conclusão faz a baixa da SS8-335).
 - `Mistura.EfetivarVM3` (S39 **100540** "Efetivar ordem", histórico "Efetivação") e `Mistura.DesfazerEfetivacaoVM3` (S39 **100541**, com motivo, volta para Novo). Efetivada pode ser cancelada. Só Novo altera/exclui.

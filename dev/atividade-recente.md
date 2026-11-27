@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:15 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:16 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,7 +19,6 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
-- + feature/ss8-335-baixa-ordem-mistura
 - + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
@@ -257,12 +256,9 @@ Branches:
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
-- + feature/ss8-335-baixa-ordem-mistura
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-344-estoque-saldo-pedido
-- + feature/ss8-350-resumo-producao-liberadas
 - + feature/ss8-351-op-pendentes-liberadas
-- + feature/ss8-353-efetivar-ordem-mistura
 - + feature/ss8-354-previsao-op
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-359-troca-modulo-forcada
@@ -270,6 +266,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 d0b842f Merge SS8-350: MES / Resumo de produção: previsão somando as ordens liberadas e máquinas ordenadas pelo término
 - 2026-11-27 c4cf81b SS8-357: consulta de pacote sem o campo Pedido na baixa manual (individual e em massa): a baixa sempre exclui o pacote
 - 2026-11-27 b200890 Merge SS8-353: Industrial / Ordem de mistura: status Efetivado antes da conclusão
 - 2026-11-27 79054a1 Merge SS8-335: Industrial / Ordem de mistura: baixa das matérias-primas no estoque ao concluir
