@@ -1,6 +1,6 @@
 # O que falta no Web (automático)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita à mão fica em [[dev/de-para/analise|Análise]].
 
@@ -115,7 +115,7 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Utils/Funcoes.cs:6571` | Funcoes.GerarNroPersonalizadoCon | 78 | idem |
 | `Utils/Funcoes.cs:6492` | Funcoes.GerarNroPersonalizado | 78 | número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*) |
 
-## Vendas (15 métodos, ~1877 linhas)
+## Vendas (14 métodos, ~1769 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
@@ -124,7 +124,6 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Vendas/Engines/R2Engine.cs:12` | R2Engine.EmailImportacaoR2 | 267 | pendente da SS8-221 |
 | `Vendas/Interfaces/frmGradeProduto.cs:164` | frmGradeProduto.Calcula | 214 | botão "Grade de produtos" avisa que não migrou |
 | `Vendas/Classes/Vendedores.cs:661` | Vendedores.EmailImportacaoR4 | 188 | pendente da SS8-221 |
-| `Vendas/Interfaces/frmCondPagto.cs:24` | frmCondPagto.Ok | 108 | ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326) |
 | `Vendas/Interfaces/frmGradeProduto.cs:27` | frmGradeProduto.Produtos | 106 | botão "Grade de produtos" avisa que não migrou |
 | `Vendas/Interfaces/frmMetaVendas.cs:26` | frmMetaVendas.AdicionarMeta2 | 88 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
 | `Vendas/Interfaces/frmMetaVendas.cs:208` | frmMetaVendas.InserirMes | 84 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |

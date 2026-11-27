@@ -1,6 +1,6 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -259,7 +259,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 48 | frmAvaliacaoCredito.frmAvaliacaoCredito_Load | 46 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
-| 95 | frmAvaliacaoCredito.CarregaDados | 12 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 95 | frmAvaliacaoCredito.CarregaDados | 12 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 117 | frmAvaliacaoCredito.TabPageLimiteExcedido_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 122 | frmAvaliacaoCredito.TabPageAtrasos_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 127 | frmAvaliacaoCredito.TabPageInadimplente_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
@@ -417,7 +417,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 35 | frmNotasMultaJuros.frmNotasMultaJuros_Load | 18 | Via form | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` | frmNotasMultaJuros |
 | 54 | frmNotasMultaJuros.Colunas | 27 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
 | 82 | frmNotasMultaJuros.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ConsultaTrocaMolde.cs:76` | classe ConsultaTrocaMolde |
-| 94 | frmNotasMultaJuros.Numero | 13 | Mesmo nome | `Petrus.Hub/Conectores/MercadoLivre/MercadoLivreConnector.cs:553` | classe MercadoLivreConnector |
+| 94 | frmNotasMultaJuros.Numero | 13 | Mesmo nome | `Petrus.Core/Relatorios/GraficoRelatorio.cs:107` | classe GraficoRelatorio |
 | 108 | frmNotasMultaJuros.Data | 13 | Mesmo nome | `Petrus.Financeiro/Classes/Contabil.cs:222` | classe Contabil |
 | 122 | frmNotasMultaJuros.Pesquisar | 17 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1302` | classe Separacao |
 | 140 | frmNotasMultaJuros.Filtrar | 13 | Mesmo nome | `ERPBlazor/Components/Pages/MES/RoteiroSelect.razor:127` | classe RoteiroSelect |
@@ -499,7 +499,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 63 | frmPerfilCliente.BackGroundWorkerDoWork | 18 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 83 | frmPerfilCliente.CriarControles | 13 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:138` | classe ReportList |
-| 96 | frmPerfilCliente.CarregaDados | 235 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 96 | frmPerfilCliente.CarregaDados | 235 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 332 | frmPerfilCliente.CarregaVendas | 21 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 353 | frmPerfilCliente.CarregaProdutos | 39 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 392 | frmPerfilCliente.CarregaCredito | 12 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |

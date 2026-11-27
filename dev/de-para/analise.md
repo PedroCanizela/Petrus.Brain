@@ -15,7 +15,7 @@ lados, está nas páginas geradas ([[dev/de-para/README|De → para]]). Esta pá
 | Funções (S39) | 275 | 260 migradas + 3 descartadas; as **12 restantes não existem nem no desktop** |
 | Relatórios (S7) | 247 | 162 com gerador + 82 genéricos; **3 faltam** (100149 Desempenho, 100150 Lucratividade, 100154 CMV), sem gerador nem no desktop |
 | Catálogos (`Dados.cs`) | 33 | todos iguais, menos o **S10: 2 campos** só no desktop (incluídos na SS8-326, branch `claude/ss8-326-ade518`) |
-| Forms com código | 137 | **12 faltam** (8 do ERP + 4 do PDV de venda); caixa do PDV no repo `Petrus.PDV`; Customizador fica no desktop. SS8-326: frmCliente e frmTransportadora cobertos pela lupa; frmCondPagto e frmPedidosXProduto aguardam o Pedro |
+| Forms com código | 137 | **12 faltam** (8 do ERP + 4 do PDV de venda); caixa do PDV no repo `Petrus.PDV`; Customizador fica no desktop. SS8-326: frmCliente e frmTransportadora cobertos pela lupa; frmCondPagto e frmPedidosXProduto portados (branch) |
 | Métodos | 3.688 | **102 métodos (~11.900 linhas) faltam de verdade**, 35 deles da venda do PDV; os 75 "para conferir" foram conferidos na SS8-326 (ver o fim da página) |
 
 Os métodos que faltam se concentram em 9 assuntos:
@@ -88,9 +88,9 @@ O `/Details` mostra esses botões, mas eles só avisam "use o desktop" (`ERPBlaz
 | `Vendas/Interfaces/frmMetaVendas.cs` | 398 | grade do R4 (`Metodos/CriarAmbiente.cs:3531`) | metas de venda por mês (S77_VALOR_META_2) |
 | `Compras/Interfaces/frmMetasResponsavel.cs` | 332 | nenhuma chamada achada | metas por responsável: confirmar se ainda é usado |
 | ~~`Vendas/Interfaces/frmCliente.cs`~~ | 168 | lupa do R2_ID (`frmInterface.cs:57985`) | SS8-326: **coberto** pela lupa do Web (`PesquisaCompletaDialog`, busca por ID/nome/CNPJ sem pontuação): `MIGRADO FORM` |
-| `Vendas/Interfaces/frmCondPagto.cs` | 169 | ícone de dinheiro do N47_ID (`CriarAmbiente.cs:609`, `frmInterface.cs:57830`) | portador + parcelas ("30/60/90") acha ou **cria** a N47. Não tem no Web: form sem S39, **perguntado ao Pedro** na SS8-326 |
+| ~~`Vendas/Interfaces/frmCondPagto.cs`~~ | 169 | ícone de dinheiro do N47_ID (`CriarAmbiente.cs:609`, `frmInterface.cs:57830`) | portador + parcelas ("30/60/90") acha ou **cria** a N47. **Portado na SS8-326** (branch): botão "Pelas parcelas" embaixo do campo, `CondPagtoDialog` + `Petrus.Financeiro/Classes/CondicoesPagamento.cs` |
 | ~~`Logistica/Interfaces/frmTransportadora.cs`~~ | 176 | lupa do J2_ID (`frmInterface.cs:57907`) | SS8-326: **coberto** pela lupa do Web: `MIGRADO FORM` |
-| `Logistica/Interfaces/frmPedidosXProduto.cs` | 100 | botão das abas Expedição x produtos/faltas (S9 101372/101373, `frmInterface.cs:69595`) | pedidos da expedição com o produto e **retirar pedido** da expedição. Não tem no Web (nem na SS8-322): **perguntado ao Pedro** na SS8-326 |
+| ~~`Logistica/Interfaces/frmPedidosXProduto.cs`~~ | 100 | botão das abas Expedição x produtos/faltas (S9 101372/101373, `frmInterface.cs:69595`) | pedidos da expedição com o produto e **retirar pedido** da expedição. **Portado na SS8-326** (branch): botão da coluna na `PlanilhaAba`, `PedidosProdutoDialog` + `Expedicoes.PedidosXProduto` |
 | `Vendas/Interfaces/frmGradeProduto.cs`, `Logistica/Interfaces/frmPesquisaPedidos.cs` | | | ver item 3 |
 
 ## 5. Outras funções do sistema
@@ -106,7 +106,7 @@ O `/Details` mostra esses botões, mas eles só avisam "use o desktop" (`ERPBlaz
 | Memória dos filtros do relatório (na **S80**, não na S84) | `ParametrosSistema.cs:134` `SalvaPreferencias`, `frmFiltroRelatorio` | **Feito na SS8-326** (branch): `Petrus.Core/Sistema/ParametrosSistema.cs` + `Filters.razor`, com o parâmetro `SALVA_PREFERENCIA_RELATORIO` |
 | "Atrasado" do controle de qualidade ao abrir a lista | `Qualidade/Engines/K5Engine.cs:100` `AtualizarSituacaoK5` | **Feito na SS8-326** (branch): `Petrus.Manutencao/Engines/K5Engine.cs`, chamado pela `/Table` (K5 e interações 100182/100183) |
 | Atraso do N9 e do N22 na lista principal | `N9Engine.CalculaAtrasoN9`, `N22Engine.CalculaAtrasoFinanceiroN22` (`Funcoes.CarregaGrid` "Primario") | **Feito na SS8-326** (branch): a `/Table` não calculava nenhum dos dois (só o `/Report` fazia o do N22) |
-| Importação xml (tela 102898) | `frmInterface.LerXML`, ramo `S6_ID == 102898` | **Falta**: cliente (R2/R48/R47) pelo destinatário e cond. pagto `CondPagtoImportacao`. O Web importa só nota de entrada de fornecedor (`ImportacaoXmlEntrada`) |
+| Importação xml (tela 102898) | `frmInterface.LerXML`, ramo `S6_ID == 102898` | **Fica no desktop** (decisão do Pedro na SS8-326): cliente (R2/R48/R47) pelo destinatário e cond. pagto `CondPagtoImportacao`. O Web importa só nota de entrada de fornecedor (`ImportacaoXmlEntrada`) |
 
 ## 6. Catálogo S10 do Web atrasado em 2 campos
 
@@ -148,7 +148,7 @@ Os 75 "Conferir"/"Citado (conferir)" foram olhados um a um e viraram linhas no `
   X51) e infra do WinForms (`CreateControls`, `Seleciona`, `RecarregarInterface`, `Habilita`).
 - **Faltava e foi feito**: `N9Engine.CalculaAtrasoN9` (ver item 5).
 - **LerXML**: o Web não cria cadastros a partir do XML (fornecedor I5/I41 e cond. pagto N47 recusam ou ficam em branco,
-  com aviso); falta o ramo da tela 102898 (item 5).
+  com aviso); o ramo da tela 102898 fica no desktop (item 5).
 
 Marcas `MIGRADO FORM` postas (17 forms + frmCliente, frmTransportadora e frmFiltroRelatorio). O e-mail do frmExportar
 (`btnEmail_Click`) continua "Falta" pela SS8-324.

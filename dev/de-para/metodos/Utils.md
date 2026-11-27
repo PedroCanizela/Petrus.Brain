@@ -1,6 +1,6 @@
 # Métodos: Utils (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -53,8 +53,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | 443 | Funcoes.BloquearRecurso | 23 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` | Web gera ID com UPDLOCK/HOLDLOCK (SS8-199) |
 | 467 | Funcoes.LiberarRecurso | 26 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` | SS8-199 |
 | 493 | Funcoes.GetParametrizedDataTable | 25 | Não se aplica | `Petrus.Core/Acoes/Banco.cs:1` |  |
-| 521 | Funcoes.CarregaDados | 377 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
-| 903 | Funcoes.LimpaCampos | 78 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1132` | classe StatusCadastro |
+| 521 | Funcoes.CarregaDados | 377 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
+| 903 | Funcoes.LimpaCampos | 78 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1140` | classe StatusCadastro |
 | 981 | Funcoes.FormataCampos | 80 | Mesmo nome | `Petrus.Boleto/Boleto/Boleto.cs:685` | classe Boleto |
 | 1061 | Funcoes.BloqueiaCampos | 55 | Não se aplica | `ERPBlazor/Components/Pages/Details.Cadastro.cs:1` | S10_ATIVO no Details |
 | 1117 | Funcoes.ValoresCampos | 197 | Equivalente | `Petrus.Core/Cadastros/CadastroEmEdicao.cs:1` | valores padrão no Novo() |

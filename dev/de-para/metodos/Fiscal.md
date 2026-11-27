@@ -1,6 +1,6 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -227,7 +227,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | DanfeFastBase.Visualizar | 4 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
+| 16 | DanfeFastBase.Visualizar | 4 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:454` | classe PlanilhaAba |
 | 26 | DanfeFastBase.ExibirDesign | 4 | Não se aplica |  | designer do FastReport |
 | 36 | DanfeFastBase.Imprimir | 6 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
 | 47 | DanfeFastBase.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |

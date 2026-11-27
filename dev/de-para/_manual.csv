@@ -1,8 +1,6 @@
 Arquivo;Classe;Metodo;Situacao;Web;Obs;Prioridade
 Sistema/Interfaces/frmExportar.cs;*;btnEmail_Click;Falta;;e-mail do Compartilhar do registro: SS8-324 (o resto do frmExportar está no Details, MIGRADO FORM)
-Vendas/Interfaces/frmCondPagto.cs;*;*;Falta;;ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326)
-Logistica/Interfaces/frmPedidosXProduto.cs;*;*;Falta;;botão das abas Expedição x produtos/faltas (S9 101372/101373): pedidos com o produto e retirar pedido da expedição. Form sem S39: aguardando o Pedro (SS8-326)
-Sistema/Interfaces/frmInterface.cs;*;LerXML;Equivalente;Petrus.Fiscal/NotaFiscal/ImportacaoXmlEntrada.cs:96;SS8-246/326: o Web não cria cadastros pelo XML (fornecedor I5/I41 e cond. pagto N47 recusam ou ficam em branco com aviso); falta o ramo da tela 102898 Importação xml (cliente R2/R48/R47 pelo destinatário)
+Sistema/Interfaces/frmInterface.cs;*;LerXML;Equivalente;Petrus.Fiscal/NotaFiscal/ImportacaoXmlEntrada.cs:96;SS8-246/326: o Web não cria cadastros pelo XML (fornecedor I5/I41 e cond. pagto N47 recusam ou ficam em branco com aviso); o ramo da tela 102898 Importação xml (cliente R2/R48/R47 pelo destinatário) fica no desktop: decisão do Pedro na SS8-326
 Custos/Engines/CalculoFolha.cs;*;*;Equivalente;Petrus.Custos/Classes/CustosPrecificacao.cs:195;fórmulas conferidas na SS8-326: INSS e FGTS 8% sem o prêmio, multa FGTS/2, 13º e férias 12%, adicional 0
 Fiscal/Manifesto/DamdfeFrMDFe.cs;*;ExibirDesign;Não se aplica;;designer do FastReport
 Fiscal/Manifesto/DamdfeFrMDFe.cs;*;*;Equivalente;Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39;DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155)

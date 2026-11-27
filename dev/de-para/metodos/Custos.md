@@ -1,6 +1,6 @@
 # Métodos: Custos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -50,7 +50,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmMaoObra.CarregaDados | 63 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 24 | frmMaoObra.CarregaDados | 63 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 90 | frmMaoObra.MaoObra | 128 | Mesmo nome | `Petrus.Custos/Classes/CustosPrecificacao.cs:168` | classe CustosPrecificacao |
 | 220 | frmMaoObra.frmMaoObra_Load | 8 | Via form | `ERPBlazor/Components/Pages/Custos/MaoObra.razor:2` | frmMaoObra |
 | 229 | frmMaoObra.sfDataGridMaoObra_QueryRowStyle | 7 | Via form | `ERPBlazor/Components/Pages/Custos/MaoObra.razor:2` | frmMaoObra |
@@ -61,7 +61,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 24 | frmMateriaPrima.MateriaPrima | 82 | Mesmo nome | `Petrus.Custos/Classes/CustosPrecificacao.cs:110` | classe CustosPrecificacao |
-| 107 | frmMateriaPrima.CarregaDados | 20 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 107 | frmMateriaPrima.CarregaDados | 20 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 127 | frmMateriaPrima.frmMateriaPrima_Load | 7 | Via form | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:2` | frmMateriaPrima |
 | 135 | frmMateriaPrima.CalculaCustos | 48 | Via form | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:2` | frmMateriaPrima |
 | 184 | frmMateriaPrima.sfDataGridMateriaPrima_QueryCellStyle_1 | 51 | Via form | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:2` | frmMateriaPrima |
@@ -74,7 +74,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 21 | frmSemiAcabados.Moldes | 66 | Nome+Async | `Petrus.Core/Utils/PesoOrdem.cs:289` | classe PesoOrdem |
 | 88 | frmSemiAcabados.frmSemiAcabados_Load | 7 | Via form | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:2` | frmSemiAcabados |
-| 97 | frmSemiAcabados.CarregaDados | 11 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 97 | frmSemiAcabados.CarregaDados | 11 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 110 | frmSemiAcabados.sfDataGridMoldes_QueryRowStyle | 7 | Via form | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:2` | frmSemiAcabados |
 | 118 | frmSemiAcabados.btnEmpresa_Click | 16 | Via form | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:2` | frmSemiAcabados |
 

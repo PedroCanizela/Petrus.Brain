@@ -82,7 +82,7 @@
 - [E-mail do relatório e da lista](email-relatorio-lista-web.md) — SS8-324: EmailDialog no /Report e /Table (marcados); /Details já tinha (SS8-140), de-para leu comentário velho
 - [Gerar parcelas das duplicatas no Web](gerar-parcelas-duplicatas-web.md) — SS8-320: GerarI59/IX11/I49 + R50 em qualquer tela no /Details; N90 do portador e sem condição não limpa (bugs do desktop)
 - [Metas por vendedor e cotação de moedas](metas-vendedor-cotacao-moeda-web.md) — SS8-325: /Vendas/MetasVendedor (R92, 102879), CotacaoMoeda PTAX ao abrir S6 102952, frmMetasResponsavel descartado
-- [Conferência do de-para (SS8-326)](conferencia-de-para-ss8-326.md) — não rodar SincronizarCatalogos no S10; atraso N9/N22/K5 na /Table; filtro do relatório na S80; frmCondPagto/frmPedidosXProduto perguntados
+- [Conferência do de-para (SS8-326)](conferencia-de-para-ss8-326.md) — não rodar SincronizarCatalogos no S10; atraso N9/N22/K5 na /Table; filtro do relatório na S80; frmCondPagto e frmPedidosXProduto portados
 - [Importar planilha de pedido no Web](importacao-planilha-pedido-web.md) — SS8-319: Easy/Aferi/Pratic/Decorplast/Gerador na aba do /Details, LeituraExcel.LerPasta, ExportDataTable não pula coluna
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar

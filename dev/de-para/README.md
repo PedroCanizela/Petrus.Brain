@@ -1,6 +1,6 @@
 # De → para: Petrus desktop → Petrus.ERP (Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com arquivo:linha dos dois lados.
 
@@ -19,14 +19,14 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 
 | Situação | Métodos | Linhas |
 |---|---:|---:|
-| Via form | 897 | 26793 |
-| Mesmo nome | 810 | 108145 |
+| Via form | 903 | 26893 |
+| Mesmo nome | 811 | 108253 |
 | Descartado | 489 | 15672 |
 | Não se aplica | 400 | 22436 |
 | Equivalente | 256 | 21269 |
 | Via S39 | 224 | 26886 |
 | Substituído | 175 | 9004 |
-| Falta | 175 | 10116 |
+| Falta | 168 | 9908 |
 | Em branch | 107 | 6550 |
 | Citado | 71 | 5602 |
 | Outro repositório | 39 | 601 |
@@ -51,7 +51,7 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | [[dev/de-para/metodos/Fiscal|Fiscal]] | 182 | 178 | 4 | 444 |
 | [[dev/de-para/metodos/Industrial|Industrial]] | 220 | 220 | 0 | 0 |
 | [[dev/de-para/metodos/Integracao|Integracao]] | 24 | 20 | 4 | 328 |
-| [[dev/de-para/metodos/Logistica|Logistica]] | 86 | 74 | 6 | 862 |
+| [[dev/de-para/metodos/Logistica|Logistica]] | 86 | 76 | 6 | 862 |
 | [[dev/de-para/metodos/Manutencao|Manutencao]] | 35 | 35 | 0 | 0 |
 | [[dev/de-para/metodos/Margo|Margo]] | 115 | 115 | 0 | 0 |
 | [[dev/de-para/metodos/Metodos|Metodos]] | 125 | 124 | 0 | 0 |
@@ -62,7 +62,7 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | [[dev/de-para/metodos/Settings|Settings]] | 2 | 2 | 0 | 0 |
 | [[dev/de-para/metodos/Sistema|Sistema]] | 1521 | 1510 | 9 | 1359 |
 | [[dev/de-para/metodos/Utils|Utils]] | 85 | 83 | 2 | 156 |
-| [[dev/de-para/metodos/Vendas|Vendas]] | 250 | 211 | 15 | 1877 |
+| [[dev/de-para/metodos/Vendas|Vendas]] | 250 | 216 | 14 | 1769 |
 
 ## Situações
 

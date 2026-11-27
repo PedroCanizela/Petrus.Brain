@@ -1,10 +1,10 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 27 · Mesmo nome: 23 · Falta: 12 · Equivalente: 8 · Via S39: 7 · Citado: 4 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
+**Situação:** Via form: 29 · Mesmo nome: 23 · Falta: 10 · Equivalente: 8 · Via S39: 7 · Citado: 4 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
 
 ## `Logistica/Classes/Expedicoes.cs`
 
@@ -144,8 +144,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 29 | frmPedidosXProduto.frmPedidosXProduto_Load | 37 | **Falta** |  | botão das abas Expedição x produtos/faltas (S9 101372/101373): pedidos com o produto e retirar pedido da expedição. Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
-| 70 | frmPedidosXProduto.sfDataGrid_CellButtonClick | 29 | **Falta** |  | botão das abas Expedição x produtos/faltas (S9 101372/101373): pedidos com o produto e retirar pedido da expedição. Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
+| 29 | frmPedidosXProduto.frmPedidosXProduto_Load | 37 | Via form | `ERPBlazor/Components/Shared/PedidosProdutoDialog.razor:3` | frmPedidosXProduto |
+| 70 | frmPedidosXProduto.sfDataGrid_CellButtonClick | 29 | Via form | `ERPBlazor/Components/Shared/PedidosProdutoDialog.razor:3` | frmPedidosXProduto |
 
 ## `Logistica/Interfaces/frmPesquisaPedidos.cs`
 

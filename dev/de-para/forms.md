@@ -1,6 +1,6 @@
 # Forms: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
 |---|---|---:|---|---|---|
@@ -59,7 +59,7 @@
 | Logistica\Interfaces | `frmEtiqueta` | 55 | 100115 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Logistica\Interfaces | `frmEtiquetaProduto` | 48 | 100096 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
 | Logistica\Interfaces | `frmImprimirEtiqueta` | 360 | 100465, 100464, 100463, 100462, 100461 | Tem | `Petrus.Logistica/AcoesLogistica.cs:37` |
-| Logistica\Interfaces | `frmPedidosXProduto` | 100 |  | Falta |  |
+| Logistica\Interfaces | `frmPedidosXProduto` | 100 |  | Tem | `ERPBlazor/Components/Shared/PedidosProdutoDialog.razor:3` |
 | Logistica\Interfaces | `frmPesquisaPedidos` | 272 |  | Falta | `ERPBlazor/Components/Pages/Details.Abas.cs:52` |
 | Logistica\Interfaces | `frmTransportadora` | 176 |  | Tem | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` |
 | Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
@@ -130,7 +130,7 @@
 | Vendas\Interfaces | `frmAdiantarPedido` | 237 | 100431 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmAnexosPedido` | 386 | 100421 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmCliente` | 168 |  | Tem | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` |
-| Vendas\Interfaces | `frmCondPagto` | 169 |  | Falta |  |
+| Vendas\Interfaces | `frmCondPagto` | 169 |  | Tem | `ERPBlazor/Components/Shared/CondPagtoDialog.razor:3` |
 | Vendas\Interfaces | `frmCortarItens` | 314 |  | Tem | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` |
 | Vendas\Interfaces | `frmCortesPedido` | 301 | 100460 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmEdicaoEntrega` | 145 | 100355 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |

@@ -1,6 +1,6 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -292,7 +292,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 33 | frmNotasFiscais.CarregaDados | 222 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 33 | frmNotasFiscais.CarregaDados | 222 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 256 | frmNotasFiscais.frmNotasFiscais_Load | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` | frmNotasFiscais |
 | 262 | frmNotasFiscais.Atualizar | 402 | Mesmo nome | `ERPBlazor/Components/Services/FonteContexto.cs:26` | classe FonteContexto |
 | 665 | frmNotasFiscais.btnSalvarDados_Click | 11 | Via form | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` | frmNotasFiscais |
@@ -821,7 +821,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 54 | frmConta.BancoDados | 44 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
 | 102 | frmConta.frmConta_Load | 99 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
-| 202 | frmConta.CarregaDados | 124 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 202 | frmConta.CarregaDados | 124 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 328 | frmConta.BackGroundWorkerDoWork | 13 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
 | 344 | frmConta.sfDataGrid1_CellCheckBoxClick | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
 | 349 | frmConta.AlterarEmpresa | 86 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
@@ -1346,7 +1346,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 50205 | frmInterface.Editar | 62 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:199` | classe MisturaReceitas |
 | 50267 | frmInterface.ValidarCampos | 45 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50315 | frmInterface.Excluir | 22 | Mesmo nome | `Petrus.Core/Utils/CRUD.cs:73` | classe CRUD |
-| 50338 | frmInterface.Visualizar | 66 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
+| 50338 | frmInterface.Visualizar | 66 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:454` | classe PlanilhaAba |
 | 50406 | frmInterface.btnEditar_Click | 93 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50500 | frmInterface.btnVisualizar_Click | 46 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 50547 | frmInterface.ValidaCampos | 13 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |

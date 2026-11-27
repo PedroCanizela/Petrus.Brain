@@ -1,6 +1,6 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
@@ -238,7 +238,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Logistica/Interfaces/frmEtiqueta.cs` | 6 | 6 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs` |
 | `Logistica/Interfaces/frmEtiquetaProduto.cs` | 4 | 4 | 0 | 0 | `Petrus.Estoque/AcoesProduto.cs` |
 | `Logistica/Interfaces/frmImprimirEtiqueta.cs` | 12 | 12 | 0 | 0 | `Petrus.Logistica/AcoesLogistica.cs`, `Petrus.Fiscal/NotaFiscal/ComprovanteEventoNFe.cs`, `Petrus.Core/Utils/EtiquetasCadastro.cs` |
-| `Logistica/Interfaces/frmPedidosXProduto.cs` | 2 | 0 | 0 | 0 |  |
+| `Logistica/Interfaces/frmPedidosXProduto.cs` | 2 | 2 | 0 | 0 | `ERPBlazor/Components/Shared/PedidosProdutoDialog.razor` |
 | `Logistica/Interfaces/frmPesquisaPedidos.cs` | 6 | 0 | 2 | 193 | `ERPBlazor/Components/Pages/Details.Abas.cs` |
 | `Logistica/Interfaces/frmTransportadora.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor` |
 | `Logistica/Reports/SimulacaoExpedicao.cs` | 1 | 1 | 0 | 0 | `Petrus.Logistica/Reports/SimulacaoExpedicao.cs` |
@@ -406,7 +406,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Vendas/Interfaces/frmAdiantarPedido.cs` | 8 | 8 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `ERPBlazor/Components/Pages/Details.razor` |
 | `Vendas/Interfaces/frmAnexosPedido.cs` | 9 | 9 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs`, `Petrus.Vendas/Classes/PedidosVenda.Edicoes.cs` |
 | `Vendas/Interfaces/frmCliente.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor` |
-| `Vendas/Interfaces/frmCondPagto.cs` | 5 | 0 | 1 | 108 |  |
+| `Vendas/Interfaces/frmCondPagto.cs` | 5 | 5 | 0 | 0 | `ERPBlazor/Components/Shared/CondPagtoDialog.razor`, `ERPBlazor/Components/Shared/PerfilClienteJurosDialog.razor` |
 | `Vendas/Interfaces/frmCortarItens.cs` | 10 | 10 | 0 | 0 | `ERPBlazor/Components/Shared/CortarItensDialog.razor`, `Petrus.Core/Acoes/RelatorioListaPdf.cs`, `Petrus.Core/Utils/LeituraExcel.cs` |
 | `Vendas/Interfaces/frmCortesPedido.cs` | 5 | 5 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `ERPBlazor/Components/Pages/Details.razor`, `Petrus.Core/Acoes/RelatorioListaPdf.cs` |
 | `Vendas/Interfaces/frmEdicaoEntrega.cs` | 9 | 9 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor`, `ERPBlazor/Components/Pages/Details.razor` |

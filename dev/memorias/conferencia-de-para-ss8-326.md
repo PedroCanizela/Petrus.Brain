@@ -22,9 +22,10 @@ SS8-326 (26/11/2026, branch `claude/ss8-326-ade518`): os 75 "Conferir"/"Citado (
   `SALVA_PREFERENCIA_RELATORIO` (`Petrus.Core/Sistema/ParametrosSistema.cs`, `Filters.razor`). O Web grava vazio quando o
   campo é limpo; o desktop não gravava.
 - **Atalhos da lupa:** a lupa de R2/J2 abre o frmCliente/frmTransportadora (só pesquisa, coberto pela lupa do Web). O ícone de
-  dinheiro do N47 abre o frmCondPagto (portador + parcelas acha ou cria a N47). O botão das abas J50/J51 abre o
-  frmPedidosXProduto (retira pedido da expedição). Esses dois **não existem no Web**: foram perguntados ao Pedro.
-- **LerXML ramo 102898** ("Importação xml": cliente R2 pelo destinatário) não existe no Web.
+  dinheiro do N47 (frmCondPagto: portador + parcelas acha ou cria a N47) virou o botão "Pelas parcelas" embaixo do campo
+  (CondPagtoDialog + Petrus.Financeiro CondicoesPagamento). As colunas S10 BUTTON (só J50/J51_VISUALIZAR_PEDIDOS) viram
+  botão na PlanilhaAba (AoBotao → Details.Atalhos.cs BotaoNaGrade): frmPedidosXProduto, retira pedido da aba J23.
+- **LerXML ramo 102898** ("Importação xml": cliente R2 pelo destinatário) fica no desktop: decisão do Pedro (27/11).
 - Gerar o de-para num worktree retrata a branch, não a master. Os filtros `.claude` dos inventários olham o caminho relativo.
 
 **Why:** fechar o de-para sem deixar duvidosos e evitar que o script de catálogo apague a divisão do S10.

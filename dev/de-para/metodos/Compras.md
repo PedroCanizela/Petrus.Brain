@@ -1,6 +1,6 @@
 # Métodos: Compras (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -191,7 +191,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 34 | frmPerfilFornecedor.BackGroundWorkerDoWork | 15 | Via form | `Petrus.Compras/AcoesCompras.cs:27` | frmPerfilFornecedor |
 | 51 | frmPerfilFornecedor.CriarControles | 9 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:138` | classe ReportList |
-| 60 | frmPerfilFornecedor.CarregaDados | 44 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 60 | frmPerfilFornecedor.CarregaDados | 44 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
 | 104 | frmPerfilFornecedor.CarregaTitulosAberto | 39 | Via form | `Petrus.Compras/AcoesCompras.cs:27` | frmPerfilFornecedor |
 | 150 | frmPerfilFornecedor.Resumo | 22 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:703` | classe ResultadoBancoDados |
 | 173 | frmPerfilFornecedor.Compras | 118 | Mesmo nome | `Petrus.Compras/Classes/PerfisCompras.cs:127` | classe Compras |

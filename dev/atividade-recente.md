@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 23:18 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 23:31 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -201,8 +201,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-13 614fc74e SS8-18: Peso por OP (apontamento, monitoramento e relatório)
 - 2026-11-13 b0c66214 Merge SS8-17: Etiqueta do operador (Profiable)
 - 2026-11-13 096faf98 SS8-17: Etiqueta do operador na impressão pela OP
-- 2026-11-12 1981c62f Merge SS8-31: Conferência de pedido por QR Code (Profiable)
-- 2026-11-12 f9e5b616 Merge branch 'master' into feature/ss8-31-conferencia-pedido-qrcode
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -251,6 +249,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 eb9833d SS8-326: frmCondPagto e frmPedidosXProduto no /Details
 - 2026-11-26 7b1a158 SS8-326: de-para conferido, MIGRADO FORM nos forms cobertos, parciais e S10
 - 2026-11-26 2063e3d SS8-319: importação de pedido/tabela de preço por planilha no Web (Aferi Pratic, Aferi Decorplast, Aferi, Easy e Gerador)
 - 2026-11-26 497cd19 SS8-325: metas por vendedor no Web e frmMetasResponsavel descartado
@@ -820,9 +819,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-13 915b909 Merge master na SS8-33 (resolve conflito com SS8-28 no NavMenu)
 - 2026-11-13 208e8fd SS8-27: Geração e reimpressão de QR Code de pacotes por OP (Profiable)
 - 2026-11-12 10c5edd Merge SS8-28: Validação de pacotes por QR Code (Profiable)
-- 2026-11-12 b3854a3 SS8-33: Consulta de pacote por QR Code com histórico (Profiable)
-- 2026-11-12 083662b SS8-28: Validação de pacotes por QR Code (entrada no estoque)
-- 2026-11-12 f33e367 Merge SS8-31: Conferência de pedido por QR Code (Profiable)
 
 ## Petrus.FV
 Branch atual: master
