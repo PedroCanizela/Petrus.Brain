@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:07 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:10 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -239,7 +239,7 @@ Branches:
 - claude/funny-meninsky-e7b65c
 - claude/gifted-colden-99621b
 - + claude/hungry-kepler-c997fa
-- + claude/jolly-bell-73065e
+- claude/jolly-bell-73065e
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
 - claude/magical-mcnulty-1862f7
@@ -263,12 +263,13 @@ Branches:
 - + feature/ss8-350-resumo-producao-liberadas
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-353-efetivar-ordem-mistura
-- + feature/ss8-356-retirar-prioridade-monitoramento
+- + feature/ss8-354-previsao-op
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 f55d91d Merge SS8-356: MES / Monitoramento: retirar a coluna e o botão de prioridade da máquina
 - 2026-11-27 5fda2a6 SS8-350: MES / Resumo de produção: previsão somando as ordens liberadas e máquinas ordenadas pelo término
 - 2026-11-27 41c1b2f SS8-356: MES / Monitoramento: retirar a coluna e o botão de prioridade da máquina
 - 2026-11-27 52ec0ba SS8-351: MES / Monitoramento: conferir que as ordens pendentes são só as liberadas
