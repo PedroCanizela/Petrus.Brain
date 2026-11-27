@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 14:15 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 14:26 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -246,10 +246,14 @@ Branches:
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-343-estoque-carteira-qrcode
 - + feature/ss8-344-estoque-saldo-pedido
+- + feature/ss8-347-requisicao-varias-ops
+- + feature/ss8-348-ordenar-pendentes-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 9c7429a SS8-235: aba sem campo principal montava "ORDER BY  DESC" no /Details
+- 2026-11-27 7989aec Revert "SS8-235: divide o catálogo S10 em partes para não estourar a pilha ao abrir as telas"
 - 2026-11-27 d4301b5 Merge SS8-346: Vendas / Situação do pedido: enviar de Receita/Sintegra para Em análise e de Em análise para Aguardando depósito
 - 2026-11-27 037babd SS8-346: Situação do pedido: Receita/Sintegra para Em análise e Em análise para Aguardando depósito
 - 2026-11-27 1c2e1da Merge SS8-330: WMS / Inventário: estoque esperado pelos pacotes QR Code em estoque, e não pelo saldo da G17

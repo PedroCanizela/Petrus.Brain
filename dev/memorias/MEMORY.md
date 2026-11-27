@@ -59,7 +59,7 @@
 - [Contas a pagar sem plano (SS8-203)](contas-pagar-sem-plano-ss8-203.md) — S7 100492 (N9 sem L70) no desktop e Web; receita S7+S29+S30+GetReport/Registrar
 - [Fotos R2 e etiqueta Zebra no Web](fotos-r2-etiqueta-zebra-web.md) — SS8-249: ExportarEtiquetaZebra no Core (rede ou .zpl), G6_URL_FOTO (S10 123535) + botão Publicar fotos; 2 branches juntas
 - [Exportar arquivos no app do celular](exportar-arquivos-celular-web.md) — SS8-285: blob ignorado no PWA; EntregaArquivos + ArquivosTemporarios, aviso Abrir/Compartilhar, ExcelDaGradeAsync
-- [Catálogo S10 estourava a pilha](catalogo-s10-pilha.md) — SS8-235: CriarS10 > 1,5 MB de pilha derrubava o Web; CriarS10Parte1..14, campo novo no fim da última parte
+- [Aba sem principal dava ORDER BY DESC](catalogo-s10-pilha.md) — SS8-235: Principal null no AbaCamposModel; não era pilha; CriarS10 fica num método só
 - [Mais ações da /Table](mais-acoes-table-web.md) — SS8-287: ordem do PopularAcoes (strip1), Customizar, PDF/Imprimir/Excluir dos marcados, "Outras ações"
 - [Comando SQL no Web](comando-sql-web.md) — SS8-248: Customizador fica no desktop; /Ajustes/Comando só admin, simula antes de gravar, bloqueios e log
 - [Agentes de IA por área](agentes-ia-ss8-289.md) — SS8-289 base entregue (IA3/IA4/IA5, S74/S84 cota, AgentesService, FerramentasAgentes.Registrar, /Agentes); 290 notificações, 291-295 áreas

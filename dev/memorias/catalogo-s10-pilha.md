@@ -1,21 +1,20 @@
 ---
 name: catalogo-s10-pilha
-description: "SS8-235 retrabalho: CriarS10 num método só estourava a pilha (>1,5 MB) e derrubava o Web ao abrir /Table e /Details; dividido em CriarS10Parte1..14"
+description: "SS8-235: erro ao abrir aba sem S10_PRINCIPAL era ORDER BY  DESC (Principal null), não pilha; Pedro quer o CriarS10 num método só"
 metadata:
   node_type: memory
   type: project
-  originSessionId: 85647dc8-e0d7-40f5-9089-c591c193c3e5
-  modified: 2026-11-26T12:49:47.714Z
+  originSessionId: bf9a450a-2467-40a5-9e0c-da09820cbe6d
+  modified: 2026-11-27T17:25:41.547Z
 ---
 
-Em 26/11/2026 o "erro ao abrir tela" da SS8-235 era **stack overflow** no `Petrus.Core/Models/S10.cs`: o `CriarS10` tinha
-8.257 `dataTable.Rows.Add` num método só (quadro de pilha > 1,5 MB em Debug e ~1,4 MB em Release, cerca de 190 bytes por linha).
-Os campos da A10/A11/A12 (SS8-235) e da J60/J61 (SS8-281) passaram do limite. O processo cai inteiro, então nada vai para o
-log `C:\Petrus\Logs` (ErrosWeb). Correção na branch `feature/ss8-235-gaiola-embalagem` (8e2f91b): 14 métodos
-`CriarS10Parte1..14` de 600 linhas, `NoInlining`, chamados pelo `CriarS10`; agora cabe em 256 KB.
+O "erro ao abrir tela" da SS8-235 (gaiola de embalagem, abas A11/A12) era **"ORDER BY  DESC"** na consulta da aba do
+`/Details`: a aba não tinha campo com `S10_PRINCIPAL`, o `AbaCamposModel.Principal` ficava `null` e o teste
+`Principal != ""` passava. Corrigido em 27/11/2026 (commit 9c7429a): `Principal = ""` por padrão e `string.IsNullOrEmpty`
+no `Details.razor` e no `GravacaoCadastro.CarregarAbaAsync`; a aba cai no `ORDER BY <tabela>_ID DESC`.
 
-**Why:** catálogos do Petrus.Core são editados à mão (não há gerador), e crescem a cada demanda.
-**How to apply:** campo novo no S10 entra no fim da última parte; passou de ~600 linhas, crie a próxima parte. S30.cs (1.942) e
-S52.cs (1.504) são os próximos maiores. Para diagnosticar, um console no scratchpad referenciando o Petrus.Core e rodando
-o `Criar*` numa `Thread` com pilha pequena reproduz o problema sem abrir o site. Ver [[gaiola-embalagem-a10]] e
-[[tratamento-erros-web]].
+Em 26/11 diagnostiquei errado como stack overflow e dividi o `CriarS10` em 14 partes; o Pedro recusou e pediu para desfazer.
+
+**Why:** o Pedro não quer o catálogo S10 separado em vários métodos; quer o `CriarS10` num método só.
+**How to apply:** não dividir catálogos (S10/S30/S52) em partes. Erro ao abrir aba de tabela nova: conferir primeiro
+o SQL da aba (Identificador/Principal vazios) antes de teorias mais exóticas. Ver [[gaiola-embalagem-a10]].
