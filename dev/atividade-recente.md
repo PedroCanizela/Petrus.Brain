@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:04 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:06 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -268,6 +268,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 52ec0ba SS8-351: MES / Monitoramento: conferir que as ordens pendentes são só as liberadas
 - 2026-11-27 3488f64 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
 - 2026-11-27 0ae183b SS8-335: regera o inventário da migração (S39 100539)
 - 2026-11-27 be5ecb7 SS8-335: ordem de mistura baixa as matérias-primas ao concluir, com estorno
