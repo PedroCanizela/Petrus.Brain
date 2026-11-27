@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-27T20:11:04.341Z
 ---
 
-SS8-354 (PRATIC, 27/11/2026, branch `feature/ss8-354-previsao-op`, aguardando aprovação): bloco "Previsão" em
+SS8-354 (PRATIC, 27/11/2026, aprovada e na master em 27/11/2026 (merge d63f53c, sem push; branch apagada)): bloco "Previsão" em
 `/MES/OrderDetails` (OP gravada) com ciclo, pç/emb, pacotes, total, horas hh:mm:ss, cavidades, peso g, peso total kg,
 início, fim (previsão), produzido (aproveitadas) e falta. Cálculo em `Petrus.Industrial/Classes/OrdensProducao.Previsao.cs`
 com as regras do [[resumo-producao-maquina]] (ciclo/cavidades, TempoDisponivelMES.Previsao a partir de agora).

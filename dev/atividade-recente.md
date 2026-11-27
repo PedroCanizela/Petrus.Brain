@@ -258,7 +258,6 @@ Branches:
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
-- + feature/ss8-354-previsao-op
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-39-novo-layout-erp
 - * master
