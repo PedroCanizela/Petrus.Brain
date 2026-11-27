@@ -1,10 +1,10 @@
 # Métodos: Core (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 47 · Não se aplica: 10 · Citado: 6 · Citado (conferir): 4 · Sem uso no desktop: 2 · Via S39: 2 · Descartado: 2 · Equivalente: 1
+**Situação:** Mesmo nome: 48 · Não se aplica: 10 · Citado: 5 · Equivalente: 4 · Descartado: 3 · Sem uso no desktop: 2 · Via S39: 2
 
 ## `Core/Engines/S2Engine.cs`
 
@@ -21,12 +21,12 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 21 | BancoDados.DeleteColumns | 99 | Citado (conferir) | `Petrus.Core/Metodos/BancoDados.cs:23` |  |
-| 120 | BancoDados.CriarCol | 13 | Citado (conferir) | `Petrus.Core/Metodos/BancoDados.cs:24` |  |
-| 133 | BancoDados.ExcluirCol | 45 | Citado (conferir) | `Petrus.Core/Metodos/BancoDados.cs:23` |  |
+| 21 | BancoDados.DeleteColumns | 99 | Equivalente | `Petrus.Core/Metodos/BancoDados.cs:23` | vira relatório (ExclusoesPendentes): nada é apagado |
+| 120 | BancoDados.CriarCol | 13 | Descartado | `Petrus.Core/Metodos/BancoDados.cs:24` | SQL incompleto no desktop |
+| 133 | BancoDados.ExcluirCol | 45 | Equivalente | `Petrus.Core/Metodos/BancoDados.cs:23` | vira relatório (ExclusoesPendentes): nada é apagado |
 | 179 | BancoDados.PrimaryKey | 64 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:159` |  |
 | 245 | BancoDados.AlterColumns | 149 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:196` |  |
-| 394 | BancoDados.DeleteTables | 71 | Citado (conferir) | `Petrus.Core/Metodos/BancoDados.cs:23` |  |
+| 394 | BancoDados.DeleteTables | 71 | Equivalente | `Petrus.Core/Metodos/BancoDados.cs:23` | vira relatório (ExclusoesPendentes): nada é apagado |
 | 467 | BancoDados.CreateTables | 117 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:101` |  |
 | 585 | BancoDados.DeletarPermissoesTabelas | 73 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 659 | BancoDados.CriarPermissoesTabelas | 73 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:296` |  |
@@ -52,38 +52,38 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | Dados.CriarS72 | 101 | Não se aplica |  | Web lê do banco |
-| 119 | Dados.CriarS15 | 444 | Mesmo nome | `Petrus.Core/Models/S15.cs:12` | classe S15 |
-| 563 | Dados.CriarS14 | 47 | Não se aplica |  | Web lê do banco |
-| 610 | Dados.CriarS53 | 14 | Mesmo nome | `Petrus.Core/Models/S53.cs:11` | classe S53 |
-| 625 | Dados.CriarS54 | 140 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:735` | classe CatalogoInteracao |
-| 768 | Dados.CriarS52 | 1508 | Mesmo nome | `Petrus.Core/Models/S52.cs:12` | classe S52 |
-| 2277 | Dados.CriarS33 | 53 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:72` | classe CatalogoInteracao |
-| 2331 | Dados.CriarS60 | 338 | Mesmo nome | `Petrus.Core/Models/S60.cs:12` | classe S60 |
-| 2669 | Dados.CriarS34 | 606 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:127` | classe CatalogoInteracao |
-| 3275 | Dados.CriarS11 | 56 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:14` | classe CatalogoInteracao |
-| 3331 | Dados.CriarS31 | 14 | Descartado |  | gráficos do desktop (Web tem S88–S91) |
-| 3346 | Dados.CriarS39 | 295 | Mesmo nome | `Petrus.Core/Acoes/CatalogoS39.cs:12` | classe CatalogoS39 |
-| 3641 | Dados.CriarS78 | 118 | Mesmo nome | `Petrus.Core/Models/S78.cs:19` | classe S78 |
-| 3759 | Dados.CriarS79 | 222 | Mesmo nome | `Petrus.Core/Acoes/CatalogoS79.cs:12` | classe CatalogoS79 |
-| 3983 | Dados.CriarS81 | 689 | Mesmo nome | `Petrus.Core/Models/S81.cs:12` | classe S81 |
-| 4672 | Dados.CriarS82 | 20 | Mesmo nome | `Petrus.Core/Models/S82.cs:20` | classe S82 |
-| 4694 | Dados.CriarSS1 | 245 | Não se aplica |  | Web lê do banco |
-| 4939 | Dados.CriarSS2 | 255 | Não se aplica |  | Web lê do banco |
-| 5194 | Dados.CriarS7 | 253 | Mesmo nome | `Petrus.Core/Models/S7.cs:41` | classe S7 |
-| 5447 | Dados.CriarS4 | 23 | Não se aplica |  | Web lê do banco |
-| 5472 | Dados.CriarS10 | 8307 | Mesmo nome | `Petrus.Core/Models/S10.cs:48` | classe S10 |
-| 13781 | Dados.CriarS8 | 444 | Mesmo nome | `Petrus.Core/Models/S8.cs:28` | classe S8 |
-| 14225 | Dados.CriarS9 | 615 | Mesmo nome | `Petrus.Core/Models/S9.cs:30` | classe S9 |
-| 14840 | Dados.CriarS5 | 111 | Mesmo nome | `Petrus.Core/Models/S5.cs:29` | classe S5 |
-| 14953 | Dados.CriarS6 | 400 | Mesmo nome | `Petrus.Core/Models/S6.cs:32` | classe S6 |
-| 15353 | Dados.CriarS19 | 403 | Mesmo nome | `Petrus.Core/Models/S19.cs:29` | classe S19 |
-| 15759 | Dados.CriarS29 | 254 | Mesmo nome | `Petrus.Core/Models/S29.cs:18` | classe S29 |
-| 16013 | Dados.CriarS30 | 1948 | Mesmo nome | `Petrus.Core/Models/S30.cs:12` | classe S30 |
-| 17961 | Dados.CriarS36 | 24 | Descartado |  | indicadores do desktop (Web tem S88–S91) |
-| 17985 | Dados.CriarS37 | 69 | Mesmo nome | `Petrus.Core/Models/S37.cs:12` | classe S37 |
-| 18055 | Dados.CriarS18 | 11 | Mesmo nome | `Petrus.Core/Models/S18.cs:11` | classe S18 |
-| 18067 | Dados.CriarS38 | 58 | Mesmo nome | `Petrus.Core/Models/S38.cs:11` | classe S38 |
-| 18126 | Dados.CriarS47 | 111 | Mesmo nome | `Petrus.Core/Models/S47.cs:11` | classe S47 |
+| 119 | Dados.CriarS15 | 447 | Mesmo nome | `Petrus.Core/Models/S15.cs:12` | classe S15 |
+| 566 | Dados.CriarS14 | 47 | Não se aplica |  | Web lê do banco |
+| 613 | Dados.CriarS53 | 14 | Mesmo nome | `Petrus.Core/Models/S53.cs:11` | classe S53 |
+| 628 | Dados.CriarS54 | 140 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:735` | classe CatalogoInteracao |
+| 771 | Dados.CriarS52 | 1508 | Mesmo nome | `Petrus.Core/Models/S52.cs:12` | classe S52 |
+| 2280 | Dados.CriarS33 | 53 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:72` | classe CatalogoInteracao |
+| 2334 | Dados.CriarS60 | 338 | Mesmo nome | `Petrus.Core/Models/S60.cs:12` | classe S60 |
+| 2672 | Dados.CriarS34 | 606 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:127` | classe CatalogoInteracao |
+| 3278 | Dados.CriarS11 | 56 | Mesmo nome | `Petrus.Core/Acoes/CatalogoInteracao.cs:14` | classe CatalogoInteracao |
+| 3334 | Dados.CriarS31 | 14 | Descartado |  | gráficos do desktop (Web tem S88–S91) |
+| 3349 | Dados.CriarS39 | 303 | Mesmo nome | `Petrus.Core/Acoes/CatalogoS39.cs:12` | classe CatalogoS39 |
+| 3652 | Dados.CriarS78 | 118 | Mesmo nome | `Petrus.Core/Models/S78.cs:19` | classe S78 |
+| 3770 | Dados.CriarS79 | 222 | Mesmo nome | `Petrus.Core/Acoes/CatalogoS79.cs:12` | classe CatalogoS79 |
+| 3994 | Dados.CriarS81 | 689 | Mesmo nome | `Petrus.Core/Models/S81.cs:12` | classe S81 |
+| 4683 | Dados.CriarS82 | 20 | Mesmo nome | `Petrus.Core/Models/S82.cs:20` | classe S82 |
+| 4705 | Dados.CriarSS1 | 245 | Não se aplica |  | Web lê do banco |
+| 4950 | Dados.CriarSS2 | 255 | Não se aplica |  | Web lê do banco |
+| 5205 | Dados.CriarS7 | 255 | Mesmo nome | `Petrus.Core/Models/S7.cs:41` | classe S7 |
+| 5460 | Dados.CriarS4 | 23 | Não se aplica |  | Web lê do banco |
+| 5485 | Dados.CriarS10 | 8389 | Mesmo nome | `Petrus.Core/Models/S10.cs:48` | classe S10 |
+| 13876 | Dados.CriarS8 | 447 | Mesmo nome | `Petrus.Core/Models/S8.cs:28` | classe S8 |
+| 14323 | Dados.CriarS9 | 618 | Mesmo nome | `Petrus.Core/Models/S9.cs:30` | classe S9 |
+| 14941 | Dados.CriarS5 | 111 | Mesmo nome | `Petrus.Core/Models/S5.cs:29` | classe S5 |
+| 15054 | Dados.CriarS6 | 403 | Mesmo nome | `Petrus.Core/Models/S6.cs:32` | classe S6 |
+| 15457 | Dados.CriarS19 | 406 | Mesmo nome | `Petrus.Core/Models/S19.cs:29` | classe S19 |
+| 15866 | Dados.CriarS29 | 256 | Mesmo nome | `Petrus.Core/Models/S29.cs:18` | classe S29 |
+| 16122 | Dados.CriarS30 | 1960 | Mesmo nome | `Petrus.Core/Models/S30.cs:12` | classe S30 |
+| 18082 | Dados.CriarS36 | 24 | Descartado |  | indicadores do desktop (Web tem S88–S91) |
+| 18106 | Dados.CriarS37 | 69 | Mesmo nome | `Petrus.Core/Models/S37.cs:12` | classe S37 |
+| 18176 | Dados.CriarS18 | 11 | Mesmo nome | `Petrus.Core/Models/S18.cs:11` | classe S18 |
+| 18188 | Dados.CriarS38 | 58 | Mesmo nome | `Petrus.Core/Models/S38.cs:11` | classe S38 |
+| 18247 | Dados.CriarS47 | 111 | Mesmo nome | `Petrus.Core/Models/S47.cs:11` | classe S47 |
 
 ## `Core/Utils/Email.cs`
 
@@ -101,10 +101,10 @@ Voltar: [[dev/de-para/README|De → para]]
 | 24 | Helpers.FormatarCodigoBB | 35 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:39` |  |
 | 59 | Helpers.RemoveDiacritics | 9 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 68 | Helpers.FormatarCodigo | 28 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:13` |  |
-| 97 | Helpers.GetReport | 453 | Citado | `ERPBlazor/Components/Pages/Report.razor:959` |  |
-| 551 | Helpers.ExecutarAcao | 10 | Mesmo nome | `ERPBlazor/Components/Pages/MES/Order.razor:263` | classe Order |
-| 562 | Helpers.FormataTexto | 18 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:188` |  |
-| 580 | Helpers.SomarDiasUteis | 19 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:72` |  |
+| 97 | Helpers.GetReport | 457 | Citado | `ERPBlazor/Components/Pages/Report.razor:1025` |  |
+| 555 | Helpers.ExecutarAcao | 10 | Mesmo nome | `Petrus.Assistente/Agentes/ServicoAgentes.cs:353` | classe Execucao |
+| 566 | Helpers.FormataTexto | 18 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:188` |  |
+| 584 | Helpers.SomarDiasUteis | 19 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:72` |  |
 
 ## `Core/Utils/SqlHelper.cs`
 
@@ -119,14 +119,14 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | Validacoes.VerificaAlteracao | 220 | Citado | `Petrus.Core/Acoes/EdicaoMassa.cs:21` |  |
-| 233 | Validacoes.VerificaExclusao | 62 | Citado | `Petrus.Core/Acoes/CadastroGenerico.cs:18` |  |
-| 302 | Validacoes.ValidarCNPJ | 42 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:92` | classe ApoioVendas |
-| 345 | Validacoes.ValidarCPF | 36 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:119` | classe ApoioVendas |
+| 12 | Validacoes.VerificaAlteracao | 221 | Mesmo nome | `Petrus.Core/Utils/Validacoes.cs:30` |  |
+| 234 | Validacoes.VerificaExclusao | 62 | Citado | `ERPBlazor/Components/Pages/Table.razor:1651` |  |
+| 303 | Validacoes.ValidarCNPJ | 42 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:92` | classe ApoioVendas |
+| 346 | Validacoes.ValidarCPF | 36 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:119` | classe ApoioVendas |
 
 ## `Core/Utils/WhatsApp.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 7 | WhatsApp.WhatsAppValido | 12 | Citado | `Petrus.Core/Utils/EnvioWhatsApp.cs:41` |  |
+| 7 | WhatsApp.WhatsAppValido | 12 | Citado | `Petrus.Core/Utils/EnvioWhatsApp.cs:43` |  |
 

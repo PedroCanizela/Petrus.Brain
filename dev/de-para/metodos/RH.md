@@ -1,10 +1,10 @@
 # Métodos: RH (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 41 · Via form: 37 · Citado: 4 · Equivalente: 3 · Falta: 2 · Citado (conferir): 2 · Nome sem Con: 1
+**Situação:** Mesmo nome: 41 · Via form: 37 · Equivalente: 5 · Citado: 4 · Falta: 2 · Nome sem Con: 1
 
 ## `RH/Classes/EntregaEPI.cs`
 
@@ -40,9 +40,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 84 | D10Engine.StatusCalculadoD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:339` | classe Funcionarios |
 | 128 | D10Engine.AtualizaStatusD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:315` | classe Funcionarios |
 | 173 | D10Engine.ExperienciaD10 | 33 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:296` | classe Funcionarios |
-| 208 | D10Engine.EmailD10 | 51 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
+| 208 | D10Engine.EmailD10 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 259 | D10Engine.EmailImportacaoD10 | 267 | **Falta** |  | pendente da SS8-221 |
-| 527 | D10Engine.TelefonesD10 | 62 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
+| 527 | D10Engine.TelefonesD10 | 62 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 589 | D10Engine.TelefonesImportacaoD10 | 333 | **Falta** |  | pendente da SS8-221 |
 
 ## `RH/Engines/DX1Engine.cs`
@@ -51,7 +51,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 18 | DX1Engine.Calcular | 6 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
 | 25 | DX1Engine.StatusDX1 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:50` |  |
-| 40 | DX1Engine.Criar | 131 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 40 | DX1Engine.Criar | 131 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 | 171 | DX1Engine.ConcluirDX1Con | 95 | Nome sem Con | `Petrus.RH/Classes/FolhaPagamento.cs:49` | classe FolhaPagamento |
 | 267 | DX1Engine.ConcluirDX1 | 95 | Mesmo nome | `Petrus.RH/Classes/FolhaPagamento.cs:49` | classe FolhaPagamento |
 | 362 | DX1Engine.CancelarDX1 | 33 | Mesmo nome | `Petrus.RH/Classes/FolhaPagamento.cs:107` | classe FolhaPagamento |
@@ -61,14 +61,14 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 13 | DX2Engine.Calcular | 9 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
-| 22 | DX2Engine.Criar | 84 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 22 | DX2Engine.Criar | 84 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DX3Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 13 | DX3Engine.Calcular | 9 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
-| 22 | DX3Engine.Criar | 92 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 22 | DX3Engine.Criar | 92 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DX4Engine.cs`
 
@@ -81,28 +81,28 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 14 | DY1Engine.AdmitirFuncionario | 41 | Citado | `Petrus.RH/Classes/Funcionarios.cs:135` |  |
-| 55 | DY1Engine.Criar | 113 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 55 | DY1Engine.Criar | 113 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DY2Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | DY2Engine.DemitirFuncionario | 25 | Citado | `Petrus.RH/Classes/Funcionarios.cs:246` |  |
-| 44 | DY2Engine.Criar | 104 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 44 | DY2Engine.Criar | 104 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DY3Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | DY3Engine.TransferirFuncionario | 33 | Citado | `Petrus.RH/Classes/Funcionarios.cs:208` |  |
-| 53 | DY3Engine.Criar | 103 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 53 | DY3Engine.Criar | 103 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DY7Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | DY7Engine.AfastarFuncionario | 32 | Citado | `Petrus.RH/Classes/Funcionarios.cs:172` |  |
-| 51 | DY7Engine.Criar | 94 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:14` | classe TemaPetrus |
+| 51 | DY7Engine.Criar | 94 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Interfaces/frmAdmissao.cs`
 

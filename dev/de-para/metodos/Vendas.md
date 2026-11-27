@@ -1,10 +1,10 @@
 # Métodos: Vendas (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 79 · Via form: 74 · Falta: 49 · Equivalente: 16 · Citado (conferir): 9 · Citado: 9 · Via S39: 9 · Sem uso no desktop: 3 · Nome+Async: 1 · Nome sem Con: 1
+**Situação:** Via form: 88 · Mesmo nome: 82 · Falta: 39 · Equivalente: 14 · Via S39: 9 · Citado: 9 · Em branch: 3 · Sem uso no desktop: 3 · Não se aplica: 1 · Nome+Async: 1 · Nome sem Con: 1
 
 ## `Vendas/Classes/Clientes.cs`
 
@@ -43,25 +43,25 @@ Voltar: [[dev/de-para/README|De → para]]
 | 2661 | PedidosVenda.GetAliquotaICMS | 29 | Mesmo nome | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:1356` | classe CalculoPedidoVenda |
 | 2691 | PedidosVenda.GerarR50 | 620 | Mesmo nome | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:1004` | classe CalculoPedidoVenda |
 | 3312 | PedidosVenda.CalculaR50 | 446 | Mesmo nome | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:1170` | classe CalculoPedidoVenda |
-| 3759 | PedidosVenda.CalculaRR3 | 81 | Citado (conferir) | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:22` |  |
+| 3759 | PedidosVenda.CalculaRR3 | 81 | Não se aplica | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs:22` | só criava os botões da aba de anexos |
 | 3846 | PedidosVenda.VerificarFaturamento | 1301 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Verificacao.cs:20` |  |
-| 5148 | PedidosVenda.ReativarR13 | 65 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:331` |  |
+| 5148 | PedidosVenda.ReativarR13 | 65 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:337` |  |
 | 5218 | PedidosVenda.DevolverR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Devolucao.cs:30` |  |
-| 5294 | PedidosVenda.BloquearR13 | 50 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:281` |  |
+| 5294 | PedidosVenda.BloquearR13 | 50 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:287` |  |
 | 5346 | PedidosVenda.FaturarPedidoR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:54` |  |
-| 5862 | PedidosVenda.LancarContasR13 | 39 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:437` |  |
-| 5903 | PedidosVenda.LancarEstoqueR13 | 94 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:465` |  |
-| 5997 | PedidosVenda.EstornarLiberacaoR13 | 72 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:358` |  |
-| 6069 | PedidosVenda.LiberarR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:241` |  |
+| 5862 | PedidosVenda.LancarContasR13 | 39 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:443` |  |
+| 5903 | PedidosVenda.LancarEstoqueR13 | 94 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:471` |  |
+| 5997 | PedidosVenda.EstornarLiberacaoR13 | 72 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:364` |  |
+| 6069 | PedidosVenda.LiberarR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:247` |  |
 | 6180 | PedidosVenda.IntegrarR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Cadastro.cs:53` |  |
-| 6276 | PedidosVenda.EmbarcarR13 | 58 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:386` |  |
-| 6336 | PedidosVenda.AtualizaDuplicatasR50Massa | 61 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:11` |  |
-| 6397 | PedidosVenda.CriarComissoesR13 | 49 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
-| 6448 | PedidosVenda.AtualizaNumeroDocumentoR13Massa | 228 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
-| 6678 | PedidosVenda.EstornarR13Massa | 219 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:11` |  |
-| 6898 | PedidosVenda.CriaComissaoR13Estorno | 48 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
+| 6276 | PedidosVenda.EmbarcarR13 | 58 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:392` |  |
+| 6336 | PedidosVenda.AtualizaDuplicatasR50Massa | 61 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:11` |  |
+| 6397 | PedidosVenda.CriarComissoesR13 | 49 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
+| 6448 | PedidosVenda.AtualizaNumeroDocumentoR13Massa | 228 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
+| 6678 | PedidosVenda.EstornarR13Massa | 219 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:11` |  |
+| 6898 | PedidosVenda.CriaComissaoR13Estorno | 48 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
 | 6947 | PedidosVenda.CriaComissaoR13 | 38 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:237` |  |
-| 6985 | PedidosVenda.CriaComissaoR13Massa | 40 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
+| 6985 | PedidosVenda.CriaComissaoR13Massa | 40 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs:12` |  |
 | 7025 | PedidosVenda.MinutaDespachoR13 | 170 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:173` |  |
 | 7196 | PedidosVenda.EnviarSeparacaoR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:78` |  |
 | 7424 | PedidosVenda.EstornarR13 | 1 | Citado | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:16` |  |
@@ -94,9 +94,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 16 | R13Engine.StatusR13 | 39 | Mesmo nome | `Petrus.Vendas/Engines/R13Engine.cs:17` |  |
-| 55 | R13Engine.EstornarAdiantamentoR13 | 34 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:414` | classe PedidosVenda |
+| 55 | R13Engine.EstornarAdiantamentoR13 | 34 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:420` | classe PedidosVenda |
 | 89 | R13Engine.IntegrarR13 | 18 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Cadastro.cs:53` | classe PedidosVenda |
-| 107 | R13Engine.CancelarR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:303` | classe PedidosVenda |
+| 107 | R13Engine.CancelarR13 | 1 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:309` | classe PedidosVenda |
 | 180 | R13Engine.DestinoR13 | 62 | Mesmo nome | `Petrus.Vendas/Engines/R13Engine.cs:33` |  |
 
 ## `Vendas/Engines/R2Engine.cs`
@@ -107,9 +107,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 281 | R2Engine.TelefonesImportacaoR2 | 333 | **Falta** |  | pendente da SS8-221 |
 | 616 | R2Engine.QuadroSocietarioR2 | 38 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:167` | classe RotinasCadastro |
 | 654 | R2Engine.StatusR2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:37` |  |
-| 669 | R2Engine.TelefonesR2 | 64 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.Cadastro.cs:333` |  |
+| 669 | R2Engine.TelefonesR2 | 64 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 733 | R2Engine.EmailR2 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:38` |  |
-| 786 | R2Engine.CriarR2 | 304 | **Falta** |  | Importar Easy (importação de outro sistema) e LerXML do frmInterface |
+| 786 | R2Engine.CriarR2 | 304 | Em branch | `Petrus.Vendas/Engines/R2Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy (importação de outro sistema) e LerXML do frmInterface |
 
 ## `Vendas/Engines/R38Engine.cs`
 
@@ -129,13 +129,13 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R47Engine.CriarR47 | 84 | **Falta** |  | Importar Easy e LerXML |
+| 12 | R47Engine.CriarR47 | 84 | Em branch | `Petrus.Vendas/Engines/R47Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy e LerXML |
 
 ## `Vendas/Engines/R48Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | R48Engine.CriarR48 | 94 | **Falta** |  | Importar Easy |
+| 16 | R48Engine.CriarR48 | 94 | Em branch | `Petrus.Vendas/Engines/R48Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy |
 
 ## `Vendas/Engines/R4Engine.cs`
 
@@ -144,7 +144,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 13 | R4Engine.VincularR4Con | 136 | Nome sem Con | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
 | 150 | R4Engine.VincularR4 | 136 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
 | 287 | R4Engine.EmailR4 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:46` |  |
-| 339 | R4Engine.TelefonesR4 | 61 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:18` |  |
+| 339 | R4Engine.TelefonesR4 | 61 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 400 | R4Engine.StatusR4 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:38` |  |
 
 ## `Vendas/Engines/R54Engine.cs`
@@ -177,7 +177,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 29 | frmAdiantarPedido.btnOK_Click | 73 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAdiantarPedido |
-| 102 | frmAdiantarPedido.CarregaDados | 39 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 102 | frmAdiantarPedido.CarregaDados | 39 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 141 | frmAdiantarPedido.frmAdiantarPedido_Load | 9 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAdiantarPedido |
 | 151 | frmAdiantarPedido.txtPortador_IconRightClick | 18 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAdiantarPedido |
 | 169 | frmAdiantarPedido.txtPortador_Validated | 31 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAdiantarPedido |
@@ -190,7 +190,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 24 | frmAnexosPedido.frmAnexosPedido_Load | 5 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAnexosPedido |
-| 29 | frmAnexosPedido.CarregaDados | 22 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 29 | frmAnexosPedido.CarregaDados | 22 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 57 | frmAnexosPedido.VerificaLinhas | 46 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAnexosPedido |
 | 104 | frmAnexosPedido.Anexos | 70 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Edicoes.cs:418` | classe PedidosVenda |
 | 175 | frmAnexosPedido.sfDataGridAnexos_CellButtonClick | 57 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmAnexosPedido |
@@ -203,38 +203,38 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmCliente.frmCliente_Load | 12 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
-| 37 | frmCliente.sfDataGrid_CellDoubleClick | 8 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
-| 46 | frmCliente.btnConfirmar1_Click | 23 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
-| 70 | frmCliente.btnCancelar1_Click | 4 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
-| 76 | frmCliente.timerPesquisa_Tick | 76 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
-| 152 | frmCliente.txtPesquisa_TextChanged | 10 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
-| 163 | frmCliente.frmCliente_Shown | 4 | **Falta** |  | atalho do frmInterface para escolher/criar cliente (conferir se a lupa cobre); evento de tela |
+| 24 | frmCliente.frmCliente_Load | 12 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
+| 37 | frmCliente.sfDataGrid_CellDoubleClick | 8 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
+| 46 | frmCliente.btnConfirmar1_Click | 23 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
+| 70 | frmCliente.btnCancelar1_Click | 4 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
+| 76 | frmCliente.timerPesquisa_Tick | 76 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
+| 152 | frmCliente.txtPesquisa_TextChanged | 10 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
+| 163 | frmCliente.frmCliente_Shown | 4 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmCliente |
 
 ## `Vendas/Interfaces/frmCondPagto.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmCondPagto.Ok | 108 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre) |
-| 132 | frmCondPagto.btnOK_Click | 4 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
-| 137 | frmCondPagto.frmCondPagto_Load | 19 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
-| 157 | frmCondPagto.btnCancelar_Click | 4 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
-| 161 | frmCondPagto.txtParcelas_KeyDown | 7 | **Falta** |  | atalho do frmInterface para condição de pagamento (conferir se a lupa cobre); evento de tela |
+| 24 | frmCondPagto.Ok | 108 | **Falta** |  | ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326) |
+| 132 | frmCondPagto.btnOK_Click | 4 | **Falta** |  | ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
+| 137 | frmCondPagto.frmCondPagto_Load | 19 | **Falta** |  | ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
+| 157 | frmCondPagto.btnCancelar_Click | 4 | **Falta** |  | ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
+| 161 | frmCondPagto.txtParcelas_KeyDown | 7 | **Falta** |  | ícone de dinheiro do N47_ID no cadastro (CriarAmbiente.cs:609): portador + parcelas acha ou cria a N47 (CriarN47). Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
 
 ## `Vendas/Interfaces/frmCortarItens.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 35 | frmCortarItens.Colunas | 65 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 101 | frmCortarItens.ObterDecimal | 9 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 111 | frmCortarItens.Valor | 9 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 121 | frmCortarItens.frmCortarItens_Load | 61 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 183 | frmCortarItens.Calcula | 45 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 229 | frmCortarItens.MontaCortes | 48 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 278 | frmCortarItens.btnOK_Click | 20 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 299 | frmCortarItens.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 304 | frmCortarItens.sfDataGrid_CurrentCellEndEdit | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
-| 309 | frmCortarItens.sfDataGrid_RecordDeleted | 4 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:37` | Cortar itens da aba |
+| 35 | frmCortarItens.Colunas | 65 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
+| 101 | frmCortarItens.ObterDecimal | 9 | Mesmo nome | `ERPBlazor/Components/Pages/MES/Order.razor:638` | classe Order |
+| 111 | frmCortarItens.Valor | 9 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:142` | classe LeituraExcel |
+| 121 | frmCortarItens.frmCortarItens_Load | 61 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
+| 183 | frmCortarItens.Calcula | 45 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
+| 229 | frmCortarItens.MontaCortes | 48 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
+| 278 | frmCortarItens.btnOK_Click | 20 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
+| 299 | frmCortarItens.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
+| 304 | frmCortarItens.sfDataGrid_CurrentCellEndEdit | 4 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
+| 309 | frmCortarItens.sfDataGrid_RecordDeleted | 4 | Via form | `ERPBlazor/Components/Shared/CortarItensDialog.razor:3` | frmCortarItens |
 
 ## `Vendas/Interfaces/frmCortesPedido.cs`
 
@@ -242,7 +242,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 35 | frmCortesPedido.frmCortesPedido_Load | 8 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmCortesPedido |
 | 44 | frmCortesPedido.Colunas | 105 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
-| 150 | frmCortesPedido.CarregaDados | 25 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 150 | frmCortesPedido.CarregaDados | 25 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 176 | frmCortesPedido.btnEstornar_Click | 119 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmCortesPedido |
 | 296 | frmCortesPedido.btnFechar_Click | 4 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmCortesPedido |
 
@@ -251,8 +251,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 15 | frmEdicaoEntrega.btnCancelar_Click | 4 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoEntrega |
-| 27 | frmEdicaoEntrega.CarregaDados | 18 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
-| 46 | frmEdicaoEntrega.Editar | 22 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:203` | classe MisturaReceitas |
+| 27 | frmEdicaoEntrega.CarregaDados | 18 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 46 | frmEdicaoEntrega.Editar | 22 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:199` | classe MisturaReceitas |
 | 69 | frmEdicaoEntrega.btnOK_Click | 5 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoEntrega |
 | 75 | frmEdicaoEntrega.frmEdicaoEntrega_Load | 4 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoEntrega |
 | 80 | frmEdicaoEntrega.txtPesoBruto_Validated | 15 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoEntrega |
@@ -265,7 +265,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 15 | frmEdicaoOutros.frmEdicaoOutros_Load | 5 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoOutros |
-| 28 | frmEdicaoOutros.CarregaDados | 19 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 28 | frmEdicaoOutros.CarregaDados | 19 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 47 | frmEdicaoOutros.btnOK_Click | 57 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoOutros |
 | 105 | frmEdicaoOutros.btnCancelar_Click | 4 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoOutros |
 
@@ -275,8 +275,8 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 15 | frmEdicaoVendedor.btnCancelar_Click | 4 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoVendedor |
 | 20 | frmEdicaoVendedor.btnOK_Click | 6 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoVendedor |
-| 36 | frmEdicaoVendedor.CarregaDados | 21 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
-| 58 | frmEdicaoVendedor.Editar | 100 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:203` | classe MisturaReceitas |
+| 36 | frmEdicaoVendedor.CarregaDados | 21 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
+| 58 | frmEdicaoVendedor.Editar | 100 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor:199` | classe MisturaReceitas |
 | 159 | frmEdicaoVendedor.txtVendedor_IconRightClick | 18 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoVendedor |
 | 177 | frmEdicaoVendedor.txtVendedor_Validated | 31 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoVendedor |
 | 209 | frmEdicaoVendedor.frmEdicaoVendedor_Load | 4 | Via form | `Petrus.Vendas/Classes/PedidosVenda.cs:85` | frmEdicaoVendedor |
@@ -346,7 +346,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 49 | frmPerfilVendedor.frmPerfilVendedor_Load | 79 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 132 | frmPerfilVendedor.CarregaRecebimentos | 20 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 152 | frmPerfilVendedor.CarregaVendas | 26 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
-| 178 | frmPerfilVendedor.CarregaDados | 142 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 178 | frmPerfilVendedor.CarregaDados | 142 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 321 | frmPerfilVendedor.CarregaTitulosAberto | 47 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 379 | frmPerfilVendedor.Ocorrencias | 32 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 411 | frmPerfilVendedor.Resumo | 25 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:703` | classe ResultadoBancoDados |
@@ -357,7 +357,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 559 | frmPerfilVendedor.CarregaFechamento | 13 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 572 | frmPerfilVendedor.CarregaContasBancarias | 14 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 586 | frmPerfilVendedor.BackGroundWorkerDoWork | 18 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
-| 606 | frmPerfilVendedor.CriarControles | 13 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:141` | classe ReportList |
+| 606 | frmPerfilVendedor.CriarControles | 13 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:138` | classe ReportList |
 | 619 | frmPerfilVendedor.Recebimentos | 156 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
 | 776 | frmPerfilVendedor.Vendas | 168 | Mesmo nome | `Petrus.Vendas/Classes/PerfisVendas.cs:272` | classe Vendas |
 | 945 | frmPerfilVendedor.Pagamento | 78 | Via form | `Petrus.Vendas/AcoesCadastros.cs:29` | frmPerfilVendedor |
@@ -421,7 +421,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 10 | PerformanceVendas.PerformanceMensal | 45 | Mesmo nome | `Petrus.Vendas/Reports/PerformanceVendas.cs:14` |  |
-| 56 | PerformanceVendas.MetaPorVendedor | 70 | Mesmo nome | `Petrus.Vendas/Reports/PerformanceVendas.cs:34` |  |
+| 56 | PerformanceVendas.MetaPorVendedor | 76 | Mesmo nome | `Petrus.Vendas/Reports/PerformanceVendas.cs:34` |  |
 
 ## `Vendas/Reports/RankingVendas.cs`
 

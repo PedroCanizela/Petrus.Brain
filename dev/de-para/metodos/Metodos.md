@@ -1,10 +1,10 @@
 # Métodos: Metodos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Em branch: 42 · Equivalente: 34 · Não se aplica: 32 · Mesmo nome: 6 · Citado: 6 · Citado (conferir): 4 · Falta: 1
+**Situação:** Em branch: 42 · Equivalente: 38 · Não se aplica: 32 · Mesmo nome: 6 · Citado: 6 · Falta: 1
 
 ## `Metodos/CloudflareR2.cs`
 
@@ -15,7 +15,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 130 | CloudflareR2.GerarUrl | 31 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
 | 167 | CloudflareR2.UploadFoto | 112 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
 | 285 | CloudflareR2.GerarUrlPublica | 8 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
-| 300 | CloudflareR2.PublicarFotosG6 | 155 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 300 | CloudflareR2.PublicarFotosG6 | 157 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
 
 ## `Metodos/CriarAmbiente.cs`
 
@@ -25,34 +25,34 @@ Voltar: [[dev/de-para/README|De → para]]
 | 107 | RodapesCampos.AplicaCaixaNumerico | 31 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
 | 138 | RodapesCampos.txtValor_MouseClick | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
 | 142 | RodapesCampos.sfDataGrid_QueryRowHeight | 18 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 161 | RodapesCampos.CreateFields | 2840 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3001 | RodapesCampos.AplicarCorMargem | 32 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3033 | RodapesCampos.Cbb_MouseWheel | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3038 | RodapesCampos.Txt_TextChanged | 9 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3048 | RodapesCampos.Txt_LostFocus | 10 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3061 | RodapesCampos.SfListViewSugestoes_KeyDown | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3069 | RodapesCampos.SfListViewSugestoes_MouseClick | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3081 | Item.ToString | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3086 | Item.InserirTextoSelecionado | 15 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3101 | Item.BuscarSugestoesDoBanco | 29 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3134 | Item.CriarComboMotoristas | 37 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3180 | Item.Txt_KeyDown | 208 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3391 | Item.SfListViewSugestoes_SelectionChanged | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3399 | Item.btnEscolherImagem | 37 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 3444 | Item.AcessarInterface | 915 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 4362 | Item.CreateColumns | 375 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 4737 | Item.CreateColumnsRelatorio | 385 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 5122 | Item.CreateColumnsInteracao | 356 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 5478 | Item.CreateSumariesRelatorios | 148 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 5627 | Item.CreateSumaries | 102 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 5736 | Telas.GetDataSource | 203 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 5939 | Telas.SfListView1_SelectionChanged | 288 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 6227 | Telas.SfListView1_DrawItem | 20 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 6249 | Telas.CreateListView | 186 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 6437 | Telas.PopulateComboBox | 127 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 6568 | Telas.sfDataGrid1_QueryRowStyle | 97 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 6666 | Telas.sfDataGrid1_QueryCellStyle | 57 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
-| 6724 | Telas.CreateGroups | 297 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 161 | RodapesCampos.CreateFields | 2854 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3015 | RodapesCampos.AplicarCorMargem | 32 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3047 | RodapesCampos.Cbb_MouseWheel | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3052 | RodapesCampos.Txt_TextChanged | 9 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3062 | RodapesCampos.Txt_LostFocus | 10 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3075 | RodapesCampos.SfListViewSugestoes_KeyDown | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3083 | RodapesCampos.SfListViewSugestoes_MouseClick | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3095 | Item.ToString | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3100 | Item.InserirTextoSelecionado | 15 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3115 | Item.BuscarSugestoesDoBanco | 29 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3148 | Item.CriarComboMotoristas | 37 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3194 | Item.Txt_KeyDown | 208 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3405 | Item.SfListViewSugestoes_SelectionChanged | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3413 | Item.btnEscolherImagem | 37 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 3458 | Item.AcessarInterface | 915 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 4376 | Item.CreateColumns | 375 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 4751 | Item.CreateColumnsRelatorio | 385 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5136 | Item.CreateColumnsInteracao | 356 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5492 | Item.CreateSumariesRelatorios | 148 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5641 | Item.CreateSumaries | 102 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5750 | Telas.GetDataSource | 203 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 5953 | Telas.SfListView1_SelectionChanged | 288 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6241 | Telas.SfListView1_DrawItem | 20 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6263 | Telas.CreateListView | 186 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6451 | Telas.PopulateComboBox | 127 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6582 | Telas.sfDataGrid1_QueryRowStyle | 97 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6680 | Telas.sfDataGrid1_QueryCellStyle | 57 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
+| 6738 | Telas.CreateGroups | 297 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | monta grades/campos do WinForms |
 
 ## `Metodos/CriarPDF.cs`
 
@@ -86,12 +86,12 @@ Voltar: [[dev/de-para/README|De → para]]
 | 117 | EnviosEmail.RotinaEmail | 180 | Mesmo nome | `Petrus.Core/Utils/EnvioEmail.cs:9` | classe RotinaEmail |
 | 299 | EnviosEmail.PreparaEmailBoleto | 1 | Citado | `Petrus.Financeiro/Classes/EnvioBoletos.cs:25` |  |
 | 656 | EnviosEmail.PreparaEmailNFe | 1 | Citado | `Petrus.Fiscal/NotaFiscal/EmailNFe.cs:7` |  |
-| 964 | EnviosEmail.PreparaEmailComissao | 1 | Citado (conferir) | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:259` |  |
+| 964 | EnviosEmail.PreparaEmailComissao | 1 | Equivalente | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:259` |  |
 | 1180 | EnviosEmail.PreparaEmailVendedor | 1 | Citado | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:14` |  |
 | 1346 | EnviosEmail.PreparaEmailCotacaoFrete | 1 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Emails.cs:10` |  |
-| 1608 | EnviosEmail.PreparaEmailDeposito | 1 | Citado (conferir) | `Petrus.Vendas/Classes/PedidosVenda.Emails.cs:10` |  |
+| 1608 | EnviosEmail.PreparaEmailDeposito | 1 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Emails.cs:10` |  |
 | 2030 | ParametrosEmail.EnviarEmail | 55 | Mesmo nome | `Petrus.Financeiro/Classes/EnvioBoletos.cs:105` | classe EnvioBoletos |
-| 2086 | ParametrosEmail.EnviarEmailSMTP | 1 | Citado (conferir) | `Petrus.Core/Utils/EnvioEmail.cs:16` |  |
+| 2086 | ParametrosEmail.EnviarEmailSMTP | 1 | Equivalente | `Petrus.Core/Utils/EnvioEmail.cs:16` |  |
 
 ## `Metodos/EnviosWhatsApp.cs`
 
@@ -144,10 +144,10 @@ Voltar: [[dev/de-para/README|De → para]]
 | 78 | ExportarGrid.ExportarGridExcel | 56 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:28` |  |
 | 134 | ExportarGrid.ExportarGridPDF | 83 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:36` |  |
 | 217 | ExportarGrid.ExportarModelo | 61 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:32` |  |
-| 278 | ExportarGrid.ImprimirGrid | 39 | Citado (conferir) | `Petrus.Core/Utils/ExportarGrid.cs:35` |  |
+| 278 | ExportarGrid.ImprimirGrid | 39 | Equivalente | `Petrus.Core/Utils/ExportarGrid.cs:35` | impressão do navegador |
 | 319 | ExportarGrid.Options_CellExporting | 7 | **Falta** |  | evento de tela |
 | 327 | ExportarGrid.ExportarGridPDF | 167 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:36` |  |
-| 498 | ExportarGrid.ExportarGridRelatorioPDF | 346 | Citado | `ERPBlazor/Components/Pages/Report.razor:549` |  |
+| 498 | ExportarGrid.ExportarGridRelatorioPDF | 346 | Citado | `ERPBlazor/Components/Pages/Report.razor:608` |  |
 
 ## `Metodos/GerarEtiquetas.cs`
 

@@ -1,6 +1,6 @@
 # Funções (S39): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:05. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | S39 | Função | Tabela | Situação | Métodos no desktop | Onde está no Web |
 |---:|---|---|---|---|---|
@@ -8,6 +8,7 @@
 | 100320 | Ler retorno | 100873 | não implementada no desktop |  |  |
 | 100379 | Concluir agendamento | Agendamento (RM20) | Tem | `ConcluirRM20` (CRM/Classes/Agendamentos.cs:12) | `Petrus.Vendas/AcoesCRM.cs:20` |
 | 100380 | Cancelar agendamento | Agendamento (RM20) | Tem | `CancelarRM20` (CRM/Classes/Agendamentos.cs:31) | `Petrus.Vendas/AcoesCRM.cs:20` |
+| 100535 | Atualizar anúncio | Anúncios de marketplace (HB2) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
 | 100177 | Exportar xml suframa | Arquivo suframa (L56) | Descartado | `ExportarXmlSuframaL56` (Sistema/Interfaces/frmInterface.cs:37389) |  |
 | 100225 | Exportar xml nfe | Arquivo suframa (L56) | Descartado | `ExportarXmlL56` (Sistema/Interfaces/frmInterface.cs:5128) |  |
 | 100349 | Exportar catalogo | Catalogo (RR8) | Tem | `ExportarCatalogoRR8` (CRM/Classes/Catalogo.cs:25) | `Petrus.Vendas/AcoesTabelasPreco.cs:23` |
@@ -52,6 +53,8 @@
 | 100423 | Negociar titulo | Contas à receber (N22) | Tem | `NegociarN22` (Financeiro/Engines/N22Engine.cs:37) | `Petrus.Financeiro/AcoesFinanceiro.cs:83` |
 | 100113 | Estornar recebimento | Contas à receber x recebimentos (N43) | Tem | `EstornarRecebimentoN43` (Sistema/Interfaces/frmInterface.cs:7708) | `Petrus.Financeiro/AcoesFinanceiro.cs:83` |
 | 100114 | Exportar recibo | Contas à receber x recebimentos (N43) | Tem | `ExportarReciboN43` (Sistema/Interfaces/frmInterface.cs:13004) | `Petrus.Financeiro/AcoesFinanceiro.cs:85` |
+| 100530 | Autorizar no marketplace | Contas de marketplace (HB1) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
+| 100531 | Importar anúncios | Contas de marketplace (HB1) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
 | 100259 | Aprovar cotação | Cotação (I70) | Tem | `AprovarI70` (Compras/Classes/Cotacoes.cs:26) | `Petrus.Compras/AcoesCompras.cs:22` |
 | 100270 | Cancelar cotação | Cotação (I70) | Tem | `CancelarI70` (Compras/Classes/Cotacoes.cs:160) | `Petrus.Compras/AcoesCompras.cs:22` |
 | 100312 | Baixar crédito | Crédito pendente (N93) | Tem | `BaixarN93` (Financeiro/Engines/N93Engine.cs:182) | `Petrus.Financeiro/AcoesFinanceiro.cs:84` |
@@ -71,12 +74,12 @@
 | 100086 | Lançamento | Estoque (G17) | Tem | `LancamentoEstoqueG17` (Sistema/Interfaces/frmInterface.cs:32492) | `Petrus.Estoque/AcoesEstoque.cs:30` |
 | 100089 | Transferência | Estoque (G17) | Tem | `TransferenciaG17` (Sistema/Interfaces/frmInterface.cs:32699) | `Petrus.Estoque/AcoesEstoque.cs:30` |
 | 100390 | Estornar movimento | Estoque (G17) | Tem | `EstornarG17` (Estoque/Engines/G17Engine.cs:15) | `Petrus.Estoque/AcoesEstoque.cs:30` |
-| 100118 | Cancelar expedição | Expedição (J10) | Tem | `CancelarJ10` (Logistica/Classes/Expedicoes.cs:2030) | `Petrus.Logistica/AcoesLogistica.cs:34` |
-| 100171 | Embarcar expedição | Expedição (J10) | Tem | `EmbarcarJ10` (Logistica/Classes/Expedicoes.cs:1638) | `Petrus.Logistica/AcoesLogistica.cs:34` |
-| 100173 | Faturar expedição | Expedição (J10) | Tem | `FaturarJ10` (Logistica/Classes/Expedicoes.cs:1866) | `Petrus.Logistica/AcoesLogistica.cs:38` |
-| 100226 | Emitir manifesto | Expedição (J10) | Tem | `GerarMDFeJ10` (Logistica/Classes/Expedicoes.cs:1553) | `Petrus.Logistica/AcoesLogistica.cs:38` |
-| 100227 | Reativar expedição | Expedição (J10) | Tem | `ReativarJ10` (Logistica/Classes/Expedicoes.cs:1965) | `Petrus.Logistica/AcoesLogistica.cs:34` |
-| 100228 | Liberar expedição | Expedição (J10) | Tem | `LiberarJ10` (Logistica/Classes/Expedicoes.cs:1458) | `Petrus.Logistica/AcoesLogistica.cs:34` |
+| 100118 | Cancelar expedição | Expedição (J10) | Tem | `CancelarJ10` (Logistica/Classes/Expedicoes.cs:2267) | `Petrus.Logistica/AcoesLogistica.cs:34` |
+| 100171 | Embarcar expedição | Expedição (J10) | Tem | `EmbarcarJ10` (Logistica/Classes/Expedicoes.cs:1875) | `Petrus.Logistica/AcoesLogistica.cs:34` |
+| 100173 | Faturar expedição | Expedição (J10) | Tem | `FaturarJ10` (Logistica/Classes/Expedicoes.cs:2103) | `Petrus.Logistica/AcoesLogistica.cs:38` |
+| 100226 | Emitir manifesto | Expedição (J10) | Tem | `GerarMDFeJ10` (Logistica/Classes/Expedicoes.cs:1790) | `Petrus.Logistica/AcoesLogistica.cs:38` |
+| 100227 | Reativar expedição | Expedição (J10) | Tem | `ReativarJ10` (Logistica/Classes/Expedicoes.cs:2202) | `Petrus.Logistica/AcoesLogistica.cs:34` |
+| 100228 | Liberar expedição | Expedição (J10) | Tem | `LiberarJ10` (Logistica/Classes/Expedicoes.cs:1695) | `Petrus.Logistica/AcoesLogistica.cs:34` |
 | 100388 | Controle de saída | Expedição (J10) | Tem | `ExportarControleJ10` (Sistema/Interfaces/frmInterface.cs:12407) | `Petrus.Logistica/AcoesLogistica.cs:38` |
 | 100389 | Ordem de separação | Expedição (J10) | Tem | `OrdemSeparacaoJ10` (Sistema/Interfaces/frmInterface.cs:13127) | `Petrus.Logistica/AcoesLogistica.cs:38` |
 | 100502 | Canhotos de entrega | Expedição (J10) | não implementada no desktop |  |  |
@@ -164,6 +167,7 @@
 | 100463 | Imprimir etiqueta | Ordem de produção (V1) | Tem | `ImprimirEtiquetaCadastro` (Sistema/Interfaces/frmInterface.cs:47162) | `Petrus.Industrial/AcoesOrdemProducao.cs:27` |
 | 100496 | Gerar requisição | Ordem de produção (V1) | Tem | `GerarRequisicaoV1` (Sistema/Interfaces/frmInterface.cs:27382) | `Petrus.Estoque/AcoesRequisicoes.cs:22` |
 | 100464 | Imprimir etiqueta | Ordem de separação (J7) | Tem | `ImprimirEtiquetaCadastro` (Sistema/Interfaces/frmInterface.cs:47162) | `Petrus.Logistica/AcoesLogistica.cs:35` |
+| 100536 | Baixa manual de pacote | Pacotes (GX3) | não implementada no desktop |  |  |
 | 100068 | Cancelar pedido | Pedido de compra (I14) | Tem | `CancelarI14` (Compras/Classes/PedidosCompra.cs:1659) | `Petrus.Compras/AcoesCompras.cs:22` |
 | 100069 | Reativar pedido | Pedido de compra (I14) | Tem | `ReativarI14` (Compras/Classes/PedidosCompra.cs:1635) | `Petrus.Compras/AcoesCompras.cs:22` |
 | 100070 | Efetivar pedido | Pedido de compra (I14) | Tem | `EfetivarI14` (Compras/Classes/PedidosCompra.cs:1507) | `Petrus.Compras/AcoesCompras.cs:22` |
@@ -223,6 +227,8 @@
 | 100392 | Lançamento | Produto (G6) | Tem | `LancamentoEstoqueG6` (Sistema/Interfaces/frmInterface.cs:32439) | `Petrus.Estoque/AcoesEstoque.cs:30` |
 | 100433 | Alterar empresa | Produto (G6) | Tem | `AlterarEmpresaG6` (Sistema/Interfaces/frmInterface.cs:6574) | `Petrus.Estoque/AcoesProduto.cs:26` |
 | 100461 | Imprimir etiqueta | Produto (G6) | Tem | `ImprimirEtiquetaCadastro` (Sistema/Interfaces/frmInterface.cs:47162) | `Petrus.Estoque/AcoesProduto.cs:26` |
+| 100533 | Publicar anúncio | Produto (G6) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
+| 100534 | Atualizar anúncio | Produto (G6) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
 | 100156 | Gerar remessa | Remessa (N44) | Tem | `GerarRemessaN44` (Sistema/Interfaces/frmInterface.cs:31504) | `Petrus.Financeiro/AcoesFinanceiro.cs:87` |
 | 100370 | Estornar remessa | Remessa (N44) | Tem | `EstornarN44` (Financeiro/Engines/N44Engine.cs:16) | `Petrus.Financeiro/AcoesFinanceiro.cs:87` |
 | 100490 | Enviar requisição | Requisição de material (GX6) | Tem | `AlterarStatusGX6` (Estoque/Engines/GX6Engine.cs:172) | `Petrus.Estoque/AcoesRequisicoes.cs:22` |

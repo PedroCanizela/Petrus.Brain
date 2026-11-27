@@ -1,10 +1,10 @@
 # Métodos: Integracao (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 13 · Falta: 4 · Citado (conferir): 4 · Mesmo nome: 3
+**Situação:** Via form: 13 · Falta: 4 · Equivalente: 4 · Mesmo nome: 3
 
 ## `Integracao/Interfaces/Serasa/frmSerasa.cs`
 
@@ -40,8 +40,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 19 | Header.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
-| 35 | TempoDeRelacionamento.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
-| 54 | Titulo.ToString | 20 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
-| 84 | Trailer.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
+| 19 | Header.ToString | 4 | Equivalente | `Petrus.Financeiro/Classes/ArquivoSerasa.cs:30` | Header/TempoDeRelacionamento/Titulo/Trailer viraram as linhas do arquivo |
+| 35 | TempoDeRelacionamento.ToString | 4 | Equivalente | `Petrus.Financeiro/Classes/ArquivoSerasa.cs:30` | Header/TempoDeRelacionamento/Titulo/Trailer viraram as linhas do arquivo |
+| 54 | Titulo.ToString | 20 | Equivalente | `Petrus.Financeiro/Classes/ArquivoSerasa.cs:30` | Header/TempoDeRelacionamento/Titulo/Trailer viraram as linhas do arquivo |
+| 84 | Trailer.ToString | 4 | Equivalente | `Petrus.Financeiro/Classes/ArquivoSerasa.cs:30` | Header/TempoDeRelacionamento/Titulo/Trailer viraram as linhas do arquivo |
 

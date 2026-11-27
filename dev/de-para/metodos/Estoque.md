@@ -1,10 +1,10 @@
 # Métodos: Estoque (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 48 · Via form: 35 · Equivalente: 8 · Citado: 5 · Via S39: 4 · Sem uso no desktop: 2 · Citado (conferir): 1
+**Situação:** Mesmo nome: 52 · Via form: 36 · Citado: 5 · Via S39: 4 · Equivalente: 4 · Sem uso no desktop: 2
 
 ## `Estoque/Classes/LocaisEstoque.cs`
 
@@ -52,7 +52,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | G32Engine.CalculaG32 | 14 | Citado | `ERPBlazor/Components/Pages/MES/Estrutura.razor:368` |  |
+| 12 | G32Engine.CalculaG32 | 14 | Citado | `ERPBlazor/Components/Pages/MES/Estrutura.razor:364` |  |
 
 ## `Estoque/Engines/G36Engine.cs`
 
@@ -94,7 +94,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 105 | G6Engine.ReativarG6 | 31 | Via S39 | `Petrus.Estoque/AcoesProduto.cs:26` | S39 100219 Reativar produto |
 | 137 | G6Engine.CalculaG6 | 15 | Mesmo nome | `Petrus.Industrial/Classes/Moldes.cs:49` | classe Moldes |
 | 153 | G6Engine.CriarG6 | 178 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
-| 332 | G6Engine.StatusG6 | 15 | Citado (conferir) | `Petrus.Core/Cadastros/StatusInclusao.cs:12` |  |
+| 332 | G6Engine.StatusG6 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:30` |  |
 
 ## `Estoque/Engines/GX6Engine.cs`
 
@@ -105,7 +105,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 77 | ItemEntrega.AtualizarGX6 | 58 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:100` | classe GX6Engine |
 | 136 | ItemEntrega.Cabecalho | 13 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:115` | classe GX6Engine |
 | 150 | ItemEntrega.StatusAtual | 5 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:119` | classe GX6Engine |
-| 156 | ItemEntrega.Inteiro | 4 | Mesmo nome | `Petrus.Core/Utils/ZplPdf.cs:221` | classe Layout |
+| 156 | ItemEntrega.Inteiro | 4 | Mesmo nome | `Petrus.Core/Utils/ZplPdf.cs:251` | classe Layout |
 | 162 | ItemEntrega.RMI | 5 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:226` | classe GX6Engine |
 | 172 | ItemEntrega.AlterarStatusGX6 | 107 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:140` | classe GX6Engine |
 | 284 | ItemEntrega.ItensEntrega | 35 | Mesmo nome | `Petrus.Estoque/Engines/GX6Engine.cs:234` | classe GX6Engine |
@@ -123,7 +123,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 99 | frmBalanco.txtProduto_IconRightClick | 17 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmBalanco |
 | 119 | frmBalanco.txtQtd_Validated | 16 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmBalanco |
 | 136 | frmBalanco.btnCancelar_Click | 5 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmBalanco |
-| 143 | frmBalanco.Confirmar | 90 | Mesmo nome | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:150` | classe IncluirProdutosDialog |
+| 143 | frmBalanco.Confirmar | 90 | Mesmo nome | `ERPBlazor/Components/Shared/ImportacaoExcelDialog.razor:213` | classe Escolha |
 | 236 | frmBalanco.btnOK_Click | 4 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmBalanco |
 | 241 | frmBalanco.frmBalanco_Load | 10 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmBalanco |
 | 251 | frmBalanco.txtProduto_KeyDown | 30 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmBalanco |
@@ -135,17 +135,17 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 90 | frmEntregaRequisicao.Coluna | 11 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
-| 102 | frmEntregaRequisicao.Numero | 12 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
-| 115 | frmEntregaRequisicao.Carregar | 12 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
-| 128 | frmEntregaRequisicao.Preencher | 14 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
-| 143 | frmEntregaRequisicao.Confirmar | 31 | Equivalente | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:1` | SS8-137 (sem marca MIGRADO FORM) |
+| 90 | frmEntregaRequisicao.Coluna | 11 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:167` | classe LeituraExcel |
+| 102 | frmEntregaRequisicao.Numero | 12 | Mesmo nome | `Petrus.Hub/Conectores/MercadoLivre/MercadoLivreConnector.cs:553` | classe MercadoLivreConnector |
+| 115 | frmEntregaRequisicao.Carregar | 12 | Mesmo nome | `Petrus.Boleto/Boleto/EspecieDocumento/EspecieDocumento_Votorantim.cs:110` | classe EspecieDocumento_Votorantim |
+| 128 | frmEntregaRequisicao.Preencher | 14 | Via form | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:3` | frmEntregaRequisicao |
+| 143 | frmEntregaRequisicao.Confirmar | 31 | Mesmo nome | `ERPBlazor/Components/Shared/ImportacaoExcelDialog.razor:213` | classe Escolha |
 
 ## `Estoque/Interfaces/frmLancamentoEstoque.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 29 | frmLancamentoEstoque.Confirmar | 50 | Mesmo nome | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:150` | classe IncluirProdutosDialog |
+| 29 | frmLancamentoEstoque.Confirmar | 50 | Mesmo nome | `ERPBlazor/Components/Shared/ImportacaoExcelDialog.razor:213` | classe Escolha |
 | 82 | frmLancamentoEstoque.btnOK_Click | 4 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmLancamentoEstoque |
 | 89 | frmLancamentoEstoque.txtProduto_Validated | 67 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmLancamentoEstoque |
 | 157 | frmLancamentoEstoque.txtProduto_IconRightClick | 17 | Via form | `Petrus.Estoque/AcoesEstoque.cs:31` | frmLancamentoEstoque |

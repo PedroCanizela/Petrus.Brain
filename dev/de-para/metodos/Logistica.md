@@ -1,30 +1,36 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 20 · Mesmo nome: 20 · Falta: 17 · Via S39: 7 · Equivalente: 4 · Citado (conferir): 4 · Citado: 3 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
+**Situação:** Via form: 27 · Mesmo nome: 23 · Falta: 12 · Equivalente: 8 · Via S39: 7 · Citado: 4 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
 
 ## `Logistica/Classes/Expedicoes.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 37 | Expedicoes.ControleSaida | 149 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:212` |  |
-| 187 | Expedicoes.CalculaJ50 | 227 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:235` |  |
-| 415 | Expedicoes.CalculaJ51 | 200 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:311` |  |
-| 616 | Expedicoes.CalculaJ23 | 363 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:83` |  |
-| 979 | Expedicoes.CalculaJ35 | 181 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:362` |  |
-| 1160 | Expedicoes.CalculaJ38 | 115 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:29` |  |
-| 1275 | Expedicoes.CalculaJ39 | 115 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:23` |  |
-| 1393 | Expedicoes.EnviarNFeSefazJ10 | 64 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
-| 1458 | Expedicoes.LiberarJ10 | 94 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.cs:64` |  |
-| 1553 | Expedicoes.GerarMDFeJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:119` |  |
-| 1638 | Expedicoes.EmbarcarJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.cs:109` |  |
-| 1848 | Expedicoes.FaturaPedidoJ10 | 17 | Citado (conferir) | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:11` |  |
-| 1866 | Expedicoes.FaturarJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:29` |  |
-| 1965 | Expedicoes.ReativarJ10 | 63 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100227 Reativar expedição |
-| 2030 | Expedicoes.CancelarJ10 | 1 | Citado | `Petrus.Logistica/AcoesLogistica.cs:95` |  |
+| 191 | Expedicoes.EstoqueQRCode | 8 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:315` |  |
+| 208 | Expedicoes.SqlEstoque | 33 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:330` |  |
+| 249 | Expedicoes.QtdComparada | 9 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:371` |  |
+| 259 | Expedicoes.CalculaJ50 | 249 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:392` |  |
+| 509 | Expedicoes.CalculaJ51 | 197 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:483` |  |
+| 713 | Expedicoes.CriarColunaNroPedidoJ23 | 18 | **Falta** |  |  |
+| 734 | Expedicoes.NroPedidoJ23 | 55 | **Falta** |  |  |
+| 793 | Expedicoes.PedidoPorNroDocumentoJ23 | 56 | Citado | `Petrus.Core/Cadastros/BuscaGrade.cs:18` |  |
+| 850 | Expedicoes.CalculaJ23 | 366 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:175` |  |
+| 1216 | Expedicoes.CalculaJ35 | 181 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:531` |  |
+| 1397 | Expedicoes.CalculaJ38 | 115 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:30` |  |
+| 1512 | Expedicoes.CalculaJ39 | 115 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:24` |  |
+| 1630 | Expedicoes.EnviarNFeSefazJ10 | 64 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
+| 1695 | Expedicoes.LiberarJ10 | 94 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.cs:64` |  |
+| 1790 | Expedicoes.GerarMDFeJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:119` |  |
+| 1875 | Expedicoes.EmbarcarJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.cs:109` |  |
+| 2085 | Expedicoes.FaturaPedidoJ10 | 17 | Equivalente | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:11` |  |
+| 2103 | Expedicoes.FaturarJ10 | 1 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Documentos.cs:29` |  |
+| 2202 | Expedicoes.ReativarJ10 | 63 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100227 Reativar expedição |
+| 2267 | Expedicoes.CancelarJ10 | 1 | Citado | `Petrus.Logistica/AcoesLogistica.cs:95` |  |
 
 ## `Logistica/Classes/Incidentes.cs`
 
@@ -64,9 +70,9 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 18 | J2Engine.VincularJ2 | 136 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:25` | classe Origem |
 | 155 | J2Engine.TelefonesImportacaoJ2 | 329 | **Falta** |  | pendente da SS8-221 |
-| 485 | J2Engine.TelefonesJ2 | 64 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:17` |  |
+| 485 | J2Engine.TelefonesJ2 | 64 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 549 | J2Engine.StatusJ2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:44` |  |
-| 566 | J2Engine.CoordenadasJ2 | 76 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:17` |  |
+| 566 | J2Engine.CoordenadasJ2 | 76 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:197` |  |
 | 643 | J2Engine.EmailJ2 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:41` |  |
 | 694 | J2Engine.EmailImportacaoJ2 | 267 | **Falta** |  | pendente da SS8-221 |
 
@@ -74,7 +80,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 11 | J40Engine.CoordenadasJ40 | 77 | Citado (conferir) | `Petrus.Core/Cadastros/RotinasCadastro.cs:19` |  |
+| 11 | J40Engine.CoordenadasJ40 | 77 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:197` |  |
 
 ## `Logistica/Engines/JJ2Engine.cs`
 
@@ -95,7 +101,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 5 | ZebraPrinter.Enviar | 4 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs:538` | classe EventosRTC |
+| 5 | ZebraPrinter.Enviar | 4 | Mesmo nome | `Petrus.Hub/Conectores/MercadoLivre/MercadoLivreConnector.cs:480` | classe MercadoLivreConnector |
 
 ## `Logistica/Interfaces/frmEtiqueta.cs`
 
@@ -138,8 +144,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 29 | frmPedidosXProduto.frmPedidosXProduto_Load | 37 | **Falta** |  | pedidos do produto, aberto no frmInterface (conferir); evento de tela |
-| 70 | frmPedidosXProduto.sfDataGrid_CellButtonClick | 29 | **Falta** |  | pedidos do produto, aberto no frmInterface (conferir); evento de tela |
+| 29 | frmPedidosXProduto.frmPedidosXProduto_Load | 37 | **Falta** |  | botão das abas Expedição x produtos/faltas (S9 101372/101373): pedidos com o produto e retirar pedido da expedição. Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
+| 70 | frmPedidosXProduto.sfDataGrid_CellButtonClick | 29 | **Falta** |  | botão das abas Expedição x produtos/faltas (S9 101372/101373): pedidos com o produto e retirar pedido da expedição. Form sem S39: aguardando o Pedro (SS8-326); evento de tela |
 
 ## `Logistica/Interfaces/frmPesquisaPedidos.cs`
 
@@ -156,13 +162,13 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 39 | frmTransportadora.sfDataGrid_CellDoubleClick | 8 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
-| 48 | frmTransportadora.btnConfirmar1_Click | 23 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
-| 72 | frmTransportadora.btnCancelar1_Click | 4 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
-| 79 | frmTransportadora.timerPesquisa_Tick | 76 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
-| 155 | frmTransportadora.txtPesquisa_TextChanged | 10 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
-| 165 | frmTransportadora.frmTransportadora_Activated | 5 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
-| 171 | frmTransportadora.frmTransportadora_Shown | 4 | **Falta** |  | atalho do frmInterface para transportadora (conferir se a lupa cobre); evento de tela |
+| 39 | frmTransportadora.sfDataGrid_CellDoubleClick | 8 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
+| 48 | frmTransportadora.btnConfirmar1_Click | 23 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
+| 72 | frmTransportadora.btnCancelar1_Click | 4 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
+| 79 | frmTransportadora.timerPesquisa_Tick | 76 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
+| 155 | frmTransportadora.txtPesquisa_TextChanged | 10 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
+| 165 | frmTransportadora.frmTransportadora_Activated | 5 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
+| 171 | frmTransportadora.frmTransportadora_Shown | 4 | Via form | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` | frmTransportadora |
 
 ## `Logistica/Reports/SimulacaoExpedicao.cs`
 

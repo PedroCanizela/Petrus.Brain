@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:40 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 23:15 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -205,8 +205,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 f9e5b616 Merge branch 'master' into feature/ss8-31-conferencia-pedido-qrcode
 - 2026-11-12 d640c795 SS8-31: Funções de permissão da conferência de pedido (JO1)
 - 2026-11-12 85b45f97 Merge SS8-26: Tela padrão de impressão de etiquetas pelo cadastro (GX4)
-- 2026-11-12 66ff7341 SS8-26: Tela padrão de impressão de etiquetas pelo cadastro (GX4)
-- 2026-11-12 0e2fda07 Merge SS8-30: Estrutura de dados do WMS por QR Code (GX5, JO1, GX1, GX2)
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -255,6 +253,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 2063e3d SS8-319: importação de pedido/tabela de preço por planilha no Web (Aferi Pratic, Aferi Decorplast, Aferi, Easy e Gerador)
 - 2026-11-26 497cd19 SS8-325: metas por vendedor no Web e frmMetasResponsavel descartado
 - 2026-11-26 0f6fc21 SS8-320: Gerar parcelas nas abas de duplicatas I59, IX11, I49 e R50
 - 2026-11-26 82fc0d5 SS8-322: Grade de produtos, Incluir feirinha e Pesquisa pedidos nas abas do Details
@@ -826,9 +825,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 083662b SS8-28: Validação de pacotes por QR Code (entrada no estoque)
 - 2026-11-12 f33e367 Merge SS8-31: Conferência de pedido por QR Code (Profiable)
 - 2026-11-12 be3fb98 SS8-31: Permissão da conferência pela S72 do Petrus
-- 2026-11-12 ae2c9f4 SS8-31: Conferência de pedido por QR Code completa
-- 2026-11-12 627ff35 Merge SS8-34: Monitor de produção por célula
-- 2026-11-12 c836264 Merge SS8-35: Monitor de TV da expedicao (Profiable)
 
 ## Petrus.FV
 Branch atual: master

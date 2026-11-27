@@ -1,10 +1,10 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 108 · Equivalente: 25 · Citado (conferir): 15 · Conferir: 11 · Citado: 7 · Via form: 5 · Falta: 4 · Não se aplica: 2 · Nome+Async: 2 · Sem uso no desktop: 2 · Via S39: 1
+**Situação:** Mesmo nome: 112 · Equivalente: 33 · Via form: 14 · Citado: 7 · Não se aplica: 5 · Sem uso no desktop: 4 · Falta: 4 · Nome+Async: 2 · Via S39: 1
 
 ## `Fiscal/Calculos/CalculosImpostos.cs`
 
@@ -64,18 +64,18 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 40 | frmEventosNFe.frmEventosNFe_Load | 20 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 61 | frmEventosNFe.Colunas | 28 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 90 | frmEventosNFe.Texto | 11 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 102 | frmEventosNFe.CarregarHistorico | 7 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 110 | frmEventosNFe.sfDataGrid_QueryCellStyle | 13 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 124 | frmEventosNFe.sfDataGrid_SelectionChanged | 4 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 134 | frmEventosNFe.AtualizarBotoes | 10 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 145 | frmEventosNFe.btnNovo_Click | 24 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 170 | frmEventosNFe.btnCancelar_Click | 37 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 208 | frmEventosNFe.btnComprovante_Click | 23 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 232 | frmEventosNFe.btnXml_Click | 30 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
-| 263 | frmEventosNFe.btnFechar_Click | 4 | Equivalente | `ERPBlazor/Components/Services/FormulariosFuncoes.cs:200` | SS8-165 |
+| 40 | frmEventosNFe.frmEventosNFe_Load | 20 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 61 | frmEventosNFe.Colunas | 28 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
+| 90 | frmEventosNFe.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ConsultaTrocaMolde.cs:76` | classe ConsultaTrocaMolde |
+| 102 | frmEventosNFe.CarregarHistorico | 7 | Mesmo nome | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:122` | classe EventosNFeDialog |
+| 110 | frmEventosNFe.sfDataGrid_QueryCellStyle | 13 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 124 | frmEventosNFe.sfDataGrid_SelectionChanged | 4 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 134 | frmEventosNFe.AtualizarBotoes | 10 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 145 | frmEventosNFe.btnNovo_Click | 24 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 170 | frmEventosNFe.btnCancelar_Click | 37 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 208 | frmEventosNFe.btnComprovante_Click | 23 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 232 | frmEventosNFe.btnXml_Click | 30 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
+| 263 | frmEventosNFe.btnFechar_Click | 4 | Via form | `ERPBlazor/Components/Shared/EventosNFeDialog.razor:3` | frmEventosNFe |
 
 ## `Fiscal/Interfaces/frmInutilizacao.cs`
 
@@ -106,14 +106,14 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 50 | ConfiguracaoDamdfe.ObterLogo | 8 | Conferir |  | configuração do DAMDFE |
+| 50 | ConfiguracaoDamdfe.ObterLogo | 8 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | logo da empresa (S1_LOGO) e parâmetros no ImpressoesMDFe.Damdfe |
 
 ## `Fiscal/Manifesto/ConfiguracaoDao.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 23 | ConfiguracaoDao.SalvarConfiguracao | 11 | Conferir |  | configuração do DAMDFE |
-| 35 | ConfiguracaoDao.BuscarConfiguracao | 17 | Conferir |  | configuração do DAMDFE |
+| 23 | ConfiguracaoDao.SalvarConfiguracao | 11 | Sem uso no desktop |  | ConfiguracaoMDFe.xml local: ninguém instancia |
+| 35 | ConfiguracaoDao.BuscarConfiguracao | 17 | Sem uso no desktop |  | ConfiguracaoMDFe.xml local: ninguém instancia |
 
 ## `Fiscal/Manifesto/CriarMDFe.cs`
 
@@ -126,15 +126,15 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 44 | DamdfeFrMDFe.RegisterData | 5 | Conferir |  | DAMDFE em FastReport |
-| 50 | DamdfeFrMDFe.Configurar | 8 | Conferir |  | DAMDFE em FastReport |
-| 63 | DamdfeFrMDFe.Visualizar | 4 | Conferir |  | DAMDFE em FastReport |
+| 44 | DamdfeFrMDFe.RegisterData | 5 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
+| 50 | DamdfeFrMDFe.Configurar | 8 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
+| 63 | DamdfeFrMDFe.Visualizar | 4 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
 | 73 | DamdfeFrMDFe.ExibirDesign | 4 | Não se aplica |  | designer do FastReport |
-| 83 | DamdfeFrMDFe.Imprimir | 6 | Conferir |  | DAMDFE em FastReport |
-| 94 | DamdfeFrMDFe.ExportarPdf | 5 | Conferir |  | DAMDFE em FastReport |
-| 104 | DamdfeFrMDFe.ExportarPdf | 6 | Conferir |  | DAMDFE em FastReport |
-| 116 | DamdfeFrMDFe.ExportarPdf | 8 | Conferir |  | DAMDFE em FastReport |
-| 130 | DamdfeFrMDFe.ExportarPdf | 9 | Conferir |  | DAMDFE em FastReport |
+| 83 | DamdfeFrMDFe.Imprimir | 6 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
+| 94 | DamdfeFrMDFe.ExportarPdf | 5 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
+| 104 | DamdfeFrMDFe.ExportarPdf | 6 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
+| 116 | DamdfeFrMDFe.ExportarPdf | 8 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
+| 130 | DamdfeFrMDFe.ExportarPdf | 9 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | DAMDFE com o MDFeRetrato.frx no FastReport.OpenSource (SS8-155) |
 
 ## `Fiscal/Manifesto/EventosMDFe.cs`
 
@@ -148,7 +148,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 27 | ImpressoesMDFe.ExportarXML | 23 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:39` | classe ImpressoesNFe |
-| 52 | ImpressoesMDFe.ExportarDAMDFE | 1 | Citado (conferir) | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:13` |  |
+| 52 | ImpressoesMDFe.ExportarDAMDFE | 1 | Equivalente | `Petrus.Fiscal/Manifesto/ImpressoesMDFe.cs:39` | ImpressoesMDFe.Damdfe |
 
 ## `Fiscal/NaturezasOperacao.cs`
 
@@ -157,9 +157,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 17 | NaturezasOperacao.CalculaX53 | 81 | Mesmo nome | `Petrus.Fiscal/NaturezasOperacao.cs:86` |  |
 | 99 | NaturezasOperacao.CalculaX18 | 108 | Mesmo nome | `Petrus.Fiscal/NaturezasOperacao.cs:30` |  |
 | 208 | NaturezasOperacao.CalculaX19 | 108 | Mesmo nome | `Petrus.Fiscal/NaturezasOperacao.cs:33` |  |
-| 316 | NaturezasOperacao.CalculaX43 | 108 | Citado (conferir) | `Petrus.Fiscal/CalculoCadastroFiscal.cs:16` |  |
-| 425 | NaturezasOperacao.CalculaX50 | 59 | Citado (conferir) | `Petrus.Fiscal/CalculoCadastroFiscal.cs:16` |  |
-| 484 | NaturezasOperacao.CalculaX51 | 68 | Citado (conferir) | `Petrus.Fiscal/NaturezasOperacao.cs:14` |  |
+| 316 | NaturezasOperacao.CalculaX43 | 108 | Não se aplica | `Petrus.Fiscal/CalculoCadastroFiscal.cs:16` | sem grade no Web |
+| 425 | NaturezasOperacao.CalculaX50 | 59 | Não se aplica | `Petrus.Fiscal/CalculoCadastroFiscal.cs:16` | só botões de busca (a lupa da PlanilhaAba busca) |
+| 484 | NaturezasOperacao.CalculaX51 | 68 | Não se aplica | `Petrus.Fiscal/NaturezasOperacao.cs:14` | só botões de busca (a lupa da PlanilhaAba busca) |
 | 554 | NaturezasOperacao.CalculaX20 | 108 | Mesmo nome | `Petrus.Fiscal/NaturezasOperacao.cs:36` |  |
 | 662 | NaturezasOperacao.CalculaX17 | 108 | Mesmo nome | `Petrus.Fiscal/NaturezasOperacao.cs:27` |  |
 | 771 | NaturezasOperacao.BloquearX13 | 1 | Citado | `Petrus.Fiscal/AcoesNaturezas.cs:7` |  |
@@ -230,10 +230,10 @@ Voltar: [[dev/de-para/README|De → para]]
 | 16 | DanfeFastBase.Visualizar | 4 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:437` | classe PlanilhaAba |
 | 26 | DanfeFastBase.ExibirDesign | 4 | Não se aplica |  | designer do FastReport |
 | 36 | DanfeFastBase.Imprimir | 6 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
-| 47 | DanfeFastBase.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 56 | DanfeFastBase.ExportarPdf | 13 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 75 | DanfeFastBase.ExportarPdf | 8 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
-| 89 | DanfeFastBase.ExportarPdf | 9 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:531` | classe PeriodoSalvo |
+| 47 | DanfeFastBase.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
+| 56 | DanfeFastBase.ExportarPdf | 13 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
+| 75 | DanfeFastBase.ExportarPdf | 8 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
+| 89 | DanfeFastBase.ExportarPdf | 9 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
 
 ## `Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs`
 
@@ -247,18 +247,18 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 43 | EventosNFe.CancelarNFeR7 | 1 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:69` |  |
-| 240 | EventosNFe.CancelarNFeI11 | 1 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:69` |  |
-| 452 | EventosNFe.CartaCorrecaoNFeI11 | 1 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:125` |  |
-| 673 | EventosNFe.CartaCorrecaoNFeR7 | 1 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:125` |  |
-| 886 | EventosNFe.ConsultarNFe | 95 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:166` |  |
-| 982 | EventosNFe.InutilizarNFe | 66 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:188` |  |
+| 43 | EventosNFe.CancelarNFeR7 | 1 | Equivalente | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:98` | Cancelar(Tipo R7/I11) |
+| 240 | EventosNFe.CancelarNFeI11 | 1 | Equivalente | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:98` | Cancelar(Tipo R7/I11) |
+| 452 | EventosNFe.CartaCorrecaoNFeI11 | 1 | Equivalente | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:152` | CartaCorrecao(Tipo R7/I11) |
+| 673 | EventosNFe.CartaCorrecaoNFeR7 | 1 | Equivalente | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:152` | CartaCorrecao(Tipo R7/I11) |
+| 886 | EventosNFe.ConsultarNFe | 95 | Equivalente | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:193` | Consultar |
+| 982 | EventosNFe.InutilizarNFe | 66 | Equivalente | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:217` | Inutilizar |
 
 ## `Fiscal/NotaFiscal/EventosRTC.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 62 | TipoEventoRTC.ToString | 4 | Citado (conferir) | `Petrus.Atualizador/EnvioErros.cs:185` |  |
+| 62 | TipoEventoRTC.ToString | 4 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs:65` | TipoEventoRTC.ToString |
 | 107 | ItemEventoRTC.Recalcular | 5 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs:110` |  |
 | 182 | EventosRTC.DescricaoEvento | 6 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs:188` |  |
 | 191 | EventosRTC.CarregarNota | 71 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs:197` |  |
@@ -287,8 +287,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | 182 | ImpressoesNFe.ExportarDANFE | 155 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
 | 338 | ImpressoesNFe.ArmazenarDanfePasta | 22 | **Falta** |  | cópia do DANFE numa pasta da rede (pasta por empresa) |
 | 361 | ImpressoesNFe.ExportarDANFE | 1 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
-| 550 | ImpressoesNFe.ExportarCancelamentoNFe | 110 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:127` |  |
-| 660 | ImpressoesNFe.ExportarCartaCorrecaoNFe | 115 | Citado (conferir) | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:127` |  |
+| 550 | ImpressoesNFe.ExportarCancelamentoNFe | 110 | Equivalente | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:127` |  |
+| 660 | ImpressoesNFe.ExportarCartaCorrecaoNFe | 115 | Equivalente | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:127` |  |
 
 ## `Fiscal/NotaFiscal/NotasEntrada.cs`
 
@@ -297,9 +297,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 38 | NotasEntrada.CalculaI49 | 262 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:607` |  |
 | 300 | NotasEntrada.GerarI49 | 278 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | Gerar parcelas da aba de duplicatas (I49) da nota de entrada |
 | 579 | NotasEntrada.CalculaI46 | 1405 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:45` |  |
-| 1985 | NotasEntrada.LancarContasI11Importacao | 38 | Citado (conferir) | `Petrus.Compras/Classes/DocumentosEntrada.cs:149` |  |
+| 1985 | NotasEntrada.LancarContasI11Importacao | 38 | Equivalente | `Petrus.Compras/Classes/DocumentosEntrada.cs:150` | LancarContasImportacao |
 | 2025 | NotasEntrada.LancarContasI11 | 209 | Citado | `Petrus.Compras/Classes/DocumentosEntrada.cs:13` |  |
-| 2234 | NotasEntrada.LancarEstoqueI11 | 31 | Citado (conferir) | `Petrus.Compras/Classes/DocumentosEntrada.cs:13` |  |
+| 2234 | NotasEntrada.LancarEstoqueI11 | 31 | Equivalente | `Petrus.Compras/Classes/DocumentosEntrada.cs:168` | LancarEstoqueI57 com I11/I46 |
 
 ## `Fiscal/NotaFiscal/NotasMultaJuros.cs`
 

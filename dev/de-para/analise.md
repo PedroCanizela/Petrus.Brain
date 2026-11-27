@@ -14,9 +14,9 @@ lados, está nas páginas geradas ([[dev/de-para/README|De → para]]). Esta pá
 | Telas (S6) | 363 | **todas abrem** (genérica `/Table` `/Report` ou página própria) |
 | Funções (S39) | 275 | 260 migradas + 3 descartadas; as **12 restantes não existem nem no desktop** |
 | Relatórios (S7) | 247 | 162 com gerador + 82 genéricos; **3 faltam** (100149 Desempenho, 100150 Lucratividade, 100154 CMV), sem gerador nem no desktop |
-| Catálogos (`Dados.cs`) | 33 | todos iguais, menos o **S10: 2 campos** só no desktop |
-| Forms com código | 137 | **12 faltam** (8 do ERP + 4 do PDV de venda); caixa do PDV no repo `Petrus.PDV`; Customizador fica no desktop |
-| Métodos | 3.688 | **102 métodos (~11.900 linhas) faltam de verdade**, 35 deles da venda do PDV; 75 para conferir |
+| Catálogos (`Dados.cs`) | 33 | todos iguais, menos o **S10: 2 campos** só no desktop (incluídos na SS8-326, branch `claude/ss8-326-ade518`) |
+| Forms com código | 137 | **12 faltam** (8 do ERP + 4 do PDV de venda); caixa do PDV no repo `Petrus.PDV`; Customizador fica no desktop. SS8-326: frmCliente e frmTransportadora cobertos pela lupa; frmCondPagto e frmPedidosXProduto aguardam o Pedro |
+| Métodos | 3.688 | **102 métodos (~11.900 linhas) faltam de verdade**, 35 deles da venda do PDV; os 75 "para conferir" foram conferidos na SS8-326 (ver o fim da página) |
 
 Os métodos que faltam se concentram em 9 assuntos:
 
@@ -48,6 +48,11 @@ A SS8-210 (Aferi da Pratic) foi feita só no desktop.
 | `Vendas/Engines/R2Engine.cs:786` `CriarR2`, `R47Engine.cs:12`, `R48Engine.cs:16`, `Financeiro/Engines/N47Engine.cs:16` | 561 | cadastros que a Easy cria |
 
 Gatilho no desktop: `frmInterface.cs:1960–2035`. Memória: [[importacao-aferi-pratic]].
+
+> **SS8-319 (26/11/2026), em branch `feature/ss8-319-importacao-planilha-pedido`, aguardando aprovação:** tudo isto portado
+> para o Web (`Petrus.Vendas/Classes/ImportacaoPlanilha.cs`, engines R2/R47/R48 no Vendas e N47 no Financeiro, leitor
+> `LeituraExcel.LerPasta` no Core, botão "Importar planilha" na barra da aba do /Details). Memória [[importacao-planilha-pedido-web]].
+> Fica de fora o `ExportarGrid.ImportarGridExcel` genérico das outras grades/tabelas (R43 de outras empresas).
 
 ## 2. Telefones e e-mails na importação de planilha (pendente da SS8-221)
 
@@ -82,10 +87,10 @@ O `/Details` mostra esses botões, mas eles só avisam "use o desktop" (`ERPBlaz
 |---|---:|---|---|
 | `Vendas/Interfaces/frmMetaVendas.cs` | 398 | grade do R4 (`Metodos/CriarAmbiente.cs:3531`) | metas de venda por mês (S77_VALOR_META_2) |
 | `Compras/Interfaces/frmMetasResponsavel.cs` | 332 | nenhuma chamada achada | metas por responsável: confirmar se ainda é usado |
-| `Vendas/Interfaces/frmCliente.cs` | 168 | `frmInterface.cs:57985` | atalho de cliente: **conferir** se a lupa do Web cobre |
-| `Vendas/Interfaces/frmCondPagto.cs` | 169 | `frmInterface.cs:57830` | idem, condição de pagamento (cria N47) |
-| `Logistica/Interfaces/frmTransportadora.cs` | 176 | `frmInterface.cs:57907` | idem, transportadora |
-| `Logistica/Interfaces/frmPedidosXProduto.cs` | 100 | `frmInterface.cs:69595` | pedidos do produto |
+| ~~`Vendas/Interfaces/frmCliente.cs`~~ | 168 | lupa do R2_ID (`frmInterface.cs:57985`) | SS8-326: **coberto** pela lupa do Web (`PesquisaCompletaDialog`, busca por ID/nome/CNPJ sem pontuação): `MIGRADO FORM` |
+| `Vendas/Interfaces/frmCondPagto.cs` | 169 | ícone de dinheiro do N47_ID (`CriarAmbiente.cs:609`, `frmInterface.cs:57830`) | portador + parcelas ("30/60/90") acha ou **cria** a N47. Não tem no Web: form sem S39, **perguntado ao Pedro** na SS8-326 |
+| ~~`Logistica/Interfaces/frmTransportadora.cs`~~ | 176 | lupa do J2_ID (`frmInterface.cs:57907`) | SS8-326: **coberto** pela lupa do Web: `MIGRADO FORM` |
+| `Logistica/Interfaces/frmPedidosXProduto.cs` | 100 | botão das abas Expedição x produtos/faltas (S9 101372/101373, `frmInterface.cs:69595`) | pedidos da expedição com o produto e **retirar pedido** da expedição. Não tem no Web (nem na SS8-322): **perguntado ao Pedro** na SS8-326 |
 | `Vendas/Interfaces/frmGradeProduto.cs`, `Logistica/Interfaces/frmPesquisaPedidos.cs` | | | ver item 3 |
 
 ## 5. Outras funções do sistema
@@ -98,13 +103,18 @@ O `/Details` mostra esses botões, mas eles só avisam "use o desktop" (`ERPBlaz
 | Cadastro de empresa e usuário novos pelo login (teste grátis, assinatura, cartão) | `Sistema/Interfaces/frmLogin.cs:542` `CriarEmpresa`, `:1063` `CriaModulos`, `:2146` `CriarUsuario`, `:1756` `VerificarAssinatura`… (~1.300 linhas) | **Falta**: decidir se vai para o Web ou para o site |
 | NFC-e (DANFCE) | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` `ExportarDANFCE`, `DANFE/DanfeSharedHelper.cs:20` | **Falta**: fase 4 do Petrus.PDV (item 0) |
 | Cópia do DANFE numa pasta da rede | `ImpressoesNFe.cs:338` `ArmazenarDanfePasta` | **Falta** (pequeno) |
-| Memória dos filtros do relatório (S84) | `ParametrosSistema.cs:134` `SalvaPreferencias`, `frmFiltroRelatorio` | **Parcial**: o Web lembra só o período (`Report.razor:360`) |
-| "Atrasado" do controle de qualidade ao abrir a lista | `Qualidade/Engines/K5Engine.cs:100` | **Parcial**: o Web recalcula ao editar e ao mudar o status (`Petrus.Manutencao/AcoesQualidade.cs:39`) |
+| Memória dos filtros do relatório (na **S80**, não na S84) | `ParametrosSistema.cs:134` `SalvaPreferencias`, `frmFiltroRelatorio` | **Feito na SS8-326** (branch): `Petrus.Core/Sistema/ParametrosSistema.cs` + `Filters.razor`, com o parâmetro `SALVA_PREFERENCIA_RELATORIO` |
+| "Atrasado" do controle de qualidade ao abrir a lista | `Qualidade/Engines/K5Engine.cs:100` `AtualizarSituacaoK5` | **Feito na SS8-326** (branch): `Petrus.Manutencao/Engines/K5Engine.cs`, chamado pela `/Table` (K5 e interações 100182/100183) |
+| Atraso do N9 e do N22 na lista principal | `N9Engine.CalculaAtrasoN9`, `N22Engine.CalculaAtrasoFinanceiroN22` (`Funcoes.CarregaGrid` "Primario") | **Feito na SS8-326** (branch): a `/Table` não calculava nenhum dos dois (só o `/Report` fazia o do N22) |
+| Importação xml (tela 102898) | `frmInterface.LerXML`, ramo `S6_ID == 102898` | **Falta**: cliente (R2/R48/R47) pelo destinatário e cond. pagto `CondPagtoImportacao`. O Web importa só nota de entrada de fornecedor (`ImportacaoXmlEntrada`) |
 
 ## 6. Catálogo S10 do Web atrasado em 2 campos
 
 Só no `Dados.cs` do desktop: **123457** (Motorista `B1_ID` na tabela 100472) e **123458** (`S2_SENHA_HASH` no S2).
-Resolve com `Scripts\SincronizarCatalogos.ps1` (sem `-Relatorio`).
+**Feito na SS8-326** (branch), à mão, num método à parte (`S10.cs` `CriarS10Complemento`). **Não rode o
+`SincronizarCatalogos.ps1` sem `-Relatorio` no S10**: ele copia o corpo do `CriarS10` do desktop por cima e tira as
+chamadas ao `CriarS10AgentesIA`/`CriarS10Complemento`, que existem para não estourar a pilha (SS8-235/289). O relatório
+dele mostra o S10 como "diferente" por isso (8.265 × 8.336 linhas: os 69 campos dos agentes de IA estão em outro método).
 
 ## 7. Já feito, mas fora da master (branches não mescladas em 26/11)
 
@@ -125,18 +135,31 @@ Resolve com `Scripts\SincronizarCatalogos.ps1` (sem `-Relatorio`).
   (comentados no `Grid()` do V1), `LancamentoContabil`, `CriarN43`, `CriarN13`, `CriarG6`, `CriarR54/R56/R87`, `EnviarNFeSefazJ10`,
   `NovoRegistro`, `PausarV1`/`ReiniciarV1` etc. Lista completa: filtre "Sem uso no desktop" no `de-para-metodos.csv`.
 
-## Para conferir (75 métodos)
+## Para conferir: conferidos na SS8-326 (26/11/2026)
 
-Situações "Conferir" e "Citado (conferir)": o Web provavelmente cobre, mas só pelo nome num comentário. Destaques:
-`N9Engine.CalculaAtrasoN9` (dias de atraso do N9 ao listar), DAMDFE em FastReport (`Fiscal/Manifesto`), cores da OP
-(`OrdensProducao.ObterCoresPorNome`), fórmulas do `CalculoFolha` × `Custos/MaoObra.razor`, e o `LerXML` do frmInterface
-(2.344 linhas, coberto pela SS8-246: falta conferir os cadastros criados a partir do XML).
+Os 75 "Conferir"/"Citado (conferir)" foram olhados um a um e viraram linhas no `_manual.csv` (não sobra nenhum):
+- **Cobertos de verdade**: eventos e impressões da NF-e (`EventosNFe.Cancelar/CartaCorrecao/Consultar/Inutilizar`),
+  DAMDFE (`ImpressoesMDFe.Damdfe`, o `.frx` do desktop no FastReport.OpenSource), cores da OP (`OrdensProducao.Cores.cs`
+  `VincularCoresPeloNome`), telefones/e-mails/coordenadas (`RotinasCadastro`), status da inclusão (`StatusInclusao`),
+  faturamento em massa do R13, comissões, Serasa (`ArquivoSerasa`), e-mails.
+- **CalculoFolha × MaoObra**: fórmulas iguais (`CustosPrecificacao.cs:195`): INSS e FGTS 8% sem o prêmio (o desktop não
+  passa o prêmio), multa = FGTS/2, 13º e férias 12% de (salário + INSS + FGTS + multa), adicional de férias 0.
+- **Não se aplica**: os `Calcula*` que só criavam botões da aba de anexos ou de busca (IX7, IX8, NX7–NX9, RR3, X43, X50,
+  X51) e infra do WinForms (`CreateControls`, `Seleciona`, `RecarregarInterface`, `Habilita`).
+- **Faltava e foi feito**: `N9Engine.CalculaAtrasoN9` (ver item 5).
+- **LerXML**: o Web não cria cadastros a partir do XML (fornecedor I5/I41 e cond. pagto N47 recusam ou ficam em branco,
+  com aviso); falta o ramo da tela 102898 (item 5).
+
+Marcas `MIGRADO FORM` postas (17 forms + frmCliente, frmTransportadora e frmFiltroRelatorio). O e-mail do frmExportar
+(`btnEmail_Click`) continua "Falta" pela SS8-324.
 
 ## Achado no caminho: inventários contavam os worktrees do Claude
 
 `InventarioMigracao.ps1`, `InventarioRelatorios.ps1` e `CompararDesktopWeb.ps1` liam também `.claude\worktrees` (branches
 não mescladas). Assim, uma marca `MIGRADO`/`DESCARTADO` de uma branch contava como se estivesse na master. Corrigido em 26/11
-(mudança local no Petrus.ERP, sem commit). Foi por isso que os forms do Customizador apareciam como "Descartado".
+(commit c0e55c6). Foi por isso que os forms do Customizador apareciam como "Descartado". Na SS8-326 o filtro passou a olhar o
+caminho relativo à raiz do ERP (o worktree inteiro fica dentro de `.claude\worktrees` e era descartado) e o `GerarDePara.ps1`
+passa o `-Desktop` aos inventários. **Atenção:** gerar o de-para num worktree retrata aquela branch, não a master.
 
 ## Demandas abertas (26/11/2026)
 

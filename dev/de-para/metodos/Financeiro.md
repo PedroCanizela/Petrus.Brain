@@ -1,10 +1,10 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 237 · Mesmo nome: 119 · Descartado: 35 · Via S39: 17 · Equivalente: 17 · Citado: 13 · Citado (conferir): 6 · Sem uso no desktop: 4 · Nome+Async: 4 · Falta: 1 · Conferir: 1 · Nome+Con: 1
+**Situação:** Via form: 245 · Mesmo nome: 121 · Descartado: 35 · Via S39: 17 · Citado: 12 · Equivalente: 12 · Sem uso no desktop: 4 · Nome+Async: 4 · Não se aplica: 3 · Nome+Con: 2 · Em branch: 1
 
 ## `Financeiro/Classes/Cheques.cs`
 
@@ -19,13 +19,13 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 18 | Comissoes.RelatorioComissaoAgrupado | 75 | Citado | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:10` |  |
 | 94 | Comissoes.RelatorioComissao | 80 | Citado | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:37` |  |
-| 175 | Comissoes.EnviaRelatorioComissao | 18 | Citado (conferir) | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:123` |  |
+| 175 | Comissoes.EnviaRelatorioComissao | 18 | Equivalente | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:123` |  |
 
 ## `Financeiro/Classes/ContasPagar.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 25 | ContasPagar.CalculaNX7 | 59 | Citado (conferir) | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:11` |  |
+| 25 | ContasPagar.CalculaNX7 | 59 | Não se aplica | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:11` | só criava os botões da aba de anexos |
 | 86 | ContasPagar.ReativarN9 | 60 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100124 Reativar título |
 | 148 | ContasPagar.PagarN9 | 366 | Mesmo nome | `Petrus.Financeiro/Classes/ContasPagar.cs:399` |  |
 | 514 | ContasPagar.CancelarN9 | 1 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100091 Cancelar título |
@@ -38,7 +38,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 28 | ContasReceber.WhatsAppEnviadoN22 | 35 | Equivalente | `Petrus.Financeiro/Classes/EnvioBoletos.cs:31` | N22_ENVIADO_WHATSAPP depois do envio |
 | 64 | ContasReceber.EmailEnviadoN22 | 35 | Equivalente | `Petrus.Financeiro/Classes/EnvioBoletos.cs:31` | N22_ENVIADO depois do envio |
-| 99 | ContasReceber.CalculaNX8 | 59 | Citado (conferir) | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:14` |  |
+| 99 | ContasReceber.CalculaNX8 | 59 | Não se aplica | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:14` | só criava os botões da aba de anexos |
 | 160 | ContasReceber.CalcularNX5 | 75 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:80` |  |
 | 237 | ContasReceber.ReativarN22 | 57 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100123 Reativar título |
 | 295 | ContasReceber.BaixarN22 | 369 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:354` |  |
@@ -53,7 +53,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 20 | CreditoPendente.CancelarN93 | 1 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100313 Cancelar crédito |
-| 61 | CreditoPendente.CalculaNX9 | 59 | Citado (conferir) | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:15` |  |
+| 61 | CreditoPendente.CalculaNX9 | 59 | Não se aplica | `Petrus.Financeiro/Classes/CalculoCadastroFinanceiro.cs:15` | só criava os botões da aba de anexos |
 | 123 | CreditoPendente.EstornarN93 | 17 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100359 Estornar crédito |
 
 ## `Financeiro/Classes/CriarBoleto.cs`
@@ -120,7 +120,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 20 | N22Engine.StatusN22 | 17 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.Cadastro.cs:329` |  |
+| 20 | N22Engine.StatusN22 | 17 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:33` |  |
 | 37 | N22Engine.NegociarN22 | 32 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100423 Negociar titulo |
 | 70 | N22Engine.ReconciliarN22 | 28 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100371 Reconciliar titulo |
 | 98 | N22Engine.EmitirN22 | 35 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100417 Emitir titulo |
@@ -134,7 +134,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 633 | N22Engine.CalculaJurosN22 | 24 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:250` |  |
 | 658 | N22Engine.CalculaAtrasoPerfilN22 | 95 | Citado | `Petrus.Vendas/Classes/PerfisVendas.cs:318` |  |
 | 754 | N22Engine.CalculaProtestado | 16 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:215` |  |
-| 771 | N22Engine.CalculaAtrasoFinanceiroN22 | 118 | Citado | `ERPBlazor/Components/Pages/Report.razor:1037` |  |
+| 771 | N22Engine.CalculaAtrasoFinanceiroN22 | 118 | Citado | `ERPBlazor/Components/Pages/Report.razor:1103` |  |
 | 890 | N22Engine.CalculaFinanceiroN22 | 11 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 902 | N22Engine.OcorrenciaN83 | 86 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:198` |  |
 | 988 | N22Engine.OcorrenciaNX1 | 91 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:183` |  |
@@ -153,14 +153,14 @@ Voltar: [[dev/de-para/README|De → para]]
 | 135 | N3Engine.LancamentoN3Con | 120 | Sem uso no desktop |  | só o frmComando chama |
 | 256 | N3Engine.CriarComissaoN3Con | 119 | Mesmo nome | `Petrus.Financeiro/Engines/N3Engine.cs:12` |  |
 | 375 | N3Engine.CriarComissaoN3 | 121 | Nome+Con | `Petrus.Financeiro/Engines/N3Engine.cs:12` |  |
-| 496 | N3Engine.LancamentoN3 | 121 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:187` |  |
+| 496 | N3Engine.LancamentoN3 | 121 | Nome+Con | `Petrus.Financeiro/Engines/N3Engine.cs:31` |  |
 | 617 | N3Engine.CalculaSaldoComissaoN3 | 63 | Citado | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:11` |  |
 | 681 | N3Engine.AtualizaN3 | 43 | Citado | `Petrus.Financeiro/Classes/ContasReceber.cs:465` |  |
 | 724 | N3Engine.FechamentoN95 | 113 | Equivalente | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:40` | FechamentoComissaoR4 |
 | 837 | N3Engine.CalculaSaldoAtual | 83 | Citado | `Petrus.Vendas/Reports/RegrasRelatoriosGenericos.cs:98` |  |
 | 922 | N3Engine.GerarFechamento | 82 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:34` |  |
 | 1006 | N3Engine.PagamentoComissao | 185 | Citado | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:204` |  |
-| 1192 | N3Engine.FechamentoComissao | 47 | Citado (conferir) | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:10` |  |
+| 1192 | N3Engine.FechamentoComissao | 47 | Equivalente | `Petrus.Vendas/Classes/Vendedores.Comissoes.cs:10` |  |
 
 ## `Financeiro/Engines/N43Engine.cs`
 
@@ -181,7 +181,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | N47Engine.CriarN47 | 79 | **Falta** |  | só o Importar Easy e o frmCondPagto usam |
+| 16 | N47Engine.CriarN47 | 79 | Em branch | `Petrus.Financeiro/Engines/N47Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): só o Importar Easy e o frmCondPagto usam |
 
 ## `Financeiro/Engines/N87Engine.cs`
 
@@ -229,10 +229,10 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 17 | N9Engine.AgendarN9 | 40 | Descartado |  | só o frmAgendamentoPagFor (descartado) |
-| 58 | N9Engine.CriarN9 | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:37` |  |
-| 204 | N9Engine.CriarN9Con | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:48` |  |
+| 58 | N9Engine.CriarN9 | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:38` |  |
+| 204 | N9Engine.CriarN9Con | 144 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:49` |  |
 | 350 | N9Engine.StatusN9 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:34` |  |
-| 365 | N9Engine.CalculaAtrasoN9 | 71 | Conferir | `ERPBlazor/Components/Pages/Report.razor:1037` | desktop calcula N9_DIAS_ATRASO ao listar |
+| 365 | N9Engine.CalculaAtrasoN9 | 71 | Mesmo nome | `Petrus.Financeiro/Engines/N9Engine.cs:76` |  |
 | 437 | N9Engine.CalcularN9 | 81 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:253` | classe RotinasCadastro |
 
 ## `Financeiro/Interfaces/frmAgendamentoPagFor.cs`
@@ -259,7 +259,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 48 | frmAvaliacaoCredito.frmAvaliacaoCredito_Load | 46 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
-| 95 | frmAvaliacaoCredito.CarregaDados | 12 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 95 | frmAvaliacaoCredito.CarregaDados | 12 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 117 | frmAvaliacaoCredito.TabPageLimiteExcedido_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 122 | frmAvaliacaoCredito.TabPageAtrasos_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 127 | frmAvaliacaoCredito.TabPageInadimplente_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
@@ -268,7 +268,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 160 | frmAvaliacaoCredito.CarregaPedidos | 30 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 191 | frmAvaliacaoCredito.Pedidos | 139 | Mesmo nome | `Petrus.Logistica/Utils/Grades.cs:28` | classe Grades |
 | 358 | Pedido.ColunasAnalise | 89 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
-| 447 | Pedido.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:823` | classe CampoPesquisa |
+| 447 | Pedido.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:857` | classe CampoPesquisa |
 | 475 | Pedido.CarregarClientes | 133 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 609 | Pedido.CarregarPedidos | 29 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 639 | Pedido.Analise | 81 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
@@ -296,7 +296,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 38 | frmConciliacaoBancaria.frmConciliacaoBancaria_Load | 26 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmConciliacaoBancaria |
-| 100 | Contas.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:823` | classe CampoPesquisa |
+| 100 | Contas.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:857` | classe CampoPesquisa |
 | 129 | Contas.CarregarExtrato | 29 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmConciliacaoBancaria |
 | 159 | Contas.CarregarContas | 36 | Mesmo nome | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:108` | classe OrcamentoContas |
 | 197 | Contas.ContasExtrato | 111 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmConciliacaoBancaria |
@@ -405,10 +405,10 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 25 | frmMoedaPagamento.frmMoedaPagamento_Load | 26 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
-| 52 | frmMoedaPagamento.txtSaldoMoeda_Validated | 13 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
-| 66 | frmMoedaPagamento.btnOK_Click | 7 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
-| 74 | frmMoedaPagamento.btnCancelar_Click | 4 | Equivalente | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:1` | SS8-151 |
+| 25 | frmMoedaPagamento.frmMoedaPagamento_Load | 26 | Via form | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:3` | frmMoedaPagamento |
+| 52 | frmMoedaPagamento.txtSaldoMoeda_Validated | 13 | Via form | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:3` | frmMoedaPagamento |
+| 66 | frmMoedaPagamento.btnOK_Click | 7 | Via form | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:3` | frmMoedaPagamento |
+| 74 | frmMoedaPagamento.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Shared/BaixaTituloDialog.razor:3` | frmMoedaPagamento |
 
 ## `Financeiro/Interfaces/frmNotasMultaJuros.cs`
 
@@ -416,11 +416,11 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 35 | frmNotasMultaJuros.frmNotasMultaJuros_Load | 18 | Via form | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` | frmNotasMultaJuros |
 | 54 | frmNotasMultaJuros.Colunas | 27 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
-| 82 | frmNotasMultaJuros.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:92` | classe ExportarGrid |
-| 94 | frmNotasMultaJuros.Numero | 13 | Mesmo nome | `Petrus.Core/Relatorios/GraficoRelatorio.cs:107` | classe GraficoRelatorio |
+| 82 | frmNotasMultaJuros.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ConsultaTrocaMolde.cs:76` | classe ConsultaTrocaMolde |
+| 94 | frmNotasMultaJuros.Numero | 13 | Mesmo nome | `Petrus.Hub/Conectores/MercadoLivre/MercadoLivreConnector.cs:553` | classe MercadoLivreConnector |
 | 108 | frmNotasMultaJuros.Data | 13 | Mesmo nome | `Petrus.Financeiro/Classes/Contabil.cs:222` | classe Contabil |
 | 122 | frmNotasMultaJuros.Pesquisar | 17 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1302` | classe Separacao |
-| 140 | frmNotasMultaJuros.Filtrar | 13 | Mesmo nome | `ERPBlazor/Components/Pages/MES/ProdutoSelect.razor:351` | classe ProdutoSelect |
+| 140 | frmNotasMultaJuros.Filtrar | 13 | Mesmo nome | `ERPBlazor/Components/Pages/MES/RoteiroSelect.razor:127` | classe RoteiroSelect |
 | 154 | frmNotasMultaJuros.Selecionados | 8 | Via form | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` | frmNotasMultaJuros |
 | 163 | frmNotasMultaJuros.AtualizarSelecionados | 7 | Via form | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` | frmNotasMultaJuros |
 | 171 | frmNotasMultaJuros.sfDataGrid_CellCheckBoxClick | 14 | Via form | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` | frmNotasMultaJuros |
@@ -498,8 +498,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 63 | frmPerfilCliente.BackGroundWorkerDoWork | 18 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
-| 83 | frmPerfilCliente.CriarControles | 13 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:141` | classe ReportList |
-| 96 | frmPerfilCliente.CarregaDados | 235 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 83 | frmPerfilCliente.CriarControles | 13 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:138` | classe ReportList |
+| 96 | frmPerfilCliente.CarregaDados | 235 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 332 | frmPerfilCliente.CarregaVendas | 21 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 353 | frmPerfilCliente.CarregaProdutos | 39 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 392 | frmPerfilCliente.CarregaCredito | 12 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
@@ -635,10 +635,10 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 23 | frmWhatsAppConta.frmWhatsAppConta_Load | 8 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
-| 32 | frmWhatsAppConta.sfDataGrid_CellDoubleClick | 6 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
-| 39 | frmWhatsAppConta.btnConfirmar1_Click | 7 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
-| 47 | frmWhatsAppConta.btnCancelar1_Click | 4 | Equivalente | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:5` | escolha da conta SX5 |
+| 23 | frmWhatsAppConta.frmWhatsAppConta_Load | 8 | Via form | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:6` | frmWhatsAppConta |
+| 32 | frmWhatsAppConta.sfDataGrid_CellDoubleClick | 6 | Via form | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:6` | frmWhatsAppConta |
+| 39 | frmWhatsAppConta.btnConfirmar1_Click | 7 | Via form | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:6` | frmWhatsAppConta |
+| 47 | frmWhatsAppConta.btnCancelar1_Click | 4 | Via form | `ERPBlazor/Components/Shared/EnvioBoletosDialog.razor:6` | frmWhatsAppConta |
 
 ## `Financeiro/Interfaces/frmWhatsAppPareamento.cs`
 
@@ -675,9 +675,10 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 10 | ContasPagar.ContasPagarEPagasPorPlanoContasEmissao | 43 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:12` |  |
-| 54 | ContasPagar.ContasPagarPorPlanoContas | 36 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:46` |  |
-| 90 | ContasPagar.ContasPagarPorPlanoContasEmissao | 36 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:73` |  |
-| 127 | ContasPagar.ContasPagarPorPlanoContasResumido | 41 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:100` |  |
+| 55 | ContasPagar.ContasPagarSemPlanoContas | 39 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:47` |  |
+| 95 | ContasPagar.ContasPagarPorPlanoContas | 36 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:77` |  |
+| 131 | ContasPagar.ContasPagarPorPlanoContasEmissao | 36 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:104` |  |
+| 168 | ContasPagar.ContasPagarPorPlanoContasResumido | 41 | Mesmo nome | `Petrus.Financeiro/Reports/ContasPagar.cs:131` |  |
 
 ## `Financeiro/Reports/ContasPagarXReceber.cs`
 

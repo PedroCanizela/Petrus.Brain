@@ -1,6 +1,6 @@
 # Métodos: Contabilidade (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -38,7 +38,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 17 | L59Engine.InutilizacaoL59 | 107 | Citado | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:188` |  |
+| 17 | L59Engine.InutilizacaoL59 | 107 | Citado | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs:214` |  |
 
 ## `Contabilidade/Engines/L6Engine.cs`
 

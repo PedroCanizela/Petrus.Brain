@@ -1,10 +1,10 @@
 # Métodos: Manutencao (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 14 · Equivalente: 11 · Via form: 7 · Citado (conferir): 2 · Citado: 1
+**Situação:** Mesmo nome: 14 · Equivalente: 13 · Via form: 7 · Citado: 1
 
 ## `Manutencao/Classes/OrdensManutencao.cs`
 
@@ -49,13 +49,13 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | H9Engine.CalculaH9 | 10 | Citado (conferir) | `Petrus.Manutencao/Utils/CadastroManutencao.cs:10` |  |
+| 12 | H9Engine.CalculaH9 | 10 | Equivalente | `Petrus.Manutencao/Utils/CadastroManutencao.cs:10` |  |
 
 ## `Manutencao/Engines/HX8Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | HX8Engine.CalculaHX8 | 10 | Citado (conferir) | `Petrus.Manutencao/Utils/CadastroManutencao.cs:10` |  |
+| 12 | HX8Engine.CalculaHX8 | 10 | Equivalente | `Petrus.Manutencao/Utils/CadastroManutencao.cs:10` |  |
 
 ## `Manutencao/Interfaces/frmDirecionarOM.cs`
 

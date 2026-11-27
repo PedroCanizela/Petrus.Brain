@@ -1,6 +1,6 @@
 # Telas (S6): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 **Genérica** = a tela dinâmica do Web abre pelo catálogo (`/Table` para Tabela e Interação, `/Report` para Relatório). **Tem** = página própria (marca `MIGRADO S6`).
 
@@ -422,11 +422,11 @@
 | Parâmetros | 102247 | Grupos de moldes | Tabela | Genérica | /Table |
 | Parâmetros | 100146 | Grupos de produtos | Tabela | Genérica | /Table |
 | Parâmetros | 102044 | Planos de contas | Tabela | Genérica | /Table |
-| Precificação | 102910 | Atualização de custo | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/FormacaoCusto.razor:11` |
-| Precificação | 102912 | Custos indiretos | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/CustosIndiretos.razor:11` |
-| Precificação | 102911 | Mão de obra | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/MaoObra.razor:11` |
-| Precificação | 102915 | Matéria-prima | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:11` |
-| Precificação | 102913 | Produtos semi-acabados | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:11` |
+| Precificação | 102910 | Atualização de custo | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/FormacaoCusto.razor:13` |
+| Precificação | 102912 | Custos indiretos | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/CustosIndiretos.razor:13` |
+| Precificação | 102911 | Mão de obra | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/MaoObra.razor:13` |
+| Precificação | 102915 | Matéria-prima | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/MateriaPrima.razor:13` |
+| Precificação | 102913 | Produtos semi-acabados | Tabela | Tem | `ERPBlazor/Components/Pages/Custos/SemiAcabados.razor:13` |
 | Relatórios | 102721 | Caixa | Relatorio (Detalhado) | Genérica | /Table |
 | Relatórios | 102121 | Curva ABC | Relatorio (Detalhado) | Genérica | /Table |
 | Relatórios | 102132 | DRE | Relatorio (Detalhado) | Genérica | /Table |
@@ -637,7 +637,7 @@
 | Relatórios | 102803 | Estoque x carteira | Relatorio (Detalhado) | Genérica | /Table |
 | Relatórios | 102842 | Linha do tempo | Relatorio | Tem | `ERPBlazor/Components/Pages/MES/Timeline.razor:3` |
 | Relatórios | 102744 | Listagem de produção | Relatorio (Detalhado) | Genérica | /Table |
-| Relatórios | 102805 | MRP | Tabela | Tem | `ERPBlazor/Components/Pages/PCP/MRP.razor:12` |
+| Relatórios | 102805 | MRP | Tabela | Tem | `ERPBlazor/Components/Pages/PCP/MRP.razor:13` |
 | Relatórios | 102732 | OEE | Relatorio (Detalhado) | Tem | `ERPBlazor/Components/Pages/MES/Reports/RelatorioOEE.razor:3` |
 | Relatórios | 102739 | Paradas | Relatorio (Detalhado) | Tem | `ERPBlazor/Components/Pages/MES/Reports/RelatorioParadas.razor:3` |
 | Relatórios | 102920 | Perdas | Relatorio (Detalhado) | Tem | `ERPBlazor/Components/Pages/MES/Reports/RelatorioPerdas.razor:3` |
@@ -685,7 +685,7 @@
 | Relatórios | 101760 | KARDEX | Relatorio | Genérica | /Table |
 | Relatórios | 100407 | Listagem de pedidos | Relatorio (Detalhado) | Genérica | /Table |
 | Relatórios | 102744 | Listagem de produção | Relatorio (Detalhado) | Genérica | /Table |
-| Relatórios | 102805 | MRP | Tabela | Tem | `ERPBlazor/Components/Pages/PCP/MRP.razor:12` |
+| Relatórios | 102805 | MRP | Tabela | Tem | `ERPBlazor/Components/Pages/PCP/MRP.razor:13` |
 | Relatórios | 102852 | Produto x estrutura | Relatorio | Genérica | /Table |
 | Relatórios | 101762 | Saldos em estoque | Relatorio | Genérica | /Table |
 | Relatórios | 101798 | Simulação expedição | Relatorio (Detalhado) | Genérica | /Table |

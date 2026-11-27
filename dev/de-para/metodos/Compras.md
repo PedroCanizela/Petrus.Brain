@@ -1,10 +1,10 @@
 # Métodos: Compras (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 32 · Via S39: 32 · Via form: 28 · Falta: 14 · Equivalente: 7 · Citado: 5 · Citado (conferir): 2 · Sem uso no desktop: 1 · Nome+Async: 1
+**Situação:** Mesmo nome: 32 · Via S39: 32 · Via form: 28 · Falta: 14 · Equivalente: 7 · Citado: 5 · Não se aplica: 2 · Sem uso no desktop: 1 · Nome+Async: 1
 
 ## `Compras/Classes/Cotacoes.cs`
 
@@ -18,7 +18,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 38 | DocumentosEntrada.CalculaIX8 | 59 | Citado (conferir) | `Petrus.Compras/Classes/CalculoCadastroCompras.cs:13` |  |
+| 38 | DocumentosEntrada.CalculaIX8 | 59 | Não se aplica | `Petrus.Compras/Classes/CalculoCadastroCompras.cs:13` | só criava os botões da aba de anexos (a PlanilhaAba anexa) |
 | 99 | DocumentosEntrada.GerarI59 | 306 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | botão "Gerar parcelas" da aba I59 avisa que não migrou |
 | 405 | DocumentosEntrada.CalculaI59 | 267 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.Calculos.cs:424` |  |
 | 673 | DocumentosEntrada.CalculaI58 | 871 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.Calculos.cs:37` |  |
@@ -52,7 +52,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 32 | PedidosCompra.CalculaIX11 | 267 | Mesmo nome | `Petrus.Compras/Classes/PedidosCompra.cs:416` |  |
 | 300 | PedidosCompra.GerarIX11 | 278 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | botão "Gerar parcelas" da aba IX11 avisa que não migrou |
-| 578 | PedidosCompra.CalculaIX7 | 59 | Citado (conferir) | `Petrus.Compras/Classes/CalculoCadastroCompras.cs:12` |  |
+| 578 | PedidosCompra.CalculaIX7 | 59 | Não se aplica | `Petrus.Compras/Classes/CalculoCadastroCompras.cs:12` | só criava os botões da aba de anexos |
 | 639 | PedidosCompra.CalculaI43 | 865 | Mesmo nome | `Petrus.Compras/Classes/PedidosCompra.cs:35` |  |
 | 1507 | PedidosCompra.EfetivarI14 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100070 Efetivar pedido |
 | 1532 | PedidosCompra.AprovarI14 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100272 Aprovar pedido |
@@ -190,8 +190,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 34 | frmPerfilFornecedor.BackGroundWorkerDoWork | 15 | Via form | `Petrus.Compras/AcoesCompras.cs:27` | frmPerfilFornecedor |
-| 51 | frmPerfilFornecedor.CriarControles | 9 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:141` | classe ReportList |
-| 60 | frmPerfilFornecedor.CarregaDados | 44 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1097` | classe StatusCadastro |
+| 51 | frmPerfilFornecedor.CriarControles | 9 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:138` | classe ReportList |
+| 60 | frmPerfilFornecedor.CarregaDados | 44 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1142` | classe StatusCadastro |
 | 104 | frmPerfilFornecedor.CarregaTitulosAberto | 39 | Via form | `Petrus.Compras/AcoesCompras.cs:27` | frmPerfilFornecedor |
 | 150 | frmPerfilFornecedor.Resumo | 22 | Mesmo nome | `Petrus.Core/Metodos/BancoDados.cs:703` | classe ResultadoBancoDados |
 | 173 | frmPerfilFornecedor.Compras | 118 | Mesmo nome | `Petrus.Compras/Classes/PerfisCompras.cs:127` | classe Compras |

@@ -1,6 +1,6 @@
 # Relatórios (S7): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 10:47. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:05. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 **Tem** = gerador no Web (marca `MIGRADO S7`). **Genérica** = o `/Report` faz o SELECT da tabela do S8, como o desktop. **Falta** = calculado no desktop e sem gerador no Web.
 
@@ -41,7 +41,7 @@
 | 100081 | Clientes atuais | Genérica |  |  |
 | 100082 | Clientes inativos nos últimos 3 meses | Tem | `ClientesInativos.RelatorioInativo` (Vendas/Reports/ClientesInativos.cs:13) | `Petrus.Vendas/Reports/RelatoriosVendas.cs:57` |
 | 100087 | Contas à pagar por fornecedor | Genérica |  |  |
-| 100088 | Contas à pagar por plano de contas resumido | Tem | `ContasPagar.ContasPagarPorPlanoContasResumido` (Financeiro/Reports/ContasPagar.cs:127) | `Petrus.Financeiro/Reports/ContasPagar.cs:99` |
+| 100088 | Contas à pagar por plano de contas resumido | Tem | `ContasPagar.ContasPagarPorPlanoContasResumido` (Financeiro/Reports/ContasPagar.cs:168) | `Petrus.Financeiro/Reports/ContasPagar.cs:130` |
 | 100094 | Vendas por cliente | Genérica |  |  |
 | 100097 | Contas à receber por vendedor | Tem |  | `Petrus.Vendas/Reports/RegrasRelatoriosGenericos.cs:15` |
 | 100098 | Contas à receber por cliente | Tem |  | `Petrus.Vendas/Reports/RegrasRelatoriosGenericos.cs:15` |
@@ -153,7 +153,7 @@
 | 100307 | Estoque x carteira (MMP6) | Tem | `EstoqueXCarteira.EstoqueXCarteiraMMP` (Estoque/Reports/EstoqueXCarteira.cs:78) | `Petrus.Estoque/Reports/RelatoriosEstoque.cs:33` |
 | 100309 | Estoque x carteira (MMP9) | Tem | `EstoqueXCarteira.EstoqueXCarteiraMMP` (Estoque/Reports/EstoqueXCarteira.cs:78) | `Petrus.Estoque/Reports/RelatoriosEstoque.cs:34` |
 | 100311 | Estoque x carteira (MMP12) | Tem | `EstoqueXCarteira.EstoqueXCarteiraMMP` (Estoque/Reports/EstoqueXCarteira.cs:78) | `Petrus.Estoque/Reports/RelatoriosEstoque.cs:35` |
-| 100313 | Contas à pagar por plano de contas | Tem | `ContasPagar.ContasPagarPorPlanoContas` (Financeiro/Reports/ContasPagar.cs:54) | `Petrus.Financeiro/Reports/ContasPagar.cs:45` |
+| 100313 | Contas à pagar por plano de contas | Tem | `ContasPagar.ContasPagarPorPlanoContas` (Financeiro/Reports/ContasPagar.cs:95) | `Petrus.Financeiro/Reports/ContasPagar.cs:76` |
 | 100315 | Contas à pagar por categoria | Tem |  | `Petrus.Core/Relatorios/RegistroRelatorios.cs:69` |
 | 100317 | Produção por turno | Tem | `Producao.ProducaoPorTurno` (Industrial/Reports/Producao.cs:14) | `Petrus.Industrial/Reports/Producao.cs:16` |
 | 100318 | Fluxo de faturamento x despesas diário | Tem | `Gerencial.FluxoFaturamentoXDespesasDiario` (Financeiro/Reports/Gerencial.cs:276) | `Petrus.Financeiro/Reports/Gerencial.cs:262` |
@@ -245,7 +245,7 @@
 | 100453 | Ranking de vendas por vendedor mensal | Tem |  | `Petrus.Vendas/Reports/RelatoriosVendas.cs:32` |
 | 100455 | Ciclos realizados por molde | Tem |  | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:33` |
 | 100457 | Ciclos realizados por molde x máquina | Tem |  | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs:33` |
-| 100458 | Contas à pagar por plano de contas por emissão | Tem |  | `Petrus.Financeiro/Reports/ContasPagar.cs:72` |
+| 100458 | Contas à pagar por plano de contas por emissão | Tem |  | `Petrus.Financeiro/Reports/ContasPagar.cs:103` |
 | 100459 | Termo responsabilidade detalhado | Tem |  | `Petrus.Financeiro/Reports/TermoResponsabilidade.cs:55` |
 | 100470 | Contas à pagar e pagas por emissão | Tem |  | `Petrus.Financeiro/Reports/ContasPagar.cs:11` |
 | 100471 | Notas de entrada por produto | Tem | `EntradaContabil.NotasEntradaPorProduto` (Fiscal/Reports/EntradaContabil.cs:11) | `Petrus.Fiscal/Reports/EntradaContabil.cs:11` |
@@ -253,3 +253,4 @@
 | 100490 | Controle de requisições | Tem |  | `Petrus.Estoque/Reports/RelatoriosEstoque.cs:37` |
 | 100491 | Borderô de cobrança | Tem |  | `Petrus.Financeiro/Reports/ContasReceber.cs:199` |
 | 100473 | Exames periódicos | Tem |  | `Petrus.RH/Reports/RelatoriosRH.cs:39` |
+| 100492 | Contas à pagar sem plano de contas | Tem |  | `Petrus.Financeiro/Reports/ContasPagar.cs:45` |
