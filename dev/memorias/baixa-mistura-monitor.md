@@ -1,19 +1,19 @@
 ---
 name: baixa-mistura-monitor
-description: "SS8-335 — Petrus.Monitor baixa as matérias-primas da receita de mistura (VM2) da OP: peças x C3_PESO (kg) x %"
+description: "SS8-335 — baixa das matérias-primas da mistura vai na CONCLUSÃO da ordem de mistura (VM3), não no Monitor"
 metadata:
   node_type: memory
   type: project
   originSessionId: 48602306-7df0-4999-811a-6f71ae6e1331
-  modified: 2026-11-27T17:14:51.610Z
+  modified: 2026-11-27T19:26:45.709Z
 ---
 
-SS8-335 (PRATIC, 27/11/2026, branch `feature/ss8-335-baixa-receita-mistura` do **Petrus.Monitor**, aguardando aprovação):
-`Estoque.BaixarMistura`, chamado em `ProcessarEstoqueOrdem` depois da baixa da G32.
+SS8-335 (PRATIC, 27/11/2026): primeiro foi feita a baixa pela receita no Petrus.Monitor (peças × C3_PESO × VM2_%), mas o
+Pedro mandou **desfazer** (branch `feature/ss8-335-baixa-receita-mistura` do Monitor revertida, commit 33b3c32) e mudar:
+a baixa é ao **concluir a ordem de mistura (VM3)**, saindo cada item da VM5 (G6_ID, VM5_QTD em kg).
+Conclusão existe no desktop (`VM3Engine.ConcluirVM3`) e no Web (`Mistura.ConcluirVM3` em Petrus.Industrial).
+A VM3 não tem almoxarifado nem produto resultante, e concluída ainda pode ser cancelada: perguntas abertas na SS8.
 
-- kg = peças ainda não lançadas (V1_TOTAL_PECAS_PRODUZIDAS − V1_QTD_ESTOQUE; ciclos × cavidades, já inclui as perdidas) × C3_PESO × VM2_PORCENTAGEM / 100.
-- Respostas do Pedro: C3_PESO é **kg**; "tudo" (produzidas + perdidas); é lançamento **à parte**, não mexe na G32; OP sem receita igual a antes; almoxarifado da OP; descrição "OP: <id> - MISTURA"; ordem de mistura (VM3) **não** baixa estoque.
-- Sem coluna nova: usa o mesmo controle V1_QTD_ESTOQUE da entrada do produto. G17_QTD tem 2 casas (quantidade 0,00 é ignorada).
-
-**Why:** só o Monitor lança estoque da OP (o Web não); a receita vem da SS8-234 e é trocada no Monitoramento ([[receita-mistura-monitoramento]]).
-**How to apply:** mudanças de consumo da OP vão no Estoque.cs do Monitor; não fazer a VM3 baixar para não duplicar.
+**Why:** o Pedro quer a baixa amarrada ao momento em que a mistura é feita, não à produção da OP.
+**How to apply:** não baixar a mistura no Monitor nem na OP; ver a Resposta da SS8-335 antes de implementar.
+Relacionada: [[receita-mistura-monitoramento]].

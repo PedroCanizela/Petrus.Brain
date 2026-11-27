@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 15:21 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 16:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -900,11 +900,12 @@ Branch atual: corrige-monitor-travado
 
 Branches:
 - * corrige-monitor-travado
-- + feature/ss8-335-baixa-receita-mistura
+- feature/ss8-335-baixa-receita-mistura
 - master
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 33b3c32 Revert "SS8-335: baixa das matérias-primas pela receita de mistura da OP"
 - 2026-11-27 98a220d SS8-335: baixa das matérias-primas pela receita de mistura da OP
 - 2026-11-27 772ffb3 Monitor: corrige laço infinito na previsão da OP (travava após o primeiro OK)
 - 2026-11-23 56f1a9c Merge SS8-181: diagnóstico de InvalidCast em colunas do monitor
