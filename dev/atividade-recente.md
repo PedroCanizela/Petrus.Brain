@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 21:24 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 21:25 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -222,7 +222,7 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-25 09ace2e Repositório Petrus.Canhoto
 
 ## Petrus.ERP
-Branch atual: fix/ss8-310-inicio-generico
+Branch atual: master
 
 Branches:
 - claude/amazing-brattain-67d432
@@ -241,10 +241,12 @@ Branches:
 - + feature/ss8-311-expedicao-pedido-nro-documento
 - + feature/ss8-312-qrcode-volumes
 - + feature/ss8-39-novo-layout-erp
-- * fix/ss8-310-inicio-generico
-- master
+- fix/ss8-310-inicio-generico
+- * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 638e852 Merge SS8-310: WMS abre o Início
+- 2026-11-26 7fa2ef7 SS8-310: WMS abre o Início (não o Painel separação)
 - 2026-11-26 a87327f SS8-312: Expedição: estoque, saldo e faltas por QR Code em volumes
 - 2026-11-26 305e39b Merge SS8-299: Performance de vendas: UF do vendedor
 - 2026-11-26 09a8b22 Merge SS8-310: WMS: Início abre o Painel de separação
