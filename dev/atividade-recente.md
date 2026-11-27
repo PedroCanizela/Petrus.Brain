@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 12:22 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 13:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 aee7e02b Merge SS8-340: campo C4_PRIORIDADE no dicionário (prioridade de máquinas)
 - 2026-11-27 8764da3c SS8-340: campo C4_PRIORIDADE no dicionário (prioridade de máquinas do Petrus Web)
 - 2026-11-27 4f62e6e6 SS8-334: contador da empresa na tag autXML da NF-e
 - 2026-11-27 1d612e6f Update
@@ -249,6 +250,10 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 6721c38 Merge SS8-342: MES / Monitoramento: só ordens liberadas, função Liberar ordem e status Liberado
+- 2026-11-27 c337e13 Merge SS8-341: MES / Monitoramento: abrir a ordem de produção pela grade e receita de mistura como busca
+- 2026-11-27 b8e6799 Merge SS8-340: MES / Prioridade de máquinas: tela para ordenar as máquinas e ordem no Monitoramento
+- 2026-11-27 a901fe1 Merge SS8-339: MES / Resumo de produção: tempo restante, previsão e OPs em aberto por máquina
 - 2026-11-27 ae52be5 SS8-340: MES / Prioridade de máquinas e ordem no Monitoramento
 - 2026-11-27 7d66bc3 SS8-339: MES / Resumo de produção por máquina
 - 2026-11-27 7c04e66 SS8-342: MES / Monitoramento: só ordens liberadas com o parâmetro S74_LIBERAR_OP
