@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 15:20 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 15:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -240,7 +240,6 @@ Branches:
 - + claude/ss8-328-a50ba2
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
-- + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
@@ -252,6 +251,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 ebc771e Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
 - 2026-11-27 178a3ac SS8-349: WMS / Leitura de QR Code aceita pacote lido com Caps Lock ligado
 - 2026-11-27 a619a1b Merge SS8-347: Estoque / Requisição de material: gerar uma requisição a partir de várias ordens de produção e conferência das quantidades pela qualidade
 - 2026-11-27 0daa44c Merge SS8-348: MES / Monitoramento: ordens pendentes ordenadas pelo ID da OP
