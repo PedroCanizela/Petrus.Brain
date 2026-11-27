@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:23 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 18:25 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -258,7 +258,7 @@ Branches:
 - claude/relaxed-jackson-4ed35c
 - + claude/sleepy-varahamihira-76bd15
 - + claude/ss8-328-a50ba2
-- + claude/upbeat-dirac-ba0c7a
+- claude/upbeat-dirac-ba0c7a
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-305-inicio-arte-modulo
@@ -267,11 +267,13 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-358-produto-mistura
+- + feature/ss8-364-conferencia-endereco-gaiola
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 4b0845c SS8-364: endereço da conferência de pedido pelas gaiolas do produto
 - 2026-11-27 7cabd96 SS8-358: produto da mistura na receita; concluir a ordem de mistura baixa o produto
 - 2026-11-27 3ad91f9 Merge SS8-344: Vendas / Pedido de venda: estoque e saldo ao lado da margem e só com gaiola
 - 2026-11-27 cf3e1d3 SS8-344: estoque e saldo do pedido ao lado da margem e só com gaiola
