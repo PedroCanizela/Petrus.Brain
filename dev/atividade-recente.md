@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:48 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 11:49 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -227,7 +227,7 @@ Branches:
 - claude/gifted-colden-99621b
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
-- + claude/magical-mcnulty-1862f7
+- claude/magical-mcnulty-1862f7
 - + claude/nice-curie-216004
 - + claude/peaceful-ardinghelli-9cc6a3
 - + claude/ss8-328-a50ba2
@@ -236,16 +236,17 @@ Branches:
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
-- + feature/ss8-329-ref-obs-previa-op
 - + feature/ss8-330-inventario-qrcode
-- + feature/ss8-331-troca-senha-1234
-- + feature/ss8-332-qrcode-manual-sem-op
 - + feature/ss8-334-contador-autxml-nfe
-- + feature/ss8-336-receita-mistura-monitoramento
+- + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 72dbce9 Merge SS8-336: MES / Monitoramento: receita de mistura da ordem de produção na grade e no diálogo de troca
+- 2026-11-27 27ee6a9 Merge SS8-329: MES / Ordens de produção: referência e observação na pré-visualização da OP
+- 2026-11-27 681aa03 Merge SS8-332: WMS / Etiquetas de pacote: gerar e imprimir QR Code da série Manual sem ordem de produção
+- 2026-11-27 635ae6d Merge SS8-331: Login: pedir troca de senha só quando a senha for a padrão 1234
 - 2026-11-27 73bdbb1 SS8-336: receita de mistura da OP no Monitoramento do MES
 - 2026-11-27 8b0a039 SS8-334: contador da empresa na tag autXML da NF-e
 - 2026-11-27 17f4aa2 SS8-332: QR Code da série Manual sem ordem de produção
