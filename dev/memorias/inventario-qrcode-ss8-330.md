@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-27T16:48:42.923Z
 ---
 
-SS8-330 (PRATIC, 27/11/2026, Aguardando aprovação, branch `feature/ss8-330-inventario-qrcode`, commits c828c3f, 6bb3f6f, cf0b340).
+SS8-330 (PRATIC, concluída e na master do Petrus.ERP em 27/11/2026: merge 1c2e1da, sem push; commits c828c3f, 6bb3f6f, cf0b340).
 
 - Inventário Web (SS8-32): `InventarioPacotes` (Core/Utils), contagem em `PacoteLeitura.ContarInventarioAsync`, telas WMS/Inventory*.razor, `MonitorInventario`.
 - Foto da abertura grava em GX2_VOLUME_ESTOQUE **e** GX2_VOLUME_PACOTES a quantidade de pacotes GX3 "Em estoque"; escopo Geral = produtos com pacote em estoque. Inventários antigos ficam com a foto da G17.

@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 13:58 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 13:59 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -245,6 +245,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 1c2e1da Merge SS8-330: WMS / Inventário: estoque esperado pelos pacotes QR Code em estoque, e não pelo saldo da G17
 - 2026-11-27 a850ace Merge SS8-345: MES / Monitoramento e Ordens de produção: referência e receita de mistura
 - 2026-11-27 cf0b340 SS8-330: concluir com ajuste também acerta os QR Codes
 - 2026-11-27 c43738d SS8-345: MES / Monitoramento e Ordens de produção: referência e receita de mistura
