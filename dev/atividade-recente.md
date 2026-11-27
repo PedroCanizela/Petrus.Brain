@@ -254,7 +254,6 @@ Branches:
 - + claude/ss8-328-a50ba2
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
-- + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
@@ -391,11 +390,9 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-26 3620924 SS8-300: campos C4_MAPA_* no dicionário S10 do Petrus Web
 - 2026-11-26 f6980f2 SS8-300: mapa 3D com injetora no visual da CNE, operador sempre visível e modo andar
 - 2026-11-26 c04d73b SS8-300: Mapa da fábrica 3D no estilo da CNE
-- 2026-11-26 fb2c15b SS8-301: linha da grade volta a ser colorida pelo status, com tons legíveis
 - 2026-11-26 bdb1457 Merge SS8-298: MES / Apontamento: renomear "Apontamento por etapas" para "Apontamento" e manter no MES junto com a OP de embalagem (SS8-288)
 - 2026-11-26 daa1dca Merge SS8-297: Petrus Web / Celular: no pedido de venda, aba Produtos, o rodapé de totais ocupa a tela e esconde a grade (SS8-284)
 - 2026-11-26 04f56b5 Merge SS8-296: Petrus Web / Pesquisa: ainda busca a cada tecla (SS8-279); buscar no banco somente no Enter ou na lupa
-- 2026-11-26 42aa4fa SS8-301: Monitoramento (MES) com status em etiqueta, ciclo x padrão e grade legível
 - 2026-11-26 3c29fdc SS8-297: Details no celular: rodapé de totais recolhível e em 2 colunas, sem esconder a grade
 - 2026-11-26 35d8e77 SS8-296: pesquisa do Web só vai ao servidor no Enter ou na lupa
 - 2026-11-26 b6886c3 SS8-298: MES / Apontamento: renomeia "Apontamento por etapas" para "Apontamento"
