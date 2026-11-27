@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 13:40 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 13:48 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -246,6 +246,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 cf0b340 SS8-330: concluir com ajuste também acerta os QR Codes
 - 2026-11-27 c43738d SS8-345: MES / Monitoramento e Ordens de produção: referência e receita de mistura
 - 2026-11-27 6bb3f6f SS8-330: ajuste do inventário leva o saldo da G17 do local ao contado
 - 2026-11-27 6721c38 Merge SS8-342: MES / Monitoramento: só ordens liberadas, função Liberar ordem e status Liberado

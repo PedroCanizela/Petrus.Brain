@@ -1,18 +1,18 @@
 ---
 name: inventario-qrcode-ss8-330
-description: "SS8-330 — inventário por QR Code (GX1/GX2) com foto = pacotes GX3 Em estoque, não saldo G17; ajuste leva a G17 do local ao contado, status dos pacotes não muda"
+description: "SS8-330 — inventário por QR Code: foto = pacotes GX3 Em estoque; concluir com ajuste acerta G17 do local e os QR Codes (não lidos → Excluido, lidos Expedido/Gerado → Em estoque)"
 metadata:
   node_type: memory
   type: project
   originSessionId: 2e792a44-6112-4949-9bdd-29bbac3833c9
-  modified: 2026-11-27T16:38:39.765Z
+  modified: 2026-11-27T16:48:42.923Z
 ---
 
-SS8-330 (PRATIC, 27/11/2026, Aguardando aprovação, branch `feature/ss8-330-inventario-qrcode`, commit c828c3f).
+SS8-330 (PRATIC, 27/11/2026, Aguardando aprovação, branch `feature/ss8-330-inventario-qrcode`, commits c828c3f, 6bb3f6f, cf0b340).
 
 - Inventário Web (SS8-32): `InventarioPacotes` (Core/Utils), contagem em `PacoteLeitura.ContarInventarioAsync`, telas WMS/Inventory*.razor, `MonitorInventario`.
-- Agora a foto da abertura grava em GX2_VOLUME_ESTOQUE **e** GX2_VOLUME_PACOTES a quantidade de pacotes GX3 "Em estoque" (1 volume por pacote); escopo Geral = produtos com pacote em estoque. Diferença/acuracidade/monitor seguem a GX2_VOLUME_ESTOQUE, sem mudar mais nada. Inventários antigos ficam com a foto da G17.
-- Resposta do Pedro (27/11): o ajuste no fechamento leva a G17 do local ao contado: contado × G6_QTD_EMB − saldo atual G17 Disponível do local (`PreviaAjuste.SaldoG17`), só produtos da GX2. Status dos pacotes NÃO muda no fechamento. Entregue em 6bb3f6f, Aguardando aprovação.
+- Foto da abertura grava em GX2_VOLUME_ESTOQUE **e** GX2_VOLUME_PACOTES a quantidade de pacotes GX3 "Em estoque"; escopo Geral = produtos com pacote em estoque. Inventários antigos ficam com a foto da G17.
+- Concluir com ajuste (decisão do Pedro, que primeiro disse "não mudar status" e depois pediu para acertar os QR também): G17 do local vai ao contado (contado × G6_QTD_EMB − saldo atual, `PreviaAjuste.SaldoG17`) e `AjustarPacotesAsync` exclui pacotes Em estoque não lidos (validados até a abertura) e devolve para Em estoque os lidos Expedido/Gerado (Expedido limpa R13/R49, JO2 fica). Sem ajuste nada muda.
 
-**Why:** G17 da Pratic não é confiável (saldos negativos), ver [[faltas-expedicao-qrcode]].
-**How to apply:** no retrabalho, mexer só em `ConcluirAsync`/`PreviaAsync` conforme a resposta. Ver [[etiquetas-qr-wms-pratic]].
+**Why:** G17 da Pratic não é confiável (saldos negativos), ver [[faltas-expedicao-qrcode]]; o Pedro quer os QR Codes iguais ao físico depois do inventário.
+**How to apply:** banco local novplast não tem as colunas WMS da GX3 (NOEXEC acusa só elas). Ver [[etiquetas-qr-wms-pratic]] e [[baixa-manual-pacote-web]].
