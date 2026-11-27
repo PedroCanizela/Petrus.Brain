@@ -1,6 +1,6 @@
 # O que falta no Web (automático)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:05. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:15. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita à mão fica em [[dev/de-para/analise|Análise]].
 
@@ -18,12 +18,6 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Compras/Interfaces/frmMetasResponsavel.cs:95` | frmMetasResponsavel.AtualizarMes | 26 | metas por responsável (form sem chamada achada no desktop) |
 | `Compras/Interfaces/frmMetasResponsavel.cs:33` | frmMetasResponsavel.CarregarGrid | 8 | metas por responsável (form sem chamada achada no desktop) |
 
-## Financeiro (1 métodos, ~71 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Financeiro/Engines/N9Engine.cs:365` | N9Engine.CalculaAtrasoN9 | 71 |  |
-
 ## Fiscal (4 métodos, ~444 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
@@ -32,20 +26,6 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` | ImpressoesNFe.ExportarDANFCE | 87 | NFC-e (DANFCE) do PDV |
 | `Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:20` | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | NFC-e (DANFCE) do PDV |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs:338` | ImpressoesNFe.ArmazenarDanfePasta | 22 | cópia do DANFE numa pasta da rede (pasta por empresa) |
-
-## Industrial (9 métodos, ~726 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Industrial/Interfaces/frmMonitoramento.cs:550` | frmMonitoramento.TempoReal | 271 | frmMonitoramento |
-| `Industrial/Interfaces/frmPainelMonitoramento.cs:375` | frmPainelMonitoramento.TempoReal | 129 | frmPainelMonitoramento |
-| `Industrial/Interfaces/frmMonitoramento.cs:442` | frmMonitoramento.OrdensAberto | 106 | frmMonitoramento |
-| `Industrial/Interfaces/frmMonitoramento.cs:825` | frmMonitoramento.OrdensConcluidas | 98 | frmMonitoramento |
-| `Industrial/Interfaces/frmMonitoramento.cs:130` | frmMonitoramento.CarregaOrdensConcluidas | 28 | frmMonitoramento |
-| `Industrial/Interfaces/frmMonitoramento.cs:1948` | frmMonitoramento.AlteraCor | 25 | frmMonitoramento |
-| `Industrial/Interfaces/frmPainelMonitoramento.cs:328` | frmPainelMonitoramento.AlteraCor | 25 | frmPainelMonitoramento |
-| `Industrial/Interfaces/frmPainel.cs:245` | frmPainel.AlteraCor | 25 | frmPainel |
-| `Industrial/Interfaces/frmPainelMonitoramento.cs:353` | frmPainelMonitoramento.AlteraLabel | 19 | frmPainelMonitoramento |
 
 ## Integracao (4 métodos, ~328 linhas)
 
@@ -107,12 +87,6 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `PDV/Interfaces/frmPDV.cs:2563` | frmPDV.DepositoBancario | 5 | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
 | `PDV/Interfaces/frmPDV.cs:2123` | frmPDV.Sair | 4 | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
 
-## Qualidade (1 métodos, ~19 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Qualidade/Engines/K5Engine.cs:100` | K5Engine.AtualizarSituacaoK5 | 19 |  |
-
 ## RH (2 métodos, ~600 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
@@ -120,52 +94,19 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `RH/Engines/D10Engine.cs:589` | D10Engine.TelefonesImportacaoD10 | 333 | pendente da SS8-221 |
 | `RH/Engines/D10Engine.cs:259` | D10Engine.EmailImportacaoD10 | 267 | pendente da SS8-221 |
 
-## Sistema (42 métodos, ~3165 linhas)
+## Sistema (9 métodos, ~1359 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
-| `Sistema/Interfaces/frmMenu.cs:547` | frmMenu.CarregarHtmlIAFlutuante | 405 | frmMenu |
 | `Sistema/Interfaces/frmLogin.cs:1063` | frmLogin.CriaModulos | 376 | módulos da empresa nova (trial) |
 | `Sistema/Interfaces/frmLogin.cs:2146` | frmLogin.CriarUsuario | 366 | cadastro de usuário novo pelo login (trial) |
 | `Sistema/Interfaces/frmLogin.cs:542` | frmLogin.CriarEmpresa | 325 | cadastro de empresa nova pelo login (trial/assinatura) |
-| `Sistema/Interfaces/frmMenu.cs:134` | frmMenu.CriarPopupIA | 245 | frmMenu |
-| `Sistema/Classes/ParametrosSistema.cs:134` | ParametrosSistema.SalvaPreferencias | 119 |  |
-| `Sistema/Interfaces/frmMenu.cs:1338` | frmMenu.Inicio | 93 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:1044` | frmMenu.CriarBotaoIAFlutuante | 86 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:472` | frmMenu.AbrirPetrusIAComPergunta | 75 | frmMenu |
 | `Sistema/Interfaces/frmLogin.cs:925` | frmLogin.Calcula | 72 | valor da assinatura no login |
-| `Sistema/Interfaces/frmFiltroRelatorio.cs:798` | frmFiltroRelatorio.AplicaMemoria | 67 | frmFiltroRelatorio |
 | `Sistema/Interfaces/frmLogin.cs:1756` | frmLogin.VerificarAssinatura | 62 | assinatura/cobrança do Petrus no login |
 | `Sistema/Interfaces/frmInterface.cs:52557` | NFeTerceiros.RelatorioEmail | 60 | enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail) |
-| `Sistema/Interfaces/frmMenu.cs:1283` | frmMenu.AbrirPetrusIACompleto | 55 | frmMenu |
-| `Sistema/Interfaces/frmAuditoria.cs:77` | CamposAlterados.CarregarAlteracoes | 52 | frmAuditoria |
-| `Sistema/Interfaces/frmMenu.cs:425` | frmMenu.WebViewIAFlutuante_WebMessageReceived | 47 | frmMenu |
-| `Sistema/Interfaces/frmAuditoria.cs:301` | CamposAlterados.Acessos | 43 | frmAuditoria |
-| `Sistema/Interfaces/frmAuditoria.cs:129` | CamposAlterados.CarregarAuditorias | 41 | frmAuditoria |
-| `Sistema/Interfaces/frmAuditoria.cs:195` | CamposAlterados.CarregaResumo | 41 | frmAuditoria |
-| `Sistema/Interfaces/frmMenu.cs:385` | frmMenu.InicializarWebViewIAFlutuante | 38 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:1155` | frmMenu.BtnIAFlutuante_MouseEnter | 37 | frmMenu |
-| `Sistema/Interfaces/frmLogin.cs:1024` | frmLogin.btnFormaPagto | 37 | assinatura no login |
 | `Sistema/Interfaces/frmLogin.cs:503` | frmLogin.GerarIDUsuario | 37 | trial |
-| `Sistema/Interfaces/frmFiltroRelatorio.cs:878` | frmFiltroRelatorio.ColetaMemoria | 36 | frmFiltroRelatorio |
-| `Sistema/Interfaces/frmMenu.cs:1203` | frmMenu.BtnIAFlutuante_Click | 35 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:69` | frmMenu.LoadMenu | 33 | frmMenu |
-| `Sistema/Interfaces/frmPeriodo.cs:154` | frmPeriodo.RestauraPeriodoSalvo | 31 | frmPeriodo |
-| `Sistema/Interfaces/frmMenu.cs:1238` | frmMenu.RecolherBotaoIA | 31 | frmMenu |
-| `Sistema/Interfaces/frmFiltroRelatorio.cs:1168` | Parametro.RolarParaBaixo | 25 | frmFiltroRelatorio |
-| `Sistema/Interfaces/frmAuditoria.cs:171` | CamposAlterados.CarregaAlteracao | 24 | frmAuditoria |
+| `Sistema/Interfaces/frmLogin.cs:1024` | frmLogin.btnFormaPagto | 37 | assinatura no login |
 | `Sistema/Interfaces/frmLogin.cs:888` | frmLogin.CartaoCredito | 24 | assinatura no login |
-| `Sistema/Interfaces/frmAuditoria.cs:275` | CamposAlterados.CarregaHistoricos | 22 | frmAuditoria |
-| `Sistema/Interfaces/frmMenu.cs:1135` | frmMenu.PosicionarBotaoIA | 20 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:952` | frmMenu.PosicionarPopupIA | 20 | frmMenu |
-| `Sistema/Interfaces/frmAuditoria.cs:237` | CamposAlterados.CarregaStatus | 19 | frmAuditoria |
-| `Sistema/Interfaces/frmAuditoria.cs:257` | CamposAlterados.CarregaAcessos | 16 | frmAuditoria |
-| `Sistema/Interfaces/frmFiltroRelatorio.cs:866` | frmFiltroRelatorio.SalvaMemoria | 11 | frmFiltroRelatorio |
-| `Sistema/Interfaces/frmFiltroRelatorio.cs:787` | frmFiltroRelatorio.RestauraMemoria | 10 | frmFiltroRelatorio |
-| `Sistema/Interfaces/frmMenu.cs:30` | frmMenu.ProcessCmdKey | 9 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:1275` | frmMenu.BtnIAExpandir_Click | 8 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:1192` | frmMenu.BtnIAFlutuante_MouseLeave | 6 | frmMenu |
-| `Sistema/Interfaces/frmMenu.cs:1269` | frmMenu.BtnIAFechar_Click | 6 | frmMenu |
 
 ## Utils (2 métodos, ~156 linhas)
 
@@ -174,7 +115,7 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Utils/Funcoes.cs:6571` | Funcoes.GerarNroPersonalizadoCon | 78 | idem |
 | `Utils/Funcoes.cs:6492` | Funcoes.GerarNroPersonalizado | 78 | número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*) |
 
-## Vendas (16 métodos, ~1922 linhas)
+## Vendas (15 métodos, ~1877 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
@@ -187,7 +128,6 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Vendas/Interfaces/frmGradeProduto.cs:27` | frmGradeProduto.Produtos | 106 | botão "Grade de produtos" avisa que não migrou |
 | `Vendas/Interfaces/frmMetaVendas.cs:26` | frmMetaVendas.AdicionarMeta2 | 88 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
 | `Vendas/Interfaces/frmMetaVendas.cs:208` | frmMetaVendas.InserirMes | 84 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| `Vendas/Interfaces/frmCortarItens.cs:183` | frmCortarItens.Calcula | 45 | frmCortarItens |
 | `Vendas/Interfaces/frmGradeProduto.cs:493` | frmGradeProduto.Salvar | 43 | botão "Grade de produtos" avisa que não migrou |
 | `Vendas/Interfaces/frmMetaVendas.cs:139` | frmMetaVendas.Metas | 39 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
 | `Vendas/Interfaces/frmMetaVendas.cs:178` | frmMetaVendas.AtualizarMes | 30 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
