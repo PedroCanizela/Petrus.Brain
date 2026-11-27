@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: e89c22b4-f6ce-4b08-afb5-f37565226535
-  modified: 2026-11-27T02:49:39.488Z
+  modified: 2026-11-27T02:51:46.921Z
 ---
 
 Para localizar "onde está no Web" qualquer coisa do desktop, abra `C:\Users\pedro\source\repos\Petrus.Brain\dev\de-para\`:
@@ -21,7 +21,7 @@ Retrato de 26/11/2026: 102 métodos (~11.900 linhas) faltam: venda do PDV (fases
 Aferi/Easy/Gerador (só desktop), telefones/e-mails da importação (SS8-221), Gerar parcelas I59/IX11/I49, grade de produtos,
 feirinha, pesquisa pedidos, número personalizado, cotação BCB, e-mail de relatório, cadastro de empresa pelo login, metas.
 
-27/11/2026: SS8-319 a 327 mescladas; sobrou só o DANFCE (NFC-e, usado só pelo frmPDV). Decisão do Pedro: venda do PDV
+27/11/2026: SS8-319 a 327 mescladas; o DANFCE (NFC-e, usado só pelo frmPDV) também foi descartado: nada falta. Decisão do Pedro: venda do PDV
 (frmPDV e afins) e cadastro de empresa/assinatura pelo login (frmLogin) **não serão migrados** (Descartado no _manual.csv).
 
 **Why:** o Pedro pediu comparação de tudo com um de → para no Brain para visualizar e para o Claude localizar depois.

@@ -1,4 +1,20 @@
 Arquivo;Classe;Metodo;Situacao;Web;Obs;Prioridade
+Utils/RawPrinter.cs;*;*;Equivalente;Petrus.Core/Utils/ImpressoraRede.cs:10;Zebra USB do Windows: o Web envia pela rede (TCP 9100) ou entrega .zpl/PDF (SS8-130/249)
+Logistica/Etiqueta/PrintQueue.cs;*;*;Equivalente;Petrus.Core/Utils/ImpressoraRede.cs:10;fila da impressora local; no Web envio direto pela rede
+Metodos/EtiquetasCadastro.cs;*;ImpressoraPadrao;Equivalente;Petrus.Core/Utils/EtiquetasCadastro.cs:533;ImprimirAsync
+Metodos/EtiquetasCadastro.cs;*;ValoresProduto;Equivalente;Petrus.Core/Utils/EtiquetasCadastro.cs:191;GerarProdutoAsync
+Metodos/EtiquetasCadastro.cs;*;LerProduto;Equivalente;Petrus.Core/Utils/EtiquetasCadastro.cs:191;GerarProdutoAsync
+Metodos/EtiquetasCadastro.cs;*;LoteVolumes;Equivalente;Petrus.Core/Utils/EtiquetasCadastro.cs:491;Lotes
+Metodos/EtiquetasCadastro.cs;*;ToString;Não se aplica;;
+Metodos/GerarEtiquetas.cs;*;Etiquetas*;Sem uso no desktop;Petrus.Core/Utils/GerarEtiquetas.cs:17;nenhuma tela nem função do desktop chama (SS8-249)
+Metodos/GerarEtiquetas.cs;*;ExportarEtiquetasProdutoZebra;Equivalente;Petrus.Core/Utils/EtiquetasCadastro.cs:137;
+Metodos/GerarEtiquetas.cs;*;ExportarEtiquetaDun14;Equivalente;Petrus.Core/Utils/EtiquetasCadastro.cs:308;
+Metodos/GerarEtiquetas.cs;*;ImprimirPdfDireto;Equivalente;Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:20;
+Metodos/CloudflareR2.cs;*;GerarUrl;Equivalente;Petrus.Core/Metodos/CloudflareR2.cs:12;SS8-249
+Sistema/Interfaces/frmInterface.cs;*;Compartilha;Equivalente;ERPBlazor/Components/Pages/Details.razor:2048;com e-mail (SS8-140/324)
+Sistema/Interfaces/frmInterface.cs;*;RelatorioEmail;Equivalente;ERPBlazor/Components/Pages/Report.razor:42;SS8-324
+Metodos/ExportarGrid.cs;*;Options_CellExporting;Não se aplica;;formatação da célula na exportação do SfDataGrid do WinForms
+Sistema/Interfaces/frmExportar.cs;*;btnEmail_Click;Equivalente;ERPBlazor/Components/Pages/Details.razor:44;e-mail do Compartilhar (SS8-140 e SS8-324)
 Sistema/Interfaces/frmExportar.cs;*;btnEmail_Click;Falta;;e-mail do Compartilhar do registro: SS8-324 (o resto do frmExportar está no Details, MIGRADO FORM)
 Sistema/Interfaces/frmInterface.cs;*;LerXML;Equivalente;Petrus.Fiscal/NotaFiscal/ImportacaoXmlEntrada.cs:96;SS8-246/326: o Web não cria cadastros pelo XML (fornecedor I5/I41 e cond. pagto N47 recusam ou ficam em branco com aviso); o ramo da tela 102898 Importação xml (cliente R2/R48/R47 pelo destinatário) fica no desktop: decisão do Pedro na SS8-326
 Custos/Engines/CalculoFolha.cs;*;*;Equivalente;Petrus.Custos/Classes/CustosPrecificacao.cs:195;fórmulas conferidas na SS8-326: INSS e FGTS 8% sem o prêmio, multa FGTS/2, 13º e férias 12%, adicional 0
@@ -167,12 +183,9 @@ Core/Metodos/Dados.cs;*;CriarS14;Não se aplica;;Web lê do banco
 Core/Metodos/Dados.cs;*;CriarS72;Não se aplica;;Web lê do banco
 Core/Metodos/Dados.cs;*;CriarS31;Descartado;;gráficos do desktop (Web tem S88–S91)
 Core/Metodos/Dados.cs;*;CriarS36;Descartado;;indicadores do desktop (Web tem S88–S91)
-Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ExportarDANFCE;Falta;;NFC-e (DANFCE) do PDV
-Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs;*;GenerateDanfeNfceReport;Falta;;NFC-e (DANFCE) do PDV
+Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ExportarDANFCE;Descartado;;DANFCE (NFC-e) só o frmPDV usa; não vai para o Web (decisão do Pedro, 27/11/2026)
+Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs;*;GenerateDanfeNfceReport;Descartado;;DANFCE (NFC-e) só o frmPDV usa; não vai para o Web (decisão do Pedro, 27/11/2026)
 Financeiro/Engines/N9Engine.cs;*;AgendarN9;Descartado;;só o frmAgendamentoPagFor (descartado)
-Metodos/CloudflareR2.cs;*;*;Em branch;;feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada
-Metodos/GerarEtiquetas.cs;*;*;Em branch;;feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada
-Sistema/Interfaces/frmComando.cs;*;*;Em branch;;claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada
 Estoque/Engines/G36Engine.cs;*;CalculaG36;Equivalente;Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13;Grid() do G6 (SS8-265)
 Estoque/Engines/G48Engine.cs;*;CalculaG48;Equivalente;Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13;Grid() do G6 (SS8-265)
 Estoque/Engines/G50Engine.cs;*;CalculaG50;Equivalente;Petrus.Estoque/Classes/CalculoCadastroEstoque.cs:13;Grid() do G6 (SS8-265)
@@ -201,9 +214,6 @@ Utils/Funcoes.cs;*;UTF8_to_ISO;Não se aplica;;
 Utils/Funcoes.cs;*;FormatDouble;Não se aplica;;
 Utils/Funcoes.cs;*;GetParametrizedDataTable;Não se aplica;Petrus.Core/Acoes/Banco.cs:1;
 Metodos/EnviosWhatsApp.cs;*;*;Equivalente;Petrus.Core/Acoes/AcoesSistema.cs:17;ligar/desligar/reiniciar WhatsApp (S39 100410/100411)
-Metodos/EtiquetasCadastro.cs;*;*;Em branch;;impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada
-Logistica/Etiqueta/PrintQueue.cs;*;*;Em branch;;feature/ss8-249, não mesclada
-Utils/RawPrinter.cs;*;*;Em branch;;impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada
 Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ArmazenarDanfePasta;Equivalente;Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:107;cópia do DANFE na pasta do parâmetro PastaXml
 Fiscal/Manifesto/*;*;ExibirDesign;Não se aplica;;designer do FastReport
 Fiscal/NotaFiscal/DANFE/*;*;ExibirDesign;Não se aplica;;designer do FastReport

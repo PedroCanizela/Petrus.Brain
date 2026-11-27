@@ -1,21 +1,21 @@
 # Métodos: Metodos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:56. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Em branch: 42 · Equivalente: 38 · Não se aplica: 32 · Mesmo nome: 6 · Citado: 6 · Falta: 1
+**Situação:** Equivalente: 46 · Não se aplica: 35 · Mesmo nome: 20 · Citado: 14 · Nome+Async: 6 · Sem uso no desktop: 4
 
 ## `Metodos/CloudflareR2.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 41 | CloudflareR2.CriarCliente | 30 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
-| 77 | CloudflareR2.UploadPdf | 46 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
-| 130 | CloudflareR2.GerarUrl | 31 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
-| 167 | CloudflareR2.UploadFoto | 112 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
-| 285 | CloudflareR2.GerarUrlPublica | 8 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
-| 300 | CloudflareR2.PublicarFotosG6 | 157 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Metodos/CloudflareR2.cs), não mesclada |
+| 41 | CloudflareR2.CriarCliente | 30 | Mesmo nome | `Petrus.Core/Metodos/CloudflareR2.cs:28` |  |
+| 77 | CloudflareR2.UploadPdf | 46 | Citado | `Petrus.Core/Utils/EnvioWhatsApp.cs:173` |  |
+| 130 | CloudflareR2.GerarUrl | 31 | Equivalente | `Petrus.Core/Metodos/CloudflareR2.cs:12` | SS8-249 |
+| 167 | CloudflareR2.UploadFoto | 112 | Mesmo nome | `Petrus.Core/Metodos/CloudflareR2.cs:38` |  |
+| 285 | CloudflareR2.GerarUrlPublica | 8 | Mesmo nome | `Petrus.Core/Metodos/CloudflareR2.cs:77` |  |
+| 300 | CloudflareR2.PublicarFotosG6 | 157 | Mesmo nome | `Petrus.Core/Metodos/CloudflareR2.cs:89` |  |
 
 ## `Metodos/CriarAmbiente.cs`
 
@@ -116,25 +116,25 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 38 | Operador.ToString | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 45 | Operador.Operadores | 13 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 60 | Operador.OperadorDaOrdem | 5 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 85 | Etiqueta.ToString | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 109 | Plano.TiposDaTabela | 13 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 124 | Plano.EtiquetasDoTipo | 45 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 171 | Plano.ImpressoraPadrao | 9 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 187 | Plano.Gerar | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 192 | Plano.Gerar | 76 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 270 | Plano.Visualizar | 20 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 292 | Plano.Imprimir | 38 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 336 | Plano.Lotes | 35 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 372 | Plano.LoteVolumes | 16 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 390 | Plano.ValoresProduto | 28 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 419 | Plano.LerProduto | 4 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 425 | Plano.GerarProduto | 22 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 452 | Plano.GerarOrdemProducao | 54 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 508 | Plano.GerarVolumesPedido | 239 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
-| 752 | Plano.GerarVolumesDocumento | 37 | Em branch |  | impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada |
+| 38 | Operador.ToString | 4 | Não se aplica |  |  |
+| 45 | Operador.Operadores | 13 | Mesmo nome | `Petrus.Industrial/Classes/PlanejamentoPCP.cs:1043` | classe OrdemAberta |
+| 60 | Operador.OperadorDaOrdem | 5 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:94` | classe EtiquetasCadastro |
+| 85 | Etiqueta.ToString | 4 | Não se aplica |  |  |
+| 109 | Plano.TiposDaTabela | 13 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:47` | classe EtiquetasCadastro |
+| 124 | Plano.EtiquetasDoTipo | 45 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:68` | classe EtiquetasCadastro |
+| 171 | Plano.ImpressoraPadrao | 9 | Equivalente | `Petrus.Core/Utils/EtiquetasCadastro.cs:533` | ImprimirAsync |
+| 187 | Plano.Gerar | 4 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ComprovanteEventoNFe.cs:22` | classe ComprovanteEventoNFe |
+| 192 | Plano.Gerar | 76 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ComprovanteEventoNFe.cs:22` | classe ComprovanteEventoNFe |
+| 270 | Plano.Visualizar | 20 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:454` | classe PlanilhaAba |
+| 292 | Plano.Imprimir | 38 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
+| 336 | Plano.Lotes | 35 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:491` | classe EtiquetasCadastro |
+| 372 | Plano.LoteVolumes | 16 | Equivalente | `Petrus.Core/Utils/EtiquetasCadastro.cs:491` | Lotes |
+| 390 | Plano.ValoresProduto | 28 | Equivalente | `Petrus.Core/Utils/EtiquetasCadastro.cs:191` | GerarProdutoAsync |
+| 419 | Plano.LerProduto | 4 | Equivalente | `Petrus.Core/Utils/EtiquetasCadastro.cs:191` | GerarProdutoAsync |
+| 425 | Plano.GerarProduto | 22 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:191` | classe EtiquetasCadastro |
+| 452 | Plano.GerarOrdemProducao | 54 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:239` | classe EtiquetasCadastro |
+| 508 | Plano.GerarVolumesPedido | 239 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:342` | classe EtiquetasCadastro |
+| 752 | Plano.GerarVolumesDocumento | 37 | Nome+Async | `Petrus.Core/Utils/EtiquetasCadastro.cs:425` | classe EtiquetasCadastro |
 
 ## `Metodos/ExportarGrid.cs`
 
@@ -145,7 +145,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 134 | ExportarGrid.ExportarGridPDF | 83 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:36` |  |
 | 217 | ExportarGrid.ExportarModelo | 61 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:32` |  |
 | 278 | ExportarGrid.ImprimirGrid | 39 | Equivalente | `Petrus.Core/Utils/ExportarGrid.cs:35` | impressão do navegador |
-| 319 | ExportarGrid.Options_CellExporting | 7 | **Falta** |  | evento de tela |
+| 319 | ExportarGrid.Options_CellExporting | 7 | Não se aplica |  | formatação da célula na exportação do SfDataGrid do WinForms |
 | 327 | ExportarGrid.ExportarGridPDF | 167 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:36` |  |
 | 498 | ExportarGrid.ExportarGridRelatorioPDF | 346 | Citado | `ERPBlazor/Components/Pages/Report.razor:659` |  |
 
@@ -153,21 +153,21 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 35 | GerarEtiquetas.ExportarEtiquetasProduto | 97 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 133 | GerarEtiquetas.ExportarEtiquetasProdutoZebra | 1 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 218 | GerarEtiquetas.EtiquetasG6 | 70 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 288 | GerarEtiquetas.EtiquetasV1 | 59 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 349 | GerarEtiquetas.EtiquetasR7 | 79 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 431 | GerarEtiquetas.EtiquetasJ7 | 52 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 483 | GerarEtiquetas.BuscarTemplateEtiqueta | 8 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 491 | GerarEtiquetas.QuebrarTexto | 26 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 517 | GerarEtiquetas.MontarZPL | 9 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 526 | GerarEtiquetas.ExportarEtiquetaZebra | 348 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 874 | GerarEtiquetas.LimparTextoZPL | 40 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 914 | GerarEtiquetas.ExportarEtiquetaDun14 | 274 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 1188 | GerarEtiquetas.ImprimirPdfDireto | 15 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 1203 | GerarEtiquetas.ExportarEtiquetaQrCode | 109 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 1313 | GerarEtiquetas.ExportarEtiquetas | 87 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 1401 | GerarEtiquetas.ExportarEtiquetasVolume | 68 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
-| 1470 | GerarEtiquetas.ExportarEtiquetasProduto | 107 | Em branch |  | feature/ss8-249-etiqueta-zebra-fotos-r2 (Petrus.Core/Utils/GerarEtiquetas.cs), não mesclada |
+| 35 | GerarEtiquetas.ExportarEtiquetasProduto | 97 | Citado | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:12` |  |
+| 133 | GerarEtiquetas.ExportarEtiquetasProdutoZebra | 1 | Equivalente | `Petrus.Core/Utils/EtiquetasCadastro.cs:137` |  |
+| 218 | GerarEtiquetas.EtiquetasG6 | 70 | Sem uso no desktop | `Petrus.Core/Utils/GerarEtiquetas.cs:17` | nenhuma tela nem função do desktop chama (SS8-249) |
+| 288 | GerarEtiquetas.EtiquetasV1 | 59 | Sem uso no desktop | `Petrus.Core/Utils/GerarEtiquetas.cs:17` | nenhuma tela nem função do desktop chama (SS8-249) |
+| 349 | GerarEtiquetas.EtiquetasR7 | 79 | Sem uso no desktop | `Petrus.Core/Utils/GerarEtiquetas.cs:17` | nenhuma tela nem função do desktop chama (SS8-249) |
+| 431 | GerarEtiquetas.EtiquetasJ7 | 52 | Sem uso no desktop | `Petrus.Core/Utils/GerarEtiquetas.cs:17` | nenhuma tela nem função do desktop chama (SS8-249) |
+| 483 | GerarEtiquetas.BuscarTemplateEtiqueta | 8 | Mesmo nome | `Petrus.Core/Utils/GerarEtiquetas.cs:24` |  |
+| 491 | GerarEtiquetas.QuebrarTexto | 26 | Mesmo nome | `Petrus.Core/Utils/EtiquetasCadastro.cs:460` | classe EtiquetasCadastro |
+| 517 | GerarEtiquetas.MontarZPL | 9 | Citado | `Petrus.Core/Utils/EtiquetasCadastro.cs:479` |  |
+| 526 | GerarEtiquetas.ExportarEtiquetaZebra | 348 | Mesmo nome | `Petrus.Core/Utils/GerarEtiquetas.cs:34` |  |
+| 874 | GerarEtiquetas.LimparTextoZPL | 40 | Citado | `Petrus.Core/Utils/PacoteEtiqueta.cs:723` |  |
+| 914 | GerarEtiquetas.ExportarEtiquetaDun14 | 274 | Equivalente | `Petrus.Core/Utils/EtiquetasCadastro.cs:308` |  |
+| 1188 | GerarEtiquetas.ImprimirPdfDireto | 15 | Equivalente | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:20` |  |
+| 1203 | GerarEtiquetas.ExportarEtiquetaQrCode | 109 | Citado | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:14` |  |
+| 1313 | GerarEtiquetas.ExportarEtiquetas | 87 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:48` |  |
+| 1401 | GerarEtiquetas.ExportarEtiquetasVolume | 68 | Citado | `Petrus.Vendas/Classes/PedidosVenda.Etiquetas.cs:75` |  |
+| 1470 | GerarEtiquetas.ExportarEtiquetasProduto | 107 | Citado | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:12` |  |
 

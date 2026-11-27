@@ -1,10 +1,10 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:56. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 113 · Equivalente: 34 · Via form: 14 · Citado: 7 · Não se aplica: 5 · Sem uso no desktop: 4 · Falta: 2 · Nome+Async: 2 · Via S39: 1
+**Situação:** Mesmo nome: 113 · Equivalente: 34 · Via form: 14 · Citado: 7 · Não se aplica: 5 · Sem uso no desktop: 4 · Descartado: 2 · Nome+Async: 2 · Via S39: 1
 
 ## `Fiscal/Calculos/CalculosImpostos.cs`
 
@@ -239,7 +239,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 20 | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | **Falta** |  | NFC-e (DANFCE) do PDV |
+| 20 | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | Descartado |  | DANFCE (NFC-e) só o frmPDV usa |
 | 78 | DanfeSharedHelper.GenerateDanfeFrEventoReport | 21 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:20` |  |
 | 100 | DanfeSharedHelper.GenerateDanfeFrNfeReport | 140 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:42` |  |
 
@@ -283,7 +283,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 38 | ImpressoesNFe.ExportarXML | 54 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:39` |  |
-| 95 | ImpressoesNFe.ExportarDANFCE | 87 | **Falta** |  | NFC-e (DANFCE) do PDV |
+| 95 | ImpressoesNFe.ExportarDANFCE | 87 | Descartado |  | DANFCE (NFC-e) só o frmPDV usa |
 | 182 | ImpressoesNFe.ExportarDANFE | 155 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |
 | 338 | ImpressoesNFe.ArmazenarDanfePasta | 22 | Equivalente | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:107` | cópia do DANFE na pasta do parâmetro PastaXml |
 | 361 | ImpressoesNFe.ExportarDANFE | 1 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:61` |  |

@@ -1,10 +1,10 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:56. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 33 · Mesmo nome: 27 · Equivalente: 10 · Via S39: 7 · Citado: 4 · Sem uso no desktop: 2 · Em branch: 2 · Nome+Async: 1
+**Situação:** Via form: 33 · Mesmo nome: 27 · Equivalente: 12 · Via S39: 7 · Citado: 4 · Sem uso no desktop: 2 · Nome+Async: 1
 
 ## `Logistica/Classes/Expedicoes.cs`
 
@@ -94,8 +94,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 25 | PrintQueue.Enfileirar | 4 | Em branch |  | feature/ss8-249, não mesclada |
-| 30 | PrintQueue.ProcessarFila | 17 | Em branch |  | feature/ss8-249, não mesclada |
+| 25 | PrintQueue.Enfileirar | 4 | Equivalente | `Petrus.Core/Utils/ImpressoraRede.cs:10` | fila da impressora local |
+| 30 | PrintQueue.ProcessarFila | 17 | Equivalente | `Petrus.Core/Utils/ImpressoraRede.cs:10` | fila da impressora local |
 
 ## `Logistica/Etiqueta/ZebraPrinter.cs`
 

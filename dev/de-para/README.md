@@ -1,6 +1,6 @@
 # De → para: Petrus desktop → Petrus.ERP (Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:56. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com arquivo:linha dos dois lados.
 
@@ -19,22 +19,19 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 
 | Situação | Métodos | Linhas |
 |---|---:|---:|
-| Via form | 925 | 27336 |
-| Mesmo nome | 867 | 116215 |
-| Descartado | 588 | 19588 |
-| Não se aplica | 402 | 22616 |
-| Equivalente | 261 | 23595 |
+| Via form | 967 | 28335 |
+| Mesmo nome | 882 | 117148 |
+| Descartado | 590 | 19732 |
+| Não se aplica | 405 | 22631 |
+| Equivalente | 276 | 24272 |
 | Via S39 | 224 | 26886 |
 | Substituído | 175 | 9004 |
-| Em branch | 89 | 3659 |
-| Citado | 70 | 5583 |
+| Citado | 78 | 6146 |
 | Outro repositório | 39 | 601 |
-| Sem uso no desktop | 31 | 2578 |
-| Nome+Async | 14 | 791 |
+| Sem uso no desktop | 35 | 2838 |
+| Nome+Async | 20 | 1193 |
 | Nome sem Con | 6 | 605 |
 | Via S7 | 6 | 686 |
-| Falta | 4 | 173 |
-| Citado (conferir) | 2 | 161 |
 | Nome+Con | 2 | 242 |
 
 ## Métodos por módulo
@@ -48,19 +45,19 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | [[dev/de-para/metodos/Custos|Custos]] | 42 | 42 | 0 | 0 |
 | [[dev/de-para/metodos/Estoque|Estoque]] | 103 | 103 | 0 | 0 |
 | [[dev/de-para/metodos/Financeiro|Financeiro]] | 456 | 456 | 0 | 0 |
-| [[dev/de-para/metodos/Fiscal|Fiscal]] | 182 | 180 | 2 | 144 |
+| [[dev/de-para/metodos/Fiscal|Fiscal]] | 182 | 182 | 0 | 0 |
 | [[dev/de-para/metodos/Industrial|Industrial]] | 220 | 220 | 0 | 0 |
 | [[dev/de-para/metodos/Integracao|Integracao]] | 24 | 24 | 0 | 0 |
 | [[dev/de-para/metodos/Logistica|Logistica]] | 86 | 86 | 0 | 0 |
 | [[dev/de-para/metodos/Manutencao|Manutencao]] | 35 | 35 | 0 | 0 |
 | [[dev/de-para/metodos/Margo|Margo]] | 115 | 115 | 0 | 0 |
-| [[dev/de-para/metodos/Metodos|Metodos]] | 125 | 124 | 0 | 0 |
+| [[dev/de-para/metodos/Metodos|Metodos]] | 125 | 125 | 0 | 0 |
 | [[dev/de-para/metodos/PDV|PDV]] | 125 | 125 | 0 | 0 |
 | [[dev/de-para/metodos/Program|Program]] | 1 | 1 | 0 | 0 |
 | [[dev/de-para/metodos/Qualidade|Qualidade]] | 4 | 4 | 0 | 0 |
 | [[dev/de-para/metodos/RH|RH]] | 90 | 90 | 0 | 0 |
 | [[dev/de-para/metodos/Settings|Settings]] | 2 | 2 | 0 | 0 |
-| [[dev/de-para/metodos/Sistema|Sistema]] | 1521 | 1520 | 0 | 0 |
+| [[dev/de-para/metodos/Sistema|Sistema]] | 1521 | 1521 | 0 | 0 |
 | [[dev/de-para/metodos/Utils|Utils]] | 85 | 85 | 0 | 0 |
 | [[dev/de-para/metodos/Vendas|Vendas]] | 250 | 250 | 0 | 0 |
 

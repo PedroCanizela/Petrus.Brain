@@ -174,8 +174,9 @@ Faltam **46 métodos (~3.600 linhas)**, em 3 assuntos só:
 Ficam no desktop por decisão: Customizador (SS8-248) e importação de XML da tela 102898 (SS8-326).
 
 **27/11/2026, decisão do Pedro:** a venda do PDV e o cadastro de empresa/assinatura pelo login **não serão migrados**.
-A cópia do DANFE na pasta já existia no Web (`Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:107`). Sobra só o DANFCE
-(impressão da NFC-e, 2 métodos), que no desktop só o `frmPDV` usa (`frmPDV.cs:1815`).
+A cópia do DANFE na pasta já existia no Web (`Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:107`). O DANFCE
+(impressão da NFC-e), que no desktop só o `frmPDV` usa (`frmPDV.cs:1815`), também foi descartado.
+**Nada mais falta migrar**: o que não está no Web está como Descartado por decisão.
 
 ## Demandas (abertas em 26/11/2026; todas aprovadas e mescladas na master em 27/11/2026)
 

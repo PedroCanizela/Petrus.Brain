@@ -1,10 +1,10 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:56. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Descartado: 456 · Não se aplica: 320 · Via form: 257 · Mesmo nome: 170 · Via S39: 135 · Equivalente: 76 · Substituído: 60 · Em branch: 43 · Citado (conferir): 2 · Nome sem Con: 1 · Falta: 1
+**Situação:** Descartado: 456 · Não se aplica: 320 · Via form: 299 · Mesmo nome: 171 · Via S39: 135 · Equivalente: 79 · Substituído: 60 · Nome sem Con: 1
 
 ## `Sistema/Classes/Auditoria.cs`
 
@@ -759,49 +759,49 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 41 | frmComando.btnCriarTabelas_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 46 | frmComando.btnNCM_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 51 | frmComando.btnBancos_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 56 | frmComando.btnCidades_Click | 3 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 60 | frmComando.btnUF_Click | 3 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 64 | frmComando.btnDeletarColunas_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 69 | frmComando.btnDeletarTabelas_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 74 | frmComando.btnPublicar_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 79 | frmComando.btnCNAE_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 84 | frmComando.btnPermissoes_Click | 10 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 95 | frmComando.btnModulos_Click | 10 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 106 | frmComando.btnAlterarColunas_Click | 5 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 112 | frmComando.btnCriarPermissoesTabelas_Click | 10 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 123 | frmComando.btnCriarAliquotas_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 128 | frmComando.guna2Button7_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 135 | frmComando.btnSchemas_Click | 31 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 167 | frmComando.btnExcluirCPadrao_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 172 | frmComando.btnDeletaPermissoes_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 177 | frmComando.button1_Click | 77 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 255 | frmComando.frmComando_Load | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 261 | frmComando.guna2Button1_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 266 | frmComando.btnSchemasMDFe_Click | 31 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 298 | frmComando.btnCriarFuncoesPermitidas_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 303 | frmComando.btnCriacaoTabelas_Click | 5 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 309 | frmComando.btnCriacaoPermissoes_Click | 10 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 320 | frmComando.btnCriarModulos_Click | 10 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 331 | frmComando.btnImportarFotos_Click | 76 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 408 | frmComando.btnSchemasNFe_Click | 31 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 440 | frmComando.Executar | 45 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 486 | frmComando.btnExecutar_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 491 | frmComando.btnCriarDB_Click | 22 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 514 | frmComando.btnCriarS8S10_Click | 72 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 587 | frmComando.txtQueries_KeyDown | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 592 | frmComando.btnImportarXML_Click | 44 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 637 | frmComando.toolStripButtonPDV_Click | 5 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 643 | frmComando.toolStripButton1_Click | 4 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 648 | frmComando.toolStripButtonComissao_Click | 47 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 696 | frmComando.btnAlterarRefDescricao_Click | 69 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 771 | frmComando.toolStripButton3_Click | 116 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 888 | frmComando.toolStripButton4_Click | 67 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 956 | frmComando.btnAlterarCusto_Click | 79 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 1036 | frmComando.btnAlterarMolde_Click | 78 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
-| 1115 | frmComando.toolStripButton5_Click | 20 | Em branch |  | claude/ss8-248 (ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor), não mesclada |
+| 41 | frmComando.btnCriarTabelas_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 46 | frmComando.btnNCM_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 51 | frmComando.btnBancos_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 56 | frmComando.btnCidades_Click | 3 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 60 | frmComando.btnUF_Click | 3 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 64 | frmComando.btnDeletarColunas_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 69 | frmComando.btnDeletarTabelas_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 74 | frmComando.btnPublicar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 79 | frmComando.btnCNAE_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 84 | frmComando.btnPermissoes_Click | 10 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 95 | frmComando.btnModulos_Click | 10 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 106 | frmComando.btnAlterarColunas_Click | 5 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 112 | frmComando.btnCriarPermissoesTabelas_Click | 10 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 123 | frmComando.btnCriarAliquotas_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 128 | frmComando.guna2Button7_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 135 | frmComando.btnSchemas_Click | 31 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 167 | frmComando.btnExcluirCPadrao_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 172 | frmComando.btnDeletaPermissoes_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 177 | frmComando.button1_Click | 77 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 255 | frmComando.frmComando_Load | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 261 | frmComando.guna2Button1_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 266 | frmComando.btnSchemasMDFe_Click | 31 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 298 | frmComando.btnCriarFuncoesPermitidas_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 303 | frmComando.btnCriacaoTabelas_Click | 5 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 309 | frmComando.btnCriacaoPermissoes_Click | 10 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 320 | frmComando.btnCriarModulos_Click | 10 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 331 | frmComando.btnImportarFotos_Click | 76 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 408 | frmComando.btnSchemasNFe_Click | 31 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 440 | frmComando.Executar | 45 | Mesmo nome | `Petrus.Fiscal/Manifesto/CriarMDFe.cs:263` | classe CriarMDFe |
+| 486 | frmComando.btnExecutar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 491 | frmComando.btnCriarDB_Click | 22 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 514 | frmComando.btnCriarS8S10_Click | 72 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 587 | frmComando.txtQueries_KeyDown | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 592 | frmComando.btnImportarXML_Click | 44 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 637 | frmComando.toolStripButtonPDV_Click | 5 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 643 | frmComando.toolStripButton1_Click | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 648 | frmComando.toolStripButtonComissao_Click | 47 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 696 | frmComando.btnAlterarRefDescricao_Click | 69 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 771 | frmComando.toolStripButton3_Click | 116 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 888 | frmComando.toolStripButton4_Click | 67 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 956 | frmComando.btnAlterarCusto_Click | 79 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 1036 | frmComando.btnAlterarMolde_Click | 78 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
+| 1115 | frmComando.toolStripButton5_Click | 20 | Via form | `ERPBlazor/Components/Pages/Ajustes/ComandoSql.razor:2` | frmComando |
 
 ## `Sistema/Interfaces/frmCompartilhar.cs`
 
@@ -940,7 +940,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 34 | frmExportar.frmExportar_Load | 38 | Via form | `ERPBlazor/Components/Pages/Details.razor:42` | frmExportar |
-| 78 | frmExportar.btnEmail_Click | 22 | **Falta** |  | e-mail do Compartilhar do registro: SS8-324 (o resto do frmExportar está no Details, MIGRADO FORM); evento de tela |
+| 78 | frmExportar.btnEmail_Click | 22 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:44` | e-mail do Compartilhar (SS8-140 e SS8-324) |
 | 101 | frmExportar.btnExportar_Click | 24 | Via form | `ERPBlazor/Components/Pages/Details.razor:42` | frmExportar |
 | 126 | frmExportar.btnPDF_Click | 5 | Via form | `ERPBlazor/Components/Pages/Details.razor:42` | frmExportar |
 | 132 | frmExportar.btnImprimir_Click | 6 | Via form | `ERPBlazor/Components/Pages/Details.razor:42` | frmExportar |
@@ -1373,7 +1373,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 52113 | NFeTerceiros.InfoCadastro | 21 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:44` |  |
 | 52135 | NFeTerceiros.btnInfo_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52141 | NFeTerceiros.CompartilharRegistro | 89 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 52233 | NFeTerceiros.Compartilha | 101 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.razor:2048` |  |
+| 52233 | NFeTerceiros.Compartilha | 101 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:2048` | com e-mail (SS8-140/324) |
 | 52335 | NFeTerceiros.btnCompartilhar_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52343 | NFeTerceiros.btnImprimirRelatorio_Click | 29 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52373 | NFeTerceiros.btnExpExcelRelatorio_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
@@ -1382,7 +1382,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 52438 | NFeTerceiros.btnCustomizarRelatorio_Click | 24 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52463 | NFeTerceiros.btnVisualizarRelatorio_Click | 34 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52502 | NFeTerceiros.EnviarEmail | 54 | Mesmo nome | `Petrus.Financeiro/Classes/EnvioBoletos.cs:105` | classe EnvioBoletos |
-| 52557 | NFeTerceiros.RelatorioEmail | 60 | Citado (conferir) | `ERPBlazor/Components/Pages/Report.razor:42` |  |
+| 52557 | NFeTerceiros.RelatorioEmail | 60 | Equivalente | `ERPBlazor/Components/Pages/Report.razor:42` | SS8-324 |
 | 52619 | NFeTerceiros.compartilharToolStripMenuItem_Click | 252 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52871 | NFeTerceiros.btnFiltroRelatorio_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52876 | NFeTerceiros.btnMaisAcoesRelatorio_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |

@@ -1,10 +1,10 @@
 # Métodos: Utils (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:56. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 39 · Não se aplica: 25 · Equivalente: 9 · Sem uso no desktop: 5 · Citado: 3 · Em branch: 2 · Nome sem Con: 2
+**Situação:** Mesmo nome: 39 · Não se aplica: 25 · Equivalente: 11 · Sem uso no desktop: 5 · Citado: 3 · Nome sem Con: 2
 
 ## `Utils/AppSetting.cs`
 
@@ -116,8 +116,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 44 | DOCINFOA.SendStringToPrinter | 17 | Em branch |  | impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada |
-| 62 | DOCINFOA.SendBytesToPrinter | 78 | Em branch |  | impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada |
+| 44 | DOCINFOA.SendStringToPrinter | 17 | Equivalente | `Petrus.Core/Utils/ImpressoraRede.cs:10` | Zebra USB do Windows: o Web envia pela rede (TCP 9100) ou entrega .zpl/PDF (SS8-130/249) |
+| 62 | DOCINFOA.SendBytesToPrinter | 78 | Equivalente | `Petrus.Core/Utils/ImpressoraRede.cs:10` | Zebra USB do Windows: o Web envia pela rede (TCP 9100) ou entrega .zpl/PDF (SS8-130/249) |
 
 ## `Utils/TotalMinutesAggregate.cs`
 
