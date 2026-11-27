@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:37 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:38 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -255,6 +255,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 0f6fc21 SS8-320: Gerar parcelas nas abas de duplicatas I59, IX11, I49 e R50
 - 2026-11-26 82fc0d5 SS8-322: Grade de produtos, Incluir feirinha e Pesquisa pedidos nas abas do Details
 - 2026-11-26 6a87ad1 SS8-324: Relatórios e Lista: enviar o PDF por e-mail (Compartilhar com e-mail)
 - 2026-11-26 8eef767 SS8-321: Importar Excel na /Table cria telefones e e-mails (R2, R4, I5, J2, D10)

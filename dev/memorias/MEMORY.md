@@ -80,6 +80,7 @@
 - [Pesquisa do /Report nas colunas exibidas](pesquisa-report-colunas-exibidas.md) — SS8-314: só S10_TAMANHO_GRID > 0, texto como na grade, sem acento; "Pesquisar por"; placeholder novo
 - [Número personalizado na inclusão](numero-personalizado-inclusao-web.md) — SS8-323: Funcoes.GerarNroPersonalizado no Core (R13/I14/R2/R4/I5/J2), prévia no Novo, contador S74 com UPDLOCK no Insert
 - [E-mail do relatório e da lista](email-relatorio-lista-web.md) — SS8-324: EmailDialog no /Report e /Table (marcados); /Details já tinha (SS8-140), de-para leu comentário velho
+- [Gerar parcelas das duplicatas no Web](gerar-parcelas-duplicatas-web.md) — SS8-320: GerarI59/IX11/I49 + R50 em qualquer tela no /Details; N90 do portador e sem condição não limpa (bugs do desktop)
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
