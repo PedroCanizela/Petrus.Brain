@@ -12,6 +12,5 @@ O mesmo com 100537 e 100538. O `GeraFuncoes` só preenche a aba na inclusão do 
 botão "Funções" (Ajustes > Atualizações = `BancoDados.CriarFuncoesPermitidas`, frmComando do desktop).
 
 **Why:** toda S39 nova vai dar esse erro para quem já existia até alguém rodar o botão.
-**How to apply:** depois de publicar função nova, lembre do botão "Funções". Status em 27/11: aguardando resposta do
-Pedro (A só botão / B liberar sozinho na atualização / C entrar não permitida / D mostrar faltantes na aba). Ver
-[[grupos-permissoes-usuario]] e [[baixa-manual-pacote-web]].
+**How to apply:** erro de permissão de função S39: primeiro confira a S72 do usuário (o Pedro reconheceu que não tinha liberado; SS8-355 concluída sem código, 27/11). Depois de publicar função nova, lembre do botão "Funções".
+Ver [[grupos-permissoes-usuario]] e [[baixa-manual-pacote-web]].
