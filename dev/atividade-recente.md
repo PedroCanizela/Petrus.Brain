@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 12:21 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 12:22 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 8764da3c SS8-340: campo C4_PRIORIDADE no dicionário (prioridade de máquinas do Petrus Web)
 - 2026-11-27 4f62e6e6 SS8-334: contador da empresa na tag autXML da NF-e
 - 2026-11-27 1d612e6f Update
 - 2026-11-26 23477dd0 Update
@@ -232,7 +233,6 @@ Branches:
 - + claude/nice-curie-216004
 - + claude/peaceful-ardinghelli-9cc6a3
 - + claude/ss8-328-a50ba2
-- + claude/ss8-340-e42eda
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-235-gaiola-embalagem
@@ -242,12 +242,15 @@ Branches:
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-339-resumo-producao
+- + feature/ss8-340-prioridade-maquinas
 - + feature/ss8-341-abrir-op-monitoramento
 - + feature/ss8-342-liberar-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 ae52be5 SS8-340: MES / Prioridade de máquinas e ordem no Monitoramento
+- 2026-11-27 7d66bc3 SS8-339: MES / Resumo de produção por máquina
 - 2026-11-27 7c04e66 SS8-342: MES / Monitoramento: só ordens liberadas com o parâmetro S74_LIBERAR_OP
 - 2026-11-27 d745aee SS8-341: Monitoramento abre a OP pela grade e receita de mistura vira busca
 - 2026-11-27 de64616 SS8-338: NovoMassa grava DBNull em coluna não texto sem valor (perda do MES na V22_DATA_ESTOQUE)
