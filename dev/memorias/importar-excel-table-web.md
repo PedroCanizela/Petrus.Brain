@@ -15,7 +15,7 @@ SS8-221 (branch `feature/ss8-221-importar-excel-table`, aguardando aprovação e
   `double`, data é serial → `DataDoSerial`). O Web **não tem** Syncfusion.XlsIO; não adicione pacote para isso.
 - Gravação: `Petrus.Core/Acoes/ImportacaoExcel` (`Preparar`, `Importar` = com ID da planilha, `ImportarSemIdentificador` = MAX+1),
   confere tudo antes, uma transação, S26 "Inclusão"/"Importação Excel". Permissão S15_INCLUIR (o `PermissaoTabela` não tem Incluir).
-- Não portado: TelefonesImportacao*/EmailImportacao* (R2, R4, J2, I5, D10), Importação em massa (SqlBulkCopy) e secundária.
+- TelefonesImportacao*/EmailImportacao* (R2, R4, J2, I5, D10): SS8-321 (branch `claude/ss8-321-6c6d0e`), `Petrus.Core/Cadastros/ContatosImportacao` com os 10 nomes do desktop, na transação da importação; R4 só Comercial/Financeiro. Não portado: Importação em massa (SqlBulkCopy) e secundária.
 - Desktop: `Funcoes.Importar` com ID passa valueId = 0 para esses ganchos (bug; só o sem ID os criava certo).
 
 **Why:** a comparação desktop × Web listava "sem importação de planilha" ([[comparacao-desktop-web]]).

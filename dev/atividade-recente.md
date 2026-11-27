@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:32 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:36 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -231,13 +231,12 @@ Branches:
 - claude/determined-feistel-6e7623
 - claude/dreamy-driscoll-ea3cff
 - claude/ecstatic-meitner-0d4feb
-- + claude/festive-noyce-122f40
+- claude/festive-noyce-122f40
 - claude/funny-meninsky-e7b65c
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
 - + claude/nice-curie-216004
 - + claude/peaceful-ardinghelli-9cc6a3
-- + claude/ss8-319-361a87
 - + claude/ss8-320-6dd944
 - + claude/ss8-321-6c6d0e
 - + claude/ss8-322-68b722
@@ -250,10 +249,16 @@ Branches:
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
+- + feature/ss8-319-importacao-planilha-pedido
+- + feature/ss8-327-decimais-campos-leitura
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 82fc0d5 SS8-322: Grade de produtos, Incluir feirinha e Pesquisa pedidos nas abas do Details
+- 2026-11-26 6a87ad1 SS8-324: Relatórios e Lista: enviar o PDF por e-mail (Compartilhar com e-mail)
+- 2026-11-26 8eef767 SS8-321: Importar Excel na /Table cria telefones e e-mails (R2, R4, I5, J2, D10)
+- 2026-11-26 6e75b9b SS8-327: Details com casas decimais pelo S10 e campos inativos só leitura
 - 2026-11-26 993cba2 SS8-323: número personalizado na inclusão do /Details
 - 2026-11-26 0a87595 SS8-325: cotação das moedas pelo Banco Central ao abrir a tela Moedas
 - 2026-11-26 c0e55c6 Update

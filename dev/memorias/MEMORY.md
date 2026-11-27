@@ -53,7 +53,7 @@
 - [Importar pedido por IA no Web](importar-pedido-ia-web.md) — SS8-174: PedidoProdutoService (Sonnet, chave do assistente, IA1/IA2, limite S74), PDF direto, desktop não mexido
 - [Petrus PDV (frente de caixa Web)](petrus-pdv-web.md) — SS8-46: repo Petrus.PDV, Blazor WASM/PWA + API, Petrus.Core via PetrusErpDir, caixa RX1/RX2, módulo S4 52
 - [Desenvolvimento e erros no Suporte](desenvolvimento-suporte-erros.md) — SS8-278: Dashboard, aba Erros (AW4, POST /api/erros pelo Petrus.Atualizador), SS8_VALOR, prints AW5, documento para assinatura
-- [Importar Excel na /Table](importar-excel-table-web.md) — SS8-221: LeituraExcel (xlsx sem XlsIO) e ImportacaoExcel no Core, com/sem ID, S15_INCLUIR; telefones/e-mails R2/R4/J2/I5/D10 pendentes
+- [Importar Excel na /Table](importar-excel-table-web.md) — SS8-221: LeituraExcel (xlsx sem XlsIO) e ImportacaoExcel no Core, com/sem ID, S15_INCLUIR; telefones/e-mails na SS8-321 (ContatosImportacao)
 - [OP de embalagem no Web](op-embalagem-web.md) — SS8-241: V1 com V1_TIPO Embalagem, /MES/OrdemEmbalagem, gravada Iniciado para gerar pacotes GX3
 - [Tema escuro no Web](tema-escuro-web.md) — SS8-283: paleta grafite, .pt-escuro no <html> (diálogos/popovers), campo inativo por variável, EstadoTema nos SfChart
 - [Contas a pagar sem plano (SS8-203)](contas-pagar-sem-plano-ss8-203.md) — S7 100492 (N9 sem L70) no desktop e Web; receita S7+S29+S30+GetReport/Registrar
@@ -76,8 +76,10 @@
 - [Faltas da expedição por QR Code](faltas-expedicao-qrcode.md) — SS8-303: J51/J50 pelo GX3 quando há gaiola A7 (Em estoque + Expedido nos pedidos), J50_ESTOQUE/SALDO 123700/01 não exportados
 - [Baixa manual de pacote no Web](baixa-manual-pacote-web.md) — SS8-307: aba Baixa manual na Consulta de pacote, busca pelo ID, Expedido c/ pedido ou Excluido, S39 100536
 - [SfGrid sem Class e textos pt-BR](sfgrid-class-localizacao-web.md) — SS8-308: Class= no SfGrid tira o CSS do Syncfusion; LocalizacaoSyncfusion (Grid_/Pager_) no Program.cs
+- [Decimais e campos só leitura no Details](decimais-campos-leitura-details.md) — SS8-327: FormatoNumerico pelo NUMERIC(p,s) do S10_TIPO_DADOS; inativo ReadOnly + copiar, pt-campo-leitura
 - [Pesquisa do /Report nas colunas exibidas](pesquisa-report-colunas-exibidas.md) — SS8-314: só S10_TAMANHO_GRID > 0, texto como na grade, sem acento; "Pesquisar por"; placeholder novo
 - [Número personalizado na inclusão](numero-personalizado-inclusao-web.md) — SS8-323: Funcoes.GerarNroPersonalizado no Core (R13/I14/R2/R4/I5/J2), prévia no Novo, contador S74 com UPDLOCK no Insert
+- [E-mail do relatório e da lista](email-relatorio-lista-web.md) — SS8-324: EmailDialog no /Report e /Table (marcados); /Details já tinha (SS8-140), de-para leu comentário velho
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
