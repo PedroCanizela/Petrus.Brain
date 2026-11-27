@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 16:27 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 16:39 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,7 +19,7 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
-- + feature/ss8-343-estoque-carteira-qrcode
+- + feature/ss8-335-baixa-ordem-mistura
 - + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
@@ -27,6 +27,8 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 f77bce95 Merge SS8-343: Estoque / Relatórios: Estoque x carteira pelo estoque dos QR Codes, com molde e sugestões de produção
+- 2026-11-27 1aa226e5 SS8-343: renumera os S10 da S77 para 123740-123746 (123731/123732 já usados pela SS8-347)
 - 2026-11-27 1b03b384 SS8-344: estoque e saldo nos itens do pedido de venda
 - 2026-11-27 838c6fec SS8-343: Estoque x carteira (QR Code), com molde e sugestões de produção
 - 2026-11-27 7cd70740 Merge SS8-346: Vendas / Situação do pedido: enviar de Receita/Sintegra para Em análise e de Em análise para Aguardando depósito
@@ -245,13 +247,15 @@ Branches:
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
+- + feature/ss8-335-baixa-ordem-mistura
 - + feature/ss8-337-etiqueta-operador-navegador
-- + feature/ss8-343-estoque-carteira-qrcode
 - + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 7f015f3 Merge SS8-343: Estoque / Relatórios: Estoque x carteira pelo estoque dos QR Codes, com molde e sugestões de produção
+- 2026-11-27 d281a00 SS8-343: renumera os S10 da S77 para 123740-123746 (123731/123732 já usados pela SS8-347)
 - 2026-11-27 ebc771e Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
 - 2026-11-27 178a3ac SS8-349: WMS / Leitura de QR Code aceita pacote lido com Caps Lock ligado
 - 2026-11-27 a619a1b Merge SS8-347: Estoque / Requisição de material: gerar uma requisição a partir de várias ordens de produção e conferência das quantidades pela qualidade
