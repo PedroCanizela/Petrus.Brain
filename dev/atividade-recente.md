@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:30 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:32 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,15 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
-- 2026-11-27 62e46bff Merge master na SS8-334 (conflito de posição no Dados.cs: mantidas as linhas da SS8-340/343/344 e a do contador)
 - 2026-11-27 64b0e483 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)
+- 2026-11-27 62e46bff Merge master na SS8-334 (conflito de posição no Dados.cs: mantidas as linhas da SS8-340/343/344 e a do contador)
 - 2026-11-27 c135f60d Merge SS8-344: Vendas / Pedido de venda: colunas de estoque e saldo nos itens, pelo QR Code quando houver gaiola
 - 2026-11-27 178ea054 Merge SS8-335: Industrial / Ordem de mistura: baixa das matérias-primas no estoque ao concluir
 - 2026-11-27 25758266 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
@@ -257,7 +256,6 @@ Branches:
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
-- + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
@@ -265,6 +263,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 cafa846 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)
+- 2026-11-27 55fdd70 Merge master na SS8-334 (conflito de posição no S10.cs: mantidas as linhas da SS8-340/343/344/347 e a do contador)
 - 2026-11-27 d63f53c Merge SS8-354: Industrial / Ordem de produção: exibir a previsão da OP (horas, pacotes, peso em kg, término e falta)
 - 2026-11-27 5321c79 Merge SS8-351: MES / Monitoramento: conferir que as ordens pendentes são só as liberadas
 - 2026-11-27 4c61567 SS8-351: tira a mudança do Resumo de produção (a SS8-350 já trata as liberadas)
