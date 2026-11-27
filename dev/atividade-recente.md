@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:12 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 178ea054 Merge SS8-335: Industrial / Ordem de mistura: baixa das matérias-primas no estoque ao concluir
 - 2026-11-27 25758266 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
 - 2026-11-27 8e3394c8 SS8-335: ordem de mistura baixa as matérias-primas ao concluir, com estorno
 - 2026-11-27 f77bce95 Merge SS8-343: Estoque / Relatórios: Estoque x carteira pelo estoque dos QR Codes, com molde e sugestões de produção
@@ -269,6 +270,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 e24a0ee SS8-357: WMS / QR Code: baixa em massa, sem motivo obrigatório, excluir gaiola, OPs concluídas e produtos sem repetir
 - 2026-11-27 027525c SS8-353: ordem de mistura com status Efetivado antes da conclusão (Web)
 - 2026-11-27 e750ec2 SS8-354: Industrial / Ordem de produção: exibir a previsão da OP
 - 2026-11-27 f55d91d Merge SS8-356: MES / Monitoramento: retirar a coluna e o botão de prioridade da máquina
