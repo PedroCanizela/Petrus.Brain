@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:50 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 18:53 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 2add5431 SS8-333: vínculo entre dois pedidos de venda com aviso ao abrir
 - 2026-11-27 564b8605 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
 - 2026-11-27 9bc9ef28 SS8-358: concluir a ordem de mistura baixa o produto da mistura da receita
 - 2026-11-27 eea783e1 Merge SS8-344: Vendas / Pedido de venda: estoque e saldo ao lado da margem e só com gaiola
@@ -276,6 +277,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 72e582b SS8-333: vínculo entre dois pedidos de venda com aviso ao abrir
 - 2026-11-27 049c0df SS8-365: abas Novo, Em conferência e Concluído na conferência de pedido
 - 2026-11-27 d6a5a4a Merge SS8-364: Expedição / Conferência de pedido: coluna Endereço pela posição das gaiolas do produto
 - 2026-11-27 1da5643 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
