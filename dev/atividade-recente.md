@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 10:45 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 10:50 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -241,6 +241,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 17f4aa2 SS8-332: QR Code da série Manual sem ordem de produção
+- 2026-11-27 c828c3f SS8-330: Inventário por QR Code usa os pacotes em estoque como estoque esperado
 - 2026-11-27 cd4df75 SS8-329: MES / Ordens de produção: referência e observação na pré-visualização da OP
 - 2026-11-27 f39ab13 SS8-331: Login pede troca de senha só com a senha padrão 1234
 - 2026-11-26 3cd6f67 Regenera o inventário da migração após os merges de 319 a 327
