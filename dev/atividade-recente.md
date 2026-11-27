@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:16 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:17 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -266,6 +266,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 3d5c016 SS8-359: Web / Troca de módulo: abrir um cadastro não volta mais para a seleção de módulo
 - 2026-11-27 d0b842f Merge SS8-350: MES / Resumo de produção: previsão somando as ordens liberadas e máquinas ordenadas pelo término
 - 2026-11-27 c4cf81b SS8-357: consulta de pacote sem o campo Pedido na baixa manual (individual e em massa): a baixa sempre exclui o pacote
 - 2026-11-27 b200890 Merge SS8-353: Industrial / Ordem de mistura: status Efetivado antes da conclusão
