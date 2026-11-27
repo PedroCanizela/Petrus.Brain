@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:39 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:42 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -265,6 +265,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 ab2695e SS8-363: Expedição / Conferência de pedido: exceção para conferir por QR Code pedidos já faturados
 - 2026-11-27 cafa846 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)
 - 2026-11-27 55fdd70 Merge master na SS8-334 (conflito de posição no S10.cs: mantidas as linhas da SS8-340/343/344/347 e a do contador)
 - 2026-11-27 d63f53c Merge SS8-354: Industrial / Ordem de produção: exibir a previsão da OP (horas, pacotes, peso em kg, término e falta)
