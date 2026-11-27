@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: b1604f65-97c2-45d2-8595-f04665f13fac
-  modified: 2026-11-27T20:05:47.466Z
+  modified: 2026-11-27T20:19:58.411Z
 ---
 
 SS8-342 (PRATIC, 27/11/2026, branch `feature/ss8-342-liberar-op`, aguardando aprovação): status **Liberado** na V1
@@ -14,8 +14,8 @@ SS8-342 (PRATIC, 27/11/2026, branch `feature/ss8-342-liberar-op`, aguardando apr
 do LiveProduction/DashboardMES/MapMES/Workstation são só Liberado (`OrdensProducao.StatusPendentes(S1_ID)`) e IniciarV1 recusa Novo.
 Liberado entra onde OP em aberto é aceita (S10 104742, S79 100275, S7 100291, S82 100020, etiqueta, PCP, apontamento).
 
-SS8-351 (branch `feature/ss8-351-op-pendentes-liberadas`): o Resumo de produção (SS8-339, feito em paralelo) listava só
-'Novo' e passou a usar StatusPendentes; IndicadoresProducao.StatusAberto e o MRP passaram a incluir 'Liberado'.
+SS8-351 (aprovada, na master 27/11): conferido que as telas do MES usam StatusPendentes; IndicadoresProducao.StatusAberto
+e o MRP (op em aberto) passaram a incluir 'Liberado'. O Resumo de produção trata as liberadas pela SS8-350 (lista Liberadas).
 
 **Why:** a fábrica só pode produzir OP que o PCP liberou. Só Web: o desktop não conhece "Liberado".
 **How to apply:** tela nova que liste OP para iniciar deve usar `StatusPendentes`, não `= 'Novo'`. Ver [[pcp-operacoes-web]], [[receita-mistura-monitoramento]].

@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:18 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,13 +19,13 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
-- + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 c135f60d Merge SS8-344: Vendas / Pedido de venda: colunas de estoque e saldo nos itens, pelo QR Code quando houver gaiola
 - 2026-11-27 178ea054 Merge SS8-335: Industrial / Ordem de mistura: baixa das matérias-primas no estoque ao concluir
 - 2026-11-27 25758266 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
 - 2026-11-27 8e3394c8 SS8-335: ordem de mistura baixa as matérias-primas ao concluir, com estorno
@@ -257,7 +257,6 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
-- + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-354-previsao-op
 - + feature/ss8-357-ajustes-qrcode
@@ -265,6 +264,9 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 5321c79 Merge SS8-351: MES / Monitoramento: conferir que as ordens pendentes são só as liberadas
+- 2026-11-27 4c61567 SS8-351: tira a mudança do Resumo de produção (a SS8-350 já trata as liberadas)
+- 2026-11-27 e502bbf Merge SS8-344: Vendas / Pedido de venda: colunas de estoque e saldo nos itens, pelo QR Code quando houver gaiola
 - 2026-11-27 710653a Merge SS8-359: Web / Troca de módulo: abrir um cadastro não deve voltar para a seleção de módulo
 - 2026-11-27 e5a8b40 Merge SS8-357: WMS / QR Code: baixa em massa de pacotes, motivo opcional, excluir gaiola, OPs concluídas nas etiquetas e produtos sem repetir na série Manual
 - 2026-11-27 3d5c016 SS8-359: Web / Troca de módulo: abrir um cadastro não volta mais para a seleção de módulo
