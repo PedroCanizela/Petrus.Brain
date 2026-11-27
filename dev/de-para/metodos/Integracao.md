@@ -1,10 +1,10 @@
 # Métodos: Integracao (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 13 · Falta: 4 · Equivalente: 4 · Mesmo nome: 3
+**Situação:** Via form: 13 · Mesmo nome: 7 · Equivalente: 4
 
 ## `Integracao/Interfaces/Serasa/frmSerasa.cs`
 
@@ -31,10 +31,10 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 69 | CotacaoBcb.AtualizarCotacoes | 95 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
-| 164 | CotacaoBcb.AtualizarCotacao | 43 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
-| 208 | CotacaoBcb.ConsultarCotacao | 70 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
-| 284 | CotacaoBcb.ConsultarCotacaoNaData | 120 | **Falta** |  | cotação de moedas do BCB ao abrir a tela S6 102952 |
+| 69 | CotacaoBcb.AtualizarCotacoes | 95 | Mesmo nome | `Petrus.Core/Integracao/CotacaoMoeda.cs:39` | classe ResultadoCotacao |
+| 164 | CotacaoBcb.AtualizarCotacao | 43 | Mesmo nome | `Petrus.Core/Integracao/CotacaoMoeda.cs:78` | classe ResultadoCotacao |
+| 208 | CotacaoBcb.ConsultarCotacao | 70 | Mesmo nome | `Petrus.Core/Integracao/CotacaoMoeda.cs:84` | classe ResultadoCotacao |
+| 284 | CotacaoBcb.ConsultarCotacaoNaData | 120 | Mesmo nome | `Petrus.Core/Integracao/CotacaoMoeda.cs:114` | classe ResultadoCotacao |
 
 ## `Integracao/Models/Serasa.cs`
 

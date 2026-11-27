@@ -1,51 +1,16 @@
 # O que falta no Web (automático)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita à mão fica em [[dev/de-para/analise|Análise]].
 
-## Compras (9 métodos, ~1398 linhas)
+## Fiscal (3 métodos, ~166 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
-| `Compras/Engines/I5Engine.cs:1148` | I5Engine.TelefonesImportacaoI5 | 333 | telefones na importação de planilha (pendente da SS8-221) |
-| `Compras/Classes/DocumentosEntrada.cs:99` | DocumentosEntrada.GerarI59 | 306 | botão "Gerar parcelas" da aba I59 avisa que não migrou |
-| `Compras/Classes/PedidosCompra.cs:300` | PedidosCompra.GerarIX11 | 278 | botão "Gerar parcelas" da aba IX11 avisa que não migrou |
-| `Compras/Engines/I5Engine.cs:756` | I5Engine.EmailImportacaoI5 | 267 | e-mails na importação de planilha (pendente da SS8-221) |
-| `Compras/Interfaces/frmMetasResponsavel.cs:121` | frmMetasResponsavel.InserirMes | 76 | metas por responsável (form sem chamada achada no desktop) |
-| `Compras/Interfaces/frmMetasResponsavel.cs:197` | frmMetasResponsavel.CarregarDados | 74 | metas por responsável (form sem chamada achada no desktop) |
-| `Compras/Interfaces/frmMetasResponsavel.cs:65` | frmMetasResponsavel.Metas | 30 | metas por responsável (form sem chamada achada no desktop) |
-| `Compras/Interfaces/frmMetasResponsavel.cs:95` | frmMetasResponsavel.AtualizarMes | 26 | metas por responsável (form sem chamada achada no desktop) |
-| `Compras/Interfaces/frmMetasResponsavel.cs:33` | frmMetasResponsavel.CarregarGrid | 8 | metas por responsável (form sem chamada achada no desktop) |
-
-## Fiscal (4 métodos, ~444 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Fiscal/NotaFiscal/NotasEntrada.cs:300` | NotasEntrada.GerarI49 | 278 | Gerar parcelas da aba de duplicatas (I49) da nota de entrada |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` | ImpressoesNFe.ExportarDANFCE | 87 | NFC-e (DANFCE) do PDV |
 | `Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs:20` | DanfeSharedHelper.GenerateDanfeNfceReport | 57 | NFC-e (DANFCE) do PDV |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs:338` | ImpressoesNFe.ArmazenarDanfePasta | 22 | cópia do DANFE numa pasta da rede (pasta por empresa) |
-
-## Integracao (4 métodos, ~328 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Integracao/Models/CotacaoMoeda.cs:284` | CotacaoBcb.ConsultarCotacaoNaData | 120 | cotação de moedas do BCB ao abrir a tela S6 102952 |
-| `Integracao/Models/CotacaoMoeda.cs:69` | CotacaoBcb.AtualizarCotacoes | 95 | cotação de moedas do BCB ao abrir a tela S6 102952 |
-| `Integracao/Models/CotacaoMoeda.cs:208` | CotacaoBcb.ConsultarCotacao | 70 | cotação de moedas do BCB ao abrir a tela S6 102952 |
-| `Integracao/Models/CotacaoMoeda.cs:164` | CotacaoBcb.AtualizarCotacao | 43 | cotação de moedas do BCB ao abrir a tela S6 102952 |
-
-## Logistica (6 métodos, ~862 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Logistica/Engines/J2Engine.cs:155` | J2Engine.TelefonesImportacaoJ2 | 329 | pendente da SS8-221 |
-| `Logistica/Engines/J2Engine.cs:694` | J2Engine.EmailImportacaoJ2 | 267 | pendente da SS8-221 |
-| `Logistica/Interfaces/frmPesquisaPedidos.cs:143` | frmPesquisaPedidos.Carregar | 106 | botão "Pesquisa pedidos" (J23) avisa que não migrou |
-| `Logistica/Interfaces/frmPesquisaPedidos.cs:46` | frmPesquisaPedidos.Pedidos | 87 | botão "Pesquisa pedidos" (J23) avisa que não migrou |
-| `Logistica/Classes/Expedicoes.cs:734` | Expedicoes.NroPedidoJ23 | 55 |  |
-| `Logistica/Classes/Expedicoes.cs:713` | Expedicoes.CriarColunaNroPedidoJ23 | 18 |  |
 
 ## PDV (35 métodos, ~2104 linhas)
 
@@ -87,14 +52,7 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `PDV/Interfaces/frmPDV.cs:2563` | frmPDV.DepositoBancario | 5 | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
 | `PDV/Interfaces/frmPDV.cs:2123` | frmPDV.Sair | 4 | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
 
-## RH (2 métodos, ~600 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `RH/Engines/D10Engine.cs:589` | D10Engine.TelefonesImportacaoD10 | 333 | pendente da SS8-221 |
-| `RH/Engines/D10Engine.cs:259` | D10Engine.EmailImportacaoD10 | 267 | pendente da SS8-221 |
-
-## Sistema (9 métodos, ~1359 linhas)
+## Sistema (8 métodos, ~1299 linhas)
 
 | Arquivo:linha | Classe.Método | Linhas | Obs. |
 |---|---|---:|---|
@@ -103,34 +61,7 @@ Métodos do desktop sem destino no Web, fora eventos de tela. A análise feita �
 | `Sistema/Interfaces/frmLogin.cs:542` | frmLogin.CriarEmpresa | 325 | cadastro de empresa nova pelo login (trial/assinatura) |
 | `Sistema/Interfaces/frmLogin.cs:925` | frmLogin.Calcula | 72 | valor da assinatura no login |
 | `Sistema/Interfaces/frmLogin.cs:1756` | frmLogin.VerificarAssinatura | 62 | assinatura/cobrança do Petrus no login |
-| `Sistema/Interfaces/frmInterface.cs:52557` | NFeTerceiros.RelatorioEmail | 60 | enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail) |
 | `Sistema/Interfaces/frmLogin.cs:503` | frmLogin.GerarIDUsuario | 37 | trial |
 | `Sistema/Interfaces/frmLogin.cs:1024` | frmLogin.btnFormaPagto | 37 | assinatura no login |
 | `Sistema/Interfaces/frmLogin.cs:888` | frmLogin.CartaoCredito | 24 | assinatura no login |
-
-## Utils (2 métodos, ~156 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Utils/Funcoes.cs:6571` | Funcoes.GerarNroPersonalizadoCon | 78 | idem |
-| `Utils/Funcoes.cs:6492` | Funcoes.GerarNroPersonalizado | 78 | número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*) |
-
-## Vendas (14 métodos, ~1769 linhas)
-
-| Arquivo:linha | Classe.Método | Linhas | Obs. |
-|---|---|---:|---|
-| `Vendas/Engines/R2Engine.cs:281` | R2Engine.TelefonesImportacaoR2 | 333 | pendente da SS8-221 |
-| `Vendas/Classes/Vendedores.cs:327` | Vendedores.TelefonesImportacaoR4 | 333 | pendente da SS8-221 |
-| `Vendas/Engines/R2Engine.cs:12` | R2Engine.EmailImportacaoR2 | 267 | pendente da SS8-221 |
-| `Vendas/Interfaces/frmGradeProduto.cs:164` | frmGradeProduto.Calcula | 214 | botão "Grade de produtos" avisa que não migrou |
-| `Vendas/Classes/Vendedores.cs:661` | Vendedores.EmailImportacaoR4 | 188 | pendente da SS8-221 |
-| `Vendas/Interfaces/frmGradeProduto.cs:27` | frmGradeProduto.Produtos | 106 | botão "Grade de produtos" avisa que não migrou |
-| `Vendas/Interfaces/frmMetaVendas.cs:26` | frmMetaVendas.AdicionarMeta2 | 88 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| `Vendas/Interfaces/frmMetaVendas.cs:208` | frmMetaVendas.InserirMes | 84 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| `Vendas/Interfaces/frmGradeProduto.cs:493` | frmGradeProduto.Salvar | 43 | botão "Grade de produtos" avisa que não migrou |
-| `Vendas/Interfaces/frmMetaVendas.cs:139` | frmMetaVendas.Metas | 39 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| `Vendas/Interfaces/frmMetaVendas.cs:178` | frmMetaVendas.AtualizarMes | 30 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| `Vendas/Interfaces/frmMetaVendas.cs:298` | frmMetaVendas.CarregarDados | 27 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| `Vendas/Interfaces/frmGradeProduto.cs:536` | frmGradeProduto.Limpar | 9 | botão "Grade de produtos" avisa que não migrou |
-| `Vendas/Interfaces/frmMetaVendas.cs:129` | frmMetaVendas.CarregarGrid | 8 | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
 

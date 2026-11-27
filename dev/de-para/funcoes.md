@@ -1,6 +1,6 @@
 # Funções (S39): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | S39 | Função | Tabela | Situação | Métodos no desktop | Onde está no Web |
 |---:|---|---|---|---|---|

@@ -1,10 +1,10 @@
 # Métodos: Utils (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 38 · Não se aplica: 25 · Equivalente: 7 · Sem uso no desktop: 5 · Citado: 3 · Em branch: 2 · Falta: 2 · Parcial: 2 · Nome sem Con: 1
+**Situação:** Mesmo nome: 39 · Não se aplica: 25 · Equivalente: 9 · Sem uso no desktop: 5 · Citado: 3 · Em branch: 2 · Nome sem Con: 2
 
 ## `Utils/AppSetting.cs`
 
@@ -64,13 +64,13 @@ Voltar: [[dev/de-para/README|De → para]]
 | 1493 | Funcoes.Filtro | 21 | Mesmo nome | `Petrus.Core/Utils/PesoOrdem.cs:296` | classe PesoOrdem |
 | 1514 | Funcoes.LimpaGrid | 19 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:1328` | classe ImportacaoPlanilha |
 | 1535 | Funcoes.GerarConexao | 1759 | Mesmo nome | `Petrus.Core/Utils/Conexoes.cs:1889` | classe Conexoes |
-| 3295 | Funcoes.GerarConexaoMassa | 1361 | Parcial | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | importação de planilha (SS8-221) sem telefones/e-mails |
+| 3295 | Funcoes.GerarConexaoMassa | 1361 | Equivalente | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | inclusão em massa da importação de planilha (SS8-221/321) |
 | 4657 | Funcoes.GerarConexaoTabela | 812 | Mesmo nome | `Petrus.Core/Utils/Conexoes.cs:19` | classe Conexoes |
-| 5470 | Funcoes.GerarConexaoTabelaMassa | 870 | Parcial | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | SS8-221 |
+| 5470 | Funcoes.GerarConexaoTabelaMassa | 870 | Equivalente | `Petrus.Core/Acoes/ImportacaoExcel.cs:44` | SS8-221/321 |
 | 6340 | Funcoes.VerificaIDCon | 75 | Nome sem Con | `Petrus.Core/Utils/Funcoes.cs:234` | classe TokenSessao |
 | 6416 | Funcoes.VerificaID | 76 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:234` | classe TokenSessao |
-| 6492 | Funcoes.GerarNroPersonalizado | 78 | **Falta** |  | número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*) |
-| 6571 | Funcoes.GerarNroPersonalizadoCon | 78 | **Falta** |  | idem |
+| 6492 | Funcoes.GerarNroPersonalizado | 78 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:323` | classe NroPersonalizado |
+| 6571 | Funcoes.GerarNroPersonalizadoCon | 78 | Nome sem Con | `Petrus.Core/Utils/Funcoes.cs:323` | classe NroPersonalizado |
 | 6651 | Funcoes.GerarID | 103 | Mesmo nome | `Petrus.Core/Utils/Funcoes.cs:261` | classe TokenSessao |
 | 6755 | Funcoes.GerarPreID | 20 | Não se aplica |  | pré-registro do Novo do WinForms |
 | 6775 | Funcoes.GetEmpresa | 51 | Mesmo nome | `Petrus.Core/Utils/Helpers.cs:408` | classe Helpers |

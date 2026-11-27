@@ -161,6 +161,18 @@ não mescladas). Assim, uma marca `MIGRADO`/`DESCARTADO` de uma branch contava c
 caminho relativo à raiz do ERP (o worktree inteiro fica dentro de `.claude\worktrees` e era descartado) e o `GerarDePara.ps1`
 passa o `-Desktop` aos inventários. **Atenção:** gerar o de-para num worktree retrata aquela branch, não a master.
 
+## Retrato de 27/11/2026, depois das SS8-319 a 327
+
+Faltam **46 métodos (~3.600 linhas)**, em 3 assuntos só:
+
+| Assunto | Desktop | Linhas |
+|---|---|---:|
+| Venda do PDV (fases 2–4 do Petrus.PDV) | `PDV/Interfaces/frmPDV.cs` (32 métodos), `frmPDVRecebimento`, `frmPDVInformacoes`, `frmPDVValores` | ~2.100 |
+| Cadastro de empresa/usuário e assinatura pelo login | `Sistema/Interfaces/frmLogin.cs` (`CriarEmpresa`, `CriaModulos`, `CriarUsuario`, `VerificarAssinatura`...) | ~1.300 |
+| NFC-e e cópia do DANFE na pasta da rede | `Fiscal/NotaFiscal/ImpressoesNFe.cs:95` e `:338`, `DANFE/DanfeSharedHelper.cs:20` | ~170 |
+
+Ficam no desktop por decisão: Customizador (SS8-248) e importação de XML da tela 102898 (SS8-326).
+
 ## Demandas (abertas em 26/11/2026; todas aprovadas e mescladas na master em 27/11/2026)
 
 > Os itens abaixo já estão no Web: as tabelas desta página (itens 1 a 6) descrevem a situação **antes** delas.

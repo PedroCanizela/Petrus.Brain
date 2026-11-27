@@ -1,10 +1,10 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 29 · Mesmo nome: 23 · Falta: 10 · Equivalente: 8 · Via S39: 7 · Citado: 4 · Em branch: 2 · Sem uso no desktop: 2 · Nome+Async: 1
+**Situação:** Via form: 33 · Mesmo nome: 27 · Equivalente: 10 · Via S39: 7 · Citado: 4 · Sem uso no desktop: 2 · Em branch: 2 · Nome+Async: 1
 
 ## `Logistica/Classes/Expedicoes.cs`
 
@@ -16,8 +16,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | 249 | Expedicoes.QtdComparada | 9 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:371` |  |
 | 259 | Expedicoes.CalculaJ50 | 249 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:392` |  |
 | 509 | Expedicoes.CalculaJ51 | 197 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:483` |  |
-| 713 | Expedicoes.CriarColunaNroPedidoJ23 | 18 | **Falta** |  |  |
-| 734 | Expedicoes.NroPedidoJ23 | 55 | **Falta** |  |  |
+| 713 | Expedicoes.CriarColunaNroPedidoJ23 | 18 | Equivalente |  | coluna Nro Pedido da J23 (SS8-311 no desktop) |
+| 734 | Expedicoes.NroPedidoJ23 | 55 | Equivalente |  | coluna Nro Pedido da J23 (SS8-311 no desktop) |
 | 793 | Expedicoes.PedidoPorNroDocumentoJ23 | 56 | Citado | `Petrus.Core/Cadastros/BuscaGrade.cs:18` |  |
 | 850 | Expedicoes.CalculaJ23 | 366 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:175` |  |
 | 1216 | Expedicoes.CalculaJ35 | 181 | Mesmo nome | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs:531` |  |
@@ -69,12 +69,12 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 18 | J2Engine.VincularJ2 | 136 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:25` | classe Origem |
-| 155 | J2Engine.TelefonesImportacaoJ2 | 329 | **Falta** |  | pendente da SS8-221 |
+| 155 | J2Engine.TelefonesImportacaoJ2 | 329 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:90` | classe ContatosImportacao |
 | 485 | J2Engine.TelefonesJ2 | 64 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 549 | J2Engine.StatusJ2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:44` |  |
 | 566 | J2Engine.CoordenadasJ2 | 76 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:197` |  |
 | 643 | J2Engine.EmailJ2 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:41` |  |
-| 694 | J2Engine.EmailImportacaoJ2 | 267 | **Falta** |  | pendente da SS8-221 |
+| 694 | J2Engine.EmailImportacaoJ2 | 267 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:86` | classe ContatosImportacao |
 
 ## `Logistica/Engines/J40Engine.cs`
 
@@ -151,12 +151,12 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 26 | frmPesquisaPedidos.frmPesquisaPedidos_Load | 15 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
-| 46 | frmPesquisaPedidos.Pedidos | 87 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou |
-| 143 | frmPesquisaPedidos.Carregar | 106 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou |
-| 251 | frmPesquisaPedidos.btnAtualizar_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
-| 257 | frmPesquisaPedidos.btnOK_Click | 9 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
-| 267 | frmPesquisaPedidos.btnCancelar_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:52` | botão "Pesquisa pedidos" (J23) avisa que não migrou; evento de tela |
+| 26 | frmPesquisaPedidos.frmPesquisaPedidos_Load | 15 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:440` | frmPesquisaPedidos |
+| 46 | frmPesquisaPedidos.Pedidos | 87 | Mesmo nome | `Petrus.Logistica/Utils/Grades.cs:28` | classe Grades |
+| 143 | frmPesquisaPedidos.Carregar | 106 | Mesmo nome | `Petrus.Boleto/Boleto/EspecieDocumento/EspecieDocumento_Votorantim.cs:110` | classe EspecieDocumento_Votorantim |
+| 251 | frmPesquisaPedidos.btnAtualizar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:440` | frmPesquisaPedidos |
+| 257 | frmPesquisaPedidos.btnOK_Click | 9 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:440` | frmPesquisaPedidos |
+| 267 | frmPesquisaPedidos.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:440` | frmPesquisaPedidos |
 
 ## `Logistica/Interfaces/frmTransportadora.cs`
 

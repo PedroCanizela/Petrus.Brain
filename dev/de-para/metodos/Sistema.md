@@ -1,10 +1,10 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Descartado: 448 · Não se aplica: 318 · Via form: 257 · Mesmo nome: 156 · Via S39: 135 · Equivalente: 76 · Substituído: 60 · Em branch: 57 · Falta: 11 · Parcial: 2 · Nome sem Con: 1
+**Situação:** Descartado: 448 · Não se aplica: 320 · Via form: 257 · Mesmo nome: 170 · Via S39: 135 · Equivalente: 76 · Substituído: 60 · Em branch: 43 · Falta: 9 · Citado (conferir): 2 · Nome sem Con: 1
 
 ## `Sistema/Classes/Auditoria.cs`
 
@@ -1058,7 +1058,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 2177 | frmInterface.BtnGerarParcelasIX11_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2186 | frmInterface.BtnGradeR49_Click | 114 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2301 | frmInterface.BtnRecalcularR49_Click | 48 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 2350 | frmInterface.BtnIncluirFeirinhaR49_Click | 91 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:40` | Incluir feirinha (RR8 100928) nos itens do pedido; evento de tela |
+| 2350 | frmInterface.BtnIncluirFeirinhaR49_Click | 91 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2442 | frmInterface.BtnPesquisaPedidosJ10_Click | 137 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2580 | frmInterface.BtnIncluirProdutosR49_Click | 111 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 2698 | frmInterface.BtnCortarItensR49_Click | 81 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
@@ -1372,8 +1372,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | 52042 | NFeTerceiros.sfDataGrid1_QueryImageCellStyle | 70 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52113 | NFeTerceiros.InfoCadastro | 21 | Equivalente | `ERPBlazor/Components/Pages/Details.razor:44` |  |
 | 52135 | NFeTerceiros.btnInfo_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 52141 | NFeTerceiros.CompartilharRegistro | 89 | Parcial | `ERPBlazor/Components/Pages/Details.razor:44` | Compartilhar sem e-mail |
-| 52233 | NFeTerceiros.Compartilha | 101 | Parcial | `ERPBlazor/Components/Pages/Details.razor:44` | Compartilhar sem e-mail |
+| 52141 | NFeTerceiros.CompartilharRegistro | 89 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
+| 52233 | NFeTerceiros.Compartilha | 101 | Citado (conferir) | `ERPBlazor/Components/Pages/Details.razor:2048` |  |
 | 52335 | NFeTerceiros.btnCompartilhar_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52343 | NFeTerceiros.btnImprimirRelatorio_Click | 29 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52373 | NFeTerceiros.btnExpExcelRelatorio_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
@@ -1382,12 +1382,12 @@ Voltar: [[dev/de-para/README|De → para]]
 | 52438 | NFeTerceiros.btnCustomizarRelatorio_Click | 24 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52463 | NFeTerceiros.btnVisualizarRelatorio_Click | 34 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52502 | NFeTerceiros.EnviarEmail | 54 | Mesmo nome | `Petrus.Financeiro/Classes/EnvioBoletos.cs:105` | classe EnvioBoletos |
-| 52557 | NFeTerceiros.RelatorioEmail | 60 | **Falta** |  | enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail) |
+| 52557 | NFeTerceiros.RelatorioEmail | 60 | Citado (conferir) | `ERPBlazor/Components/Pages/Report.razor:42` |  |
 | 52619 | NFeTerceiros.compartilharToolStripMenuItem_Click | 252 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52871 | NFeTerceiros.btnFiltroRelatorio_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52876 | NFeTerceiros.btnMaisAcoesRelatorio_Click | 5 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 52884 | NFeTerceiros.BackGroundWorkerDoWork | 72 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 52958 | NFeTerceiros.ImportarEasy | 927 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação de pedido/tabela de preço por planilha (Easy) no R13/R43/RR8/RM11 |
+| 52958 | NFeTerceiros.ImportarEasy | 927 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:790` | classe ImportacaoPlanilha |
 | 53886 | NFeTerceiros.CarregarPesquisa | 15 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 53905 | NFeTerceiros.Funcao | 849 | Equivalente | `Petrus.Core/Acoes/AcoesS39.cs:1` | despacho das S39 (RegistroAcoes) |
 | 54755 | NFeTerceiros.DefaultInteracao | 7 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
@@ -1451,19 +1451,19 @@ Voltar: [[dev/de-para/README|De → para]]
 | 62281 | NFeTerceiros.imprimirToolStripMenuItem_Click | 99 | Equivalente | `ERPBlazor/Components/Pages/Details.Abas.cs:67` |  |
 | 62381 | NFeTerceiros.btnCompartilharRelatorio_Click | 247 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 62629 | NFeTerceiros.guna2ContextMenuStrip1_Opening | 4 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 62635 | NFeTerceiros.ImportarGerador | 151 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Gerador |
-| 62786 | NFeTerceiros.ImportarAferiPratic | 358 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Aferi da Pratic (SS8-210 foi só no desktop) |
-| 63147 | NFeTerceiros.AferiPraticNormalizar | 20 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63168 | NFeTerceiros.AferiPraticAba | 37 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63206 | NFeTerceiros.AferiPraticTexto | 27 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63234 | NFeTerceiros.AferiPraticNumero | 34 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63270 | NFeTerceiros.AferiPraticLinhaCabecalho | 12 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63284 | NFeTerceiros.AferiPraticColuna | 22 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63308 | NFeTerceiros.AferiPraticRotulo | 17 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63327 | NFeTerceiros.AferiPraticAoLado | 13 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210) |
-| 63341 | NFeTerceiros.IntegrarPedido | 43 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): anexo RR3 da planilha importada (Aferi) |
-| 63384 | NFeTerceiros.ImportarAferiDecorplast | 332 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Aferi da Decorplast |
-| 63717 | NFeTerceiros.ImportarAferi | 337 | Em branch | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Aferi (CNPJ 04.968.578 e 51.534.496) |
+| 62635 | NFeTerceiros.ImportarGerador | 151 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:90` | classe ImportacaoPlanilha |
+| 62786 | NFeTerceiros.ImportarAferiPratic | 358 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:213` | classe ImportacaoPlanilha |
+| 63147 | NFeTerceiros.AferiPraticNormalizar | 20 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:449` | classe ImportacaoPlanilha |
+| 63168 | NFeTerceiros.AferiPraticAba | 37 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:471` | classe ImportacaoPlanilha |
+| 63206 | NFeTerceiros.AferiPraticTexto | 27 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:511` | classe ImportacaoPlanilha |
+| 63234 | NFeTerceiros.AferiPraticNumero | 34 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:533` | classe ImportacaoPlanilha |
+| 63270 | NFeTerceiros.AferiPraticLinhaCabecalho | 12 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:563` | classe ImportacaoPlanilha |
+| 63284 | NFeTerceiros.AferiPraticColuna | 22 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:578` | classe ImportacaoPlanilha |
+| 63308 | NFeTerceiros.AferiPraticRotulo | 17 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:603` | classe ImportacaoPlanilha |
+| 63327 | NFeTerceiros.AferiPraticAoLado | 13 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:623` | classe ImportacaoPlanilha |
+| 63341 | NFeTerceiros.IntegrarPedido | 43 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:1306` | classe ImportacaoPlanilha |
+| 63384 | NFeTerceiros.ImportarAferiDecorplast | 332 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:645` | classe ImportacaoPlanilha |
+| 63717 | NFeTerceiros.ImportarAferi | 337 | Mesmo nome | `Petrus.Vendas/Classes/ImportacaoPlanilha.cs:130` | classe ImportacaoPlanilha |
 | 64055 | NFeTerceiros.LerXML | 2344 | Equivalente | `Petrus.Fiscal/NotaFiscal/ImportacaoXmlEntrada.cs:96` | SS8-246/326: o Web não cria cadastros pelo XML (fornecedor I5/I41 e cond. pagto N47 recusam ou ficam em branco com aviso) |
 | 66399 | NFeTerceiros.sfDataGridTabela_CellButtonClick | 26 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 66427 | NFeTerceiros.sfDataGrid_CellButtonClick | 3472 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |

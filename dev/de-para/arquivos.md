@@ -1,30 +1,30 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
 | Arquivo do desktop | Métodos | Com destino | Faltam | Linhas que faltam | Destino no Web |
 |---|---:|---:|---:|---:|---|
 | `Compras/Classes/Cotacoes.cs` | 3 | 3 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Compras/Classes/Cotacoes.cs` |
-| `Compras/Classes/DocumentosEntrada.cs` | 11 | 10 | 1 | 306 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Compras/AcoesCompras.cs`, `Petrus.Compras/Classes/DocumentosEntrada.Calculos.cs` |
+| `Compras/Classes/DocumentosEntrada.cs` | 11 | 11 | 0 | 0 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Compras/Classes/DocumentosEntrada.Calculos.cs`, `Petrus.Compras/AcoesCompras.cs` |
 | `Compras/Classes/Fornecedores.cs` | 3 | 3 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs` |
 | `Compras/Classes/NotasTerceiros.cs` | 3 | 3 | 0 | 0 | `Petrus.Compras/Classes/NotasTerceiros.cs`, `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs` |
-| `Compras/Classes/PedidosCompra.cs` | 12 | 11 | 1 | 278 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Compras/Classes/PedidosCompra.cs`, `ERPBlazor/Components/Pages/Details.Abas.cs` |
+| `Compras/Classes/PedidosCompra.cs` | 12 | 12 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Compras/Classes/PedidosCompra.cs`, `Petrus.Compras/Classes/CalculoCadastroCompras.cs` |
 | `Compras/Classes/SolicitacoesCompra.cs` | 3 | 3 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Compras/Classes/SolicitacoesCompra.cs` |
 | `Compras/Engines/I13Engine.cs` | 4 | 4 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Industrial/Classes/PlanejamentoMRP.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
 | `Compras/Engines/I14Engine.cs` | 9 | 9 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs` |
 | `Compras/Engines/I40Engine.cs` | 2 | 2 | 0 | 0 | `Petrus.Vendas/Classes/Vendedores.cs` |
 | `Compras/Engines/I41Engine.cs` | 2 | 2 | 0 | 0 | `Petrus.Vendas/Classes/Vendedores.cs` |
 | `Compras/Engines/I57Engine.cs` | 2 | 2 | 0 | 0 | `Petrus.Core/Cadastros/StatusInclusao.cs`, `Petrus.Compras/Classes/DocumentosEntrada.cs` |
-| `Compras/Engines/I5Engine.cs` | 12 | 10 | 2 | 600 | `Petrus.Vendas/Classes/Vendedores.cs`, `Petrus.Compras/AcoesCompras.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
+| `Compras/Engines/I5Engine.cs` | 12 | 12 | 0 | 0 | `Petrus.Vendas/Classes/Vendedores.cs`, `Petrus.Compras/AcoesCompras.cs`, `Petrus.Core/Cadastros/ContatosImportacao.cs` |
 | `Compras/Engines/I70Engine.cs` | 2 | 2 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs` |
 | `Compras/Engines/I74Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/DistribuicaoDFe.cs` |
 | `Compras/Engines/I75Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/DistribuicaoDFe.cs` |
 | `Compras/Engines/IX10Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.Compras/Engines/IX10Engine.cs` |
 | `Compras/Interfaces/frmHistoricoCompras.cs` | 1 | 1 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs` |
 | `Compras/Interfaces/frmManifestarXml.cs` | 2 | 2 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/AcoesDistribuicao.cs` |
-| `Compras/Interfaces/frmMetasResponsavel.cs` | 10 | 0 | 5 | 214 |  |
+| `Compras/Interfaces/frmMetasResponsavel.cs` | 10 | 10 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Vendas/Classes/MetaVendas.cs`, `ERPBlazor/Components/Pages/WMS/Separacao.razor` |
 | `Compras/Interfaces/frmPerfilFornecedor.cs` | 30 | 30 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Compras/Classes/PerfisCompras.cs`, `Petrus.Vendas/Classes/PerfisVendas.cs` |
 | `Compras/Reports/Compras.cs` | 1 | 1 | 0 | 0 | `Petrus.Compras/Reports/Compras.cs` |
 | `Compras/Reports/ListagemCompras.cs` | 2 | 2 | 0 | 0 | `Petrus.Compras/Reports/ListagemCompras.cs` |
@@ -176,7 +176,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Fiscal/NotaFiscal/EventosNFe.cs` | 6 | 6 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs` |
 | `Fiscal/NotaFiscal/EventosRTC.cs` | 19 | 19 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs` |
 | `Fiscal/NotaFiscal/ImpressoesNFe.cs` | 7 | 5 | 2 | 109 | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs` |
-| `Fiscal/NotaFiscal/NotasEntrada.cs` | 6 | 5 | 1 | 278 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs`, `ERPBlazor/Components/Pages/Details.Abas.cs` |
+| `Fiscal/NotaFiscal/NotasEntrada.cs` | 6 | 6 | 0 | 0 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs` |
 | `Fiscal/NotaFiscal/NotasMultaJuros.cs` | 8 | 8 | 0 | 0 | `Petrus.Financeiro/Classes/NotasMultaJuros.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
 | `Fiscal/NotaFiscal/NotasSaida.cs` | 4 | 4 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/NotasSaida.Calculos.cs`, `Petrus.Fiscal/NotaFiscal/EventosNFe.cs` |
 | `Fiscal/Reports/ApuracaoIcmsIpi.cs` | 2 | 2 | 0 | 0 | `Petrus.Fiscal/Reports/ApuracaoIcmsIpi.cs` |
@@ -223,14 +223,14 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Industrial/Reports/Qualidade.cs` | 2 | 2 | 0 | 0 | `Petrus.Industrial/Reports/RelatoriosIndustriais.cs` |
 | `Industrial/Reports/VariacaoRitmo.cs` | 1 | 1 | 0 | 0 | `Petrus.Industrial/Reports/VariacaoRitmo.cs` |
 | `Integracao/Interfaces/Serasa/frmSerasa.cs` | 16 | 16 | 0 | 0 | `ERPBlazor/Components/Pages/Financeiro/Serasa.razor`, `Petrus.Industrial/Classes/Mistura.cs`, `Petrus.Vendas/Utils/ApoioVendas.cs` |
-| `Integracao/Models/CotacaoMoeda.cs` | 4 | 0 | 4 | 328 |  |
+| `Integracao/Models/CotacaoMoeda.cs` | 4 | 4 | 0 | 0 | `Petrus.Core/Integracao/CotacaoMoeda.cs` |
 | `Integracao/Models/Serasa.cs` | 4 | 4 | 0 | 0 | `Petrus.Financeiro/Classes/ArquivoSerasa.cs` |
-| `Logistica/Classes/Expedicoes.cs` | 21 | 19 | 2 | 73 | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs`, `Petrus.Logistica/Classes/Expedicoes.Documentos.cs`, `Petrus.Logistica/Classes/Expedicoes.cs` |
+| `Logistica/Classes/Expedicoes.cs` | 21 | 21 | 0 | 0 | `Petrus.Logistica/Classes/Expedicoes.Calculos.cs`, `Petrus.Logistica/Classes/Expedicoes.Documentos.cs`, `Petrus.Logistica/Classes/Expedicoes.cs` |
 | `Logistica/Classes/Incidentes.cs` | 2 | 2 | 0 | 0 | `Petrus.Logistica/AcoesLogistica.cs` |
 | `Logistica/Classes/PlanosEntrega.cs` | 1 | 1 | 0 | 0 | `Petrus.Logistica/Classes/PlanosEntrega.cs` |
 | `Logistica/Classes/Transportadores.cs` | 5 | 5 | 0 | 0 | `Petrus.Compras/AcoesCompras.cs`, `Petrus.Vendas/Classes/Vendedores.cs`, `Petrus.Logistica/Classes/CalculoCadastroLogistica.cs` |
 | `Logistica/Engines/J10Engine.cs` | 4 | 4 | 0 | 0 | `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Vendas/Classes/PedidosVenda.Verificacao.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
-| `Logistica/Engines/J2Engine.cs` | 7 | 5 | 2 | 596 | `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs`, `Petrus.Vendas/Classes/Vendedores.cs` |
+| `Logistica/Engines/J2Engine.cs` | 7 | 7 | 0 | 0 | `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Core/Cadastros/ContatosImportacao.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
 | `Logistica/Engines/J40Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.Core/Cadastros/RotinasCadastro.cs` |
 | `Logistica/Engines/JJ2Engine.cs` | 3 | 3 | 0 | 0 | `Petrus.Logistica/AcoesLogistica.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
 | `Logistica/Etiqueta/PrintQueue.cs` | 2 | 2 | 0 | 0 |  |
@@ -239,7 +239,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Logistica/Interfaces/frmEtiquetaProduto.cs` | 4 | 4 | 0 | 0 | `Petrus.Estoque/AcoesProduto.cs` |
 | `Logistica/Interfaces/frmImprimirEtiqueta.cs` | 12 | 12 | 0 | 0 | `Petrus.Logistica/AcoesLogistica.cs`, `Petrus.Fiscal/NotaFiscal/ComprovanteEventoNFe.cs`, `Petrus.Core/Utils/EtiquetasCadastro.cs` |
 | `Logistica/Interfaces/frmPedidosXProduto.cs` | 2 | 2 | 0 | 0 | `ERPBlazor/Components/Shared/PedidosProdutoDialog.razor` |
-| `Logistica/Interfaces/frmPesquisaPedidos.cs` | 6 | 0 | 2 | 193 | `ERPBlazor/Components/Pages/Details.Abas.cs` |
+| `Logistica/Interfaces/frmPesquisaPedidos.cs` | 6 | 6 | 0 | 0 | `ERPBlazor/Components/Pages/Details.Cadastro.cs`, `Petrus.Boleto/Boleto/EspecieDocumento/EspecieDocumento_Votorantim.cs`, `Petrus.Logistica/Utils/Grades.cs` |
 | `Logistica/Interfaces/frmTransportadora.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor` |
 | `Logistica/Reports/SimulacaoExpedicao.cs` | 1 | 1 | 0 | 0 | `Petrus.Logistica/Reports/SimulacaoExpedicao.cs` |
 | `Logistica/Reports/TransportadorXCidades.cs` | 1 | 1 | 0 | 0 | `Petrus.Logistica/Reports/TransportadorXCidades.cs` |
@@ -296,7 +296,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `RH/Classes/EntregaEPI.cs` | 1 | 1 | 0 | 0 | `Petrus.RH/Classes/EntregaEPI.cs` |
 | `RH/Classes/FolhaPagamento.cs` | 7 | 7 | 0 | 0 | `Petrus.RH/Classes/FolhaPagamento.Calculos.cs`, `Petrus.RH/Classes/FolhaPagamento.cs`, `Petrus.RH/Classes/FolhaPagamento.Recibo.cs` |
 | `RH/Classes/Funcionarios.cs` | 1 | 1 | 0 | 0 | `Petrus.RH/Classes/Funcionarios.Calculos.cs` |
-| `RH/Engines/D10Engine.cs` | 10 | 8 | 2 | 600 | `Petrus.RH/Classes/Funcionarios.cs`, `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
+| `RH/Engines/D10Engine.cs` | 10 | 10 | 0 | 0 | `Petrus.RH/Classes/Funcionarios.cs`, `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Core/Cadastros/ContatosImportacao.cs` |
 | `RH/Engines/DX1Engine.cs` | 6 | 6 | 0 | 0 | `Petrus.RH/Classes/FolhaPagamento.cs`, `Petrus.Industrial/Classes/Mistura.cs`, `ERPBlazor/Components/Services/TemaPetrus.cs` |
 | `RH/Engines/DX2Engine.cs` | 2 | 2 | 0 | 0 | `ERPBlazor/Components/Services/TemaPetrus.cs`, `Petrus.Industrial/Classes/Mistura.cs` |
 | `RH/Engines/DX3Engine.cs` | 2 | 2 | 0 | 0 | `ERPBlazor/Components/Services/TemaPetrus.cs`, `Petrus.Industrial/Classes/Mistura.cs` |
@@ -368,7 +368,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Sistema/Interfaces/frmInicio.cs` | 13 | 13 | 0 | 0 | `ERPBlazor/Components/Pages/Home.razor`, `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor` |
 | `Sistema/Interfaces/frmInput.cs` | 9 | 9 | 0 | 0 |  |
 | `Sistema/Interfaces/frmInputDate.cs` | 3 | 3 | 0 | 0 |  |
-| `Sistema/Interfaces/frmInterface.cs` | 473 | 471 | 1 | 60 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Compras/AcoesCompras.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
+| `Sistema/Interfaces/frmInterface.cs` | 473 | 473 | 0 | 0 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Financeiro/AcoesFinanceiro.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
 | `Sistema/Interfaces/frmLogin.cs` | 159 | 151 | 8 | 1299 | `ERPBlazor/Components/Pages/Login.razor` |
 | `Sistema/Interfaces/frmMensagem.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Pages/Message.razor`, `Petrus.Core/Utils/Gaiolas.cs`, `Petrus.Core/Utils/PacoteLeitura.cs` |
 | `Sistema/Interfaces/frmMenu.cs` | 41 | 41 | 0 | 0 | `ERPBlazor/Components/Services/MenuPetrus.cs`, `ERPBlazor/Components/Layout/NavMenu.razor` |
@@ -381,7 +381,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Utils/AppSetting.cs` | 2 | 2 | 0 | 0 |  |
 | `Utils/AverageStoppedMinutesAggregate .cs` | 1 | 1 | 0 | 0 |  |
 | `Utils/CredentialsManager.cs` | 3 | 3 | 0 | 0 | `ERPBlazor/Components/Pages/Login.razor` |
-| `Utils/Funcoes.cs` | 69 | 67 | 2 | 156 | `Petrus.Core/Utils/Funcoes.cs`, `Petrus.Financeiro/Utils/Legado.cs`, `Petrus.Core/Acoes/ImportacaoExcel.cs` |
+| `Utils/Funcoes.cs` | 69 | 69 | 0 | 0 | `Petrus.Core/Utils/Funcoes.cs`, `Petrus.Financeiro/Utils/Legado.cs`, `Petrus.Core/Acoes/ImportacaoExcel.cs` |
 | `Utils/Mensagens.cs` | 6 | 6 | 0 | 0 |  |
 | `Utils/RawPrinter.cs` | 2 | 2 | 0 | 0 |  |
 | `Utils/TotalMinutesAggregate.cs` | 1 | 1 | 0 | 0 |  |
@@ -391,9 +391,9 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Vendas/Classes/MetasVenda.cs` | 2 | 2 | 0 | 0 | `Petrus.Vendas/Classes/MetasVenda.cs` |
 | `Vendas/Classes/PedidosVenda.cs` | 31 | 31 | 0 | 0 | `Petrus.Vendas/Classes/CalculoPedidoVenda.cs`, `Petrus.Vendas/Classes/PedidosVenda.Faturamento.cs`, `Petrus.Vendas/Classes/PedidosVenda.cs` |
 | `Vendas/Classes/TabelasPreco.cs` | 3 | 3 | 0 | 0 | `Petrus.Vendas/AcoesTabelasPreco.cs`, `Petrus.Vendas/Classes/TabelasPreco.Calculos.cs` |
-| `Vendas/Classes/Vendedores.cs` | 10 | 8 | 2 | 521 | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs`, `Petrus.Vendas/AcoesCadastros.cs`, `Petrus.Vendas/Classes/CalculoCadastroVendas.cs` |
+| `Vendas/Classes/Vendedores.cs` | 10 | 10 | 0 | 0 | `Petrus.Vendas/AcoesCadastros.cs`, `Petrus.Vendas/Classes/Vendedores.Relatorios.cs`, `Petrus.Core/Cadastros/ContatosImportacao.cs` |
 | `Vendas/Engines/R13Engine.cs` | 5 | 5 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `Petrus.Vendas/Engines/R13Engine.cs`, `Petrus.Vendas/Classes/PedidosVenda.Cadastro.cs` |
-| `Vendas/Engines/R2Engine.cs` | 7 | 5 | 2 | 600 | `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Vendas/Engines/R2Engine.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
+| `Vendas/Engines/R2Engine.cs` | 7 | 7 | 0 | 0 | `Petrus.Core/Cadastros/RotinasCadastro.cs`, `Petrus.Core/Cadastros/ContatosImportacao.cs`, `Petrus.Vendas/Engines/R2Engine.cs` |
 | `Vendas/Engines/R38Engine.cs` | 3 | 3 | 0 | 0 | `Petrus.Financeiro/AcoesFinanceiro.cs`, `Petrus.Core/Cadastros/StatusInclusao.cs` |
 | `Vendas/Engines/R43Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.Core/Cadastros/StatusInclusao.cs` |
 | `Vendas/Engines/R47Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.Vendas/Engines/R47Engine.cs` |
@@ -412,9 +412,9 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Vendas/Interfaces/frmEdicaoEntrega.cs` | 9 | 9 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor`, `ERPBlazor/Components/Pages/Details.razor` |
 | `Vendas/Interfaces/frmEdicaoOutros.cs` | 4 | 4 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `ERPBlazor/Components/Pages/Details.razor` |
 | `Vendas/Interfaces/frmEdicaoVendedor.cs` | 9 | 9 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs`, `ERPBlazor/Components/Pages/MES/MisturaReceitas.razor`, `ERPBlazor/Components/Pages/Details.razor` |
-| `Vendas/Interfaces/frmGradeProduto.cs` | 17 | 0 | 4 | 372 | `ERPBlazor/Components/Pages/Details.Abas.cs` |
+| `Vendas/Interfaces/frmGradeProduto.cs` | 17 | 17 | 0 | 0 | `ERPBlazor/Components/Pages/Details.Cadastro.cs`, `ERPBlazor/Services/CanhotoEndpoints.cs`, `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs` |
 | `Vendas/Interfaces/frmIncluirProdutos.cs` | 11 | 11 | 0 | 0 | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor`, `Petrus.Vendas/Classes/PedidosVenda.Itens.cs` |
-| `Vendas/Interfaces/frmMetaVendas.cs` | 13 | 0 | 6 | 276 |  |
+| `Vendas/Interfaces/frmMetaVendas.cs` | 13 | 13 | 0 | 0 | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor`, `Petrus.Vendas/Classes/MetaVendas.cs`, `Petrus.Industrial/Reports/RelatoriosMES.cs` |
 | `Vendas/Interfaces/frmPerfilVendedor.cs` | 34 | 34 | 0 | 0 | `Petrus.Vendas/AcoesCadastros.cs`, `Petrus.Vendas/Classes/PerfisVendas.cs`, `Petrus.Core/Metodos/BancoDados.cs` |
 | `Vendas/Interfaces/frmSituacao.cs` | 3 | 3 | 0 | 0 | `Petrus.Vendas/Classes/PedidosVenda.cs` |
 | `Vendas/Reports/ClientesAtivos.cs` | 1 | 1 | 0 | 0 | `Petrus.Vendas/Reports/ClientesAtivos.cs` |

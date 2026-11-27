@@ -1,10 +1,10 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 112 · Equivalente: 33 · Via form: 14 · Citado: 7 · Não se aplica: 5 · Sem uso no desktop: 4 · Falta: 4 · Nome+Async: 2 · Via S39: 1
+**Situação:** Mesmo nome: 113 · Equivalente: 33 · Via form: 14 · Citado: 7 · Não se aplica: 5 · Sem uso no desktop: 4 · Falta: 3 · Nome+Async: 2 · Via S39: 1
 
 ## `Fiscal/Calculos/CalculosImpostos.cs`
 
@@ -295,7 +295,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 38 | NotasEntrada.CalculaI49 | 262 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:608` |  |
-| 300 | NotasEntrada.GerarI49 | 278 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | Gerar parcelas da aba de duplicatas (I49) da nota de entrada |
+| 300 | NotasEntrada.GerarI49 | 278 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:681` |  |
 | 579 | NotasEntrada.CalculaI46 | 1405 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:46` |  |
 | 1985 | NotasEntrada.LancarContasI11Importacao | 38 | Equivalente | `Petrus.Compras/Classes/DocumentosEntrada.cs:150` | LancarContasImportacao |
 | 2025 | NotasEntrada.LancarContasI11 | 209 | Citado | `Petrus.Compras/Classes/DocumentosEntrada.cs:13` |  |

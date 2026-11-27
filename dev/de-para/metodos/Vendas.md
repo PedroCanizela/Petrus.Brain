@@ -1,10 +1,10 @@
 # Métodos: Vendas (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 92 · Mesmo nome: 83 · Falta: 34 · Equivalente: 14 · Via S39: 9 · Citado: 9 · Em branch: 3 · Sem uso no desktop: 3 · Não se aplica: 1 · Nome+Async: 1 · Nome sem Con: 1
+**Situação:** Via form: 114 · Mesmo nome: 98 · Equivalente: 14 · Via S39: 9 · Citado: 9 · Sem uso no desktop: 3 · Não se aplica: 1 · Nome+Async: 1 · Nome sem Con: 1
 
 ## `Vendas/Classes/Clientes.cs`
 
@@ -83,8 +83,8 @@ Voltar: [[dev/de-para/README|De → para]]
 | 120 | Vendedores.RelatorioVendasR4 | 75 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:148` |  |
 | 195 | Vendedores.RelatorioClientesR4 | 86 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:172` |  |
 | 281 | Vendedores.RelatorioCobrancaR4 | 45 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.Relatorios.cs:202` |  |
-| 327 | Vendedores.TelefonesImportacaoR4 | 333 | **Falta** |  | pendente da SS8-221 |
-| 661 | Vendedores.EmailImportacaoR4 | 188 | **Falta** |  | pendente da SS8-221 |
+| 327 | Vendedores.TelefonesImportacaoR4 | 333 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:74` | classe ContatosImportacao |
+| 661 | Vendedores.EmailImportacaoR4 | 188 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:70` | classe ContatosImportacao |
 | 851 | Vendedores.BloquearR4 | 1 | Citado | `Petrus.Vendas/AcoesCadastros.cs:9` |  |
 | 921 | Vendedores.InativarR4 | 1 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100194 Inativar vendedor |
 | 991 | Vendedores.ReativarR4 | 59 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100196 Reativar vendedor |
@@ -103,13 +103,13 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R2Engine.EmailImportacaoR2 | 267 | **Falta** |  | pendente da SS8-221 |
-| 281 | R2Engine.TelefonesImportacaoR2 | 333 | **Falta** |  | pendente da SS8-221 |
+| 12 | R2Engine.EmailImportacaoR2 | 267 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:62` | classe ContatosImportacao |
+| 281 | R2Engine.TelefonesImportacaoR2 | 333 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:66` | classe ContatosImportacao |
 | 616 | R2Engine.QuadroSocietarioR2 | 38 | Nome+Async | `Petrus.Core/Cadastros/RotinasCadastro.cs:167` | classe RotinasCadastro |
 | 654 | R2Engine.StatusR2 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:37` |  |
 | 669 | R2Engine.TelefonesR2 | 64 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
 | 733 | R2Engine.EmailR2 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:38` |  |
-| 786 | R2Engine.CriarR2 | 304 | Em branch | `Petrus.Vendas/Engines/R2Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy (importação de outro sistema) e LerXML do frmInterface |
+| 786 | R2Engine.CriarR2 | 304 | Mesmo nome | `Petrus.Vendas/Engines/R2Engine.cs:15` |  |
 
 ## `Vendas/Engines/R38Engine.cs`
 
@@ -129,13 +129,13 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 12 | R47Engine.CriarR47 | 84 | Em branch | `Petrus.Vendas/Engines/R47Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy e LerXML |
+| 12 | R47Engine.CriarR47 | 84 | Mesmo nome | `Petrus.Vendas/Engines/R47Engine.cs:10` |  |
 
 ## `Vendas/Engines/R48Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | R48Engine.CriarR48 | 94 | Em branch | `Petrus.Vendas/Engines/R48Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy |
+| 16 | R48Engine.CriarR48 | 94 | Mesmo nome | `Petrus.Vendas/Engines/R48Engine.cs:10` |  |
 
 ## `Vendas/Engines/R4Engine.cs`
 
@@ -287,23 +287,23 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 27 | frmGradeProduto.Produtos | 106 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
-| 143 | frmGradeProduto.frmGradeProduto_Load | 20 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 164 | frmGradeProduto.Calcula | 214 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
-| 426 | frmGradeProduto.sfDataGrid_CurrentCellEndEdit | 5 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 435 | frmGradeProduto.sfDataGrid_QueryRowStyle | 34 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 470 | frmGradeProduto.sfDataGrid_RecordDeleted | 5 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 476 | frmGradeProduto.btnOK_Click | 6 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 483 | frmGradeProduto.btnCancelar_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 489 | frmGradeProduto.btnInserirGrade_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 493 | frmGradeProduto.Salvar | 43 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
-| 536 | frmGradeProduto.Limpar | 9 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou |
-| 546 | frmGradeProduto.btnLimparProdutos_Click | 4 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 551 | frmGradeProduto.txtQtde_Validated | 16 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 568 | frmGradeProduto.txtValorUnitario_Validated | 16 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 585 | frmGradeProduto.txtProduto_KeyDown | 8 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 594 | frmGradeProduto.txtQtde_KeyDown | 8 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
-| 603 | frmGradeProduto.txtValorUnitario_KeyDown | 10 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:39` | botão "Grade de produtos" avisa que não migrou; evento de tela |
+| 27 | frmGradeProduto.Produtos | 106 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Itens.cs:54` | classe PedidosVenda |
+| 143 | frmGradeProduto.frmGradeProduto_Load | 20 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 164 | frmGradeProduto.Calcula | 214 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 426 | frmGradeProduto.sfDataGrid_CurrentCellEndEdit | 5 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 435 | frmGradeProduto.sfDataGrid_QueryRowStyle | 34 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 470 | frmGradeProduto.sfDataGrid_RecordDeleted | 5 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 476 | frmGradeProduto.btnOK_Click | 6 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 483 | frmGradeProduto.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 489 | frmGradeProduto.btnInserirGrade_Click | 4 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 493 | frmGradeProduto.Salvar | 43 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.Documentos.cs:613` | classe PedidosVenda |
+| 536 | frmGradeProduto.Limpar | 9 | Mesmo nome | `ERPBlazor/Services/CanhotoEndpoints.cs:253` | classe LoginCanhoto |
+| 546 | frmGradeProduto.btnLimparProdutos_Click | 4 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 551 | frmGradeProduto.txtQtde_Validated | 16 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 568 | frmGradeProduto.txtValorUnitario_Validated | 16 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 585 | frmGradeProduto.txtProduto_KeyDown | 8 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 594 | frmGradeProduto.txtQtde_KeyDown | 8 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
+| 603 | frmGradeProduto.txtValorUnitario_KeyDown | 10 | Via form | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` | frmGradeProduto |
 
 ## `Vendas/Interfaces/frmIncluirProdutos.cs`
 
@@ -325,19 +325,19 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 26 | frmMetaVendas.AdicionarMeta2 | 88 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| 119 | frmMetaVendas.frmMetaVendas_Load | 10 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
-| 129 | frmMetaVendas.CarregarGrid | 8 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| 139 | frmMetaVendas.Metas | 39 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| 178 | frmMetaVendas.AtualizarMes | 30 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| 208 | frmMetaVendas.InserirMes | 84 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| 293 | frmMetaVendas.btnAtualizar_Click | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
-| 298 | frmMetaVendas.CarregarDados | 27 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente) |
-| 325 | frmMetaVendas.cbbAno_SelectedIndexChanged | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
-| 330 | frmMetaVendas.sfDataGridMeta_SelectionChanged | 21 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
-| 352 | frmMetaVendas.txtDezembro_TextChanged | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
-| 357 | frmMetaVendas.btnOK_Click | 36 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
-| 393 | frmMetaVendas.btnCancelar_Click | 4 | **Falta** |  | metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente); evento de tela |
+| 26 | frmMetaVendas.AdicionarMeta2 | 88 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 119 | frmMetaVendas.frmMetaVendas_Load | 10 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 129 | frmMetaVendas.CarregarGrid | 8 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:37` | classe MetaMes |
+| 139 | frmMetaVendas.Metas | 39 | Mesmo nome | `Petrus.Industrial/Reports/RelatoriosMES.cs:602` | classe RelatoriosMES |
+| 178 | frmMetaVendas.AtualizarMes | 30 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:106` | classe MetaMes |
+| 208 | frmMetaVendas.InserirMes | 84 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:118` | classe MetaMes |
+| 293 | frmMetaVendas.btnAtualizar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 298 | frmMetaVendas.CarregarDados | 27 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:58` | classe MetaMes |
+| 325 | frmMetaVendas.cbbAno_SelectedIndexChanged | 4 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 330 | frmMetaVendas.sfDataGridMeta_SelectionChanged | 21 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 352 | frmMetaVendas.txtDezembro_TextChanged | 4 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 357 | frmMetaVendas.btnOK_Click | 36 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
+| 393 | frmMetaVendas.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` | frmMetaVendas |
 
 ## `Vendas/Interfaces/frmPerfilVendedor.cs`
 

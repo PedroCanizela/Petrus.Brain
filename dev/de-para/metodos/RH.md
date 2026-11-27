@@ -1,10 +1,10 @@
 # Métodos: RH (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Mesmo nome: 41 · Via form: 37 · Equivalente: 5 · Citado: 4 · Falta: 2 · Nome sem Con: 1
+**Situação:** Mesmo nome: 43 · Via form: 37 · Equivalente: 5 · Citado: 4 · Nome sem Con: 1
 
 ## `RH/Classes/EntregaEPI.cs`
 
@@ -41,9 +41,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 128 | D10Engine.AtualizaStatusD10 | 42 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:315` | classe Funcionarios |
 | 173 | D10Engine.ExperienciaD10 | 33 | Mesmo nome | `Petrus.RH/Classes/Funcionarios.cs:296` | classe Funcionarios |
 | 208 | D10Engine.EmailD10 | 51 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
-| 259 | D10Engine.EmailImportacaoD10 | 267 | **Falta** |  | pendente da SS8-221 |
+| 259 | D10Engine.EmailImportacaoD10 | 267 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:94` | classe ContatosImportacao |
 | 527 | D10Engine.TelefonesD10 | 62 | Equivalente | `Petrus.Core/Cadastros/RotinasCadastro.cs:119` |  |
-| 589 | D10Engine.TelefonesImportacaoD10 | 333 | **Falta** |  | pendente da SS8-221 |
+| 589 | D10Engine.TelefonesImportacaoD10 | 333 | Mesmo nome | `Petrus.Core/Cadastros/ContatosImportacao.cs:98` | classe ContatosImportacao |
 
 ## `RH/Engines/DX1Engine.cs`
 

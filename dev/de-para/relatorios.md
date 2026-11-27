@@ -1,6 +1,6 @@
 # Relatórios (S7): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 **Tem** = gerador no Web (marca `MIGRADO S7`). **Genérica** = o `/Report` faz o SELECT da tabela do S8, como o desktop. **Falta** = calculado no desktop e sem gerador no Web.
 

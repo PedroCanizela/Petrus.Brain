@@ -1,10 +1,10 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 243 · Mesmo nome: 123 · Descartado: 35 · Via S39: 17 · Citado: 12 · Equivalente: 12 · Sem uso no desktop: 4 · Nome+Async: 4 · Não se aplica: 3 · Nome+Con: 2 · Em branch: 1
+**Situação:** Via form: 243 · Mesmo nome: 124 · Descartado: 35 · Via S39: 17 · Citado: 12 · Equivalente: 12 · Nome+Async: 4 · Sem uso no desktop: 4 · Não se aplica: 3 · Nome+Con: 2
 
 ## `Financeiro/Classes/Cheques.cs`
 
@@ -181,7 +181,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | N47Engine.CriarN47 | 79 | Em branch | `Petrus.Financeiro/Engines/N47Engine.cs` | SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): só o Importar Easy e o frmCondPagto usam |
+| 16 | N47Engine.CriarN47 | 79 | Mesmo nome | `Petrus.Financeiro/Engines/N47Engine.cs:15` |  |
 
 ## `Financeiro/Engines/N87Engine.cs`
 

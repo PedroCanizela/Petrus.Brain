@@ -102,19 +102,7 @@ Utils/Funcoes.cs;*;GravarSenhaS2;Equivalente;ERPBlazor/Components/Shared/MudarSe
 Utils/Funcoes.cs;*;ExisteSenhaHash;Equivalente;ERPBlazor/Components/Shared/MudarSenhaDialog.razor:1;SS8-272
 Utils/Funcoes.cs;*;ValoresCampos;Equivalente;Petrus.Core/Cadastros/CadastroEmEdicao.cs:1;valores padrão no Novo()
 Utils/Funcoes.cs;*;VerificaLinhas;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:1;conferência das abas no Grid()
-Utils/Funcoes.cs;*;GerarConexaoMassa;Parcial;Petrus.Core/Acoes/ImportacaoExcel.cs:44;importação de planilha (SS8-221) sem telefones/e-mails; uso em PedidosVenda/Expedicoes coberto por Conexoes.GerarConexao
-Utils/Funcoes.cs;*;GerarConexaoTabelaMassa;Parcial;Petrus.Core/Acoes/ImportacaoExcel.cs:44;SS8-221
 Metodos/ExportarGrid.cs;*;ImportarGridExcel;Equivalente;Petrus.Core/Utils/LeituraExcel.cs:1;SS8-221
-Compras/Engines/I5Engine.cs;*;TelefonesImportacaoI5;Falta;;telefones na importação de planilha (pendente da SS8-221)
-Compras/Engines/I5Engine.cs;*;EmailImportacaoI5;Falta;;e-mails na importação de planilha (pendente da SS8-221)
-Vendas/Engines/R2Engine.cs;*;TelefonesImportacaoR2;Falta;;pendente da SS8-221
-Vendas/Engines/R2Engine.cs;*;EmailImportacaoR2;Falta;;pendente da SS8-221
-Vendas/Classes/Vendedores.cs;*;TelefonesImportacaoR4;Falta;;pendente da SS8-221
-Vendas/Classes/Vendedores.cs;*;EmailImportacaoR4;Falta;;pendente da SS8-221
-Logistica/Engines/J2Engine.cs;*;TelefonesImportacaoJ2;Falta;;pendente da SS8-221
-Logistica/Engines/J2Engine.cs;*;EmailImportacaoJ2;Falta;;pendente da SS8-221
-RH/Engines/D10Engine.cs;*;TelefonesImportacaoD10;Falta;;pendente da SS8-221
-RH/Engines/D10Engine.cs;*;EmailImportacaoD10;Falta;;pendente da SS8-221
 Compras/Engines/I5Engine.cs;*;CriarI5Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:81;vendedor vira fornecedor (R4Engine)
 Compras/Engines/I5Engine.cs;*;EmailI5Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:108;
 Compras/Engines/I5Engine.cs;*;TelefonesI5Con;Equivalente;Petrus.Vendas/Classes/Vendedores.cs:119;
@@ -179,11 +167,6 @@ Core/Metodos/Dados.cs;*;CriarS14;Não se aplica;;Web lê do banco
 Core/Metodos/Dados.cs;*;CriarS72;Não se aplica;;Web lê do banco
 Core/Metodos/Dados.cs;*;CriarS31;Descartado;;gráficos do desktop (Web tem S88–S91)
 Core/Metodos/Dados.cs;*;CriarS36;Descartado;;indicadores do desktop (Web tem S88–S91)
-Compras/Classes/DocumentosEntrada.cs;*;GerarI59;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:49;botão "Gerar parcelas" da aba I59 avisa que não migrou
-Compras/Classes/PedidosCompra.cs;*;GerarIX11;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:49;botão "Gerar parcelas" da aba IX11 avisa que não migrou
-Vendas/Interfaces/frmGradeProduto.cs;*;*;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:39;botão "Grade de produtos" avisa que não migrou
-Logistica/Interfaces/frmPesquisaPedidos.cs;*;*;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:52;botão "Pesquisa pedidos" (J23) avisa que não migrou
-Integracao/Models/CotacaoMoeda.cs;*;*;Falta;;cotação de moedas do BCB ao abrir a tela S6 102952
 Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ExportarDANFCE;Falta;;NFC-e (DANFCE) do PDV
 Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs;*;GenerateDanfeNfceReport;Falta;;NFC-e (DANFCE) do PDV
 Financeiro/Engines/N9Engine.cs;*;AgendarN9;Descartado;;só o frmAgendamentoPagFor (descartado)
@@ -198,10 +181,6 @@ Financeiro/Classes/ContasReceber.cs;*;EstornarContasN43;Equivalente;Petrus.Finan
 Financeiro/Classes/ContasReceber.cs;*;WhatsAppEnviadoN22;Equivalente;Petrus.Financeiro/Classes/EnvioBoletos.cs:31;N22_ENVIADO_WHATSAPP depois do envio
 Financeiro/Classes/ContasReceber.cs;*;EmailEnviadoN22;Equivalente;Petrus.Financeiro/Classes/EnvioBoletos.cs:31;N22_ENVIADO depois do envio
 Financeiro/Engines/N98Engine.cs;*;ConcluirN98;Equivalente;Petrus.Financeiro/Engines/N98Engine.cs:15;status do cheque na compensação
-Financeiro/Engines/N47Engine.cs;*;CriarN47;Em branch;Petrus.Financeiro/Engines/N47Engine.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): só o Importar Easy e o frmCondPagto usam
-Vendas/Engines/R2Engine.cs;*;CriarR2;Em branch;Petrus.Vendas/Engines/R2Engine.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy (importação de outro sistema) e LerXML do frmInterface
-Vendas/Engines/R47Engine.cs;*;CriarR47;Em branch;Petrus.Vendas/Engines/R47Engine.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy e LerXML
-Vendas/Engines/R48Engine.cs;*;CriarR48;Em branch;Petrus.Vendas/Engines/R48Engine.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): Importar Easy
 Vendas/Engines/R2Engine.cs;*;EmailR2;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:38;
 Vendas/Engines/R4Engine.cs;*;EmailR4;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:46;
 Logistica/Engines/J2Engine.cs;*;EmailJ2;Equivalente;Petrus.Core/Cadastros/RotinasCadastro.cs:41;
@@ -212,14 +191,10 @@ Sistema/Classes/ParametrosUsuario.cs;*;LocalizaParametrosDecimal;Equivalente;Pet
 Sistema/Interfaces/frmAssistente.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/ProgressBar.razor:1;assistente de progresso das funções
 Metodos/CriarPDF.cs;*;*;Equivalente;Petrus.Core/Acoes/PdfRegistro.cs:1;PDF do registro/relatório
 Fiscal/Interfaces/frmNovoEventoNFe.cs;*;*;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:200;SS8-165
-Vendas/Interfaces/frmMetaVendas.cs;*;*;Falta;;metas de vendas por mês (aberto pela grade do R4 no CriarAmbiente)
-Compras/Interfaces/frmMetasResponsavel.cs;*;*;Falta;;metas por responsável (form sem chamada achada no desktop)
 Contabilidade/Classes/SPEDFiscal.cs;*;*;Equivalente;Petrus.Fiscal/AcoesSped.cs:25;SpedFiscal.Gerar/Exportar
 Contabilidade/Engines/L56Engine.cs;*;*;Descartado;;XML Suframa (S39 100177/100225 descartadas)
 Core/Engines/S2Engine.cs;*;VersaoS2;Não se aplica;;versão do executável do desktop
 Core/Utils/Email.cs;*;*;Não se aplica;;validação de e-mail do WinForms
-Utils/Funcoes.cs;*;GerarNroPersonalizado;Falta;;número personalizado na inclusão (R13_NRO_DOCUMENTO, I14_NRO_DOCUMENTO, R2_CODIGO, R4_CODIGO pelos parâmetros *_PERSONALIZA_*)
-Utils/Funcoes.cs;*;GerarNroPersonalizadoCon;Falta;;idem
 Utils/Funcoes.cs;*;GerarPreID;Não se aplica;;pré-registro do Novo do WinForms; o Web grava no fim
 Utils/Funcoes.cs;*;FiltroProdutoPedidoCompra;Equivalente;Petrus.Core/Acoes/PesquisaInterface.cs:69;I14_PRODUTO
 Utils/Funcoes.cs;*;UTF8_to_ISO;Não se aplica;;
@@ -237,15 +212,6 @@ Industrial/Engines/V1Engine.cs;*;PausarV1;Sem uso no desktop;;S39 100338 não im
 Industrial/Engines/V1Engine.cs;*;ReiniciarV1;Sem uso no desktop;;S39 100339 não implementada no desktop
 Industrial/Engines/V21Engine.cs;*;CalcularV21;Sem uso no desktop;;só o ObterV21 chama, e ele está comentado no Grid()
 RH/Engines/D10Engine.cs;*;DataAteHoje;Equivalente;Petrus.RH/Classes/Funcionarios.cs:318;
-Fiscal/NotaFiscal/NotasEntrada.cs;*;GerarI49;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:49;Gerar parcelas da aba de duplicatas (I49) da nota de entrada; previsto na SS8-229 (Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:16)
-Sistema/Interfaces/frmInterface.cs;*;BtnIncluirFeirinhaR49_Click;Falta;ERPBlazor/Components/Pages/Details.Abas.cs:40;Incluir feirinha (RR8 100928) nos itens do pedido; o botão do Web avisa que não migrou
-Sistema/Interfaces/frmInterface.cs;*;ImportarEasy;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação de pedido/tabela de preço por planilha (Easy) no R13/R43/RR8/RM11
-Sistema/Interfaces/frmInterface.cs;*;ImportarAferi;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Aferi (CNPJ 04.968.578 e 51.534.496)
-Sistema/Interfaces/frmInterface.cs;*;ImportarAferiPratic;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Aferi da Pratic (SS8-210 foi só no desktop)
-Sistema/Interfaces/frmInterface.cs;*;ImportarAferiDecorplast;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Aferi da Decorplast
-Sistema/Interfaces/frmInterface.cs;*;ImportarGerador;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): importação da planilha Gerador
-Sistema/Interfaces/frmInterface.cs;*;IntegrarPedido;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): anexo RR3 da planilha importada (Aferi)
-Sistema/Interfaces/frmInterface.cs;*;AferiPratic*;Em branch;Petrus.Vendas/Classes/ImportacaoPlanilha.cs;SS8-319 (feature/ss8-319-importacao-planilha-pedido, não mesclada): auxiliares da importação Aferi (SS8-210)
 Sistema/Interfaces/frmInterface.cs;*;GerarXmlSuframa;Descartado;;S39 100177/100225
 Sistema/Interfaces/frmInterface.cs;*;LerExtrato;Descartado;;S39 100155
 Sistema/Interfaces/frmInterface.cs;*;CarregaGrafico;Equivalente;ERPBlazor/Components/Pages/Report.razor:501;SS8-192
@@ -257,9 +223,6 @@ Sistema/Interfaces/frmInterface.cs;*;ConfirmarCadastro;Equivalente;ERPBlazor/Com
 Sistema/Interfaces/frmInterface.cs;*;CalculoAutomatico;Equivalente;Petrus.Vendas/Classes/CalculoPedidoVenda.cs:1011;
 Sistema/Interfaces/frmInterface.cs;*;Grid;Equivalente;ERPBlazor/Components/Pages/Details.Cadastro.cs:22;ICalculoCadastro por módulo (SS8-245 e 261–269)
 Sistema/Interfaces/frmInterface.cs;*;BalancoG6;Equivalente;ERPBlazor/Components/Services/FormulariosFuncoes.cs:83;
-Sistema/Interfaces/frmInterface.cs;*;RelatorioEmail;Falta;;enviar relatório/registro por e-mail (o Compartilhar do Web não tem e-mail)
-Sistema/Interfaces/frmInterface.cs;*;Compartilha;Parcial;ERPBlazor/Components/Pages/Details.razor:44;Compartilhar sem e-mail
-Sistema/Interfaces/frmInterface.cs;*;CompartilharRegistro;Parcial;ERPBlazor/Components/Pages/Details.razor:44;Compartilhar sem e-mail
 Sistema/Interfaces/frmInterface.cs;*;InfoCadastro;Equivalente;ERPBlazor/Components/Pages/Details.razor:44;
 Sistema/Interfaces/frmInterface.cs;*;PopularAcoes*;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:14;
 Sistema/Interfaces/frmInterface.cs;*;AcoesGrid;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:14;
@@ -279,3 +242,6 @@ Sistema/Interfaces/frmInterface.cs;*;*Relatorio;Equivalente;ERPBlazor/Components
 Sistema/Interfaces/frmInterface.cs;*;*Tabela;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:67;exportar/imprimir a grade
 Sistema/Interfaces/frmInterface.cs;*;Imprimir*;Equivalente;ERPBlazor/Components/Pages/Details.Abas.cs:67;
 Sistema/Interfaces/frmInterface.cs;*;*;Não se aplica;ERPBlazor/Components/Pages/Table.razor:1;montagem da tela do WinForms (Table/Details no Web);fallback
+Utils/Funcoes.cs;*;GerarConexaoMassa;Equivalente;Petrus.Core/Acoes/ImportacaoExcel.cs:44;inclusão em massa da importação de planilha (SS8-221/321); uso em PedidosVenda/Expedicoes coberto por Conexoes.GerarConexao
+Utils/Funcoes.cs;*;GerarConexaoTabelaMassa;Equivalente;Petrus.Core/Acoes/ImportacaoExcel.cs:44;SS8-221/321
+Logistica/Classes/Expedicoes.cs;*;*NroPedidoJ23;Equivalente;;coluna Nro Pedido da J23 (SS8-311 no desktop); o Web mostra o número pela conversão da SS8-304
