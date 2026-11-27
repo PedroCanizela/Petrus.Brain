@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:25 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:32 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -254,6 +254,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 993cba2 SS8-323: número personalizado na inclusão do /Details
+- 2026-11-26 0a87595 SS8-325: cotação das moedas pelo Banco Central ao abrir a tela Moedas
 - 2026-11-26 c0e55c6 Update
 - 2026-11-26 1c9591f Merge SS8-316: /Table e /Report: título e pesquisa quase colados à esquerda
 - 2026-11-26 679a297 Merge SS8-318: Details: abas secundárias menores e Modo vertical abaixo dos botões
@@ -820,8 +822,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 ae2c9f4 SS8-31: Conferência de pedido por QR Code completa
 - 2026-11-12 627ff35 Merge SS8-34: Monitor de produção por célula
 - 2026-11-12 c836264 Merge SS8-35: Monitor de TV da expedicao (Profiable)
-- 2026-11-12 68a8ef4 SS8-35: Monitor de TV da expedição (Profiable)
-- 2026-11-12 681859f SS8-34: Monitor de produção por célula (MonitorCelula)
 
 ## Petrus.FV
 Branch atual: master
