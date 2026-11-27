@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:11 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:16 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -208,8 +208,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 66ff7341 SS8-26: Tela padrão de impressão de etiquetas pelo cadastro (GX4)
 - 2026-11-12 0e2fda07 Merge SS8-30: Estrutura de dados do WMS por QR Code (GX5, JO1, GX1, GX2)
 - 2026-11-12 c2da0833 SS8-30: Estrutura de dados do WMS por QR Code (histórico do pacote, conferência e inventário)
-- 2026-11-12 bb84d210 Merge SS8-25: Cadastro de etiquetas (GX4) no Dados.cs
-- 2026-11-12 dc8bcc29 SS8-25: Cadastro de etiquetas (GX4) no Dados.cs
 
 ## Petrus.Canhoto
 Branch atual: master
