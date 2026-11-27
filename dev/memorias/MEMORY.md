@@ -88,6 +88,7 @@
 - [Inventário pelos QR Codes](inventario-qrcode-ss8-330.md) — SS8-330: foto GX2 = pacotes GX3 Em estoque (não G17); pergunta aberta sobre ajuste/status no fechamento
 - [QR Code manual sem OP](qrcode-serie-manual-sem-op.md) — SS8-332: série 0 = GX3_ORDEM 11111 sem V1_ID (padrão antigo), GerarManualAsync pelo produto
 - [Contador no autXML da NF-e](contador-autxml-nfe.md) — SS8-334: S1.L53_ID (S10 123710), CriarNFe.GetAutXML no desktop e Web, CNPJ ou CPF do L53
+- [Receita de mistura no Monitoramento](receita-mistura-monitoramento.md) — SS8-336: coluna RECEITA + botão Receita (OrderMixRecipe) no /MES/LiveProduction, Mistura.AlterarReceitaV1; base da baixa da SS8-335
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

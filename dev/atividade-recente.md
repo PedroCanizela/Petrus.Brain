@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:27 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 11:43 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -245,6 +245,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 73bdbb1 SS8-336: receita de mistura da OP no Monitoramento do MES
 - 2026-11-27 8b0a039 SS8-334: contador da empresa na tag autXML da NF-e
 - 2026-11-27 17f4aa2 SS8-332: QR Code da série Manual sem ordem de produção
 - 2026-11-27 c828c3f SS8-330: Inventário por QR Code usa os pacotes em estoque como estoque esperado
