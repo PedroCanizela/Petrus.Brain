@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:03 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:04 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -243,12 +243,12 @@ Branches:
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
 - claude/magical-mcnulty-1862f7
-- + claude/nervous-hopper-062349
+- claude/nervous-hopper-062349
 - + claude/nice-curie-216004
 - claude/optimistic-dirac-195b12
 - + claude/peaceful-ardinghelli-9cc6a3
 - + claude/peaceful-borg-aaaeeb
-- + claude/relaxed-jackson-4ed35c
+- claude/relaxed-jackson-4ed35c
 - + claude/sleepy-varahamihira-76bd15
 - + claude/ss8-328-a50ba2
 - claude/vibrant-heisenberg-962b6b
@@ -260,6 +260,8 @@ Branches:
 - + feature/ss8-335-baixa-ordem-mistura
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-344-estoque-saldo-pedido
+- + feature/ss8-350-resumo-producao-liberadas
+- + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-356-retirar-prioridade-monitoramento
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-39-novo-layout-erp
