@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:02 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:03 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -228,7 +228,7 @@ Branch atual: master
 
 Branches:
 - claude/amazing-brattain-67d432
-- + claude/compassionate-chatelet-755afa
+- claude/compassionate-chatelet-755afa
 - claude/determined-dewdney-22c5ee
 - claude/determined-feistel-6e7623
 - claude/dreamy-driscoll-ea3cff
@@ -243,6 +243,7 @@ Branches:
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-313-mes-relatorio-maiusculas
+- + feature/ss8-314-pesquisa-report
 - + feature/ss8-39-novo-layout-erp
 - * master
 
