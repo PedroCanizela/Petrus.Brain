@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:20 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,8 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 62e46bff Merge master na SS8-334 (conflito de posição no Dados.cs: mantidas as linhas da SS8-340/343/344 e a do contador)
+- 2026-11-27 64b0e483 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)
 - 2026-11-27 c135f60d Merge SS8-344: Vendas / Pedido de venda: colunas de estoque e saldo nos itens, pelo QR Code quando houver gaiola
 - 2026-11-27 178ea054 Merge SS8-335: Industrial / Ordem de mistura: baixa das matérias-primas no estoque ao concluir
 - 2026-11-27 25758266 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
