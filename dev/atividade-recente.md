@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:34 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:39 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -242,7 +242,7 @@ Branches:
 - + claude/hungry-kepler-c997fa
 - claude/jolly-bell-73065e
 - claude/jolly-wiles-b6bda3
-- + claude/magical-babbage-42bd81
+- claude/magical-babbage-42bd81
 - claude/magical-bartik-17f3b7
 - claude/magical-mcnulty-1862f7
 - claude/nervous-hopper-062349
@@ -260,6 +260,7 @@ Branches:
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
+- + feature/ss8-363-conferencia-pedido-faturado
 - + feature/ss8-39-novo-layout-erp
 - * master
 
