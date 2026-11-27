@@ -1,6 +1,6 @@
 # Métodos: Manutencao (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -72,7 +72,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 21 | frmTransferenciaOM.frmTransferenciaOM_Load | 15 | Via form | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` | frmTransferenciaOM |
 | 37 | frmTransferenciaOM.btnOK_Click | 38 | Via form | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` | frmTransferenciaOM |
 | 76 | frmTransferenciaOM.SalvarTecnico | 17 | Via form | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` | frmTransferenciaOM |
-| 93 | frmTransferenciaOM.Salvar | 88 | Mesmo nome | `Petrus.Estoque/Classes/Produtos.Etiquetas.cs:99` | classe Produtos |
+| 93 | frmTransferenciaOM.Salvar | 88 | Mesmo nome | `ERPBlazor/Components/Shared/GradeProdutoDialog.razor:116` | classe GradeProdutoDialog |
 | 182 | frmTransferenciaOM.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` | frmTransferenciaOM |
 
 ## `Manutencao/Reports/CausaXSolucao.cs`

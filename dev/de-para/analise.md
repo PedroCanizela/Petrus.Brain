@@ -161,7 +161,11 @@ não mescladas). Assim, uma marca `MIGRADO`/`DESCARTADO` de uma branch contava c
 caminho relativo à raiz do ERP (o worktree inteiro fica dentro de `.claude\worktrees` e era descartado) e o `GerarDePara.ps1`
 passa o `-Desktop` aos inventários. **Atenção:** gerar o de-para num worktree retrata aquela branch, não a master.
 
-## Demandas abertas (26/11/2026)
+## Demandas (abertas em 26/11/2026; todas aprovadas e mescladas na master em 27/11/2026)
+
+> Os itens abaixo já estão no Web: as tabelas desta página (itens 1 a 6) descrevem a situação **antes** delas.
+> Continua faltando: venda do PDV (item 0), cadastro de empresa pelo login, NFC-e, cópia do DANFE na pasta da rede
+> e a importação de XML da tela 102898 (fica no desktop, decisão da SS8-326). O retrato atual é o `README.md` regerado.
 
 | SS8 | Assunto | Itens desta página |
 |---:|---|---|

@@ -1,6 +1,6 @@
 # Telas (S6): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 **Genérica** = a tela dinâmica do Web abre pelo catálogo (`/Table` para Tabela e Interação, `/Report` para Relatório). **Tem** = página própria (marca `MIGRADO S6`).
 
@@ -28,7 +28,7 @@
 | Marketing | 102817 | Feirinhas | Tabela | Genérica | /Table |
 | Marketing | 102809 | Plataformas | Tabela | Genérica | /Table |
 | Movimentos | 102480 | Cotação de frete | Interacao | Genérica | /Table |
-| Movimentos | 102879 | Metas por vendedor | Tabela | Genérica | /Table |
+| Movimentos | 102879 | Metas por vendedor | Tabela | Tem | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:10` |
 | Movimentos | 102031 | Perfil do cliente | Tabela | Tem | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:8` |
 | Movimentos | 102397 | Perfil do vendedor | Tabela | Genérica | /Table |
 | Movimentos | 102520 | Posição ao vendedor | Interacao | Genérica | /Table |

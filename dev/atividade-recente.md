@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 23:37 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 23:42 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -231,24 +231,16 @@ Branches:
 - claude/magical-bartik-17f3b7
 - + claude/nice-curie-216004
 - + claude/peaceful-ardinghelli-9cc6a3
-- + claude/ss8-321-6c6d0e
-- + claude/ss8-322-68b722
-- + claude/ss8-323-d44c7b
-- + claude/ss8-324-a2ec91
-- + claude/ss8-325-5dc47e
-- + claude/ss8-326-ade518
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
-- + feature/ss8-319-importacao-planilha-pedido
-- + feature/ss8-320-gerar-parcelas-duplicatas
-- + feature/ss8-327-decimais-campos-leitura
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 3cd6f67 Regenera o inventário da migração após os merges de 319 a 327
 - 2026-11-26 09f8a6b Merge SS8-326: Migração Web / De-para: conferir os itens duvidosos, marcar MIGRADO FORM nos forms cobertos e completar parciais e catálogo S10
 - 2026-11-26 f366ba8 Merge SS8-319: Vendas / Pedido e tabela de preço: importação por planilha no Web (Aferi Pratic, Aferi Decorplast, Aferi, Easy e Gerador)
 - 2026-11-26 53b102b Merge SS8-325: Migração Web — metas de vendas (frmMetaVendas) e cotação de moedas do Banco Central (CotacaoMoeda)

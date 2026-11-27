@@ -1,6 +1,6 @@
 # Métodos: Estoque (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -135,8 +135,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 90 | frmEntregaRequisicao.Coluna | 11 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:167` | classe LeituraExcel |
-| 102 | frmEntregaRequisicao.Numero | 12 | Mesmo nome | `Petrus.Core/Relatorios/GraficoRelatorio.cs:107` | classe GraficoRelatorio |
+| 90 | frmEntregaRequisicao.Coluna | 11 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:377` | classe LeituraExcel |
+| 102 | frmEntregaRequisicao.Numero | 12 | Mesmo nome | `Petrus.Hub/Conectores/MercadoLivre/MercadoLivreConnector.cs:553` | classe MercadoLivreConnector |
 | 115 | frmEntregaRequisicao.Carregar | 12 | Mesmo nome | `Petrus.Boleto/Boleto/EspecieDocumento/EspecieDocumento_Votorantim.cs:110` | classe EspecieDocumento_Votorantim |
 | 128 | frmEntregaRequisicao.Preencher | 14 | Via form | `ERPBlazor/Components/Shared/EntregaRequisicaoDialog.razor:3` | frmEntregaRequisicao |
 | 143 | frmEntregaRequisicao.Confirmar | 31 | Mesmo nome | `ERPBlazor/Components/Shared/ImportacaoExcelDialog.razor:213` | classe Escolha |

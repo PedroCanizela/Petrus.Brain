@@ -1,6 +1,6 @@
 # Métodos: Logistica (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -50,9 +50,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 27 | Transportadores.CalculaJX1 | 78 | Citado | `Petrus.Logistica/Classes/CalculoCadastroLogistica.cs:15` |  |
-| 107 | Transportadores.BloquearJ2 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100202 Bloquear transportador |
-| 177 | Transportadores.InativarJ2 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100200 Inativar transportador |
-| 247 | Transportadores.ReativarJ2 | 60 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100201 Reativar transportador |
+| 107 | Transportadores.BloquearJ2 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100202 Bloquear transportador |
+| 177 | Transportadores.InativarJ2 | 1 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100200 Inativar transportador |
+| 247 | Transportadores.ReativarJ2 | 60 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100201 Reativar transportador |
 | 308 | Transportadores.VincularJ2 | 21 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:25` | classe Origem |
 
 ## `Logistica/Engines/J10Engine.cs`

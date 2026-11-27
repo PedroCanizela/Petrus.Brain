@@ -1,10 +1,10 @@
 # Métodos: Financeiro (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 245 · Mesmo nome: 121 · Descartado: 35 · Via S39: 17 · Citado: 12 · Equivalente: 12 · Sem uso no desktop: 4 · Nome+Async: 4 · Não se aplica: 3 · Nome+Con: 2 · Em branch: 1
+**Situação:** Via form: 243 · Mesmo nome: 123 · Descartado: 35 · Via S39: 17 · Citado: 12 · Equivalente: 12 · Sem uso no desktop: 4 · Nome+Async: 4 · Não se aplica: 3 · Nome+Con: 2 · Em branch: 1
 
 ## `Financeiro/Classes/Cheques.cs`
 
@@ -134,7 +134,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 633 | N22Engine.CalculaJurosN22 | 24 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:250` |  |
 | 658 | N22Engine.CalculaAtrasoPerfilN22 | 95 | Citado | `Petrus.Vendas/Classes/PerfisVendas.cs:318` |  |
 | 754 | N22Engine.CalculaProtestado | 16 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:215` |  |
-| 771 | N22Engine.CalculaAtrasoFinanceiroN22 | 118 | Citado | `ERPBlazor/Components/Pages/Report.razor:1103` |  |
+| 771 | N22Engine.CalculaAtrasoFinanceiroN22 | 118 | Citado | `ERPBlazor/Components/Pages/Report.razor:1154` |  |
 | 890 | N22Engine.CalculaFinanceiroN22 | 11 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 902 | N22Engine.OcorrenciaN83 | 86 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:198` |  |
 | 988 | N22Engine.OcorrenciaNX1 | 91 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:183` |  |
@@ -259,7 +259,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 48 | frmAvaliacaoCredito.frmAvaliacaoCredito_Load | 46 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
-| 95 | frmAvaliacaoCredito.CarregaDados | 12 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
+| 95 | frmAvaliacaoCredito.CarregaDados | 12 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1187` | classe StatusCadastro |
 | 117 | frmAvaliacaoCredito.TabPageLimiteExcedido_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 122 | frmAvaliacaoCredito.TabPageAtrasos_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 127 | frmAvaliacaoCredito.TabPageInadimplente_Click | 4 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
@@ -268,7 +268,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 160 | frmAvaliacaoCredito.CarregaPedidos | 30 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 191 | frmAvaliacaoCredito.Pedidos | 139 | Mesmo nome | `Petrus.Logistica/Utils/Grades.cs:28` | classe Grades |
 | 358 | Pedido.ColunasAnalise | 89 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
-| 447 | Pedido.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:857` | classe CampoPesquisa |
+| 447 | Pedido.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:869` | classe CampoPesquisa |
 | 475 | Pedido.CarregarClientes | 133 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 609 | Pedido.CarregarPedidos | 29 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
 | 639 | Pedido.Analise | 81 | Descartado | `Petrus.Financeiro/AcoesFinanceiro.cs:9` | frmAvaliacaoCredito |
@@ -296,7 +296,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 38 | frmConciliacaoBancaria.frmConciliacaoBancaria_Load | 26 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmConciliacaoBancaria |
-| 100 | Contas.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:857` | classe CampoPesquisa |
+| 100 | Contas.CarregaGrid | 27 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:869` | classe CampoPesquisa |
 | 129 | Contas.CarregarExtrato | 29 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmConciliacaoBancaria |
 | 159 | Contas.CarregarContas | 36 | Mesmo nome | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:108` | classe OrcamentoContas |
 | 197 | Contas.ContasExtrato | 111 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmConciliacaoBancaria |
@@ -394,7 +394,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 25 | frmMoeda.frmMoeda_Load | 52 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmMoeda |
-| 88 | frmMoeda.Calcular | 5 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
+| 88 | frmMoeda.Calcular | 5 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:93` | classe Mistura |
 | 93 | frmMoeda.txtCotacao_Validated | 15 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmMoeda |
 | 109 | frmMoeda.txtValorMoeda_Validated | 18 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmMoeda |
 | 128 | frmMoeda.txtValorTitulo_Validated | 13 | Via form | `Petrus.Financeiro/AcoesFinanceiro.cs:86` | frmMoeda |
@@ -417,7 +417,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 35 | frmNotasMultaJuros.frmNotasMultaJuros_Load | 18 | Via form | `ERPBlazor/Components/Pages/Financeiro/NotasDebito.razor:13` | frmNotasMultaJuros |
 | 54 | frmNotasMultaJuros.Colunas | 27 | Mesmo nome | `Petrus.Core/Acoes/RelatorioListaPdf.cs:120` | classe Coluna |
 | 82 | frmNotasMultaJuros.Texto | 11 | Mesmo nome | `Petrus.Core/Utils/ConsultaTrocaMolde.cs:76` | classe ConsultaTrocaMolde |
-| 94 | frmNotasMultaJuros.Numero | 13 | Mesmo nome | `Petrus.Core/Relatorios/GraficoRelatorio.cs:107` | classe GraficoRelatorio |
+| 94 | frmNotasMultaJuros.Numero | 13 | Mesmo nome | `Petrus.Hub/Conectores/MercadoLivre/MercadoLivreConnector.cs:553` | classe MercadoLivreConnector |
 | 108 | frmNotasMultaJuros.Data | 13 | Mesmo nome | `Petrus.Financeiro/Classes/Contabil.cs:222` | classe Contabil |
 | 122 | frmNotasMultaJuros.Pesquisar | 17 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1302` | classe Separacao |
 | 140 | frmNotasMultaJuros.Filtrar | 13 | Mesmo nome | `ERPBlazor/Components/Pages/MES/RoteiroSelect.razor:127` | classe RoteiroSelect |
@@ -438,9 +438,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 23 | frmOrcamento.frmOrcamento_Load | 10 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
 | 33 | frmOrcamento.CarregarGrid | 8 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1122` | classe Separacao |
 | 43 | frmOrcamento.Orcamento | 48 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
-| 91 | frmOrcamento.AtualizarMes | 26 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
-| 117 | frmOrcamento.InserirMes | 76 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
-| 193 | frmOrcamento.CarregarDados | 74 | Mesmo nome | `ERPBlazor/Components/Pages/CMMS/OrderMaintenanceEditing.razor:89` | classe OrderMaintenanceEditing |
+| 91 | frmOrcamento.AtualizarMes | 26 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:106` | classe MetaMes |
+| 117 | frmOrcamento.InserirMes | 76 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:118` | classe MetaMes |
+| 193 | frmOrcamento.CarregarDados | 74 | Mesmo nome | `Petrus.Vendas/Classes/MetaVendas.cs:58` | classe MetaMes |
 | 268 | frmOrcamento.sfDataGridOrcamento_SelectionChanged | 21 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
 | 290 | frmOrcamento.btnOK_Click | 49 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
 | 340 | frmOrcamento.btnCancelar_Click | 4 | Via form | `ERPBlazor/Components/Pages/Financeiro/OrcamentoContas.razor:11` | frmOrcamento |
@@ -499,7 +499,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 63 | frmPerfilCliente.BackGroundWorkerDoWork | 18 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 83 | frmPerfilCliente.CriarControles | 13 | Mesmo nome | `ERPBlazor/Components/Pages/ReportList.razor:138` | classe ReportList |
-| 96 | frmPerfilCliente.CarregaDados | 235 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
+| 96 | frmPerfilCliente.CarregaDados | 235 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1187` | classe StatusCadastro |
 | 332 | frmPerfilCliente.CarregaVendas | 21 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 353 | frmPerfilCliente.CarregaProdutos | 39 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |
 | 392 | frmPerfilCliente.CarregaCredito | 12 | Via form | `ERPBlazor/Components/Pages/Vendas/PerfilCliente.razor:9` | frmPerfilCliente |

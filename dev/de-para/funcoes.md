@@ -1,6 +1,6 @@
 # Funções (S39): desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | S39 | Função | Tabela | Situação | Métodos no desktop | Onde está no Web |
 |---:|---|---|---|---|---|
@@ -55,8 +55,8 @@
 | 100114 | Exportar recibo | Contas à receber x recebimentos (N43) | Tem | `ExportarReciboN43` (Sistema/Interfaces/frmInterface.cs:13004) | `Petrus.Financeiro/AcoesFinanceiro.cs:85` |
 | 100530 | Autorizar no marketplace | Contas de marketplace (HB1) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
 | 100531 | Importar anúncios | Contas de marketplace (HB1) | Tem |  | `Petrus.Hub/AcoesHub.cs:22` |
-| 100259 | Aprovar cotação | Cotação (I70) | Tem | `AprovarI70` (Compras/Classes/Cotacoes.cs:26) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100270 | Cancelar cotação | Cotação (I70) | Tem | `CancelarI70` (Compras/Classes/Cotacoes.cs:160) | `Petrus.Compras/AcoesCompras.cs:22` |
+| 100259 | Aprovar cotação | Cotação (I70) | Tem | `AprovarI70` (Compras/Classes/Cotacoes.cs:26) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100270 | Cancelar cotação | Cotação (I70) | Tem | `CancelarI70` (Compras/Classes/Cotacoes.cs:160) | `Petrus.Compras/AcoesCompras.cs:25` |
 | 100312 | Baixar crédito | Crédito pendente (N93) | Tem | `BaixarN93` (Financeiro/Engines/N93Engine.cs:182) | `Petrus.Financeiro/AcoesFinanceiro.cs:84` |
 | 100313 | Cancelar crédito | Crédito pendente (N93) | Tem | `CancelarN93` (Financeiro/Classes/CreditoPendente.cs:20) | `Petrus.Financeiro/AcoesFinanceiro.cs:84` |
 | 100359 | Estornar crédito | Crédito pendente (N93) | Tem | `EstornarN93` (Financeiro/Classes/CreditoPendente.cs:123) | `Petrus.Financeiro/AcoesFinanceiro.cs:84` |
@@ -64,11 +64,11 @@
 | 100247 | Sincronizar notas | Distribuição xml (I74) | Tem | `SincronizarNotasI74` (Sistema/Interfaces/frmInterface.cs:32902) | `Petrus.Fiscal/NotaFiscal/AcoesDistribuicao.cs:17` |
 | 100248 | Manifestar xml | Distribuição xml (I74) | Tem | `ManifestarXmlI75` (Sistema/Interfaces/frmInterface.cs:38486) | `Petrus.Fiscal/NotaFiscal/AcoesDistribuicao.cs:17` |
 | 100300 | Importar xml | Distribuição xml (I74) | Tem | `ImportarXmlI74` (Sistema/Interfaces/frmInterface.cs:44283) | `Petrus.Fiscal/NotaFiscal/AcoesDistribuicao.cs:17` |
-| 100289 | Cancelar documento | Documento de entrada (I57) | Tem | `CancelarI57` (Compras/Classes/DocumentosEntrada.cs:1546) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100290 | Aprovar documento | Documento de entrada (I57) | Tem | `AprovarI57` (Compras/Classes/DocumentosEntrada.cs:1822) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100291 | Concluir documento | Documento de entrada (I57) | Tem | `ConcluirI57` (Compras/Classes/DocumentosEntrada.cs:1673) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100302 | Reabrir documento | Documento de entrada (I57) | Tem | `ReabrirI57` (Compras/Classes/DocumentosEntrada.cs:1746) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100330 | Importar compra | Documento de entrada (I57) | Tem | `ImportarCompraI57` (Sistema/Interfaces/frmInterface.cs:31231) | `Petrus.Compras/AcoesCompras.cs:31` |
+| 100289 | Cancelar documento | Documento de entrada (I57) | Tem | `CancelarI57` (Compras/Classes/DocumentosEntrada.cs:1546) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100290 | Aprovar documento | Documento de entrada (I57) | Tem | `AprovarI57` (Compras/Classes/DocumentosEntrada.cs:1822) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100291 | Concluir documento | Documento de entrada (I57) | Tem | `ConcluirI57` (Compras/Classes/DocumentosEntrada.cs:1673) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100302 | Reabrir documento | Documento de entrada (I57) | Tem | `ReabrirI57` (Compras/Classes/DocumentosEntrada.cs:1746) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100330 | Importar compra | Documento de entrada (I57) | Tem | `ImportarCompraI57` (Sistema/Interfaces/frmInterface.cs:31231) | `Petrus.Compras/AcoesCompras.cs:34` |
 | 100083 | Balanço | Estoque (G17) | Tem | `BalancoG17` (Sistema/Interfaces/frmInterface.cs:32598) | `Petrus.Estoque/AcoesEstoque.cs:30` |
 | 100085 | Reserva | Estoque (G17) | Tem | `ReservaG17` (Sistema/Interfaces/frmInterface.cs:32651) | `Petrus.Estoque/AcoesEstoque.cs:30` |
 | 100086 | Lançamento | Estoque (G17) | Tem | `LancamentoEstoqueG17` (Sistema/Interfaces/frmInterface.cs:32492) | `Petrus.Estoque/AcoesEstoque.cs:30` |
@@ -88,10 +88,10 @@
 | 100322 | Cancelar folha | Folha de pagamento (DX1) | Tem | `CancelarDX1` (RH/Classes/FolhaPagamento.cs:54) | `Petrus.RH/AcoesRH.cs:24` |
 | 100351 | Exportar recibo | Folha de pagamento (DX1) | Tem | `ExportarReciboDX1` (RH/Classes/FolhaPagamento.cs:321) | `Petrus.RH/AcoesRH.cs:26` |
 | 100399 | Lançar salário | Folha de pagamento (DX1) | Tem | `LancamentoSalarioDX1` (Sistema/Interfaces/frmInterface.cs:32344) | `Petrus.RH/AcoesRH.cs:24` |
-| 100188 | Perfil do fornecedor | Fornecedor (I5) | Tem | `PerfilI5` (Sistema/Interfaces/frmInterface.cs:48529) | `Petrus.Compras/AcoesCompras.cs:26` |
-| 100197 | Reativar fornecedor | Fornecedor (I5) | Tem | `ReativarI5` (Compras/Classes/Fornecedores.cs:92) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100198 | Inativar fornecedor | Fornecedor (I5) | Tem | `InativarI5` (Compras/Classes/Fornecedores.cs:52) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100199 | Bloquear fornecedor | Fornecedor (I5) | Tem | `BloquearI5` (Compras/Classes/Fornecedores.cs:13) | `Petrus.Compras/AcoesCompras.cs:23` |
+| 100188 | Perfil do fornecedor | Fornecedor (I5) | Tem | `PerfilI5` (Sistema/Interfaces/frmInterface.cs:48529) | `Petrus.Compras/AcoesCompras.cs:29` |
+| 100197 | Reativar fornecedor | Fornecedor (I5) | Tem | `ReativarI5` (Compras/Classes/Fornecedores.cs:92) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100198 | Inativar fornecedor | Fornecedor (I5) | Tem | `InativarI5` (Compras/Classes/Fornecedores.cs:52) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100199 | Bloquear fornecedor | Fornecedor (I5) | Tem | `BloquearI5` (Compras/Classes/Fornecedores.cs:13) | `Petrus.Compras/AcoesCompras.cs:26` |
 | 100323 | Admitir funcionário | Funcionario (D10) | Tem | `AdmitirD10` (Sistema/Interfaces/frmInterface.cs:23014) | `Petrus.RH/AcoesRH.cs:24` |
 | 100324 | Afastar funcionário | Funcionario (D10) | Tem | `AfastarD10` (Sistema/Interfaces/frmInterface.cs:22482) | `Petrus.RH/AcoesRH.cs:24` |
 | 100325 | Transferir funcionário | Funcionario (D10) | Tem | `TransferirD10` (Sistema/Interfaces/frmInterface.cs:22662) | `Petrus.RH/AcoesRH.cs:24` |
@@ -131,8 +131,8 @@
 | 100098 | Exportar carta de correção | Nota de entrada (I11) | Tem | `ExportarCartaCorrecaoI11` (Sistema/Interfaces/frmInterface.cs:3462) | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:56` |
 | 100181 | Importar xml | Nota de entrada (I11) | Tem | `LerXmlI11` (Sistema/Interfaces/frmInterface.cs:31197) | `Petrus.Fiscal/NotaFiscal/ImportacaoXmlEntrada.cs:87` |
 | 100240 | Gerar nfe em contingência | Nota de entrada (I11) | Tem | `GerarNFeI11` (Sistema/Interfaces/frmInterface.cs:30053) | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:56` |
-| 100294 | Concluir nota | Nota de entrada (I11) | Tem | `ConcluirI11` (Compras/Classes/NotasTerceiros.cs:178) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100303 | Reabrir nota | Nota de entrada (I11) | Tem | `ReabrirI11` (Compras/Classes/NotasTerceiros.cs:25) | `Petrus.Compras/AcoesCompras.cs:23` |
+| 100294 | Concluir nota | Nota de entrada (I11) | Tem | `ConcluirI11` (Compras/Classes/NotasTerceiros.cs:178) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100303 | Reabrir nota | Nota de entrada (I11) | Tem | `ReabrirI11` (Compras/Classes/NotasTerceiros.cs:25) | `Petrus.Compras/AcoesCompras.cs:26` |
 | 100498 | Eventos da NF-e | Nota de entrada (I11) | Tem | `EventosNFeRTC` (Sistema/Interfaces/frmInterface.cs:3283) | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:58` |
 | 100009 | Enviar nfe para o sefaz | Nota de saída (R7) | Tem | `EnviarNFeSefazR7` (Sistema/Interfaces/frmInterface.cs:30283) | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:55` |
 | 100010 | Cancelar nota | Nota de saída (R7) | Tem | `CancelarR7` (Sistema/Interfaces/frmInterface.cs:33778) | `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs:55` |
@@ -168,15 +168,15 @@
 | 100496 | Gerar requisição | Ordem de produção (V1) | Tem | `GerarRequisicaoV1` (Sistema/Interfaces/frmInterface.cs:27382) | `Petrus.Estoque/AcoesRequisicoes.cs:22` |
 | 100464 | Imprimir etiqueta | Ordem de separação (J7) | Tem | `ImprimirEtiquetaCadastro` (Sistema/Interfaces/frmInterface.cs:47162) | `Petrus.Logistica/AcoesLogistica.cs:35` |
 | 100536 | Baixa manual de pacote | Pacotes (GX3) | não implementada no desktop |  |  |
-| 100068 | Cancelar pedido | Pedido de compra (I14) | Tem | `CancelarI14` (Compras/Classes/PedidosCompra.cs:1659) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100069 | Reativar pedido | Pedido de compra (I14) | Tem | `ReativarI14` (Compras/Classes/PedidosCompra.cs:1635) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100070 | Efetivar pedido | Pedido de compra (I14) | Tem | `EfetivarI14` (Compras/Classes/PedidosCompra.cs:1507) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100272 | Aprovar pedido | Pedido de compra (I14) | Tem | `AprovarI14` (Compras/Classes/PedidosCompra.cs:1532) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100435 | Reprovar pedido | Pedido de compra (I14) | Tem | `ReprovarI14` (Compras/Classes/PedidosCompra.cs:1612) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100437 | Histórico de compras | Pedido de compra (I14) | Tem | `HistoricoComprasI14` (Sistema/Interfaces/frmInterface.cs:21297) | `Petrus.Compras/AcoesCompras.cs:26` |
-| 100438 | Enviar para aprovação | Pedido de compra (I14) | Tem | `EnviarAprovacaoI14` (Compras/Classes/PedidosCompra.cs:1572) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100439 | Enviar para compras | Pedido de compra (I14) | Tem | `EnviarComprasI14` (Compras/Classes/PedidosCompra.cs:1552) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100450 | Estornar para compras | Pedido de compra (I14) | Tem | `EstornarComprasI14` (Compras/Classes/PedidosCompra.cs:1592) | `Petrus.Compras/AcoesCompras.cs:22` |
+| 100068 | Cancelar pedido | Pedido de compra (I14) | Tem | `CancelarI14` (Compras/Classes/PedidosCompra.cs:1659) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100069 | Reativar pedido | Pedido de compra (I14) | Tem | `ReativarI14` (Compras/Classes/PedidosCompra.cs:1635) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100070 | Efetivar pedido | Pedido de compra (I14) | Tem | `EfetivarI14` (Compras/Classes/PedidosCompra.cs:1507) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100272 | Aprovar pedido | Pedido de compra (I14) | Tem | `AprovarI14` (Compras/Classes/PedidosCompra.cs:1532) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100435 | Reprovar pedido | Pedido de compra (I14) | Tem | `ReprovarI14` (Compras/Classes/PedidosCompra.cs:1612) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100437 | Histórico de compras | Pedido de compra (I14) | Tem | `HistoricoComprasI14` (Sistema/Interfaces/frmInterface.cs:21297) | `Petrus.Compras/AcoesCompras.cs:29` |
+| 100438 | Enviar para aprovação | Pedido de compra (I14) | Tem | `EnviarAprovacaoI14` (Compras/Classes/PedidosCompra.cs:1572) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100439 | Enviar para compras | Pedido de compra (I14) | Tem | `EnviarComprasI14` (Compras/Classes/PedidosCompra.cs:1552) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100450 | Estornar para compras | Pedido de compra (I14) | Tem | `EstornarComprasI14` (Compras/Classes/PedidosCompra.cs:1592) | `Petrus.Compras/AcoesCompras.cs:25` |
 | 100001 | Cancelar pedido | Pedido de venda (R13) | Tem | `CancelarR13` (Sistema/Interfaces/frmInterface.cs:15065) | `Petrus.Vendas/Classes/PedidosVenda.cs:81` |
 | 100002 | Liberar pedido | Pedido de venda (R13) | Tem | `LiberarR13` (Sistema/Interfaces/frmInterface.cs:39239) | `Petrus.Vendas/Classes/PedidosVenda.cs:81` |
 | 100003 | Bloquear pedido | Pedido de venda (R13) | Tem | `BloquearR13` (Sistema/Interfaces/frmInterface.cs:48796) | `Petrus.Vendas/Classes/PedidosVenda.cs:81` |
@@ -243,8 +243,8 @@
 | 100381 | Aprovar solicitação | Solicitação (RM3) | Tem | `AprovarRM3` (CRM/Classes/Solicitacoes.cs:69) | `Petrus.Vendas/AcoesCRM.cs:20` |
 | 100382 | Reprovar solicitação | Solicitação (RM3) | Tem | `ReprovarRM3` (CRM/Classes/Solicitacoes.cs:142) | `Petrus.Vendas/AcoesCRM.cs:20` |
 | 100249 | Cotar preços | Solicitação de compra (I13) | não implementada no desktop |  |  |
-| 100250 | Cancelar solicitação | Solicitação de compra (I13) | Tem | `CancelarI13` (Compras/Classes/SolicitacoesCompra.cs:206) | `Petrus.Compras/AcoesCompras.cs:22` |
-| 100251 | Aprovar solicitação | Solicitação de compra (I13) | Tem | `AprovarI13` (Compras/Classes/SolicitacoesCompra.cs:245) | `Petrus.Compras/AcoesCompras.cs:22` |
+| 100250 | Cancelar solicitação | Solicitação de compra (I13) | Tem | `CancelarI13` (Compras/Classes/SolicitacoesCompra.cs:206) | `Petrus.Compras/AcoesCompras.cs:25` |
+| 100251 | Aprovar solicitação | Solicitação de compra (I13) | Tem | `AprovarI13` (Compras/Classes/SolicitacoesCompra.cs:245) | `Petrus.Compras/AcoesCompras.cs:25` |
 | 100157 | Gerar sped | Sped fiscal - efd icms/ipi (L6) | Tem | `GerarSpedL6` (Sistema/Interfaces/frmInterface.cs:32941) | `Petrus.Fiscal/AcoesSped.cs:17` |
 | 100158 | Exportar sped | Sped fiscal - efd icms/ipi (L6) | Tem | `ExportarSpedL6` (Sistema/Interfaces/frmInterface.cs:36598) | `Petrus.Fiscal/AcoesSped.cs:17` |
 | 100159 | Tabela com fotos | Tabela de preço (R43) | Tem | `LocalizaParametrosBoolean` (Sistema/Classes/ParametrosSistema.cs:518)<br>`ExportarTabelaR43` (Sistema/Interfaces/frmInterface.cs:35278) | `Petrus.Vendas/AcoesTabelasPreco.cs:23` |
@@ -256,9 +256,9 @@
 | 100471 | Cancelar teste | Teste de matéria-prima (K5) | Tem | `AlterarStatusK5` (Qualidade/Engines/K5Engine.cs:123) | `Petrus.Manutencao/AcoesQualidade.cs:26` |
 | 100372 | Concluir ticket | Ticket (RM7) | Tem | `ConcluirRM7` (CRM/Classes/Tickets.cs:68) | `Petrus.Vendas/AcoesCRM.cs:20` |
 | 100373 | Cancelar titcket | Ticket (RM7) | Tem | `CancelarRM7` (CRM/Classes/Tickets.cs:87) | `Petrus.Vendas/AcoesCRM.cs:20` |
-| 100200 | Inativar transportador | Transportador (J2) | Tem | `InativarJ2` (Logistica/Classes/Transportadores.cs:177) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100201 | Reativar transportador | Transportador (J2) | Tem | `ReativarJ2` (Logistica/Classes/Transportadores.cs:247) | `Petrus.Compras/AcoesCompras.cs:23` |
-| 100202 | Bloquear transportador | Transportador (J2) | Tem | `BloquearJ2` (Logistica/Classes/Transportadores.cs:107) | `Petrus.Compras/AcoesCompras.cs:23` |
+| 100200 | Inativar transportador | Transportador (J2) | Tem | `InativarJ2` (Logistica/Classes/Transportadores.cs:177) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100201 | Reativar transportador | Transportador (J2) | Tem | `ReativarJ2` (Logistica/Classes/Transportadores.cs:247) | `Petrus.Compras/AcoesCompras.cs:26` |
+| 100202 | Bloquear transportador | Transportador (J2) | Tem | `BloquearJ2` (Logistica/Classes/Transportadores.cs:107) | `Petrus.Compras/AcoesCompras.cs:26` |
 | 100310 | Vincular como fornecedor | Transportador (J2) | Tem | `VincularJ2` (Logistica/Classes/Transportadores.cs:308) | `Petrus.Vendas/AcoesCadastros.cs:26` |
 | 100455 | Concluir troca | Troca de molde (VZ7) | Tem | `ConcluirVZ7` (Industrial/Engines/VZ7Engine.cs:30) | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` |
 | 100457 | Cancelar troca | Troca de molde (VZ7) | Tem | `CancelarVZ7` (Industrial/Engines/VZ7Engine.cs:66) | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` |

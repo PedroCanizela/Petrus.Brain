@@ -1,6 +1,6 @@
 # Métodos: Core (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -101,7 +101,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 24 | Helpers.FormatarCodigoBB | 35 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:39` |  |
 | 59 | Helpers.RemoveDiacritics | 9 | Sem uso no desktop |  | ninguém chama (código morto ou chamada comentada) |
 | 68 | Helpers.FormatarCodigo | 28 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:13` |  |
-| 97 | Helpers.GetReport | 457 | Citado | `ERPBlazor/Components/Pages/Report.razor:1025` |  |
+| 97 | Helpers.GetReport | 457 | Citado | `ERPBlazor/Components/Pages/Report.razor:1076` |  |
 | 555 | Helpers.ExecutarAcao | 10 | Mesmo nome | `Petrus.Assistente/Agentes/ServicoAgentes.cs:353` | classe Execucao |
 | 566 | Helpers.FormataTexto | 18 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/Legado.cs:188` |  |
 | 584 | Helpers.SomarDiasUteis | 19 | Mesmo nome | `Petrus.Financeiro/Utils/Helpers.cs:72` |  |
@@ -120,7 +120,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
 | 12 | Validacoes.VerificaAlteracao | 221 | Mesmo nome | `Petrus.Core/Utils/Validacoes.cs:30` |  |
-| 234 | Validacoes.VerificaExclusao | 62 | Citado | `ERPBlazor/Components/Pages/Table.razor:1651` |  |
+| 234 | Validacoes.VerificaExclusao | 62 | Citado | `ERPBlazor/Components/Pages/Table.razor:1728` |  |
 | 303 | Validacoes.ValidarCNPJ | 42 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:92` | classe ApoioVendas |
 | 346 | Validacoes.ValidarCPF | 36 | Mesmo nome | `Petrus.Vendas/Utils/ApoioVendas.cs:119` | classe ApoioVendas |
 

@@ -1,13 +1,13 @@
 # Forms: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
 |---|---|---:|---|---|---|
-| Compras\Interfaces | `frmHistoricoCompras` | 202 | 100437 | Tem | `Petrus.Compras/AcoesCompras.cs:27` |
+| Compras\Interfaces | `frmHistoricoCompras` | 202 | 100437 | Tem | `Petrus.Compras/AcoesCompras.cs:30` |
 | Compras\Interfaces | `frmManifestarXml` | 32 | 100248 | Tem | `Petrus.Fiscal/NotaFiscal/AcoesDistribuicao.cs:18` |
-| Compras\Interfaces | `frmMetasResponsavel` | 332 |  | Falta |  |
-| Compras\Interfaces | `frmPerfilFornecedor` | 970 | 100188 | Tem | `Petrus.Compras/AcoesCompras.cs:27` |
+| Compras\Interfaces | `frmMetasResponsavel` | 332 |  | Descartado | `Petrus.Compras/AcoesCompras.cs:6` |
+| Compras\Interfaces | `frmPerfilFornecedor` | 970 | 100188 | Tem | `Petrus.Compras/AcoesCompras.cs:30` |
 | Custos\Interfaces | `frmCustosIndiretos` | 374 |  | Tem | `ERPBlazor/Components/Pages/Custos/CustosIndiretos.razor:2` |
 | Custos\Interfaces | `frmFormacaoCusto` | 473 |  | Tem | `ERPBlazor/Components/Pages/Custos/FormacaoCusto.razor:2` |
 | Custos\Interfaces | `frmMaoObra` | 254 |  | Tem | `ERPBlazor/Components/Pages/Custos/MaoObra.razor:2` |
@@ -60,7 +60,7 @@
 | Logistica\Interfaces | `frmEtiquetaProduto` | 48 | 100096 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
 | Logistica\Interfaces | `frmImprimirEtiqueta` | 360 | 100465, 100464, 100463, 100462, 100461 | Tem | `Petrus.Logistica/AcoesLogistica.cs:37` |
 | Logistica\Interfaces | `frmPedidosXProduto` | 100 |  | Tem | `ERPBlazor/Components/Shared/PedidosProdutoDialog.razor:3` |
-| Logistica\Interfaces | `frmPesquisaPedidos` | 272 |  | Falta | `ERPBlazor/Components/Pages/Details.Abas.cs:52` |
+| Logistica\Interfaces | `frmPesquisaPedidos` | 272 |  | Tem | `ERPBlazor/Components/Pages/Details.Cadastro.cs:440` |
 | Logistica\Interfaces | `frmTransportadora` | 176 |  | Tem | `ERPBlazor/Components/Shared/PesquisaCompletaDialog.razor:1` |
 | Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Manutencao\Interfaces | `frmTransferenciaOM` | 187 | 100425 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
@@ -93,7 +93,7 @@
 | Sistema\Interfaces | `frmCustomizador` | 332 |  | Descartado | `Petrus.Core/Sistema/Comando.cs:14` |
 | Sistema\Interfaces | `frmDashboard` | 1.662 |  | Tem | `ERPBlazor/Components/Pages/Dashboards/Dashboards.razor:2` |
 | Sistema\Interfaces | `frmEdicaoMassa` | 899 |  | Tem | `ERPBlazor/Components/Shared/EdicaoMassaDialog.razor:3` |
-| Sistema\Interfaces | `frmEmail` | 108 |  | Tem | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` |
+| Sistema\Interfaces | `frmEmail` | 108 |  | Tem | `ERPBlazor/Components/Pages/Report.razor:41` |
 | Sistema\Interfaces | `frmEmpresa` | 48 | 100096 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
 | Sistema\Interfaces | `frmEmpresaProduto` | 220 | 100433 | Tem | `Petrus.Estoque/AcoesProduto.cs:27` |
 | Sistema\Interfaces | `frmExportar` | 157 |  | Tem | `ERPBlazor/Components/Pages/Details.razor:42` |
@@ -136,8 +136,8 @@
 | Vendas\Interfaces | `frmEdicaoEntrega` | 145 | 100355 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmEdicaoOutros` | 110 | 100422 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
 | Vendas\Interfaces | `frmEdicaoVendedor` | 245 | 100357 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |
-| Vendas\Interfaces | `frmGradeProduto` | 614 |  | Falta | `ERPBlazor/Components/Pages/Details.Abas.cs:39` |
+| Vendas\Interfaces | `frmGradeProduto` | 614 |  | Tem | `ERPBlazor/Components/Pages/Details.Cadastro.cs:410` |
 | Vendas\Interfaces | `frmIncluirProdutos` | 587 |  | Tem | `ERPBlazor/Components/Shared/IncluirProdutosDialog.razor:6` |
-| Vendas\Interfaces | `frmMetaVendas` | 398 |  | Falta |  |
+| Vendas\Interfaces | `frmMetaVendas` | 398 |  | Tem | `ERPBlazor/Components/Pages/Vendas/MetasVendedor.razor:11` |
 | Vendas\Interfaces | `frmPerfilVendedor` | 1.759 | 100206 | Tem | `Petrus.Vendas/AcoesCadastros.cs:29` |
 | Vendas\Interfaces | `frmSituacao` | 398 | 100345 | Tem | `Petrus.Vendas/Classes/PedidosVenda.cs:85` |

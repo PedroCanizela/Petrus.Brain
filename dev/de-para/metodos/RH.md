@@ -1,6 +1,6 @@
 # Métodos: RH (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -49,7 +49,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 18 | DX1Engine.Calcular | 6 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
+| 18 | DX1Engine.Calcular | 6 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:93` | classe Mistura |
 | 25 | DX1Engine.StatusDX1 | 15 | Equivalente | `Petrus.Core/Cadastros/StatusInclusao.cs:50` |  |
 | 40 | DX1Engine.Criar | 131 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 | 171 | DX1Engine.ConcluirDX1Con | 95 | Nome sem Con | `Petrus.RH/Classes/FolhaPagamento.cs:49` | classe FolhaPagamento |
@@ -60,21 +60,21 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 13 | DX2Engine.Calcular | 9 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
+| 13 | DX2Engine.Calcular | 9 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:93` | classe Mistura |
 | 22 | DX2Engine.Criar | 84 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DX3Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 13 | DX3Engine.Calcular | 9 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
+| 13 | DX3Engine.Calcular | 9 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:93` | classe Mistura |
 | 22 | DX3Engine.Criar | 92 | Mesmo nome | `ERPBlazor/Components/Services/TemaPetrus.cs:33` | classe TemaPetrus |
 
 ## `RH/Engines/DX4Engine.cs`
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 7 | DX4Engine.Calcular | 8 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
+| 7 | DX4Engine.Calcular | 8 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:93` | classe Mistura |
 
 ## `RH/Engines/DY1Engine.cs`
 

@@ -1,6 +1,6 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -292,7 +292,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 33 | frmNotasFiscais.CarregaDados | 222 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
+| 33 | frmNotasFiscais.CarregaDados | 222 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1187` | classe StatusCadastro |
 | 256 | frmNotasFiscais.frmNotasFiscais_Load | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` | frmNotasFiscais |
 | 262 | frmNotasFiscais.Atualizar | 402 | Mesmo nome | `ERPBlazor/Components/Services/FonteContexto.cs:26` | classe FonteContexto |
 | 665 | frmNotasFiscais.btnSalvarDados_Click | 11 | Via form | `ERPBlazor/Components/Pages/Ajustes/NotasFiscais.razor:2` | frmNotasFiscais |
@@ -821,7 +821,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 54 | frmConta.BancoDados | 44 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
 | 102 | frmConta.frmConta_Load | 99 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
-| 202 | frmConta.CarregaDados | 124 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1150` | classe StatusCadastro |
+| 202 | frmConta.CarregaDados | 124 | Mesmo nome | `ERPBlazor/Components/Pages/Details.razor:1187` | classe StatusCadastro |
 | 328 | frmConta.BackGroundWorkerDoWork | 13 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
 | 344 | frmConta.sfDataGrid1_CellCheckBoxClick | 4 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
 | 349 | frmConta.AlterarEmpresa | 86 | Via form | `ERPBlazor/Components/Pages/Ajustes/MinhaConta.razor:2` | frmConta |
@@ -913,10 +913,10 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 26 | frmEmail.btnEnviarEmail_Click | 5 | Via form | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` | frmEmail |
-| 42 | frmEmail.btnPreVisualizar_Click | 47 | Via form | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` | frmEmail |
-| 90 | frmEmail.frmEmail_Load | 12 | Via form | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` | frmEmail |
-| 103 | frmEmail.btnCancelarEmail_Click | 4 | Via form | `ERPBlazor/Components/Shared/CompartilharDialog.razor:1` | frmEmail |
+| 26 | frmEmail.btnEnviarEmail_Click | 5 | Via form | `ERPBlazor/Components/Pages/Report.razor:41` | frmEmail |
+| 42 | frmEmail.btnPreVisualizar_Click | 47 | Via form | `ERPBlazor/Components/Pages/Report.razor:41` | frmEmail |
+| 90 | frmEmail.frmEmail_Load | 12 | Via form | `ERPBlazor/Components/Pages/Report.razor:41` | frmEmail |
+| 103 | frmEmail.btnCancelarEmail_Click | 4 | Via form | `ERPBlazor/Components/Pages/Report.razor:41` | frmEmail |
 
 ## `Sistema/Interfaces/frmEmpresa.cs`
 
@@ -1128,23 +1128,23 @@ Voltar: [[dev/de-para/README|De → para]]
 | 14871 | frmInterface.CancelarVZ7 | 193 | Via S39 | `ERPBlazor/Components/Pages/MES/Cadastro.razor:7` | S39 100457 Cancelar troca |
 | 15065 | frmInterface.CancelarR13 | 214 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:309` | classe PedidosVenda |
 | 15279 | frmInterface.CancelarN9 | 212 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100091 Cancelar título |
-| 15491 | frmInterface.AprovarI57 | 208 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100290 Aprovar documento |
-| 15699 | frmInterface.EnviarComprasI14 | 227 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100439 Enviar para compras |
-| 15926 | frmInterface.EnviarAprovacaoI14 | 227 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100438 Enviar para aprovação |
-| 16153 | frmInterface.EstornarComprasI14 | 227 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100450 Estornar para compras |
-| 16381 | frmInterface.AprovarI14 | 246 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100272 Aprovar pedido |
-| 16627 | frmInterface.AprovarI70 | 205 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100259 Aprovar cotação |
-| 16833 | frmInterface.AprovarI13 | 189 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100251 Aprovar solicitação |
+| 15491 | frmInterface.AprovarI57 | 208 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100290 Aprovar documento |
+| 15699 | frmInterface.EnviarComprasI14 | 227 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100439 Enviar para compras |
+| 15926 | frmInterface.EnviarAprovacaoI14 | 227 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100438 Enviar para aprovação |
+| 16153 | frmInterface.EstornarComprasI14 | 227 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100450 Estornar para compras |
+| 16381 | frmInterface.AprovarI14 | 246 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100272 Aprovar pedido |
+| 16627 | frmInterface.AprovarI70 | 205 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100259 Aprovar cotação |
+| 16833 | frmInterface.AprovarI13 | 189 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100251 Aprovar solicitação |
 | 17022 | frmInterface.CancelarDX1 | 190 | Mesmo nome | `Petrus.RH/Classes/FolhaPagamento.cs:107` | classe FolhaPagamento |
 | 17212 | frmInterface.CancelarRM20 | 182 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100380 Cancelar agendamento |
 | 17394 | frmInterface.CancelarRM7 | 182 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100373 Cancelar titcket |
 | 17577 | frmInterface.CancelarRM3 | 182 | Via S39 | `Petrus.Vendas/AcoesCRM.cs:20` | S39 100377 Cancelar solicitação |
 | 17760 | frmInterface.CancelarH5 | 195 | Mesmo nome | `Petrus.Manutencao/Engines/H5Engine.cs:10` | classe H5Engine |
 | 17957 | frmInterface.CancelarJJ2 | 182 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100353 Cancelar incidente |
-| 18140 | frmInterface.CancelarI13 | 190 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100250 Cancelar solicitação |
-| 18330 | frmInterface.CancelarI70 | 198 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100270 Cancelar cotação |
-| 18530 | frmInterface.CancelarI14 | 207 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100068 Cancelar pedido |
-| 18737 | frmInterface.CancelarI57 | 191 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100289 Cancelar documento |
+| 18140 | frmInterface.CancelarI13 | 190 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100250 Cancelar solicitação |
+| 18330 | frmInterface.CancelarI70 | 198 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100270 Cancelar cotação |
+| 18530 | frmInterface.CancelarI14 | 207 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100068 Cancelar pedido |
+| 18737 | frmInterface.CancelarI57 | 191 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100289 Cancelar documento |
 | 18930 | frmInterface.CancelarJ10 | 179 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100118 Cancelar expedição |
 | 19109 | frmInterface.CancelarV1 | 193 | Mesmo nome | `Petrus.Industrial/Engines/V1Engine.cs:215` | classe V1Engine |
 | 19303 | frmInterface.EnviarCartorioN22 | 192 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100235 Enviar para cartório |
@@ -1155,9 +1155,9 @@ Voltar: [[dev/de-para/README|De → para]]
 | 20284 | frmInterface.BaixarN93 | 186 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100312 Baixar crédito |
 | 20470 | frmInterface.EstornarN93 | 193 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:84` | S39 100359 Estornar crédito |
 | 20665 | frmInterface.CancelarN22 | 200 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100116 Cancelar título |
-| 20865 | frmInterface.ReativarI14 | 212 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100069 Reativar pedido |
-| 21077 | frmInterface.ReprovarI14 | 220 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100435 Reprovar pedido |
-| 21297 | frmInterface.HistoricoComprasI14 | 131 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100437 Histórico de compras |
+| 20865 | frmInterface.ReativarI14 | 212 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100069 Reativar pedido |
+| 21077 | frmInterface.ReprovarI14 | 220 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100435 Reprovar pedido |
+| 21297 | frmInterface.HistoricoComprasI14 | 131 | Via S39 | `Petrus.Compras/AcoesCompras.cs:29` | S39 100437 Histórico de compras |
 | 21428 | frmInterface.ReabrirI57 | 199 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.cs:47` | classe DocumentosEntrada |
 | 21627 | frmInterface.ReabrirI11 | 192 | Mesmo nome | `Petrus.Compras/Classes/NotasTerceiros.cs:50` | classe NotasTerceiros |
 | 21819 | frmInterface.LancarEstoqueR13 | 177 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:471` | classe PedidosVenda |
@@ -1200,7 +1200,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 27901 | frmInterface.ConcluirJJ2 | 199 | Via S39 | `Petrus.Logistica/AcoesLogistica.cs:34` | S39 100352 Concluir incidente |
 | 28101 | frmInterface.ConcluirI57 | 232 | Mesmo nome | `Petrus.Compras/Classes/DocumentosEntrada.cs:24` | classe DocumentosEntrada |
 | 28333 | frmInterface.ConcluirI11 | 278 | Mesmo nome | `Petrus.Compras/Classes/NotasTerceiros.cs:15` | classe NotasTerceiros |
-| 28612 | frmInterface.EfetivarI14 | 239 | Via S39 | `Petrus.Compras/AcoesCompras.cs:22` | S39 100070 Efetivar pedido |
+| 28612 | frmInterface.EfetivarI14 | 239 | Via S39 | `Petrus.Compras/AcoesCompras.cs:25` | S39 100070 Efetivar pedido |
 | 28852 | frmInterface.ReativarV1 | 188 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:127` | classe OrdensProducao |
 | 29041 | frmInterface.ReativarN22 | 182 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100123 Reativar título |
 | 29223 | frmInterface.ReativarN9 | 211 | Via S39 | `Petrus.Financeiro/AcoesFinanceiro.cs:83` | S39 100124 Reativar título |
@@ -1267,17 +1267,17 @@ Voltar: [[dev/de-para/README|De → para]]
 | 38849 | frmInterface.EstornarG17 | 192 | Mesmo nome | `Petrus.Estoque/Engines/G17Engine.cs:218` | classe G17Engine |
 | 39043 | frmInterface.EstornarLiberacaoR13 | 195 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:364` | classe PedidosVenda |
 | 39239 | frmInterface.LiberarR13 | 314 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:247` | classe PedidosVenda |
-| 39553 | frmInterface.ReativarI5 | 195 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100197 Reativar fornecedor |
-| 39749 | frmInterface.InativarI5 | 202 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100198 Inativar fornecedor |
+| 39553 | frmInterface.ReativarI5 | 195 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100197 Reativar fornecedor |
+| 39749 | frmInterface.InativarI5 | 202 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100198 Inativar fornecedor |
 | 39951 | frmInterface.BloquearS2 | 178 | Via S39 | `Petrus.Core/Acoes/AcoesSistema.cs:22` | S39 100407 Bloquear usuário |
 | 40129 | frmInterface.ReativarS2 | 178 | Via S39 | `Petrus.Core/Acoes/AcoesSistema.cs:22` | S39 100408 Reativar usuário |
-| 40308 | frmInterface.BloquearI5 | 195 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100199 Bloquear fornecedor |
+| 40308 | frmInterface.BloquearI5 | 195 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100199 Bloquear fornecedor |
 | 40503 | frmInterface.ReativarX13 | 192 | Via S39 | `Petrus.Fiscal/AcoesNaturezas.cs:17` | S39 100238 Reativar natureza |
 | 40695 | frmInterface.VincularJ2 | 199 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:25` | classe Origem |
 | 40894 | frmInterface.VincularR4 | 199 | Mesmo nome | `Petrus.Vendas/Classes/Vendedores.cs:22` | classe Origem |
-| 41094 | frmInterface.ReativarJ2 | 194 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100201 Reativar transportador |
-| 41289 | frmInterface.InativarJ2 | 201 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100200 Inativar transportador |
-| 41491 | frmInterface.BloquearJ2 | 192 | Via S39 | `Petrus.Compras/AcoesCompras.cs:23` | S39 100202 Bloquear transportador |
+| 41094 | frmInterface.ReativarJ2 | 194 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100201 Reativar transportador |
+| 41289 | frmInterface.InativarJ2 | 201 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100200 Inativar transportador |
+| 41491 | frmInterface.BloquearJ2 | 192 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100202 Bloquear transportador |
 | 41684 | frmInterface.ReativarR4 | 194 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100196 Reativar vendedor |
 | 41879 | frmInterface.InativarR4 | 202 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100194 Inativar vendedor |
 | 42082 | frmInterface.BloquearR4 | 195 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:26` | S39 100195 Bloquear vendedor |
@@ -1318,7 +1318,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 48066 | frmInterface.DescontoAmigaoN22 | 159 | Mesmo nome | `Petrus.Financeiro/Engines/N22Engine.cs:137` | classe N22Engine |
 | 48226 | frmInterface.ProtestarN22 | 169 | Mesmo nome | `Petrus.Financeiro/Classes/ContasReceber.cs:630` | classe ContasReceber |
 | 48396 | frmInterface.PerfilR2 | 133 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:28` | S39 100152 Perfil do cliente |
-| 48529 | frmInterface.PerfilI5 | 133 | Via S39 | `Petrus.Compras/AcoesCompras.cs:26` | S39 100188 Perfil do fornecedor |
+| 48529 | frmInterface.PerfilI5 | 133 | Via S39 | `Petrus.Compras/AcoesCompras.cs:29` | S39 100188 Perfil do fornecedor |
 | 48662 | frmInterface.PerfilR4 | 133 | Via S39 | `Petrus.Vendas/AcoesCadastros.cs:28` | S39 100206 Perfil do vendedor |
 | 48796 | frmInterface.BloquearR13 | 227 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:287` | classe PedidosVenda |
 | 49023 | frmInterface.ReativarR13 | 190 | Mesmo nome | `Petrus.Vendas/Classes/PedidosVenda.cs:337` | classe PedidosVenda |
@@ -1329,7 +1329,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 49652 | frmInterface.RecarregarInterface | 28 | Não se aplica | `ERPBlazor/Components/Pages/Details.Layout.cs:15` | infra do WinForms |
 | 49681 | frmInterface.frmInterface_Load | 22 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 49704 | frmInterface.BtnPersonalizar_Click | 13 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
-| 49721 | frmInterface.ExportarPDF | 65 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
+| 49721 | frmInterface.ExportarPDF | 65 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:593` | classe PeriodoSalvo |
 | 49787 | frmInterface.BtnExportar_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 49795 | frmInterface.BtnOpcoes_Click | 13 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |
 | 49809 | frmInterface.sfDataGrid1_CellDoubleClick | 141 | Não se aplica | `ERPBlazor/Components/Pages/Table.razor:1` | montagem da tela do WinForms (Table/Details no Web) |

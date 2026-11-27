@@ -1,6 +1,6 @@
 # Métodos: Fiscal (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -230,10 +230,10 @@ Voltar: [[dev/de-para/README|De → para]]
 | 16 | DanfeFastBase.Visualizar | 4 | Mesmo nome | `ERPBlazor/Components/Shared/PlanilhaAba.razor:454` | classe PlanilhaAba |
 | 26 | DanfeFastBase.ExibirDesign | 4 | Não se aplica |  | designer do FastReport |
 | 36 | DanfeFastBase.Imprimir | 6 | Mesmo nome | `ERPBlazor/Components/Shared/ImprimirEtiquetaDialog.razor:185` | classe ImprimirEtiquetaDialog |
-| 47 | DanfeFastBase.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
-| 56 | DanfeFastBase.ExportarPdf | 13 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
-| 75 | DanfeFastBase.ExportarPdf | 8 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
-| 89 | DanfeFastBase.ExportarPdf | 9 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:590` | classe PeriodoSalvo |
+| 47 | DanfeFastBase.ExportarPdf | 5 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:593` | classe PeriodoSalvo |
+| 56 | DanfeFastBase.ExportarPdf | 13 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:593` | classe PeriodoSalvo |
+| 75 | DanfeFastBase.ExportarPdf | 8 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:593` | classe PeriodoSalvo |
+| 89 | DanfeFastBase.ExportarPdf | 9 | Mesmo nome | `ERPBlazor/Components/Pages/Report.razor:593` | classe PeriodoSalvo |
 
 ## `Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs`
 
@@ -294,9 +294,9 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 38 | NotasEntrada.CalculaI49 | 262 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:607` |  |
+| 38 | NotasEntrada.CalculaI49 | 262 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:608` |  |
 | 300 | NotasEntrada.GerarI49 | 278 | **Falta** | `ERPBlazor/Components/Pages/Details.Abas.cs:49` | Gerar parcelas da aba de duplicatas (I49) da nota de entrada |
-| 579 | NotasEntrada.CalculaI46 | 1405 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:45` |  |
+| 579 | NotasEntrada.CalculaI46 | 1405 | Mesmo nome | `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs:46` |  |
 | 1985 | NotasEntrada.LancarContasI11Importacao | 38 | Equivalente | `Petrus.Compras/Classes/DocumentosEntrada.cs:150` | LancarContasImportacao |
 | 2025 | NotasEntrada.LancarContasI11 | 209 | Citado | `Petrus.Compras/Classes/DocumentosEntrada.cs:13` |  |
 | 2234 | NotasEntrada.LancarEstoqueI11 | 31 | Equivalente | `Petrus.Compras/Classes/DocumentosEntrada.cs:168` | LancarEstoqueI57 com I11/I46 |

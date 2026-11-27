@@ -1,10 +1,10 @@
 # Métodos: Industrial (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Via form: 118 · Mesmo nome: 62 · Equivalente: 18 · Sem uso no desktop: 7 · Via S7: 6 · Via S39: 4 · Nome+Async: 2 · Citado: 2 · Não se aplica: 1
+**Situação:** Via form: 116 · Mesmo nome: 64 · Equivalente: 18 · Sem uso no desktop: 7 · Via S7: 6 · Via S39: 4 · Nome+Async: 2 · Citado: 2 · Não se aplica: 1
 
 ## `Industrial/Classes/ApontamentosProducao.cs`
 
@@ -111,7 +111,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 16 | VX12Engine.Calcular | 31 | Mesmo nome | `Petrus.Industrial/Classes/OrdensProducao.cs:450` | classe OrdensProducao |
+| 16 | VX12Engine.Calcular | 31 | Mesmo nome | `Petrus.Industrial/Classes/Mistura.cs:93` | classe Mistura |
 
 ## `Industrial/Engines/VX1Engine.cs`
 
@@ -169,7 +169,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 34 | frmApontarPeso.frmApontarPeso_Load | 54 | Via form | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` | frmApontarPeso |
 | 89 | frmApontarPeso.CriarColunas | 20 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:242` | classe DashboardProdution |
-| 110 | frmApontarPeso.Formato | 6 | Via form | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` | frmApontarPeso |
+| 110 | frmApontarPeso.Formato | 6 | Mesmo nome | `Petrus.Core/Utils/FormatoNumerico.cs:23` | classe FormatoNumerico |
 | 117 | frmApontarPeso.LerPeso | 5 | Via form | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` | frmApontarPeso |
 | 123 | frmApontarPeso.AtualizaSituacao | 19 | Via form | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` | frmApontarPeso |
 | 143 | frmApontarPeso.txtPeso_TextChanged | 4 | Via form | `ERPBlazor/Components/Pages/MES/WeightReporting.razor:2` | frmApontarPeso |
@@ -272,7 +272,7 @@ Voltar: [[dev/de-para/README|De → para]]
 |---:|---|---:|---|---|---|
 | 19 | frmPainel.ResetarGrid | 5 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:216` | classe DashboardProdution |
 | 26 | frmPainel.Carregar | 212 | Mesmo nome | `Petrus.Industrial/Classes/TempoDisponivelMES.cs:45` | classe TempoDisponivelMES |
-| 239 | frmPainel.CarregarStatus | 6 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:1066` | classe CampoPesquisa |
+| 239 | frmPainel.CarregarStatus | 6 | Mesmo nome | `ERPBlazor/Components/Pages/Table.razor:1078` | classe CampoPesquisa |
 | 245 | frmPainel.AlteraCor | 25 | Via form | `ERPBlazor/Components/Pages/MES/MonitorCelula.razor:3` | frmPainel |
 | 280 | frmPainel.CriarColunas | 149 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:242` | classe DashboardProdution |
 | 432 | frmPainel.MudarEtapa | 22 | Mesmo nome | `ERPBlazor/Components/Pages/MES/DashboardProdution.razor:296` | classe DashboardProdution |
@@ -304,7 +304,7 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 83 | frmPrioridadeTrocaMolde.Coluna | 11 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:167` | classe LeituraExcel |
+| 83 | frmPrioridadeTrocaMolde.Coluna | 11 | Mesmo nome | `Petrus.Core/Utils/LeituraExcel.cs:377` | classe LeituraExcel |
 | 95 | frmPrioridadeTrocaMolde.Carregar | 13 | Mesmo nome | `Petrus.Industrial/Classes/TempoDisponivelMES.cs:45` | classe TempoDisponivelMES |
 | 110 | frmPrioridadeTrocaMolde.ListarAbertas | 27 | Nome+Async | `Petrus.Core/Utils/ConsultaTrocaMolde.cs:44` | classe ConsultaTrocaMolde |
 | 142 | frmPrioridadeTrocaMolde.AvisarAbertas | 37 | Mesmo nome | `ERPBlazor/Components/Pages/MES/MoldChangePriority.razor:132` | classe MoldChangePriority |
@@ -316,7 +316,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 36 | frmRelatorioPesos.frmRelatorioPesos_Load | 50 | Via form | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` | frmRelatorioPesos |
 | 87 | frmRelatorioPesos.ValorCombo | 10 | Via form | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` | frmRelatorioPesos |
 | 98 | frmRelatorioPesos.Pesquisar | 111 | Mesmo nome | `ERPBlazor/Components/Pages/WMS/Separacao.razor:1302` | classe Separacao |
-| 210 | frmRelatorioPesos.Formato | 6 | Via form | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` | frmRelatorioPesos |
+| 210 | frmRelatorioPesos.Formato | 6 | Mesmo nome | `Petrus.Core/Utils/FormatoNumerico.cs:23` | classe FormatoNumerico |
 | 217 | frmRelatorioPesos.AddTexto | 4 | Via form | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` | frmRelatorioPesos |
 | 222 | frmRelatorioPesos.AddNumero | 4 | Via form | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` | frmRelatorioPesos |
 | 227 | frmRelatorioPesos.AddData | 4 | Via form | `ERPBlazor/Components/Pages/MES/WeightReport.razor:2` | frmRelatorioPesos |

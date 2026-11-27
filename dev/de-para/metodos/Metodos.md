@@ -1,6 +1,6 @@
 # Métodos: Metodos (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
@@ -147,7 +147,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 278 | ExportarGrid.ImprimirGrid | 39 | Equivalente | `Petrus.Core/Utils/ExportarGrid.cs:35` | impressão do navegador |
 | 319 | ExportarGrid.Options_CellExporting | 7 | **Falta** |  | evento de tela |
 | 327 | ExportarGrid.ExportarGridPDF | 167 | Mesmo nome | `Petrus.Core/Utils/ExportarGrid.cs:36` |  |
-| 498 | ExportarGrid.ExportarGridRelatorioPDF | 346 | Citado | `ERPBlazor/Components/Pages/Report.razor:608` |  |
+| 498 | ExportarGrid.ExportarGridRelatorioPDF | 346 | Citado | `ERPBlazor/Components/Pages/Report.razor:659` |  |
 
 ## `Metodos/GerarEtiquetas.cs`
 

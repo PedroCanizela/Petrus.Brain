@@ -1,6 +1,6 @@
 # De → para: Petrus desktop → Petrus.ERP (Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:28. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:40. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com arquivo:linha dos dois lados.
 
@@ -19,8 +19,8 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 
 | Situação | Métodos | Linhas |
 |---|---:|---:|
-| Via form | 903 | 26893 |
-| Mesmo nome | 811 | 108253 |
+| Via form | 899 | 26779 |
+| Mesmo nome | 816 | 108386 |
 | Descartado | 489 | 15672 |
 | Não se aplica | 400 | 22436 |
 | Equivalente | 256 | 21269 |
@@ -28,7 +28,7 @@ Onde cada coisa do desktop (`Petrus\Petrus`) está no Web (`Petrus.ERP`), com ar
 | Substituído | 175 | 9004 |
 | Falta | 168 | 9908 |
 | Em branch | 107 | 6550 |
-| Citado | 71 | 5602 |
+| Citado | 70 | 5583 |
 | Outro repositório | 39 | 601 |
 | Sem uso no desktop | 31 | 2578 |
 | Nome+Async | 14 | 791 |
