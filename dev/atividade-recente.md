@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:46 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 11:48 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -859,13 +859,15 @@ Commits dos ultimos 14 dias (todas as branches):
 - (nenhum)
 
 ## Petrus.Monitor
-Branch atual: master
+Branch atual: corrige-monitor-travado
 
 Branches:
-- * master
+- * corrige-monitor-travado
+- master
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 772ffb3 Monitor: corrige laço infinito na previsão da OP (travava após o primeiro OK)
 - 2026-11-23 56f1a9c Merge SS8-181: diagnóstico de InvalidCast em colunas do monitor
 - 2026-11-23 14e3840 SS8-181: diagnóstico de InvalidCast em colunas do monitor
 - 2026-11-23 ad48ce9 Merge SS8-181: usar a coluna idMod da tabela modulo
