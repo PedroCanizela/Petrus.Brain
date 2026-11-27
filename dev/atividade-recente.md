@@ -241,7 +241,6 @@ Branches:
 - + feature/ss8-311-expedicao-pedido-nro-documento
 - + feature/ss8-312-qrcode-volumes
 - + feature/ss8-39-novo-layout-erp
-- fix/ss8-310-inicio-generico
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
