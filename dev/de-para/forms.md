@@ -1,6 +1,6 @@
 # Forms: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 | Pasta | Form | Linhas | Aberto por S39 | Situação | Onde está no Web |
 |---|---|---:|---|---|---|
@@ -65,16 +65,16 @@
 | Manutencao\Interfaces | `frmDirecionarOM` | 92 | 100418 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Manutencao\Interfaces | `frmTransferenciaOM` | 187 | 100425 | Tem | `ERPBlazor/Components/Pages/CMMS/OrderMaintenance.razor:2` |
 | Margo\Interfaces | `frmMargo` | 741 |  | Tem | `ERPBlazor/Components/Pages/Assistente.razor:2` |
-| PDV\Interfaces | `frmPDV` | 2.651 |  | Falta |  |
+| PDV\Interfaces | `frmPDV` | 2.651 |  | Descartado |  |
 | PDV\Interfaces | `frmPDVAbertura` | 100 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:70` |
 | PDV\Interfaces | `frmPDVCaixa` | 170 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:25` |
 | PDV\Interfaces | `frmPDVFechamento` | 79 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:74` |
-| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | Falta |  |
+| PDV\Interfaces | `frmPDVInformacoes` | 34 |  | Descartado |  |
 | PDV\Interfaces | `frmPDVInicio` | 172 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Acesso.cs:172` |
-| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | Falta |  |
+| PDV\Interfaces | `frmPDVRecebimento` | 96 |  | Descartado |  |
 | PDV\Interfaces | `frmPDVSangria` | 75 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:78` |
 | PDV\Interfaces | `frmPDVSuprimento` | 74 |  | Outro repositório | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:82` |
-| PDV\Interfaces | `frmPDVValores` | 35 |  | Falta |  |
+| PDV\Interfaces | `frmPDVValores` | 35 |  | Descartado |  |
 | RH\Interfaces | `frmAdmissao` | 184 | 100325, 100323 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmAfastamento` | 109 | 100324 | Tem | `Petrus.RH/AcoesRH.cs:25` |
 | RH\Interfaces | `frmLancamentoFolha` | 251 | 100399 | Tem | `Petrus.RH/AcoesRH.cs:25` |

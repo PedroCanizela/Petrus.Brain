@@ -1,6 +1,6 @@
 # Arquivos: desktop → Web
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quantos faltam e os arquivos do Web que recebem o código. Eventos de tela (handlers do WinForms) não entram em "Faltam".
 
@@ -175,7 +175,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs` | 3 | 2 | 1 | 57 | `Petrus.Fiscal/NotaFiscal/DANFE/DanfeSharedHelper.cs` |
 | `Fiscal/NotaFiscal/EventosNFe.cs` | 6 | 6 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/EventosNFe.cs` |
 | `Fiscal/NotaFiscal/EventosRTC.cs` | 19 | 19 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/EventosRTC.cs` |
-| `Fiscal/NotaFiscal/ImpressoesNFe.cs` | 7 | 5 | 2 | 109 | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs` |
+| `Fiscal/NotaFiscal/ImpressoesNFe.cs` | 7 | 6 | 1 | 87 | `Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs` |
 | `Fiscal/NotaFiscal/NotasEntrada.cs` | 6 | 6 | 0 | 0 | `Petrus.Compras/Classes/DocumentosEntrada.cs`, `Petrus.Fiscal/NotaFiscal/NotasEntrada.Calculos.cs` |
 | `Fiscal/NotaFiscal/NotasMultaJuros.cs` | 8 | 8 | 0 | 0 | `Petrus.Financeiro/Classes/NotasMultaJuros.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
 | `Fiscal/NotaFiscal/NotasSaida.cs` | 4 | 4 | 0 | 0 | `Petrus.Fiscal/NotaFiscal/NotasSaida.Calculos.cs`, `Petrus.Fiscal/NotaFiscal/EventosNFe.cs` |
@@ -281,16 +281,16 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Metodos/GerarEtiquetas.cs` | 17 | 17 | 0 | 0 |  |
 | `PDV/Engines/RX1Engine.cs` | 2 | 2 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
 | `PDV/Engines/RX2Engine.cs` | 1 | 1 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Engines/RX2Engine.cs` |
-| `PDV/Interfaces/frmPDV.cs` | 74 | 0 | 32 | 2077 |  |
+| `PDV/Interfaces/frmPDV.cs` | 74 | 74 | 0 | 0 |  |
 | `PDV/Interfaces/frmPDVAbertura.cs` | 6 | 6 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
 | `PDV/Interfaces/frmPDVCaixa.cs` | 6 | 6 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
 | `PDV/Interfaces/frmPDVFechamento.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
-| `PDV/Interfaces/frmPDVInformacoes.cs` | 2 | 0 | 1 | 9 |  |
+| `PDV/Interfaces/frmPDVInformacoes.cs` | 2 | 2 | 0 | 0 |  |
 | `PDV/Interfaces/frmPDVInicio.cs` | 9 | 9 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Acesso.cs` |
-| `PDV/Interfaces/frmPDVRecebimento.cs` | 8 | 0 | 1 | 9 |  |
+| `PDV/Interfaces/frmPDVRecebimento.cs` | 8 | 8 | 0 | 0 |  |
 | `PDV/Interfaces/frmPDVSangria.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
 | `PDV/Interfaces/frmPDVSuprimento.cs` | 5 | 5 | 0 | 0 | `Petrus.PDV/Petrus.PDV/Classes/Caixa.cs` |
-| `PDV/Interfaces/frmPDVValores.cs` | 2 | 0 | 1 | 9 |  |
+| `PDV/Interfaces/frmPDVValores.cs` | 2 | 2 | 0 | 0 |  |
 | `Program.cs` | 1 | 1 | 0 | 0 | `ERPBlazor/Program.cs` |
 | `Qualidade/Engines/K5Engine.cs` | 4 | 4 | 0 | 0 | `Petrus.Manutencao/Engines/K5Engine.cs` |
 | `RH/Classes/EntregaEPI.cs` | 1 | 1 | 0 | 0 | `Petrus.RH/Classes/EntregaEPI.cs` |
@@ -369,7 +369,7 @@ Para cada arquivo `.cs` do desktop: quantos métodos têm destino no Web, quanto
 | `Sistema/Interfaces/frmInput.cs` | 9 | 9 | 0 | 0 |  |
 | `Sistema/Interfaces/frmInputDate.cs` | 3 | 3 | 0 | 0 |  |
 | `Sistema/Interfaces/frmInterface.cs` | 473 | 473 | 0 | 0 | `ERPBlazor/Components/Pages/Table.razor`, `Petrus.Financeiro/AcoesFinanceiro.cs`, `Petrus.Fiscal/NotaFiscal/AcoesNFe.cs` |
-| `Sistema/Interfaces/frmLogin.cs` | 159 | 151 | 8 | 1299 | `ERPBlazor/Components/Pages/Login.razor` |
+| `Sistema/Interfaces/frmLogin.cs` | 159 | 159 | 0 | 0 | `ERPBlazor/Components/Pages/Login.razor` |
 | `Sistema/Interfaces/frmMensagem.cs` | 7 | 7 | 0 | 0 | `ERPBlazor/Components/Pages/Message.razor`, `Petrus.Core/Utils/Gaiolas.cs`, `Petrus.Core/Utils/PacoteLeitura.cs` |
 | `Sistema/Interfaces/frmMenu.cs` | 41 | 41 | 0 | 0 | `ERPBlazor/Components/Services/MenuPetrus.cs`, `ERPBlazor/Components/Layout/NavMenu.razor` |
 | `Sistema/Interfaces/frmMudarSenha.cs` | 2 | 2 | 0 | 0 | `ERPBlazor/Components/Shared/MudarSenhaDialog.razor` |

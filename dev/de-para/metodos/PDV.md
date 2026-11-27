@@ -1,10 +1,10 @@
 # Métodos: PDV (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Falta: 86 · Outro repositório: 39
+**Situação:** Descartado: 86 · Outro repositório: 39
 
 ## `PDV/Engines/RX1Engine.cs`
 
@@ -23,80 +23,80 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 41 | frmPDV.frmPDV_Load | 46 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 87 | frmPDV.ProcessCmdKey | 92 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 181 | frmPDV.TxtCodigoBarras_KeyPress | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 188 | frmPDV.PDV_KeyDown | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 197 | frmPDV.Cliente | 34 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 232 | frmPDV.btnCliente_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 237 | frmPDV.SelecionaProduto | 40 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 382 | frmPDV.CalculaR50 | 84 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 468 | frmPDV.CalculaR49 | 838 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1309 | frmPDV.CriarPedido | 30 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1341 | frmPDV.CriarR13 | 212 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1554 | frmPDV.CriarTabela | 83 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1641 | frmPDV.Concluir | 196 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1839 | frmPDV.CancelarVenda | 13 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1852 | frmPDV.Cancelar | 30 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1882 | frmPDV.btnCancelar_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 1887 | frmPDV.CancelarPagamento | 7 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1895 | frmPDV.BuscarProduto | 56 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 1952 | frmPDV.txtPesquisa_IconRightClick | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 1958 | frmPDV.btnAdicionarRecebimento_Click | 19 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 1978 | frmPDV.Continuar | 31 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2009 | frmPDV.btnContinuar_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2014 | frmPDV.AdicionarRecebimento | 49 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2063 | frmPDV.PIX | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2069 | frmPDV.btnPIX_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2073 | frmPDV.Caixa | 14 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2088 | frmPDV.btnCaixa_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2093 | frmPDV.PreVenda | 14 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2108 | frmPDV.btnPreVenda_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2112 | frmPDV.MaisAcoes | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2118 | frmPDV.btnMaisAcoes_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2123 | frmPDV.Sair | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2127 | frmPDV.toolStripMenuItem3_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2131 | frmPDV.CarregaCaixa | 66 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2197 | frmPDV.NovaVenda | 61 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2258 | frmPDV.BuscarPreVenda | 61 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2319 | frmPDV.PerfilCliente | 8 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2327 | frmPDV.toolStripMenuItem8_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2334 | frmPDV.toolStripMenuItem7_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2339 | frmPDV.toolStripMenuItem9_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2344 | frmPDV.toolStripMenuItem5_Click | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2351 | frmPDV.toolStripMenuItem2_Click | 7 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2359 | frmPDV.toolStripMenuItem4_Click | 7 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2367 | frmPDV.toolStripMenuItem1_Click | 7 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2374 | frmPDV.CartaoCredito | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2379 | frmPDV.CartaoDebito | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2384 | frmPDV.btnCartaoCredito_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2390 | frmPDV.btnCartaoDebito_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2396 | frmPDV.btnDinheiro_Click | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2403 | frmPDV.btnCreditoLoja_Click | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2419 | frmPDV.timer1_Tick | 11 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2431 | frmPDV.txtPesquisa_TextChanged | 30 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2462 | frmPDV.txtPesquisa_Validated | 36 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2499 | frmPDV.sfDataGridProdutos_CurrentCellEndEdit | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2504 | frmPDV.sfDataGridProdutos_RecordDeleted | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2511 | frmPDV.txtPesquisa_KeyPress | 26 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2538 | frmPDV.toolStripMenuItem11_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2543 | frmPDV.toolStripMenuItem6_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2548 | frmPDV.btnDesconto_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2552 | frmPDV.ValePresente | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2558 | frmPDV.btnValePresente_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2563 | frmPDV.DepositoBancario | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2569 | frmPDV.btnDepositoBancario_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2574 | frmPDV.ValeAlimentacao | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2579 | frmPDV.btnValeAlimentacao_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2583 | frmPDV.Outros | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2588 | frmPDV.btnOutros_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2593 | frmPDV.toolStripMenuItem6_Click_1 | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2597 | frmPDV.Valores | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2603 | frmPDV.Informacoes | 6 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita |
-| 2609 | frmPDV.btnAcrescimo_Click | 5 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2615 | frmPDV.sfDataGridProdutos_SelectionChanging | 25 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2641 | frmPDV.guna2Button1_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
-| 2646 | frmPDV.btnInfoAdicionais_Click | 4 | **Falta** |  | venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita; evento de tela |
+| 41 | frmPDV.frmPDV_Load | 46 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 87 | frmPDV.ProcessCmdKey | 92 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 181 | frmPDV.TxtCodigoBarras_KeyPress | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 188 | frmPDV.PDV_KeyDown | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 197 | frmPDV.Cliente | 34 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 232 | frmPDV.btnCliente_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 237 | frmPDV.SelecionaProduto | 40 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 382 | frmPDV.CalculaR50 | 84 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 468 | frmPDV.CalculaR49 | 838 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1309 | frmPDV.CriarPedido | 30 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1341 | frmPDV.CriarR13 | 212 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1554 | frmPDV.CriarTabela | 83 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1641 | frmPDV.Concluir | 196 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1839 | frmPDV.CancelarVenda | 13 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1852 | frmPDV.Cancelar | 30 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1882 | frmPDV.btnCancelar_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1887 | frmPDV.CancelarPagamento | 7 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1895 | frmPDV.BuscarProduto | 56 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1952 | frmPDV.txtPesquisa_IconRightClick | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1958 | frmPDV.btnAdicionarRecebimento_Click | 19 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1978 | frmPDV.Continuar | 31 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2009 | frmPDV.btnContinuar_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2014 | frmPDV.AdicionarRecebimento | 49 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2063 | frmPDV.PIX | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2069 | frmPDV.btnPIX_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2073 | frmPDV.Caixa | 14 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2088 | frmPDV.btnCaixa_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2093 | frmPDV.PreVenda | 14 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2108 | frmPDV.btnPreVenda_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2112 | frmPDV.MaisAcoes | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2118 | frmPDV.btnMaisAcoes_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2123 | frmPDV.Sair | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2127 | frmPDV.toolStripMenuItem3_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2131 | frmPDV.CarregaCaixa | 66 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2197 | frmPDV.NovaVenda | 61 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2258 | frmPDV.BuscarPreVenda | 61 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2319 | frmPDV.PerfilCliente | 8 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2327 | frmPDV.toolStripMenuItem8_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2334 | frmPDV.toolStripMenuItem7_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2339 | frmPDV.toolStripMenuItem9_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2344 | frmPDV.toolStripMenuItem5_Click | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2351 | frmPDV.toolStripMenuItem2_Click | 7 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2359 | frmPDV.toolStripMenuItem4_Click | 7 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2367 | frmPDV.toolStripMenuItem1_Click | 7 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2374 | frmPDV.CartaoCredito | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2379 | frmPDV.CartaoDebito | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2384 | frmPDV.btnCartaoCredito_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2390 | frmPDV.btnCartaoDebito_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2396 | frmPDV.btnDinheiro_Click | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2403 | frmPDV.btnCreditoLoja_Click | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2419 | frmPDV.timer1_Tick | 11 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2431 | frmPDV.txtPesquisa_TextChanged | 30 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2462 | frmPDV.txtPesquisa_Validated | 36 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2499 | frmPDV.sfDataGridProdutos_CurrentCellEndEdit | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2504 | frmPDV.sfDataGridProdutos_RecordDeleted | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2511 | frmPDV.txtPesquisa_KeyPress | 26 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2538 | frmPDV.toolStripMenuItem11_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2543 | frmPDV.toolStripMenuItem6_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2548 | frmPDV.btnDesconto_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2552 | frmPDV.ValePresente | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2558 | frmPDV.btnValePresente_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2563 | frmPDV.DepositoBancario | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2569 | frmPDV.btnDepositoBancario_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2574 | frmPDV.ValeAlimentacao | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2579 | frmPDV.btnValeAlimentacao_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2583 | frmPDV.Outros | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2588 | frmPDV.btnOutros_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2593 | frmPDV.toolStripMenuItem6_Click_1 | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2597 | frmPDV.Valores | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2603 | frmPDV.Informacoes | 6 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2609 | frmPDV.btnAcrescimo_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2615 | frmPDV.sfDataGridProdutos_SelectionChanging | 25 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2641 | frmPDV.guna2Button1_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 2646 | frmPDV.btnInfoAdicionais_Click | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
 
 ## `PDV/Interfaces/frmPDVAbertura.cs`
 
@@ -134,8 +134,8 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 19 | frmPDVInformacoes.ProcessCmdKey | 9 | **Falta** |  | informações do caixa: fase 3 do Petrus.PDV, não feita |
-| 29 | frmPDVInformacoes.frmPDVInformacoes_Load | 4 | **Falta** |  | informações do caixa: fase 3 do Petrus.PDV, não feita; evento de tela |
+| 19 | frmPDVInformacoes.ProcessCmdKey | 9 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 29 | frmPDVInformacoes.frmPDVInformacoes_Load | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
 
 ## `PDV/Interfaces/frmPDVInicio.cs`
 
@@ -155,14 +155,14 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 24 | frmPDVRecebimento.btnCancelar_Click | 5 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
-| 29 | frmPDVRecebimento.ProcessCmdKey | 9 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita |
-| 38 | frmPDVRecebimento.frmPDVRecebimento_Load | 7 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
-| 46 | frmPDVRecebimento.btnOK_Click | 15 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
-| 62 | frmPDVRecebimento.txtValorRecebido_Enter | 4 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
-| 67 | frmPDVRecebimento.txtValorRecebido_KeyDown | 17 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
-| 85 | frmPDVRecebimento.txtValorRecebido_Validated | 5 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
-| 91 | frmPDVRecebimento.txtValorRecebido_TextChanged | 4 | **Falta** |  | recebimentos: fase 3 do Petrus.PDV, não feita; evento de tela |
+| 24 | frmPDVRecebimento.btnCancelar_Click | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 29 | frmPDVRecebimento.ProcessCmdKey | 9 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 38 | frmPDVRecebimento.frmPDVRecebimento_Load | 7 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 46 | frmPDVRecebimento.btnOK_Click | 15 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 62 | frmPDVRecebimento.txtValorRecebido_Enter | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 67 | frmPDVRecebimento.txtValorRecebido_KeyDown | 17 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 85 | frmPDVRecebimento.txtValorRecebido_Validated | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 91 | frmPDVRecebimento.txtValorRecebido_TextChanged | 4 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
 
 ## `PDV/Interfaces/frmPDVSangria.cs`
 
@@ -188,6 +188,6 @@ Voltar: [[dev/de-para/README|De → para]]
 
 | Linha | Classe.Método | Linhas | Situação | Web | Obs. |
 |---:|---|---:|---|---|---|
-| 19 | frmPDVValores.ProcessCmdKey | 9 | **Falta** |  | valores do caixa: fase 3 do Petrus.PDV, não feita |
-| 29 | frmPDVValores.frmPDVValores_Load | 5 | **Falta** |  | valores do caixa: fase 3 do Petrus.PDV, não feita; evento de tela |
+| 19 | frmPDVValores.ProcessCmdKey | 9 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 29 | frmPDVValores.frmPDVValores_Load | 5 | Descartado |  | não vai para o Web (decisão do Pedro, 27/11/2026) |
 

@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: e89c22b4-f6ce-4b08-afb5-f37565226535
-  modified: 2026-11-26T13:48:22.852Z
+  modified: 2026-11-27T02:49:39.488Z
 ---
 
 Para localizar "onde está no Web" qualquer coisa do desktop, abra `C:\Users\pedro\source\repos\Petrus.Brain\dev\de-para\`:
@@ -20,6 +20,9 @@ ninguém chama). Mapeamento à mão em `dev\de-para\_manual.csv` (Arquivo;Classe
 Retrato de 26/11/2026: 102 métodos (~11.900 linhas) faltam: venda do PDV (fases 2–4 do Petrus.PDV), importações
 Aferi/Easy/Gerador (só desktop), telefones/e-mails da importação (SS8-221), Gerar parcelas I59/IX11/I49, grade de produtos,
 feirinha, pesquisa pedidos, número personalizado, cotação BCB, e-mail de relatório, cadastro de empresa pelo login, metas.
+
+27/11/2026: SS8-319 a 327 mescladas; sobrou só o DANFCE (NFC-e, usado só pelo frmPDV). Decisão do Pedro: venda do PDV
+(frmPDV e afins) e cadastro de empresa/assinatura pelo login (frmLogin) **não serão migrados** (Descartado no _manual.csv).
 
 **Why:** o Pedro pediu comparação de tudo com um de → para no Brain para visualizar e para o Claude localizar depois.
 **How to apply:** antes de portar algo, procure no `de-para-metodos.csv`/`metodos\*.md`; ao migrar, marque `// MIGRADO`,

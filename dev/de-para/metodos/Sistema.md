@@ -1,10 +1,10 @@
 # Métodos: Sistema (desktop → Web)
 
-> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:46. Não edite à mão: ajuste `_manual.csv` e rode de novo.
+> Gerado por `Petrus.ERP\Scripts\GerarDePara.ps1` em 26/11/2026 23:49. Não edite à mão: ajuste `_manual.csv` e rode de novo.
 
 Voltar: [[dev/de-para/README|De → para]]
 
-**Situação:** Descartado: 448 · Não se aplica: 320 · Via form: 257 · Mesmo nome: 170 · Via S39: 135 · Equivalente: 76 · Substituído: 60 · Em branch: 43 · Falta: 9 · Citado (conferir): 2 · Nome sem Con: 1
+**Situação:** Descartado: 456 · Não se aplica: 320 · Via form: 257 · Mesmo nome: 170 · Via S39: 135 · Equivalente: 76 · Substituído: 60 · Em branch: 43 · Citado (conferir): 2 · Nome sem Con: 1 · Falta: 1
 
 ## `Sistema/Classes/Auditoria.cs`
 
@@ -1530,26 +1530,26 @@ Voltar: [[dev/de-para/README|De → para]]
 | 218 | frmLogin.btnProximo_Click | 133 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 352 | frmLogin.btnAnterior_Click | 112 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 465 | frmLogin.GerarID | 38 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
-| 503 | frmLogin.GerarIDUsuario | 37 | **Falta** |  | trial |
-| 542 | frmLogin.CriarEmpresa | 325 | **Falta** |  | cadastro de empresa nova pelo login (trial/assinatura) |
+| 503 | frmLogin.GerarIDUsuario | 37 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 542 | frmLogin.CriarEmpresa | 325 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
 | 872 | frmLogin.btnCartaoCredito_Click | 15 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
-| 888 | frmLogin.CartaoCredito | 24 | **Falta** |  | assinatura no login |
+| 888 | frmLogin.CartaoCredito | 24 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
 | 913 | frmLogin.sfDataGrid1_CurrentCellEndEdit | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 918 | frmLogin.sfDataGrid1_CellCheckBoxClick | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
-| 925 | frmLogin.Calcula | 72 | **Falta** |  | valor da assinatura no login |
+| 925 | frmLogin.Calcula | 72 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
 | 998 | frmLogin.sfDataGrid1_Validated | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1003 | frmLogin.btnPIX_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1010 | frmLogin.btnDepositoBancario_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1017 | frmLogin.btnBoletoBancario_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
-| 1024 | frmLogin.btnFormaPagto | 37 | **Falta** |  | assinatura no login |
-| 1063 | frmLogin.CriaModulos | 376 | **Falta** |  | módulos da empresa nova (trial) |
+| 1024 | frmLogin.btnFormaPagto | 37 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
+| 1063 | frmLogin.CriaModulos | 376 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
 | 1441 | frmLogin.btnEscolherBasico_Click | 11 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1453 | frmLogin.btnEscolherIntermediario_Click | 11 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1465 | frmLogin.btnEscolherAvancado_Click | 11 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1477 | frmLogin.btnEscolherImagem_Click | 8 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1488 | frmLogin.Entrar | 119 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1608 | frmLogin.EntrarSistema | 148 | Equivalente | `ERPBlazor/Components/Pages/Login.razor:1` |  |
-| 1756 | frmLogin.VerificarAssinatura | 62 | **Falta** |  | assinatura/cobrança do Petrus no login |
+| 1756 | frmLogin.VerificarAssinatura | 62 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
 | 1818 | frmLogin.Sincronizar | 68 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1887 | frmLogin.btnEntrar_Click | 6 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 1895 | frmLogin.btnInscreverSe_Click | 7 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
@@ -1561,7 +1561,7 @@ Voltar: [[dev/de-para/README|De → para]]
 | 2043 | frmLogin.btnAcessar_Click | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 2048 | frmLogin.CriarModulos | 86 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 2137 | frmLogin.RandomString | 6 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
-| 2146 | frmLogin.CriarUsuario | 366 | **Falta** |  | cadastro de usuário novo pelo login (trial) |
+| 2146 | frmLogin.CriarUsuario | 366 | Descartado |  | cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026) |
 | 2514 | frmLogin.CriarEmpresaWorker | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 2519 | frmLogin.CriarUsuarioWorker | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |
 | 2523 | frmLogin.CriarModulosWorker | 4 | Não se aplica | `ERPBlazor/Components/Pages/Login.razor:1` | tela de login do WinForms |

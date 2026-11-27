@@ -74,10 +74,10 @@ PDV/Interfaces/frmPDVAbertura.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Cl
 PDV/Interfaces/frmPDVFechamento.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:74;Petrus.PDV fase 1
 PDV/Interfaces/frmPDVSangria.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:78;Petrus.PDV fase 1
 PDV/Interfaces/frmPDVSuprimento.cs;*;*;Outro repositório;Petrus.PDV/Petrus.PDV/Classes/Caixa.cs:82;Petrus.PDV fase 1
-PDV/Interfaces/frmPDV.cs;*;*;Falta;;venda e pagamento do PDV: fase 2 do Petrus.PDV (README), não feita
-PDV/Interfaces/frmPDVRecebimento.cs;*;*;Falta;;recebimentos: fase 3 do Petrus.PDV, não feita
-PDV/Interfaces/frmPDVInformacoes.cs;*;*;Falta;;informações do caixa: fase 3 do Petrus.PDV, não feita
-PDV/Interfaces/frmPDVValores.cs;*;*;Falta;;valores do caixa: fase 3 do Petrus.PDV, não feita
+PDV/Interfaces/frmPDV.cs;*;*;Descartado;;não vai para o Web (decisão do Pedro, 27/11/2026)
+PDV/Interfaces/frmPDVRecebimento.cs;*;*;Descartado;;não vai para o Web (decisão do Pedro, 27/11/2026)
+PDV/Interfaces/frmPDVInformacoes.cs;*;*;Descartado;;não vai para o Web (decisão do Pedro, 27/11/2026)
+PDV/Interfaces/frmPDVValores.cs;*;*;Descartado;;não vai para o Web (decisão do Pedro, 27/11/2026)
 Sistema/Dicionario/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
 Sistema/Interfaces/Ambiente/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
 Sistema/Interfaces/BancoDados/*;*;*;Descartado;;Customizador fica no desktop (SS8-248)
@@ -146,14 +146,14 @@ Sistema/Interfaces/frmPDFViewer.cs;*;*;Não se aplica;;o navegador abre o PDF
 Sistema/Interfaces/frmInput.cs;*;*;Não se aplica;;diálogos do Web
 Sistema/Interfaces/frmInputDate.cs;*;*;Não se aplica;;diálogos do Web
 Sistema/Interfaces/frmLogin.cs;*;EntrarSistema;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;
-Sistema/Interfaces/frmLogin.cs;*;CriarEmpresa;Falta;;cadastro de empresa nova pelo login (trial/assinatura)
-Sistema/Interfaces/frmLogin.cs;*;CriarUsuario;Falta;;cadastro de usuário novo pelo login (trial)
-Sistema/Interfaces/frmLogin.cs;*;CriaModulos;Falta;;módulos da empresa nova (trial)
-Sistema/Interfaces/frmLogin.cs;*;VerificarAssinatura;Falta;;assinatura/cobrança do Petrus no login
-Sistema/Interfaces/frmLogin.cs;*;CartaoCredito;Falta;;assinatura no login
-Sistema/Interfaces/frmLogin.cs;*;btnFormaPagto;Falta;;assinatura no login
-Sistema/Interfaces/frmLogin.cs;*;Calcula;Falta;;valor da assinatura no login
-Sistema/Interfaces/frmLogin.cs;*;GerarIDUsuario;Falta;;trial
+Sistema/Interfaces/frmLogin.cs;*;CriarEmpresa;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;CriarUsuario;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;CriaModulos;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;VerificarAssinatura;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;CartaoCredito;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;btnFormaPagto;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;Calcula;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
+Sistema/Interfaces/frmLogin.cs;*;GerarIDUsuario;Descartado;;cadastro de empresa/assinatura pelo login não vai para o Web (decisão do Pedro, 27/11/2026)
 Sistema/Interfaces/frmLogin.cs;*;GerarCodigoSenha;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;esqueci a senha
 Sistema/Interfaces/frmLogin.cs;*;CodigoSenhaValido;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;esqueci a senha
 Sistema/Interfaces/frmLogin.cs;*;LimparCodigoSenha;Equivalente;ERPBlazor/Components/Pages/Login.razor:1;esqueci a senha
@@ -204,7 +204,7 @@ Metodos/EnviosWhatsApp.cs;*;*;Equivalente;Petrus.Core/Acoes/AcoesSistema.cs:17;l
 Metodos/EtiquetasCadastro.cs;*;*;Em branch;;impressão de etiqueta: feature/ss8-249 (GerarEtiquetas), não mesclada
 Logistica/Etiqueta/PrintQueue.cs;*;*;Em branch;;feature/ss8-249, não mesclada
 Utils/RawPrinter.cs;*;*;Em branch;;impressão direta na Zebra: feature/ss8-249 (rede ou .zpl), não mesclada
-Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ArmazenarDanfePasta;Falta;;cópia do DANFE numa pasta da rede (pasta por empresa)
+Fiscal/NotaFiscal/ImpressoesNFe.cs;*;ArmazenarDanfePasta;Equivalente;Petrus.Fiscal/NotaFiscal/ImpressoesNFe.cs:107;cópia do DANFE na pasta do parâmetro PastaXml
 Fiscal/Manifesto/*;*;ExibirDesign;Não se aplica;;designer do FastReport
 Fiscal/NotaFiscal/DANFE/*;*;ExibirDesign;Não se aplica;;designer do FastReport
 Industrial/Classes/Mistura.cs;*;ConverteDecimal;Não se aplica;;conversão de texto da tela
