@@ -97,6 +97,7 @@
 - [Baixa da mistura ao concluir a VM3](baixa-mistura-monitor.md) — SS8-335: baixa na conclusão da ordem de mistura (VM5_QTD), versão no Monitor desfeita; perguntas abertas
 - [QR lido com Caps Lock](qrcode-caps-lock-leitor.md) — leitor digita com caixa trocada; PacoteQRCode.Normalizar/Decodificar invertem
 - [Requisição de várias OPs e conferência](requisicao-varias-ops-conferencia.md) — SS8-347: RMI única somando insumos (OPs na OBS), GX7_QTD_CONFERIDA, status Conferida, S39 100538, script antes de publicar
+- [Função S39 nova sem S72](funcao-s39-nova-sem-s72.md) — SS8-355: usuário antigo não recebe S72 da função nova (até ADMIN); botão Funções em Ajustes > Atualizações
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
