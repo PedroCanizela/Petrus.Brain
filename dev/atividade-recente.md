@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 14:08 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 14:15 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,6 +19,8 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
+- + feature/ss8-343-estoque-carteira-qrcode
+- + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -242,6 +244,8 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
+- + feature/ss8-343-estoque-carteira-qrcode
+- + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-39-novo-layout-erp
 - * master
 
@@ -885,10 +889,12 @@ Branch atual: corrige-monitor-travado
 
 Branches:
 - * corrige-monitor-travado
+- + feature/ss8-335-baixa-receita-mistura
 - master
 - profiable
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 98a220d SS8-335: baixa das matérias-primas pela receita de mistura da OP
 - 2026-11-27 772ffb3 Monitor: corrige laço infinito na previsão da OP (travava após o primeiro OK)
 - 2026-11-23 56f1a9c Merge SS8-181: diagnóstico de InvalidCast em colunas do monitor
 - 2026-11-23 14e3840 SS8-181: diagnóstico de InvalidCast em colunas do monitor

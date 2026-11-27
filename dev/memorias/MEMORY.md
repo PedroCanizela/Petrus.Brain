@@ -93,6 +93,7 @@
 - [Liberar OP no Monitoramento](liberar-op-monitoramento.md) — SS8-342: status Liberado, S39 100537, S74_LIBERAR_OP filtra pendentes do MES (StatusPendentes)
 - [Prioridade de máquinas](prioridade-maquinas-c4.md) — SS8-340: C4_PRIORIDADE (S10 123720, 2 branches), /MES/PrioridadeMaquinas, coluna e ordem no Monitoramento; alias no .razor
 - [Resumo de produção por máquina](resumo-producao-maquina.md) — SS8-339: /MES/ResumoProducao, 1º tempo/previsão/outros tempos, TempoDisponivelMES.Previsao (Monitor não divide por cavidades)
+- [Baixa pela receita de mistura no Monitor](baixa-mistura-monitor.md) — SS8-335: Estoque.BaixarMistura, peças × C3_PESO (kg) × VM2_%, à parte da G32, VM3 não baixa
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
