@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 16:39 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 16:45 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,8 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 25758266 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
+- 2026-11-27 8e3394c8 SS8-335: ordem de mistura baixa as matérias-primas ao concluir, com estorno
 - 2026-11-27 f77bce95 Merge SS8-343: Estoque / Relatórios: Estoque x carteira pelo estoque dos QR Codes, com molde e sugestões de produção
 - 2026-11-27 1aa226e5 SS8-343: renumera os S10 da S77 para 123740-123746 (123731/123732 já usados pela SS8-347)
 - 2026-11-27 1b03b384 SS8-344: estoque e saldo nos itens do pedido de venda
@@ -254,6 +256,9 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 3488f64 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
+- 2026-11-27 0ae183b SS8-335: regera o inventário da migração (S39 100539)
+- 2026-11-27 be5ecb7 SS8-335: ordem de mistura baixa as matérias-primas ao concluir, com estorno
 - 2026-11-27 7f015f3 Merge SS8-343: Estoque / Relatórios: Estoque x carteira pelo estoque dos QR Codes, com molde e sugestões de produção
 - 2026-11-27 d281a00 SS8-343: renumera os S10 da S77 para 123740-123746 (123731/123732 já usados pela SS8-347)
 - 2026-11-27 ebc771e Merge SS8-235: WMS / Gaiolas: gaiola de embalagem (semiacabados) com produtos e quantidade, movimentando o estoque
