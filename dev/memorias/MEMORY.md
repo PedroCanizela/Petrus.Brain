@@ -92,6 +92,7 @@
 - [Abrir OP no Monitoramento e receita como busca](abrir-op-monitoramento-receita-busca.md) — SS8-341: duplo clique/Abrir OP → OrderDetails/View?voltar=, ReceitaMisturaBusca + lupa no lugar do MudSelect
 - [Liberar OP no Monitoramento](liberar-op-monitoramento.md) — SS8-342: status Liberado, S39 100537, S74_LIBERAR_OP filtra pendentes do MES (StatusPendentes)
 - [Prioridade de máquinas](prioridade-maquinas-c4.md) — SS8-340: C4_PRIORIDADE (S10 123720, 2 branches), /MES/PrioridadeMaquinas, coluna e ordem no Monitoramento; alias no .razor
+- [Estoque QR na carteira e no pedido](estoque-qrcode-carteira-pedido.md) — SS8-343/344: S7 100493 Estoque x carteira (QR Code) c/ molde/sugestões; R49_ESTOQUE/SALDO pintados; molde Pratic só na V1
 - [Resumo de produção por máquina](resumo-producao-maquina.md) — SS8-339: /MES/ResumoProducao, 1º tempo/previsão/outros tempos, TempoDisponivelMES.Previsao (Monitor não divide por cavidades)
 - [Baixa pela receita de mistura no Monitor](baixa-mistura-monitor.md) — SS8-335: Estoque.BaixarMistura, peças × C3_PESO (kg) × VM2_%, à parte da G32, VM3 não baixa
 - [Requisição de várias OPs e conferência](requisicao-varias-ops-conferencia.md) — SS8-347: RMI única somando insumos (OPs na OBS), GX7_QTD_CONFERIDA, status Conferida, S39 100538, script antes de publicar

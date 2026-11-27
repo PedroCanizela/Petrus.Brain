@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 14:28 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 15:17 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -27,6 +27,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 1b03b384 SS8-344: estoque e saldo nos itens do pedido de venda
 - 2026-11-27 838c6fec SS8-343: Estoque x carteira (QR Code), com molde e sugestões de produção
 - 2026-11-27 7cd70740 Merge SS8-346: Vendas / Situação do pedido: enviar de Receita/Sintegra para Em análise e de Em análise para Aguardando depósito
 - 2026-11-27 b0ace1d5 SS8-346: Situação do pedido: Receita/Sintegra para Em análise e Em análise para Aguardando depósito
@@ -253,6 +254,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 d784f5c SS8-344: estoque e saldo nos itens do pedido de venda
 - 2026-11-27 bcd7266 SS8-343: Estoque x carteira (QR Code), com molde e sugestões de produção
 - 2026-11-27 0b00f55 SS8-348: MES / Monitoramento: ordens pendentes ordenadas pelo ID da OP
 - 2026-11-27 623c6d3 SS8-347: Requisição de material de várias OPs e conferência da qualidade
