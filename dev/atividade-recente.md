@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:13 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:15 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -265,10 +265,14 @@ Branches:
 - + feature/ss8-353-efetivar-ordem-mistura
 - + feature/ss8-354-previsao-op
 - + feature/ss8-357-ajustes-qrcode
+- + feature/ss8-359-troca-modulo-forcada
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 c4cf81b SS8-357: consulta de pacote sem o campo Pedido na baixa manual (individual e em massa): a baixa sempre exclui o pacote
+- 2026-11-27 b200890 Merge SS8-353: Industrial / Ordem de mistura: status Efetivado antes da conclusão
+- 2026-11-27 79054a1 Merge SS8-335: Industrial / Ordem de mistura: baixa das matérias-primas no estoque ao concluir
 - 2026-11-27 e24a0ee SS8-357: WMS / QR Code: baixa em massa, sem motivo obrigatório, excluir gaiola, OPs concluídas e produtos sem repetir
 - 2026-11-27 027525c SS8-353: ordem de mistura com status Efetivado antes da conclusão (Web)
 - 2026-11-27 e750ec2 SS8-354: Industrial / Ordem de produção: exibir a previsão da OP
