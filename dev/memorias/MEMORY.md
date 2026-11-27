@@ -77,6 +77,7 @@
 - [Baixa manual de pacote no Web](baixa-manual-pacote-web.md) — SS8-307: aba Baixa manual na Consulta de pacote, busca pelo ID, Expedido c/ pedido ou Excluido, S39 100536
 - [SfGrid sem Class e textos pt-BR](sfgrid-class-localizacao-web.md) — SS8-308: Class= no SfGrid tira o CSS do Syncfusion; LocalizacaoSyncfusion (Grid_/Pager_) no Program.cs
 - [Pesquisa do /Report nas colunas exibidas](pesquisa-report-colunas-exibidas.md) — SS8-314: só S10_TAMANHO_GRID > 0, texto como na grade, sem acento; "Pesquisar por"; placeholder novo
+- [Número personalizado na inclusão](numero-personalizado-inclusao-web.md) — SS8-323: Funcoes.GerarNroPersonalizado no Core (R13/I14/R2/R4/I5/J2), prévia no Novo, contador S74 com UPDLOCK no Insert
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
