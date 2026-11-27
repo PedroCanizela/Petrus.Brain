@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:21 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 11:22 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -238,6 +238,7 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-331-troca-senha-1234
 - + feature/ss8-332-qrcode-manual-sem-op
+- + feature/ss8-336-receita-mistura-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
