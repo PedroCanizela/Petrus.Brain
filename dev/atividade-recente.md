@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 12:16 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 12:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,6 +19,7 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
+- + feature/ss8-340-prioridade-maquina-c4
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -232,7 +233,6 @@ Branches:
 - + claude/peaceful-ardinghelli-9cc6a3
 - + claude/ss8-328-a50ba2
 - + claude/ss8-340-e42eda
-- + claude/ss8-342-6f417b
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-235-gaiola-embalagem
@@ -243,10 +243,13 @@ Branches:
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-339-resumo-producao
 - + feature/ss8-341-abrir-op-monitoramento
+- + feature/ss8-342-liberar-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 7c04e66 SS8-342: MES / Monitoramento: só ordens liberadas com o parâmetro S74_LIBERAR_OP
+- 2026-11-27 d745aee SS8-341: Monitoramento abre a OP pela grade e receita de mistura vira busca
 - 2026-11-27 de64616 SS8-338: NovoMassa grava DBNull em coluna não texto sem valor (perda do MES na V22_DATA_ESTOQUE)
 - 2026-11-27 ecccf42 Merge SS8-337: MES / Etiqueta do operador: impressão pelo navegador em página HTML simples
 - 2026-11-27 d3c2b9d SS8-337: etiqueta do operador pelo navegador em página HTML simples
