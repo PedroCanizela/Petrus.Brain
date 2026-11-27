@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: b20b9e06-9c3d-4a2e-9899-802ee24d2c5a
-  modified: 2026-11-27T00:21:43.151Z
+  modified: 2026-11-27T00:26:22.309Z
 ---
 
 SS8-303 (PRATIC, 26/11/2026, aguardando aprovação; Web na branch `claude/ss8-303-d4426e`, desktop em
@@ -14,7 +14,7 @@ SS8-303 (PRATIC, 26/11/2026, aguardando aprovação; Web na branch `claude/ss8-3
 - Regra: empresa com gaiola (existe A7 do S1_ID) → estoque = pacotes GX3 "Em estoque" + pacotes "Expedido" com R13_ID
   nos pedidos da própria expedição ("QR reservado"), cada pacote = G6_QTD_EMB peças (1 se zero). Saldo = estoque -
   quantidade da expedição. Sem gaiola segue G17 Disponível.
-- SS8-312 (ajuste, aguardando aprovação, branch `feature/ss8-312-qrcode-volumes` no Petrus e no Petrus.ERP): com
+- SS8-312 (ajuste, concluído em 26/11/2026, na master do Petrus 9d5152b3 e do Petrus.ERP 26ad0da): com
   gaiola, estoque e saldo em VOLUMES = COUNT de pacotes GX3; quantidade comparada = qtd / G6_QTD_EMB (1 se zero),
   `QtdComparada`. J50/J51_QUANTIDADE seguem em peças.
 - GX3 não tem status Disponível/Reservado (só Gerado, Em estoque, Expedido, Excluido) nem quantidade: "reservado" foi
