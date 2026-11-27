@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:46 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:50 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -238,7 +238,7 @@ Branches:
 - claude/festive-chatterjee-253909
 - claude/festive-noyce-122f40
 - claude/funny-meninsky-e7b65c
-- + claude/gallant-joliot-ab2bbd
+- claude/gallant-joliot-ab2bbd
 - claude/gifted-colden-99621b
 - + claude/hungry-kepler-c997fa
 - claude/jolly-bell-73065e
@@ -262,9 +262,11 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-39-novo-layout-erp
+- + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 b8d3316 Usuário (S2): não grava login repetido no /Details
 - 2026-11-27 ea32c1e Merge SS8-363: Expedição / Conferência de pedido: exceção para conferir por QR Code pedidos já faturados
 - 2026-11-27 ab2695e SS8-363: Expedição / Conferência de pedido: exceção para conferir por QR Code pedidos já faturados
 - 2026-11-27 cafa846 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)

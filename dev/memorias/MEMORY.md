@@ -103,6 +103,7 @@
 - [Efetivar ordem de mistura](efetivar-ordem-mistura.md) — SS8-353: VM3 Novo→Efetivado→Concluido só no Web, S39 100540/100541, estorno volta p/ Efetivado; em cima da 335
 - [Ajustes QR Code SS8-357](ajustes-qrcode-ss8-357.md) — baixa em massa, motivo opcional, excluir gaiola A7/A10, OP concluída nas etiquetas; G6 Pratic repete nas S1 1 e 3
 - [Conferência de pedido faturado](conferencia-pedido-faturado.md) — SS8-363: S39 100542, busca pelo número traz Faturado/Embarcado, finalizar não muda a situação; próximo S39 100543
+- [Login duplicado na S2](login-duplicado-s2.md) — 27/11 PRATIC: dois S2 GUILHERME, login entra no que bate a senha; trava no /Details (fix/login-duplicado-s2)
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
