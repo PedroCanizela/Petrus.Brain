@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:06 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:07 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -231,7 +231,7 @@ Branches:
 - claude/compassionate-chatelet-755afa
 - claude/determined-dewdney-22c5ee
 - claude/determined-feistel-6e7623
-- + claude/distracted-fermat-ba16a3
+- claude/distracted-fermat-ba16a3
 - claude/dreamy-driscoll-ea3cff
 - claude/ecstatic-meitner-0d4feb
 - claude/festive-chatterjee-253909
@@ -262,12 +262,14 @@ Branches:
 - + feature/ss8-344-estoque-saldo-pedido
 - + feature/ss8-350-resumo-producao-liberadas
 - + feature/ss8-351-op-pendentes-liberadas
+- + feature/ss8-353-efetivar-ordem-mistura
 - + feature/ss8-356-retirar-prioridade-monitoramento
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 5fda2a6 SS8-350: MES / Resumo de produção: previsão somando as ordens liberadas e máquinas ordenadas pelo término
 - 2026-11-27 41c1b2f SS8-356: MES / Monitoramento: retirar a coluna e o botão de prioridade da máquina
 - 2026-11-27 52ec0ba SS8-351: MES / Monitoramento: conferir que as ordens pendentes são só as liberadas
 - 2026-11-27 3488f64 SS8-335: estorno só devolve as matérias-primas que a conclusão baixou
