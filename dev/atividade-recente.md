@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:57 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 12:05 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -243,6 +243,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 de64616 SS8-338: NovoMassa grava DBNull em coluna não texto sem valor (perda do MES na V22_DATA_ESTOQUE)
 - 2026-11-27 ecccf42 Merge SS8-337: MES / Etiqueta do operador: impressão pelo navegador em página HTML simples
 - 2026-11-27 d3c2b9d SS8-337: etiqueta do operador pelo navegador em página HTML simples
 - 2026-11-27 72dbce9 Merge SS8-336: MES / Monitoramento: receita de mistura da ordem de produção na grade e no diálogo de troca
