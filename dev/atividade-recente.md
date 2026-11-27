@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 10:40 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 10:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -219,8 +219,7 @@ Branches:
 - claude/determined-feistel-6e7623
 - claude/dreamy-driscoll-ea3cff
 - claude/ecstatic-meitner-0d4feb
-- + claude/fervent-curran-57bd6b
-- + claude/festive-chatterjee-253909
+- claude/festive-chatterjee-253909
 - claude/festive-noyce-122f40
 - claude/funny-meninsky-e7b65c
 - claude/gifted-colden-99621b
@@ -235,11 +234,14 @@ Branches:
 - + feature/ss8-235-gaiola-embalagem
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
+- + feature/ss8-329-ref-obs-previa-op
 - + feature/ss8-331-troca-senha-1234
+- + feature/ss8-332-qrcode-manual-sem-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 f39ab13 SS8-331: Login pede troca de senha só com a senha padrão 1234
 - 2026-11-26 3cd6f67 Regenera o inventário da migração após os merges de 319 a 327
 - 2026-11-26 09f8a6b Merge SS8-326: Migração Web / De-para: conferir os itens duvidosos, marcar MIGRADO FORM nos forms cobertos e completar parciais e catálogo S10
 - 2026-11-26 f366ba8 Merge SS8-319: Vendas / Pedido e tabela de preço: importação por planilha no Web (Aferi Pratic, Aferi Decorplast, Aferi, Easy e Gerador)
