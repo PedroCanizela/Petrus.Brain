@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:43 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 18:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -274,6 +274,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 d6a5a4a Merge SS8-364: Expedição / Conferência de pedido: coluna Endereço pela posição das gaiolas do produto
 - 2026-11-27 1da5643 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
 - 2026-11-27 4b0845c SS8-364: endereço da conferência de pedido pelas gaiolas do produto
 - 2026-11-27 7cabd96 SS8-358: produto da mistura na receita; concluir a ordem de mistura baixa o produto
