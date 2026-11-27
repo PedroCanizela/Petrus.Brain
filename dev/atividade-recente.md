@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 21:59 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:01 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -247,6 +247,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 f7fdc4d SS8-313: Relatórios no Web: filtro de Mês em branco e títulos em maiúsculas
 - 2026-11-26 26ad0da Merge SS8-312: Expedição: estoque, saldo e faltas por QR Code em volumes
 - 2026-11-26 638e852 Merge SS8-310: WMS abre o Início
 - 2026-11-26 7fa2ef7 SS8-310: WMS abre o Início (não o Painel separação)
