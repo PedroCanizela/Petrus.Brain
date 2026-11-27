@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:19 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:20 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -264,6 +264,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 d63f53c Merge SS8-354: Industrial / Ordem de produção: exibir a previsão da OP (horas, pacotes, peso em kg, término e falta)
 - 2026-11-27 5321c79 Merge SS8-351: MES / Monitoramento: conferir que as ordens pendentes são só as liberadas
 - 2026-11-27 4c61567 SS8-351: tira a mudança do Resumo de produção (a SS8-350 já trata as liberadas)
 - 2026-11-27 e502bbf Merge SS8-344: Vendas / Pedido de venda: colunas de estoque e saldo nos itens, pelo QR Code quando houver gaiola
