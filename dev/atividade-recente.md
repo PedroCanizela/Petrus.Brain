@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:36 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:37 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -237,7 +237,6 @@ Branches:
 - claude/magical-bartik-17f3b7
 - + claude/nice-curie-216004
 - + claude/peaceful-ardinghelli-9cc6a3
-- + claude/ss8-320-6dd944
 - + claude/ss8-321-6c6d0e
 - + claude/ss8-322-68b722
 - + claude/ss8-323-d44c7b
@@ -250,6 +249,7 @@ Branches:
 - + feature/ss8-301-visual-monitoramento
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-319-importacao-planilha-pedido
+- + feature/ss8-320-gerar-parcelas-duplicatas
 - + feature/ss8-327-decimais-campos-leitura
 - + feature/ss8-39-novo-layout-erp
 - * master
