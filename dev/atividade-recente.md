@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 00:30 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 10:36 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -24,6 +24,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 1d612e6f Update
 - 2026-11-26 23477dd0 Update
 - 2026-11-26 74cad3c4 Merge SS8-311: Expedição: coluna Nro Pedido que preenche o Pedido
 - 2026-11-26 ff1d9736 SS8-311: Expedição: coluna Nro Pedido que preenche o Pedido
@@ -194,13 +195,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-16 99de4fd7 Merge SS8-38: Busca de pedidos de compra por produto
 - 2026-11-16 60e2113a SS8-38: Busca de pedidos de compra por produto
 - 2026-11-13 bf252e35 Fix - Layout Peso
-- 2026-11-13 ace79229 Update - Planilha Claude
-- 2026-11-13 bf4c6a95 Merge SS8-18: Peso por OP (Profiable)
-- 2026-11-13 8a4cf96a Merge SS8-21: Prioridades de troca de molde
-- 2026-11-13 0ea33680 SS8-21: prioridades de troca de molde no apontamento
-- 2026-11-13 614fc74e SS8-18: Peso por OP (apontamento, monitoramento e relatório)
-- 2026-11-13 b0c66214 Merge SS8-17: Etiqueta do operador (Profiable)
-- 2026-11-13 096faf98 SS8-17: Etiqueta do operador na impressão pela OP
 
 ## Petrus.Canhoto
 Branch atual: master
@@ -227,6 +221,7 @@ Branches:
 - claude/ecstatic-meitner-0d4feb
 - claude/festive-noyce-122f40
 - claude/funny-meninsky-e7b65c
+- + claude/gifted-colden-99621b
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
 - + claude/nice-curie-216004
@@ -807,19 +802,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-16 9455642 SS8-41: identidade própria, todas as telas no novo layout e fim da Fábrica 360
 - 2026-11-16 210c3f5 SS8-41: novo layout do Petrus Web e mapa da fábrica 2D/3D
 - 2026-11-16 3c1783c SS8-41: referência ao Petrus.Core por caminho relativo ao repositório
-- 2026-11-13 eb8302a Merge SS8-18: Peso por OP (Profiable)
-- 2026-11-13 d6efbf3 SS8-18: Peso por OP no MES (apontamento, monitoramento e relatório)
-- 2026-11-13 f85e7c6 Merge SS8-21: Prioridades de troca de molde
-- 2026-11-13 fca4c45 SS8-21: prioridades de troca de molde no MES
-- 2026-11-13 aef3dc0 Merge SS8-36: Monitor de inventário (acuracidade de estoque) e carga do histórico antigo
-- 2026-11-13 e818c95 SS8-36: Monitor de inventário (acuracidade de estoque) e carga do histórico antigo
-- 2026-11-13 5aea14b Merge SS8-32: Inventário por QR Code (Profiable)
-- 2026-11-13 3d637c9 Merge SS8-27: Geração e reimpressão de QR Code de pacotes por OP (Profiable)
-- 2026-11-13 48c4554 Merge master na SS8-27 (resolve conflito com SS8-28/33 no NavMenu)
-- 2026-11-13 d3fe9db SS8-32: Inventário por QR Code - foto do estoque, faltantes, estorno e fechamento com ajuste correto
-- 2026-11-13 254bf59 Merge SS8-33: Consulta de pacote por QR Code com historico (Profiable)
-- 2026-11-13 915b909 Merge master na SS8-33 (resolve conflito com SS8-28 no NavMenu)
-- 2026-11-13 208e8fd SS8-27: Geração e reimpressão de QR Code de pacotes por OP (Profiable)
 
 ## Petrus.FV
 Branch atual: master
