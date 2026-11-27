@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 15:19 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 15:20 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -248,12 +248,11 @@ Branches:
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-343-estoque-carteira-qrcode
 - + feature/ss8-344-estoque-saldo-pedido
-- + feature/ss8-347-requisicao-varias-ops
-- + feature/ss8-348-ordenar-pendentes-monitoramento
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 178a3ac SS8-349: WMS / Leitura de QR Code aceita pacote lido com Caps Lock ligado
 - 2026-11-27 a619a1b Merge SS8-347: Estoque / Requisição de material: gerar uma requisição a partir de várias ordens de produção e conferência das quantidades pela qualidade
 - 2026-11-27 0daa44c Merge SS8-348: MES / Monitoramento: ordens pendentes ordenadas pelo ID da OP
 - 2026-11-27 d784f5c SS8-344: estoque e saldo nos itens do pedido de venda
