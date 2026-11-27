@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 21:20 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 21:21 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -26,6 +26,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 58d2fcbe SS8-312: Expedição: estoque, saldo e faltas por QR Code em volumes
 - 2026-11-26 4da27eb2 Update
 - 2026-11-26 2fc29fa3 Merge SS8-299: Performance de vendas: UF do vendedor
 - 2026-11-26 a119ea14 Merge SS8-302: Pedido de compra: bloquear edição pelo status
@@ -221,7 +222,7 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-25 09ace2e Repositório Petrus.Canhoto
 
 ## Petrus.ERP
-Branch atual: master
+Branch atual: fix/ss8-310-inicio-generico
 
 Branches:
 - claude/amazing-brattain-67d432
@@ -240,9 +241,11 @@ Branches:
 - + feature/ss8-311-expedicao-pedido-nro-documento
 - + feature/ss8-312-qrcode-volumes
 - + feature/ss8-39-novo-layout-erp
-- * master
+- * fix/ss8-310-inicio-generico
+- master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 a87327f SS8-312: Expedição: estoque, saldo e faltas por QR Code em volumes
 - 2026-11-26 305e39b Merge SS8-299: Performance de vendas: UF do vendedor
 - 2026-11-26 09a8b22 Merge SS8-310: WMS: Início abre o Painel de separação
 - 2026-11-26 a8d86db Merge SS8-302: Pedido de compra: bloquear edição pelo status
