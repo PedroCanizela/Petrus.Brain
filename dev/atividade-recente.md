@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:06 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:07 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -250,6 +250,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 fd69e72 SS8-316: /Table e /Report com título e pesquisa quase colados à esquerda
 - 2026-11-26 8b922be SS8-314: Relatórios (/Report): pesquisa só nas colunas exibidas
 - 2026-11-26 4a59f3a SS8-315: aba e título do /Report com o nome do relatório (não INTERFACE)
 - 2026-11-26 f7fdc4d SS8-313: Relatórios no Web: filtro de Mês em branco e títulos em maiúsculas
