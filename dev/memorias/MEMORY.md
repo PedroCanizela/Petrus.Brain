@@ -81,6 +81,7 @@
 - [Número personalizado na inclusão](numero-personalizado-inclusao-web.md) — SS8-323: Funcoes.GerarNroPersonalizado no Core (R13/I14/R2/R4/I5/J2), prévia no Novo, contador S74 com UPDLOCK no Insert
 - [E-mail do relatório e da lista](email-relatorio-lista-web.md) — SS8-324: EmailDialog no /Report e /Table (marcados); /Details já tinha (SS8-140), de-para leu comentário velho
 - [Gerar parcelas das duplicatas no Web](gerar-parcelas-duplicatas-web.md) — SS8-320: GerarI59/IX11/I49 + R50 em qualquer tela no /Details; N90 do portador e sem condição não limpa (bugs do desktop)
+- [Metas por vendedor e cotação de moedas](metas-vendedor-cotacao-moeda-web.md) — SS8-325: /Vendas/MetasVendedor (R92, 102879), CotacaoMoeda PTAX ao abrir S6 102952, frmMetasResponsavel descartado
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
