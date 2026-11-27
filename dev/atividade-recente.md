@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 13:27 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 13:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -19,7 +19,6 @@ Branches:
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
 - + feature/ss8-334-contador-autxml-nfe
-- + feature/ss8-340-prioridade-maquina-c4
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -242,10 +241,6 @@ Branches:
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-334-contador-autxml-nfe
 - + feature/ss8-337-etiqueta-operador-navegador
-- + feature/ss8-339-resumo-producao
-- + feature/ss8-340-prioridade-maquinas
-- + feature/ss8-341-abrir-op-monitoramento
-- + feature/ss8-342-liberar-op
 - + feature/ss8-39-novo-layout-erp
 - * master
 
