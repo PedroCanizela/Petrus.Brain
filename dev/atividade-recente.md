@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:09 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -228,7 +228,7 @@ Branch atual: master
 
 Branches:
 - claude/amazing-brattain-67d432
-- + claude/bold-babbage-06ba32
+- claude/bold-babbage-06ba32
 - claude/compassionate-chatelet-755afa
 - claude/determined-dewdney-22c5ee
 - claude/determined-feistel-6e7623
@@ -248,10 +248,12 @@ Branches:
 - + feature/ss8-314-pesquisa-report
 - + feature/ss8-316-cabecalho-table-esquerda
 - + feature/ss8-317-nome-pdf-titulo
+- + feature/ss8-318-abas-secundarias-details
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 f5cb6a7 SS8-318: Details: abas secundárias em pílula e Modo vertical abaixo dos botões
 - 2026-11-26 e7e1d70 SS8-317: nome do PDF do registro igual ao título impresso
 - 2026-11-26 fd69e72 SS8-316: /Table e /Report com título e pesquisa quase colados à esquerda
 - 2026-11-26 8b922be SS8-314: Relatórios (/Report): pesquisa só nas colunas exibidas
@@ -902,7 +904,6 @@ Branches:
 
 Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-12 bd4460a SS8-37: Landing page Petrus e identidade visual v2
-- 2026-11-12 0488e27 Estrutura inicial do repositório
 
 ## Petrus.Suporte
 Branch atual: master
