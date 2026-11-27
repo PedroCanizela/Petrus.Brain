@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 11:53 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 11:57 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -243,6 +243,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 ecccf42 Merge SS8-337: MES / Etiqueta do operador: impressão pelo navegador em página HTML simples
 - 2026-11-27 d3c2b9d SS8-337: etiqueta do operador pelo navegador em página HTML simples
 - 2026-11-27 72dbce9 Merge SS8-336: MES / Monitoramento: receita de mistura da ordem de produção na grade e no diálogo de troca
 - 2026-11-27 27ee6a9 Merge SS8-329: MES / Ordens de produção: referência e observação na pré-visualização da OP
