@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:50 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:56 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-344-ordem-so-gaiola
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 6da3d1e6 SS8-344: estoque e saldo do pedido ao lado da margem e só com gaiola
 - 2026-11-27 64b0e483 Merge SS8-334: Fiscal / NF-e: contador da empresa autorizado a baixar o XML (tag autXML)
 - 2026-11-27 62e46bff Merge master na SS8-334 (conflito de posição no Dados.cs: mantidas as linhas da SS8-340/343/344 e a do contador)
 - 2026-11-27 c135f60d Merge SS8-344: Vendas / Pedido de venda: colunas de estoque e saldo nos itens, pelo QR Code quando houver gaiola
@@ -259,6 +261,7 @@ Branches:
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-337-etiqueta-operador-navegador
+- + feature/ss8-344-ordem-so-gaiola
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-39-novo-layout-erp
@@ -266,6 +269,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 cf3e1d3 SS8-344: estoque e saldo do pedido ao lado da margem e só com gaiola
 - 2026-11-27 b8d3316 Usuário (S2): não grava login repetido no /Details
 - 2026-11-27 ea32c1e Merge SS8-363: Expedição / Conferência de pedido: exceção para conferir por QR Code pedidos já faturados
 - 2026-11-27 ab2695e SS8-363: Expedição / Conferência de pedido: exceção para conferir por QR Code pedidos já faturados
