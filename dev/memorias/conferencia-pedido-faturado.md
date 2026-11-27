@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 6b7ff578-0987-4e8a-99cc-f29a9c4a4940
-  modified: 2026-11-27T20:42:16.169Z
+  modified: 2026-11-27T20:43:15.845Z
 ---
 
-SS8-363 (PRATIC, 27/11/2026, aguardando aprovação, branch `feature/ss8-363-conferencia-pedido-faturado`).
+SS8-363 (PRATIC, 27/11/2026, aprovada e na master: merge ea32c1e, sem push).
 `ConferenciaPedido` (Petrus.Core/Utils) tinha a regra Liberado + Separação em 3 pontos; agora é uma só
 (`ErroStatusPedido`). Com a S39 **100542** "Conferir pedido faturado" (JO1, S8 100990, invisível, `UsuarioConferencia.PodeConferirFaturado`):
 - a lista inclui pedido Faturado/Embarcado buscado pelo **número (R13_ID)** ou com JO1 Iniciado (para retomar);
