@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:44 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 18:50 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,6 +18,7 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-333-vinculo-pedidos
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
@@ -264,6 +265,7 @@ Branches:
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
+- + feature/ss8-333-vinculo-pedidos
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
@@ -274,6 +276,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 049c0df SS8-365: abas Novo, Em conferência e Concluído na conferência de pedido
 - 2026-11-27 d6a5a4a Merge SS8-364: Expedição / Conferência de pedido: coluna Endereço pela posição das gaiolas do produto
 - 2026-11-27 1da5643 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
 - 2026-11-27 4b0845c SS8-364: endereço da conferência de pedido pelas gaiolas do produto
