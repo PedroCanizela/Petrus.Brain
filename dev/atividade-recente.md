@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 17:17 por scripts\Sincronizar.ps1
+Gerado em 27/11/2026 17:18 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -261,11 +261,12 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-354-previsao-op
 - + feature/ss8-357-ajustes-qrcode
-- + feature/ss8-359-troca-modulo-forcada
 - + feature/ss8-39-novo-layout-erp
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-27 710653a Merge SS8-359: Web / Troca de módulo: abrir um cadastro não deve voltar para a seleção de módulo
+- 2026-11-27 e5a8b40 Merge SS8-357: WMS / QR Code: baixa em massa de pacotes, motivo opcional, excluir gaiola, OPs concluídas nas etiquetas e produtos sem repetir na série Manual
 - 2026-11-27 3d5c016 SS8-359: Web / Troca de módulo: abrir um cadastro não volta mais para a seleção de módulo
 - 2026-11-27 d0b842f Merge SS8-350: MES / Resumo de produção: previsão somando as ordens liberadas e máquinas ordenadas pelo término
 - 2026-11-27 c4cf81b SS8-357: consulta de pacote sem o campo Pedido na baixa manual (individual e em massa): a baixa sempre exclui o pacote

@@ -1,4 +1,4 @@
----
+﻿---
 name: ajustes-qrcode-ss8-357
 description: "SS8-357 — baixa em massa de pacotes, motivo/justificativa opcionais, excluir gaiola A7/A10, OPs concluídas nas etiquetas, G6 da Pratic repetido nas empresas 1 e 3"
 metadata:
@@ -8,8 +8,8 @@ metadata:
   modified: 2026-11-27T20:13:10.551Z
 ---
 
-SS8-357 (PRATIC, entregue em 27/11/2026 na branch `feature/ss8-357-ajustes-qrcode`, commit e24a0ee, aguardando aprovação):
-- Consulta de pacote: baixa manual em massa (marcar na lista ou chave "juntar os pacotes lidos"), `PacoteLeitura.BaixaManualAsync(IEnumerable<int>...)` uma transação por pacote; lista e totais coloridos relidos por `ConsultaPacote.BuscarPorIdsAsync` depois da baixa. Motivo da baixa e justificativa da série Manual agora opcionais (Pedro/cliente pediram "não precisar de motivo").
+SS8-357 (PRATIC, concluída e na master do Petrus.ERP em 27/11/2026: merge e5a8b40, sem push; commits e24a0ee e c4cf81b):
+- Consulta de pacote: baixa manual em massa (marcar na lista ou chave "juntar os pacotes lidos"), `PacoteLeitura.BaixaManualAsync(IEnumerable<int>...)` uma transação por pacote; lista e totais coloridos relidos por `ConsultaPacote.BuscarPorIdsAsync` depois da baixa. Motivo da baixa e justificativa da série Manual agora opcionais (Pedro/cliente pediram "não precisar de motivo"). O Pedro mandou **tirar o campo Pedido** da baixa ("não usa"): a tela sempre exclui o pacote; o Core ainda aceita R13_ID.
 - Etiquetas: série Máquina aceita OP Concluido (não embalagem) em `PacoteEtiqueta.PodeGerar` e na lista.
 - **G6 da Pratic tem o mesmo produto nas empresas S1 1 e 3** e a mesma referência como Produto em Processo/Uso e Consumo (14.942 ativos x 1.161 acabados da S1 1). Lista de produtos da série Manual filtra S1 logada + G6_TIPO "Produto Acabado".
 - Excluir gaiola: `Gaiolas.ExcluirAsync` (apaga A8/A9) e `A10Engine.Excluir` (só vazia, apaga A12), permissão S15_EXCLUIR (`UsuarioGaiola.PodeExcluir`). Histórico apagado porque o ID é MAX+1 e seria reaproveitado.
