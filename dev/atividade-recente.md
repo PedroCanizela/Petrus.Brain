@@ -232,6 +232,7 @@ Branches:
 - claude/determined-feistel-6e7623
 - claude/dreamy-driscoll-ea3cff
 - claude/ecstatic-meitner-0d4feb
+- + claude/festive-noyce-122f40
 - claude/funny-meninsky-e7b65c
 - claude/jolly-wiles-b6bda3
 - claude/magical-bartik-17f3b7
@@ -239,6 +240,8 @@ Branches:
 - + claude/peaceful-ardinghelli-9cc6a3
 - + claude/ss8-319-361a87
 - + claude/ss8-320-6dd944
+- + claude/ss8-321-6c6d0e
+- + claude/ss8-322-68b722
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-235-gaiola-embalagem
