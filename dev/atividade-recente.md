@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 22:19 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 22:20 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -242,6 +242,10 @@ Branches:
 - + claude/ss8-320-6dd944
 - + claude/ss8-321-6c6d0e
 - + claude/ss8-322-68b722
+- + claude/ss8-323-d44c7b
+- + claude/ss8-324-a2ec91
+- + claude/ss8-325-5dc47e
+- + claude/ss8-326-ade518
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-235-gaiola-embalagem
@@ -251,6 +255,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 c0e55c6 Update
 - 2026-11-26 1c9591f Merge SS8-316: /Table e /Report: título e pesquisa quase colados à esquerda
 - 2026-11-26 679a297 Merge SS8-318: Details: abas secundárias menores e Modo vertical abaixo dos botões
 - 2026-11-26 46ac99e Merge SS8-317: Pedido de venda: nome do PDF igual ao título impresso

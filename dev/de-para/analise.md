@@ -138,6 +138,21 @@ Situações "Conferir" e "Citado (conferir)": o Web provavelmente cobre, mas só
 não mescladas). Assim, uma marca `MIGRADO`/`DESCARTADO` de uma branch contava como se estivesse na master. Corrigido em 26/11
 (mudança local no Petrus.ERP, sem commit). Foi por isso que os forms do Customizador apareciam como "Descartado".
 
+## Demandas abertas (26/11/2026)
+
+| SS8 | Assunto | Itens desta página |
+|---:|---|---|
+| 319 | Importações Aferi (Pratic, Decorplast), Easy e Gerador | 1 |
+| 320 | Gerar parcelas I59, IX11, I49 e R50 | 3 |
+| 321 | Telefones e e-mails na importação Excel | 2 |
+| 322 | Grade de produtos, Incluir feirinha, Pesquisa pedidos | 3 e 4 |
+| 323 | Número personalizado na inclusão | 5 |
+| 324 | Enviar relatório e registro por e-mail | 5 |
+| 325 | Metas de vendas e cotação de moedas | 4 e 5 |
+| 326 | Conferir os duvidosos, marcar MIGRADO FORM, sincronizar S10 | 6 e "Para conferir" |
+
+Sem demanda ainda (decisão do Pedro): venda do PDV (item 0) e cadastro de empresa pelo login (item 5).
+
 ## Ordem sugerida
 
 1. Importações Aferi/Easy/Gerador (item 1): afetam a Pratic e os clientes dessas planilhas.
