@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 26/11/2026 23:31 por scripts\Sincronizar.ps1
+Gerado em 26/11/2026 23:37 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -249,6 +249,15 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-26 09f8a6b Merge SS8-326: Migração Web / De-para: conferir os itens duvidosos, marcar MIGRADO FORM nos forms cobertos e completar parciais e catálogo S10
+- 2026-11-26 f366ba8 Merge SS8-319: Vendas / Pedido e tabela de preço: importação por planilha no Web (Aferi Pratic, Aferi Decorplast, Aferi, Easy e Gerador)
+- 2026-11-26 53b102b Merge SS8-325: Migração Web — metas de vendas (frmMetaVendas) e cotação de moedas do Banco Central (CotacaoMoeda)
+- 2026-11-26 a26422b Merge SS8-327: Web / Details: casas decimais pelo S10 e campos inativos só leitura com opção de copiar
+- 2026-11-26 fbecba4 Merge SS8-324: Relatórios e Lista (/Report e /Table): enviar o PDF por e-mail (Compartilhar com e-mail)
+- 2026-11-26 88dbf70 Merge SS8-322: Vendas / Logística no Web: Grade de produtos, Incluir feirinha (R49) e Pesquisa pedidos (J23) nas abas do cadastro
+- 2026-11-26 da31b5a Merge SS8-320: Petrus Web / Duplicatas: Gerar parcelas nas abas do documento de entrada, pedido de compra, nota de entrada e R50 fora do pedido
+- 2026-11-26 04bc7dc Merge SS8-323: Cadastros / Inclusão no Web: número personalizado do pedido, cliente, vendedor, fornecedor e transportadora
+- 2026-11-26 cb00f33 Merge SS8-321: Importar Excel na /Table: criar os telefones e e-mails de clientes, vendedores, fornecedores, transportadoras e funcionários (R2, R4, I5, J2 e D10)
 - 2026-11-26 eb9833d SS8-326: frmCondPagto e frmPedidosXProduto no /Details
 - 2026-11-26 7b1a158 SS8-326: de-para conferido, MIGRADO FORM nos forms cobertos, parciais e S10
 - 2026-11-26 2063e3d SS8-319: importação de pedido/tabela de preço por planilha no Web (Aferi Pratic, Aferi Decorplast, Aferi, Easy e Gerador)
@@ -818,7 +827,6 @@ Commits dos ultimos 14 dias (todas as branches):
 - 2026-11-13 254bf59 Merge SS8-33: Consulta de pacote por QR Code com historico (Profiable)
 - 2026-11-13 915b909 Merge master na SS8-33 (resolve conflito com SS8-28 no NavMenu)
 - 2026-11-13 208e8fd SS8-27: Geração e reimpressão de QR Code de pacotes por OP (Profiable)
-- 2026-11-12 10c5edd Merge SS8-28: Validação de pacotes por QR Code (Profiable)
 
 ## Petrus.FV
 Branch atual: master
