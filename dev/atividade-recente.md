@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:25 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:27 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -282,6 +282,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 d1ba0f2 Merge master na SS8-367 (traz a SS8-370) e porta a liberação da troca de molde
 - 2026-11-28 2898590 Merge SS8-374: MES / Posto de trabalho: excluir a tela Posto de trabalho (Terminal)
 - 2026-11-28 774e839 SS8-374: MES / Posto de trabalho: excluir a tela Terminal (/MES/Workstation)
 - 2026-11-28 de7c8e5 SS8-328: boas-vindas por módulo e entrada vinda do desktop no Petrus Web
