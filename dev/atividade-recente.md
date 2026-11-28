@@ -283,6 +283,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 774e839 SS8-374: MES / Posto de trabalho: excluir a tela Terminal (/MES/Workstation)
 - 2026-11-28 de7c8e5 SS8-328: boas-vindas por módulo e entrada vinda do desktop no Petrus Web
 - 2026-11-28 631bbc0 Merge SS8-370: MES / Troca de molde: status Liberado e Iniciar que conclui a OP do molde anterior e inicia a do novo
 - 2026-11-28 cd26f2e SS8-370: restaura a linha em branco do CatalogoGeral
