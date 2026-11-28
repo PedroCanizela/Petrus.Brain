@@ -112,6 +112,7 @@
 - [Bipar QR Code sem foco no campo](leitura-qrcode-sem-foco.md) — SS8-369: keydown global no leitor-pacote.js leva a tecla para o LeitorPacote (registrarCampo), exceto outro campo editável/diálogo
 - [Timers zumbis travando a Pratic](timers-zumbis-mes-travamento.md) — SS8-368: telas MES com Timer sem @implements IDisposable; diagnóstico pelo Query Store do pratic
 - [EventLog descartado no IIS](eventlog-descartado-iis.md) — SS8-372: erro EventLogInternal disposed = reciclagem do pool; EventLogTolerante no ErrosWeb.cs
+- [Destroy do Syncfusion ao descartar grade](syncfusion-destroy-descartado.md) — SS8-373: 'unwireEvents' do sf-grid como tarefa não aguardada; petrus-syncfusion.js protege o destroy, ErrosWeb filtra
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

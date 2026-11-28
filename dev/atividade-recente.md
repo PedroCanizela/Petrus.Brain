@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:13 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:14 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -280,6 +280,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 fe6204e SS8-373: destroy do Syncfusion protegido ao descartar grade antes de montar
 - 2026-11-28 f86ff5f SS8-372: log do Visualizador de Eventos não estoura ao reiniciar o site no IIS
 - 2026-11-28 a14c961 SS8-367: cadastros genéricos do MES/CMMS e telas em cards passam para o /Table
 - 2026-11-28 7c61e71 SS8-371: tipo da S61 do Web cabe no S61_TIPO (VARCHAR(20))
