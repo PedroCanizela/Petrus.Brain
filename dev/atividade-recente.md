@@ -273,7 +273,6 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
-- + feature/ss8-367-telas-genericas-table
 - + feature/ss8-371-tipo-s61-estrutura
 - + feature/ss8-372-eventlog-descartado
 - + feature/ss8-373-destroy-sfgrid-descartado
@@ -282,6 +281,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 13d37d3 Merge SS8-367: MES / CMMS: substituir as telas genéricas de cadastro pelo /Table, portando as funções S39 e as regras de gravação
 - 2026-11-28 d1ba0f2 Merge master na SS8-367 (traz a SS8-370) e porta a liberação da troca de molde
 - 2026-11-28 2898590 Merge SS8-374: MES / Posto de trabalho: excluir a tela Posto de trabalho (Terminal)
 - 2026-11-28 774e839 SS8-374: MES / Posto de trabalho: excluir a tela Terminal (/MES/Workstation)
