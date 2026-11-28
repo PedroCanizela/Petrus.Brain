@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 00:54 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 00:56 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -278,6 +278,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 b3a27f0 Merge SS8-369: WMS / Leitura de QR Code: bipar o leitor sem precisar selecionar o campo de leitura
 - 2026-11-28 27c75f3 SS8-369: bipar o QR Code sem precisar selecionar o campo de leitura
 - 2026-11-28 d35a89d Merge SS8-365: Expedição / Conferência de pedido: abas Novo, Em conferência e Concluído na lista
 - 2026-11-28 291989a SS8-365: depois de estornar um QR Code da conferência concluída, abre a leitura reaberta
