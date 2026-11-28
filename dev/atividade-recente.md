@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:12 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:13 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -261,7 +261,6 @@ Branches:
 - claude/relaxed-jackson-4ed35c
 - + claude/sleepy-varahamihira-76bd15
 - + claude/ss8-328-a50ba2
-- + claude/ss8-372-0ed351
 - claude/upbeat-dirac-ba0c7a
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
@@ -274,12 +273,14 @@ Branches:
 - + feature/ss8-367-telas-genericas-table
 - + feature/ss8-370-liberar-troca-molde
 - + feature/ss8-371-tipo-s61-estrutura
+- + feature/ss8-372-eventlog-descartado
 - + feature/ss8-373-destroy-sfgrid-descartado
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 f86ff5f SS8-372: log do Visualizador de Eventos não estoura ao reiniciar o site no IIS
 - 2026-11-28 a14c961 SS8-367: cadastros genéricos do MES/CMMS e telas em cards passam para o /Table
 - 2026-11-28 7c61e71 SS8-371: tipo da S61 do Web cabe no S61_TIPO (VARCHAR(20))
 - 2026-11-28 1ce9504 SS8-370: Iniciar da troca conclui a OP do molde anterior e inicia a do molde novo
