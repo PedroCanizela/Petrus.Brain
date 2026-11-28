@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 00:51 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 00:54 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -271,11 +271,14 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
+- + feature/ss8-368-timers-zumbis-mes
+- + feature/ss8-369-leitura-qrcode-sem-foco
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 27c75f3 SS8-369: bipar o QR Code sem precisar selecionar o campo de leitura
 - 2026-11-28 d35a89d Merge SS8-365: Expedição / Conferência de pedido: abas Novo, Em conferência e Concluído na lista
 - 2026-11-28 291989a SS8-365: depois de estornar um QR Code da conferência concluída, abre a leitura reaberta
 - 2026-11-28 a933197 SS8-365: estornar QR Code ou a conferência concluída inteira
