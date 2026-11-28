@@ -273,7 +273,6 @@ Branches:
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
 - + feature/ss8-367-telas-genericas-table
-- + feature/ss8-370-liberar-troca-molde
 - + feature/ss8-371-tipo-s61-estrutura
 - + feature/ss8-372-eventlog-descartado
 - + feature/ss8-373-destroy-sfgrid-descartado
@@ -282,6 +281,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 631bbc0 Merge SS8-370: MES / Troca de molde: status Liberado e Iniciar que conclui a OP do molde anterior e inicia a do novo
+- 2026-11-28 cd26f2e SS8-370: restaura a linha em branco do CatalogoGeral
 - 2026-11-28 f045382 SS8-367: validações da receita, ordem de mistura e roteiro no /Details; código sem uso removido
 - 2026-11-28 fe6204e SS8-373: destroy do Syncfusion protegido ao descartar grade antes de montar
 - 2026-11-28 f86ff5f SS8-372: log do Visualizador de Eventos não estoura ao reiniciar o site no IIS

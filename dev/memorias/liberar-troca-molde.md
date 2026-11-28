@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 29c73bd9-f6c4-4813-ac4b-a68f5cf690d2
-  modified: 2026-11-28T04:11:06.282Z
+  modified: 2026-11-28T04:20:34.260Z
 ---
 
-SS8-370 (28/11/2026, branch `feature/ss8-370-liberar-troca-molde`, aguardando aprovação): VZ7 ganhou o status
+SS8-370 (28/11/2026, aprovada e na master no merge 631bbc0, sem push): VZ7 ganhou o status
 **Liberado** (só Web, sem parâmetro — Pedro pediu para tirar o S74 e não quis status "Iniciado" na troca).
 `CadastroMES.ComLiberacao` dá Liberar / Estornar liberação no /MES/Cadastros/troca-molde.
 `ConsultaTrocaMolde.ListarAbertasAsync` (MoldChangePriority e aviso ao iniciar OP) traz só Liberado.
