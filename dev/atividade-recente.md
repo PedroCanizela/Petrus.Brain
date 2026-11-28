@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 00:57 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:00 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -270,12 +270,14 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
-- + feature/ss8-368-timers-zumbis-mes
+- + feature/ss8-367-telas-genericas-table
+- + feature/ss8-370-liberar-troca-molde
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 41ab47a Merge SS8-368: MES / Chão de fábrica: timers das telas param ao sair e não sobrepõem consultas
 - 2026-11-28 eab453e SS8-368: timers das telas de chão de fábrica param ao sair da tela e não sobrepõem ciclos
 - 2026-11-28 10bba18 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
 - 2026-11-28 b3a27f0 Merge SS8-369: WMS / Leitura de QR Code: bipar o leitor sem precisar selecionar o campo de leitura
