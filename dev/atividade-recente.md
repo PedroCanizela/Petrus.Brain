@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:00 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:03 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -277,6 +277,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 aa099ae SS8-370: troca de molde com status Liberado e botão Iniciar nas prioridades
 - 2026-11-28 41ab47a Merge SS8-368: MES / Chão de fábrica: timers das telas param ao sair e não sobrepõem consultas
 - 2026-11-28 eab453e SS8-368: timers das telas de chão de fábrica param ao sair da tela e não sobrepõem ciclos
 - 2026-11-28 10bba18 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
