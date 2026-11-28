@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:30 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:33 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -267,6 +267,7 @@ Branches:
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-305-inicio-arte-modulo
+- + feature/ss8-315-titulo-aba-relatorio
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
@@ -277,6 +278,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 1186285 SS8-315: aba do /Report mostra o nome do relatório em vez de "INTERFACE"
 - 2026-11-28 e28eea2 Merge SS8-328: Migração Web / Menu do desktop: módulos marcados abrem o Petrus Web (link e módulos na S74) com boas-vindas por módulo
 - 2026-11-28 5ed7877 Merge SS8-373: Petrus Web / Grades Syncfusion: erro ao descartar a grade antes de terminar de montar (tarefa não aguardada)
 - 2026-11-28 3e5daee Merge SS8-372: Petrus Web / Log do servidor: erro do Visualizador de Eventos descartado ao reiniciar o site
