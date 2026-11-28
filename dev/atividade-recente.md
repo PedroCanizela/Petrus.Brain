@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 27/11/2026 18:53 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 00:44 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -277,6 +277,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 a933197 SS8-365: estornar QR Code ou a conferência concluída inteira
 - 2026-11-27 72e582b SS8-333: vínculo entre dois pedidos de venda com aviso ao abrir
 - 2026-11-27 049c0df SS8-365: abas Novo, Em conferência e Concluído na conferência de pedido
 - 2026-11-27 d6a5a4a Merge SS8-364: Expedição / Conferência de pedido: coluna Endereço pela posição das gaiolas do produto

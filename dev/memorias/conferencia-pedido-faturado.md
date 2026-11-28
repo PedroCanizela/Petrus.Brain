@@ -17,4 +17,4 @@ SS8-363 (PRATIC, 27/11/2026, aprovada e na master: merge ea32c1e, sem push).
 - A leitura do pacote (`PacoteLeitura.ConferirPedidoAsync`) só olha a JO1 Iniciado, não o status do pedido.
 
 **Why:** o Pedro queria ler os QR Codes de pedido já faturado; a baixa manual ([[baixa-manual-pacote-web]]) não cria conferência.
-**How to apply:** próximo S39 livre é 100543. Usuários antigos só ganham a S72 pelo botão Funções ([[funcao-s39-nova-sem-s72]]).
+**How to apply:** próximo S39 livre era 100543 (usado na SS8-358; 100544 na SS8-365). Usuários antigos só ganham a S72 pelo botão Funções ([[funcao-s39-nova-sem-s72]]).

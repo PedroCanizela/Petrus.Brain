@@ -5,10 +5,13 @@ metadata:
   node_type: memory
   type: project
   originSessionId: ab0dbfc5-b098-4c88-bd8d-e7554b467ec5
-  modified: 2026-11-27T21:50:01.685Z
+  modified: 2026-11-28T03:44:11.116Z
 ---
 
-SS8-365 (PRATIC, 27/11/2026, branch `feature/ss8-365-conferencia-abas-concluido`, commit 049c0df, aguardando aprovação):
+SS8-365 (PRATIC, 27/11/2026, branch `feature/ss8-365-conferencia-abas-concluido`, commits 049c0df + a933197, aguardando aprovação):
+- **Estorno** (S39 **100544**; a 100543 já era da SS8-358): `EstornarPacoteConcluida` reabre a JO1 (Iniciado) e o pedido
+  Liberado em Faturamento volta para Separação ("não está mais 100%", decisão do Pedro); `EstornarConcluida` devolve todos
+  sem ler, JO1 Cancelado, pedido em Separação. Próximo S39 livre: 100545.
 - `OrderInspection.razor`: abas em `ui-pilulas` (Novo = SITUACAO ≠ Iniciado da `ListarPedidosAsync`; Em conferência = Iniciado;
   Concluído = `ConferenciaPedido.ListarConferidos`, uma linha por JO1, período por JO1_DATA_FINAL, padrão 7 dias, TOP 300,
   número do pedido ignora o período, canceladas atrás de chave). `?aba=concluido` na URL.
