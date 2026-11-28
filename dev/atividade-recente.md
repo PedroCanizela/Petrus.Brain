@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:27 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:30 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-328-desktop-petrus-web
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 12f7c9d5 Merge SS8-328: Migração Web / Menu do desktop: módulos marcados abrem o Petrus Web (link e módulos na S74) com boas-vindas por módulo
 - 2026-11-28 c0adadf9 SS8-328: módulo marcado no Petrus Web abre no navegador em vez do menu do desktop
 - 2026-11-28 55aa51c2 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
 - 2026-11-27 2add5431 SS8-333: vínculo entre dois pedidos de venda com aviso ao abrir
@@ -267,20 +267,20 @@ Branches:
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-305-inicio-arte-modulo
-- + feature/ss8-328-desktop-petrus-web
 - + feature/ss8-330-inventario-qrcode
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
-- + feature/ss8-371-tipo-s61-estrutura
-- + feature/ss8-372-eventlog-descartado
-- + feature/ss8-373-destroy-sfgrid-descartado
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 e28eea2 Merge SS8-328: Migração Web / Menu do desktop: módulos marcados abrem o Petrus Web (link e módulos na S74) com boas-vindas por módulo
+- 2026-11-28 5ed7877 Merge SS8-373: Petrus Web / Grades Syncfusion: erro ao descartar a grade antes de terminar de montar (tarefa não aguardada)
+- 2026-11-28 3e5daee Merge SS8-372: Petrus Web / Log do servidor: erro do Visualizador de Eventos descartado ao reiniciar o site
+- 2026-11-28 1225710 Merge SS8-371: Petrus Web / Estrutura do banco: histórico da S61 estourava o S61_TIPO e o catálogo era reaplicado a cada subida
 - 2026-11-28 13d37d3 Merge SS8-367: MES / CMMS: substituir as telas genéricas de cadastro pelo /Table, portando as funções S39 e as regras de gravação
 - 2026-11-28 d1ba0f2 Merge master na SS8-367 (traz a SS8-370) e porta a liberação da troca de molde
 - 2026-11-28 2898590 Merge SS8-374: MES / Posto de trabalho: excluir a tela Posto de trabalho (Terminal)
