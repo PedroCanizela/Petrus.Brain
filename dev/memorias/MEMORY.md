@@ -62,7 +62,7 @@
 - [Aba sem principal dava ORDER BY DESC](catalogo-s10-pilha.md) — SS8-235: Principal null no AbaCamposModel; não era pilha; CriarS10 fica num método só
 - [Mais ações da /Table](mais-acoes-table-web.md) — SS8-287: ordem do PopularAcoes (strip1), Customizar, PDF/Imprimir/Excluir dos marcados, "Outras ações"
 - [Comando SQL no Web](comando-sql-web.md) — SS8-248: Customizador fica no desktop; /Ajustes/Comando só admin, simula antes de gravar, bloqueios e log
-- [Agentes de IA por área](agentes-ia-ss8-289.md) — SS8-289 base entregue (IA3/IA4/IA5, S74/S84 cota, AgentesService, FerramentasAgentes.Registrar, /Agentes); 290 notificações, 291-295 áreas
+- [Agentes de IA por área](agentes-ia-ss8-289.md) — SS8-289 base; 290 notificações e 291-295 áreas entregues em 28/11 (Agente<Area>.cs por módulo, 291/292/294 com perguntas)
 - [Contexto do usuário sem pisca nas abas](contexto-cascata-web.md) — SS8-286: FonteContexto (CascadingValueSource) no lugar do CascadingValue de record; 25 abas de 180px
 - [Hub / Mercado Livre](hub-mercado-livre.md) — SS8-109: conector ML no Petrus.Hub, OAuth /Hub/{slug}/Retorno, SKU = G6_REFERENCIA, variações G6_ID_1+G6_GRADE, S39 100530–535
 - [PCP por operação no Web](pcp-operacoes-web.md) — SS8-288: operação = V10, etapas = linhas VZ1 do produto, apontamento VX1+VX9+VX7, /PCP/Planejamento; tela "Apontamento" /MES/Apontamento (SS8-298)
@@ -114,6 +114,7 @@
 - [Timers zumbis travando a Pratic](timers-zumbis-mes-travamento.md) — SS8-368: telas MES com Timer sem @implements IDisposable; diagnóstico pelo Query Store do pratic
 - [EventLog descartado no IIS](eventlog-descartado-iis.md) — SS8-372: erro EventLogInternal disposed = reciclagem do pool; EventLogTolerante no ErrosWeb.cs
 - [Destroy do Syncfusion ao descartar grade](syncfusion-destroy-descartado.md) — SS8-373: 'unwireEvents' do sf-grid como tarefa não aguardada; petrus-syncfusion.js protege o destroy, ErrosWeb filtra
+- [Notificações dos agentes (SS8-290)](notificacoes-agentes-ss8-290.md) — IA6/IA7/IA8, NotificacoesAgentes.Notificar, sino, resumo do dia, avisar_usuario
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92

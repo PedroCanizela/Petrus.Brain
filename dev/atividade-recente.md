@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:40 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 02:19 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,12 +18,14 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
+- + feature/ss8-290-notificacoes-agentes
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 8fd9213b SS8-290: tabelas das notificações dos agentes de IA do Petrus Web no Dados.cs
 - 2026-11-28 12f7c9d5 Merge SS8-328: Migração Web / Menu do desktop: módulos marcados abrem o Petrus Web (link e módulos na S74) com boas-vindas por módulo
 - 2026-11-28 c0adadf9 SS8-328: módulo marcado no Petrus Web abre no navegador em vez do menu do desktop
 - 2026-11-28 55aa51c2 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
@@ -267,6 +269,11 @@ Branches:
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-290-notificacoes-agentes
+- + feature/ss8-291-agente-financeiro
+- + feature/ss8-292-agente-comercial
+- + feature/ss8-293-agente-producao
+- + feature/ss8-294-agente-estoque-compras
+- + feature/ss8-295-agente-fiscal
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-315-titulo-aba-relatorio
 - + feature/ss8-330-inventario-qrcode
@@ -280,6 +287,13 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 c983214 SS8-295: ferramentas do agente de IA Fiscal
+- 2026-11-28 acffef2 SS8-294: ferramentas do agente de IA de Estoque e Compras
+- 2026-11-28 1ab0a09 SS8-293: produto repetido por empresa não duplica as linhas das consultas
+- 2026-11-28 a6f0c43 SS8-293: ferramentas do agente de IA da Produção (MES)
+- 2026-11-28 0b101f9 SS8-292: ferramentas do agente de IA Comercial
+- 2026-11-28 e2e956e SS8-291: ferramentas do agente de IA Financeiro
+- 2026-11-28 6e627ac SS8-290: notificações dos agentes de IA (sino, push, WhatsApp, e-mail, resumo do dia)
 - 2026-11-28 f7be3ee SS8-375: janela de novidades da versão instalada, com notas montadas pelas SS8 e revisadas na publicação
 - 2026-11-28 1186285 SS8-315: aba do /Report mostra o nome do relatório em vez de "INTERFACE"
 - 2026-11-28 e28eea2 Merge SS8-328: Migração Web / Menu do desktop: módulos marcados abrem o Petrus Web (link e módulos na S74) com boas-vindas por módulo

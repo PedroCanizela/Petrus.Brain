@@ -19,3 +19,12 @@ Cadastradas em 26/11/2026 no Petrus.ERP: **289 base**, 290 notificações (sino,
 
 **Why:** o Pedro quer agentes que façam o trabalho do dia a dia sozinhos e avisem o usuário, dentro da cota.
 **How to apply:** nas 290-295, parta da branch da 289 (ou da master depois do merge). Teste com o console contra `cnzla_homologacao` (local) e `DOTNET_DefaultStackSize=1000000`: o `S10.CriarS10` da master estoura a pilha no Debug até a SS8-235 entrar ([[catalogo-s10-pilha]]). Base: [[assistente-ia-erp]], [[concorrencia-max-id-petrus]], [[homologacao-migracao-web]]. Para gravar texto acentuado pelo ss8.ps1 com um .ps1, salve em UTF-8 **com BOM**.
+
+**Áreas (28/11/2026), uma branch por demanda a partir da master** (`feature/ss8-29x-...`, worktrees em `C:\Users\pedro\source\repos\_worktrees\Petrus.ERP\ss8-29x`):
+cada módulo ganhou `Agente<Area>.cs` com `Registrar()` chamado no `Program.cs` e passou a referenciar o `Petrus.Assistente`
+(Financeiro 291, Vendas/Comercial 292, Industrial/Produção 293, Compras/Estoque 294, Fiscal 295). Quase tudo é consulta (o modelo
+sugere no resumo); escrita só a cobrança por lembrete (S39 100400/100094). 293 e 295 aguardam aprovação; 291 (baixa pela
+conciliação), 292 (pedido por e-mail/WhatsApp, aviso ao vendedor) e 294 (gravar sugestão como I13/I14, cotações) aguardam resposta.
+Cuidados achados: G6 repete o mesmo G6_ID por empresa (usar OUTER APPLY TOP 1); não há tabela de movimento de estoque (consumo =
+R49 faturado + V3 das OPs concluídas); NF-e de saída é R7/R57, MDF-e J34, XML recebido I74. Teste das ferramentas: console
+`TesteAreas` no scratchpad com `-p:Projeto=<csproj do módulo>`. Notificações: [[notificacoes-agentes-ss8-290]].
