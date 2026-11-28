@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:20 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:22 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -25,6 +25,7 @@ Branches:
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 c0adadf9 SS8-328: módulo marcado no Petrus Web abre no navegador em vez do menu do desktop
 - 2026-11-28 55aa51c2 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
 - 2026-11-27 2add5431 SS8-333: vínculo entre dois pedidos de venda com aviso ao abrir
 - 2026-11-27 564b8605 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
@@ -276,6 +277,7 @@ Branches:
 - + feature/ss8-371-tipo-s61-estrutura
 - + feature/ss8-372-eventlog-descartado
 - + feature/ss8-373-destroy-sfgrid-descartado
+- + feature/ss8-374-excluir-terminal-mes
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
