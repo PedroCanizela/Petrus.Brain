@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:19 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:20 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -282,6 +282,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 f045382 SS8-367: validações da receita, ordem de mistura e roteiro no /Details; código sem uso removido
 - 2026-11-28 fe6204e SS8-373: destroy do Syncfusion protegido ao descartar grade antes de montar
 - 2026-11-28 f86ff5f SS8-372: log do Visualizador de Eventos não estoura ao reiniciar o site no IIS
 - 2026-11-28 a14c961 SS8-367: cadastros genéricos do MES/CMMS e telas em cards passam para o /Table
