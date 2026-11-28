@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-27T21:52:50.282Z
 ---
 
-SS8-333 (PRATIC, 27/11/2026, aguardando aprovação, só compilado): campo **R13_ID_2** "Pedido vinculado" (SEARCH na R13,
+SS8-333 (PRATIC, 27/11/2026, em desenvolvimento a pedido do Pedro, só compilado): campo **R13_ID_2** "Pedido vinculado" (SEARCH na R13,
 S10 **123780**, ao lado do R13_ORDEM_COMPRA) no Dados.cs do Petrus e no S10.cs do Web. `R13Engine.VinculosR13` busca nos
 dois sentidos (R13_ID_2 deste ou outros com R13_ID_2 = este) e devolve vazio sem a coluna (COL_LENGTH).
 `PedidosVenda.AvisarVinculoR13`: desktop mostra MsgAtencao no Editar()/Visualizar() do frmInterface; Web devolve as
