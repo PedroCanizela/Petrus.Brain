@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 00:56 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 00:57 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -18,13 +18,13 @@ Branches:
 - charts
 - combustivel
 - feature/petrus-ia-fluxos-guiados-20261014
-- + feature/ss8-333-vinculo-pedidos
 - + feature/ss8-91-lentidao-consultas
 - fix/datareader-conexoes-independentes-20261014
 - * master
 - nossonumero
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 55aa51c2 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
 - 2026-11-27 2add5431 SS8-333: vínculo entre dois pedidos de venda com aviso ao abrir
 - 2026-11-27 564b8605 Merge SS8-358: Industrial / Mistura: produto da mistura na receita, baixado do estoque ao concluir a ordem de mistura
 - 2026-11-27 9bc9ef28 SS8-358: concluir a ordem de mistura baixa o produto da mistura da receita
@@ -266,7 +266,6 @@ Branches:
 - + claude/youthful-perlman-d5f864
 - + feature/ss8-305-inicio-arte-modulo
 - + feature/ss8-330-inventario-qrcode
-- + feature/ss8-333-vinculo-pedidos
 - + feature/ss8-337-etiqueta-operador-navegador
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
@@ -277,6 +276,8 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 eab453e SS8-368: timers das telas de chão de fábrica param ao sair da tela e não sobrepõem ciclos
+- 2026-11-28 10bba18 Merge SS8-333: Vendas / Pedido de venda: vínculo entre dois pedidos com aviso ao abrir
 - 2026-11-28 b3a27f0 Merge SS8-369: WMS / Leitura de QR Code: bipar o leitor sem precisar selecionar o campo de leitura
 - 2026-11-28 27c75f3 SS8-369: bipar o QR Code sem precisar selecionar o campo de leitura
 - 2026-11-28 d35a89d Merge SS8-365: Expedição / Conferência de pedido: abas Novo, Em conferência e Concluído na lista
