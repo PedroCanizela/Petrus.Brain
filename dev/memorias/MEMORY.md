@@ -110,6 +110,7 @@
 - [Abas da conferência de pedido](conferencia-abas-concluido.md) — SS8-365: Novo/Em conferência/Concluído, OrderInspectionView só leitura, R13_NRO_DOCUMENTO na busca e no histórico do QR
 - [Vínculo entre pedidos](vinculo-pedidos-r13.md) — SS8-333: R13_ID_2 (S10 123780), aviso ao abrir no desktop e /Details, 2 branches, Scripts/SS8-333.sql
 - [Bipar QR Code sem foco no campo](leitura-qrcode-sem-foco.md) — SS8-369: keydown global no leitor-pacote.js leva a tecla para o LeitorPacote (registrarCampo), exceto outro campo editável/diálogo
+- [Desktop abre o módulo no Petrus Web](desktop-abre-petrus-web.md) — SS8-328: S74 LinkPetrusWeb + ModulosWeb, bloqueio total no frmMenu, /BoasVindas/{S4_ID}, S84 por módulo
 - [Timers zumbis travando a Pratic](timers-zumbis-mes-travamento.md) — SS8-368: telas MES com Timer sem @implements IDisposable; diagnóstico pelo Query Store do pratic
 - [EventLog descartado no IIS](eventlog-descartado-iis.md) — SS8-372: erro EventLogInternal disposed = reciclagem do pool; EventLogTolerante no ErrosWeb.cs
 - [Destroy do Syncfusion ao descartar grade](syncfusion-destroy-descartado.md) — SS8-373: 'unwireEvents' do sf-grid como tarefa não aguardada; petrus-syncfusion.js protege o destroy, ErrosWeb filtra

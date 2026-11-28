@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:22 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:23 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -283,6 +283,7 @@ Branches:
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 de7c8e5 SS8-328: boas-vindas por módulo e entrada vinda do desktop no Petrus Web
 - 2026-11-28 631bbc0 Merge SS8-370: MES / Troca de molde: status Liberado e Iniciar que conclui a OP do molde anterior e inicia a do novo
 - 2026-11-28 cd26f2e SS8-370: restaura a linha em branco do CatalogoGeral
 - 2026-11-28 f045382 SS8-367: validações da receita, ordem de mistura e roteiro no /Details; código sem uso removido
