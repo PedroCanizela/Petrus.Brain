@@ -5,10 +5,10 @@ metadata:
   node_type: memory
   type: project
   originSessionId: ab0dbfc5-b098-4c88-bd8d-e7554b467ec5
-  modified: 2026-11-28T03:44:11.116Z
+  modified: 2026-11-28T03:50:54.934Z
 ---
 
-SS8-365 (PRATIC, 27/11/2026, branch `feature/ss8-365-conferencia-abas-concluido`, commits 049c0df + a933197, aguardando aprovação):
+SS8-365 (PRATIC, 27/11/2026, aprovada e na master: merge d35a89d em 28/11, sem push; junto com a SS8-364 compila):
 - **Estorno** (S39 **100544**; a 100543 já era da SS8-358): `EstornarPacoteConcluida` reabre a JO1 (Iniciado) e o pedido
   Liberado em Faturamento volta para Separação ("não está mais 100%", decisão do Pedro); `EstornarConcluida` devolve todos
   sem ler, JO1 Cancelado, pedido em Separação. Próximo S39 livre: 100545.

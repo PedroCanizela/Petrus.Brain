@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 00:50 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 00:51 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -271,7 +271,6 @@ Branches:
 - + feature/ss8-351-op-pendentes-liberadas
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
-- + feature/ss8-365-conferencia-abas-concluido
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
