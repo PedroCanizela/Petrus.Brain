@@ -108,6 +108,7 @@
 - [Endereço da conferência e colisão GX3](conferencia-endereco-gaiola-colisao-gx3.md) — SS8-364: endereço = gaiolas A7/A8 (não G22); GX3_ID do Web colide com o antigo após 6541151
 - [Abas da conferência de pedido](conferencia-abas-concluido.md) — SS8-365: Novo/Em conferência/Concluído, OrderInspectionView só leitura, R13_NRO_DOCUMENTO na busca e no histórico do QR
 - [Vínculo entre pedidos](vinculo-pedidos-r13.md) — SS8-333: R13_ID_2 (S10 123780), aviso ao abrir no desktop e /Details, 2 branches, Scripts/SS8-333.sql
+- [Timers zumbis travando a Pratic](timers-zumbis-mes-travamento.md) — SS8-368: telas MES com Timer sem @implements IDisposable; diagnóstico pelo Query Store do pratic
 - [Perguntar antes em demandas criativas](perguntar-antes-decisoes-criativas.md) — SS8 de marca/design/repo novo: perguntar antes de implementar
 - [Financeiro no Petrus Web](migracao-web-financeiro.md) — SS8-151: baixas, parcelas, conciliação e recibos; serviços para reusar
 - [Comissões e relatório PDF no Web](comissoes-web-relatorio-pdf.md) — SS8-152: RelatorioListaPdf (ExportarRelatorio no servidor), relatórios do vendedor, metas R92
