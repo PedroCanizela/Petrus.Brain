@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:23 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:25 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -277,12 +277,12 @@ Branches:
 - + feature/ss8-371-tipo-s61-estrutura
 - + feature/ss8-372-eventlog-descartado
 - + feature/ss8-373-destroy-sfgrid-descartado
-- + feature/ss8-374-excluir-terminal-mes
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 2898590 Merge SS8-374: MES / Posto de trabalho: excluir a tela Posto de trabalho (Terminal)
 - 2026-11-28 774e839 SS8-374: MES / Posto de trabalho: excluir a tela Terminal (/MES/Workstation)
 - 2026-11-28 de7c8e5 SS8-328: boas-vindas por módulo e entrada vinda do desktop no Petrus Web
 - 2026-11-28 631bbc0 Merge SS8-370: MES / Troca de molde: status Liberado e Iniciar que conclui a OP do molde anterior e inicia a do novo
