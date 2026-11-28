@@ -1,6 +1,6 @@
 ﻿# Atividade recente nos repositorios
 
-Gerado em 28/11/2026 01:08 por scripts\Sincronizar.ps1
+Gerado em 28/11/2026 01:11 por scripts\Sincronizar.ps1
 
 ## boletonet
 Branch atual: master
@@ -263,7 +263,6 @@ Branches:
 - + claude/ss8-328-a50ba2
 - + claude/ss8-371-f4432e
 - + claude/ss8-372-0ed351
-- + claude/ss8-373-823b55
 - claude/upbeat-dirac-ba0c7a
 - claude/vibrant-heisenberg-962b6b
 - + claude/youthful-perlman-d5f864
@@ -275,11 +274,13 @@ Branches:
 - + feature/ss8-364-conferencia-endereco-gaiola
 - + feature/ss8-367-telas-genericas-table
 - + feature/ss8-370-liberar-troca-molde
+- + feature/ss8-373-destroy-sfgrid-descartado
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
 
 Commits dos ultimos 14 dias (todas as branches):
+- 2026-11-28 1ce9504 SS8-370: Iniciar da troca conclui a OP do molde anterior e inicia a do molde novo
 - 2026-11-28 aa099ae SS8-370: troca de molde com status Liberado e botão Iniciar nas prioridades
 - 2026-11-28 41ab47a Merge SS8-368: MES / Chão de fábrica: timers das telas param ao sair e não sobrepõem consultas
 - 2026-11-28 eab453e SS8-368: timers das telas de chão de fábrica param ao sair da tela e não sobrepõem ciclos

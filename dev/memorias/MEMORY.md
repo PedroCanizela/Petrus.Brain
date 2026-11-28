@@ -90,7 +90,7 @@
 - [Contador no autXML da NF-e](contador-autxml-nfe.md) — SS8-334: S1.L53_ID (S10 123710), CriarNFe.GetAutXML no desktop e Web, CNPJ ou CPF do L53
 - [Receita de mistura no Monitoramento](receita-mistura-monitoramento.md) — SS8-336: coluna RECEITA + botão Receita (OrderMixRecipe) no /MES/LiveProduction, Mistura.AlterarReceitaV1; base da baixa da SS8-335
 - [Abrir OP no Monitoramento e receita como busca](abrir-op-monitoramento-receita-busca.md) — SS8-341: duplo clique/Abrir OP → OrderDetails/View?voltar=, ReceitaMisturaBusca + lupa no lugar do MudSelect
-- [Liberar troca de molde](liberar-troca-molde.md) — SS8-370: VZ7 Liberado/Iniciado, S74_LIBERAR_TROCA_MOLDE, Iniciar nas Prioridades de troca
+- [Liberar troca de molde](liberar-troca-molde.md) — SS8-370: VZ7 Liberado (sem parâmetro), Iniciar nas Prioridades conclui a OP do molde anterior e inicia a do novo
 - [Liberar OP no Monitoramento](liberar-op-monitoramento.md) — SS8-342: status Liberado, S39 100537, S74_LIBERAR_OP filtra pendentes do MES (StatusPendentes)
 - [Prioridade de máquinas](prioridade-maquinas-c4.md) — SS8-340: C4_PRIORIDADE (S10 123720, 2 branches), /MES/PrioridadeMaquinas, coluna e ordem no Monitoramento; alias no .razor
 - [Estoque QR na carteira e no pedido](estoque-qrcode-carteira-pedido.md) — SS8-343/344: S7 100493 Estoque x carteira (QR Code) c/ molde/sugestões; R49_ESTOQUE/SALDO pintados; molde Pratic só na V1
