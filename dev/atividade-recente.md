@@ -272,7 +272,6 @@ Branches:
 - + feature/ss8-357-ajustes-qrcode
 - + feature/ss8-364-conferencia-endereco-gaiola
 - + feature/ss8-368-timers-zumbis-mes
-- + feature/ss8-369-leitura-qrcode-sem-foco
 - + feature/ss8-39-novo-layout-erp
 - + fix/login-duplicado-s2
 - * master
